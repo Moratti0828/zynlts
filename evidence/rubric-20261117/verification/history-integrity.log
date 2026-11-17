@@ -1,0 +1,1 @@
+{"status": "ok", "verified_unique_files": 103, "counts": {"matrix_manifests": 13, "banks": 5, "models": 4, "runs": 23, "attempts": 1862, "planned_rows": 1862, "recorded_rows": 1862, "response_errors": 218}, "model_calls": 0}

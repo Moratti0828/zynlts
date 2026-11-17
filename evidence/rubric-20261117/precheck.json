@@ -1,0 +1,79 @@
+{
+  "reviewer_version": "evidence-review-v1",
+  "target_version": "course-evidence-package-20261117-r2",
+  "contract_status": "author_proposed_not_teacher_approved",
+  "execution": "read_only_no_independent_rerun",
+  "results": [
+    {
+      "criterion_id": "EV-01",
+      "status": "PASS",
+      "scope": "Archived initial local test bundle; exact sources are in that report.",
+      "evidence_ids": [
+        "E-TESTS"
+      ],
+      "evidence_level": "STATIC",
+      "source": "static_inspection",
+      "score_suggestion": null,
+      "human_signoff": "pending",
+      "finding": "Recorded field matches the fixed assertion.",
+      "missing_evidence": [],
+      "suggested_check": "Review the cited result and its provenance.",
+      "observation": {
+        "field": [
+          "status"
+        ],
+        "actual": "PASS",
+        "expected": "PASS"
+      },
+      "declared_origin": "author_local_runner"
+    },
+    {
+      "criterion_id": "EV-02",
+      "status": "PASS",
+      "scope": "EXP-001 recorded equality only; no inference speed claim.",
+      "evidence_ids": [
+        "E-EXPERIMENT"
+      ],
+      "evidence_level": "STATIC",
+      "source": "static_inspection",
+      "score_suggestion": null,
+      "human_signoff": "pending",
+      "finding": "Recorded field matches the fixed assertion.",
+      "missing_evidence": [],
+      "suggested_check": "Review the cited result and its provenance.",
+      "observation": {
+        "field": [
+          "outputs_identical"
+        ],
+        "actual": true,
+        "expected": true
+      },
+      "declared_origin": "author_local_runner"
+    },
+    {
+      "criterion_id": "EV-03",
+      "status": "PASS",
+      "scope": "Corrected local calibration and rehearsal record only.",
+      "evidence_ids": [
+        "E-DRILL"
+      ],
+      "evidence_level": "STATIC",
+      "source": "static_inspection",
+      "score_suggestion": null,
+      "human_signoff": "pending",
+      "finding": "Recorded field matches the fixed assertion.",
+      "missing_evidence": [],
+      "suggested_check": "Review the cited result and its provenance.",
+      "observation": {
+        "field": [
+          "status"
+        ],
+        "actual": "PASS",
+        "expected": "PASS"
+      },
+      "declared_origin": "author_local_runner"
+    }
+  ],
+  "limits": "Field checks do not establish origin, semantic support, security, personal ability or final grade.",
+  "contract_sha256": "8e7aed6c14bd7c0da1aa9c26b55dae85804830c644336929753fffc201c51d44"
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "AI_semantic_review_by_current_Codex_session",
+  "independent_peer_review": false,
+  "model_identifier": "not separately captured",
+  "human_signoff": "pending",
+  "score_suggestion": null,
+  "target": "course-evidence-package-20261117-r2",
+  "judgments": [
+    {
+      "criterion_id": "EV-01",
+      "relationship": "supports_with_limit",
+      "evidence": "evidence/course-20261117/verification/verification.json",
+      "observation": "Four recorded commands exit 0 with logs and source hashes.",
+      "limit": "Historical initial source snapshot; does not validate new evaluator or attest independent execution."
+    },
+    {
+      "criterion_id": "EV-02",
+      "relationship": "supports_with_limit",
+      "evidence": "evidence/EXP-001-20261117/result.json",
+      "observation": "All six runs contain equal outputs and baseline/candidate elapsed times; median candidate is lower.",
+      "limit": "Synthetic short local microbenchmark; no model speed, statistical significance or general workload claim."
+    },
+    {
+      "criterion_id": "EV-03",
+      "relationship": "supports_with_limit",
+      "evidence": "evidence/rubric-20261117/drill-corrected/result.json",
+      "observation": "Four injected mutations produce assertion failures, baseline and restored variants pass; 12 calibration/recovery checks pass.",
+      "limit": "Author-run synthetic rehearsal; initial missed mutation retained separately. Does not substitute peer cross-review or personal exam."
+    }
+  ],
+  "remaining": [
+    "Teacher-approved contract",
+    "Independent peer run and response",
+    "Human signoff",
+    "Held-out semantic model calibration"
+  ],
+  "cost": {
+    "separate_model_api_calls": 0,
+    "session_usage_or_cost": null,
+    "human_minutes": null
+  }
+}

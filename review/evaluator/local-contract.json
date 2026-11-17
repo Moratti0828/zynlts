@@ -1,0 +1,53 @@
+{
+  "target_version": "course-evidence-package-20261117-r2",
+  "approval_status": "author_proposed_not_teacher_approved",
+  "evidence": {
+    "E-TESTS": {
+      "path": "evidence/course-20261117/verification/verification.json",
+      "target_version": "course-evidence-package-20261117-r2",
+      "sha256": "8610ec7609588675bcd8c0d653cd7b3dd063ffe154205bbebc38215ec6fdae0f",
+      "declared_origin": "author_local_runner"
+    },
+    "E-EXPERIMENT": {
+      "path": "evidence/EXP-001-20261117/result.json",
+      "target_version": "course-evidence-package-20261117-r2",
+      "sha256": "7495d76dd7acc26846acf2ce3c943168cc6f2ef8bc73ae68fe1ce28a609d242a",
+      "declared_origin": "author_local_runner"
+    },
+    "E-DRILL": {
+      "path": "evidence/rubric-20261117/drill-corrected/result.json",
+      "target_version": "course-evidence-package-20261117-r2",
+      "sha256": "4cbd1ca477f4a496d85ff61af1df59120ec3396ecdabc1cab5d7df98b2ded5c7",
+      "declared_origin": "author_local_runner"
+    }
+  },
+  "criteria": [
+    {
+      "id": "EV-01",
+      "evidence_id": "E-TESTS",
+      "field": [
+        "status"
+      ],
+      "equals": "PASS",
+      "scope": "Archived initial local test bundle; exact sources are in that report."
+    },
+    {
+      "id": "EV-02",
+      "evidence_id": "E-EXPERIMENT",
+      "field": [
+        "outputs_identical"
+      ],
+      "equals": true,
+      "scope": "EXP-001 recorded equality only; no inference speed claim."
+    },
+    {
+      "id": "EV-03",
+      "evidence_id": "E-DRILL",
+      "field": [
+        "status"
+      ],
+      "equals": "PASS",
+      "scope": "Corrected local calibration and rehearsal record only."
+    }
+  ]
+}

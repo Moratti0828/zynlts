@@ -32,6 +32,7 @@ def main(argv=None):
         ('demo-frontend', ['node', 'tests/test_live_demo_frontend.js']),
         ('reference-frontend', ['node', 'tests/test_public_reference_frontend.js']),
         ('history-integrity', [sys.executable, 'scripts/verify_expansion_delivery_20261025.py']),
+        ('defense-drill', [sys.executable, 'scripts/course_defense_drill.py', '--output', str(args.output.resolve() / 'defense-drill')]),
     ]
     rows = []
     with tempfile.TemporaryDirectory(prefix='reading-course-') as state:

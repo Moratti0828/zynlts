@@ -41,6 +41,10 @@ Windows替换为 `.venv\Scripts\python.exe`。课程验证执行Python测试、�
 
 EXP-001比较保留的原F1实现与预测Counter复用实现，固定合成输入，三轮交替计时；所有逐项结果一致。本机中位耗时分别约16.38ms与12.95ms。只支持该微基准，不表示模型推理提速。协议、逐次输出和决定见[实验协议](docs/experiments/EXP-001-protocol.md)、[原始记录](evidence/EXP-001-20261117/result.json)、[ADR](docs/adr/ADR-002-f1-counter.md)。
 
+## 评分项补强（2026-11-17第二轮）
+
+新增[评分导航](docs/course/score-improvement.md)、[受限评价工作流](review/evaluator/README.md)、[变更与修复记录](review/change-002.md)及[8分钟答辩练习](docs/defense/walkthrough.md)。K1—K6公开样例及额外边界检查、4类内存故障检出/恢复、续跑/版本拒绝/重复请求演练都有原始记录；首次漏检也保留。本轮自组验证不能代替同伴交叉审查和个人现场考试。最新[完整验证](evidence/rubric-20261117/verification/verification.json)：105项Python测试、21项前端检查、103个历史文件核验及故障演练均通过。
+
 ## 课程交付入口
 
 | 内容 | 入口 |
