@@ -1,0 +1,21 @@
+{
+  "stage": "reference",
+  "updated_at": "2026-10-25T04:45:53.612175+00:00",
+  "complete": true,
+  "matrices": [
+    {
+      "name": "reference-squad2",
+      "complete": true,
+      "exit_code": 1,
+      "rows": 300,
+      "response_errors": 41
+    },
+    {
+      "name": "reference-cmrc2018",
+      "complete": true,
+      "exit_code": 0,
+      "rows": 300,
+      "response_errors": 0
+    }
+  ]
+}

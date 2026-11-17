@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#173e3b">
+  <meta name="description" content="基于近期文章、时间隔离和可追溯证据的 AI 阅读理解测评工作台。">
+  <title>阅见 · AI 阅读理解测评</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="主导航">
+      <a class="brand" href="#demo" aria-label="阅见现场演示首页">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M5 6h8c3 0 5 2 5 4v17c-1-2-3-3-5-3H5V6Z" stroke="currentColor" stroke-width="1.8"/><path d="M18 10c0-2 2-4 5-4h4v18h-4c-2 0-4 1-5 3" stroke="currentColor" stroke-width="1.8"/><path d="M9 12h5M9 16h5" stroke="currentColor" stroke-width="1.5"/></svg></span>
+        <span>阅见<small>READING BENCH</small></span>
+      </a>
+      <div class="nav-label">研究工作台</div>
+      <nav id="navigation"></nav>
+      <div class="sidebar-note">
+        <span class="small-dot"></span><span>证据优先，结果可追溯</span>
+        <p>从文章到问题，再到模型的每一次回答。</p>
+      </div>
+      <div class="sidebar-footer"><span>AI 阅读理解能力测评</span><small>课程项目 · 可复现实验</small></div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar">
+        <div class="breadcrumb">研究工作台 <span>/</span> <strong id="page-label">现场演示</strong></div>
+        <div class="topbar-actions"><span class="connection" id="connection" role="status"><i></i>连接中</span><button class="button button-small button-quiet" id="token-button" type="button">访问令牌</button></div>
+      </header>
+      <main id="main" tabindex="-1"><div class="loading-screen"><span class="spinner"></span><p>正在连接现场演示工作台…</p></div></main>
+      <footer class="workspace-footer"><span>阅见 · Reading Bench</span><span>回答来自真实模型调用，分数来自可追溯的逐题记录。</span></footer>
+    </div>
+  </div>
+  <div id="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <dialog id="token-dialog" class="dialog">
+    <form id="token-form">
+      <div class="dialog-heading"><div><span class="eyebrow">访问设置</span><h2>连接受保护的平台</h2></div><button class="icon-button" type="button" data-close-dialog aria-label="关闭">×</button></div>
+      <p class="muted">服务器配置了部署令牌时填写。令牌仅保存在当前浏览器会话，用于平台 API 请求。</p>
+      <label class="field">部署访问令牌<input id="token-input" name="token" type="password" autocomplete="off" placeholder="未设置部署令牌可留空"></label>
+      <div class="dialog-actions"><button class="button button-secondary" type="button" data-close-dialog>取消</button><button class="button button-primary" type="submit">保存并重新连接</button></div>
+    </form>
+  </dialog>
+  <script src="/app.js" defer></script>
+</body>
+</html>

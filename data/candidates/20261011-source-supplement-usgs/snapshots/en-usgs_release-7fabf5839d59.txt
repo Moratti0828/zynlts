@@ -1,0 +1,25 @@
+RESTON, Va. — The U.S. Geological Survey and the University of Nebraska-Lincoln have released the first statewide map depicting the geology at Nebraska's land surface, closing a long-standing gap in the nation's geologic map coverage.
+
+Geologic maps showing rock types, ages and structures are the foundation needed to assess mineral and energy resources, and model where a valuable commodity or geologic hazard may occur. Characterizing energy resources, and modeling where a commodity may occur, all depend on understanding the underlying geology — rock and sediment types, ages, structures, and the arrangement of formations at the surface.
+
+Until now, Nebraska had no modern map of its surface geology. The most recent statewide geologic map, published in 1986, shows bedrock structure underlying the surface, shedding light on longer-term geologic history instead of more recent sediments.
+
+"This mapping effort began with a simple need to fill a gap in geologic maps, and ended in a promising partnership between the USGS and the University of Nebraska-Lincoln," said Christopher Swezey, program coordinator of the USGS National Cooperative Geologic Mapping Program . "One great consequence of this effort is that it has shown how bringing together the right people can be effective in producing a quality product quickly."
+
+"We're excited about the new map because it's completely new from the standpoint of synthesis and scale," said Matt Joeckel, Nebraska state geologist . "Moreover, achieving such a high degree of cartographic quality with this digital product would have been impossible without the help of our USGS colleagues."
+
+More than three-quarters of Nebraska is covered by sediment, most of it wind-blown sand and silt. These materials carry water into aquifers, supply nutrients for crops, support wildlife habitat along the Central Flyway for migratory birds, and contain sand, gravel and other materials used in construction and infrastructure.
+
+"Nebraska's surficial geological materials are truly outstanding, and include those of the Nebraska Sand Hills, the largest area of dunes in the Western Hemisphere, and thick sequences of loess and sediments from several large river systems, including the Missouri and the Platte," said Paul Hanson, a geologist and director of the Geologic Mapping Program at the University of Nebraska-Lincoln's Conservation and Survey Division.
+
+"Those units are clearly shown on this map and are portrayed in a consistent manner here for the first time."
+
+Since the mid-1990s, the Conservation and Survey Division has focused primarily on detailed geologic mapping at 1:24,000 scale. For this project, scientists from the Conservation and Survey Division and the USGS combined their expertise to draft a new statewide map, drawing on existing geologic, soil, and geomorphic maps as well as statewide elevation data from the USGS 3D Elevation Program. The map will add detail to a future iteration of the Cooperative National Geologic Map, adding information about important geologic histories and features at the margin of glacial sediment to the east and mountain-derived deposits to the west.
+
+Access the Map
+
+The Surficial Geologic Map of Nebraska is published in Journal of Maps and is available at: https://doi.org/10.1080/17445647.2026.2691982
+
+Map data can be downloaded from the National Geologic Map Database: https://ngmdb.usgs.gov/Prodesc/proddesc_119348.htm
+
+The USGS provides science for a changing world. Learn more at https://www.usgs.gov or follow us on Facebook @USGeologicalSurvey , YouTube @USGS , Instagram @USGS , or X at @USGS .

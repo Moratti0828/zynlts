@@ -1,0 +1,72 @@
+{
+  "id": "zh-cas_health-5770dfd9f97c",
+  "title": "研究实现细胞仿生纳米反应器光催化合成过氧化氢",
+  "language": "zh",
+  "provider": "cas_health",
+  "source_name": "中国科学院",
+  "source_url": "https://www.cas.cn/syky/202607/t20260723_5116222.shtml",
+  "request_url": "https://www.cas.cn/syky/202607/t20260723_5116222.shtml",
+  "source_attribution": "大连化学物理研究所,中国科学院",
+  "published_at": "2026-07-30",
+  "first_published_at": null,
+  "date_evidence": {
+    "kind": "publication_meta",
+    "field": "PubDate",
+    "value": "2026-07-30 00:00"
+  },
+  "date_review_note": "Official source page/API publication verified; earlier publication or repost elsewhere remains to be checked. Do not equate an URL stamp or update with first publication.",
+  "recency_tier": "2026-H2",
+  "domain_provisional": "health_life",
+  "genre_provisional": "research_explanation",
+  "rights": "机构官网新闻不自动属于公有领域。仅作为本地、私有的教学科研候选；保留署名及出处。公开分发全文或题库前须逐篇核实授权；转载、照片、第三方引语须单独审查。",
+  "scope": "article_body_candidate",
+  "extraction_selector": ".TRS_UEDITOR",
+  "text": "近日，中国科学院大连化学物理研究所等 在生物细胞反应器功能仿生方面取得进展。研究将细胞仿生纳米反应器的几何结构、可逆人工质子中继 、异质结驱动的电荷分离集成在单一平台，为提升光催化性能提出了新策略。\n\n自然细胞高效驱动生化反应以维持细胞正常代谢。 借鉴细胞机制构建纳米反应器 ，模拟生物细胞器功能，是细胞生物学与纳米技术融合的重要方向。该设计的核心在于模拟两类细胞功能。一是细胞膜上特异性蛋白质通道能够调控离子跨膜运输，其中某些特定载体蛋白可主导质子精准透过，发挥“质子泵” 功能，调节酸碱平衡及生命活动；二是细胞器的区室化结构构建出特征鲜明的纳米反应空间，可富集局域反应物浓度，并将敏感催化中心与外界干扰隔离，保障反应的高效率与高保真度。\n\n作为概念验证，研究团队将自然细胞中层级化的区室结构与质子泵机制，引入合成纳米材料设计工作。团队开发了中空 CdS@ 聚多巴胺纳米反应器 ，整合两类细胞仿生特征——聚多巴胺壳层中动态的邻苯二酚 / 醌氧化还原对为质子中继，通过可逆地供出和接收质子来加速质子耦合电子转移 过程；由多孔壳层限域的纳米空腔构成的区室化纳米反应器结构，可用于传质扩散、反应物富集和光子捕获的限域微环境。二者的集成同步弥合了氧还原 和水氧化 两个半反应之间的反应时间尺度和动力学差异，在可见光照射下的水溶液中实现了 3.24 mmol g cat. -1 h -1 过氧化氢光合成速率 ，太阳能到化学能的转化效率 达 1.2% 。原位光谱、光电化学分析、有限元模拟和理论计算相结合，揭示了该细胞仿生机制并阐明了 Z- 型异质结介导的光催化反应路径。\n\n团队进一步将纳米反应器封装于环境友好的海藻酸钠水凝胶中，获得了整体式、可回收的光催化剂，在自然光照下实现稳定的 过氧化氢 生产。\n\n这项研究有望为新一代仿生纳米材料设计提供参考。\n\n相关研究成果发表在《美国化学会志》（ JACS ）上。研究工作得到国家自然科学基金、国家重点研发计划、中国博士后科学基金等的支持。",
+  "paragraphs": [
+    "近日，中国科学院大连化学物理研究所等 在生物细胞反应器功能仿生方面取得进展。研究将细胞仿生纳米反应器的几何结构、可逆人工质子中继 、异质结驱动的电荷分离集成在单一平台，为提升光催化性能提出了新策略。",
+    "自然细胞高效驱动生化反应以维持细胞正常代谢。 借鉴细胞机制构建纳米反应器 ，模拟生物细胞器功能，是细胞生物学与纳米技术融合的重要方向。该设计的核心在于模拟两类细胞功能。一是细胞膜上特异性蛋白质通道能够调控离子跨膜运输，其中某些特定载体蛋白可主导质子精准透过，发挥“质子泵” 功能，调节酸碱平衡及生命活动；二是细胞器的区室化结构构建出特征鲜明的纳米反应空间，可富集局域反应物浓度，并将敏感催化中心与外界干扰隔离，保障反应的高效率与高保真度。",
+    "作为概念验证，研究团队将自然细胞中层级化的区室结构与质子泵机制，引入合成纳米材料设计工作。团队开发了中空 CdS@ 聚多巴胺纳米反应器 ，整合两类细胞仿生特征——聚多巴胺壳层中动态的邻苯二酚 / 醌氧化还原对为质子中继，通过可逆地供出和接收质子来加速质子耦合电子转移 过程；由多孔壳层限域的纳米空腔构成的区室化纳米反应器结构，可用于传质扩散、反应物富集和光子捕获的限域微环境。二者的集成同步弥合了氧还原 和水氧化 两个半反应之间的反应时间尺度和动力学差异，在可见光照射下的水溶液中实现了 3.24 mmol g cat. -1 h -1 过氧化氢光合成速率 ，太阳能到化学能的转化效率 达 1.2% 。原位光谱、光电化学分析、有限元模拟和理论计算相结合，揭示了该细胞仿生机制并阐明了 Z- 型异质结介导的光催化反应路径。",
+    "团队进一步将纳米反应器封装于环境友好的海藻酸钠水凝胶中，获得了整体式、可回收的光催化剂，在自然光照下实现稳定的 过氧化氢 生产。",
+    "这项研究有望为新一代仿生纳米材料设计提供参考。",
+    "相关研究成果发表在《美国化学会志》（ JACS ）上。研究工作得到国家自然科学基金、国家重点研发计划、中国博士后科学基金等的支持。"
+  ],
+  "body_bytes": 2372,
+  "word_count": null,
+  "han_count": 714,
+  "sha256": "6951450be72a39234cda0596973f3abdcc919082927a2df4ea51a2713789a550",
+  "raw_sha256": "16e6b9a66aeece3c84cabf4f0ca0abb9022faf545da72b0a9b2581ed0c2a0ca5",
+  "raw_capture_kind": "http_response_bytes",
+  "raw_capture_note": "raw_path preserves unmodified HTTP response bytes.",
+  "discovery_raw_path": null,
+  "discovery_raw_sha256": null,
+  "raw_path": "data/candidates/20261011-source-supplement/snapshots/zh-cas_health-5770dfd9f97c.html",
+  "text_path": "data/candidates/20261011-source-supplement/snapshots/zh-cas_health-5770dfd9f97c.txt",
+  "reviewed": false,
+  "review_note": "真实下载的待审候选。尚无阅读理解题、参考答案或人工审定；不计入正式测评题库。",
+  "resolved_url": "https://www.cas.cn/syky/202607/t20260723_5116222.shtml",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "etag": null,
+  "last_modified": null,
+  "downloaded_at": "2026-10-11T02:49:26+00:00",
+  "derived_text_processing_log": {
+    "version": "candidate-prose-cleaning-v1",
+    "processed_at": "2026-10-11T02:54:51+00:00",
+    "previous_text_sha256": "8e10262c7944867e4469c4c3ad06f5e59a4afdfa5fc2e169418e46ce3845b671",
+    "previous_selector": ".TRS_UEDITOR",
+    "history_metadata_path": "data/candidates/20261011-source-supplement/processing-history/zh-cas_health-5770dfd9f97c.v1.metadata.json",
+    "removed_paragraphs": [
+      {
+        "text": "研究实现细胞仿生纳米反应器光催化合成过氧化氢",
+        "reason": "duplicate article heading"
+      }
+    ],
+    "original_paragraph_count": 7,
+    "result_paragraph_count": 6,
+    "policy": "Remove only page UI/recommendation containers, repeated title and standalone numbered CAS image captions; preserve original wording and document paragraphs. Raw source bytes unchanged."
+  },
+  "rights_reference_url": null,
+  "rights_review_status": "pending_article_author_and_third_party_rights_review",
+  "human_reviewed": false,
+  "status": "candidate"
+}

@@ -1,0 +1,38 @@
+{"download_chunk": 3, "bytes": 33554432}
+{"download_chunk": 5, "bytes": 33554432}
+{"download_chunk": 7, "bytes": 33554432}
+{"download_chunk": 2, "bytes": 33554432}
+{"download_chunk": 12, "bytes": 33554432}
+{"download_chunk": 11, "bytes": 33554432}
+{"download_chunk": 8, "bytes": 33554432}
+{"download_chunk": 9, "bytes": 33554432}
+{"download_chunk": 15, "bytes": 33554432}
+{"download_chunk": 4, "bytes": 33554432}
+{"download_chunk": 6, "bytes": 33554432}
+{"download_chunk": 19, "bytes": 33554432}
+{"download_chunk": 14, "bytes": 33554432}
+{"download_chunk": 17, "bytes": 33554432}
+{"download_chunk": 10, "bytes": 33554432}
+{"download_chunk": 13, "bytes": 33554432}
+{"download_chunk": 16, "bytes": 33554432}
+{"download_chunk": 20, "bytes": 33554432}
+{"download_chunk": 18, "bytes": 33554432}
+Traceback (most recent call last):
+  File "/home/jmy/reading-bench/scripts/install_internlm_fixed_20261020.py", line 129, in <module>
+    main()
+  File "/home/jmy/reading-bench/scripts/install_internlm_fixed_20261020.py", line 103, in main
+    download_fixed(target)
+  File "/home/jmy/reading-bench/scripts/install_internlm_fixed_20261020.py", line 86, in download_fixed
+    ordered = list(pool.map(get, range(count)))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/threading.py", line 327, in wait
+    waiter.acquire()
+KeyboardInterrupt

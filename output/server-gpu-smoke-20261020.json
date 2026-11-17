@@ -1,0 +1,143 @@
+{
+  "recorded_at_server_utc": "2026-10-20T04:53:27.101834+00:00",
+  "purpose": "engineering GPU smoke, not benchmark score",
+  "request": {
+    "model": "qwen2.5:7b-instruct",
+    "prompt": "阅读短文，然后只输出答案数字。短文：研究小组先采集了12份样本，随后又补充了8份。问题：一共采集多少份样本？",
+    "stream": false,
+    "keep_alive": "10m",
+    "options": {
+      "temperature": 0,
+      "num_ctx": 8192,
+      "num_predict": 64
+    }
+  },
+  "response": {
+    "model": "qwen2.5:7b-instruct",
+    "created_at": "2026-10-20T04:53:59.209871809Z",
+    "response": "20",
+    "done": true,
+    "done_reason": "stop",
+    "context": [
+      151644,
+      8948,
+      198,
+      2610,
+      525,
+      1207,
+      16948,
+      11,
+      3465,
+      553,
+      54364,
+      14817,
+      13,
+      1446,
+      525,
+      264,
+      10950,
+      17847,
+      13,
+      151645,
+      198,
+      151644,
+      872,
+      198,
+      101113,
+      99534,
+      16744,
+      3837,
+      101889,
+      91680,
+      66017,
+      102349,
+      82587,
+      1773,
+      99534,
+      16744,
+      5122,
+      99556,
+      101306,
+      60726,
+      106769,
+      34187,
+      16,
+      17,
+      69442,
+      110241,
+      3837,
+      104221,
+      99518,
+      104361,
+      34187,
+      23,
+      69442,
+      1773,
+      86119,
+      5122,
+      108754,
+      106769,
+      100430,
+      69442,
+      110241,
+      11319,
+      151645,
+      198,
+      151644,
+      77091,
+      198,
+      17,
+      15
+    ],
+    "total_duration": 32106184581,
+    "load_duration": 32027633694,
+    "prompt_eval_count": 67,
+    "prompt_eval_duration": 37566747,
+    "eval_count": 3,
+    "eval_duration": 16051696
+  },
+  "elapsed_seconds": 32.11757914000009,
+  "loaded_models": {
+    "models": [
+      {
+        "name": "qwen2.5:7b-instruct",
+        "model": "qwen2.5:7b-instruct",
+        "size": 5341542400,
+        "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-20T05:03:59.218862329Z",
+        "size_vram": 5341542400,
+        "context_length": 8192
+      }
+    ]
+  },
+  "gpu": {
+    "argv": [
+      "nvidia-smi",
+      "--query-gpu=index,name,memory.used,memory.free,utilization.gpu",
+      "--format=csv"
+    ],
+    "exit_code": 0,
+    "stdout": "index, name, memory.used [MiB], memory.free [MiB], utilization.gpu [%]\n0, NVIDIA GeForce RTX 3090, 5284 MiB, 18842 MiB, 33 %\n1, NVIDIA GeForce RTX 3090, 1 MiB, 24124 MiB, 0 %\n2, NVIDIA GeForce RTX 3090, 1 MiB, 24124 MiB, 0 %\n3, NVIDIA GeForce RTX 3090, 1 MiB, 24124 MiB, 0 %\n",
+    "stderr": ""
+  },
+  "processes": {
+    "argv": [
+      "nvidia-smi",
+      "--query-compute-apps=gpu_uuid,pid,process_name,used_gpu_memory",
+      "--format=csv"
+    ],
+    "exit_code": 0,
+    "stdout": "gpu_uuid, pid, process_name, used_gpu_memory [MiB]\nGPU-52b47fc0-2acd-b9dc-7c87-2aac499cc0d9, 66202, /usr/local/bin/ollama, 5274 MiB\n",
+    "stderr": ""
+  }
+}

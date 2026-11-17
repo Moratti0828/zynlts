@@ -1,0 +1,25 @@
+{
+  "schema_version": "reading-expansion-stage-v1",
+  "stage": "recent",
+  "configurations": [
+    {
+      "name": "recent-main",
+      "models": [
+        "qwen25-7b",
+        "gemma2-9b"
+      ],
+      "bank": "dev-recent-additions-20261024",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "strict_time": "true"
+    }
+  ],
+  "settings": {
+    "temperature": 0,
+    "seed": 42,
+    "max_tokens": 512,
+    "strict_budget": false
+  },
+  "formal": false,
+  "notice": "Public historical reference and recent AI-draft banks stay separate; no contamination-free or formal ranking claim."
+}

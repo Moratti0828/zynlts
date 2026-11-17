@@ -1,0 +1,151 @@
+﻿model_name,language,article_id,question_id,dimension,kind,question,answer,unit,evidence_ids,confidence,abstain,answer_correct,choice_accuracy,short_em,short_token_f1,numeric_strict_accuracy,evidence_exact,evidence_f1,joint_success,brier_answer,latency_s,input_tokens,output_tokens,error,raw_response
+Yi-1.5 · 6B Chat,en,ref-squad2-ef89fd8649969f09fc47,q01,D1,short,Complement proteins bind to what kind of molecules on the surface of microbes in order to elicit an immune response?,antibodies,,"[""p001""]",1.0,False,0,,0,0.0,,0,0,0,1.0,3.729,534,58,,"{
+  ""answer"": ""antibodies"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-ef89fd8649969f09fc47,q02,D1,short,How can the deposition of compliment kill invader cells directly?,by disrupting their plasma membrane,,"[""p001""]",1.0,False,0,,0,0.8888888888888888,,0,0,0,1.0,0.92,522,61,,"{
+  ""answer"": ""by disrupting their plasma membrane"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-ef89fd8649969f09fc47,q03,D6,unanswerable,What triggers a slow killing response?,a short answer,,"[""p001""]",0.95,False,0,,,,,0,,0,0.9025,0.731,517,47,,"{""answer"": ""a short answer"", ""unit"": """", ""evidence_ids"": [""p001""], ""confidence"": 0.95, ""abstain"": false}"
+Yi-1.5 · 6B Chat,en,ref-squad2-0078a3aad6d29993d7ba,q01,D1,short,When is the oldest recorded incident of civil disobedience?,during the Roman Empire,,"[""p001""]",1.0,False,1,,1,1.0,,0,0,0,0.0,0.968,546,60,,"{
+  ""answer"": ""during the Roman Empire"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-0078a3aad6d29993d7ba,q02,D1,short,What did the Jewish people do so pagan items wouldn't be in the temple of Jerusalem?,gathered in the streets to prevent the installation of pagan images in the Temple in Jerusalem,,"[""squad2-0078a3aad6d29993d7ba"", ""p001""]",1.0,False,0,,0,0.4,,0,0,0,1.0,1.53,555,98,,"{
+  ""answer"": ""gathered in the streets to prevent the installation of pagan images in the Temple in Jerusalem"",
+  ""unit"": """",
+  ""evidence_ids"": [""squad2-0078a3aad6d29993d7ba"", ""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-0078a3aad6d29993d7ba,q03,D6,unanswerable,How was the event covered when Jews were arrested by tax collectors?,not covered in any newspapers,,"[""p001""]",0.95,False,0,,,,,0,,0,0.9025,0.937,548,61,,"{
+  ""answer"": ""not covered in any newspapers"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-a28b1741ae11a0ca192d,q01,D1,short,what is the fee range for accessing BSkyB's EPG?,"£15–100,000",,"[""p001""]",1.0,False,1,,1,1.0,,0,0,0,0.0,1.044,500,66,,"{
+  ""answer"": ""£15–100,000"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-a28b1741ae11a0ca192d,q02,D1,short,Can BSkyB veto the presence of channels on their EPG?,No,,"[""p001""]",0.95,False,1,,1,1.0,,0,0,0,0.0025000000000000044,0.724,499,45,,"{""answer"": ""No"", ""unit"": """", ""evidence_ids"": [""p001""], ""confidence"": 0.95, ""abstain"": false}"
+Yi-1.5 · 6B Chat,en,ref-squad2-a28b1741ae11a0ca192d,q03,D6,unanswerable,Who took away the operating license from BSkyB?,Ofcom,,"[""p001""]",1.0,False,0,,,,,0,,0,1.0,0.856,496,57,,"{
+  ""answer"": ""Ofcom"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-46b22fbb7cb725f7dbd4,q01,D1,short,What makes the Wells Fargo Center stand out?,distinctive flared base,,"[""p001""]",1.0,False,1,,1,1.0,,0,0,0,0.0,1.009,489,61,,"{
+  ""answer"": ""distinctive flared base"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-46b22fbb7cb725f7dbd4,q02,D1,short,How tall is the Bank of America Tower?,188 m,m,"[""p001""]",1.0,False,0,,0,0.0,,0,0,0,1.0,0.907,489,60,,"{
+  ""answer"": ""188 m"",
+  ""unit"": ""m"",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-46b22fbb7cb725f7dbd4,q03,D6,unanswerable,In the shortest building in downtown Jacksonville?,Wells Fargo Center,,"[""p001""]",1.0,False,0,,,,,0,,0,1.0,0.917,488,59,,"{
+  ""answer"": ""Wells Fargo Center"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-93620703d50b4155fab9,q01,D1,short,"the Great Internet Mersenne Prime Search, what was the prize for finding a prime with at least 10 million digits?","$100,000",USD,"[""p001""]",1.0,False,1,,1,1.0,,0,0,0,0.0,1.066,571,66,,"{
+  ""answer"": ""$100,000"",
+  ""unit"": ""USD"",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0
+  ,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-93620703d50b4155fab9,q02,D1,short,In what interval are some of the greatest primes without a distinct form discovered in?,"[256kn + 1, 256k(n + 1) − 1]",,"[""p001""]",1.0,False,1,,1,1.0,,0,0,0,0.0,1.203,561,78,,"{
+  ""answer"": ""[256kn + 1, 256k(n + 1) − 1]"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-93620703d50b4155fab9,q03,D6,unanswerable,"In the Great Internet Mersenne Prime Search hat was the prize for finding a prime with at least 150,000 digits?","$150,000",USD,"[""p001""]",1.0,False,0,,,,,0,,0,1.0,0.82,575,52,,"{""answer"": ""$150,000"", ""unit"": ""USD"", ""evidence_ids"": [""p001""], ""confidence"": 1.0, ""abstain"": false}"
+Yi-1.5 · 6B Chat,en,ref-squad2-83c030609aaae7ee99b6,q01,D1,short,In 1758 what was duc de Choiseul's plan for focused military efforts?,invasion of Britain to draw British resources away from North America and the European mainland,,"[""p001""]",1.0,False,0,,0,1.0,,0,0,0,1.0,1.168,502,72,,"{
+  ""answer"": ""invasion of Britain to draw British resources away from North America and the European mainland"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-83c030609aaae7ee99b6,q02,D1,short,What naval battles did France lose in 1759?,Quiberon Bay,battles,"[""p001""]",1.0,False,0,,0,0.6666666666666666,,0,0,0,1.0,0.928,493,61,,"{
+  ""answer"": ""Quiberon Bay"",
+  ""unit"": ""battles"",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0
+  , ""abstain"": false}"
+Yi-1.5 · 6B Chat,en,ref-squad2-83c030609aaae7ee99b6,q03,D6,unanswerable,How unsuccessful was the French revised efforts?,unsuccessful,,"[""p001""]",1.0,False,0,,,,,0,,0,1.0,0.88,488,57,,"{
+  ""answer"": ""unsuccessful"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-679435646d97368fa394,q01,D1,short,What is thought to have happened to the y. pestis that caused the black death?,thought to have been replaced by a variant that may no longer exist,,"[""p001""]",1.0,False,0,,0,0.47058823529411764,,0,0,0,1.0,1.067,474,68,,"{
+  ""answer"": ""thought to have been replaced by a variant that may no longer exist"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-679435646d97368fa394,q02,D1,short,Where was the burial site used for testing located?,East Smithfield in England,,"[""p001""]",1.0,False,0,,0,0.6666666666666666,,0,0,0,1.0,0.94,466,60,,"{
+  ""answer"": ""East Smithfield in England"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-679435646d97368fa394,q03,D6,unanswerable,What was Schuenemann's first name?,,,[],,False,0,,,,,0,,0,,0.865,468,59,refusal_contains_answer_or_evidence,"{
+  ""answer"": ""abstain"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 0.95,
+  ""abstain"": true
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-ee860af1558390e8f6b7,q01,D1,short,What device is used to treat various conditions such as carbon monoxide poisoning?,oxygen chamber,,"[""p001""]",1.0,False,0,,0,0.5,,0,0,0,1.0,0.917,514,58,,"{
+  ""answer"": ""oxygen chamber"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-ee860af1558390e8f6b7,q02,D1,short,To what pathogen that causes gas gangrene is oxygen poisonous?,anaerobic bacteria,,"[""p001""]",1.0,False,1,,1,1.0,,0,0,0,0.0,0.909,513,59,,"{
+  ""answer"": ""anaerobic bacteria"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-ee860af1558390e8f6b7,q03,D6,unanswerable,What is treated with medical chambers?,"carbon monoxide poisoning, gas gangrene, and decompression sickness (the 'bends')",,"[""p001""]",1.0,False,0,,,,,0,,0,1.0,1.174,506,74,,"{
+  ""answer"": ""carbon monoxide poisoning, gas gangrene, and decompression sickness (the 'bends')"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"

@@ -1,0 +1,1362 @@
+{
+  "schema_version": "reading-model-matrix-v1",
+  "created_at": "2026-10-20T04:57:49.944353+00:00",
+  "specification": {
+    "bank": "dev-pilot-v2",
+    "models": [
+      "qwen25-7b",
+      "llama31-8b"
+    ],
+    "modes": [
+      "with_context",
+      "no_context"
+    ],
+    "limit": null,
+    "article_ids": null,
+    "question_ids": null,
+    "strict_budget": "false",
+    "strict_budget_models": [],
+    "bootstrap_repetitions": 0
+  },
+  "source_bank_sha256": "bb7b16f1b8d31b04ec2901bc513f464319f8cb39f05be1530cc8923a3b7b6440",
+  "source_bank_operator_snapshot": {
+    "schema_version": "reading-bank-v2",
+    "bank_version": "dev-authoring-pilot-20261011",
+    "formal": false,
+    "note": "16道据真实近期正文编制的AI候选题，0人工审题；仅开发/评分器演示，不能当正式金标或模型排名。",
+    "articles": [
+      {
+        "id": "zh-nbs-02a36a9fc6f8-devpilot",
+        "title": "2026年1—8月份社会消费品零售总额增长1.1%",
+        "language": "zh",
+        "source_cluster_id": "zh-nbs-02a36a9fc6f8",
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202609/t20260915_1965311.html",
+        "published_at": "2026-09-15",
+        "first_published_at": null,
+        "date_evidence": {
+          "kind": "publication_meta",
+          "field": "PubDate",
+          "value": "2026/09/15 10:00"
+        },
+        "rights": "机构官网新闻不自动属于公有领域。仅作为本地、私有的教学科研候选；保留署名及出处。公开分发全文或题库前须逐篇核实授权；转载、照片、第三方引语须单独审查。",
+        "source_text_sha256": "6d3191d806a6fb84dca0436894fd418dff8cf2e7cb3697a2c55da5c0ccf55832",
+        "source_raw_sha256": "76f505afaa8490a8bc65f5468cc75e0a98af9b5310832df66aabef2c6ff1f4a1",
+        "source_raw_path": "data/candidates/20261011-source-discovery/snapshots/zh-nbs-02a36a9fc6f8.html",
+        "scope": "excerpt",
+        "scope_note": "完整段落选取，原始段落序号逐段保留；移除表格/跳转区。开发候选不进入隐藏测试。",
+        "split": "development",
+        "domain": "economy_industry",
+        "length_bin": "medium",
+        "annotation_state": "ai_checked",
+        "human_review_count": 0,
+        "paragraphs": [
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p001",
+            "text": "1 — 8 月份，社会消费品零售总额 327569 亿元，同比增长 1.1% 。其中，除汽车以外的消费品零售额 301764 亿元，增长 2.7% 。 8 月份，社会消费品零售总额 39824 亿元，同比增长 0.4% 。其中，除汽车以外的消费品零售额 36545 亿元，增长 2.5% 。",
+            "source_paragraph_index": 1
+          },
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p002",
+            "text": "按经营单位所在地分， 1 — 8 月份，城镇消费品零售额 283743 亿元，同比增长 1.0% ；乡村消费品零售额 43826 亿元，增长 2.3% 。 8 月份，城镇消费品零售额 34457 亿元，同比增长 0.2% ；乡村消费品零售额 5367 亿元，增长 1.6% 。",
+            "source_paragraph_index": 2
+          },
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p003",
+            "text": "按消费类型分， 1 — 8 月份，商品零售额 290203 亿元，同比增长 1.0% ；餐饮收入 37366 亿元，增长 2.4% 。 8 月份，商品零售额 35280 亿元，同比增长 0.3% ；餐饮收入 4544 亿元，增长 1.1% 。",
+            "source_paragraph_index": 3
+          },
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p004",
+            "text": "按零售业态分， 1 — 8 月份，限额以上零售业单位中便利店、超市零售额同比分别增长 5.5% 、 3.8% ；专业店、百货店、品牌专卖店零售额分别下降 2.2% 、 3.0% 、 10.0% 。",
+            "source_paragraph_index": 4
+          },
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p005",
+            "text": "1 — 8 月份，全国网上商品和服务零售额 134766 亿元，同比增长 4.6% 。其中，网上商品零售额 84195 亿元，增长 4.3% ；在网上商品零售额中，吃类、穿类、用类商品分别增长 15.9% 、 4.9% 、 1.1% 。网上服务零售额 50571 亿元，增长 5.1% 。",
+            "source_paragraph_index": 5
+          },
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p006",
+            "text": "注：此表数据均为未扣除价格因素的名义增速。",
+            "source_paragraph_index": 37
+          },
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p007",
+            "text": "社会消费品零售总额：是指企业（单位、个体户）通过交易售给个人、社会集团非生产、非经营用的实物商品金额，以及提供餐饮服务所取得的收入金额。",
+            "source_paragraph_index": 39
+          },
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p008",
+            "text": "网上商品和服务零售额：是指通过公共网络交易平台（包括自建网站和第三方平台）实现的商品和服务零售额之和。",
+            "source_paragraph_index": 40
+          },
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p009",
+            "text": "从事商品零售活动或提供餐饮服务的法人企业、产业活动单位和个体户。其中，限额以上单位是指年主营业务收入 2000 万元及以上的批发业企业（单位、个体户）、 500 万元及以上的零售业企业（单位、个体户）、 200 万元及以上的住宿和餐饮业企业（单位、个体户）。",
+            "source_paragraph_index": 41
+          },
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p010",
+            "text": "对限额以上单位进行全数调查，对限额以下单位进行抽样调查。",
+            "source_paragraph_index": 42
+          },
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p011",
+            "text": "由于限额以上批发和零售业、住宿和餐饮业企业（单位、个体户）范围每年发生变化，为保证本年数据与上年可比，计算限额以上单位消费品零售额等各项指标同比增长速度所采用的同期数与本期的企业（单位、个体户）统计范围相一致，和上年公布的数据存在口径差异。主要原因是每年都有部分企业（单位、个体户）达到限额标准纳入调查范围，同时也有部分企业（单位、个体户）因规模变小达不到限额标准退出调查范围，还有新开业、破产、注（吊）销企业（单位、个体户）的影响。",
+            "source_paragraph_index": 43
+          },
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p012",
+            "text": "由于纳入网上商品和服务零售额统计的重点平台范围每年发生变化，为保证本年数据与上年可比，计算网上商品和服务零售额同比增长速度所采用的同期数与本期的平台统计范围相一致，和上年公布的数据存在口径差异。主要原因是每年有新增平台纳入调查范围，也有不符合统计制度要求的平台退出调查范围。",
+            "source_paragraph_index": 44
+          },
+          {
+            "id": "zh-nbs-02a36a9fc6f8-devpilot:p013",
+            "text": "为更加全面反映网上消费市场发展状况，对网上消费统计指标进行了完善，根据网络消费发展态势，扩大网络服务平台统计范围，强化网上服务零售额测算。为此，将原“网上零售额”调整为“网上商品和服务零售额”，指标内涵不变，统计范围扩大；“实物商品网上零售额”调整为“网上商品零售额”，指标内涵和统计范围不变；增加“网上服务零售额”。网上商品和服务零售额与网上零售额数据不可比。",
+            "source_paragraph_index": 60
+          }
+        ],
+        "presented_text_sha256": "ed60ca95072e3acaf91f633a9d6f2961130359416f6e8f56cac1fbb516c81a0e",
+        "questions": [
+          {
+            "id": "q01",
+            "dimension": "D1",
+            "kind": "numeric",
+            "prompt": "2026年1—8月份社会消费品零售总额是多少？answer只写数值，unit写“亿元”。",
+            "evidence_sets": [
+              [
+                "zh-nbs-02a36a9fc6f8-devpilot:p001"
+              ]
+            ],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "value": "327569",
+            "unit": "亿元",
+            "absolute_tolerance": "0",
+            "tags": [
+              "事实",
+              "时间范围"
+            ]
+          },
+          {
+            "id": "q02",
+            "dimension": "D2",
+            "kind": "choice",
+            "prompt": "按文中统计定义，以下哪项属于社会消费品零售总额？只回答选项ID。",
+            "evidence_sets": [
+              [
+                "zh-nbs-02a36a9fc6f8-devpilot:p007"
+              ]
+            ],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "options": {
+              "A": "企业购入用于生产的原材料金额",
+              "B": "售给社会集团、用于非生产非经营用途的实物商品金额",
+              "C": "所有金融投资金额",
+              "D": "所有服务业营业收入"
+            },
+            "correct_option": "B",
+            "tags": [
+              "范围",
+              "排除条件"
+            ]
+          },
+          {
+            "id": "q03",
+            "dimension": "D3",
+            "kind": "choice",
+            "prompt": "某公司通过第三方公共网络交易平台，把非生产、非经营用的实物商品售给个人。结合文中的两项定义，这笔交易属于哪些指标？只回答选项ID。",
+            "evidence_sets": [
+              [
+                "zh-nbs-02a36a9fc6f8-devpilot:p007",
+                "zh-nbs-02a36a9fc6f8-devpilot:p008"
+              ]
+            ],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "options": {
+              "A": "仅社会消费品零售总额",
+              "B": "仅网上商品和服务零售额",
+              "C": "两项都属于",
+              "D": "两项都不属于"
+            },
+            "correct_option": "C",
+            "reasoning_steps": [
+              "实物商品售给个人且非生产非经营，满足社会消费品零售总额定义。",
+              "交易通过第三方公共网络平台，亦满足网上商品和服务零售额定义。"
+            ],
+            "tags": [
+              "跨段",
+              "定义整合"
+            ]
+          },
+          {
+            "id": "q04",
+            "dimension": "D4",
+            "kind": "numeric",
+            "prompt": "根据8月份总额与除汽车以外零售额，8月份汽车消费品零售额是多少？answer只写差额，unit写“亿元”。",
+            "evidence_sets": [
+              [
+                "zh-nbs-02a36a9fc6f8-devpilot:p001"
+              ]
+            ],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "value": "3279",
+            "unit": "亿元",
+            "absolute_tolerance": "0",
+            "operation": {
+              "type": "subtract",
+              "operands": [
+                "39824",
+                "36545"
+              ],
+              "formula": "39824-36545=3279"
+            },
+            "tags": [
+              "求差",
+              "单位"
+            ]
+          },
+          {
+            "id": "q05",
+            "dimension": "D5",
+            "kind": "choice",
+            "prompt": "有人把“网上商品和服务零售额”与以前公布的“网上零售额”直接作为同口径数据比较。文章末段是否支持这种做法？只回答选项ID。",
+            "evidence_sets": [
+              [
+                "zh-nbs-02a36a9fc6f8-devpilot:p013"
+              ]
+            ],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "options": {
+              "A": "支持，因为两个指标统计范围完全不变",
+              "B": "支持，因为任何网上消费指标都可直接比较",
+              "C": "支持，因为服务零售额未纳入新指标",
+              "D": "不支持，文中明确统计范围扩大且两项数据不可比"
+            },
+            "correct_option": "D",
+            "tags": [
+              "论证支持范围",
+              "统计限制"
+            ],
+            "rubric_note": "这是文本明确反驳的可答判断，不是无答案题。"
+          },
+          {
+            "id": "q06",
+            "dimension": "D2",
+            "kind": "choice",
+            "prompt": "“2026年8月份社会消费品零售总额同比增长1.1%。”这一说法是否符合文章对统计期间的区分？只回答选项ID。",
+            "evidence_sets": [
+              [
+                "zh-nbs-02a36a9fc6f8-devpilot:p001"
+              ]
+            ],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "options": {
+              "A": "不符合，1.1%对应1—8月份，8月份为0.4%",
+              "B": "符合，两个统计期间均为1.1%",
+              "C": "不符合，8月份为2.7%",
+              "D": "无法判断，文章没有8月份同比数据"
+            },
+            "correct_option": "A",
+            "tags": [
+              "限定范围",
+              "时间错配"
+            ]
+          },
+          {
+            "id": "q07",
+            "dimension": "D6",
+            "kind": "unanswerable",
+            "prompt": "2026年8月份网上吃类商品零售额的具体金额是多少？若文本不足以确定，请拒答。",
+            "evidence_sets": [],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "missing_information": "文中给1—8月份吃类网上商品同比增速，未给8月份吃类网上商品金额；不能拿总额或增速替代。",
+            "tags": [
+              "时间范围",
+              "近邻数值"
+            ]
+          },
+          {
+            "id": "q08",
+            "dimension": "D6",
+            "kind": "unanswerable",
+            "prompt": "导致1—8月份百货店零售额同比下降3.0%的最主要原因是什么？若文本不足以确定，请拒答。",
+            "evidence_sets": [],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "missing_information": "文中报告业态增速，未给百货店下降的因果证据或原因排序。",
+            "tags": [
+              "因果缺失"
+            ]
+          }
+        ],
+        "question_count": 8
+      },
+      {
+        "id": "en-nasa-1992c310d7b6-devpilot",
+        "title": "NASA’s SpaceX 35th Commercial Resupply Mission Overview",
+        "language": "en",
+        "source_cluster_id": "en-nasa-1992c310d7b6",
+        "source_url": "https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/",
+        "published_at": "2026-10-07",
+        "first_published_at": null,
+        "date_evidence": {
+          "kind": "official_wordpress_api",
+          "field": "date",
+          "value": "2026-10-07T16:17:16",
+          "date_gmt": "2026-10-07T20:17:16",
+          "modified": "2026-10-08T12:24:16"
+        },
+        "rights": "美国联邦机构工作人员原创文字通常适用17 USC 105；本候选仍待核作者及第三方权利。照片、媒体、文学引文、第三方投稿不自动获得许可；当前仅本地私有教学科研使用。",
+        "source_text_sha256": "e2d98a5026b2b95e7acddf098b431fd4b01330b386f2f7e7ff9b1870cc49d512",
+        "source_raw_sha256": "9d11a72fe04e4f47ccb9fa394d07dc27a25e1300b6537c4116a2470f759e46f1",
+        "source_raw_path": "data/candidates/20261011-source-discovery/snapshots/en-nasa-1992c310d7b6.api.json",
+        "scope": "excerpt",
+        "scope_note": "完整段落选取，原始段落序号逐段保留；移除表格/跳转区。开发候选不进入隐藏测试。",
+        "split": "development",
+        "domain": "science_technology",
+        "length_bin": "medium",
+        "annotation_state": "ai_checked",
+        "human_review_count": 0,
+        "paragraphs": [
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p001",
+            "text": "NASA and SpaceX are targeting no earlier than Tuesday, Oct. 13 to launch scientific investigations, supplies, and equipment to the International Space Station.",
+            "source_paragraph_index": 1
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p002",
+            "text": "Loaded with more than 6,300 pounds of supplies, the SpaceX Dragon spacecraft will lift off aboard the company’s Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. Following its arrival to the orbital complex, Dragon will autonomously dock to the space-facing port of the space station’s Harmony module.",
+            "source_paragraph_index": 2
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p003",
+            "text": "For more than 25 years, the International Space Station has supported research by scientists from more than 110 countries, enabling more than 4,000 experiments in microgravity. Research conducted aboard the station helps advance long-duration missions to the Moon as part of the Artemis program and to Mars, while also providing multiple benefits to humanity.",
+            "source_paragraph_index": 5
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p004",
+            "text": "In addition to cargo for the crew aboard the space station, Dragon will deliver several new science experiments, including:",
+            "source_paragraph_index": 6
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p005",
+            "text": "With LambdaVision-1 , NASA is testing how to manufacture artificial eye retinas in microgravity, building them one thin layer at a time. Reduced settling in microgravity may create more uniform, stable layers, potentially improving implants’ performance. These artificial retinas could help restore vision for patients with currently incurable retinal diseases on Earth.",
+            "source_paragraph_index": 7
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p006",
+            "text": "NASA will use the Stellar Spheroids experiment to study how microgravity affects the growth and function of 3D human heart tissue models. Researchers will assess whether microgravity improves the formation of advanced vascular networks. Results could help researchers develop more realistic heart tissue models for disease research and support larger‑scale drug testing on future space missions.",
+            "source_paragraph_index": 8
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p007",
+            "text": "Using non-traditional elements, ELF-Unconventional Glass 2 studies how glass forms in microgravity. Researchers will observe molten behavior in space, then return solid samples to Earth for detailed analysis. These unconventional glasses could offer higher strength, improved optical capabilities, and greater durability for spacecraft, habitats, and other exploration technologies.",
+            "source_paragraph_index": 9
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p008",
+            "text": "The MINDS experiment studies brain organoids to better understand inflammation linked to neurodegenerative diseases. The investigation uses “organoid villages,” which combine cells from multiple people to better represent patient diversity. Results could help identify new treatment targets for diseases like Alzheimer’s, Parkinson’s, and multiple sclerosis.",
+            "source_paragraph_index": 10
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p009",
+            "text": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk will monitor the Dragon spacecraft’s arrival. It will remain docked to the orbiting laboratory for about a month before splashing down in the Pacific Ocean, returning critical science and hardware to teams on Earth.",
+            "source_paragraph_index": 11
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p010",
+            "text": "International Space Station Roll-Out Solar Arrays (IROSA) – The final pair of IROSAs that will be installed on the space station, completing the augmentation of its power system to support critical operations, including its safe and controlled deorbit.",
+            "source_paragraph_index": 12
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p011",
+            "text": "Collapsible Continency Urinal and supporting hardware – A demonstration and test unit supporting NASA’s Artemis III mission.",
+            "source_paragraph_index": 13
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p012",
+            "text": "Canadarm2 joint flight support equipment – A large foam clamshell will fly empty to return the failed robotic arm joint that was replaced during a June 30 spacewalk. After its return to Earth, teams will analyze the joint on the ground.",
+            "source_paragraph_index": 14
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p013",
+            "text": "Additional equipment launching includes a toilet dose pump, a toilet pretreat quality sensor, and a robot micro-conical tool used for space station maintenance and utilization tasks with external replacement units and payloads.",
+            "source_paragraph_index": 15
+          },
+          {
+            "id": "en-nasa-1992c310d7b6-devpilot:p014",
+            "text": "When Dragon returns in mid‑November, it will bring back the failed joint on the Canadarm2 for analysis and refurbishment, a spacesuit for ground refurbishment, a fluid- and pressure-control pump assembly from the urine processor, and a filtration unit for the water processor assembly.",
+            "source_paragraph_index": 16
+          }
+        ],
+        "presented_text_sha256": "c297b69d9ee2284d35b5c1d497565cbc9c2e46037051b9a9de0457d51b7aacbf",
+        "questions": [
+          {
+            "id": "q01",
+            "dimension": "D1",
+            "kind": "choice",
+            "prompt": "To which port will Dragon autonomously dock after arrival? Return only the option ID.",
+            "evidence_sets": [
+              [
+                "en-nasa-1992c310d7b6-devpilot:p002"
+              ]
+            ],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "options": {
+              "A": "The Earth-facing port of Harmony",
+              "B": "The space-facing port of the Artemis spacecraft",
+              "C": "Space Launch Complex 40",
+              "D": "The space-facing port of the station’s Harmony module"
+            },
+            "correct_option": "D",
+            "tags": [
+              "location",
+              "entity"
+            ]
+          },
+          {
+            "id": "q02",
+            "dimension": "D2",
+            "kind": "choice",
+            "prompt": "What does “targeting no earlier than Tuesday, Oct. 13” mean in the article? Return only the option ID.",
+            "evidence_sets": [
+              [
+                "en-nasa-1992c310d7b6-devpilot:p001"
+              ]
+            ],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "options": {
+              "A": "Launch is guaranteed to occur on Oct. 13",
+              "B": "Oct. 13 is the earliest targeted launch date; that date is not guaranteed",
+              "C": "Launch must occur before Oct. 13",
+              "D": "Oct. 13 is the confirmed docking date"
+            },
+            "correct_option": "B",
+            "tags": [
+              "qualification",
+              "temporal_condition"
+            ]
+          },
+          {
+            "id": "q03",
+            "dimension": "D3",
+            "kind": "choice",
+            "prompt": "Which pair studies fabrication of artificial retinas and formation of vascular networks in heart tissue models, respectively? Combine the descriptions and return only the option ID.",
+            "evidence_sets": [
+              [
+                "en-nasa-1992c310d7b6-devpilot:p005",
+                "en-nasa-1992c310d7b6-devpilot:p006"
+              ]
+            ],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "options": {
+              "A": "LambdaVision-1; Stellar Spheroids",
+              "B": "MINDS; ELF-Unconventional Glass 2",
+              "C": "Stellar Spheroids; LambdaVision-1",
+              "D": "ELF-Unconventional Glass 2; MINDS"
+            },
+            "correct_option": "A",
+            "reasoning_steps": [
+              "The artificial-retina fabrication paragraph names LambdaVision-1.",
+              "The heart-tissue/vascular-network paragraph names Stellar Spheroids; preserve the stated order."
+            ],
+            "tags": [
+              "cross_paragraph",
+              "ordered_relation"
+            ]
+          },
+          {
+            "id": "q04",
+            "dimension": "D4",
+            "kind": "numeric",
+            "prompt": "How many distinct named science experiments are described in the list beginning with LambdaVision-1 and ending with MINDS? Count only that list, not all experiments ever performed aboard the station. Write the number in answer and unit=\"experiments\".",
+            "evidence_sets": [
+              [
+                "en-nasa-1992c310d7b6-devpilot:p005",
+                "en-nasa-1992c310d7b6-devpilot:p006",
+                "en-nasa-1992c310d7b6-devpilot:p007",
+                "en-nasa-1992c310d7b6-devpilot:p008"
+              ]
+            ],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "value": "4",
+            "unit": "experiments",
+            "absolute_tolerance": "0",
+            "operation": {
+              "type": "count_distinct",
+              "operands": [
+                "LambdaVision-1",
+                "Stellar Spheroids",
+                "ELF-Unconventional Glass 2",
+                "MINDS"
+              ],
+              "formula": "count(list)=4"
+            },
+            "tags": [
+              "count",
+              "scope"
+            ]
+          },
+          {
+            "id": "q05",
+            "dimension": "D5",
+            "kind": "choice",
+            "prompt": "Does the article establish that microgravity has already improved vascular-network formation in these heart tissue models? Return only the option ID.",
+            "evidence_sets": [
+              [
+                "en-nasa-1992c310d7b6-devpilot:p006"
+              ]
+            ],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "options": {
+              "A": "Yes; the improvement is reported as a completed result",
+              "B": "Yes; the article guarantees success in patients",
+              "C": "No; researchers will assess whether improvement occurs",
+              "D": "No; the article states microgravity prevents all vascular networks"
+            },
+            "correct_option": "C",
+            "tags": [
+              "claim_support",
+              "uncertainty"
+            ],
+            "rubric_note": "The prospective study description supports a definite evaluation of the claim, not an unanswerable label."
+          },
+          {
+            "id": "q06",
+            "dimension": "D1",
+            "kind": "choice",
+            "prompt": "Who will monitor the Dragon spacecraft’s arrival? Return only the option ID.",
+            "evidence_sets": [
+              [
+                "en-nasa-1992c310d7b6-devpilot:p009"
+              ]
+            ],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "options": {
+              "A": "Anil Menon and Joshua Kutryk",
+              "B": "Anil Menon and LambdaVision-1",
+              "C": "Joshua Kutryk and Canadarm2",
+              "D": "The MINDS organoid villages"
+            },
+            "correct_option": "A",
+            "tags": [
+              "entity_pair"
+            ]
+          },
+          {
+            "id": "q07",
+            "dimension": "D6",
+            "kind": "unanswerable",
+            "prompt": "What is the exact scheduled docking date and clock time for this Dragon mission? Abstain if the passage does not establish both.",
+            "evidence_sets": [],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "missing_information": "The article supplies an earliest targeted launch date and docking location, but no exact docking date/time.",
+            "tags": [
+              "event_time_mismatch"
+            ]
+          },
+          {
+            "id": "q08",
+            "dimension": "D6",
+            "kind": "unanswerable",
+            "prompt": "How many layers will each completed LambdaVision-1 artificial retina contain? Abstain if the passage does not determine the number.",
+            "evidence_sets": [],
+            "annotation_state": "ai_checked",
+            "generator": "Codex source-grounded authoring, 2026-10-11",
+            "human_reviews": [],
+            "adjudication_complete": false,
+            "missing_information": "One thin layer at a time describes the manufacturing process, not the total layer count.",
+            "tags": [
+              "near_answer",
+              "quantity_missing"
+            ]
+          }
+        ],
+        "question_count": 8
+      }
+    ],
+    "id": "dev-pilot-v2",
+    "bank_sha256": "bb7b16f1b8d31b04ec2901bc513f464319f8cb39f05be1530cc8923a3b7b6440",
+    "formal_eligible": false,
+    "formal_ineligible_reason": "Non-frozen bank: use --allow-draft for labelled diagnostics",
+    "counts": {
+      "articles": 2,
+      "questions": 16,
+      "languages": {
+        "zh": {
+          "articles": 1,
+          "questions": 8
+        },
+        "en": {
+          "articles": 1,
+          "questions": 8
+        }
+      }
+    },
+    "reference_visibility": "operator_only_not_model_input"
+  },
+  "expected_versions": {
+    "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+    "runner_version": "reading-runner-v2.1-attempt-log-20261013",
+    "prompt_version": "reading-prompt-v2.0-paragraph-20261013"
+  },
+  "health_at_preflight": {
+    "status": "ok",
+    "version": "1.2.0"
+  },
+  "selection": [
+    {
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q01",
+      "language": "zh",
+      "kind": "numeric",
+      "source_cluster_id": "zh-nbs-02a36a9fc6f8"
+    },
+    {
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q02",
+      "language": "zh",
+      "kind": "choice",
+      "source_cluster_id": "zh-nbs-02a36a9fc6f8"
+    },
+    {
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q03",
+      "language": "zh",
+      "kind": "choice",
+      "source_cluster_id": "zh-nbs-02a36a9fc6f8"
+    },
+    {
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q04",
+      "language": "zh",
+      "kind": "numeric",
+      "source_cluster_id": "zh-nbs-02a36a9fc6f8"
+    },
+    {
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q05",
+      "language": "zh",
+      "kind": "choice",
+      "source_cluster_id": "zh-nbs-02a36a9fc6f8"
+    },
+    {
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q06",
+      "language": "zh",
+      "kind": "choice",
+      "source_cluster_id": "zh-nbs-02a36a9fc6f8"
+    },
+    {
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q07",
+      "language": "zh",
+      "kind": "unanswerable",
+      "source_cluster_id": "zh-nbs-02a36a9fc6f8"
+    },
+    {
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q08",
+      "language": "zh",
+      "kind": "unanswerable",
+      "source_cluster_id": "zh-nbs-02a36a9fc6f8"
+    },
+    {
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q01",
+      "language": "en",
+      "kind": "choice",
+      "source_cluster_id": "en-nasa-1992c310d7b6"
+    },
+    {
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q02",
+      "language": "en",
+      "kind": "choice",
+      "source_cluster_id": "en-nasa-1992c310d7b6"
+    },
+    {
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q03",
+      "language": "en",
+      "kind": "choice",
+      "source_cluster_id": "en-nasa-1992c310d7b6"
+    },
+    {
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q04",
+      "language": "en",
+      "kind": "numeric",
+      "source_cluster_id": "en-nasa-1992c310d7b6"
+    },
+    {
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q05",
+      "language": "en",
+      "kind": "choice",
+      "source_cluster_id": "en-nasa-1992c310d7b6"
+    },
+    {
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q06",
+      "language": "en",
+      "kind": "choice",
+      "source_cluster_id": "en-nasa-1992c310d7b6"
+    },
+    {
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q07",
+      "language": "en",
+      "kind": "unanswerable",
+      "source_cluster_id": "en-nasa-1992c310d7b6"
+    },
+    {
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q08",
+      "language": "en",
+      "kind": "unanswerable",
+      "source_cluster_id": "en-nasa-1992c310d7b6"
+    }
+  ],
+  "selection_sha256": "2cffbc0bdb72fb5a7ec19c3853cae83b09ffb3b1a0c60d5886fa1d9cd28004f1",
+  "models": {
+    "qwen25-7b": {
+      "id": "qwen25-7b",
+      "name": "Qwen2.5 · 7B Instruct",
+      "model": "qwen2.5:7b-instruct",
+      "release_date": "2024-09-19",
+      "release_source": "https://qwenlm.github.io/blog/qwen2.5/",
+      "expected_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "api_key_env": "",
+      "created_at": "2026-10-10T13:37:22.307679+00:00",
+      "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "7.6B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    "llama31-8b": {
+      "id": "llama31-8b",
+      "name": "Llama 3.1 · 8B Instruct",
+      "model": "llama3.1:8b-instruct-q4_K_M",
+      "release_date": "2024-07-23",
+      "release_source": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "expected_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "api_key_env": "",
+      "created_at": "2026-10-10T13:37:22.309570+00:00",
+      "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_K_M"
+      }
+    }
+  },
+  "formal": false,
+  "notice": "AI development questions; human review must be checked in bank snapshot. Not a formal ranking. Strict time isolation does not prove absence of contamination. Uncertified budgets are exploratory.",
+  "jobs": [
+    {
+      "key": "qwen25-7b__with_context",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "status": "exported",
+      "request": {
+        "bank_id": "dev-pilot-v2",
+        "model_ids": [
+          "qwen25-7b"
+        ],
+        "allow_draft": true,
+        "strict_time": true,
+        "strict_budget": false,
+        "mode": "with_context",
+        "max_tokens": 512,
+        "temperature": 0,
+        "bootstrap_repetitions": 0
+      },
+      "creation_attempted_at": "2026-10-20T04:57:49.956472+00:00",
+      "run_id": "run-848ef0b0538b",
+      "created_at": "2026-10-20T04:57:51.181761+00:00",
+      "progress": {
+        "done": 16,
+        "total": 16
+      },
+      "actual_config": {
+        "bank_id": "dev-pilot-v2",
+        "model_ids": [
+          "qwen25-7b"
+        ],
+        "article_ids": [
+          "zh-nbs-02a36a9fc6f8-devpilot",
+          "en-nasa-1992c310d7b6-devpilot"
+        ],
+        "allow_draft": true,
+        "strict_time": true,
+        "strict_budget": false,
+        "mode": "with_context",
+        "question_limit": 16,
+        "max_tokens": 512,
+        "temperature": 0,
+        "seed": 42,
+        "num_ctx": 8192,
+        "num_thread": 2,
+        "bootstrap_repetitions": 0,
+        "prompt_version": "reading-prompt-v2.0-paragraph-20261013",
+        "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+        "runner_version": "reading-runner-v2.1-attempt-log-20261013",
+        "output_schema": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "string"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "abstain": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "answer",
+            "unit",
+            "evidence_ids",
+            "confidence",
+            "abstain"
+          ],
+          "additionalProperties": false
+        },
+        "retry_policy": "completed_results_not_retried;resume_only_unfinished;unknown_inflight_may_repeat_with_attempt_log"
+      },
+      "selected_bank_sha256": "bb7b16f1b8d31b04ec2901bc513f464319f8cb39f05be1530cc8923a3b7b6440",
+      "actual_models": [
+        {
+          "id": "qwen25-7b",
+          "name": "Qwen2.5 · 7B Instruct",
+          "model": "qwen2.5:7b-instruct",
+          "release_date": "2024-09-19",
+          "release_source": "https://qwenlm.github.io/blog/qwen2.5/",
+          "expected_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+          "provider": "ollama",
+          "base_url": "http://127.0.0.1:11435",
+          "api_key_env": "",
+          "created_at": "2026-10-10T13:37:22.307679+00:00",
+          "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+          "available": true,
+          "status": "就绪",
+          "temporal_verified": true,
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen2",
+            "families": [
+              "qwen2"
+            ],
+            "parameter_size": "7.6B",
+            "quantization_level": "Q4_K_M"
+          },
+          "tokenizer_spec": {
+            "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+            "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+            "artifact_dir": "/home/jmy/reading-bench/runtime/tokenizers/qwen25-7b-a09a354",
+            "manifest_sha256": "9dd35fd52541064912583bff5bd15c47a918cd86a2dfb0dec065b39029d44d7b"
+          },
+          "runtime_template_kind": "raw_rendered_prompt",
+          "token_budget_margin": 512
+        }
+      ],
+      "attempts": 16,
+      "last_seen_at": "2026-10-20T04:58:26.381444+00:00",
+      "resident_observations": 8,
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "last_device_observation_at": "2026-10-20T04:58:26.381508+00:00",
+      "json": "runs/run-848ef0b0538b.json",
+      "csv": "runs/run-848ef0b0538b.csv",
+      "json_file_sha256": "694ebc92e418b6162b30ecd253b3c7cbacf357e07e224188d540032c78004aca",
+      "csv_file_sha256": "fe43c22f215a2a76e751aabd42e57e31dbcb3ba5fe20fffd2a36609643ac8442",
+      "exported_at": "2026-10-20T04:58:26.417218+00:00",
+      "final_status": "completed",
+      "complete": true,
+      "errors": 3
+    },
+    {
+      "key": "qwen25-7b__no_context",
+      "model_id": "qwen25-7b",
+      "mode": "no_context",
+      "status": "exported",
+      "request": {
+        "bank_id": "dev-pilot-v2",
+        "model_ids": [
+          "qwen25-7b"
+        ],
+        "allow_draft": true,
+        "strict_time": true,
+        "strict_budget": false,
+        "mode": "no_context",
+        "max_tokens": 512,
+        "temperature": 0,
+        "bootstrap_repetitions": 0
+      },
+      "creation_attempted_at": "2026-10-20T04:58:26.421041+00:00",
+      "run_id": "run-211c1f402d9d",
+      "created_at": "2026-10-20T04:58:26.804106+00:00",
+      "progress": {
+        "done": 16,
+        "total": 16
+      },
+      "actual_config": {
+        "bank_id": "dev-pilot-v2",
+        "model_ids": [
+          "qwen25-7b"
+        ],
+        "article_ids": [
+          "zh-nbs-02a36a9fc6f8-devpilot",
+          "en-nasa-1992c310d7b6-devpilot"
+        ],
+        "allow_draft": true,
+        "strict_time": true,
+        "strict_budget": false,
+        "mode": "no_context",
+        "question_limit": 16,
+        "max_tokens": 512,
+        "temperature": 0,
+        "seed": 42,
+        "num_ctx": 8192,
+        "num_thread": 2,
+        "bootstrap_repetitions": 0,
+        "prompt_version": "reading-prompt-v2.0-paragraph-20261013",
+        "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+        "runner_version": "reading-runner-v2.1-attempt-log-20261013",
+        "output_schema": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "string"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "abstain": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "answer",
+            "unit",
+            "evidence_ids",
+            "confidence",
+            "abstain"
+          ],
+          "additionalProperties": false
+        },
+        "retry_policy": "completed_results_not_retried;resume_only_unfinished;unknown_inflight_may_repeat_with_attempt_log"
+      },
+      "selected_bank_sha256": "bb7b16f1b8d31b04ec2901bc513f464319f8cb39f05be1530cc8923a3b7b6440",
+      "actual_models": [
+        {
+          "id": "qwen25-7b",
+          "name": "Qwen2.5 · 7B Instruct",
+          "model": "qwen2.5:7b-instruct",
+          "release_date": "2024-09-19",
+          "release_source": "https://qwenlm.github.io/blog/qwen2.5/",
+          "expected_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+          "provider": "ollama",
+          "base_url": "http://127.0.0.1:11435",
+          "api_key_env": "",
+          "created_at": "2026-10-10T13:37:22.307679+00:00",
+          "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+          "available": true,
+          "status": "就绪",
+          "temporal_verified": true,
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen2",
+            "families": [
+              "qwen2"
+            ],
+            "parameter_size": "7.6B",
+            "quantization_level": "Q4_K_M"
+          },
+          "tokenizer_spec": {
+            "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+            "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+            "artifact_dir": "/home/jmy/reading-bench/runtime/tokenizers/qwen25-7b-a09a354",
+            "manifest_sha256": "9dd35fd52541064912583bff5bd15c47a918cd86a2dfb0dec065b39029d44d7b"
+          },
+          "runtime_template_kind": "raw_rendered_prompt",
+          "token_budget_margin": 512
+        }
+      ],
+      "attempts": 16,
+      "last_seen_at": "2026-10-20T04:58:46.912658+00:00",
+      "resident_observations": 5,
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "last_device_observation_at": "2026-10-20T04:58:46.912700+00:00",
+      "json": "runs/run-211c1f402d9d.json",
+      "csv": "runs/run-211c1f402d9d.csv",
+      "json_file_sha256": "34ea75ce06e1e619ca8c66e358a25f32f836dcb2895036ed09d9798589e62dde",
+      "csv_file_sha256": "e12a0b128c34dbfb42878c12f3c8ab07b4a161a99350c7bbe5ebcec2482c7cfb",
+      "exported_at": "2026-10-20T04:58:46.935667+00:00",
+      "final_status": "completed",
+      "complete": true,
+      "errors": 6
+    },
+    {
+      "key": "llama31-8b__with_context",
+      "model_id": "llama31-8b",
+      "mode": "with_context",
+      "status": "exported",
+      "request": {
+        "bank_id": "dev-pilot-v2",
+        "model_ids": [
+          "llama31-8b"
+        ],
+        "allow_draft": true,
+        "strict_time": true,
+        "strict_budget": false,
+        "mode": "with_context",
+        "max_tokens": 512,
+        "temperature": 0,
+        "bootstrap_repetitions": 0
+      },
+      "creation_attempted_at": "2026-10-20T04:58:46.937028+00:00",
+      "run_id": "run-0977d9d98171",
+      "created_at": "2026-10-20T04:58:46.963042+00:00",
+      "progress": {
+        "done": 16,
+        "total": 16
+      },
+      "actual_config": {
+        "bank_id": "dev-pilot-v2",
+        "model_ids": [
+          "llama31-8b"
+        ],
+        "article_ids": [
+          "zh-nbs-02a36a9fc6f8-devpilot",
+          "en-nasa-1992c310d7b6-devpilot"
+        ],
+        "allow_draft": true,
+        "strict_time": true,
+        "strict_budget": false,
+        "mode": "with_context",
+        "question_limit": 16,
+        "max_tokens": 512,
+        "temperature": 0,
+        "seed": 42,
+        "num_ctx": 8192,
+        "num_thread": 2,
+        "bootstrap_repetitions": 0,
+        "prompt_version": "reading-prompt-v2.0-paragraph-20261013",
+        "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+        "runner_version": "reading-runner-v2.1-attempt-log-20261013",
+        "output_schema": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "string"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "abstain": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "answer",
+            "unit",
+            "evidence_ids",
+            "confidence",
+            "abstain"
+          ],
+          "additionalProperties": false
+        },
+        "retry_policy": "completed_results_not_retried;resume_only_unfinished;unknown_inflight_may_repeat_with_attempt_log"
+      },
+      "selected_bank_sha256": "bb7b16f1b8d31b04ec2901bc513f464319f8cb39f05be1530cc8923a3b7b6440",
+      "actual_models": [
+        {
+          "id": "llama31-8b",
+          "name": "Llama 3.1 · 8B Instruct",
+          "model": "llama3.1:8b-instruct-q4_K_M",
+          "release_date": "2024-07-23",
+          "release_source": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+          "expected_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+          "provider": "ollama",
+          "base_url": "http://127.0.0.1:11435",
+          "api_key_env": "",
+          "created_at": "2026-10-10T13:37:22.309570+00:00",
+          "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+          "available": true,
+          "status": "就绪",
+          "temporal_verified": true,
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "llama",
+            "families": [
+              "llama"
+            ],
+            "parameter_size": "8.0B",
+            "quantization_level": "Q4_K_M"
+          }
+        }
+      ],
+      "attempts": 16,
+      "last_seen_at": "2026-10-20T04:59:52.379963+00:00",
+      "last_device_observation_at": "2026-10-20T04:59:52.380008+00:00",
+      "json": "runs/run-0977d9d98171.json",
+      "resident_observations": 7,
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "csv": "runs/run-0977d9d98171.csv",
+      "json_file_sha256": "6f4f0060a48cae0e93938ca306112c89afec2eb58d4a084958c8d4824b2748d1",
+      "csv_file_sha256": "7093ae80a8ce2707e09a4e6b644dbd4497fd9d176c9b5f887de1f2a8571f8129",
+      "exported_at": "2026-10-20T04:59:52.403083+00:00",
+      "final_status": "completed",
+      "complete": true,
+      "errors": 1
+    },
+    {
+      "key": "llama31-8b__no_context",
+      "model_id": "llama31-8b",
+      "mode": "no_context",
+      "status": "exported",
+      "request": {
+        "bank_id": "dev-pilot-v2",
+        "model_ids": [
+          "llama31-8b"
+        ],
+        "allow_draft": true,
+        "strict_time": true,
+        "strict_budget": false,
+        "mode": "no_context",
+        "max_tokens": 512,
+        "temperature": 0,
+        "bootstrap_repetitions": 0
+      },
+      "creation_attempted_at": "2026-10-20T04:59:52.407943+00:00",
+      "run_id": "run-6f98451c34d3",
+      "created_at": "2026-10-20T04:59:52.434029+00:00",
+      "progress": {
+        "done": 16,
+        "total": 16
+      },
+      "actual_config": {
+        "bank_id": "dev-pilot-v2",
+        "model_ids": [
+          "llama31-8b"
+        ],
+        "article_ids": [
+          "zh-nbs-02a36a9fc6f8-devpilot",
+          "en-nasa-1992c310d7b6-devpilot"
+        ],
+        "allow_draft": true,
+        "strict_time": true,
+        "strict_budget": false,
+        "mode": "no_context",
+        "question_limit": 16,
+        "max_tokens": 512,
+        "temperature": 0,
+        "seed": 42,
+        "num_ctx": 8192,
+        "num_thread": 2,
+        "bootstrap_repetitions": 0,
+        "prompt_version": "reading-prompt-v2.0-paragraph-20261013",
+        "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+        "runner_version": "reading-runner-v2.1-attempt-log-20261013",
+        "output_schema": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "string"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "abstain": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "answer",
+            "unit",
+            "evidence_ids",
+            "confidence",
+            "abstain"
+          ],
+          "additionalProperties": false
+        },
+        "retry_policy": "completed_results_not_retried;resume_only_unfinished;unknown_inflight_may_repeat_with_attempt_log"
+      },
+      "selected_bank_sha256": "bb7b16f1b8d31b04ec2901bc513f464319f8cb39f05be1530cc8923a3b7b6440",
+      "actual_models": [
+        {
+          "id": "llama31-8b",
+          "name": "Llama 3.1 · 8B Instruct",
+          "model": "llama3.1:8b-instruct-q4_K_M",
+          "release_date": "2024-07-23",
+          "release_source": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+          "expected_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+          "provider": "ollama",
+          "base_url": "http://127.0.0.1:11435",
+          "api_key_env": "",
+          "created_at": "2026-10-10T13:37:22.309570+00:00",
+          "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+          "available": true,
+          "status": "就绪",
+          "temporal_verified": true,
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "llama",
+            "families": [
+              "llama"
+            ],
+            "parameter_size": "8.0B",
+            "quantization_level": "Q4_K_M"
+          }
+        }
+      ],
+      "attempts": 16,
+      "last_seen_at": "2026-10-20T05:00:12.531687+00:00",
+      "resident_observations": 5,
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "last_device_observation_at": "2026-10-20T05:00:12.531730+00:00",
+      "json": "runs/run-6f98451c34d3.json",
+      "csv": "runs/run-6f98451c34d3.csv",
+      "json_file_sha256": "28dfc38297b19a96dce4791aba79342f45bee6eab3bdca4ed45e21d9e0a0adfa",
+      "csv_file_sha256": "07d8b3ab41bed7fb39e9bd2da30a69b2d3dfb29aefd6bceebd44f16f8fab5226",
+      "exported_at": "2026-10-20T05:00:12.554944+00:00",
+      "final_status": "completed",
+      "complete": true,
+      "errors": 1
+    }
+  ],
+  "base_url_history": [
+    {
+      "at": "2026-10-20T04:57:49.955366+00:00",
+      "url": "http://127.0.0.1:8787"
+    }
+  ],
+  "updated_at": "2026-10-20T05:00:12.556519+00:00",
+  "versions": {
+    "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+    "prompt_version": "reading-prompt-v2.0-paragraph-20261013",
+    "runner_version": "reading-runner-v2.1-attempt-log-20261013"
+  },
+  "device_observations": "device-observations.jsonl",
+  "finished_at": "2026-10-20T05:00:12.556508+00:00"
+}

@@ -1,0 +1,103 @@
+Nondegree credentials may boost earnings, especially for those with just a high school diploma but sometimes even for those with college degrees.
+
+About 37% of adults ages 25 to 64 with at least a high school diploma went on to earn nondegree credentials (NDC) — professional certifications, licenses or certificates — which typically target specific skills and occupations.
+
+Full-time workers with NDCs often reported significantly higher median annual earnings than those without, regardless of educational attainment.
+
+According to 2019–2024 combined data from the Survey of Income and Program Participation (SIPP) , full-time workers in this age group with an NDC reported 16.4% higher annual median earnings than those without one.
+
+What Are Nondegree Credentials?
+
+Earned outside of the traditional academic processes that lead to a college degree, NDCs are typically job-related and earned upon completion of a program of occupation-specific coursework, training or demonstration of specific skills.
+
+The SIPP measures vocational and educational certificates, certifications and licenses of respondents age 18 and over.
+
+Vocational and educational certificates , sometimes called diplomas, are earned from community, technical or career colleges as well as trade schools and universities. Most programs focus on job-skill development and career preparation. People with certificates enter a variety of fields from food service and maintenance to health care.
+
+Certifications and licenses both require recipients to demonstrate job-specific knowledge, skills and abilities, which usually means passing an exam or other standardized assessment. Unlike certificates, certifications and licenses can expire.
+
+Certifications are issued by industry-recognized boards, organizations and associations — the American Nursing Association, for example — and by private companies like Google. They are particularly common in healthcare and technical fields.
+
+Licenses are legally necessary to work in an occupation and are issued by governmental agencies at the local, state or federal level. Each state and the District of Columbia have different rules, but all require emergency medical technicians, cosmetologists, barbers and attorneys to have a license.
+
+Higher Pay With NDCs
+
+Full-time workers with NDCs often reported significantly higher median annual earnings than those without, regardless of educational attainment (Figure 1).
+
+Workers with certain types of NDCs who had completed high school or “some college” had median incomes on par with people with more education.
+
+For instance, there was no difference in the median incomes of those who didn’t go beyond high school but had a certification or license and those who had some college or even an associate degree but no NDC.
+
+Some college plus a certification or license was associated with higher median income than an associate degree alone.
+
+Still, we can’t definitively credit NDCs for the increased earnings because the SIPP doesn’t ask when they were earned or whether they are relevant to respondents’ current jobs.
+
+Bigger Payoff for Those With Lower Education Level
+
+People with just a high school education were the only group to report significantly higher median earnings across all NDC types (Figure 2). They made 7.4% more with a certificate or certification/license, and about 21.0% more with a CCL, which is a combination of both.
+
+Workers with some college or an associate degree plus a certification/license or combination CCL earned 10.9% to 16.2% more.
+
+Only one type of NDC was connected with higher earnings for workers with bachelor’s degrees: those with a certification/license (alone and not in combination) earned about 5% more.
+
+How Many Have NDCs?
+
+Figure 3 illustrates the distribution and types of NDCs among full-time workers who had at least a high school diploma or equivalent but no more than a bachelor’s degree.
+
+We excluded workers with advanced degrees because only 20.0% of the full-time working adult population has such specialized degrees.
+
+We found that:
+
+Roughly a third of working adults had some sort of NDC and certifications/licenses were the most common ones earned.
+
+About 55% of NDC holders had only a certification/license and 23.5% a CCL.
+
+Approximately 45% had a certificate, including 21.6% with a certificate alone and 23.5% in combination with a certification/license.
+
+Who Had an NDC?
+
+Figure 4 highlights the share of the full-time working population with an NDC by key demographic categories:
+
+Women (36.1%) had NDCs at slightly higher rates than men (32.8%).
+
+About 30% of Hispanic (28.9%) and Asian (30.3%) workers reported having NDCs (these two groups were not significantly different). By comparison, approximately a third of White (36.0%), Black (34.0%) and adults of another race or ethnicity (35.6%) earned NDCs.
+
+NDCs were less common among workers ages 25 to 34 (29.3%) than among workers ages 35-64 (about 35%), suggesting that workers may seek more professional credentials later in their careers.
+
+Roughly half of associate degree holders (46.7%) reported having an NDC, possibly because a high proportion (43.0%) of associate degrees of adults age 25 and older were occupational rather than academic , often preparing graduates for healthcare and other technical fields that demand highly specialized training and additional qualifications.
+
+Which Occupations Had More Workers With NDCs?
+
+To measure NDC attainment across jobs, we combined workers’ reported occupations into five categories based on the Current Population Survey’s Detailed Occupation Recodes (2018) :
+
+Service . Healthcare support, food service, and custodial.
+
+Sales/administrative. Sales roles and office and administrative support.
+
+Farm/craft. Farming, fishing, forestry, construction and repair.
+
+Production. Manufacturing and transportation.
+
+Professional. Management, STEM (science, technology, engineering and mathematics), education, healthcare practitioner and legal.
+
+Almost 40% of workers in service, farm/craft and professional occupations had at least one NDC (Figure 5).
+
+This is not surprising given the extensive credentialing requirements for healthcare workers and information technology-related certifications for various software, programs and equipment. Farm and craft trades, like agriculture and plumbing, similarly require credentialing to work with hazardous chemicals, heavy machinery and complex systems.
+
+NDCs were less common in production and sales/administrative occupations. Some, like retail, don’t require extensive technical training.
+
+About the Data
+
+Data are subject to nonsampling and sampling error. More information about SIPP sampling and accuracy can be found on our website.
+
+theresa r. hernandez is a survey statistician at the Census Bureau.
+
+Related Statistics
+
+Education This section provides information on a range of educational topics, from educational attainment and school enrollment to school districts, costs and financing.
+
+Survey of Income and Program Participation (SIPP) Provides comprehensive information on the dynamics of income, employment, household composition, and government program participation.
+
+Our email newsletter is sent out on the day we publish a story. Get an alert directly in your inbox to read, share and blog about our newest stories.
+
+Contact our Public Information Office for media inquiries or interviews.

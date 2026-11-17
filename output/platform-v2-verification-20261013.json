@@ -1,0 +1,108 @@
+{
+  "verification": "saved_real_run_and_source_artifacts_checked_without_model_calls",
+  "as_of_client_date": "2026-10-13",
+  "passed": true,
+  "real_draft_run": {
+    "id": "run-b4ac767f3136",
+    "questions": 16,
+    "response_contract_errors": 3,
+    "runtime_token_count_matches": 16,
+    "formal": false
+  },
+  "real_resume_run": {
+    "id": "run-53c7b3e6db17",
+    "completed_before_cancel": 1,
+    "remaining_called_after_resume": 1,
+    "result_duplicates": 0,
+    "attempts": 2
+  },
+  "development_selection": {
+    "articles": 20,
+    "zh": 10,
+    "en": 10,
+    "body_and_raw_hashes_verified": 20,
+    "human_reviewed": 0,
+    "new_authored_questions": 0
+  },
+  "server": {
+    "application_version": "1.2.0",
+    "run": "run-9bb8ee9680af",
+    "mode": "cpu_single_paragraph_engineering_draft",
+    "runtime_input_tokens": 408,
+    "answer_correct": true,
+    "evidence_correct": false,
+    "full_passage_attempt_timed_out": true,
+    "new_weights_downloaded": false,
+    "candidate_articles_synced": 402,
+    "candidate_languages": {
+      "zh": 168,
+      "en": 234
+    }
+  },
+  "files": [
+    {
+      "path": "backend/experiment_v2.py",
+      "sha256": "f827722d9017311283e7b4b9ace544d8239d4ff44dcc2ae47bb1aa269d0340a0"
+    },
+    {
+      "path": "backend/benchmark_v2.py",
+      "sha256": "eed641328aebb078b8dfd8952f38fa684cf584b89677684d6ce0ef3ff044fe3f"
+    },
+    {
+      "path": "backend/token_budget.py",
+      "sha256": "20e5cdfbc812db7744517644008110dc444dc99d126d51eb9225f337f0253bae"
+    },
+    {
+      "path": "backend/server.py",
+      "sha256": "acc4e27de3377c654e5111a5fbd61f9ff5ea2829eee9ecb6fe0a72a2db2db840"
+    },
+    {
+      "path": "frontend/app.js",
+      "sha256": "c09cf3b77ea008b7a27904644e6af300add6d07562cb31b4cecbc6db53aa44cb"
+    },
+    {
+      "path": "frontend/styles.css",
+      "sha256": "c0545e5dff148e82a199c26944700e7fab1dc7b453963b696fabf74901bf9cdf"
+    },
+    {
+      "path": "data/benchmark-spec-v2.json",
+      "sha256": "b3692af2b928a99a8baf4e868fa683924c9061fa924767f6a93f104582608bdf"
+    },
+    {
+      "path": "data/annotation/dev-pilot-v2.json",
+      "sha256": "3b12d0375e3b44a500327e594094e333df02909d36b5e1c6476764ae66ad174b"
+    },
+    {
+      "path": "data/annotation/development-selection-20261013.json",
+      "sha256": "10f036c81a3f9b12cf08cc91640b05bdbaa4704552115c9f0490071bb4be2a60"
+    },
+    {
+      "path": "output/v2-qwen16-live-20261013.json",
+      "sha256": "0a54d71f43e94caebf3f569772bb8295c58a96af37326be11317a3ebd2d2127f"
+    },
+    {
+      "path": "output/v2-qwen16-live-20261013.csv",
+      "sha256": "fd46cb5646d68731d55610ac524d635609a5102c284299f0b8a2a2aa90d60183"
+    },
+    {
+      "path": "output/v2-resume-live-20261013.json",
+      "sha256": "258377e9da146af8c26a14e6eb4ae54a8b7d6d9c860a4faf9250dfa279076c9c"
+    },
+    {
+      "path": "output/v2-platform-20261013.png",
+      "sha256": "cb9473309851293b2fb2026023e41a87783d9968c0919c21a05e48f792dbfead"
+    },
+    {
+      "path": "docs/platform-v2-execution-20261013.md",
+      "sha256": "43b67f7b3ad897cd2ab501839a0fbade4ba60d0182107627dfe969554158673d"
+    },
+    {
+      "path": "output/server-v2-deployment-20261013.json",
+      "sha256": "858db6346a3048a51b72e8710cded15950d39be4883b3580f62bfb5ccb2d5905"
+    },
+    {
+      "path": "output/server-v2-corpus-api-verification-20261013.json",
+      "sha256": "7f7139bd2a57cfc4829e83ff3455366119fde5d6b9014c185c5ca2c90b1cc4a7"
+    }
+  ]
+}

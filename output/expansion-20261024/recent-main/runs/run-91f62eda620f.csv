@@ -1,0 +1,319 @@
+﻿model_name,language,article_id,question_id,dimension,kind,question,answer,unit,evidence_ids,confidence,abstain,answer_correct,choice_accuracy,short_em,short_token_f1,numeric_strict_accuracy,evidence_exact,evidence_f1,joint_success,brier_answer,latency_s,input_tokens,output_tokens,error,raw_response
+Qwen2.5 · 7B Instruct,zh,zh-cas-0681294f54cd-dev20261024,q01,D1,numeric,研究直接观测覆盖了多少个俯冲带？answer只写数值，unit写“个”。,15,个,"[""zh-cas-0681294f54cd-dev20261024:p002""]",0.9,False,1,,,,1,1,1.0,1,0.009999999999999995,4.834,984,56,,"{""answer"":""15"",""unit"":""个"",""evidence_ids"":[""zh-cas-0681294f54cd-dev20261024:p002""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-0681294f54cd-dev20261024,q02,D4,numeric,正文量化界面粗糙度所用观测尺度区间的上限减去下限是多少？answer只写数值，unit写“公里”。,9,公里,"[""zh-cas-0681294f54cd-dev20261024:p003""]",0.9,False,1,,,,1,1,1.0,1,0.009999999999999995,1.738,992,55,,"{""answer"":""9"",""unit"":""公里"",""evidence_ids"":[""zh-cas-0681294f54cd-dev20261024:p003""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-0681294f54cd-dev20261024,q03,D1,short,研究分析了哪种地震剖面来测量俯冲界面粗糙度？只写剖面名称。,反射地震剖面,,"[""p003""]",1,False,1,,1,1.0,,0,0,0,0,1.356,984,45,,"{
+  ""answer"": ""反射地震剖面"",
+  ""unit"": """",
+  ""evidence_ids"": [""p003""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-0681294f54cd-dev20261024,q04,D2,choice,为什么正文认为“粗糙”或“光滑”难以作为稳定指标？只答选项ID。,A,,"[""zh-cas-0681294f54cd-dev20261024:p004""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.77,1047,56,,"{""answer"":""A"", ""unit"":"""",""evidence_ids"":[""zh-cas-0681294f54cd-dev20261024:p004""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-0681294f54cd-dev20261024,q05,D3,choice,综合测量设计与比较结果，哪项描述准确？只答选项ID。,B,,"[""p002"", ""p003"", ""p004""]",1,False,1,1,,,,0,0,0,0,1.443,1064,47,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""p002"", ""p003"", ""p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-0681294f54cd-dev20261024,q06,D5,choice,根据结论，仅凭某俯冲界面很粗糙就断言其地震危险性很低，依据是否充分？只答选项ID。,A,,"[""p004""]",1,False,1,1,,,,0,0,0,0,1.096,1057,35,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-0681294f54cd-dev20261024,q07,D6,unanswerable,这35条板块边界断层下一次八级以上地震各自会在哪一天发生？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,0.847,989,28,,"{""answer"": """", ""unit"": """", ""evidence_ids"": [], ""confidence"": 0, ""abstain"": true}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-0681294f54cd-dev20261024,q08,D6,unanswerable,该研究项目的总经费具体为多少万元？若正文不足，请拒答。,,,[],0.9,True,1,,,,,0,,0,0.009999999999999995,0.914,980,30,,"{""answer"": """", ""unit"": """", ""evidence_ids"": [], ""confidence"": 0.9, ""abstain"": true}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-09ab242a8c29-dev20261024,q01,D1,short,研究用哪一种电流替代传统直流电？只写电流类别。,交流电,,"[""zh-cas-09ab242a8c29-dev20261024:p002""]",1,False,1,,1,1.0,,1,1.0,1,0,1.808,812,52,,"{""answer"":""交流电"",""unit"":"""",""evidence_ids"":[""zh-cas-09ab242a8c29-dev20261024:p002""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-09ab242a8c29-dev20261024,q02,D1,numeric,文中概念验证涉及几种不同反应体系？answer只写数值，unit写“种”。,3,种,"[""p004""]",1,False,1,,,,1,0,0,0,0,0.966,817,29,,"{""answer"":""3"",""unit"":""种"",""evidence_ids"":[""p004""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-09ab242a8c29-dev20261024,q03,D1,short,耦合乙二醇氧化反应时，除氢以外联产的高附加值产物是什么？只写产物名。,乙醇酸,,"[""zh-cas-09ab242a8c29-dev20261024:p004""]",1,False,1,,1,1.0,,1,1.0,1,0,1.689,822,53,,"{""answer"":""乙醇酸"",""unit"":"""",""evidence_ids"":[""zh-cas-09ab242a8c29-dev20261024:p004""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-09ab242a8c29-dev20261024,q04,D2,choice,极性反转抑制沉淀的机制，哪项与正文一致？只答选项ID。,D,,"[""zh-cas-09ab242a8c29-dev20261024:p003""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.672,897,53,,"{""answer"":""D"",""unit"":"""",""evidence_ids"":[""zh-cas-09ab242a8c29-dev20261024:p003""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-09ab242a8c29-dev20261024,q05,D3,choice,将待解决瓶颈与提出的方法相结合，哪项匹配正确？只答选项ID。,C,,"[""zh-cas-09ab242a8c29-dev20261024:p002"", ""zh-cas-09ab242a8c29-dev20261024:p003""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,2.558,897,82,,"{""answer"":""C"",""unit"":"""",""evidence_ids"":[""zh-cas-09ab242a8c29-dev20261024:p002"",""zh-cas-09ab242a8c29-dev20261024:p003""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-09ab242a8c29-dev20261024,q06,D5,choice,报道的概念验证能否直接写成“已给出商业工厂连续运行寿命”？只答选项ID。,C,,"[""zh-cas-09ab242a8c29-dev20261024:p004"", ""zh-cas-09ab242a8c29-dev20261024:p005""]",0.9,False,1,1,,,,0,0.6666666666666666,0,0.009999999999999995,2.656,883,85,,"{""answer"":""C"", ""unit"":"""",""evidence_ids"":[""zh-cas-09ab242a8c29-dev20261024:p004"",""zh-cas-09ab242a8c29-dev20261024:p005""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-09ab242a8c29-dev20261024,q07,D6,unanswerable,该交流电制氢实验使用的精确频率是多少赫兹？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,1.042,817,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-09ab242a8c29-dev20261024,q08,D6,unanswerable,该技术已测得每千克氢气的总用电量具体是多少千瓦时？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,1.03,822,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-a1f17924b1de-dev20261024,q01,D1,short,半埋入式仿生柱状仙人掌集雾器的英文缩写是什么？只写缩写。,BCF,,"[""[zh-cas-a1f17924b1de-dev20261024:p002]""]",1,False,1,,1,1.0,,0,0,0,0,2.285,1203,68,,"{
+  ""answer"": ""BCF"",
+  ""unit"": """",
+  ""evidence_ids"": [""[zh-cas-a1f17924b1de-dev20261024:p002]""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-a1f17924b1de-dev20261024,q02,D4,numeric,BCF的空气动力学收集效率比相同投影面积平板结构高多少个百分点？answer只写数值，unit写“个百分点”。,30.5,个百分点,"[""zh-cas-a1f17924b1de-dev20261024:p003""]",0.9,False,1,,,,1,1,1.0,1,0.009999999999999995,1.787,1207,57,,"{""answer"":""30.5"",""unit"":""个百分点"",""evidence_ids"":[""zh-cas-a1f17924b1de-dev20261024:p003""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-a1f17924b1de-dev20261024,q03,D1,numeric,文中高温干燥条件下主动冷凝的速率是多少？answer只写数值，unit写“千克/(平方米·小时)”。,2.4,千克/(平方米・小时),"[""p004""]",1,False,0,,,,0,0,0,0,1,1.483,1204,50,,"{
+  ""answer"": ""2.4"",
+  ""unit"": ""千克/(平方米・小时)"",
+  ""evidence_ids"": [""p004""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-a1f17924b1de-dev20261024,q04,D2,choice,三级水输运路径的正确次序是什么？只答选项ID。,D,,"[""zh-cas-a1f17924b1de-dev20261024:p003""]",1,False,1,1,,,,1,1.0,1,0,1.574,1278,50,,"{""answer"":""D"",""unit"":"""",""evidence_ids"":[""zh-cas-a1f17924b1de-dev20261024:p003""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-a1f17924b1de-dev20261024,q05,D3,choice,结合集雾结构和被动冷凝观察，哪项配对正确？只答选项ID。,D,,"[""p003"", ""p005""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,1.093,1289,34,,"{""answer"":""D"",""unit"":"""",""evidence_ids"":[""p003"",""p005""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-a1f17924b1de-dev20261024,q06,D5,choice,“单位面积年集水量约为当地年平均降水量8倍”在正文中属于哪类证据？只答选项ID。,A,,"[""zh-cas-a1f17924b1de-dev20261024:p004""]",1,False,1,1,,,,1,1.0,1,0,1.822,1270,58,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""zh-cas-a1f17924b1de-dev20261024:p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-a1f17924b1de-dev20261024,q07,D6,unanswerable,该装置每套商业售价具体是多少元？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,1.029,1195,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-a1f17924b1de-dev20261024,q08,D6,unanswerable,各个实地测试地点分别连续一年收集了多少升水？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,1.055,1197,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-f312523873aa-dev20261024,q01,D1,numeric,热诱导结构弛豫发生在多少K？answer只写数值，unit写“K”。,440,K,"[""p004""]",1,False,1,,,,1,0,0,0,0,1.313,805,38,,"{""answer"":""440"", ""unit"": ""K"", ""evidence_ids"": [""p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-f312523873aa-dev20261024,q02,D4,numeric,正文所述保持优异能量传递发光性能的温区，上限与下限相差多少K？answer只写数值，unit写“K”。,300,K,"[""p003""]",1,False,1,,,,1,0,0,0,0,0.988,816,31,,"{""answer"":""300"",""unit"":""K"",""evidence_ids"":[""p003""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-f312523873aa-dev20261024,q03,D1,short,研发这一系列闪烁体的中国科学院研究所是哪一个？只写所名。,福建物质结构研究所,,"[""zh-cas-f312523873aa-dev20261024:p003""]",1,False,1,,1,1.0,,1,1.0,1,0,1.662,802,53,,"{""answer"":""福建物质结构研究所"",""unit"":"""",""evidence_ids"":[""zh-cas-f312523873aa-dev20261024:p003""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-f312523873aa-dev20261024,q04,D2,choice,原位表征给出的热响应机制是什么？只答选项ID。,C,,"[""zh-cas-f312523873aa-dev20261024:p004""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.726,892,55,,"{""answer"":""C"", ""unit"":"""",""evidence_ids"":[""zh-cas-f312523873aa-dev20261024:p004""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-f312523873aa-dev20261024,q05,D3,choice,结合传统材料的限制与新屏的成像结果，哪项概括准确？只答选项ID。,C,,"[""p001"", ""p004""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,1.082,905,34,,"{""answer"":""C"",""unit"":"""",""evidence_ids"":[""p001"",""p004""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-f312523873aa-dev20261024,q06,D5,choice,下列哪一项把正文指标与其物理含义正确对应？只答选项ID。,A,,"[""p004""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,0.922,898,29,,"{""answer"":""A"",""unit"":"""",""evidence_ids"":[""p004""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-f312523873aa-dev20261024,q07,D6,unanswerable,柔性闪烁屏的每平方厘米制造成本是多少元？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,0.83,804,28,,"{""answer"": """", ""unit"": """", ""evidence_ids"": [], ""confidence"": 0, ""abstain"": true}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-f312523873aa-dev20261024,q08,D6,unanswerable,该屏连续运行一万小时后光产额衰减百分之多少？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,1.028,807,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-195bd1066dcd-dev20261024,q01,D1,short,发现旅行社或导游涉嫌违法违规，正文给出的属地热线号码是什么？只写号码。,12345,,"[""p011""]",1,False,1,,1,1.0,,0,0,0,0,1.244,1422,31,,"{""answer"":""12345"",""unit"":"""",""evidence_ids"":[""p011""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-195bd1066dcd-dev20261024,q02,D1,short,旅行社对合同作任何修改，正文要求通过什么文件确认？只写文件名。,书面补充协议,,"[""p008""]",1,False,1,,1,1.0,,0,0,0,0,0.955,1421,29,,"{""answer"":""书面补充协议"",""unit"":"""",""evidence_ids"":[""p008""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-195bd1066dcd-dev20261024,q03,D2,choice,仅有个人私下推广邀约、无法经保险公司官方核实的活动，应怎样处理？只答选项ID。,B,,"[""p007""]",1,False,1,1,,,,0,0,0,0,0.946,1496,30,,"{""answer"":""B"", ""unit"":"""",""evidence_ids"":[""p007""], ""confidence"":1, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-195bd1066dcd-dev20261024,q04,D3,choice,将低价诱导风险与行程安排防范要求结合，哪项最符合正文？只答选项ID。,B,,"[""p004"", ""p006"", ""p009""]",1,False,1,1,,,,0,0,0,0,1.195,1507,37,,"{""answer"":""B"",""unit"":"""",""evidence_ids"":[""p004"",""p006"",""p009""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-195bd1066dcd-dev20261024,q05,D2,choice,对于因旅行社原因导致合同解除的返程问题，正文如何规定？只答选项ID。,C,,"[""p009""]",1,False,1,1,,,,0,0,0,0,0.953,1482,30,,"{""answer"":""C"", ""unit"":"""",""evidence_ids"":[""p009""], ""confidence"":1, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-195bd1066dcd-dev20261024,q06,D5,choice,这份提示的主要用途是什么？只答选项ID。,D,,"[""p001""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,0.949,1473,29,,"{""answer"":""D"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-195bd1066dcd-dev20261024,q07,D6,unanswerable,报道所涉不正规旅游团累计骗取了多少元？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,1.032,1421,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-195bd1066dcd-dev20261024,q08,D6,unanswerable,每位遭强迫购物的消费者在所有案件中都能获得多少元固定赔偿？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,1.043,1426,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-21244521986d-dev20261024,q01,D1,numeric,2026年国庆假期全国国内出游是多少亿人次？answer只写数值，unit写“亿人次”。,8.26,亿人次,"[""p001""]",1,False,1,,,,1,0,0,0,0,1.186,879,33,,"{""answer"":""8.26"",""unit"":""亿人次"",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-21244521986d-dev20261024,q02,D4,numeric,正文所报大型演出中，演唱会场次比音乐节场次多多少？answer只写数值，unit写“场次”。,70,场次,"[""p002""]",1,False,1,,,,1,0,0,0,0,1.043,883,31,,"{""answer"":""70"",""unit"":""场次"",""evidence_ids"":[""p002""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-21244521986d-dev20261024,q03,D1,numeric,国家级夜间文化和旅游消费集聚区累计夜间客流量是多少亿人次？answer只写数值，unit写“亿人次”。,1.07,亿人次,"[""p003""]",1,False,1,,,,1,0,0,0,0,1.24,880,40,,"{""answer"":""1.07"", ""unit"": ""亿人次"", ""evidence_ids"": [""p003""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-21244521986d-dev20261024,q04,D2,choice,开篇给出的出游与总花费同比增长，正文注明采用什么比较口径？只答选项ID。,C,,"[""p001""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,0.927,920,29,,"{""answer"":""C"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-21244521986d-dev20261024,q05,D3,choice,结合惠民消费和智慧管理两部分，哪项配对正确？只答选项ID。,A,,"[""p003""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,0.935,949,29,,"{""answer"":""A"",""unit"":"""",""evidence_ids"":[""p003""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-21244521986d-dev20261024,q06,D5,choice,把“8.26亿人次”直接写成“8.26亿名互不重复的游客”，是否严谨？只答选项ID。,A,,"[""p001""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,0.995,949,32,,"{""answer"":""A"", ""unit"":"""",""evidence_ids"":[""p001""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-21244521986d-dev20261024,q07,D6,unanswerable,每个省份在本次假期分别接待多少名去重游客？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,1.041,873,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-mct-21244521986d-dev20261024,q08,D6,unanswerable,使用AI伴游与未使用者的人均满意度相差多少分？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,1.018,874,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-mee-91284d5fb252-dev20261024,q01,D1,short,《基加利修正案》纳入管控的非二氧化碳温室气体名称是什么？只写气体类别。,氢氟碳化物,,"[""zh-mee-91284d5fb252-dev20261024:p002""]",1,False,1,,1,1.0,,1,1.0,1,0,2.218,806,70,,"{
+  ""answer"": ""氢氟碳化物"",
+  ""unit"": """",
+  ""evidence_ids"": [""zh-mee-91284d5fb252-dev20261024:p002""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,zh-mee-91284d5fb252-dev20261024,q02,D1,numeric,中国从哪一年开始对氢氟碳化物实施配额许可管理？answer只写数值，unit写“年”。,2024,年,"[""zh-mee-91284d5fb252-dev20261024:p002""]",1,False,1,,,,1,1,1.0,1,0,1.788,812,56,,"{""answer"":""2024"",""unit"":""年"",""evidence_ids"":[""zh-mee-91284d5fb252-dev20261024:p002""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mee-91284d5fb252-dev20261024,q03,D4,numeric,文中HFC生产与使用总量相对履约目标的累计减少量，两项所列数值相差多少？answer只写数值，unit写“亿吨二氧化碳当量”。,4.34,亿吨二氧化碳当量,"[""zh-mee-91284d5fb252-dev20261024:p002""]",1,False,0,,,,0,1,1.0,0,1,1.851,820,59,,"{""answer"":""4.34"",""unit"":""亿吨二氧化碳当量"",""evidence_ids"":[""zh-mee-91284d5fb252-dev20261024:p002""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mee-91284d5fb252-dev20261024,q04,D2,choice,关于避免升温的数字，哪项忠实保留了正文时间和条件？只答选项ID。,C,,"[""zh-mee-91284d5fb252-dev20261024:p002""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.663,893,53,,"{""answer"":""C"",""unit"":"""",""evidence_ids"":[""zh-mee-91284d5fb252-dev20261024:p002""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mee-91284d5fb252-dev20261024,q05,D3,choice,结合对协同效益的阐述与会议强调的行动，哪项概括合适？只答选项ID。,A,,"[""zh-mee-91284d5fb252-dev20261024:p002"", ""zh-mee-91284d5fb252-dev20261024:p003""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,2.607,880,83,,"{""answer"":""A"", ""unit"":"""",""evidence_ids"":[""zh-mee-91284d5fb252-dev20261024:p002"",""zh-mee-91284d5fb252-dev20261024:p003""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mee-91284d5fb252-dev20261024,q06,D5,choice,从这篇纪念大会报道，能否推出全球臭氧层与气候问题已经彻底解决？只答选项ID。,A,,"[""zh-mee-91284d5fb252-dev20261024:p003""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.779,871,56,,"{""answer"":""A"", ""unit"":"""",""evidence_ids"":[""zh-mee-91284d5fb252-dev20261024:p003""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mee-91284d5fb252-dev20261024,q07,D6,unanswerable,每家HFC生产企业在2027年获得的配额具体是多少吨？若正文不足，请拒答。,,,[],1,True,1,,,,,0,,0,0,1.04,810,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 1,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-mee-91284d5fb252-dev20261024,q08,D6,unanswerable,本次纪念大会总支出具体为多少万元？若正文不足，请拒答。,,,[],1,True,1,,,,,0,,0,0,1.045,801,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 1,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-6b016a15454b-dev20261024,q01,D1,numeric,2026年上半年全国居民人均可支配收入是多少？answer只写数值，unit写“元”。,22981,元,"[""zh-nbs-6b016a15454b-dev20261024:p001""]",1,False,1,,,,1,1,1.0,1,0,2.471,1355,73,,"{
+  ""answer"": ""22981"",
+  ""unit"": ""元"",
+  ""evidence_ids"": [""zh-nbs-6b016a15454b-dev20261024:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-6b016a15454b-dev20261024,q02,D4,numeric,上半年城镇居民与农村居民的人均可支配收入相差多少？answer只写数值，unit写“元”。,17427,元,"[""zh-nbs-6b016a15454b-dev20261024:p001""]",1,False,1,,,,1,1,1.0,1,0,2.007,1355,65,,"{""answer"":""17427"", ""unit"": ""元"", ""evidence_ids"": [""zh-nbs-6b016a15454b-dev20261024:p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-6b016a15454b-dev20261024,q03,D1,short,正文列举的四类收入来源中，占可支配收入比重最高的是哪一类？只写收入类型。,工资性收入,,"[""zh-nbs-6b016a15454b-dev20261024:p002""]",1,False,1,,1,1.0,,1,1.0,1,0,1.705,1355,54,,"{""answer"":""工资性收入"",""unit"":"""",""evidence_ids"":[""zh-nbs-6b016a15454b-dev20261024:p002""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-6b016a15454b-dev20261024,q04,D2,choice,全国居民收入名义增长与扣除价格因素后实际增长，哪项配对正确？只答选项ID。,B,,"[""zh-nbs-6b016a15454b-dev20261024:p001""]",1,False,1,1,,,,1,1.0,1,0,1.858,1407,60,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""zh-nbs-6b016a15454b-dev20261024:p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-6b016a15454b-dev20261024,q05,D3,choice,把收入来源结构与收入中位数两部分合看，哪项同时符合全国数据？只答选项ID。,D,,"[""zh-nbs-6b016a15454b-dev20261024:p002"", ""zh-nbs-6b016a15454b-dev20261024:p003""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,2.68,1453,84,,"{""answer"":""D"",""unit"":"""",""evidence_ids"":[""zh-nbs-6b016a15454b-dev20261024:p002"",""zh-nbs-6b016a15454b-dev20261024:p003""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-6b016a15454b-dev20261024,q06,D5,choice,全国人均收入增长能否直接表述为“每个居民的收入都按同一比例增加”？只答选项ID。,B,,"[""zh-nbs-6b016a15454b-dev20261024:p003""]",0.9,False,1,1,,,,0,0.6666666666666666,0,0.009999999999999995,1.786,1429,57,,"{""answer"":""B"", ""unit"":"""",""evidence_ids"":[""zh-nbs-6b016a15454b-dev20261024:p003""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-6b016a15454b-dev20261024,q07,D6,unanswerable,该固定节选中，每户居民的家庭收入原始明细分别是多少？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,1.053,1354,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-6b016a15454b-dev20261024,q08,D6,unanswerable,上半年各省居民实际收入增长率分别是多少？若正文不足，请拒答。,4.2%,%,"[""zh-nbs-6b016a15454b-dev20261024:p001""]",1,False,0,,,,,0,,0,1,2.111,1347,70,,"{
+  ""answer"": ""4.2%"",
+  ""unit"": ""%"",
+  ""evidence_ids"": [""zh-nbs-6b016a15454b-dev20261024:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-e172ba371342-dev20261024,q01,D1,short,开篇指出，哪一种能源的生产从同比下降转为同比增长？只写能源名称。,天然气,,"[""p009""]",1,False,1,,1,1.0,,0,0,0,0,1.095,1416,27,,"{""answer"":""天然气"",""unit"":"""",""evidence_ids"":[""p009""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-e172ba371342-dev20261024,q02,D1,numeric,2026年8月份规上工业原油产量是多少？answer只写数值，unit写“万吨”。,1843,万吨,"[""zh-nbs-e172ba371342-dev20261024:p005""]",1,False,1,,,,1,1,1.0,1,0,1.926,1421,62,,"{""answer"":""1843"", ""unit"": ""万吨"", ""evidence_ids"": [""zh-nbs-e172ba371342-dev20261024:p005""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-e172ba371342-dev20261024,q03,D4,numeric,天然气产量同比增速从7月到8月提高多少个百分点？answer只写数值，unit写“个百分点”。,0.7,个百分点,"[""zh-nbs-e172ba371342-dev20261024:p009""]",0.95,False,0,,,,0,1,1.0,0,0.9025,1.784,1421,57,,"{""answer"":""0.7"",""unit"":""个百分点"",""evidence_ids"":[""zh-nbs-e172ba371342-dev20261024:p009""],""confidence"":0.95,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-e172ba371342-dev20261024,q04,D2,choice,正文统计口径中的规模以上工业企业是什么范围？只答选项ID。,C,,"[""zh-nbs-e172ba371342-dev20261024:p014""]",1,False,1,1,,,,1,1.0,1,0,1.618,1467,50,,"{""answer"":""C"",""unit"":"""",""evidence_ids"":[""zh-nbs-e172ba371342-dev20261024:p014""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-e172ba371342-dev20261024,q05,D3,choice,结合原煤与原油两部分，哪种比较准确？只答选项ID。,C,,"[""p003"", ""p005""]",1,False,1,1,,,,0,0,0,0,1.068,1489,32,,"{""answer"":""C"",""unit"":"""",""evidence_ids"":[""p003"",""p005""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-e172ba371342-dev20261024,q06,D5,choice,为什么不能直接用上年已公布的原始产量总数来替代本文同比计算所用同期数？只答选项ID。,C,,"[""zh-nbs-e172ba371342-dev20261024:p015""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.65,1495,52,,"{""answer"":""C"",""unit"":"""",""evidence_ids"":[""zh-nbs-e172ba371342-dev20261024:p015""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-e172ba371342-dev20261024,q07,D6,unanswerable,2026年8月每家规上工业企业分别生产了多少吨原煤？若正文不足，请拒答。,1167,万吨,"[""p003""]",1,False,0,,,,,0,,0,1,1.015,1422,32,,"{""answer"":""1167"",""unit"":""万吨"",""evidence_ids"":[""p003""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-nbs-e172ba371342-dev20261024,q08,D6,unanswerable,正文能确定2026年9月天然气产量精确为多少亿立方米吗？若不能，请拒答。,,,[],,False,0,,,,,0,,0,,0.812,1421,25,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[],""confidence"":0,""abstain"":true}"
+Qwen2.5 · 7B Instruct,zh,zh-mct_local-416f209f9d4d-dev20261024,q01,D1,short,天津图书馆此次上线的网借平台名称是什么？只写名称。,津图e借,,"[""p001"", ""p002""]",1,False,1,,1,1.0,,0,0,0,0,1.247,853,35,,"{""answer"":""津图e借"",""unit"":"""",""evidence_ids"":[""p001"",""p002""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct_local-416f209f9d4d-dev20261024,q02,D4,numeric,按照文中列举，小程序中的天津图书馆加区级图书馆共有多少家？answer只写数值，unit写“家”。,11,家,"[""p002""]",1,False,1,,,,1,0,0,0,0,0.931,865,30,,"{""answer"":""11"",""unit"":""家"",""evidence_ids"":[""p002""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct_local-416f209f9d4d-dev20261024,q03,D1,short,签署四方合作协议的高校研究中心名称是什么？只写名称。,北京大学数字人文研究中心,,"[""p004""]",1,False,1,,1,1.0,,0,0,0,0,1.328,851,45,,"{
+  ""answer"": ""北京大学数字人文研究中心"",
+  ""unit"": """",
+  ""evidence_ids"": [""p004""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,zh-mct_local-416f209f9d4d-dev20261024,q04,D2,choice,关于网借邮费优惠，哪项准确保留了正文条件？只答选项ID。,B,,"[""p002""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,0.925,935,29,,"{""answer"":""B"",""unit"":"""",""evidence_ids"":[""p002""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct_local-416f209f9d4d-dev20261024,q05,D3,choice,结合读者体验与四方合作，哪项配对正确？只答选项ID。,A,,"[""p001"", ""p003""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,1.09,933,34,,"{""answer"":""A"",""unit"":"""",""evidence_ids"":[""p001"",""p003""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct_local-416f209f9d4d-dev20261024,q06,D5,choice,本文能否证明该平台已经实现全国所有省份统一、无限次免邮服务？只答选项ID。,A,,"[""p001"", ""p002""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,1.163,936,37,,"{""answer"":""A"", ""unit"":"""",""evidence_ids"":[""p001"",""p002""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-mct_local-416f209f9d4d-dev20261024,q07,D6,unanswerable,平台已经完成的累计借阅订单精确是多少单？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,1.019,857,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,zh,zh-mct_local-416f209f9d4d-dev20261024,q08,D6,unanswerable,所有读者从下单到收书的平均时长精确是多少小时？若正文不足，请拒答。,,,[],0,True,1,,,,,0,,0,1,1.006,860,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 7B Instruct,en,en-govuk-027559558240-dev20261024,q01,D1,short,Which fund must eligible students have full access to for the new advance payments? Give the fund name only.,NHS Learning Support Fund,,"[""[en-govuk-027559558240-dev20261024:p005]""]",1,False,1,,1,1.0,,0,0,0,0,2.647,1536,76,,"{
+  ""answer"": ""NHS Learning Support Fund"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""[en-govuk-027559558240-dev20261024:p005]""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,en,en-govuk-027559558240-dev20261024,q02,D1,numeric,"Below what advance-payment balance can students request a top-up? Write only the number in answer and use unit=""GBP"".",50,GBP,"[""en-govuk-027559558240-dev20261024:p018""]",0.9,False,1,,,,1,1,1.0,1,0.009999999999999995,1.964,1539,62,,"{""answer"":""50"", ""unit"":""GBP"", ""evidence_ids"":[""en-govuk-027559558240-dev20261024:p018""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-027559558240-dev20261024,q03,D1,short,Which authority is delivering the advance-payment facility? Give its full name or acronym only.,NHS Business Services Authority,,"[""en-govuk-027559558240-dev20261024:p017""]",1,False,1,,1,1.0,,1,1.0,1,0,2.195,1532,72,,"{
+  ""answer"": ""NHS Business Services Authority"",
+  ""unit"": """",
+  ""evidence_ids"": [""en-govuk-027559558240-dev20261024:p017""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,en,en-govuk-027559558240-dev20261024,q04,D2,choice,What happens to approved claims under the new arrangement? Return only the option ID.,A,,"[""en-govuk-027559558240-dev20261024:p018""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.812,1595,58,,"{""answer"":""A"", ""unit"":"""",""evidence_ids"":[""en-govuk-027559558240-dev20261024:p018""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-027559558240-dev20261024,q05,D3,choice,How does the new facility address the cash-flow problem described in the old system? Return only the option ID.,B,,"[""en-govuk-027559558240-dev20261024:p006"", ""en-govuk-027559558240-dev20261024:p017""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,2.813,1599,89,,"{""answer"":""B"", ""unit"":"""",""evidence_ids"":[""en-govuk-027559558240-dev20261024:p006"",""en-govuk-027559558240-dev20261024:p017""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-027559558240-dev20261024,q06,D5,choice,Does the announcement itself establish a measured increase in student completion rates caused by these payments? Return only the option ID.,D,,"[""en-govuk-027559558240-dev20261024:p004"", ""en-govuk-027559558240-dev20261024:p007"", ""en-govuk-027559558240-dev20261024:p013""]",0.8,False,1,1,,,,0,0.4,0,0.03999999999999998,3.718,1602,120,,"{""answer"":""D"", ""unit"":"""",""evidence_ids"":[""en-govuk-027559558240-dev20261024:p004"",""en-govuk-027559558240-dev20261024:p007"",""en-govuk-027559558240-dev20261024:p013""], ""confidence"":0.8, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-027559558240-dev20261024,q07,D6,unanswerable,What exact initial float amount will every eligible student receive? Abstain if the excerpt does not determine it.,50,pound sterling,"[""en-govuk-027559558240-dev20261024:p018""]",0.9,False,0,,,,,0,,0,0.81,1.89,1537,60,,"{""answer"":""50"",""unit"":""pound sterling"",""evidence_ids"":[""en-govuk-027559558240-dev20261024:p018""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-027559558240-dev20261024,q08,D6,unanswerable,"After this change, what will the average claim-processing time be in hours? Abstain if the excerpt does not determine it.",,,[],,False,0,,,,,0,,0,,1.814,1541,57,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""en-govuk-027559558240-dev20261024:p007""],""confidence"":0.3,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-govuk-18a21b651548-dev20261024,q01,D1,short,"Of Ardingly and Wimbleball, which reservoir has the lower reported storage percentage? Give only the reservoir name.",Wimbleball,,"[""[en-govuk-18a21b651548-dev20261024:p003]""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,2.27,1648,63,,"{""answer"":""Wimbleball"", ""unit"":"""",""evidence_ids"":[""[en-govuk-18a21b651548-dev20261024:p003]""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-18a21b651548-dev20261024,q02,D4,numeric,"How many percentage points separate the two reservoir storage percentages given for Ardingly and Wimbleball? Write only the number and use unit=""percentage points"".",12,percentage points,"[""[en-govuk-18a21b651548-dev20261024:p003]""]",0.9,False,0,,,,0,0,0,0,0.81,2.014,1655,65,,"{""answer"":""12"", ""unit"":""percentage points"", ""evidence_ids"":[""[en-govuk-18a21b651548-dev20261024:p003]""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-18a21b651548-dev20261024,q03,D1,numeric,"What percentage of average rainfall did England record nationally in September? Write only the number and use unit=""%"".",65,%,"[""en-govuk-18a21b651548-dev20261024:p016""]",0.9,False,1,,,,1,1,1.0,1,0.009999999999999995,1.893,1645,61,,"{""answer"":""65"", ""unit"":""%"", ""evidence_ids"":[""en-govuk-18a21b651548-dev20261024:p016""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-18a21b651548-dev20261024,q04,D2,choice,How does the passage relate a potentially wetter El Niño autumn to drought and flood risk? Return only the option ID.,D,,"[""en-govuk-18a21b651548-dev20261024:p021""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.831,1712,58,,"{""answer"":""D"", ""unit"":"""",""evidence_ids"":[""en-govuk-18a21b651548-dev20261024:p021""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-18a21b651548-dev20261024,q05,D3,choice,"Why are drought permits being processed, and what balance does the passage say is sought? Return only the option ID.",C,,"[""en-govuk-18a21b651548-dev20261024:p008""]",0.9,False,1,1,,,,0,0.6666666666666666,0,0.009999999999999995,1.852,1708,58,,"{""answer"":""C"", ""unit"":"""",""evidence_ids"":[""en-govuk-18a21b651548-dev20261024:p008""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-18a21b651548-dev20261024,q06,D5,choice,Is continued reservoir decline presented as an unconditional outcome whatever the weather and demand? Return only the option ID.,D,,"[""en-govuk-18a21b651548-dev20261024:p019""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.938,1712,62,,"{""answer"":""D"", ""unit"": """", ""evidence_ids"": [""en-govuk-18a21b651548-dev20261024:p019""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-18a21b651548-dev20261024,q07,D6,unanswerable,How many litres of water will each household lose on the next day? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,1.918,1648,61,拒答的unit必须为空,"{""answer"":""'"", ""unit"":""litres"", ""evidence_ids"":[""en-govuk-18a21b651548-dev20261024:p000""], ""confidence"":0.1, ""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-govuk-18a21b651548-dev20261024,q08,D6,unanswerable,On what exact day will England's drought end? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,1.788,1644,57,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""en-govuk-18a21b651548-dev20261024:p020""],""confidence"":0.3,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-govuk-2467f63aa2e3-dev20261024,q01,D1,numeric,"How many local authorities will receive the new funding? Write only the number and use unit=""authorities"".",45,authorities,"[""en-govuk-2467f63aa2e3-dev20261024:p002""]",1,False,1,,,,1,1,1.0,1,0,1.997,833,60,,"{""answer"":""45"", ""unit"":""authorities"", ""evidence_ids"":[""en-govuk-2467f63aa2e3-dev20261024:p002""], ""confidence"":1, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-2467f63aa2e3-dev20261024,q02,D4,numeric,"Using the stated per-authority grant and number of recipient authorities, what total is implied? Write only the number and use unit=""GBP"".",9990000,GBP,"[""en-govuk-2467f63aa2e3-dev20261024:p002""]",1,False,1,,,,1,1,1.0,1,0,2.07,840,67,,"{""answer"":""9990000"", ""unit"": ""GBP"", ""evidence_ids"": [""en-govuk-2467f63aa2e3-dev20261024:p002""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-2467f63aa2e3-dev20261024,q03,D1,short,Which advisory council's work helped develop the programme? Give the council name only.,Citizen’s Advisory Council,,"[""[en-govuk-2467f63aa2e3-dev20261024:p006]""]",1,False,1,,1,1.0,,0,0,0,0,1.996,828,65,,"{""answer"":""Citizen’s Advisory Council"", ""unit"": """", ""evidence_ids"": [""[en-govuk-2467f63aa2e3-dev20261024:p006]""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-2467f63aa2e3-dev20261024,q04,D2,choice,How should the headline funding of almost £10 million be read alongside the individual grants? Return only the option ID.,C,,"[""en-govuk-2467f63aa2e3-dev20261024:p002""]",0.95,False,1,1,,,,0,0.6666666666666666,0,0.0025000000000000044,1.946,904,63,,"{""answer"": ""C"", ""unit"": """", ""evidence_ids"": [""en-govuk-2467f63aa2e3-dev20261024:p002""], ""confidence"": 0.95, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-2467f63aa2e3-dev20261024,q05,D3,choice,Which combination accurately links targeting to the kinds of local action proposed? Return only the option ID.,C,,"[""[en-govuk-2467f63aa2e3-dev20261024:p002]"", ""[en-govuk-2467f63aa2e3-dev20261024:p003]""]",1,False,1,1,,,,0,0,0,0,2.9,905,93,,"{""answer"": ""C"", ""unit"": """", ""evidence_ids"": [""[en-govuk-2467f63aa2e3-dev20261024:p002]"", ""[en-govuk-2467f63aa2e3-dev20261024:p003]""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-2467f63aa2e3-dev20261024,q06,D5,choice,Does listing possible community kitchens prove that all 45 authorities already operate new kitchens funded by this programme? Return only the option ID.,B,,"[""en-govuk-2467f63aa2e3-dev20261024:p003""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.897,903,62,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""en-govuk-2467f63aa2e3-dev20261024:p003""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-2467f63aa2e3-dev20261024,q07,D6,unanswerable,What exact share of each authority's grant must be spent on mobile greengrocers? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,1.746,841,56,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""en-govuk-2467f63aa2e3-dev20261024:p003""],""confidence"":0.5,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-govuk-2467f63aa2e3-dev20261024,q08,D6,unanswerable,By how many percentage points has this new programme already reduced childhood obesity? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,1.76,837,56,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""en-govuk-2467f63aa2e3-dev20261024:p004""],""confidence"":0.5,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-govuk-46ec8bca43bf-dev20261024,q01,D1,short,In which town is the UK's 250th banking hub opening? Give the town only.,Chepstow,,"[""en-govuk-46ec8bca43bf-dev20261024:p004""]",0.95,False,1,,1,1.0,,1,1.0,1,0.0025000000000000044,1.873,918,55,,"{""answer"":""Chepstow"",""unit"":"""",""evidence_ids"":[""en-govuk-46ec8bca43bf-dev20261024:p004""],""confidence"":0.95,""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-46ec8bca43bf-dev20261024,q02,D1,numeric,"What ordinal number does the newly opening Chepstow hub have in the national sequence? Write only the number and use unit=""hub"".",250,hub,"[""en-govuk-46ec8bca43bf-dev20261024:p002""]",1,False,1,,,,1,1,1.0,1,0,1.821,924,58,,"{""answer"":""250"", ""unit"":""hub"", ""evidence_ids"":[""en-govuk-46ec8bca43bf-dev20261024:p002""], ""confidence"":1, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-46ec8bca43bf-dev20261024,q03,D4,numeric,"Starting from the reported number of opened hubs, how many more would be needed to reach the minimum manifesto target? Write only the number and use unit=""hubs"".",35,hubs,"[""en-govuk-46ec8bca43bf-dev20261024:p007""]",0.9,False,0,,,,0,1,1.0,0,0.81,1.729,930,56,,"{""answer"":""35"",""unit"":""hubs"",""evidence_ids"":[""en-govuk-46ec8bca43bf-dev20261024:p007""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-46ec8bca43bf-dev20261024,q04,D2,choice,Which distinction between cash access and staff services is supported? Return only the option ID.,C,,"[""en-govuk-46ec8bca43bf-dev20261024:p006""]",0.95,False,1,1,,,,0,0.6666666666666666,0,0.0025000000000000044,1.894,998,61,,"{""answer"": ""C"", ""unit"": """", ""evidence_ids"": [""en-govuk-46ec8bca43bf-dev20261024:p006""], ""confidence"": 0.95, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-46ec8bca43bf-dev20261024,q05,D3,choice,How does the hub address the local problem described in the passage? Return only the option ID.,D,,"[""en-govuk-46ec8bca43bf-dev20261024:p004"", ""en-govuk-46ec8bca43bf-dev20261024:p005"", ""en-govuk-46ec8bca43bf-dev20261024:p006""]",1,False,1,1,,,,0,0.8,0,0,3.577,993,116,,"{""answer"": ""D"", ""unit"": """", ""evidence_ids"": [""en-govuk-46ec8bca43bf-dev20261024:p004"", ""en-govuk-46ec8bca43bf-dev20261024:p005"", ""en-govuk-46ec8bca43bf-dev20261024:p006""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-46ec8bca43bf-dev20261024,q06,D5,choice,Which description best matches the hub model in this excerpt? Return only the option ID.,A,,"[""en-govuk-46ec8bca43bf-dev20261024:p006"", ""en-govuk-46ec8bca43bf-dev20261024:p008""]",1,False,1,1,,,,0,0.6666666666666666,0,0,2.669,979,87,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""en-govuk-46ec8bca43bf-dev20261024:p006"", ""en-govuk-46ec8bca43bf-dev20261024:p008""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-govuk-46ec8bca43bf-dev20261024,q07,D6,unanswerable,Which bank's community banker will be in the hub on each day next week? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,1.669,924,54,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""en-govuk-46ec8bca43bf-dev20261024:p007""],""confidence"":0.5,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-govuk-46ec8bca43bf-dev20261024,q08,D6,unanswerable,What exact amount did constructing this Chepstow hub cost? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,3.578,920,116,refusal_contains_answer_or_evidence,"{""answer"": """", ""unit"": """", ""evidence_ids"": [""en-govuk-46ec8bca43bf-dev20261024:p004"", ""en-govuk-46ec8bca43bf-dev20261024:p005"", ""en-govuk-46ec8bca43bf-dev20261024:p006""], ""confidence"": 0.7, ""abstain"": true}"
+Qwen2.5 · 7B Instruct,en,en-nasa-5742cda52abd-dev20261024,q01,D1,short,What is the stated registration deadline for the 2026–2027 ORBIT challenge? Give the date only.,Nov. 16,,"[""en-nasa-5742cda52abd-dev20261024:p002"", ""en-nasa-5742cda52abd-dev20261024:p008""]",1,False,0,,0,0.8,,0,0.6666666666666666,0,1,2.865,1013,89,,"{""answer"": ""Nov. 16"", ""unit"": """", ""evidence_ids"": [""en-nasa-5742cda52abd-dev20261024:p002"", ""en-nasa-5742cda52abd-dev20261024:p008""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-5742cda52abd-dev20261024,q02,D1,numeric,"What is the maximum total prize funding stated for the second season? Write only the number and use unit=""USD"".",500000,USD,"[""en-nasa-5742cda52abd-dev20261024:p003""]",1,False,1,,,,1,1,1.0,1,0,1.997,1009,63,,"{""answer"":""500000"", ""unit"": ""USD"", ""evidence_ids"": [""en-nasa-5742cda52abd-dev20261024:p003""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-5742cda52abd-dev20261024,q03,D1,short,Which new specialty recognition rewards the strongest roadmaps for continuing development after the challenge? Give only its name.,Next Steps Award,,"[""[en-nasa-5742cda52abd-dev20261024:p006]""]",1,False,1,,1,1.0,,0,0,0,0,2.037,1007,68,,"{
+  ""answer"": ""Next Steps Award"",
+  ""unit"": """",
+  ""evidence_ids"": [""[en-nasa-5742cda52abd-dev20261024:p006]""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,en,en-nasa-5742cda52abd-dev20261024,q04,D2,choice,What must teams in the Earth track do with a NASA-owned patent? Return only the option ID.,A,,"[""en-nasa-5742cda52abd-dev20261024:p004""]",1,False,1,1,,,,1,1.0,1,0,1.743,1059,57,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""en-nasa-5742cda52abd-dev20261024:p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-5742cda52abd-dev20261024,q05,D3,choice,Which pair accurately distinguishes the two main tracks? Return only the option ID.,A,,"[""en-nasa-5742cda52abd-dev20261024:p004"", ""en-nasa-5742cda52abd-dev20261024:p005""]",1,False,1,1,,,,1,1.0,1,0,2.635,1071,85,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""en-nasa-5742cda52abd-dev20261024:p004"", ""en-nasa-5742cda52abd-dev20261024:p005""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-5742cda52abd-dev20261024,q06,D5,choice,Does reaching the Pitch Showcase mean every finalist has already flown a working space mission? Return only the option ID.,B,,"[""en-nasa-5742cda52abd-dev20261024:p003""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.8,1074,59,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""en-nasa-5742cda52abd-dev20261024:p003""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-5742cda52abd-dev20261024,q07,D6,unanswerable,What is the minimum number of students required on each team? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,1.631,1009,53,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""en-nasa-5742cda52abd-dev20261024:p003""],""confidence"":0.5,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-nasa-5742cda52abd-dev20261024,q08,D6,unanswerable,How much prize money will the winning Space-track team receive specifically? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,1.744,1010,57,refusal_contains_answer_or_evidence,"{""answer"": """", ""unit"": """", ""evidence_ids"": [""en-nasa-5742cda52abd-dev20261024:p003""], ""confidence"": 0.5, ""abstain"": true}"
+Qwen2.5 · 7B Instruct,en,en-nasa-b85427f614dd-dev20261024,q01,D1,numeric,"How many small experimental capsules were carried for the reported heat-shield experiment? Write only the number and use unit=""capsules"".",12,capsules,"[""en-nasa-b85427f614dd-dev20261024:p002""]",1,False,1,,,,1,1,1.0,1,0,1.986,1212,58,,"{""answer"":""12"", ""unit"":""capsules"", ""evidence_ids"":[""en-nasa-b85427f614dd-dev20261024:p002""], ""confidence"":1, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-b85427f614dd-dev20261024,q02,D1,short,What is the experiment's abbreviated name including its series number? Give only that name.,KREPE-3,,"[""[en-nasa-b85427f614dd-dev20261024:p003]""]",1,False,1,,1,1.0,,0,0,0,0,2.156,1203,71,,"{
+  ""answer"": ""KREPE-3"",
+  ""unit"": """",
+  ""evidence_ids"": [""[en-nasa-b85427f614dd-dev20261024:p003]""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,en,en-nasa-b85427f614dd-dev20261024,q03,D1,short,Students from which university designed the capsules? Give the university only.,University of Kentucky,,"[""en-nasa-b85427f614dd-dev20261024:p007""]",0.9,False,1,,1,1.0,,1,1.0,1,0.009999999999999995,1.682,1199,54,,"{""answer"":""University of Kentucky"",""unit"":"""",""evidence_ids"":[""en-nasa-b85427f614dd-dev20261024:p007""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-b85427f614dd-dev20261024,q04,D2,choice,How can researchers obtain capsule data during the vehicle's breakup? Return only the option ID.,B,,"[""en-nasa-b85427f614dd-dev20261024:p007"", ""en-nasa-b85427f614dd-dev20261024:p008""]",0.9,False,1,1,,,,0,0.6666666666666666,0,0.009999999999999995,2.706,1265,88,,"{""answer"":""B"", ""unit"": """", ""evidence_ids"": [""en-nasa-b85427f614dd-dev20261024:p007"", ""en-nasa-b85427f614dd-dev20261024:p008""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-b85427f614dd-dev20261024,q05,D3,choice,Which pair correctly combines the instrumented tests and the proposed Mars-material rationale? Return only the option ID.,D,,"[""en-nasa-b85427f614dd-dev20261024:p007"", ""en-nasa-b85427f614dd-dev20261024:p012""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,2.707,1291,88,,"{""answer"":""D"", ""unit"": """", ""evidence_ids"": [""en-nasa-b85427f614dd-dev20261024:p007"", ""en-nasa-b85427f614dd-dev20261024:p012""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-b85427f614dd-dev20261024,q06,D5,choice,Do these tests by themselves prove every proposed material is already certified for all future crewed Mars returns? Return only the option ID.,D,,"[""en-nasa-b85427f614dd-dev20261024:p009"", ""en-nasa-b85427f614dd-dev20261024:p011"", ""en-nasa-b85427f614dd-dev20261024:p012""]",0.9,False,1,1,,,,0,0.4,0,0.009999999999999995,3.615,1279,117,,"{""answer"":""D"", ""unit"": """", ""evidence_ids"": [""en-nasa-b85427f614dd-dev20261024:p009"", ""en-nasa-b85427f614dd-dev20261024:p011"", ""en-nasa-b85427f614dd-dev20261024:p012""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-b85427f614dd-dev20261024,q07,D6,unanswerable,What exact maximum temperature did each of the 12 capsules reach in this experiment? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,1.685,1214,54,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""en-nasa-b85427f614dd-dev20261024:p007""],""confidence"":0.3,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-nasa-b85427f614dd-dev20261024,q08,D6,unanswerable,What is the final certified lifetime in flight hours of the MERINO materials? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,1.684,1212,54,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""en-nasa-b85427f614dd-dev20261024:p012""],""confidence"":0.3,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-nasa-c8f73fc30675-dev20261024,q01,D1,short,Which company built and operates the Otter spacecraft? Give the company only.,Starfish Space,,"[""en-nasa-c8f73fc30675-dev20261024:p008""]",1,False,1,,1,1.0,,1,1.0,1,0,1.987,982,60,,"{""answer"": ""Starfish Space"", ""unit"": """", ""evidence_ids"": [""en-nasa-c8f73fc30675-dev20261024:p008""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-c8f73fc30675-dev20261024,q02,D1,numeric,"What is the maximum number of inoperable objects the mission plans to approach? Write only the number and use unit=""objects"".",4,objects,"[""en-nasa-c8f73fc30675-dev20261024:p002""]",0.9,False,1,,,,1,1,1.0,1,0.009999999999999995,1.802,993,58,,"{""answer"":""4"", ""unit"":""objects"", ""evidence_ids"":[""en-nasa-c8f73fc30675-dev20261024:p002""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-c8f73fc30675-dev20261024,q03,D1,short,At what California launch base did SSPICY launch? Give the base name only.,Vandenberg,,"[""en-nasa-c8f73fc30675-dev20261024:p002""]",1,False,1,,1,1.0,,1,1.0,1,0,1.848,983,60,,"{""answer"": ""Vandenberg"", ""unit"": """", ""evidence_ids"": [""en-nasa-c8f73fc30675-dev20261024:p002""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-c8f73fc30675-dev20261024,q04,D2,choice,What physical interaction is planned during this particular SSPICY mission? Return only the option ID.,D,,"[""en-nasa-c8f73fc30675-dev20261024:p006""]",1,False,1,1,,,,1,1.0,1,0,1.79,1039,58,,"{""answer"": ""D"", ""unit"": """", ""evidence_ids"": [""en-nasa-c8f73fc30675-dev20261024:p006""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-c8f73fc30675-dev20261024,q05,D3,choice,Which combination describes navigation and movement between inspection objects? Return only the option ID.,D,,"[""en-nasa-c8f73fc30675-dev20261024:p003"", ""en-nasa-c8f73fc30675-dev20261024:p004""]",1,False,1,1,,,,1,1.0,1,0,2.66,1050,87,,"{""answer"": ""D"", ""unit"": """", ""evidence_ids"": [""en-nasa-c8f73fc30675-dev20261024:p003"", ""en-nasa-c8f73fc30675-dev20261024:p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-c8f73fc30675-dev20261024,q06,D5,choice,How should the relation between this demonstration and future servicing be understood? Return only the option ID.,B,,"[""en-nasa-c8f73fc30675-dev20261024:p006""]",0.9,False,1,1,,,,0,0.6666666666666666,0,0.009999999999999995,1.869,1049,60,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""en-nasa-c8f73fc30675-dev20261024:p006""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-nasa-c8f73fc30675-dev20261024,q07,D6,unanswerable,What are the exact names and orbital elements of all intended inspection targets? Abstain if the excerpt does not determine them.,,,[],,False,0,,,,,0,,0,,1.793,992,58,refusal_contains_answer_or_evidence,"{""answer"": """", ""unit"": """", ""evidence_ids"": [""en-nasa-c8f73fc30675-dev20261024:p002""], ""confidence"": 0.9, ""abstain"": true}"
+Qwen2.5 · 7B Instruct,en,en-nasa-c8f73fc30675-dev20261024,q08,D6,unanswerable,"How much will this mission reduce the global probability of satellite collision, as an exact percentage? Abstain if the excerpt does not determine it.",,,[],,False,0,,,,,0,,0,,1.688,996,54,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""en-nasa-c8f73fc30675-dev20261024:p007""],""confidence"":0.5,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-45b67cc6df92-dev20261024,q01,D1,short,What is the name of the USGS drought-forecasting tool? Give only the name.,River DroughtCast,,"[""[en-usgs_release-45b67cc6df92-dev20261024:p003]""]",1,False,1,,1,1.0,,0,0,0,0,2.361,1159,71,,"{
+  ""answer"": ""River DroughtCast"",
+  ""unit"": """",
+  ""evidence_ids"": [""[en-usgs_release-45b67cc6df92-dev20261024:p003]""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-45b67cc6df92-dev20261024,q02,D4,numeric,"How many percentage points separate the stated first-week and week-13 correct-prediction figures for severe or extreme drought? Write only the number and use unit=""percentage points"".",20,percentage points,"[""[en-usgs_release-45b67cc6df92-dev20261024:p006]""]",1,False,1,,,,1,0,0,0,0,1.93,1176,62,,"{""answer"":""20"", ""unit"":""percentage points"", ""evidence_ids"":[""[en-usgs_release-45b67cc6df92-dev20261024:p006]""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-45b67cc6df92-dev20261024,q03,D1,numeric,"How many years of data are required at the currently covered streamgage locations, at minimum? Write only the number and use unit=""years"".",40,years,"[""[en-usgs_release-45b67cc6df92-dev20261024:p008]""]",0.9,False,1,,,,1,0,0,0,0.009999999999999995,1.946,1168,62,,"{""answer"":""40"", ""unit"":""years"", ""evidence_ids"":[""[en-usgs_release-45b67cc6df92-dev20261024:p008]""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-45b67cc6df92-dev20261024,q04,D2,choice,Why can streamflow drought remain relevant even when rainfall returns to normal? Return only the option ID.,B,,"[""[en-usgs_release-45b67cc6df92-dev20261024:p005]""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,1.868,1220,60,,"{""answer"":""B"", ""unit"":"""", ""evidence_ids"":[""[en-usgs_release-45b67cc6df92-dev20261024:p005]""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-45b67cc6df92-dev20261024,q05,D3,choice,Which pairing correctly links a prediction challenge to a potential use? Return only the option ID.,A,,"[""p005""]",1,False,1,1,,,,0,0,0,0,1.041,1227,34,,"{""answer"":""A"", ""unit"": """", ""evidence_ids"": [""p005""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-45b67cc6df92-dev20261024,q06,D5,choice,Does the current coverage statement establish that forecasts are already available at every ungauged location? Return only the option ID.,B,,"[""[en-usgs_release-45b67cc6df92-dev20261024:p008]""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,1.949,1248,63,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""[en-usgs_release-45b67cc6df92-dev20261024:p008]""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-45b67cc6df92-dev20261024,q07,D6,unanswerable,What exact streamflow will a named farmer's irrigation intake have tomorrow? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,3.529,1165,113,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""en-usgs_release-45b67cc6df92-dev20261024:p001"",""en-usgs_release-45b67cc6df92-dev20261024:p003"",""en-usgs_release-45b67cc6df92-dev20261024:p006""],""confidence"":0.2,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-45b67cc6df92-dev20261024,q08,D6,unanswerable,How many US dollars has River DroughtCast already saved all municipalities? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,2.681,1165,89,refusal_contains_answer_or_evidence,"{""answer"": """", ""unit"": """", ""evidence_ids"": [""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008"", ""p009"", ""p010""], ""confidence"": 0.0, ""abstain"": true}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-7fabf5839d59-dev20261024,q01,D1,short,Which university partnered with USGS on the new statewide map? Give the university only.,University of Nebraska-Lincoln,,"[""[en-usgs_release-7fabf5839d59-dev20261024:p001]"", ""[en-usgs_release-7fabf5839d59-dev20261024:p004]""]",1,False,1,,1,1.0,,0,0,0,0,3.029,1335,89,,"{""answer"":""University of Nebraska-Lincoln"",""unit"":"""",""evidence_ids"":[""[en-usgs_release-7fabf5839d59-dev20261024:p001]"",""[en-usgs_release-7fabf5839d59-dev20261024:p004]""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-7fabf5839d59-dev20261024,q02,D1,numeric,"In what year was the previous statewide geologic map mentioned in the passage published? Write only the number and use unit=""year"".",1986,year,"[""[en-usgs_release-7fabf5839d59-dev20261024:p003]""]",1,False,1,,,,1,0,0,0,0,1.933,1344,62,,"{""answer"":""1986"", ""unit"":""year"", ""evidence_ids"":[""[en-usgs_release-7fabf5839d59-dev20261024:p003]""], ""confidence"":1, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-7fabf5839d59-dev20261024,q03,D1,short,Which USGS programme supplied the statewide elevation data used for this project? Give the programme name only.,3D Elevation Program,,"[""[en-usgs_release-7fabf5839d59-dev20261024:p009]""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,1.844,1338,59,,"{""answer"":""3D Elevation Program"",""unit"":"""",""evidence_ids"":[""[en-usgs_release-7fabf5839d59-dev20261024:p009]""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-7fabf5839d59-dev20261024,q04,D2,choice,How does the new map's emphasis differ from the older statewide map? Return only the option ID.,B,,"[""[en-usgs_release-7fabf5839d59-dev20261024:p003]"", ""[en-usgs_release-7fabf5839d59-dev20261024:p004]""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,2.886,1409,92,,"{""answer"":""B"", ""unit"": """", ""evidence_ids"": [""[en-usgs_release-7fabf5839d59-dev20261024:p003]"", ""[en-usgs_release-7fabf5839d59-dev20261024:p004]""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-7fabf5839d59-dev20261024,q05,D3,choice,Which combination explains a practical reason for mapping sediments and a data input used to build the map? Return only the option ID.,D,,"[""[en-usgs_release-7fabf5839d59-dev20261024:p006]"", ""[en-usgs_release-7fabf5839d59-dev20261024:p009]""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,2.738,1426,88,,"{""answer"":""D"", ""unit"":"""",""evidence_ids"":[""[en-usgs_release-7fabf5839d59-dev20261024:p006]"", ""[en-usgs_release-7fabf5839d59-dev20261024:p009]""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-7fabf5839d59-dev20261024,q06,D5,choice,Can 'more than three-quarters' be reported from this passage as an exact coverage of 76.0%? Return only the option ID.,A,,"[""[en-usgs_release-7fabf5839d59-dev20261024:p006]""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,1.817,1410,58,,"{""answer"":""A"", ""unit"":"""",""evidence_ids"":[""[en-usgs_release-7fabf5839d59-dev20261024:p006]""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-7fabf5839d59-dev20261024,q07,D6,unanswerable,What is the exact statewide percentage covered by each individual sediment type? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,1.801,1342,57,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""[en-usgs_release-7fabf5839d59-dev20261024:p006]""],""confidence"":0.5,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-7fabf5839d59-dev20261024,q08,D6,unanswerable,What was the total dollar cost of producing the new map? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,11.772,1341,375,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""en-usgs_release-7fabf5839d59-dev20261024:p001"",""en-usgs_release-7fabf5839d59-dev20261024:p002"",""en-usgs_release-7fabf5839d59-dev20261024:p003"",""en-usgs_release-7fabf5839d59-dev20261024:p004"",""en-usgs_release-7fabf5839d59-dev20261024:p005"",""en-usgs_release-7fabf5839d59-dev20261024:p006"",""en-usgs_release-7fabf5839d59-dev20261024:p007"",""en-usgs_release-7fabf5839d59-dev20261024:p008"",""en-usgs_release-7fabf5839d59-dev20261024:p009"",""en-usgs_release-7fabf5839d59-dev20261024:p010"",""en-usgs_release-7fabf5839d59-dev20261024:p011"",""en-usgs_release-7fabf5839d59-dev20261024:p012""],""confidence"":0.01,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-fa544e633561-dev20261024,q01,D1,numeric,"How much undiscovered technically recoverable gas is assessed in the Buda Limestone? Write only the number and use unit=""billion cubic feet"".",184,billion cubic feet,"[""[en-usgs_release-fa544e633561-dev20261024:p001]""]",0.9,False,1,,,,1,0,0,0,0.009999999999999995,2.25,994,67,,"{""answer"":""184"", ""unit"":""billion cubic feet"", ""evidence_ids"":[""[en-usgs_release-fa544e633561-dev20261024:p001]""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-fa544e633561-dev20261024,q02,D4,numeric,"How many times the assessed undiscovered oil amount is the reported cumulative oil production? Write only the number and use unit=""times"".",1.5,times,"[""[en-usgs_release-fa544e633561-dev20261024:p001]"", ""[en-usgs_release-fa544e633561-dev20261024:p002]""]",0.9,False,0,,,,0,0,0,0,0.81,3.071,990,99,,"{""answer"": ""1.5"", ""unit"": ""times"", ""evidence_ids"": [""[en-usgs_release-fa544e633561-dev20261024:p001]"", ""[en-usgs_release-fa544e633561-dev20261024:p002]""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-fa544e633561-dev20261024,q03,D1,short,Which overlying group is described as the primary source for the Buda's undiscovered oil and gas? Give the group's name only.,Eagle Ford Group,,"[""[en-usgs_release-fa544e633561-dev20261024:p002]""]",0.98,False,1,,1,1.0,,0,0,0,0.0004000000000000007,1.892,992,60,,"{""answer"":""Eagle Ford Group"",""unit"":"""",""evidence_ids"":[""[en-usgs_release-fa544e633561-dev20261024:p002]""],""confidence"":0.98,""abstain"":false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-fa544e633561-dev20261024,q04,D2,choice,What does the new assessed quantity represent in this article? Return only the option ID.,C,,"[""en-usgs_release-fa544e633561-dev20261024:p001""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.956,1043,62,,"{""answer"": ""C"", ""unit"": """", ""evidence_ids"": [""en-usgs_release-fa544e633561-dev20261024:p001""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-fa544e633561-dev20261024,q05,D3,choice,Which pairing correctly connects what is assessed to a use of the assessment? Return only the option ID.,D,,"[""[en-usgs_release-fa544e633561-dev20261024:p001]"", ""[en-usgs_release-fa544e633561-dev20261024:p007]""]",1,False,1,1,,,,0,0,0,0,2.905,1057,93,,"{""answer"": ""D"", ""unit"": """", ""evidence_ids"": [""[en-usgs_release-fa544e633561-dev20261024:p001]"", ""[en-usgs_release-fa544e633561-dev20261024:p007]""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-fa544e633561-dev20261024,q06,D5,choice,Does the stated use of assessments mean the article has already selected the exact drilling sites for every private firm? Return only the option ID.,B,,"[""en-usgs_release-fa544e633561-dev20261024:p005""]",0.9,False,1,1,,,,1,1.0,1,0.009999999999999995,1.941,1056,62,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""en-usgs_release-fa544e633561-dev20261024:p005""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-fa544e633561-dev20261024,q07,D6,unanswerable,At what exact oil price would every Buda resource become economically profitable to extract? Abstain if the excerpt does not determine it.,,,[],,False,0,,,,,0,,0,,2.799,991,91,refusal_contains_answer_or_evidence,"{""answer"": """", ""unit"": """", ""evidence_ids"": [""en-usgs_release-fa544e633561-dev20261024:p001"", ""en-usgs_release-fa544e633561-dev20261024:p002""], ""confidence"": 0.0, ""abstain"": true}"
+Qwen2.5 · 7B Instruct,en,en-usgs_release-fa544e633561-dev20261024,q08,D6,unanswerable,"How many new Buda wells will be drilled in 2027, and at which exact coordinates? Abstain if the excerpt does not determine it.",,,[],,False,0,,,,,0,,0,,7.413,997,236,refusal_contains_answer_or_evidence,"{""answer"":""abstain"",""unit"":"""",""evidence_ids"":[""en-usgs_release-fa544e633561-dev20261024:p001"",""en-usgs_release-fa544e633561-dev20261024:p002"",""en-usgs_release-fa544e633561-dev20261024:p003"",""en-usgs_release-fa544e633561-dev20261024:p004"",""en-usgs_release-fa544e633561-dev20261024:p005"",""en-usgs_release-fa544e633561-dev20261024:p006"",""en-usgs_release-fa544e633561-dev20261024:p007""],""confidence"":0.1,""abstain"":true}"

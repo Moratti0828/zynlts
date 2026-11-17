@@ -1,0 +1,226 @@
+[
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+    "question_id": "q01",
+    "response": {
+      "answer": "327569",
+      "evidence_ids": [
+        "zh-nbs-02a36a9fc6f8-devpilot:p001"
+      ],
+      "abstain": false,
+      "confidence": null,
+      "unit": "亿元"
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+    "question_id": "q02",
+    "response": {
+      "answer": "B",
+      "evidence_ids": [
+        "zh-nbs-02a36a9fc6f8-devpilot:p007"
+      ],
+      "abstain": false,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+    "question_id": "q03",
+    "response": {
+      "answer": "C",
+      "evidence_ids": [
+        "zh-nbs-02a36a9fc6f8-devpilot:p007",
+        "zh-nbs-02a36a9fc6f8-devpilot:p008"
+      ],
+      "abstain": false,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+    "question_id": "q04",
+    "response": {
+      "answer": "3279",
+      "evidence_ids": [
+        "zh-nbs-02a36a9fc6f8-devpilot:p001"
+      ],
+      "abstain": false,
+      "confidence": null,
+      "unit": "亿元"
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+    "question_id": "q05",
+    "response": {
+      "answer": "D",
+      "evidence_ids": [
+        "zh-nbs-02a36a9fc6f8-devpilot:p013"
+      ],
+      "abstain": false,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+    "question_id": "q06",
+    "response": {
+      "answer": "A",
+      "evidence_ids": [
+        "zh-nbs-02a36a9fc6f8-devpilot:p001"
+      ],
+      "abstain": false,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+    "question_id": "q07",
+    "response": {
+      "answer": "",
+      "evidence_ids": [],
+      "abstain": true,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+    "question_id": "q08",
+    "response": {
+      "answer": "",
+      "evidence_ids": [],
+      "abstain": true,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "en-nasa-1992c310d7b6-devpilot",
+    "question_id": "q01",
+    "response": {
+      "answer": "D",
+      "evidence_ids": [
+        "en-nasa-1992c310d7b6-devpilot:p002"
+      ],
+      "abstain": false,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "en-nasa-1992c310d7b6-devpilot",
+    "question_id": "q02",
+    "response": {
+      "answer": "B",
+      "evidence_ids": [
+        "en-nasa-1992c310d7b6-devpilot:p001"
+      ],
+      "abstain": false,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "en-nasa-1992c310d7b6-devpilot",
+    "question_id": "q03",
+    "response": {
+      "answer": "A",
+      "evidence_ids": [
+        "en-nasa-1992c310d7b6-devpilot:p005",
+        "en-nasa-1992c310d7b6-devpilot:p006"
+      ],
+      "abstain": false,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "en-nasa-1992c310d7b6-devpilot",
+    "question_id": "q04",
+    "response": {
+      "answer": "4",
+      "evidence_ids": [
+        "en-nasa-1992c310d7b6-devpilot:p005",
+        "en-nasa-1992c310d7b6-devpilot:p006",
+        "en-nasa-1992c310d7b6-devpilot:p007",
+        "en-nasa-1992c310d7b6-devpilot:p008"
+      ],
+      "abstain": false,
+      "confidence": null,
+      "unit": "experiments"
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "en-nasa-1992c310d7b6-devpilot",
+    "question_id": "q05",
+    "response": {
+      "answer": "C",
+      "evidence_ids": [
+        "en-nasa-1992c310d7b6-devpilot:p006"
+      ],
+      "abstain": false,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "en-nasa-1992c310d7b6-devpilot",
+    "question_id": "q06",
+    "response": {
+      "answer": "A",
+      "evidence_ids": [
+        "en-nasa-1992c310d7b6-devpilot:p009"
+      ],
+      "abstain": false,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "en-nasa-1992c310d7b6-devpilot",
+    "question_id": "q07",
+    "response": {
+      "answer": "",
+      "evidence_ids": [],
+      "abstain": true,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  },
+  {
+    "model_id": "constructed-scorer-fixture",
+    "article_id": "en-nasa-1992c310d7b6-devpilot",
+    "question_id": "q08",
+    "response": {
+      "answer": "",
+      "evidence_ids": [],
+      "abstain": true,
+      "confidence": null
+    },
+    "origin": "constructed reference input; not a model inference"
+  }
+]

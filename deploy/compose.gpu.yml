@@ -1,0 +1,11 @@
+# Requires an NVIDIA GPU, a working host driver, and NVIDIA Container Toolkit.
+# Enable with: docker compose -f deploy/compose.yml -f deploy/compose.gpu.yml --profile ollama up -d
+services:
+  ollama:
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]

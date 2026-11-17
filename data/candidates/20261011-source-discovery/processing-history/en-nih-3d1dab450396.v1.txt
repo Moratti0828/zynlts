@@ -1,0 +1,41 @@
+Wednesday, October 7, 2026
+
+In NIH-funded study, the models orchestrated adaptive immune responses to viral infection.
+
+A new organoid model built with human lung fragments may help us answer key questions about one of the body’s first lines of defense against respiratory pathogens. In a National Institutes of Health (NIH)-supported study, researchers at the Stanford University School of Medicine elicited virus-specific immune responses from these organoids and showed that administering a virus booster weakened subsequent infections.
+
+The findings suggest the lung mucosa’s immune system alone may provide significant protection, which adds to growing evidence that vaccination strategies designed to train up the body’s frontline defenses are a worthwhile pursuit. The models may also be ideal testing grounds for such interventions.
+
+“These organoids retain key immune cells and functions of lung mucosa long-term, allowing investigators to examine local tissue immunity separately from the other parts of the body’s immune system,” said John H. Powers III, M.D., acting director of NIH’s National Institute of Allergy and Infectious Diseases (NIAID). “This platform may provide a replacement for animal models for some types of evaluations and may provide insights that tests in animal models could not capture.”
+
+In the new study, the researchers transferred pieces of intact distal lung tissue from more than 220 patient volunteers into a unique cell culture system that simulated the lung’s life-sustaining gas exchange. The authors sustained organoids within this 3D air-liquid interface for up to several months, during which they found many critical immune cell populations thriving. More specifically, they confirmed that the T cells present were permanent residents of the tissue and maintained their virus-sensing capabilities.
+
+With these components of the immune system present in the model, the team next sought to determine whether it was also fully functional. Infecting organoids with SARS-CoV-2, the researchers saw that the lung models countered with not only generic immune reactions such as inflammation, but also adaptive responses, as T cells became reactive to SARS-CoV-2 specifically.
+
+They also tested the impact of pre-stimulating the organoids with fragments of the virus prior to infection, essentially simulating a kind of vaccination. Again, the organoid’s immune cells learned how to better detect and dispatch SARS-CoV-2, which diminished future infections.
+
+“The exact role of local immunity in human lungs has long been a hotly debated subject, but we believe these organoids will be a conduit for clear answers. Already, we’ve unveiled indications that resident T cells may be much more persistent than previously thought,” said corresponding author Calvin Kuo, M.D., Ph.D., a professor of hematology at Stanford Medicine.
+
+The authors believe that their findings and future work in these models could provide a strong basis for local vaccination, which may complement or replace traditional vaccines that induce adaptive immunity systemically.
+
+Their scope may also widen greatly in the future. The researchers believe their models could potentially help elucidate the role of tissue-resident immune responses in a variety of other pulmonary diseases, such as chronic obstructive pulmonary disease (COPD), asthma, and bacterial infections.
+
+NIH supported this research through NIAID grants T32AI007502, K08AI163369, U19AI057229, R01AI127877, R01AI130398, and U19AI116484, National Heart, Lung, and Blood Institute (NHLBI) grant T32HL129970, National Institute of General Medical Sciences (NIGMS) grant T32GM007365, National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) grant R01DK130414, and National Cancer Institute (NCI) grant OT2CA278713.
+
+About the National Institute of Allergy and Infectious Diseases (NIAID): NIAID conducts and supports research to study the causes of infectious and immune-mediated diseases, and to develop better means of preventing, diagnosing and treating these illnesses. News releases, fact sheets and other NIAID-related materials are available on the NIAID website .
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+Joseph K. Rathkey, et al. Human lung organoid modelling of tissue-resident antiviral T cell responses. Nature. October 7, 2026. DOI: 10.1038/s41586-026-11114-1
+
+Institute/Center
+
+National Institute of Allergy and Infectious Diseases (NIAID)
+
+NIH Office of Communications
+
+Connect with Us
+
+Subscribe to news releases RSS Feed

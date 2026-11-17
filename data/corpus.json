@@ -1,0 +1,774 @@
+{
+  "version": "1.1.0",
+  "articles": [
+    {
+      "id": "zh-housing-2025",
+      "title": "住房租赁条例（公布说明及第二、七、八、十五条节选）",
+      "language": "zh",
+      "published_at": "2025-07-21",
+      "source_page_published_at": "2025-07-21",
+      "source_url": "https://www.forestry.gov.cn/c/www/szxx/635119.jhtml",
+      "source_name": "国务院法规正文／国家林业和草原局官方转载",
+      "license": "法规正文：《中华人民共和国著作权法》第五条第一项不适用；网页模板、图片不纳入测评正文",
+      "scope": "excerpt",
+      "scope_note": "选取公布说明及第二、七、八、十五条；段间删节以〔……〕明示。published_at 为来源转载网页发布时间，promulgated_at 为正文所载国务院令公布日期。",
+      "text": "《住房租赁条例》已经2025年6月27日国务院第62次常务会议通过，现予公布，自2025年9月15日起施行。\n\n〔……〕\n\n第二条 城镇国有土地上住房租赁活动及其监督管理，适用本条例。\n\n〔……〕\n\n第七条 用于出租的住房应当符合建筑、消防、燃气、室内装饰装修等方面的法律、法规、规章和强制性标准，不得危及人身安全和健康。\n厨房、卫生间、阳台、过道、地下储藏室、车库等非居住空间，不得单独出租用于居住。\n租赁住房单间租住人数上限和人均最低租住面积，应当符合设区的市级以上地方人民政府规定的标准。\n\n〔……〕\n\n第八条 出租人和承租人应当使用实名签订住房租赁合同。\n出租人应当按照规定，通过住房租赁管理服务平台等方式将住房租赁合同向租赁住房所在地房产管理部门备案。房产管理部门应当提高住房租赁合同备案服务水平，不得就住房租赁合同备案收取任何费用。\n出租人未办理住房租赁合同备案的，承租人可以办理备案。\n\n〔……〕\n\n第十五条 住房租赁企业依法登记的经营范围应当使用“住房租赁”的表述。\n住房租赁企业应当自领取营业执照之日起30日内，向所在地县级以上地方人民政府房产管理部门报送开业信息。房产管理部门应当将住房租赁企业开业信息向社会公开。\n住房租赁企业应当在其经营场所醒目位置公示本企业开业信息、服务规范和标准等。",
+      "sha256": "1c2285d0a3abca8e60f4788187592f7a66159cd6b96a99118daa805c20bac1e1",
+      "downloaded_at": "2026-10-10T07:25:30+00:00",
+      "raw_path": "data/raw/20261010-initial/zh-housing-2025.html",
+      "questions": [
+        {
+          "id": "zh-housing-2025-fact",
+          "type": "fact",
+          "prompt": "根据节选，出租人应将住房租赁合同向哪个部门备案？只写部门名称。",
+          "answers": [
+            "租赁住房所在地房产管理部门",
+            "房产管理部门"
+          ],
+          "evidence": [
+            "将住房租赁合同向租赁住房所在地房产管理部门备案"
+          ],
+          "reference_answer": "租赁住房所在地房产管理部门",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。逐字核对第八条；所问对象是合同备案接收部门。"
+        },
+        {
+          "id": "zh-housing-2025-inference",
+          "type": "inference",
+          "prompt": "有人计划把厨房单独出租给租客用于居住。这是否符合节选规定？只回答“符合”或“不符合”。",
+          "answers": [
+            "不符合"
+          ],
+          "evidence": [
+            "厨房、卫生间、阳台、过道、地下储藏室、车库等非居住空间，不得单独出租用于居住。"
+          ],
+          "reference_answer": "不符合",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。将第七条禁止规定应用于给定情形，不引入节选以外事实。"
+        },
+        {
+          "id": "zh-housing-2025-numeric",
+          "type": "numeric",
+          "prompt": "根据节选，住房租赁企业领取营业执照后，应在多少日内报送开业信息？只回答整数，不写单位。",
+          "answers": [
+            "30"
+          ],
+          "evidence": [
+            "住房租赁企业应当自领取营业执照之日起30日内"
+          ],
+          "reference_answer": "30",
+          "unit": "日",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。第十五条直接提取期限；日不等同工作日。"
+        },
+        {
+          "id": "zh-housing-2025-unanswerable",
+          "type": "unanswerable",
+          "prompt": "根据所给节选，全国住房租赁管理服务平台2025年的日均访问人数是多少？若没有依据，请回答“无法从文章确定”。",
+          "answers": [
+            "无法从文章确定"
+          ],
+          "evidence": [],
+          "reference_answer": "无法从文章确定",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。节选出现平台名称，但未给访问人数；不得凭外部常识补全。"
+        }
+      ],
+      "excerpt_line_ranges": [
+        {
+          "start_line": 65,
+          "end_line": 65
+        },
+        {
+          "start_line": 71,
+          "end_line": 71
+        },
+        {
+          "start_line": 80,
+          "end_line": 82
+        },
+        {
+          "start_line": 83,
+          "end_line": 85
+        },
+        {
+          "start_line": 104,
+          "end_line": 106
+        }
+      ],
+      "raw_sha256": "2082ff7c5dfd40409665d443ba58c974f2206466f35f7e4a0616501efb4e1627",
+      "promulgated_at": "2025-07-16",
+      "license_url": "https://www.ncac.gov.cn/xxfb/flfg/flfg_532/202103/t20210309_50530.html"
+    },
+    {
+      "id": "zh-data-sharing-2025",
+      "title": "政务数据共享条例（公布说明及第三、十四、十七、十九条节选）",
+      "language": "zh",
+      "published_at": "2025-06-04",
+      "source_page_published_at": "2025-06-04",
+      "source_url": "https://www.mee.gov.cn/zcwj/gwywj/202506/t20250604_1120657.shtml",
+      "source_name": "国务院法规正文／生态环境部官方转载",
+      "license": "法规正文：《中华人民共和国著作权法》第五条第一项不适用；网页模板、图片不纳入测评正文",
+      "scope": "excerpt",
+      "scope_note": "选取公布说明及第三、十四、十七、十九条第一段；段间删节以〔……〕明示。published_at 为来源转载网页发布时间，promulgated_at 为正文所载国务院令公布日期。",
+      "text": "《政务数据共享条例》已经2025年5月9日国务院第59次常务会议通过，现予公布，自2025年8月1日起施行。\n\n〔……〕\n\n第三条 本条例所称政务数据，是指政府部门在依法履行职责过程中收集和产生的各类数据，但不包括属于国家秘密、工作秘密的数据。\n本条例所称政务数据共享，是指政府部门因依法履行职责需要，使用其他政府部门的政务数据或者为其他政府部门提供政务数据的行为。\n\n〔……〕\n\n第十四条 政务数据按照共享属性分为无条件共享、有条件共享和不予共享三类：\n（一）可以提供给所有政府部门共享使用的政务数据属于无条件共享类；\n（二）可以按照一定条件提供给有关政府部门共享使用的政务数据属于有条件共享类；\n（三）法律、行政法规以及国务院决定明确规定不能提供给其他政府部门共享使用的政务数据属于不予共享类。\n\n〔……〕\n\n第十七条 政务数据目录实行动态更新。\n因法律、行政法规、国务院决定调整或者政府部门职责变化导致政务数据目录需要相应更新的，政府部门应当自调整、变化发生之日起10个工作日内对政务数据目录完成更新，并报送同级政务数据共享主管部门审核。因特殊原因需要延长更新期限的，经同级政务数据共享主管部门同意，可以延长5个工作日。\n政务数据共享主管部门应当自收到更新后的政务数据目录之日起2个工作日内完成审核并发布。\n\n〔……〕\n\n第十九条 政府部门应当按照法定的职权、程序和标准规范收集政务数据。通过共享获取政务数据能够满足履行职责需要的，政府部门不得向公民、法人和其他组织重复收集。",
+      "sha256": "6b772208f998913a6ea9f2dbd96fbc16c1b339cae848cc1a767bca2faa67c2f9",
+      "downloaded_at": "2026-10-10T07:25:29+00:00",
+      "raw_path": "data/raw/20261010-initial/zh-data-sharing-2025.html",
+      "questions": [
+        {
+          "id": "zh-data-sharing-2025-fact",
+          "type": "fact",
+          "prompt": "根据节选，政务数据的定义排除了哪两类秘密的数据？只写两类秘密的名称。",
+          "answers": [
+            "国家秘密、工作秘密",
+            "国家秘密和工作秘密",
+            "国家秘密，工作秘密"
+          ],
+          "evidence": [
+            "但不包括属于国家秘密、工作秘密的数据"
+          ],
+          "reference_answer": "国家秘密、工作秘密",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。逐字核对第三条的明确排除项；仅需两个名称。"
+        },
+        {
+          "id": "zh-data-sharing-2025-inference",
+          "type": "inference",
+          "prompt": "某部门通过共享获取的数据已足以满足履行职责需要，仍向公民重复收集相同数据。根据节选，这是否允许？只回答“允许”或“不允许”。",
+          "answers": [
+            "不允许"
+          ],
+          "evidence": [
+            "通过共享获取政务数据能够满足履行职责需要的，政府部门不得向公民、法人和其他组织重复收集。"
+          ],
+          "reference_answer": "不允许",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。将第十九条条件性禁止规则应用于给定场景。"
+        },
+        {
+          "id": "zh-data-sharing-2025-numeric",
+          "type": "numeric",
+          "prompt": "目录因部门职责变化而需更新，且已获同级主管部门同意延长更新期限。根据节选，从变化发生之日起，完成更新最长共可用多少个工作日？只回答整数。",
+          "answers": [
+            "15"
+          ],
+          "evidence": [
+            "自调整、变化发生之日起10个工作日内对政务数据目录完成更新",
+            "可以延长5个工作日"
+          ],
+          "reference_answer": "15",
+          "unit": "工作日",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。计算10+5=15；问的是目录更新，不含主管部门收到后的2个工作日审核。"
+        },
+        {
+          "id": "zh-data-sharing-2025-unanswerable",
+          "type": "unanswerable",
+          "prompt": "根据所给节选，2025年全国各政府部门实际完成了多少次政务数据共享？若没有依据，请回答“无法从文章确定”。",
+          "answers": [
+            "无法从文章确定"
+          ],
+          "evidence": [],
+          "reference_answer": "无法从文章确定",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。法规规定流程和定义，节选没有实际业务次数。"
+        }
+      ],
+      "excerpt_line_ranges": [
+        {
+          "start_line": 4,
+          "end_line": 4
+        },
+        {
+          "start_line": 11,
+          "end_line": 12
+        },
+        {
+          "start_line": 36,
+          "end_line": 39
+        },
+        {
+          "start_line": 44,
+          "end_line": 46
+        },
+        {
+          "start_line": 49,
+          "end_line": 49
+        }
+      ],
+      "raw_sha256": "aa4b541a7432f936c87dc95588590e54d338c1636c3c8de8e5756a8c3d530344",
+      "promulgated_at": "2025-05-28",
+      "license_url": "https://www.ncac.gov.cn/xxfb/flfg/flfg_532/202103/t20210309_50530.html"
+    },
+    {
+      "id": "zh-public-video-2025",
+      "title": "公共安全视频图像信息系统管理条例（公布说明及第十三、十四、十七条节选）",
+      "language": "zh",
+      "published_at": "2025-02-11",
+      "source_page_published_at": "2025-02-11",
+      "source_url": "https://www.mee.gov.cn/zcwj/gwywj/202502/t20250211_1102044.shtml",
+      "source_name": "国务院法规正文／生态环境部官方转载",
+      "license": "法规正文：《中华人民共和国著作权法》第五条第一项不适用；网页模板、图片不纳入测评正文",
+      "scope": "excerpt",
+      "scope_note": "选取公布说明及第十三、十四、十七条；段间删节以〔……〕明示。published_at 为来源转载网页发布时间，promulgated_at 为正文所载国务院令公布日期。",
+      "text": "《公共安全视频图像信息系统管理条例》已经2024年12月16日国务院第48次常务会议通过，现予公布，自2025年4月1日起施行。\n\n〔……〕\n\n第十三条 公共安全视频系统管理单位应当按照维护公共安全所必需、注重保护个人隐私和个人信息权益的要求，合理确定图像采集设备的安装位置、角度和采集范围，并设置显著的提示标识。未设置显著提示标识的，由公安机关责令改正。\n\n〔……〕\n\n第十四条 公共安全视频系统管理单位应当在系统投入使用之日起30日内，将单位基本情况、公共安全视频系统建设位置、图像采集设备数量及类型、视频图像信息存储期限等基本信息，向所在地县级人民政府公安机关备案。本条例施行前已经启用的，应当在本条例施行之日起90日内备案。公共安全视频系统备案事项发生变化的，应当及时办理备案变更。\n公共安全视频系统管理单位应当对备案信息的真实性负责。\n公安机关应当加强信息化建设，为公共安全视频系统管理单位办理备案提供便利，能够通过部门间信息共享获得的备案信息，不要求当事人提供。\n\n〔……〕\n\n第十七条 公共安全视频系统收集的视频图像信息应当保存不少于30日；30日后，对已经实现处理目的的视频图像信息，应当予以删除。法律、行政法规对视频图像信息保存期限另有规定的，从其规定。",
+      "sha256": "2e162d63324d564316914f703524dd078352eaeef87c4da6dce37bc68363a225",
+      "downloaded_at": "2026-10-10T07:25:29+00:00",
+      "raw_path": "data/raw/20261010-initial/zh-public-video-2025.html",
+      "questions": [
+        {
+          "id": "zh-public-video-2025-fact",
+          "type": "fact",
+          "prompt": "根据节选，安装图像采集设备时，应设置什么标识？只写标识名称及要求。",
+          "answers": [
+            "显著的提示标识",
+            "显著提示标识"
+          ],
+          "evidence": [
+            "并设置显著的提示标识"
+          ],
+          "reference_answer": "显著的提示标识",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。逐字核对第十三条的明确要求。"
+        },
+        {
+          "id": "zh-public-video-2025-inference",
+          "type": "inference",
+          "prompt": "一段视频图像已保存35日，处理目的已经实现，且不存在法律或行政法规另行规定的保存期限。根据节选应如何处理？只回答“应删除”或“可保留”。",
+          "answers": [
+            "应删除"
+          ],
+          "evidence": [
+            "30日后，对已经实现处理目的的视频图像信息，应当予以删除。"
+          ],
+          "reference_answer": "应删除",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。35大于30且目的已实现；题面排除了另有法定期限的例外。"
+        },
+        {
+          "id": "zh-public-video-2025-numeric",
+          "type": "numeric",
+          "prompt": "根据节选，施行前已启用系统的备案期限，与新投入使用系统的备案期限相比，规定的期限天数相差多少日？只回答整数。",
+          "answers": [
+            "60"
+          ],
+          "evidence": [
+            "应当在系统投入使用之日起30日内",
+            "应当在本条例施行之日起90日内备案"
+          ],
+          "reference_answer": "60",
+          "unit": "日",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。计算两个规定期限长度90-30=60；并非计算两个不同起算点之间的实际日期差。"
+        },
+        {
+          "id": "zh-public-video-2025-unanswerable",
+          "type": "unanswerable",
+          "prompt": "根据所给节选，2025年全国已备案公共安全视频系统共有多少套？若没有依据，请回答“无法从文章确定”。",
+          "answers": [
+            "无法从文章确定"
+          ],
+          "evidence": [],
+          "reference_answer": "无法从文章确定",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。节选要求备案，但没有全国系统数量统计。"
+        }
+      ],
+      "excerpt_line_ranges": [
+        {
+          "start_line": 4,
+          "end_line": 4
+        },
+        {
+          "start_line": 34,
+          "end_line": 34
+        },
+        {
+          "start_line": 35,
+          "end_line": 37
+        },
+        {
+          "start_line": 46,
+          "end_line": 46
+        }
+      ],
+      "raw_sha256": "63a7675e78571edaa11e30174fa7a49115278acf01e6b1932abf5dc3a43f61b2",
+      "promulgated_at": "2025-01-13",
+      "license_url": "https://www.ncac.gov.cn/xxfb/flfg/flfg_532/202103/t20210309_50530.html"
+    },
+    {
+      "id": "en-bennu-2025",
+      "title": "NASA’s Asteroid Bennu Sample Reveals Mix of Life’s Ingredients (excerpt)",
+      "language": "en",
+      "published_at": "2025-01-29",
+      "source_url": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+      "source_name": "NASA",
+      "license": "NASA-authored informational text generally not subject to US copyright; NASA Media Usage Guidelines apply; no third-party image, quotation, or logo included",
+      "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "scope": "excerpt",
+      "scope_note": "Selected four NASA explanatory paragraphs; omitted text is marked […]. Image captions and third-party quotations are excluded.",
+      "text": "Studies of rock and dust from asteroid Bennu delivered to Earth by NASA’s OSIRIS-REx (Origins, Spectral Interpretation, Resource Identification and Security–Regolith Explorer) spacecraft have revealed molecules that, on our planet, are key to life, as well as a history of saltwater that could have served as the “broth” for these compounds to interact and combine.\n\n[…]\n\nThe findings do not show evidence for life itself, but they do suggest the conditions necessary for the emergence of life were widespread across the early solar system, increasing the odds life could have formed on other planets and moons.\n\n[…]\n\nDetailed in the Nature Astronomy paper, among the most compelling detections were amino acids – 14 of the 20 that life on Earth uses to make proteins – and all five nucleobases that life on Earth uses to store and transmit genetic instructions in more complex terrestrial biomolecules, such as DNA and RNA, including how to arrange amino acids into proteins.\n\n[…]\n\nScientists also described exceptionally high abundances of ammonia in the Bennu samples. Ammonia is important to biology because it can react with formaldehyde, which also was detected in the samples, to form complex molecules, such as amino acids – given the right conditions. When amino acids link up into long chains, they make proteins, which go on to power nearly every biological function.",
+      "sha256": "34f72262695ab9c85969cafa8ff01fa0364c99360f1b8679f9528c9c006e8f0c",
+      "downloaded_at": "2026-10-10T07:25:30+00:00",
+      "raw_path": "data/raw/20261010-initial/en-bennu-2025.html",
+      "questions": [
+        {
+          "id": "en-bennu-2025-fact",
+          "type": "fact",
+          "prompt": "Which NASA mission delivered the Bennu material to Earth? Give only the mission name.",
+          "answers": [
+            "OSIRIS-REx",
+            "OSIRIS REx"
+          ],
+          "evidence": [
+            "delivered to Earth by NASA’s OSIRIS-REx"
+          ],
+          "reference_answer": "OSIRIS-REx",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。Source-checked the opening paragraph; mission-name aliases differ only in hyphenation."
+        },
+        {
+          "id": "en-bennu-2025-inference",
+          "type": "inference",
+          "prompt": "Do these findings justify claiming that life itself was found in the Bennu samples? Answer only yes or no.",
+          "answers": [
+            "no"
+          ],
+          "evidence": [
+            "The findings do not show evidence for life itself"
+          ],
+          "reference_answer": "no",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。Distinguishes ingredients/conditions for life from evidence of life itself."
+        },
+        {
+          "id": "en-bennu-2025-numeric",
+          "type": "numeric",
+          "prompt": "Of the 20 amino acids Earth life uses to make proteins, how many were not reported as detected in these samples? Give only the integer.",
+          "answers": [
+            "6"
+          ],
+          "evidence": [
+            "amino acids – 14 of the 20 that life on Earth uses to make proteins"
+          ],
+          "reference_answer": "6",
+          "unit": "amino acids",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。20-14=6; 'not reported as detected' does not assert proven absence."
+        },
+        {
+          "id": "en-bennu-2025-unanswerable",
+          "type": "unanswerable",
+          "prompt": "According to the supplied excerpt, what exact sample mass in grams was used in these analyses? If the excerpt does not say, answer exactly 无法从文章确定.",
+          "answers": [
+            "无法从文章确定"
+          ],
+          "evidence": [],
+          "reference_answer": "无法从文章确定",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。The excerpt describes analyses but supplies no analyzed mass; sample return mass cannot substitute."
+        }
+      ],
+      "excerpt_line_ranges": [
+        {
+          "start_line": 348,
+          "end_line": 348
+        },
+        {
+          "start_line": 349,
+          "end_line": 349
+        },
+        {
+          "start_line": 352,
+          "end_line": 352
+        },
+        {
+          "start_line": 353,
+          "end_line": 353
+        }
+      ],
+      "raw_sha256": "daf1393629c15be6e2c6c6b18a241da3446b9b8428e32bd66acffec5be42160d"
+    },
+    {
+      "id": "en-nisar-2025",
+      "title": "NASA-ISRO Satellite Lifts Off to Track Earth’s Changing Surfaces (excerpt)",
+      "language": "en",
+      "published_at": "2025-07-30",
+      "source_url": "https://www.nasa.gov/news-release/nasa-isro-satellite-lifts-off-to-track-earths-changing-surfaces/",
+      "source_name": "NASA",
+      "license": "NASA-authored informational text generally not subject to US copyright; NASA Media Usage Guidelines apply; no third-party image, quotation, or logo included",
+      "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "scope": "excerpt",
+      "scope_note": "Selected four NASA explanatory paragraphs; omitted text is marked […]. Publication is July 30, 2025; the page explicitly notes a same-day correction to IST launch time. Captions and third-party quotations excluded.",
+      "text": "Carrying an advanced radar system that will produce a dynamic, three-dimensional view of Earth in unprecedented detail, the NISAR (NASA-ISRO Synthetic Aperture Radar) satellite has launched from Satish Dhawan Space Centre in Sriharikota, Andhra Pradesh, India.\n\n[…]\n\nThe satellite lifted off aboard an ISRO Geosynchronous Satellite Launch Vehicle (GSLV) rocket at 5:40 p.m. IST (8:10 a.m. EDT), Wednesday. The ISRO ground controllers began communicating with NISAR about 20 minutes after launch, at just after 8:29 a.m. EDT, and confirmed it is operating as expected.\n\n[…]\n\nThe mission’s two radars will monitor nearly all the planet’s land- and ice-covered surfaces twice every 12 days, including areas of the polar Southern Hemisphere rarely covered by other Earth-observing radar satellites. The data NISAR collects also can help researchers assess how forests, wetlands, agricultural areas, and permafrost change over time.\n\n[…]\n\nTogether, the radar instruments will enhance all of the satellite’s observations, making NISAR more capable than previous synthetic aperture radar missions. Unlike optical sensors, NISAR will be able to “see” through clouds, making it possible to monitor the surface during storms, as well as in darkness and light.",
+      "sha256": "6a64e9e743110da6595fda8b0af39e8dab1ebc8b2806212455048f589deaf5c7",
+      "downloaded_at": "2026-10-10T07:25:30+00:00",
+      "raw_path": "data/raw/20261010-initial/en-nisar-2025.html",
+      "questions": [
+        {
+          "id": "en-nisar-2025-fact",
+          "type": "fact",
+          "prompt": "From which named space centre did the NISAR satellite launch? Give only the centre name.",
+          "answers": [
+            "Satish Dhawan Space Centre",
+            "Satish Dhawan Space Center"
+          ],
+          "evidence": [
+            "launched from Satish Dhawan Space Centre"
+          ],
+          "reference_answer": "Satish Dhawan Space Centre",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。Source-checked opening paragraph; British/American centre spelling accepted."
+        },
+        {
+          "id": "en-nisar-2025-inference",
+          "type": "inference",
+          "prompt": "A target area is covered by storm clouds at night. Based on the excerpt, can NISAR still monitor its surface? Answer only yes or no.",
+          "answers": [
+            "yes"
+          ],
+          "evidence": [
+            "NISAR will be able to “see” through clouds",
+            "in darkness and light"
+          ],
+          "reference_answer": "yes",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。Combines stated cloud penetration and darkness capability for a scenario."
+        },
+        {
+          "id": "en-nisar-2025-numeric",
+          "type": "numeric",
+          "prompt": "At the stated rate of twice every 12 days, how many monitoring passes correspond to 24 days, assuming a constant rate? Give only the integer.",
+          "answers": [
+            "4"
+          ],
+          "evidence": [
+            "twice every 12 days"
+          ],
+          "reference_answer": "4",
+          "unit": "passes",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。Rate calculation24/12×2=4; constant-rate assumption is explicit, avoiding calendar-endpoint ambiguity."
+        },
+        {
+          "id": "en-nisar-2025-unanswerable",
+          "type": "unanswerable",
+          "prompt": "According to the supplied excerpt, what was the mission's exact total development cost in US dollars? If the excerpt does not say, answer exactly 无法从文章确定.",
+          "answers": [
+            "无法从文章确定"
+          ],
+          "evidence": [],
+          "reference_answer": "无法从文章确定",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。The excerpt provides location, radar capability, and cadence, but no development cost."
+        }
+      ],
+      "excerpt_line_ranges": [
+        {
+          "start_line": 348,
+          "end_line": 348
+        },
+        {
+          "start_line": 350,
+          "end_line": 350
+        },
+        {
+          "start_line": 354,
+          "end_line": 354
+        },
+        {
+          "start_line": 357,
+          "end_line": 357
+        }
+      ],
+      "raw_sha256": "094641b54b979eed6f981d768b430a0b426da52be762c1a8f5ddd29f463bd075"
+    },
+    {
+      "id": "en-comet-2026",
+      "title": "NASA’s SPHEREx Mission Tracks Brightening of Interstellar Comet (excerpt)",
+      "language": "en",
+      "published_at": "2026-02-04",
+      "source_page_updated_at": "2026-02-11",
+      "source_url": "https://science.nasa.gov/blogs/3iatlas/2026/02/04/nasas-spherex-mission-tracks-brightening-of-interstellar-comet/",
+      "source_name": "NASA Science",
+      "license": "NASA-authored informational text generally not subject to US copyright; NASA Media Usage Guidelines apply; no third-party image, quotation, or logo included",
+      "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "scope": "excerpt",
+      "scope_note": "Selected four NASA explanatory paragraphs; omitted text is marked […]. Publication timestamp is February 4, 2026; footer last-update date is February 11, 2026. Captions and third-party quotations excluded.",
+      "text": "NASA’s SPHEREx mission turned its infrared gaze on interstellar comet 3I/ATLAS in December 2025, adding to the deep pool of information the agency has gathered on what is only the third such object to be discovered passing through our solar system.\n\n[…]\n\nIn a new research note, mission scientists describe the detection of organic molecules, such as methanol, cyanide, and methane. On Earth, organic molecules are the foundation for biological processes but can be created by non-biological processes as well. The researchers also note a dramatic increase in brightness two months after the icy body had passed its closest distance to the Sun, a phenomenon associated with comets as they vent water, carbon dioxide, and carbon monoxide into space.\n\n[…]\n\nAs a comet approaches the Sun after traveling from deep space, its frozen surface heats up and sublimates, which is when ice turns from a solid to a gas without passing through the liquid phase. These gases can escape into space to form an atmosphere surrounding the comet’s nucleus, known as a coma.\n\n[…]\n\nWhen the comet is closest to the Sun in its orbit, it experiences peak heating, but that’s not necessarily when peak sublimation activity occurs. Because the Sun’s heat takes time to travel through the outer layers of the comet, ices deep below the surface may not begin sublimating until long after the comet was closest to the Sun. This seems to be the case with comet 3I/ATLAS.",
+      "sha256": "a6b7b11668ec957a54ad8fb4794322bf913f57b2c0d0ec0c766cf4fcb457f378",
+      "downloaded_at": "2026-10-10T07:25:30+00:00",
+      "raw_path": "data/raw/20261010-initial/en-comet-2026.html",
+      "questions": [
+        {
+          "id": "en-comet-2026-fact",
+          "type": "fact",
+          "prompt": "What is the term for ice turning directly from a solid into gas without a liquid phase? Give only the process name.",
+          "answers": [
+            "sublimation",
+            "sublimating",
+            "sublimates"
+          ],
+          "evidence": [
+            "sublimates, which is when ice turns from a solid to a gas without passing through the liquid phase"
+          ],
+          "reference_answer": "sublimation",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。The supplied paragraph defines the process; noun and source verb forms accepted."
+        },
+        {
+          "id": "en-comet-2026-inference",
+          "type": "inference",
+          "prompt": "Does detecting organic molecules alone require concluding that they had a biological origin? Answer only yes or no.",
+          "answers": [
+            "no"
+          ],
+          "evidence": [
+            "can be created by non-biological processes as well"
+          ],
+          "reference_answer": "no",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。Uses the explicitly stated alternative non-biological origin; no astronomy knowledge required."
+        },
+        {
+          "id": "en-comet-2026-numeric",
+          "type": "numeric",
+          "prompt": "How many months after the comet's closest distance to the Sun did the researchers note the dramatic brightness increase? Give only the integer.",
+          "answers": [
+            "2",
+            "two"
+          ],
+          "evidence": [
+            "a dramatic increase in brightness two months after"
+          ],
+          "reference_answer": "2",
+          "unit": "months",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。Direct numeric extraction; 2 and spelled-out two refer to the same count."
+        },
+        {
+          "id": "en-comet-2026-unanswerable",
+          "type": "unanswerable",
+          "prompt": "According to the supplied excerpt, what is the exact mass of comet 3I/ATLAS in kilograms? If the excerpt does not say, answer exactly 无法从文章确定.",
+          "answers": [
+            "无法从文章确定"
+          ],
+          "evidence": [],
+          "reference_answer": "无法从文章确定",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。The excerpt describes molecules and sublimation, without a comet-mass estimate."
+        }
+      ],
+      "excerpt_line_ranges": [
+        {
+          "start_line": 337,
+          "end_line": 337
+        },
+        {
+          "start_line": 338,
+          "end_line": 338
+        },
+        {
+          "start_line": 339,
+          "end_line": 339
+        },
+        {
+          "start_line": 342,
+          "end_line": 342
+        }
+      ],
+      "raw_sha256": "052d7e29f4c33b381c6e25e952ed055cf808a41702917f3d70cc4c50c2937728"
+    },
+    {
+      "id": "zh-market-supervision-2026",
+      "title": "市场监督管理所条例（公布说明及第三、五、十九条节选）",
+      "language": "zh",
+      "published_at": "2026-09-11",
+      "source_page_published_at": "2026-09-11",
+      "promulgated_at": "2026-09-06",
+      "effective_at": "2026-11-01",
+      "source_url": "https://www.mee.gov.cn/zcwj/gwywj/202609/t20260911_1165970.shtml",
+      "source_name": "国务院法规正文／生态环境部官方转载",
+      "license": "法规正文：《中华人民共和国著作权法》第五条第一项不适用；网页模板、图片不纳入测评正文",
+      "license_url": "https://www.ncac.gov.cn/xxfb/flfg/flfg_532/202103/t20210309_50530.html",
+      "scope": "excerpt",
+      "scope_note": "选取公布说明及第三、第五、第十九条；段间删节以〔……〕明示。published_at 为来源网页发布日，公布日和施行日另列；截至2026-10-10，该条例尚未到施行日期。",
+      "raw_path": "data/raw/20261010-recent/zh-market-supervision-2026.html",
+      "questions": [
+        {
+          "id": "zh-market-supervision-2026-fact",
+          "type": "fact",
+          "prompt": "根据节选，市场监督管理所以哪个部门的名义作出行政行为？只写部门名称。",
+          "answers": [
+            "县级人民政府市场监督管理部门"
+          ],
+          "evidence": [
+            "以县级人民政府市场监督管理部门的名义作出行政行为"
+          ],
+          "reference_answer": "县级人民政府市场监督管理部门",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。逐字核对第三条；县级和部门名称均为答案必要部分。"
+        },
+        {
+          "id": "zh-market-supervision-2026-inference",
+          "type": "inference",
+          "prompt": "以2026年10月10日为判断日期，仅根据节选所载施行日期，《市场监督管理所条例》是否已经施行？只回答“是”或“否”。",
+          "answers": [
+            "否"
+          ],
+          "evidence": [
+            "本条例自2026年11月1日起施行。"
+          ],
+          "reference_answer": "否",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。2026-10-10早于2026-11-01；区分已经公布和已经施行，不依赖实际系统日期。"
+        },
+        {
+          "id": "zh-market-supervision-2026-numeric",
+          "type": "numeric",
+          "prompt": "第五条用编号列举了市场监督管理所的职责，共有多少项？不另计后面的职责调整说明段，只回答整数。",
+          "answers": [
+            "7"
+          ],
+          "evidence": [
+            "（一）办理个体工商户、农民专业合作社（联合社）及其分支机构登记相关事项；",
+            "（七）其他市场监督管理综合行政执法等职责。"
+          ],
+          "reference_answer": "7",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。逐项计数第五条列出的（一）至（七）；随后说明段不作为第八项。",
+          "unit": "项"
+        },
+        {
+          "id": "zh-market-supervision-2026-unanswerable",
+          "type": "unanswerable",
+          "prompt": "根据所给节选，2026年全国市场监督管理所的建设经费总额是多少元？若没有依据，请回答“无法从文章确定”。",
+          "answers": [
+            "无法从文章确定"
+          ],
+          "evidence": [],
+          "reference_answer": "无法从文章确定",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。节选规定机构性质、职责及施行日期，未提供全国建设经费总额。"
+        }
+      ],
+      "text": "《市场监督管理所条例》已经2026年8月21日国务院第94次常务会议通过，现予公布，自2026年11月1日起施行。\n\n〔……〕\n\n第三条 市场监督管理所是县级人民政府市场监督管理部门的派出机构，以县级人民政府市场监督管理部门的名义作出行政行为。县级人民政府市场监督管理部门应当加强对市场监督管理所的领导和管理。\n\n〔……〕\n\n第五条 市场监督管理所在县级人民政府市场监督管理部门的职责范围内，开展辖区内市场监督管理工作，履行下列职责：\n（一）办理个体工商户、农民专业合作社（联合社）及其分支机构登记相关事项；\n（二）承担食品生产经营，药品、医疗器械、化妆品经营，特种设备使用以及产品质量日常监督管理工作；\n（三）承担反不正当竞争、广告、价格、计量等领域日常监督管理工作；\n（四）处理市场监督管理领域投诉举报，保护消费者、经营主体等的合法权益；\n（五）查处或者协助查处违反市场监督管理有关法律、法规、规章的行为；\n（六）宣传市场监督管理有关法律、法规、规章；\n（七）其他市场监督管理综合行政执法等职责。\n市场监督管理所具体职责的确定和调整，由县级人民政府市场监督管理部门在前款规定的职责范围内根据实际情况提出方案，按照规定的权限和程序办理，并向社会公告。\n\n〔……〕\n\n第十九条 本条例自2026年11月1日起施行。《工商行政管理所条例》同时废止。",
+      "excerpt_line_ranges": [
+        {
+          "start_line": 4,
+          "end_line": 4
+        },
+        {
+          "start_line": 10,
+          "end_line": 10
+        },
+        {
+          "start_line": 12,
+          "end_line": 20
+        },
+        {
+          "start_line": 35,
+          "end_line": 35
+        }
+      ],
+      "sha256": "baa62a00315d5648b24bbe3ef196b6881ff9ce5db1c6872ad43c32f7502a1684",
+      "raw_sha256": "f0ca09a59565cdb249a32b02b0ae5d567b28d3d95d8a0a9aae3d04b5027a5cc1",
+      "downloaded_at": "2026-10-10T07:36:55+00:00"
+    },
+    {
+      "id": "en-brown-dwarfs-2026",
+      "title": "NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs (excerpt)",
+      "language": "en",
+      "published_at": "2026-10-08",
+      "source_page_updated_at": "2026-10-08",
+      "source_url": "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
+      "source_name": "NASA / Jet Propulsion Laboratory",
+      "license": "NASA-authored informational text generally not subject to US copyright; NASA Media Usage Guidelines apply; no third-party image, quotation, or logo included",
+      "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "scope": "excerpt",
+      "scope_note": "Selected four explanatory text blocks from NASA/JPL; omissions marked […]. The article heading itself displays October 8, 2026 as publication date, separately corroborated by the JPL original. Image captions and third-party quotations excluded.",
+      "raw_path": "data/raw/20261010-recent/en-brown-dwarfs-2026.html",
+      "questions": [
+        {
+          "id": "en-brown-dwarfs-2026-fact",
+          "type": "fact",
+          "prompt": "In which journal were the new findings published? Give only the journal name.",
+          "answers": [
+            "The Astrophysical Journal",
+            "Astrophysical Journal"
+          ],
+          "evidence": [
+            "New findings published in The Astrophysical Journal"
+          ],
+          "reference_answer": "The Astrophysical Journal",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。Source-checked the opening paragraph; leading article is optional."
+        },
+        {
+          "id": "en-brown-dwarfs-2026-inference",
+          "type": "inference",
+          "prompt": "Because brown dwarfs form from collapsing gas clouds like stars, must they be able to sustain hydrogen fusion in their cores? Answer only yes or no.",
+          "answers": [
+            "no"
+          ],
+          "evidence": [
+            "brown dwarfs form from collapsing clouds of gas, like stars do, but they aren’t hefty enough to sustain hydrogen fusion in their cores"
+          ],
+          "reference_answer": "no",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。Formation similarity does not imply the stated stellar fusion capability; answer follows explicit contrast."
+        },
+        {
+          "id": "en-brown-dwarfs-2026-numeric",
+          "type": "numeric",
+          "prompt": "How many nearby brown dwarfs did the study authors analyze using SPHEREx observations? Give only the integer.",
+          "answers": [
+            "37"
+          ],
+          "evidence": [
+            "SPHEREx observations of 37 nearby brown dwarfs"
+          ],
+          "reference_answer": "37",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。Extracts the actual analyzed sample size; neither 102 colors nor thousands of future objects substitutes.",
+          "unit": "brown dwarfs"
+        },
+        {
+          "id": "en-brown-dwarfs-2026-unanswerable",
+          "type": "unanswerable",
+          "prompt": "According to the supplied excerpt, what is the exact distance in light-years to the nearest of the 37 analyzed brown dwarfs? If the excerpt does not say, answer exactly 无法从文章确定.",
+          "answers": [
+            "无法从文章确定"
+          ],
+          "evidence": [],
+          "reference_answer": "无法从文章确定",
+          "reviewed": true,
+          "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。The excerpt supplies count and temperature range but no per-object distance; captions and collage are not supplied."
+        }
+      ],
+      "text": "NASA’s SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer) space telescope is shedding light on brown dwarfs, celestial objects that blur the line between stars and exoplanets. New findings published in The Astrophysical Journal show that these dark and cloudy worlds have chemically rich atmospheres not unlike the giant planets in our own solar system.\n\n[…]\n\nFirst discovered in the 1990s, brown dwarfs form from collapsing clouds of gas, like stars do, but they aren’t hefty enough to sustain hydrogen fusion in their cores. These dimly glowing balls of warm gas also share characteristics with Jupiter and Saturn. In contrast to most planets, however, brown dwarfs drift in darkness, ungoverned by a host star and heated entirely from within.\n\n[…]\n\nThe study authors analyzed SPHEREx observations of 37 nearby brown dwarfs spanning the full brown dwarf temperature range, from about 4,000 to minus 10 degrees Fahrenheit (2,200 to minus 20 degrees Celsius). The telescope measures their brightness in 102 different colors, from the deepest red our eyes can see, to the invisible heat of infrared light, creating a spectrum. These spectra revealed to the study authors chemically rich atmospheres harboring water, carbon dioxide, carbon monoxide, and methane.\n\n[…]\n\nAt those wavelengths, molecules carve out distinct absorption patterns in the light shining out to space. The patterns change as brown dwarfs grow older and colder. Some of the brown dwarfs observed by SPHEREx are in a dynamic stage of life when their exotic clouds thin out, giving way to methane-rich atmospheres.",
+      "excerpt_line_ranges": [
+        {
+          "start_line": 348,
+          "end_line": 348
+        },
+        {
+          "start_line": 349,
+          "end_line": 349
+        },
+        {
+          "start_line": 355,
+          "end_line": 355
+        },
+        {
+          "start_line": 363,
+          "end_line": 363
+        }
+      ],
+      "sha256": "f9656bbdb5984c54d78d1e0e912b7c54d2b8fdd147af308935c9f3a0387c3c04",
+      "raw_sha256": "bc6978d244ab3ba1b8296ddf481407054e0f185e0dec7c1a9444c4a9f877cbe0",
+      "downloaded_at": "2026-10-10T07:36:55+00:00"
+    }
+  ]
+}

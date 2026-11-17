@@ -1,0 +1,1357 @@
+{
+  "version": "reading-live-demo-v1-20261026",
+  "ready": true,
+  "status": "ready",
+  "problems": [],
+  "deployment": {
+    "label": "服务器 · RTX 3090",
+    "hostname": "qilin",
+    "model_connection_note": "模型调用由当前平台后端发起；服务地址中的127.0.0.1指后端所在机器。"
+  },
+  "models": [
+    {
+      "id": "phi35-mini",
+      "name": "Phi-3.5 · Mini Instruct (3.8B)",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "phi3.5:3.8b-mini-instruct-q4_K_M",
+      "api_key_env": "",
+      "expected_digest": "57096159698481b47ea17995d1a71f28eea1e26fc801df39a841b29badb4aa63",
+      "release_date": "2024-08-20",
+      "release_source": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct/commit/d509c5617b2dd9fcdc75022aad9382c4bc8e8b54",
+      "created_at": "2026-10-24T15:34:41.165556+00:00",
+      "native_context_tokens": 131072,
+      "token_budget_margin": 512,
+      "suite_record": {
+        "original_repo": "microsoft/Phi-3.5-mini-instruct",
+        "original_revision": "af0dfb8029e8a74545d0736d30cb6b58d2f0f3f0",
+        "release_date_basis": "author model card published 2024-08-20; conservative known-public upper bound, not exact training end",
+        "distribution_manifest_sha256": "57096159698481b47ea17995d1a71f28eea1e26fc801df39a841b29badb4aa63",
+        "weight_blob_sha256": "3ef532675b6684b28e0a1a0dca8b3bf4132673bf2294b7d87b41b1d64bb03bca",
+        "total_parameters": 3821079552,
+        "architecture": "Phi3ForCausalLM",
+        "license": "MIT",
+        "language_coverage": "Official 2024 card lists English and Chinese among 23 supported languages; quality differs by language",
+        "native_context_tokens": 131072,
+        "provenance_status": "original_historical_checkpoint_known;fixed_registry_bytes_verified;conversion_lineage_not_independently_reproduced",
+        "tokenizer_status": "not_runtime_certified;conservative_budget_unless_verified_native_adapter_available",
+        "license_action": "stored source license text; no gated login or new click-through acceptance performed"
+      },
+      "digest": "57096159698481b47ea17995d1a71f28eea1e26fc801df39a841b29badb4aa63",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "phi3",
+        "families": [
+          "phi3"
+        ],
+        "parameter_size": "3.8B",
+        "quantization_level": "Q4_K_M"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3040
+        },
+        "zh-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3242
+        },
+        "en-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3736
+        },
+        "en-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 4025
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick",
+        "zh-reading",
+        "en-quick",
+        "en-reading"
+      ],
+      "demo_context_tokens": 8192
+    },
+    {
+      "id": "yi15-6b",
+      "name": "Yi-1.5 · 6B Chat",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "yi:6b-chat-v1.5-q4_K_M",
+      "api_key_env": "",
+      "expected_digest": "fa152930bd7fba7d9c42c1544a3538eb219873dc4a39d0036ecd0253948998c0",
+      "release_date": "2024-08-27",
+      "release_source": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat/commit/771924d1c83d67527d665913415d7086f11ea9c0",
+      "created_at": "2026-10-24T15:30:57.588993+00:00",
+      "native_context_tokens": 4096,
+      "token_budget_margin": 512,
+      "suite_record": {
+        "original_repo": "01-ai/Yi-1.5-6B-Chat",
+        "original_revision": "771924d1c83d67527d665913415d7086f11ea9c0",
+        "release_date_basis": "fixed author snapshot committed 2024-08-27; conservative known-public upper bound, not first release date",
+        "distribution_manifest_sha256": "fa152930bd7fba7d9c42c1544a3538eb219873dc4a39d0036ecd0253948998c0",
+        "weight_blob_sha256": "79bc28516580c9da278d14b8dbcfa2761dc99ccc2e905e1b31c786dc5f866fd1",
+        "total_parameters": 6061035520,
+        "architecture": "LlamaForCausalLM",
+        "license": "Apache-2.0",
+        "language_coverage": "Yi family is Chinese/English bilingual; task performance still measured separately",
+        "native_context_tokens": 4096,
+        "provenance_status": "original_historical_checkpoint_known;fixed_registry_bytes_verified;conversion_lineage_not_independently_reproduced",
+        "tokenizer_status": "official_HF_literal_backslash_template_differs_from_registry;runtime_uses_original_registry_ChatML_template;exact_tokenizer_equivalence_not_certified",
+        "license_action": "stored source license text; no gated login or new click-through acceptance performed",
+        "tokenizer_audit_artifact": "runtime/tokenizers/yi15-6b-771924d;reference_files_only_not_runtime_tokenizer_spec"
+      },
+      "digest": "fa152930bd7fba7d9c42c1544a3538eb219873dc4a39d0036ecd0253948998c0",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "6B",
+        "quantization_level": "Q4_K_M"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 4096,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3040
+        },
+        "zh-reading": {
+          "allowed": false,
+          "reason": "输入预算未通过：context_budget_exceeded; input was not truncated",
+          "num_ctx": 4096,
+          "strict_time": false,
+          "strict_budget": false
+        },
+        "en-quick": {
+          "allowed": false,
+          "reason": "输入预算未通过：context_budget_exceeded; input was not truncated",
+          "num_ctx": 4096,
+          "strict_time": false,
+          "strict_budget": false
+        },
+        "en-reading": {
+          "allowed": false,
+          "reason": "输入预算未通过：context_budget_exceeded; input was not truncated",
+          "num_ctx": 4096,
+          "strict_time": false,
+          "strict_budget": false
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick"
+      ],
+      "demo_context_tokens": 4096
+    },
+    {
+      "id": "gemma2-9b",
+      "name": "Gemma 2 · 9B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "gemma2:9b-instruct-q4_K_M",
+      "api_key_env": "",
+      "expected_digest": "c20bec88025f3aefa420efd64dca0ee4abc8e36078d6b74b0f660cdcbd5d1982",
+      "release_date": "2024-06-27",
+      "release_source": "https://blog.google/technology/developers/google-gemma-2/",
+      "created_at": "2026-10-24T15:30:49.334042+00:00",
+      "native_context_tokens": 8192,
+      "token_budget_margin": 512,
+      "suite_record": {
+        "original_repo": "google/gemma-2-9b-it",
+        "original_revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+        "release_date_basis": "official Google launch article datePublished=2024-06-27",
+        "distribution_manifest_sha256": "c20bec88025f3aefa420efd64dca0ee4abc8e36078d6b74b0f660cdcbd5d1982",
+        "weight_blob_sha256": "cb654129f57b4f44e372fab3d6540c0d6784c3adc33125d7c38ab47122ee2a54",
+        "total_parameters": 9241705984,
+        "architecture": "Gemma2ForCausalLM",
+        "license": "Gemma Terms of Use (custom)",
+        "language_coverage": "Official model card describes English; Chinese results exploratory",
+        "native_context_tokens": 8192,
+        "provenance_status": "original_historical_checkpoint_known;fixed_registry_bytes_verified;conversion_lineage_not_independently_reproduced",
+        "tokenizer_status": "not_runtime_certified;conservative_budget_unless_verified_native_adapter_available",
+        "license_action": "stored source license text; no gated login or new click-through acceptance performed"
+      },
+      "digest": "c20bec88025f3aefa420efd64dca0ee4abc8e36078d6b74b0f660cdcbd5d1982",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "gemma2",
+        "families": [
+          "gemma2"
+        ],
+        "parameter_size": "9.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3040
+        },
+        "zh-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3242
+        },
+        "en-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3736
+        },
+        "en-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 4025
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick",
+        "zh-reading",
+        "en-quick",
+        "en-reading"
+      ],
+      "demo_context_tokens": 8192
+    },
+    {
+      "id": "internlm25-7b",
+      "name": "InternLM2.5 · 7B Chat（registry分发待核）",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "internlm2:7b-chat-v2.5-q4_K_M",
+      "api_key_env": "",
+      "release_date": "2024-07-03",
+      "release_source": "https://huggingface.co/internlm/internlm2_5-7b-chat",
+      "expected_digest": "aa0c9b808286311ca91e6c5f200f77be95b7c7c1428211d4fbb791358e02d06b",
+      "created_at": "2026-10-20T05:26:07.259725+00:00",
+      "suite_record": {
+        "original_repo": "internlm/internlm2_5-7b-chat",
+        "original_revision": "eb72b541689b0432dade0435feb339b89fdd39ff",
+        "distribution_manifest_sha256": "aa0c9b808286311ca91e6c5f200f77be95b7c7c1428211d4fbb791358e02d06b",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "provenance_review": {
+        "client_date": "2026-10-20",
+        "status": "not_equivalent_to_official_2024_gguf;historical_conversion_lineage_unverified",
+        "different_quantized_tensors": 226,
+        "different_tokenizer_metadata_entries": 3,
+        "not_a_retraining_or_contamination_proof": true,
+        "separate_official_configuration": "internlm25-7b-official2024"
+      },
+      "digest": "aa0c9b808286311ca91e6c5f200f77be95b7c7c1428211d4fbb791358e02d06b",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "internlm2",
+        "families": [
+          "internlm2"
+        ],
+        "parameter_size": "7.7B",
+        "quantization_level": "Q4_K_M"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3040
+        },
+        "zh-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3242
+        },
+        "en-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3736
+        },
+        "en-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 4025
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick",
+        "zh-reading",
+        "en-quick",
+        "en-reading"
+      ],
+      "demo_context_tokens": 8192
+    },
+    {
+      "id": "internlm25-7b-official2024",
+      "name": "InternLM2.5 · 7B Chat（官方2024 GGUF）",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "reading-internlm25-7b:20240716-q4_K_M",
+      "expected_digest": "9ca68ac94adb81795241ed162c328cd6a5c8b6ec2620107c9f0b9c429e3e1245",
+      "api_key_env": "",
+      "release_date": "2024-07-16",
+      "release_source": "https://huggingface.co/internlm/internlm2_5-7b-chat-gguf/tree/8fa9dff166b63e3d356b3a3ca95c5ab2a4b1b378",
+      "created_at": "2026-10-20T06:56:48.591062+00:00",
+      "suite_record": {
+        "official_gguf_repo": "internlm/internlm2_5-7b-chat-gguf",
+        "gguf_revision": "8fa9dff166b63e3d356b3a3ca95c5ab2a4b1b378",
+        "original_model_release_date": "2024-07-03",
+        "historical_revision_date": "2024-07-16",
+        "official_weight_blob_sha256": "450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55",
+        "distribution_manifest_sha256": "9ca68ac94adb81795241ed162c328cd6a5c8b6ec2620107c9f0b9c429e3e1245",
+        "conversion_lineage": "official author's 2024 GGUF bytes verified; original tensor-to-GGUF transformation not independently repeated",
+        "runtime_template_status": "frozen InternLM ChatML runtime template; exact tokenizer accounting not certified; engine BOS behavior retained"
+      },
+      "digest": "9ca68ac94adb81795241ed162c328cd6a5c8b6ec2620107c9f0b9c429e3e1245",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "internlm2",
+        "families": [
+          "internlm2"
+        ],
+        "parameter_size": "7.7B",
+        "quantization_level": "Q4_K_M"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3040
+        },
+        "zh-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3242
+        },
+        "en-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3736
+        },
+        "en-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 4025
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick",
+        "zh-reading",
+        "en-quick",
+        "en-reading"
+      ],
+      "demo_context_tokens": 8192
+    },
+    {
+      "id": "llama31-8b",
+      "name": "Llama 3.1 · 8B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "llama3.1:8b-instruct-q4_K_M",
+      "api_key_env": "",
+      "release_date": "2024-07-23",
+      "release_source": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "expected_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "created_at": "2026-10-20T05:50:42.151847+00:00",
+      "suite_record": {
+        "original_repo": "meta-llama/Llama-3.1-8B-Instruct",
+        "original_revision": null,
+        "distribution_manifest_sha256": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_K_M"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3040
+        },
+        "zh-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3242
+        },
+        "en-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3736
+        },
+        "en-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 4025
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick",
+        "zh-reading",
+        "en-quick",
+        "en-reading"
+      ],
+      "demo_context_tokens": 8192
+    },
+    {
+      "id": "mistral03-7b",
+      "name": "Mistral · 7B Instruct v0.3",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "mistral:7b-instruct-v0.3-q4_K_M",
+      "api_key_env": "",
+      "release_date": "2024-05-22",
+      "release_source": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+      "expected_digest": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+      "created_at": "2026-10-20T05:33:15.750703+00:00",
+      "suite_record": {
+        "original_repo": "mistralai/Mistral-7B-Instruct-v0.3",
+        "original_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+        "distribution_manifest_sha256": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "digest": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "7.2B",
+        "quantization_level": "Q4_K_M"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3040
+        },
+        "zh-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3242
+        },
+        "en-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3736
+        },
+        "en-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 4025
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick",
+        "zh-reading",
+        "en-quick",
+        "en-reading"
+      ],
+      "demo_context_tokens": 8192
+    },
+    {
+      "id": "qwen25-14b",
+      "name": "Qwen2.5 · 14B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "qwen2.5:14b-instruct-q4_K_M",
+      "api_key_env": "",
+      "release_date": "2024-09-19",
+      "release_source": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct",
+      "expected_digest": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+      "created_at": "2026-10-20T05:26:00.105660+00:00",
+      "suite_record": {
+        "original_repo": "Qwen/Qwen2.5-14B-Instruct",
+        "original_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+        "distribution_manifest_sha256": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "tokenizer_spec": {
+        "repo_id": "Qwen/Qwen2.5-14B-Instruct",
+        "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+        "artifact_dir": "/home/jmy/reading-bench/runtime/tokenizers/qwen25-14b-cf98f3b",
+        "manifest_sha256": "2ee873d1be8613f7b02aceb641d6a93ada09f45d12315f42cf0a0fac8a27f1c3"
+      },
+      "runtime_template_kind": "raw_rendered_prompt",
+      "token_budget_margin": 512,
+      "digest": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "14.8B",
+        "quantization_level": "Q4_K_M"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 729
+        },
+        "zh-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 784
+        },
+        "en-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 779
+        },
+        "en-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 835
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick",
+        "zh-reading",
+        "en-quick",
+        "en-reading"
+      ],
+      "demo_context_tokens": 8192
+    },
+    {
+      "id": "qwen25-15b",
+      "name": "Qwen2.5 · 1.5B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "qwen2.5:1.5b-instruct-q4_K_M",
+      "api_key_env": "",
+      "release_date": "2024-09-19",
+      "release_source": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "expected_digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+      "created_at": "2026-10-20T05:03:07.919679+00:00",
+      "suite_record": {
+        "original_repo": "Qwen/Qwen2.5-1.5B-Instruct",
+        "original_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "distribution_manifest_sha256": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "tokenizer_spec": {
+        "repo_id": "Qwen/Qwen2.5-1.5B-Instruct",
+        "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "artifact_dir": "/home/jmy/reading-bench/runtime/tokenizers/qwen25-15b-989aa79",
+        "manifest_sha256": "588f4da0689e48c2174d38b6919d7ba7e6118cd6d513a2a774082c36104abbbd"
+      },
+      "runtime_template_kind": "raw_rendered_prompt",
+      "token_budget_margin": 512,
+      "digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "1.5B",
+        "quantization_level": "Q4_K_M"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 729
+        },
+        "zh-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 784
+        },
+        "en-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 779
+        },
+        "en-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 835
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick",
+        "zh-reading",
+        "en-quick",
+        "en-reading"
+      ],
+      "demo_context_tokens": 8192
+    },
+    {
+      "id": "qwen25-7b",
+      "name": "Qwen2.5 · 7B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "qwen2.5:7b-instruct",
+      "api_key_env": "",
+      "release_date": "2024-09-19",
+      "release_source": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "expected_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "created_at": "2026-10-20T05:00:43.968826+00:00",
+      "suite_record": {
+        "original_repo": "Qwen/Qwen2.5-7B-Instruct",
+        "original_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "distribution_manifest_sha256": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "tokenizer_spec": {
+        "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+        "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "artifact_dir": "/home/jmy/reading-bench/runtime/tokenizers/qwen25-7b-a09a354",
+        "manifest_sha256": "9dd35fd52541064912583bff5bd15c47a918cd86a2dfb0dec065b39029d44d7b"
+      },
+      "runtime_template_kind": "raw_rendered_prompt",
+      "token_budget_margin": 512,
+      "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "7.6B",
+        "quantization_level": "Q4_K_M"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 729
+        },
+        "zh-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 784
+        },
+        "en-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 779
+        },
+        "en-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 835
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick",
+        "zh-reading",
+        "en-quick",
+        "en-reading"
+      ],
+      "demo_context_tokens": 8192
+    },
+    {
+      "id": "qwen25-3b",
+      "name": "Qwen2.5 · 3B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "api_key_env": "",
+      "release_date": "2024-09-19",
+      "release_source": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+      "expected_digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "created_at": "2026-10-20T05:00:43.856398+00:00",
+      "suite_record": {
+        "original_repo": "Qwen/Qwen2.5-3B-Instruct",
+        "original_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "distribution_manifest_sha256": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "tokenizer_spec": {
+        "repo_id": "Qwen/Qwen2.5-3B-Instruct",
+        "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "artifact_dir": "/home/jmy/reading-bench/runtime/tokenizers/qwen25-3b-aa8e725",
+        "manifest_sha256": "fdd7ef3103aa12e6a3a1b58aeaa1a544c402b483056b0043749335dc64d58fea"
+      },
+      "runtime_template_kind": "raw_rendered_prompt",
+      "token_budget_margin": 512,
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "3.1B",
+        "quantization_level": "Q4_K_M"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 729
+        },
+        "zh-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 784
+        },
+        "en-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 779
+        },
+        "en-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 835
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick",
+        "zh-reading",
+        "en-quick",
+        "en-reading"
+      ],
+      "demo_context_tokens": 8192
+    }
+  ],
+  "presets": [
+    {
+      "id": "zh-quick",
+      "label": "中文 · 单题速跑",
+      "language": "zh",
+      "bank_id": "dev-expanded-20261020",
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "question_count": 1,
+      "formal": false,
+      "note": "完整原文、已有冻结开发题；人工复核0。现场演示不形成正式排名。",
+      "article": {
+        "id": "zh-cas-1cf079b15eb7-dev20261020",
+        "title": "非局域超表面实现激子发射定向调控",
+        "language": "zh",
+        "published_at": "2026-10-09",
+        "source_url": "https://www.cas.cn/syky/202609/t20260930_5121254.shtml",
+        "paragraphs": [
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p001",
+            "text": "传统光学超表面虽能对光场进行像素化相位调控，但其相位响应依赖每个超原子的局域光场，超原子之间缺乏空间相干性，难以对自发辐射实施空间相干的相位调控。",
+            "source_paragraph_indexes_1_based": [
+              1
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p002",
+            "text": "近日，中国科学院苏州纳米技术与纳米仿生研究所将单层MoSe 2 与WS 2 非局域超表面进行全范德华集成，构建了全范德华非局域相位梯度超表面激子发光器件。",
+            "source_paragraph_indexes_1_based": [
+              2
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p003",
+            "text": "团队通过调控超原子的面内对称性，利用布里渊区折叠，在光锥之上引入高品质因子的准连续域束缚态非局域共振。该共振具有面内扩展的集体光场，使超表面同时具备高品质因子和良好的空间相干性。",
+            "source_paragraph_indexes_1_based": [
+              3
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p004",
+            "text": "在此基础上，团队实现了手性依赖的激子发射光束偏转，并建立了全范德华非局域相位梯度超表面平台。该研究为二维激子发射的精确方向控制提供了新路径，也为多功能荧光发射器和片上光源设计开辟了新前景。",
+            "source_paragraph_indexes_1_based": [
+              4
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p005",
+            "text": "相关研究成果发表在《先进功能材料》（ Advanced Functional Materials ）上。研究工作得到国家自然科学基金等的支持。",
+            "source_paragraph_indexes_1_based": [
+              5
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p006",
+            "text": "全范德华非局域相位梯度超表面实现激子发射定向调控的概念示意图",
+            "source_paragraph_indexes_1_based": [
+              6
+            ]
+          }
+        ],
+        "source_cluster_id": "zh-cas-1cf079b15eb7",
+        "presented_text_sha256": "cc9762f47962a92d5dd08fa1b5249564ac90a12580223fd62819c76bc6fe5c50",
+        "first_published_at": null
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "prompt": "报道中用于集成的单层材料是什么？只写化学式，省略空格。",
+          "kind": "short",
+          "dimension": "D1"
+        }
+      ],
+      "compatible_model_ids": [
+        "phi35-mini",
+        "yi15-6b",
+        "gemma2-9b",
+        "internlm25-7b",
+        "internlm25-7b-official2024",
+        "llama31-8b",
+        "mistral03-7b",
+        "qwen25-14b",
+        "qwen25-15b",
+        "qwen25-7b",
+        "qwen25-3b"
+      ]
+    },
+    {
+      "id": "zh-reading",
+      "label": "中文 · 三题阅读",
+      "language": "zh",
+      "bank_id": "dev-expanded-20261020",
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "question_count": 3,
+      "formal": false,
+      "note": "完整原文、已有冻结开发题；人工复核0。现场演示不形成正式排名。",
+      "article": {
+        "id": "zh-cas-1cf079b15eb7-dev20261020",
+        "title": "非局域超表面实现激子发射定向调控",
+        "language": "zh",
+        "published_at": "2026-10-09",
+        "source_url": "https://www.cas.cn/syky/202609/t20260930_5121254.shtml",
+        "paragraphs": [
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p001",
+            "text": "传统光学超表面虽能对光场进行像素化相位调控，但其相位响应依赖每个超原子的局域光场，超原子之间缺乏空间相干性，难以对自发辐射实施空间相干的相位调控。",
+            "source_paragraph_indexes_1_based": [
+              1
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p002",
+            "text": "近日，中国科学院苏州纳米技术与纳米仿生研究所将单层MoSe 2 与WS 2 非局域超表面进行全范德华集成，构建了全范德华非局域相位梯度超表面激子发光器件。",
+            "source_paragraph_indexes_1_based": [
+              2
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p003",
+            "text": "团队通过调控超原子的面内对称性，利用布里渊区折叠，在光锥之上引入高品质因子的准连续域束缚态非局域共振。该共振具有面内扩展的集体光场，使超表面同时具备高品质因子和良好的空间相干性。",
+            "source_paragraph_indexes_1_based": [
+              3
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p004",
+            "text": "在此基础上，团队实现了手性依赖的激子发射光束偏转，并建立了全范德华非局域相位梯度超表面平台。该研究为二维激子发射的精确方向控制提供了新路径，也为多功能荧光发射器和片上光源设计开辟了新前景。",
+            "source_paragraph_indexes_1_based": [
+              4
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p005",
+            "text": "相关研究成果发表在《先进功能材料》（ Advanced Functional Materials ）上。研究工作得到国家自然科学基金等的支持。",
+            "source_paragraph_indexes_1_based": [
+              5
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p006",
+            "text": "全范德华非局域相位梯度超表面实现激子发射定向调控的概念示意图",
+            "source_paragraph_indexes_1_based": [
+              6
+            ]
+          }
+        ],
+        "source_cluster_id": "zh-cas-1cf079b15eb7",
+        "presented_text_sha256": "cc9762f47962a92d5dd08fa1b5249564ac90a12580223fd62819c76bc6fe5c50",
+        "first_published_at": null
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "prompt": "报道中用于集成的单层材料是什么？只写化学式，省略空格。",
+          "kind": "short",
+          "dimension": "D1"
+        },
+        {
+          "id": "q03",
+          "prompt": "传统超表面对自发辐射实施空间相干相位调控的限制是什么？",
+          "kind": "choice",
+          "dimension": "D2",
+          "options": {
+            "A": "超原子之间已有过强相干性",
+            "B": "相位响应依赖局域光场而超原子间缺乏空间相干性",
+            "C": "只能对光强而不能对任何相位调控",
+            "D": "不存在超原子之间的光学响应"
+          }
+        },
+        {
+          "id": "q07",
+          "prompt": "该器件在实验中实现的最大光束偏转角精确是多少度？",
+          "kind": "unanswerable",
+          "dimension": "D6"
+        }
+      ],
+      "compatible_model_ids": [
+        "phi35-mini",
+        "gemma2-9b",
+        "internlm25-7b",
+        "internlm25-7b-official2024",
+        "llama31-8b",
+        "mistral03-7b",
+        "qwen25-14b",
+        "qwen25-15b",
+        "qwen25-7b",
+        "qwen25-3b"
+      ]
+    },
+    {
+      "id": "en-quick",
+      "label": "English · 单题速跑",
+      "language": "en",
+      "bank_id": "dev-expanded-20261020",
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "question_count": 1,
+      "formal": false,
+      "note": "完整原文、已有冻结开发题；人工复核0。现场演示不形成正式排名。",
+      "article": {
+        "id": "en-nasa-2b3fb9c367c3-dev20261020",
+        "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+        "language": "en",
+        "published_at": "2026-10-02",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+        "paragraphs": [
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p001",
+            "text": "Groundbreaking tests at NASA’s Langley Research Center in Hampton, Virginia, are paving the way for new wind tunnel capabilities for designing the aircraft technologies of the future.",
+            "source_paragraph_indexes_1_based": [
+              1
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p002",
+            "text": "In a first-of-its-kind test in NASA Langley’s Transonic Dynamics Tunnel, researchers used unsteady Pressure Sensitive Paint to study how air flows around a standard wind tunnel model known as the Benchmark Supercritical Wing. As the team observed the test, the paint’s special capabilities made the model wing glow pink-purple when exposed to special ultraviolet lights, while high-speed cameras captured every detail.",
+            "source_paragraph_indexes_1_based": [
+              2
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p003",
+            "text": "The test combined two valuable NASA tools. NASA’s benchmark wings don’t represent a particular type of aircraft, rather they are meant as universal models to help researchers improve computer modeling using wind tunnel data.",
+            "source_paragraph_indexes_1_based": [
+              3
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p004",
+            "text": "Unsteady pressure sensitive paint is a specialized coating that varies in brightness according to how much pressure the air flow applies to the wing. High-speed cameras capture those changes, providing data for computer models. For years, NASA researchers at centers including Langley and the agency’s Ames Research Center in California’s Silicon Valley have been working to integrate the paint into wind tunnel tests for aircraft and rockets. NASA researchers consider the paint a vital tool and expect to find many more wind tunnel applications in the future.",
+            "source_paragraph_indexes_1_based": [
+              4
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p005",
+            "text": "This test marked the technique’s first use on a large-scale, freely moving model in a low‑oxygen environment, an achievement made possible by the Transonic Dynamic Tunnel’s unique testing capabilities.",
+            "source_paragraph_indexes_1_based": [
+              5
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p006",
+            "text": "This milestone opens the door for upcoming tests on flexible aircraft models that are designed to bend and adapt during flight to improve efficiency. It also lays the foundation for better simulations and designs as NASA advances the future of flight.",
+            "source_paragraph_indexes_1_based": [
+              6
+            ]
+          }
+        ],
+        "source_cluster_id": "en-nasa-2b3fb9c367c3",
+        "presented_text_sha256": "c71b2dc0744d61af98ca3a382130a984305705779353f540753edd81f0d6869b",
+        "first_published_at": null
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "prompt": "What is the name of the standard wind-tunnel model used in the reported test? Give only its name.",
+          "kind": "short",
+          "dimension": "D1"
+        }
+      ],
+      "compatible_model_ids": [
+        "phi35-mini",
+        "gemma2-9b",
+        "internlm25-7b",
+        "internlm25-7b-official2024",
+        "llama31-8b",
+        "mistral03-7b",
+        "qwen25-14b",
+        "qwen25-15b",
+        "qwen25-7b",
+        "qwen25-3b"
+      ]
+    },
+    {
+      "id": "en-reading",
+      "label": "English · 三题阅读",
+      "language": "en",
+      "bank_id": "dev-expanded-20261020",
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "question_count": 3,
+      "formal": false,
+      "note": "完整原文、已有冻结开发题；人工复核0。现场演示不形成正式排名。",
+      "article": {
+        "id": "en-nasa-2b3fb9c367c3-dev20261020",
+        "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+        "language": "en",
+        "published_at": "2026-10-02",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+        "paragraphs": [
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p001",
+            "text": "Groundbreaking tests at NASA’s Langley Research Center in Hampton, Virginia, are paving the way for new wind tunnel capabilities for designing the aircraft technologies of the future.",
+            "source_paragraph_indexes_1_based": [
+              1
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p002",
+            "text": "In a first-of-its-kind test in NASA Langley’s Transonic Dynamics Tunnel, researchers used unsteady Pressure Sensitive Paint to study how air flows around a standard wind tunnel model known as the Benchmark Supercritical Wing. As the team observed the test, the paint’s special capabilities made the model wing glow pink-purple when exposed to special ultraviolet lights, while high-speed cameras captured every detail.",
+            "source_paragraph_indexes_1_based": [
+              2
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p003",
+            "text": "The test combined two valuable NASA tools. NASA’s benchmark wings don’t represent a particular type of aircraft, rather they are meant as universal models to help researchers improve computer modeling using wind tunnel data.",
+            "source_paragraph_indexes_1_based": [
+              3
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p004",
+            "text": "Unsteady pressure sensitive paint is a specialized coating that varies in brightness according to how much pressure the air flow applies to the wing. High-speed cameras capture those changes, providing data for computer models. For years, NASA researchers at centers including Langley and the agency’s Ames Research Center in California’s Silicon Valley have been working to integrate the paint into wind tunnel tests for aircraft and rockets. NASA researchers consider the paint a vital tool and expect to find many more wind tunnel applications in the future.",
+            "source_paragraph_indexes_1_based": [
+              4
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p005",
+            "text": "This test marked the technique’s first use on a large-scale, freely moving model in a low‑oxygen environment, an achievement made possible by the Transonic Dynamic Tunnel’s unique testing capabilities.",
+            "source_paragraph_indexes_1_based": [
+              5
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p006",
+            "text": "This milestone opens the door for upcoming tests on flexible aircraft models that are designed to bend and adapt during flight to improve efficiency. It also lays the foundation for better simulations and designs as NASA advances the future of flight.",
+            "source_paragraph_indexes_1_based": [
+              6
+            ]
+          }
+        ],
+        "source_cluster_id": "en-nasa-2b3fb9c367c3",
+        "presented_text_sha256": "c71b2dc0744d61af98ca3a382130a984305705779353f540753edd81f0d6869b",
+        "first_published_at": null
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "prompt": "What is the name of the standard wind-tunnel model used in the reported test? Give only its name.",
+          "kind": "short",
+          "dimension": "D1"
+        },
+        {
+          "id": "q03",
+          "prompt": "How should the benchmark wing's relationship to an actual aircraft type be understood? Return only the option ID.",
+          "kind": "choice",
+          "dimension": "D2",
+          "options": {
+            "A": "It is an exact prototype of one named passenger aircraft",
+            "B": "It represents every aircraft's final production design",
+            "C": "It was built solely to identify the model of an unknown aircraft",
+            "D": "It is a universal model, rather than a representation of a particular aircraft type"
+          }
+        },
+        {
+          "id": "q07",
+          "prompt": "What exact air pressure, in pascals, was applied to the wing when the paint glowed pink-purple? Abstain if the passage does not determine the number.",
+          "kind": "unanswerable",
+          "dimension": "D6"
+        }
+      ],
+      "compatible_model_ids": [
+        "phi35-mini",
+        "gemma2-9b",
+        "internlm25-7b",
+        "internlm25-7b-official2024",
+        "llama31-8b",
+        "mistral03-7b",
+        "qwen25-14b",
+        "qwen25-15b",
+        "qwen25-7b",
+        "qwen25-3b"
+      ]
+    }
+  ],
+  "default_model_id": "qwen25-7b",
+  "default_preset_id": "zh-quick",
+  "active_run": null,
+  "recent_runs": [],
+  "model_calls": 0
+}

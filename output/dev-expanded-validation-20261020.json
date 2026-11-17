@@ -1,0 +1,2309 @@
+{
+  "checked_on_client_date": "2026-10-20",
+  "schema_validation_passed": true,
+  "bank_sha256": "ea4033e6d9e4b3052871eed683a7e65c280d1e4ac265ac1ef2a9807083b2ac3a",
+  "formal_rejected_as_expected": "Non-frozen bank: use --allow-draft for labelled diagnostics",
+  "counts": {
+    "articles": 20,
+    "questions": 160,
+    "languages": {
+      "zh": 10,
+      "en": 10
+    },
+    "human_reviewed_articles": 0,
+    "human_reviewed_questions": 0,
+    "newly_authored_articles": 18,
+    "reused_pilot_articles": 2
+  },
+  "source_bodies_and_raw_sha256_verified": 20,
+  "articles": [
+    {
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "language": "zh",
+      "question_count": 8,
+      "newly_authored": false,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2601,
+          "qwen_native_input_tokens": 1577,
+          "draft_utf8_total_bound": 6947,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2642,
+          "qwen_native_input_tokens": 1618,
+          "draft_utf8_total_bound": 7120,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2647,
+          "qwen_native_input_tokens": 1623,
+          "draft_utf8_total_bound": 7150,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2606,
+          "qwen_native_input_tokens": 1582,
+          "draft_utf8_total_bound": 6982,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2673,
+          "qwen_native_input_tokens": 1649,
+          "draft_utf8_total_bound": 7264,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2670,
+          "qwen_native_input_tokens": 1646,
+          "draft_utf8_total_bound": 7165,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2600,
+          "qwen_native_input_tokens": 1576,
+          "draft_utf8_total_bound": 6954,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2602,
+          "qwen_native_input_tokens": 1578,
+          "draft_utf8_total_bound": 6967,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020",
+      "language": "zh",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2831,
+          "qwen_native_input_tokens": 1807,
+          "draft_utf8_total_bound": 6072,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2832,
+          "qwen_native_input_tokens": 1808,
+          "draft_utf8_total_bound": 6059,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2893,
+          "qwen_native_input_tokens": 1869,
+          "draft_utf8_total_bound": 6256,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2897,
+          "qwen_native_input_tokens": 1873,
+          "draft_utf8_total_bound": 6295,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2897,
+          "qwen_native_input_tokens": 1873,
+          "draft_utf8_total_bound": 6316,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2830,
+          "qwen_native_input_tokens": 1806,
+          "draft_utf8_total_bound": 6061,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2826,
+          "qwen_native_input_tokens": 1802,
+          "draft_utf8_total_bound": 6050,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2825,
+          "qwen_native_input_tokens": 1801,
+          "draft_utf8_total_bound": 6055,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "language": "zh",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2516,
+          "qwen_native_input_tokens": 1492,
+          "draft_utf8_total_bound": 7003,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2573,
+          "qwen_native_input_tokens": 1549,
+          "draft_utf8_total_bound": 7210,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2609,
+          "qwen_native_input_tokens": 1585,
+          "draft_utf8_total_bound": 7303,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2591,
+          "qwen_native_input_tokens": 1567,
+          "draft_utf8_total_bound": 7294,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2520,
+          "qwen_native_input_tokens": 1496,
+          "draft_utf8_total_bound": 7024,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2575,
+          "qwen_native_input_tokens": 1551,
+          "draft_utf8_total_bound": 7195,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2526,
+          "qwen_native_input_tokens": 1502,
+          "draft_utf8_total_bound": 7020,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2516,
+          "qwen_native_input_tokens": 1492,
+          "draft_utf8_total_bound": 7009,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "zh-cas-1cf079b15eb7-dev20261020",
+      "language": "zh",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 1753,
+          "qwen_native_input_tokens": 729,
+          "draft_utf8_total_bound": 4064,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 1755,
+          "qwen_native_input_tokens": 731,
+          "draft_utf8_total_bound": 4067,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 1808,
+          "qwen_native_input_tokens": 784,
+          "draft_utf8_total_bound": 4266,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 1809,
+          "qwen_native_input_tokens": 785,
+          "draft_utf8_total_bound": 4281,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 1843,
+          "qwen_native_input_tokens": 819,
+          "draft_utf8_total_bound": 4329,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 1815,
+          "qwen_native_input_tokens": 791,
+          "draft_utf8_total_bound": 4314,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 1749,
+          "qwen_native_input_tokens": 725,
+          "draft_utf8_total_bound": 4055,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 1747,
+          "qwen_native_input_tokens": 723,
+          "draft_utf8_total_bound": 4055,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "zh-cas_health-d9258d90ea32-dev20261020",
+      "language": "zh",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2276,
+          "qwen_native_input_tokens": 1252,
+          "draft_utf8_total_bound": 6126,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2281,
+          "qwen_native_input_tokens": 1257,
+          "draft_utf8_total_bound": 6153,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2313,
+          "qwen_native_input_tokens": 1289,
+          "draft_utf8_total_bound": 6258,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2287,
+          "qwen_native_input_tokens": 1263,
+          "draft_utf8_total_bound": 6184,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2355,
+          "qwen_native_input_tokens": 1331,
+          "draft_utf8_total_bound": 6372,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2325,
+          "qwen_native_input_tokens": 1301,
+          "draft_utf8_total_bound": 6324,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2261,
+          "qwen_native_input_tokens": 1237,
+          "draft_utf8_total_bound": 6074,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2263,
+          "qwen_native_input_tokens": 1239,
+          "draft_utf8_total_bound": 6083,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "language": "zh",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2104,
+          "qwen_native_input_tokens": 1080,
+          "draft_utf8_total_bound": 5381,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2113,
+          "qwen_native_input_tokens": 1089,
+          "draft_utf8_total_bound": 5386,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2158,
+          "qwen_native_input_tokens": 1134,
+          "draft_utf8_total_bound": 5578,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2168,
+          "qwen_native_input_tokens": 1144,
+          "draft_utf8_total_bound": 5553,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2180,
+          "qwen_native_input_tokens": 1156,
+          "draft_utf8_total_bound": 5589,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2173,
+          "qwen_native_input_tokens": 1149,
+          "draft_utf8_total_bound": 5605,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2102,
+          "qwen_native_input_tokens": 1078,
+          "draft_utf8_total_bound": 5366,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2097,
+          "qwen_native_input_tokens": 1073,
+          "draft_utf8_total_bound": 5344,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "language": "zh",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2138,
+          "qwen_native_input_tokens": 1114,
+          "draft_utf8_total_bound": 5698,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2137,
+          "qwen_native_input_tokens": 1113,
+          "draft_utf8_total_bound": 5706,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2151,
+          "qwen_native_input_tokens": 1127,
+          "draft_utf8_total_bound": 5741,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2181,
+          "qwen_native_input_tokens": 1157,
+          "draft_utf8_total_bound": 5875,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2193,
+          "qwen_native_input_tokens": 1169,
+          "draft_utf8_total_bound": 5926,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2193,
+          "qwen_native_input_tokens": 1169,
+          "draft_utf8_total_bound": 5947,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2127,
+          "qwen_native_input_tokens": 1103,
+          "draft_utf8_total_bound": 5653,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2128,
+          "qwen_native_input_tokens": 1104,
+          "draft_utf8_total_bound": 5665,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "language": "zh",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2427,
+          "qwen_native_input_tokens": 1403,
+          "draft_utf8_total_bound": 6814,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2431,
+          "qwen_native_input_tokens": 1407,
+          "draft_utf8_total_bound": 6814,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2479,
+          "qwen_native_input_tokens": 1455,
+          "draft_utf8_total_bound": 6989,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2507,
+          "qwen_native_input_tokens": 1483,
+          "draft_utf8_total_bound": 7079,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2439,
+          "qwen_native_input_tokens": 1415,
+          "draft_utf8_total_bound": 6854,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2477,
+          "qwen_native_input_tokens": 1453,
+          "draft_utf8_total_bound": 7007,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2431,
+          "qwen_native_input_tokens": 1407,
+          "draft_utf8_total_bound": 6818,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2428,
+          "qwen_native_input_tokens": 1404,
+          "draft_utf8_total_bound": 6805,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "language": "zh",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 1728,
+          "qwen_native_input_tokens": 704,
+          "draft_utf8_total_bound": 4472,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 1723,
+          "qwen_native_input_tokens": 699,
+          "draft_utf8_total_bound": 4474,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 1784,
+          "qwen_native_input_tokens": 760,
+          "draft_utf8_total_bound": 4723,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 1786,
+          "qwen_native_input_tokens": 762,
+          "draft_utf8_total_bound": 4720,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 1795,
+          "qwen_native_input_tokens": 771,
+          "draft_utf8_total_bound": 4789,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 1729,
+          "qwen_native_input_tokens": 705,
+          "draft_utf8_total_bound": 4502,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 1731,
+          "qwen_native_input_tokens": 707,
+          "draft_utf8_total_bound": 4510,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 1733,
+          "qwen_native_input_tokens": 709,
+          "draft_utf8_total_bound": 4522,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "language": "zh",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2256,
+          "qwen_native_input_tokens": 1232,
+          "draft_utf8_total_bound": 6271,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2250,
+          "qwen_native_input_tokens": 1226,
+          "draft_utf8_total_bound": 6255,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2259,
+          "qwen_native_input_tokens": 1235,
+          "draft_utf8_total_bound": 6274,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2282,
+          "qwen_native_input_tokens": 1258,
+          "draft_utf8_total_bound": 6355,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2315,
+          "qwen_native_input_tokens": 1291,
+          "draft_utf8_total_bound": 6456,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2317,
+          "qwen_native_input_tokens": 1293,
+          "draft_utf8_total_bound": 6485,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2244,
+          "qwen_native_input_tokens": 1220,
+          "draft_utf8_total_bound": 6225,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2245,
+          "qwen_native_input_tokens": 1221,
+          "draft_utf8_total_bound": 6222,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "language": "en",
+      "question_count": 8,
+      "newly_authored": false,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2414,
+          "qwen_native_input_tokens": 1390,
+          "draft_utf8_total_bound": 7298,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2440,
+          "qwen_native_input_tokens": 1416,
+          "draft_utf8_total_bound": 7344,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2436,
+          "qwen_native_input_tokens": 1412,
+          "draft_utf8_total_bound": 7369,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2403,
+          "qwen_native_input_tokens": 1379,
+          "draft_utf8_total_bound": 7290,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2428,
+          "qwen_native_input_tokens": 1404,
+          "draft_utf8_total_bound": 7426,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2415,
+          "qwen_native_input_tokens": 1391,
+          "draft_utf8_total_bound": 7245,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2380,
+          "qwen_native_input_tokens": 1356,
+          "draft_utf8_total_bound": 7168,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2380,
+          "qwen_native_input_tokens": 1356,
+          "draft_utf8_total_bound": 7171,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "en-nasa-2b3fb9c367c3-dev20261020",
+      "language": "en",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 1803,
+          "qwen_native_input_tokens": 779,
+          "draft_utf8_total_bound": 4760,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 1799,
+          "qwen_native_input_tokens": 775,
+          "draft_utf8_total_bound": 4754,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 1859,
+          "qwen_native_input_tokens": 835,
+          "draft_utf8_total_bound": 5049,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 1867,
+          "qwen_native_input_tokens": 843,
+          "draft_utf8_total_bound": 5145,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 1865,
+          "qwen_native_input_tokens": 841,
+          "draft_utf8_total_bound": 5090,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 1809,
+          "qwen_native_input_tokens": 785,
+          "draft_utf8_total_bound": 4802,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 1816,
+          "qwen_native_input_tokens": 792,
+          "draft_utf8_total_bound": 4812,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 1811,
+          "qwen_native_input_tokens": 787,
+          "draft_utf8_total_bound": 4818,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "en-census-8b06d9bbd7de-dev20261020",
+      "language": "en",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2503,
+          "qwen_native_input_tokens": 1479,
+          "draft_utf8_total_bound": 6301,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2505,
+          "qwen_native_input_tokens": 1481,
+          "draft_utf8_total_bound": 6374,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2528,
+          "qwen_native_input_tokens": 1504,
+          "draft_utf8_total_bound": 6421,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2517,
+          "qwen_native_input_tokens": 1493,
+          "draft_utf8_total_bound": 6416,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2523,
+          "qwen_native_input_tokens": 1499,
+          "draft_utf8_total_bound": 6433,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2491,
+          "qwen_native_input_tokens": 1467,
+          "draft_utf8_total_bound": 6259,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2488,
+          "qwen_native_input_tokens": 1464,
+          "draft_utf8_total_bound": 6239,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2489,
+          "qwen_native_input_tokens": 1465,
+          "draft_utf8_total_bound": 6251,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "en-census-be20ba82c0cc-dev20261020",
+      "language": "en",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2445,
+          "qwen_native_input_tokens": 1421,
+          "draft_utf8_total_bound": 6109,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2456,
+          "qwen_native_input_tokens": 1432,
+          "draft_utf8_total_bound": 6164,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2510,
+          "qwen_native_input_tokens": 1486,
+          "draft_utf8_total_bound": 6304,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2513,
+          "qwen_native_input_tokens": 1489,
+          "draft_utf8_total_bound": 6407,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2509,
+          "qwen_native_input_tokens": 1485,
+          "draft_utf8_total_bound": 6406,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2438,
+          "qwen_native_input_tokens": 1414,
+          "draft_utf8_total_bound": 6139,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2436,
+          "qwen_native_input_tokens": 1412,
+          "draft_utf8_total_bound": 6081,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2441,
+          "qwen_native_input_tokens": 1417,
+          "draft_utf8_total_bound": 6092,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "en-nih-88aa9c4bbbb9-dev20261020",
+      "language": "en",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2102,
+          "qwen_native_input_tokens": 1078,
+          "draft_utf8_total_bound": 6405,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2097,
+          "qwen_native_input_tokens": 1073,
+          "draft_utf8_total_bound": 6384,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2141,
+          "qwen_native_input_tokens": 1117,
+          "draft_utf8_total_bound": 6632,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2155,
+          "qwen_native_input_tokens": 1131,
+          "draft_utf8_total_bound": 6716,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2159,
+          "qwen_native_input_tokens": 1135,
+          "draft_utf8_total_bound": 6706,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2161,
+          "qwen_native_input_tokens": 1137,
+          "draft_utf8_total_bound": 6662,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2108,
+          "qwen_native_input_tokens": 1084,
+          "draft_utf8_total_bound": 6454,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2107,
+          "qwen_native_input_tokens": 1083,
+          "draft_utf8_total_bound": 6427,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "en-nih-63b73a8c608a-dev20261020",
+      "language": "en",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2342,
+          "qwen_native_input_tokens": 1318,
+          "draft_utf8_total_bound": 6924,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2340,
+          "qwen_native_input_tokens": 1316,
+          "draft_utf8_total_bound": 6915,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2366,
+          "qwen_native_input_tokens": 1342,
+          "draft_utf8_total_bound": 7020,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2409,
+          "qwen_native_input_tokens": 1385,
+          "draft_utf8_total_bound": 7261,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2385,
+          "qwen_native_input_tokens": 1361,
+          "draft_utf8_total_bound": 7132,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2331,
+          "qwen_native_input_tokens": 1307,
+          "draft_utf8_total_bound": 6864,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2329,
+          "qwen_native_input_tokens": 1305,
+          "draft_utf8_total_bound": 6843,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2329,
+          "qwen_native_input_tokens": 1305,
+          "draft_utf8_total_bound": 6854,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "en-loc-359fbdc1a252-dev20261020",
+      "language": "en",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2140,
+          "qwen_native_input_tokens": 1116,
+          "draft_utf8_total_bound": 5813,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2138,
+          "qwen_native_input_tokens": 1114,
+          "draft_utf8_total_bound": 5816,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2184,
+          "qwen_native_input_tokens": 1160,
+          "draft_utf8_total_bound": 6040,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2202,
+          "qwen_native_input_tokens": 1178,
+          "draft_utf8_total_bound": 6093,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2197,
+          "qwen_native_input_tokens": 1173,
+          "draft_utf8_total_bound": 6042,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2143,
+          "qwen_native_input_tokens": 1119,
+          "draft_utf8_total_bound": 5836,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2127,
+          "qwen_native_input_tokens": 1103,
+          "draft_utf8_total_bound": 5774,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2128,
+          "qwen_native_input_tokens": 1104,
+          "draft_utf8_total_bound": 5771,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "en-loc-829b92bd1e91-dev20261020",
+      "language": "en",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2425,
+          "qwen_native_input_tokens": 1401,
+          "draft_utf8_total_bound": 6503,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2431,
+          "qwen_native_input_tokens": 1407,
+          "draft_utf8_total_bound": 6509,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2440,
+          "qwen_native_input_tokens": 1416,
+          "draft_utf8_total_bound": 6582,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2456,
+          "qwen_native_input_tokens": 1432,
+          "draft_utf8_total_bound": 6689,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2498,
+          "qwen_native_input_tokens": 1474,
+          "draft_utf8_total_bound": 6844,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2490,
+          "qwen_native_input_tokens": 1466,
+          "draft_utf8_total_bound": 6734,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2413,
+          "qwen_native_input_tokens": 1389,
+          "draft_utf8_total_bound": 6482,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2422,
+          "qwen_native_input_tokens": 1398,
+          "draft_utf8_total_bound": 6488,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "language": "en",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2178,
+          "qwen_native_input_tokens": 1154,
+          "draft_utf8_total_bound": 6404,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2184,
+          "qwen_native_input_tokens": 1160,
+          "draft_utf8_total_bound": 6413,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2234,
+          "qwen_native_input_tokens": 1210,
+          "draft_utf8_total_bound": 6616,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2234,
+          "qwen_native_input_tokens": 1210,
+          "draft_utf8_total_bound": 6679,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2195,
+          "qwen_native_input_tokens": 1171,
+          "draft_utf8_total_bound": 6481,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2237,
+          "qwen_native_input_tokens": 1213,
+          "draft_utf8_total_bound": 6689,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2183,
+          "qwen_native_input_tokens": 1159,
+          "draft_utf8_total_bound": 6397,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2184,
+          "qwen_native_input_tokens": 1160,
+          "draft_utf8_total_bound": 6388,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    },
+    {
+      "article_id": "en-govuk-d5865b812982-dev20261020",
+      "language": "en",
+      "question_count": 8,
+      "newly_authored": true,
+      "budgets": [
+        {
+          "question_id": "q01",
+          "qwen_native_total_tokens": 2523,
+          "qwen_native_input_tokens": 1499,
+          "draft_utf8_total_bound": 7275,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q02",
+          "qwen_native_total_tokens": 2525,
+          "qwen_native_input_tokens": 1501,
+          "draft_utf8_total_bound": 7292,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q03",
+          "qwen_native_total_tokens": 2559,
+          "qwen_native_input_tokens": 1535,
+          "draft_utf8_total_bound": 7452,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q04",
+          "qwen_native_total_tokens": 2572,
+          "qwen_native_input_tokens": 1548,
+          "draft_utf8_total_bound": 7540,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q05",
+          "qwen_native_total_tokens": 2579,
+          "qwen_native_input_tokens": 1555,
+          "draft_utf8_total_bound": 7561,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q06",
+          "qwen_native_total_tokens": 2519,
+          "qwen_native_input_tokens": 1495,
+          "draft_utf8_total_bound": 7262,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q07",
+          "qwen_native_total_tokens": 2512,
+          "qwen_native_input_tokens": 1488,
+          "draft_utf8_total_bound": 7225,
+          "draft_utf8_admitted": true
+        },
+        {
+          "question_id": "q08",
+          "qwen_native_total_tokens": 2511,
+          "qwen_native_input_tokens": 1487,
+          "draft_utf8_total_bound": 7222,
+          "draft_utf8_admitted": true
+        }
+      ],
+      "reference_self_checks": [
+        {
+          "question_id": "q01",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q02",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q03",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q04",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q05",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q06",
+          "answer_correct": 1,
+          "evidence_exact": 1,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q07",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        },
+        {
+          "question_id": "q08",
+          "answer_correct": 1,
+          "evidence_exact": 0,
+          "scope": "Scorer plumbing only; not an independent gold correctness review."
+        }
+      ]
+    }
+  ],
+  "all_qwen_native_budgets_pass": true,
+  "all_draft_utf8_budgets_pass": true,
+  "limitations": [
+    "All questions are AI authored, human0, development only.",
+    "Reference round-trip is not independent validation of gold answers.",
+    "Page publication date does not prove question-answer novelty or training non-membership.",
+    "Exact native budget identity is Qwen2.5-7B only; other families use draft estimate unless separately certified."
+  ]
+}

@@ -1,0 +1,469 @@
+﻿model_name,language,article_id,question_id,dimension,kind,question,answer,unit,evidence_ids,confidence,abstain,answer_correct,choice_accuracy,short_em,short_token_f1,numeric_strict_accuracy,evidence_exact,evidence_f1,joint_success,brier_answer,latency_s,input_tokens,output_tokens,error,raw_response
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-3a619a2ae0fe0186ec2e,q01,D1,short,被看做香港七一大游行、雨伞运动争取自由民主的主题歌曲的还有《光辉岁月》还有什么？,《抗战二十年》,,"[""p001""]",1,False,0,,0,0.7142857142857143,,0,0,0,1,4.193,542,38,,"{""answer"": ""《抗战二十年》"", ""unit"": """", ""evidence_ids"": [""p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-3a619a2ae0fe0186ec2e,q02,D1,short,《光辉岁月》有什么深刻含义？,充满理想和向曼德拉致敬,,"[""p001""]",1,False,0,,0,0.9166666666666666,,0,0,0,1,1.456,525,48,,"{
+  ""answer"": ""充满理想和向曼德拉致敬"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-3a619a2ae0fe0186ec2e,q03,D1,short,《命运派对》的主打歌叫什么？,光辉岁月,,"[""p001""]",1,False,0,,0,1.0,,0,0,0,1,0.922,528,28,,"{""answer"":""光辉岁月"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-34dd37e1796d9743c8b7,q01,D1,short,约翰逊在什么时间成为黄蜂队队史上首位入选NBA全明星赛的球员？,1993年,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.087,615,31,,"{""answer"":""1993年"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-34dd37e1796d9743c8b7,q02,D1,short,拉里·约翰逊是什么运动的退役运动员？,篮球,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.841,606,27,,"{""answer"":""篮球"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-34dd37e1796d9743c8b7,q03,D1,short,1990年，约翰逊率队击败了哪个教练执教的杜克大学，夺得了当年NCAA冠军？,迈克·沙舍夫斯基,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.051,622,33,,"{""answer"":""迈克·沙舍夫斯基"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2e827be252c3982e5813,q01,D1,short,1985年林双不的哪部小说获得吴浊流文学奖小说佳作奖？,《大学女生庄南安》,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.521,659,48,,"{
+  ""answer"": ""《大学女生庄南安》"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2e827be252c3982e5813,q02,D1,short,谁曾鼓舞林双不积极去投稿？,张清海,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.928,646,29,,"{""answer"":""张清海"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2e827be252c3982e5813,q03,D1,short,林双不就读辅仁大学哲学系时出版了哪些散文集？,《山中归路》、《古榕》、《班会之死》,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.76,652,59,,"{
+  ""answer"": ""《山中归路》、《古榕》、《班会之死》"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-a08e2a7f4d00d7c1a03f,q01,D1,short,在统计和机器学习中，如何避免出现过适？,使用额外的技巧（如交叉验证、赤池信息量准则等）,,"[""p001""]",1,False,0,,0,0.9047619047619048,,0,0,0,1,1.812,711,57,,"{
+  ""answer"": ""使用额外的技巧（如交叉验证、赤池信息量准则等）"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-a08e2a7f4d00d7c1a03f,q02,D1,short,影响过适的可能性的因素有哪些？,参数个数、资料、模型架构与资料的一致性,,"[""p001""]",1,False,0,,0,0.8717948717948718,,0,0,0,1,1.632,705,54,,"{
+  ""answer"": ""参数个数、资料、模型架构与资料的一致性"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-a08e2a7f4d00d7c1a03f,q03,D1,short,过适一般来说违背了什么原则？,奥卡姆剃刀原则,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.002,706,32,,"{""answer"":""奥卡姆剃刀原则"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-0e9da8189c528f57223f,q01,D1,short,10号线巴沟站有几个出入口？,3,,"[""p001""]",1,False,0,,0,0.6666666666666666,,0,0,0,1,0.974,831,27,,"{""answer"":""3"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-0e9da8189c528f57223f,q02,D1,short,巴沟站因何而得名？,临近“巴沟村”,,"[""p001""]",1,False,0,,0,0.7692307692307693,,0,0,0,1,1.001,830,32,,"{""answer"":""临近“巴沟村”"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-0e9da8189c528f57223f,q03,D1,short,巴沟站是哪条线路的车站？,北京地铁10号线,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.36,831,46,,"{
+  ""answer"": ""北京地铁10号线"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-f0ef9423f29c42d9115d,q01,D1,short,前燕是怎么灭亡的？,前秦对前燕发动灭国战争,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.562,576,50,,"{
+  ""answer"": ""前秦对前燕发动灭国战争"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-f0ef9423f29c42d9115d,q02,D1,short,余蔚在什么时候被任命当了太傅？,396年五月初九,,"[""p004""]",1,False,1,,1,1.0,,0,0,0,0,1.041,581,33,,"{""answer"":""396年五月初九"",""unit"":"""",""evidence_ids"":[""p004""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-f0ef9423f29c42d9115d,q03,D1,short,余蔚是哪国国王？,扶余国,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.942,577,29,,"{""answer"":""扶余国"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-04be9b6cf2648e1a2198,q01,D1,short,麦银汉鱼的生活习性有什么特点？,沿岸性鱼类，尤其在内湾较多，于夏秋之交会近岸群集，产卵期在夏季,,"[""p001""]",1,False,0,,0,0.8484848484848485,,0,0,0,1,2.121,731,67,,"{
+  ""answer"": ""沿岸性鱼类，尤其在内湾较多，于夏秋之交会近岸群集，产卵期在夏季"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-04be9b6cf2648e1a2198,q02,D1,short,麦银汉鱼整体是什么颜色的？,银白色，略透明,,"[""p001""]",0.9,False,0,,0,0.7058823529411765,,0,0,0,0.81,1.081,730,33,,"{""answer"":""银白色，略透明"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-04be9b6cf2648e1a2198,q03,D1,short,麦银汉鱼的体型有什么特点？,体延长而细，呈亚圆柱型,,"[""p001""]",1,False,0,,0,0.9473684210526315,,0,0,0,1,1.539,730,51,,"{
+  ""answer"": ""体延长而细，呈亚圆柱型"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-ac5f88e471aa9b9f3b01,q01,D1,short,北非象鼩通常生活在什么地方？,非洲西北部半干旱及多山的地区,,"[""p001""]",0.9,False,0,,0,0.9655172413793104,,0,0,0,0.81,1.322,868,38,,"{""answer"":""非洲西北部半干旱及多山的地区"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-ac5f88e471aa9b9f3b01,q02,D1,short,短耳象鼩平均大小是多少？,15厘米,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.91,868,29,,"{""answer"":""15厘米"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-ac5f88e471aa9b9f3b01,q03,D1,short,象鼩属于哪个目？,象鼩目（Macroscelidea）,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.078,866,35,,"{""answer"":""象鼩目（Macroscelidea）"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-325c5c4d272623176ea8,q01,D1,short,《张居正》是一部什么类型的小说？,历史,,"[""p001""]",1,False,0,,0,0.5,,0,0,0,1,1.036,1024,27,,"{""answer"":""历史"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-325c5c4d272623176ea8,q02,D1,short,《张居正》获得了第几届茅盾文学奖？,第六届,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.872,1027,27,,"{""answer"":""第六届"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-325c5c4d272623176ea8,q03,D1,short,《张居正》这部小说描写了哪些真是人物？,张居正、高拱、冯保、李贵妃、邵大侠、何心隐、游七,,"[""p001""]",1,False,0,,0,0.972972972972973,,0,0,0,1,1.948,1026,65,,"{
+  ""answer"": ""张居正、高拱、冯保、李贵妃、邵大侠、何心隐、游七"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2509039325f77e4fbe27,q01,D1,short,暴鲤龙的属性是什么？,水属性及飞行属性,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.127,848,31,,"{""answer"":""水属性及飞行属性"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2509039325f77e4fbe27,q02,D1,short,暴鲤龙是根据什么故事创作的？,「鲤跃龙门」,,"[""p001""]",1,False,0,,0,1.0,,0,0,0,1,0.97,851,31,,"{""answer"":""「鲤跃龙门」"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2509039325f77e4fbe27,q03,D1,short,暴鲤龙经常被误为什么属性的宝可梦？,龙,,"[""p001""]",1,False,0,,0,0.5,,0,0,0,1,0.885,854,27,,"{""answer"":""龙"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-343a8cbaaa56c1997a1c,q01,D1,short,劲松站这个名字怎么来的？,因地处劲松街道辖区,,"[""p001""]",1,False,0,,0,0.9,,0,0,0,1,1.141,767,32,,"{""answer"":""因地处劲松街道辖区"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-343a8cbaaa56c1997a1c,q02,D1,short,劲松站是哪条线路的车站？,北京地铁10号线,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.993,770,31,,"{""answer"":""北京地铁10号线"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-343a8cbaaa56c1997a1c,q03,D1,short,劲松站呈什么走向？,南北,,"[""p001""]",1,False,0,,0,0.5714285714285714,,0,0,0,1,0.889,767,27,,"{""answer"":""南北"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-723a940b424b0de31f65,q01,D1,short,匹候跋的儿子启拔、吴颉等十五人归降了谁？,拓跋珪,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.984,610,29,,"{""answer"":""拓跋珪"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-723a940b424b0de31f65,q02,D1,short,匹候跋是谁的长子？,地粟袁,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.317,601,44,,"{
+  ""answer"": ""地粟袁"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-723a940b424b0de31f65,q03,D1,short,拓跋珪复国之后派兵征讨了哪个国家？,柔然,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.901,607,28,,"{""answer"":""柔然"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-ecd80ca1635c15cf1b3f,q01,D1,short,尼高·高华是哪国人？,克罗地亚,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.05,550,30,,"{""answer"":""克罗地亚"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-ecd80ca1635c15cf1b3f,q02,D1,short,尼高·高华的职业是什么？,足球运动员,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,0.927,549,30,,"{""answer"":""足球运动员"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-ecd80ca1635c15cf1b3f,q03,D1,short,尼高·高华因为什么错过了1998年世界杯？,因伤,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,0.94,556,30,,"{""answer"":""因伤"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-a7ebbd342ce378cc91dc,q01,D1,short,氨碱法是用来生产什么的？,碳酸钠,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.97,672,28,,"{""answer"":""碳酸钠"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-a7ebbd342ce378cc91dc,q02,D1,short,氨碱法在什么时候实现现代化生产？,19世纪60年代,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.995,673,32,,"{""answer"":""19世纪60年代"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-a7ebbd342ce378cc91dc,q03,D1,short,氨碱法又可以叫什么？,Solvay process、ammonia-soda process,,"[""p001""]",1,False,0,,0,0.0,,0,0,0,1,1.553,672,52,,"{
+  ""answer"": ""Solvay process、ammonia-soda process"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-46ff06f82b824d9bbf94,q01,D1,short,钩鼻海蛇又叫什么？,裂颏海蛇,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.048,770,30,,"{""answer"":""裂颏海蛇"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-46ff06f82b824d9bbf94,q02,D1,short,钩鼻海蛇的两侧及腹部是什么颜色的？,白色,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.86,774,27,,"{""answer"":""白色"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-46ff06f82b824d9bbf94,q03,D1,short,钩鼻海蛇的毒素烈度约为眼镜蛇的多少倍？,四至八倍,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,1.007,777,32,,"{""answer"":""四至八倍"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-ed11540ef3d1a48a6c01,q01,D1,short,乘客登上95M线后多少分钟内以同一张八达通卡转乘规定路线次程可获$4.2车资折扣优惠？,150,分钟,"[""p001""]",1,False,0,,0,0.5,,0,0,0,1,1.313,747,39,,"{""answer"": ""150"", ""unit"": ""分钟"", ""evidence_ids"": [""p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-ed11540ef3d1a48a6c01,q02,D1,short,富豪超级奥林比安10.6（ASV）后改被什么车取代？,丹尼士三叉戟三型10.6米（ATS）,,"[""p002""]",1,False,1,,1,1.0,,0,0,0,0,1.323,733,42,,"{""answer"":""丹尼士三叉戟三型10.6米（ATS）"",""unit"":"""",""evidence_ids"":[""p002""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-ed11540ef3d1a48a6c01,q03,D1,short,九龙巴士95M线是香港一条来往哪里的路线？,翠林及观塘（雅丽道）,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.559,728,51,,"{
+  ""answer"": ""翠林及观塘（雅丽道）"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-31adb6dfb9e048bd9fcf,q01,D1,short,长齿锯犁鳗性成熟时雄性外型有哪些改变？,上下腭牙齿的变化、吻部缩短与尾鳍更加侧扁,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.699,611,55,,"{
+  ""answer"": ""上下腭牙齿的变化、吻部缩短与尾鳍更加侧扁"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-31adb6dfb9e048bd9fcf,q02,D1,short,长齿锯犁鳗的体长是多少？,可达76,公分,"[""p001""]",1,False,0,,0,0.3333333333333333,,0,0,0,1,1.418,606,47,,"{
+  ""answer"": ""可达76"",
+  ""unit"": ""公分"",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-31adb6dfb9e048bd9fcf,q03,D1,short,长齿锯犁鳗分布在什么地区？,太平洋及印度洋温带至热带的中层水域,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.585,605,53,,"{
+  ""answer"": ""太平洋及印度洋温带至热带的中层水域"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-56e4e90991407bd7ec08,q01,D1,short,AM最后把Ted改造成什么样了？,大型的软体气泡,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.051,612,32,,"{""answer"":""大型的软体气泡"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-56e4e90991407bd7ec08,q02,D1,short,AM为什么保留了4个男人和1个女人在地心深处？,AM深恨人类,,"[""p001""]",1,False,0,,0,0.8888888888888888,,0,0,0,1,1.318,619,45,,"{
+  ""answer"": ""AM深恨人类"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-56e4e90991407bd7ec08,q03,D1,short,《无声狂啸》是谁的短篇小说？,哈兰·艾里森,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.399,614,47,,"{
+  ""answer"": ""哈兰·艾里森"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-1ddca8ea1543636366d7,q01,D1,short,北海道狼又叫做什么？,虾夷狼,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.973,537,29,,"{""answer"":""虾夷狼"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-1ddca8ea1543636366d7,q02,D1,short,日本狼分布在哪里？,本州、四国及九州,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.256,535,41,,"{""answer"": ""本州、四国及九州"", ""unit"": """", ""evidence_ids"": [""p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-1ddca8ea1543636366d7,q03,D1,short,在北海道虾夷狼被爱奴族称作什么？,远吠之神,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.958,544,30,,"{""answer"":""远吠之神"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-abfaba9a9baabe622300,q01,D1,short,虹彩吸蜜鹦鹉每窝产卵多少枚？,两到三,,"[""p001""]",1,False,0,,0,0.8571428571428571,,0,0,0,1,1.0,669,29,,"{""answer"":""两到三"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-abfaba9a9baabe622300,q02,D1,short,虹彩吸蜜鹦鹉的食物有哪些？,"花蜜、花粉,也吃植物种子、嫩叶、昆虫",,"[""p001""]",1,False,0,,0,1.0,,0,0,0,1,1.678,665,56,,"{
+  ""answer"": ""花蜜、花粉,也吃植物种子、嫩叶、昆虫"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-abfaba9a9baabe622300,q03,D1,short,虹彩吸蜜鹦鹉母鸟需要多久才成熟？,两年,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.046,669,35,,"{""answer"": ""两年"", ""unit"": """", ""evidence_ids"": [""p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-a4ed4937460e950688df,q01,D1,short,荔枝三杰主要是哪些？,笔村糯米糍、罗岗桂味、增城挂绿,,"[""p001""]",1,False,0,,0,1.0,,0,0,0,1,1.731,552,55,,"{
+  ""answer"": ""笔村糯米糍、罗岗桂味、增城挂绿"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-a4ed4937460e950688df,q02,D1,short,增城挂绿的产地是哪里？,中国广东省广州市增城区,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.985,555,31,,"{""answer"":""中国广东省广州市增城区"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-a4ed4937460e950688df,q03,D1,short,增城挂绿是什么水果？,荔枝,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.868,553,27,,"{""answer"":""荔枝"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-30e392af87cfb7bad436,q01,D1,short,隐面龙属被发现的地点在哪里?,尼日的Gadoufaoua,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.622,644,50,,"{
+  ""answer"": ""尼日的Gadoufaoua"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-30e392af87cfb7bad436,q02,D1,short,隐面龙这个名字是谁命的？,保罗·塞里诺,,"[""p001""]",1,False,0,,0,0.6666666666666666,,0,0,0,1,1.388,642,46,,"{
+  ""answer"": ""保罗·塞里诺"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-30e392af87cfb7bad436,q03,D1,short,隐面龙属属于什么科？,阿贝力龙科,,"[""p001""]",1,False,0,,0,0.7142857142857143,,0,0,0,1,1.394,642,46,,"{
+  ""answer"": ""阿贝力龙科"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-e55166a582a4ff7a8e0b,q01,D1,short,株洲北站是哪两大铁路干线的交汇处？,京广铁路、沪昆铁路,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.5,572,48,,"{
+  ""answer"": ""京广铁路、沪昆铁路"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-e55166a582a4ff7a8e0b,q02,D1,short,株洲北站是沟通哪些地方的交通要道？,华东、华南、西南和北方,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.459,572,48,,"{
+  ""answer"": ""华东、华南、西南和北方"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-e55166a582a4ff7a8e0b,q03,D1,short,株洲北站的前身是哪个车站？,田心车站,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.911,569,29,,"{""answer"":""田心车站"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-784cbc10e85845800741,q01,D1,short,吉尔杭阿在哪里被太平军包围？,烟墩山,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.009,749,29,,"{""answer"":""烟墩山"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-784cbc10e85845800741,q02,D1,short,吉尔杭阿战死后在哪些地方建立了专祠？,上海,,"[""p001""]",1,False,0,,0,0.26666666666666666,,0,0,0,1,1.245,752,42,,"{
+  ""answer"": ""上海"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-784cbc10e85845800741,q03,D1,short,咸丰五年，吉尔杭阿建立了什么战功？,平定小刀会收复上海县,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,1.156,752,37,,"{""answer"":""平定小刀会收复上海县"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-0271a18f658911d605dd,q01,D1,short,曾炯一生发表了多少论文？,三篇,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.96,623,28,,"{""answer"":""三篇"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-0271a18f658911d605dd,q02,D1,short,曾炯是什么地方人？,江西南昌,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.865,622,28,,"{""answer"":""江西南昌"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-0271a18f658911d605dd,q03,D1,short,曾炯考取赔款公费留学后去了哪个大学？,格丁根大学,,"[""p001""]",1,False,0,,0,0.36363636363636365,,0,0,0,1,1.33,630,45,,"{
+  ""answer"": ""格丁根大学"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-9a576891c0ec8c442da6,q01,D1,short,海宁西站总建筑面积有多少平方米？,17000,平方米,"[""p001""]",1,False,0,,0,0.0,,0,0,0,1,1.316,725,39,,"{""answer"":""17000"", ""unit"":""平方米"", ""evidence_ids"": [""p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-9a576891c0ec8c442da6,q02,D1,short,海宁西站哪一年启用？,2010年,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.966,724,31,,"{""answer"":""2010年"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-9a576891c0ec8c442da6,q03,D1,short,海宁西站位于哪里？,浙江省嘉兴市海宁市许村镇报国村,,"[""p001""]",1,False,0,,0,0.8333333333333334,,0,0,0,1,1.541,723,52,,"{
+  ""answer"": ""浙江省嘉兴市海宁市许村镇报国村"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-69ec6577ee2838639be1,q01,D1,short,《瞄》的蓝本是哪一个杂志？,《纽约客》,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.051,655,30,,"{""answer"":""《纽约客》"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-69ec6577ee2838639be1,q02,D1,short,《瞄》曾赞助香港哪些文化活动？,香港艺术节、香港国际电影节、香港夏日电影节,,"[""p001""]",1,False,0,,0,0.9743589743589743,,0,0,0,1,1.559,655,52,,"{
+  ""answer"": ""香港艺术节、香港国际电影节、香港夏日电影节"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-69ec6577ee2838639be1,q03,D1,short,《瞄》是谁主编的？,林沛理,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.929,652,29,,"{""answer"":""林沛理"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-290704bf7e08bc0e380d,q01,D1,short,金盏花中含有的什么物质对眼睛有好处？,叶黄素,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.976,577,29,,"{""answer"":""叶黄素"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-290704bf7e08bc0e380d,q02,D1,short,金盏花有什么作用？,止痛、杀菌、消炎，处理皮肤疾病，减轻发炎及舒缓肌肤，帮助调节月经周期及降低发烧温度，改善如疹子及晒斑这类的皮肤问题，对神经炎、以及牙痛也有效，对小孩子的尿布疹及其他皮肤问题也有助益,,"[""p001""]",1,False,0,,0,0.06451612903225806,,0,0,0,1,3.167,570,104,,"{
+  ""answer"": ""止痛、杀菌、消炎，处理皮肤疾病，减轻发炎及舒缓肌肤，帮助调节月经周期及降低发烧温度，改善如疹子及晒斑这类的皮肤问题，对神经炎、以及牙痛也有效，对小孩子的尿布疹及其他皮肤问题也有助益"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-290704bf7e08bc0e380d,q03,D1,short,金盏花具有怎样的药用价值？,止痛、杀菌、消炎，处理皮肤疾病,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.551,574,52,,"{
+  ""answer"": ""止痛、杀菌、消炎，处理皮肤疾病"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-de43d686f57d8302534a,q01,D1,short,戚务生在1964年转入了哪一队？,辽宁足球队,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.999,671,29,,"{""answer"":""辽宁足球队"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-de43d686f57d8302534a,q02,D1,short,戚务生当年以什么特点著称？,迅疾的速度和犀利的突破,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.066,666,34,,"{""answer"":""迅疾的速度和犀利的突破"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-de43d686f57d8302534a,q03,D1,short,戚务生是哪一年出生？,1944,,"[""p001""]",1,False,0,,0,0.6666666666666666,,0,0,0,1,0.947,664,30,,"{""answer"":""1944"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-7005368de2b070470661,q01,D1,short,贴扎的原理是什么？,提供组织较好的环境，让身体自然的修补机制去修复,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,1.319,573,41,,"{""answer"":""提供组织较好的环境，让身体自然的修补机制去修复"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-7005368de2b070470661,q02,D1,short,贴扎的目的是什么？,固定关节位置及限制软组织的活动以让软组织在稳定的状况下进行修补,,"[""p001""]",1,False,0,,0,1.0,,0,0,0,1,1.814,573,60,,"{
+  ""answer"": ""固定关节位置及限制软组织的活动以让软组织在稳定的状况下进行修补"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-7005368de2b070470661,q03,D1,short,贴扎的含义是什么？,将胶布贴于皮肤以达到增进或保护肌肉骨骼系统的非侵入性治疗,,"[""p001""]",1,False,0,,0,1.0,,0,0,0,1,1.802,573,60,,"{
+  ""answer"": ""将胶布贴于皮肤以达到增进或保护肌肉骨骼系统的非侵入性治疗"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-c13b98f720e279d2e4d8,q01,D1,short,戴龙·罗伯斯在2008年捷克田径大奖赛的男子110米栏比赛中的成绩是多少？,12秒87,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.125,897,31,,"{""answer"":""12秒87"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-c13b98f720e279d2e4d8,q02,D1,short,第13届世界田径锦标赛110米栏决赛中，戴龙·罗伯斯为什么被取消成绩？,故意干扰相邻赛道的刘翔,,"[""p002""]",0.9,False,0,,0,0.7333333333333333,,0,0,0,0.81,1.093,894,35,,"{""answer"":""故意干扰相邻赛道的刘翔"",""unit"":"""",""evidence_ids"":[""p002""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-c13b98f720e279d2e4d8,q03,D1,short,戴龙·罗伯斯是哪国人？,西班牙,,"[""p001""]",0.9,False,0,,0,0.0,,0,0,0,0.81,0.899,877,29,,"{""answer"":""西班牙"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-ccfdaa4e371f48b9c016,q01,D1,short,大曲车站在名义上有哪些路线经过？,奥羽本线，田泽湖线,,"[""p001""]",1,False,0,,0,0.5517241379310345,,0,0,0,1,1.619,947,50,,"{
+  ""answer"": ""奥羽本线，田泽湖线"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-ccfdaa4e371f48b9c016,q02,D1,short,大曲车站的地址是哪里？,日本秋田县大仙市大曲通町,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.54,945,52,,"{
+  ""answer"": ""日本秋田县大仙市大曲通町"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-ccfdaa4e371f48b9c016,q03,D1,short,在神宫寺与峰吉川之间的路段的轨道有什么特点？,特殊的双轨距三轨并行方式铺设,,"[""p001""]",1,False,0,,0,0.9655172413793104,,0,0,0,1,1.126,952,36,,"{""answer"":""特殊的双轨距三轨并行方式铺设"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-0fc525544a86bc083223,q01,D1,short,张忠柟是什么学科的权威？,密码学,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.973,639,28,,"{""answer"":""密码学"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-0fc525544a86bc083223,q02,D1,short,张忠柟一共在美国留学和工作了多少年？,30多年,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,0.967,642,31,,"{""answer"":""30多年"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-0fc525544a86bc083223,q03,D1,short,张忠柟是哪个学校的校长？,香港珠海学院,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.321,639,44,,"{
+  ""answer"": ""香港珠海学院"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-1d7d56b3087c72854d24,q01,D1,short,在什么机子上可以查询关于地铁路线等信息？,M-Touch,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.461,908,44,,"{
+  ""answer"": ""M-Touch"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-1d7d56b3087c72854d24,q02,D1,short,大沙地站在哪里？,黄埔区,,"[""p001""]",1,False,0,,0,0.3,,0,0,0,1,0.896,900,28,,"{""answer"":""黄埔区"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-1d7d56b3087c72854d24,q03,D1,short,建设大沙地站的想法最初是在什么时候出现的？,2003年,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.975,906,31,,"{""answer"":""2003年"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-b23a4a9bcf0397032a60,q01,D1,short,《芝加哥》获得多少项奥斯卡金像奖？,6,,"[""p001""]",1,False,0,,0,0.6666666666666666,,0,0,0,1,1.112,626,35,,"{""answer"": ""6"", ""unit"": """", ""evidence_ids"": [""p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-b23a4a9bcf0397032a60,q02,D1,short,《芝加哥》是哪个国家的歌舞喜剧犯罪电影？,美国,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.846,627,27,,"{""answer"":""美国"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-b23a4a9bcf0397032a60,q03,D1,short,比利决定要把萝西包装成怎样的形象？,楚楚可怜的受害者,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,1.022,626,33,,"{""answer"":""楚楚可怜的受害者"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-b4e5f073b3659d3a6927,q01,D1,short,固始站的年发送、到达旅客可以达到多少人次？,6.5万+8.5万,,"[""p001""]",0.9,False,0,,0,1.0,,0,0,0,0.81,1.194,528,37,,"{""answer"":""6.5万+8.5万"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-b4e5f073b3659d3a6927,q02,D1,short,固始站可以办理什么业务？,办理旅客乘降、行包托运、货运整车到发等业务,,"[""p001""]",1,False,0,,0,0.9444444444444444,,0,0,0,1,1.688,522,56,,"{
+  ""answer"": ""办理旅客乘降、行包托运、货运整车到发等业务"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-b4e5f073b3659d3a6927,q03,D1,short,固始站位于哪里？,河南省固始县段集镇,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.444,520,48,,"{
+  ""answer"": ""河南省固始县段集镇"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-30dcc4dd6fb09f7fe9f6,q01,D1,short,中国博客第一案的原告陈堂发是哪个学校的副教授？,南京大学,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.033,875,28,,"{""answer"":""南京大学"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-30dcc4dd6fb09f7fe9f6,q02,D1,short,中国博客第一案中原告最终能拿到多少赔偿金？,1000,元,"[""p003""]",0.9,False,0,,0,0.6666666666666666,,0,0,0,0.81,1.057,874,34,,"{""answer"":""1000"",""unit"":""元"",""evidence_ids"":[""p003""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-30dcc4dd6fb09f7fe9f6,q03,D1,short,中国博客第一案中涉及了陈堂发的哪部作品？,《新闻伦理与法规》,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.02,876,32,,"{""answer"":""《新闻伦理与法规》"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-a15577c391d989cd03bd,q01,D1,short,刘备在哪个城市逝世？,永安,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.333,572,43,,"{
+  ""answer"": ""永安"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-a15577c391d989cd03bd,q02,D1,short,吕凯被任命成了哪个地方的太守,云南,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.859,577,27,,"{""answer"":""云南"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-a15577c391d989cd03bd,q03,D1,short,吕凯是什么时期的人？,三国,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,0.914,572,29,,"{""answer"":""三国"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-6c77dcf3907f3cdd0670,q01,D1,short,棱须蓑鲉的哪个部位有一个黑色大圆斑？,背鳍硬棘部,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.486,624,46,,"{
+  ""answer"": ""背鳍硬棘部"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-6c77dcf3907f3cdd0670,q02,D1,short,棱须蓑鲉的俗名是什么？,国公、白虎,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.367,620,46,,"{
+  ""answer"": ""国公、白虎"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-6c77dcf3907f3cdd0670,q03,D1,short,棱须蓑鲉分布在哪些大洋区？,印度洋及西太平洋区,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.393,620,47,,"{
+  ""answer"": ""印度洋及西太平洋区"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-693d7b60b293a27f4c1a,q01,D1,short,哪国的成年礼是在大学进行的？,日本,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.961,685,27,,"{""answer"":""日本"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-693d7b60b293a27f4c1a,q02,D1,short,中国古代成人礼指的是什么内容？,冠礼和笄礼,,"[""p001""]",1,False,0,,0,0.07407407407407407,,0,0,0,1,0.958,681,31,,"{""answer"":""冠礼和笄礼"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-693d7b60b293a27f4c1a,q03,D1,short,春秋时的哪位君主在12岁时加冠？,鲁襄公,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.922,688,29,,"{""answer"":""鲁襄公"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-8cfbc7ed17c06ade8123,q01,D1,short,朗孜厦原址位于哪里？,今拉萨市城关区八廓街北段,,"[""p001""]",1,False,0,,0,0.7272727272727273,,0,0,0,1,1.256,623,37,,"{""answer"":""今拉萨市城关区八廓街北段"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-8cfbc7ed17c06ade8123,q02,D1,short,朗孜厦的长官需经谁同意后任命？,达赖喇嘛,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.952,628,30,,"{""answer"":""达赖喇嘛"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-8cfbc7ed17c06ade8123,q03,D1,short,朗孜厦主要负责管理什么？,拉萨市区的社会治安、卫生,,"[""p001""]",1,False,0,,0,0.13333333333333333,,0,0,0,1,1.01,623,32,,"{""answer"":""拉萨市区的社会治安、卫生"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-be052dfa9248ed7b11ea,q01,D1,short,门罗在哪一年被选入篮球名人堂？,1990年,,"[""p004""]",1.0,False,1,,1,1.0,,0,0,0,0.0,1.273,564,41,,"{""answer"": ""1990年"", ""unit"": """", ""evidence_ids"": [""p004""], ""confidence"": 1.0, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-be052dfa9248ed7b11ea,q02,D1,short,门罗在NCAA的每场平均分是多少？,41.5,,"[""p001""]",1,False,0,,0,0.8,,0,0,0,1,0.944,565,30,,"{""answer"":""41.5"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-be052dfa9248ed7b11ea,q03,D1,short,厄尔·门罗大学就读于哪里？,温斯顿-萨勒姆州立大学,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.501,563,50,,"{
+  ""answer"": ""温斯顿-萨勒姆州立大学"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-cae49579c178bebcbecb,q01,D1,short,太阳历某年的年号是怎么命名的？,以该年第一日当天对照的神圣历的日符来命名,,"[""p001""]",1,False,0,,0,0.975609756097561,,0,0,0,1,1.327,618,40,,"{""answer"":""以该年第一日当天对照的神圣历的日符来命名"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-cae49579c178bebcbecb,q02,D1,short,谁特别熟悉阿兹特克神圣历的用法？,阿兹特克祭司,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.257,621,40,,"{""answer"": ""阿兹特克祭司"", ""unit"": """", ""evidence_ids"": [""p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-cae49579c178bebcbecb,q03,D1,short,阿兹特克神圣历是怎么划分时间的？,一年分为20旬，一旬13日,,"[""p001""]",1,False,0,,0,0.36363636363636365,,0,0,0,1,1.564,619,52,,"{
+  ""answer"": ""一年分为20旬，一旬13日"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-479ebb36f1b68de283bd,q01,D1,short,郑倢伃是哪个团体的成员？,我爱黑涩会,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.435,569,46,,"{
+  ""answer"": ""我爱黑涩会"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-479ebb36f1b68de283bd,q02,D1,short,郑倢伃学习了什么乐器？,小提琴及钢琴,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.332,568,46,,"{
+  ""answer"": ""小提琴及钢琴"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-479ebb36f1b68de283bd,q03,D1,short,郑倢伃妹妹冰冰有着什么样的称号？,小孙燕姿,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,0.984,570,32,,"{""answer"":""小孙燕姿"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-3d8b4943a668f4174353,q01,D1,short,荨麻制剂有哪些功效？,止痛、用于治疗关节炎、贫血症、干草热可肾脏疾病。用在洗发液中可以防止头皮屑，据说还可以医治湿疹。,,"[""p001""]",0.8,False,0,,0,0.9767441860465116,,0,0,0,0.6400000000000001,2.085,901,63,,"{""answer"":""止痛、用于治疗关节炎、贫血症、干草热可肾脏疾病。用在洗发液中可以防止头皮屑，据说还可以医治湿疹。"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.8,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-3d8b4943a668f4174353,q02,D1,short,荨麻在外形上有什么特征？,叶对生，有齿牙或分裂，有托叶，花单性，穗状花序或圆锥花序，瘦果藏于宿存花被内,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,2.034,903,65,,"{""answer"":""叶对生，有齿牙或分裂，有托叶，花单性，穗状花序或圆锥花序，瘦果藏于宿存花被内"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-3d8b4943a668f4174353,q03,D1,short,荨麻的食用价值有哪些？,鲜荨麻叶含有高浓度的维生素K，民间用其在受伤时止血。嫩芽非常可口，含有高蛋白，适宜作汤或作为蔬菜。,,"[""p001""]",0.9,False,0,,0,0.6097560975609756,,0,0,0,0.81,2.394,902,79,,"{
+  ""answer"": ""鲜荨麻叶含有高浓度的维生素K，民间用其在受伤时止血。嫩芽非常可口，含有高蛋白，适宜作汤或作为蔬菜。"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-185ca5b8daa53663ac53,q01,D1,short,王欣逸演出了哪个偶像剧男主角的童年时期？,《海豚湾恋人》,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.064,561,32,,"{""answer"":""《海豚湾恋人》"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-185ca5b8daa53663ac53,q02,D1,short,王欣逸多少岁时入围了金钟奖？,13,,"[""p001""]",1,False,0,,0,0.6666666666666666,,0,0,0,1,0.972,559,31,,"{""answer"":""13"", ""unit"":"""",""evidence_ids"":[""p001""], ""confidence"":1, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-185ca5b8daa53663ac53,q03,D1,short,王欣逸在国中时期加入了什么组织？,竹联帮,,"[""p001""]",1,False,0,,0,0.75,,0,0,0,1,1.304,559,44,,"{
+  ""answer"": ""竹联帮"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-0dfab2e289fcc56133fe,q01,D1,short,太浩城在太浩湖的什么位置？,西北湖岸线,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,1.124,769,32,,"{""answer"":""西北湖岸线"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-0dfab2e289fcc56133fe,q02,D1,short,太浩湖在哪里？,美国加利福尼亚州和内华达州边界上,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,1.258,763,41,,"{""answer"":""美国加利福尼亚州和内华达州边界上"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-0dfab2e289fcc56133fe,q03,D1,short,太浩湖旁边有一个小湖，为什么取名翡翠湾？,它的水的颜色是绿色的,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,1.076,772,34,,"{""answer"":""它的水的颜色是绿色的"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2391a5c0a60c6534f554,q01,D1,short,关于福斯否洛斯的父母有哪些说法？,一般认为是阿斯特莱欧斯和艾奥斯，也有说法认为是刻法罗斯和艾奥斯,,"[""p001""]",1,False,0,,0,1.0,,0,0,0,1,1.943,604,63,,"{
+  ""answer"": ""一般认为是阿斯特莱欧斯和艾奥斯，也有说法认为是刻法罗斯和艾奥斯"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2391a5c0a60c6534f554,q02,D1,short,后来希腊人仿照巴比伦人的做法把谁作为金星的唯一神祇？,阿佛洛狄忒,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.186,613,39,,"{""answer"": ""阿佛洛狄忒"", ""unit"": """", ""evidence_ids"": [""p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2391a5c0a60c6534f554,q03,D1,short,掌管黄昏时出现的金星（太白星）的神祇是谁？,赫斯珀洛斯,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.382,611,46,,"{
+  ""answer"": ""赫斯珀洛斯"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-565b432ce1716b3ec61a,q01,D1,short,叶乔波在1993年第七届全运会上获得了什么项目的冠军？,短距离全能,,"[""p001""]",1,False,0,,0,0.7142857142857143,,0,0,0,1,1.009,671,29,,"{""answer"":""短距离全能"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-565b432ce1716b3ec61a,q02,D1,short,叶乔波至1993年春季赛事结束，她共获得多少个世界冠军？,14,,"[""p001""]",1,False,0,,0,0.6666666666666666,,0,0,0,1,0.882,674,28,,"{""answer"":""14"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-565b432ce1716b3ec61a,q03,D1,short,叶乔波的籍贯是什么？,吉林长春,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.873,661,28,,"{""answer"":""吉林长春"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-3e72a199082a81a71f19,q01,D1,short,生濑胜久的演技怎么样？,充满个性,,"[""p001""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,1.001,634,30,,"{""answer"":""充满个性"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-3e72a199082a81a71f19,q02,D1,short,生濑胜久演过哪些电影？,《有顶天大饭店》、《舞妓哈哈哈》、《20世纪少年》、《正义双侠》,,"[""p001""]",1,False,0,,0,0.9523809523809523,,0,0,0,1,1.96,635,67,,"{
+  ""answer"": ""《有顶天大饭店》、《舞妓哈哈哈》、《20世纪少年》、《正义双侠》"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-3e72a199082a81a71f19,q03,D1,short,生濑胜久有什么兴趣爱好？,钓鱼,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.237,634,42,,"{
+  ""answer"": ""钓鱼"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"

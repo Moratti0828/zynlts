@@ -1,0 +1,3551 @@
+{
+  "diagnostic_only": true,
+  "post_hoc": true,
+  "primary_scores_changed": false,
+  "human_review_count": 0,
+  "normalization_policy": "Post-hoc sensitivity diagnostic; never changes sealed primary scores.\n\nMaps only whitespace, one surrounding square-bracket pair, and an unambiguous\narticle-local pNNN identifier. No gold selection, passage retrieval, semantic\nrewriting, extra-ID removal or failed-response repair is performed.\n",
+  "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+  "source_artifacts": [
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\manifest.json",
+      "sha256": "cc98853fe6c166218d629339e02609a4d9e1d4832dbed9d496a2d818086e420d",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-200d372d332a.csv",
+      "sha256": "3077b6c8e12d0cf7d0c3d9bdb445a089b79973c3857f2f8c817aaf74d108cc27",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-200d372d332a.json",
+      "sha256": "f3d25a075884884e7b6e587a8f144beef667e99194572a2111f8bade56d0078e",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-d58ba2a13445.csv",
+      "sha256": "18daecd91afa32f577af5f8bee04425ca2db3a0d7ae289d3e79d7e65ff364ec2",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-d58ba2a13445.json",
+      "sha256": "9ff3f5af884041093efd5504334627fde1926f437d08a280f5044a177492d430",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-63db73a5f12c.csv",
+      "sha256": "36b5d29297d53fefe401fdba11951925cdd8d88aa3b0f58650688b48527da6fa",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-63db73a5f12c.json",
+      "sha256": "b67442957757df311cda7e37b580a0b05ea01d55ab053b03f87ab87f0eaad808",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-12ed9616d64e.csv",
+      "sha256": "3de2f17ea53db68dfdbcaf5b5446445c843e787069b834613e64b42b2e6513e5",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-12ed9616d64e.json",
+      "sha256": "9e9b6b13a6470694eadb675c4c01dfa4760795b8d9f9ae60a9e9ecf634e1bcb9",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\device-observations.jsonl",
+      "sha256": "c092a88ff1cab9cee4d2f66ad6f2a374799aca09863c866ce30a51d6fc2f3a44",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\manifest.json",
+      "sha256": "3803e56a22143cc260a8c6986cd69218503a37b0d2aec0b16409c2a332d675ff",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-03a7c3c425fd.csv",
+      "sha256": "590a220244f5a931ef69dbeaab38d5b2ce5f921e8797a77a99de4428fac9bcee",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-03a7c3c425fd.json",
+      "sha256": "ae8e3a5c80fd704bd3643bb8f67e799ce1d3180c4b3390070be5b227a118dee6",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-c33e76f3f3c4.csv",
+      "sha256": "178617dba91ff3eb86465a6b17919a1ee8f5ac84c6fb5a6681e463b80a02266e",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-c33e76f3f3c4.json",
+      "sha256": "1286db64f0e32e06c36dae02fa383778362a1962f1ddd9b186c2c8ddcf61f7c3",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-6c27eefaa44e.csv",
+      "sha256": "038dd96197b2d9524835ba5ca9620ce38c4afcaea3c8f6fa138c50e8916fcf63",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-6c27eefaa44e.json",
+      "sha256": "8eb0a08ed81812de246373ef9321d909c991808cdfca85f64c5ab00b04c49570",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-b4e5f365dda5.csv",
+      "sha256": "7a8c5769bfab7709d1a83d5c259205f062da67f5bca8d353d5d4972b1ec9d31b",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-b4e5f365dda5.json",
+      "sha256": "9e9ef6501b5058d91be0fbfdc8e0289e23336d5c1d499f8ca59d323d3c7f0e7c",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\device-observations.jsonl",
+      "sha256": "ebb5a9b2f0b35553bb33826ce9d53878837f596d6230c8780cbd10c100cf4046",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-last3\\manifest.json",
+      "sha256": "9915ea8593ac32348643e724b24094caa1ee5a5eea166948fdbacef1ec703149",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-last3\\runs\\run-3bdacece0b2b.csv",
+      "sha256": "14f332b201a2103fecc772392a1d158db270713857665cc46c907a150316b5c2",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-last3\\runs\\run-3bdacece0b2b.json",
+      "sha256": "eff637a8e80b869fdd312f33febbd7553fed09b7adad372dc319d618a63a1bd2",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-last3\\runs\\run-f0bc2329cc4f.csv",
+      "sha256": "50df8573d6bd3cb5ede6c1c21f6335932ae79d55def5705d610a97f4d0f3625f",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-last3\\runs\\run-f0bc2329cc4f.json",
+      "sha256": "0d0366d4caedccd8f6114c296f030bac10a2a1b333c9396210458c47c9ef5b83",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-last3\\runs\\run-94fee754bf41.csv",
+      "sha256": "888e2a5026b8114870e59b934039a58fd33c9be7f802a4797f8bdc83386e49a9",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-last3\\runs\\run-94fee754bf41.json",
+      "sha256": "5d8ed4c34667665546dd248a6fd3dee298060c5442871d3659e08deb3a0910df",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-last3\\device-observations.jsonl",
+      "sha256": "b92fc6ce50fc6fc452da61527efe7cad94e9f7d00220910aed9117410646efd8",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-last3\\manifest.json",
+      "sha256": "e88851ccbc37577deb20fb4e871ed57e7c4b53716917b0fd2a9e5634efac3977",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-last3\\runs\\run-f49382659b18.csv",
+      "sha256": "056d40d02aed24edf9e16563e2663af7e1f2478366d677cd4172b0c20a344a44",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-last3\\runs\\run-f49382659b18.json",
+      "sha256": "95c67a1295448630b8899a6c440a12001636ab517199742f0ceae2b5c3a2ee31",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-last3\\runs\\run-963ff84ccef4.csv",
+      "sha256": "2014847a3ed8e94f6e93e59b9b98d04c2043268153f67b06080f77aff7b8b91d",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-last3\\runs\\run-963ff84ccef4.json",
+      "sha256": "df5804d055e94fe1b47cc4a71a3b18025e2975d7b5a342a75d11f2ca7e55d5b8",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-last3\\runs\\run-ddbd87001ddd.csv",
+      "sha256": "cad354e490b3082378c5f72b2bfdfb9d83ec555f2a772e507601e62634a5f7e5",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-last3\\runs\\run-ddbd87001ddd.json",
+      "sha256": "0fba8981b2fd74d6798d4e4f153e58d3f528d77bf37f504721ec9126f4193147",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-last3\\device-observations.jsonl",
+      "sha256": "01988eb1417a587fa7e7850ca2817432128f24ee76d28e3e98dc13ea0d534666",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-official-main\\manifest.json",
+      "sha256": "77de8e9b8743a227ba35a1dd33711098e3d970a14a06f65595bb36f4372b28ae",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-official-main\\runs\\run-3e2ac159085c.csv",
+      "sha256": "feb9070f0fcf86eb74d2b21a543c252dd523853ace2610fe9f17269154960b02",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-official-main\\runs\\run-3e2ac159085c.json",
+      "sha256": "2d813cb1c57b16b74ad8c8d5717324dcb9968ca46db46c5a7f6687a998c10ae7",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-official-main\\device-observations.jsonl",
+      "sha256": "ee2b97efe417cab5af3a1b7863474edece30e61abc72fdc3f49c65d7ed191524",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-official-diagnostic\\manifest.json",
+      "sha256": "d99a1a0d5ee1c2f4daa8510b382c0cc62612c4381b4854c921d6d8a9b35cafea",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-official-diagnostic\\runs\\run-0cc1e7ed583c.csv",
+      "sha256": "06a4aa988c72fa675deeb49b56addbbbe537b28fdb031629cba0db91416dfb5c",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-official-diagnostic\\runs\\run-0cc1e7ed583c.json",
+      "sha256": "a5aa926113a283f28fd79ba66438e5aa0aa00d6b8e4ea9f46f8446e646f4512c",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-official-diagnostic\\device-observations.jsonl",
+      "sha256": "34ed749841fc7676d562b96b7b45b712db46e90344863bdd8319e060ee67f505",
+      "kind": "device_observations"
+    }
+  ],
+  "counts": [
+    {
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "planned_answerable": 60,
+      "strict_exact_n": 11,
+      "format_normalized_exact_n_aux": 19,
+      "difference_n_aux": 8,
+      "mapped_response_n": 18,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "planned_answerable": 60,
+      "strict_exact_n": 10,
+      "format_normalized_exact_n_aux": 12,
+      "difference_n_aux": 2,
+      "mapped_response_n": 36,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "qwen25-3b",
+      "language": "zh",
+      "planned_answerable": 60,
+      "strict_exact_n": 40,
+      "format_normalized_exact_n_aux": 40,
+      "difference_n_aux": 0,
+      "mapped_response_n": 0,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "qwen25-3b",
+      "language": "en",
+      "planned_answerable": 60,
+      "strict_exact_n": 34,
+      "format_normalized_exact_n_aux": 34,
+      "difference_n_aux": 0,
+      "mapped_response_n": 1,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "planned_answerable": 60,
+      "strict_exact_n": 12,
+      "format_normalized_exact_n_aux": 44,
+      "difference_n_aux": 32,
+      "mapped_response_n": 45,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "planned_answerable": 60,
+      "strict_exact_n": 30,
+      "format_normalized_exact_n_aux": 38,
+      "difference_n_aux": 8,
+      "mapped_response_n": 14,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "planned_answerable": 60,
+      "strict_exact_n": 31,
+      "format_normalized_exact_n_aux": 44,
+      "difference_n_aux": 13,
+      "mapped_response_n": 24,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "llama31-8b",
+      "language": "en",
+      "planned_answerable": 60,
+      "strict_exact_n": 48,
+      "format_normalized_exact_n_aux": 48,
+      "difference_n_aux": 0,
+      "mapped_response_n": 0,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "qwen25-14b",
+      "language": "zh",
+      "planned_answerable": 60,
+      "strict_exact_n": 43,
+      "format_normalized_exact_n_aux": 51,
+      "difference_n_aux": 8,
+      "mapped_response_n": 11,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "qwen25-14b",
+      "language": "en",
+      "planned_answerable": 60,
+      "strict_exact_n": 48,
+      "format_normalized_exact_n_aux": 49,
+      "difference_n_aux": 1,
+      "mapped_response_n": 1,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "mistral03-7b",
+      "language": "zh",
+      "planned_answerable": 60,
+      "strict_exact_n": 42,
+      "format_normalized_exact_n_aux": 42,
+      "difference_n_aux": 0,
+      "mapped_response_n": 0,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "mistral03-7b",
+      "language": "en",
+      "planned_answerable": 60,
+      "strict_exact_n": 41,
+      "format_normalized_exact_n_aux": 41,
+      "difference_n_aux": 0,
+      "mapped_response_n": 0,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "planned_answerable": 60,
+      "strict_exact_n": 11,
+      "format_normalized_exact_n_aux": 25,
+      "difference_n_aux": 14,
+      "mapped_response_n": 16,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "internlm25-7b",
+      "language": "en",
+      "planned_answerable": 60,
+      "strict_exact_n": 33,
+      "format_normalized_exact_n_aux": 35,
+      "difference_n_aux": 2,
+      "mapped_response_n": 2,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "planned_answerable": 60,
+      "strict_exact_n": 14,
+      "format_normalized_exact_n_aux": 30,
+      "difference_n_aux": 16,
+      "mapped_response_n": 17,
+      "duplicate_mapping_unchanged_n": 0
+    },
+    {
+      "model_id": "internlm25-7b-official2024",
+      "language": "en",
+      "planned_answerable": 60,
+      "strict_exact_n": 39,
+      "format_normalized_exact_n_aux": 40,
+      "difference_n_aux": 1,
+      "mapped_response_n": 1,
+      "duplicate_mapping_unchanged_n": 0
+    }
+  ],
+  "mapped_cases": [
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-cas-1cf079b15eb7-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas-1cf079b15eb7-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "[zh-cas_health-31517790bbba-dev20261020:p004]"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "[zh-mct_local-6a04512f597f-dev20261020:p001]",
+        "[zh-mct_local-6a04512f597f-dev20261020:p002]"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p001",
+        "zh-mct_local-6a04512f597f-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "[zh-mct_local-6a04512f597f-dev20261020:p006]"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "[zh-mct_local-f4d9389d2865-dev20261020:p007]",
+        "[zh-mct_local-f4d9389d2865-dev20261020:p011]"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p007",
+        "zh-mct_local-f4d9389d2865-dev20261020:p011"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "[zh-mee-161477ffc17c-dev20261020:p001]",
+        "[zh-mee-161477ffc17c-dev20261020:p002]"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p001",
+        "zh-mee-161477ffc17c-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "[zh-mee-161477ffc17c-dev20261020:p001]"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p001"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "[zh-mee-161477ffc17c-dev20261020:p003]",
+        "[zh-mee-161477ffc17c-dev20261020:p004]"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p003",
+        "zh-mee-161477ffc17c-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p001",
+        "p002"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p001",
+        "zh-mee-161477ffc17c-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "[zh-mee-161477ffc17c-dev20261020:p002]",
+        "[zh-mee-161477ffc17c-dev20261020:p003]"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p002",
+        "zh-mee-161477ffc17c-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "[zh-mee-161477ffc17c-dev20261020:p003]"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p001",
+        "zh-mct-2310a232a3eb-dev20261020:p002",
+        "zh-mct-2310a232a3eb-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p001",
+        "p002"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p001",
+        "zh-mct-2310a232a3eb-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p007"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p007"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p007"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p007"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007",
+        "p008"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p001",
+        "zh-mct-2310a232a3eb-dev20261020:p002",
+        "zh-mct-2310a232a3eb-dev20261020:p003",
+        "zh-mct-2310a232a3eb-dev20261020:p004",
+        "zh-mct-2310a232a3eb-dev20261020:p005",
+        "zh-mct-2310a232a3eb-dev20261020:p006",
+        "zh-mct-2310a232a3eb-dev20261020:p007",
+        "zh-mct-2310a232a3eb-dev20261020:p008"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p009"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p009"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nasa-2b3fb9c367c3-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p001",
+        "p002"
+      ],
+      "normalized_ids": [
+        "en-nasa-2b3fb9c367c3-dev20261020:p001",
+        "en-nasa-2b3fb9c367c3-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nasa-2b3fb9c367c3-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006"
+      ],
+      "normalized_ids": [
+        "en-nasa-2b3fb9c367c3-dev20261020:p001",
+        "en-nasa-2b3fb9c367c3-dev20261020:p002",
+        "en-nasa-2b3fb9c367c3-dev20261020:p003",
+        "en-nasa-2b3fb9c367c3-dev20261020:p004",
+        "en-nasa-2b3fb9c367c3-dev20261020:p005",
+        "en-nasa-2b3fb9c367c3-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nasa-2b3fb9c367c3-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p002",
+        "p003"
+      ],
+      "normalized_ids": [
+        "en-nasa-2b3fb9c367c3-dev20261020:p002",
+        "en-nasa-2b3fb9c367c3-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nasa-2b3fb9c367c3-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p005",
+        "p006"
+      ],
+      "normalized_ids": [
+        "en-nasa-2b3fb9c367c3-dev20261020:p005",
+        "en-nasa-2b3fb9c367c3-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-census-8b06d9bbd7de-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p003",
+        "p012"
+      ],
+      "normalized_ids": [
+        "en-census-8b06d9bbd7de-dev20261020:p003",
+        "en-census-8b06d9bbd7de-dev20261020:p012"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-census-8b06d9bbd7de-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p002",
+        "p016"
+      ],
+      "normalized_ids": [
+        "en-census-8b06d9bbd7de-dev20261020:p002",
+        "en-census-8b06d9bbd7de-dev20261020:p016"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-census-8b06d9bbd7de-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p002",
+        "p011"
+      ],
+      "normalized_ids": [
+        "en-census-8b06d9bbd7de-dev20261020:p002",
+        "en-census-8b06d9bbd7de-dev20261020:p011"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-census-8b06d9bbd7de-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p001",
+        "p002"
+      ],
+      "normalized_ids": [
+        "en-census-8b06d9bbd7de-dev20261020:p001",
+        "en-census-8b06d9bbd7de-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-census-8b06d9bbd7de-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007",
+        "p008",
+        "p009",
+        "p010",
+        "p011",
+        "p012",
+        "p013",
+        "p014",
+        "p015",
+        "p016",
+        "p017",
+        "p018",
+        "p019",
+        "p020",
+        "p021"
+      ],
+      "normalized_ids": [
+        "en-census-8b06d9bbd7de-dev20261020:p001",
+        "en-census-8b06d9bbd7de-dev20261020:p002",
+        "en-census-8b06d9bbd7de-dev20261020:p003",
+        "en-census-8b06d9bbd7de-dev20261020:p004",
+        "en-census-8b06d9bbd7de-dev20261020:p005",
+        "en-census-8b06d9bbd7de-dev20261020:p006",
+        "en-census-8b06d9bbd7de-dev20261020:p007",
+        "en-census-8b06d9bbd7de-dev20261020:p008",
+        "en-census-8b06d9bbd7de-dev20261020:p009",
+        "en-census-8b06d9bbd7de-dev20261020:p010",
+        "en-census-8b06d9bbd7de-dev20261020:p011",
+        "en-census-8b06d9bbd7de-dev20261020:p012",
+        "en-census-8b06d9bbd7de-dev20261020:p013",
+        "en-census-8b06d9bbd7de-dev20261020:p014",
+        "en-census-8b06d9bbd7de-dev20261020:p015",
+        "en-census-8b06d9bbd7de-dev20261020:p016",
+        "en-census-8b06d9bbd7de-dev20261020:p017",
+        "en-census-8b06d9bbd7de-dev20261020:p018",
+        "en-census-8b06d9bbd7de-dev20261020:p019",
+        "en-census-8b06d9bbd7de-dev20261020:p020",
+        "en-census-8b06d9bbd7de-dev20261020:p021"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-census-be20ba82c0cc-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p005",
+        "p010"
+      ],
+      "normalized_ids": [
+        "en-census-be20ba82c0cc-dev20261020:p005",
+        "en-census-be20ba82c0cc-dev20261020:p010"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-census-be20ba82c0cc-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p015"
+      ],
+      "normalized_ids": [
+        "en-census-be20ba82c0cc-dev20261020:p015"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nih-88aa9c4bbbb9-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p002"
+      ],
+      "normalized_ids": [
+        "en-nih-88aa9c4bbbb9-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nih-88aa9c4bbbb9-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007"
+      ],
+      "normalized_ids": [
+        "en-nih-88aa9c4bbbb9-dev20261020:p001",
+        "en-nih-88aa9c4bbbb9-dev20261020:p002",
+        "en-nih-88aa9c4bbbb9-dev20261020:p003",
+        "en-nih-88aa9c4bbbb9-dev20261020:p004",
+        "en-nih-88aa9c4bbbb9-dev20261020:p005",
+        "en-nih-88aa9c4bbbb9-dev20261020:p006",
+        "en-nih-88aa9c4bbbb9-dev20261020:p007"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nih-88aa9c4bbbb9-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p002"
+      ],
+      "normalized_ids": [
+        "en-nih-88aa9c4bbbb9-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nih-88aa9c4bbbb9-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "en-nih-88aa9c4bbbb9-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nih-88aa9c4bbbb9-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007",
+        "p008"
+      ],
+      "normalized_ids": [
+        "en-nih-88aa9c4bbbb9-dev20261020:p001",
+        "en-nih-88aa9c4bbbb9-dev20261020:p002",
+        "en-nih-88aa9c4bbbb9-dev20261020:p003",
+        "en-nih-88aa9c4bbbb9-dev20261020:p004",
+        "en-nih-88aa9c4bbbb9-dev20261020:p005",
+        "en-nih-88aa9c4bbbb9-dev20261020:p006",
+        "en-nih-88aa9c4bbbb9-dev20261020:p007",
+        "en-nih-88aa9c4bbbb9-dev20261020:p008"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nih-63b73a8c608a-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p004"
+      ],
+      "normalized_ids": [
+        "en-nih-63b73a8c608a-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nih-63b73a8c608a-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p003",
+        "p004"
+      ],
+      "normalized_ids": [
+        "en-nih-63b73a8c608a-dev20261020:p003",
+        "en-nih-63b73a8c608a-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nih-63b73a8c608a-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p003",
+        "p004"
+      ],
+      "normalized_ids": [
+        "en-nih-63b73a8c608a-dev20261020:p003",
+        "en-nih-63b73a8c608a-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nih-63b73a8c608a-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p006",
+        "p010"
+      ],
+      "normalized_ids": [
+        "en-nih-63b73a8c608a-dev20261020:p006",
+        "en-nih-63b73a8c608a-dev20261020:p010"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-nih-63b73a8c608a-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p003",
+        "p004"
+      ],
+      "normalized_ids": [
+        "en-nih-63b73a8c608a-dev20261020:p003",
+        "en-nih-63b73a8c608a-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-loc-359fbdc1a252-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p001",
+        "p002",
+        "p003"
+      ],
+      "normalized_ids": [
+        "en-loc-359fbdc1a252-dev20261020:p001",
+        "en-loc-359fbdc1a252-dev20261020:p002",
+        "en-loc-359fbdc1a252-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-loc-359fbdc1a252-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007",
+        "p008",
+        "p009",
+        "p010"
+      ],
+      "normalized_ids": [
+        "en-loc-359fbdc1a252-dev20261020:p001",
+        "en-loc-359fbdc1a252-dev20261020:p002",
+        "en-loc-359fbdc1a252-dev20261020:p003",
+        "en-loc-359fbdc1a252-dev20261020:p004",
+        "en-loc-359fbdc1a252-dev20261020:p005",
+        "en-loc-359fbdc1a252-dev20261020:p006",
+        "en-loc-359fbdc1a252-dev20261020:p007",
+        "en-loc-359fbdc1a252-dev20261020:p008",
+        "en-loc-359fbdc1a252-dev20261020:p009",
+        "en-loc-359fbdc1a252-dev20261020:p010"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-loc-359fbdc1a252-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p008"
+      ],
+      "normalized_ids": [
+        "en-loc-359fbdc1a252-dev20261020:p008"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-loc-829b92bd1e91-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p002",
+        "p003"
+      ],
+      "normalized_ids": [
+        "en-loc-829b92bd1e91-dev20261020:p002",
+        "en-loc-829b92bd1e91-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-loc-829b92bd1e91-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "normalized_ids": [
+        "en-loc-829b92bd1e91-dev20261020:p002",
+        "en-loc-829b92bd1e91-dev20261020:p003",
+        "en-loc-829b92bd1e91-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p004"
+      ],
+      "normalized_ids": [
+        "en-usgs_release-8091ff19244f-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p004",
+        "p005"
+      ],
+      "normalized_ids": [
+        "en-usgs_release-8091ff19244f-dev20261020:p004",
+        "en-usgs_release-8091ff19244f-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p002"
+      ],
+      "normalized_ids": [
+        "en-usgs_release-8091ff19244f-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p005",
+        "p007"
+      ],
+      "normalized_ids": [
+        "en-usgs_release-8091ff19244f-dev20261020:p005",
+        "en-usgs_release-8091ff19244f-dev20261020:p007"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007",
+        "p008",
+        "p009"
+      ],
+      "normalized_ids": [
+        "en-usgs_release-8091ff19244f-dev20261020:p001",
+        "en-usgs_release-8091ff19244f-dev20261020:p002",
+        "en-usgs_release-8091ff19244f-dev20261020:p003",
+        "en-usgs_release-8091ff19244f-dev20261020:p004",
+        "en-usgs_release-8091ff19244f-dev20261020:p005",
+        "en-usgs_release-8091ff19244f-dev20261020:p006",
+        "en-usgs_release-8091ff19244f-dev20261020:p007",
+        "en-usgs_release-8091ff19244f-dev20261020:p008",
+        "en-usgs_release-8091ff19244f-dev20261020:p009"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007",
+        "p008",
+        "p009"
+      ],
+      "normalized_ids": [
+        "en-usgs_release-8091ff19244f-dev20261020:p001",
+        "en-usgs_release-8091ff19244f-dev20261020:p002",
+        "en-usgs_release-8091ff19244f-dev20261020:p003",
+        "en-usgs_release-8091ff19244f-dev20261020:p004",
+        "en-usgs_release-8091ff19244f-dev20261020:p005",
+        "en-usgs_release-8091ff19244f-dev20261020:p006",
+        "en-usgs_release-8091ff19244f-dev20261020:p007",
+        "en-usgs_release-8091ff19244f-dev20261020:p008",
+        "en-usgs_release-8091ff19244f-dev20261020:p009"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-govuk-d5865b812982-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p004"
+      ],
+      "normalized_ids": [
+        "en-govuk-d5865b812982-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-govuk-d5865b812982-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p014"
+      ],
+      "normalized_ids": [
+        "en-govuk-d5865b812982-dev20261020:p014"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-govuk-d5865b812982-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p012"
+      ],
+      "normalized_ids": [
+        "en-govuk-d5865b812982-dev20261020:p012"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-200d372d332a",
+      "model_id": "qwen25-15b",
+      "language": "en",
+      "article_id": "en-govuk-d5865b812982-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p004",
+        "p005",
+        "p006",
+        "p007",
+        "p008",
+        "p009",
+        "p010",
+        "p011",
+        "p012",
+        "p013",
+        "p014",
+        "p015",
+        "p016"
+      ],
+      "normalized_ids": [
+        "en-govuk-d5865b812982-dev20261020:p001",
+        "en-govuk-d5865b812982-dev20261020:p002",
+        "en-govuk-d5865b812982-dev20261020:p003",
+        "en-govuk-d5865b812982-dev20261020:p004",
+        "en-govuk-d5865b812982-dev20261020:p005",
+        "en-govuk-d5865b812982-dev20261020:p006",
+        "en-govuk-d5865b812982-dev20261020:p007",
+        "en-govuk-d5865b812982-dev20261020:p008",
+        "en-govuk-d5865b812982-dev20261020:p009",
+        "en-govuk-d5865b812982-dev20261020:p010",
+        "en-govuk-d5865b812982-dev20261020:p011",
+        "en-govuk-d5865b812982-dev20261020:p012",
+        "en-govuk-d5865b812982-dev20261020:p013",
+        "en-govuk-d5865b812982-dev20261020:p014",
+        "en-govuk-d5865b812982-dev20261020:p015",
+        "en-govuk-d5865b812982-dev20261020:p016"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-d58ba2a13445",
+      "model_id": "qwen25-3b",
+      "language": "en",
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "[en-usgs_release-8091ff19244f-dev20261020:p002]",
+        "[en-usgs_release-8091ff19244f-dev20261020:p003]"
+      ],
+      "normalized_ids": [
+        "en-usgs_release-8091ff19244f-dev20261020:p002",
+        "en-usgs_release-8091ff19244f-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q01",
+      "raw_ids": [
+        "[zh-nbs-02a36a9fc6f8-devpilot:p001]"
+      ],
+      "normalized_ids": [
+        "zh-nbs-02a36a9fc6f8-devpilot:p001"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q02",
+      "raw_ids": [
+        "p007"
+      ],
+      "normalized_ids": [
+        "zh-nbs-02a36a9fc6f8-devpilot:p007"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q03",
+      "raw_ids": [
+        "p001",
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-nbs-02a36a9fc6f8-devpilot:p001",
+        "zh-nbs-02a36a9fc6f8-devpilot:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q04",
+      "raw_ids": [
+        "[zh-nbs-02a36a9fc6f8-devpilot:p001]"
+      ],
+      "normalized_ids": [
+        "zh-nbs-02a36a9fc6f8-devpilot:p001"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "[zh-nbs-d8dd3b95e0c6-dev20261020:p003]"
+      ],
+      "normalized_ids": [
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "[zh-nbs-d8dd3b95e0c6-dev20261020:p006]"
+      ],
+      "normalized_ids": [
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "[zh-cas-5dc9ec97bf04-dev20261020:p001]",
+        "[zh-cas-5dc9ec97bf04-dev20261020:p003]"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p001",
+        "zh-cas-5dc9ec97bf04-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p003",
+        "zh-cas-5dc9ec97bf04-dev20261020:p004",
+        "zh-cas-5dc9ec97bf04-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p003",
+        "zh-cas-5dc9ec97bf04-dev20261020:p004",
+        "zh-cas-5dc9ec97bf04-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p006"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas-1cf079b15eb7-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "[zh-cas-1cf079b15eb7-dev20261020:p002]"
+      ],
+      "normalized_ids": [
+        "zh-cas-1cf079b15eb7-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas-1cf079b15eb7-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p001"
+      ],
+      "normalized_ids": [
+        "zh-cas-1cf079b15eb7-dev20261020:p001"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas-1cf079b15eb7-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p002",
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas-1cf079b15eb7-dev20261020:p002",
+        "zh-cas-1cf079b15eb7-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-d9258d90ea32-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-d9258d90ea32-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-d9258d90ea32-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p002",
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-d9258d90ea32-dev20261020:p002",
+        "zh-cas_health-d9258d90ea32-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-d9258d90ea32-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p003",
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-d9258d90ea32-dev20261020:p003",
+        "zh-cas_health-d9258d90ea32-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-d9258d90ea32-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-d9258d90ea32-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p004",
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p004",
+        "zh-cas_health-31517790bbba-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p001"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p001"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p006"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p006"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p003",
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p003",
+        "zh-mct_local-6a04512f597f-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p002",
+        "p006"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p002",
+        "zh-mct_local-6a04512f597f-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p001",
+        "p002"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p001",
+        "zh-mct_local-6a04512f597f-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p011"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p011"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p006",
+        "p010"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p006",
+        "zh-mct_local-f4d9389d2865-dev20261020:p010"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p006"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p005",
+        "p006"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p005",
+        "zh-mct_local-f4d9389d2865-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p001"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p001"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p001"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p001"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p002"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p001",
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p001",
+        "zh-mee-161477ffc17c-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p006",
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p006",
+        "zh-mct-2310a232a3eb-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p007"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p007"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p003",
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p003",
+        "zh-mct-2310a232a3eb-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p008"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p008"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-census-8b06d9bbd7de-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "[en-census-8b06d9bbd7de-dev20261020:p019]"
+      ],
+      "normalized_ids": [
+        "en-census-8b06d9bbd7de-dev20261020:p019"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-census-8b06d9bbd7de-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "[en-census-8b06d9bbd7de-dev20261020:p009]",
+        "[en-census-8b06d9bbd7de-dev20261020:p010]"
+      ],
+      "normalized_ids": [
+        "en-census-8b06d9bbd7de-dev20261020:p009",
+        "en-census-8b06d9bbd7de-dev20261020:p010"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-census-8b06d9bbd7de-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "[en-census-8b06d9bbd7de-dev20261020:p008]",
+        "[en-census-8b06d9bbd7de-dev20261020:p009]",
+        "[en-census-8b06d9bbd7de-dev20261020:p010]",
+        "[en-census-8b06d9bbd7de-dev20261020:p011]",
+        "[en-census-8b06d9bbd7de-dev20261020:p012]",
+        "[en-census-8b06d9bbd7de-dev20261020:p013]"
+      ],
+      "normalized_ids": [
+        "en-census-8b06d9bbd7de-dev20261020:p008",
+        "en-census-8b06d9bbd7de-dev20261020:p009",
+        "en-census-8b06d9bbd7de-dev20261020:p010",
+        "en-census-8b06d9bbd7de-dev20261020:p011",
+        "en-census-8b06d9bbd7de-dev20261020:p012",
+        "en-census-8b06d9bbd7de-dev20261020:p013"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-census-be20ba82c0cc-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "[en-census-be20ba82c0cc-dev20261020:p001]"
+      ],
+      "normalized_ids": [
+        "en-census-be20ba82c0cc-dev20261020:p001"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-loc-359fbdc1a252-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "[en-loc-359fbdc1a252-dev20261020:p006]",
+        "[en-loc-359fbdc1a252-dev20261020:p009"
+      ],
+      "normalized_ids": [
+        "en-loc-359fbdc1a252-dev20261020:p006",
+        "[en-loc-359fbdc1a252-dev20261020:p009"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "[en-usgs_release-8091ff19244f-dev20261020:p006]"
+      ],
+      "normalized_ids": [
+        "en-usgs_release-8091ff19244f-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "[en-usgs_release-8091ff19244f-dev20261020:p006]"
+      ],
+      "normalized_ids": [
+        "en-usgs_release-8091ff19244f-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "[en-usgs_release-8091ff19244f-dev20261020:p002]"
+      ],
+      "normalized_ids": [
+        "en-usgs_release-8091ff19244f-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "[en-usgs_release-8091ff19244f-dev20261020:p006]",
+        "[en-usgs_release-8091ff19244f-dev20261020:p007]"
+      ],
+      "normalized_ids": [
+        "en-usgs_release-8091ff19244f-dev20261020:p006",
+        "en-usgs_release-8091ff19244f-dev20261020:p007"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "[en-usgs_release-8091ff19244f-dev20261020:p002]"
+      ],
+      "normalized_ids": [
+        "en-usgs_release-8091ff19244f-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-govuk-d5865b812982-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "[en-govuk-d5865b812982-dev20261020:p002]",
+        "[en-govuk-d5865b812982-dev20261020:p004]"
+      ],
+      "normalized_ids": [
+        "en-govuk-d5865b812982-dev20261020:p002",
+        "en-govuk-d5865b812982-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-govuk-d5865b812982-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "[en-govuk-d5865b812982-dev20261020:p017]"
+      ],
+      "normalized_ids": [
+        "en-govuk-d5865b812982-dev20261020:p017"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-govuk-d5865b812982-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "[en-govuk-d5865b812982-dev20261020:p015]",
+        "[en-govuk-d5865b812982-dev20261020:p016"
+      ],
+      "normalized_ids": [
+        "en-govuk-d5865b812982-dev20261020:p015",
+        "[en-govuk-d5865b812982-dev20261020:p016"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-63db73a5f12c",
+      "model_id": "qwen25-7b",
+      "language": "en",
+      "article_id": "en-govuk-d5865b812982-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "[en-govuk-d5865b812982-dev20261020:p017]"
+      ],
+      "normalized_ids": [
+        "en-govuk-d5865b812982-dev20261020:p017"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p006"
+      ],
+      "normalized_ids": [
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p006",
+        "p007"
+      ],
+      "normalized_ids": [
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p006",
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p007"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "[zh-nbs-d8dd3b95e0c6-dev20261020:p002]",
+        "[zh-nbs-d8dd3b95e0c6-dev20261020:p003]",
+        "[zh-nbs-d8dd3b95e0c6-dev20261020:p004]"
+      ],
+      "normalized_ids": [
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p002",
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p003",
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p008",
+        "p010"
+      ],
+      "normalized_ids": [
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p008",
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p010"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p006"
+      ],
+      "normalized_ids": [
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "[zh-cas-5dc9ec97bf04-dev20261020:p003]",
+        "[zh-cas-5dc9ec97bf04-dev20261020:p004]"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p003",
+        "zh-cas-5dc9ec97bf04-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "[zh-cas-5dc9ec97bf04-dev20261020:p004]",
+        "[zh-cas-5dc9ec97bf04-dev20261020:p005]"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p004",
+        "zh-cas-5dc9ec97bf04-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "[zh-cas-5dc9ec97bf04-dev20261020:p004]",
+        "[zh-cas-5dc9ec97bf04-dev20261020:p006]"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p004",
+        "zh-cas-5dc9ec97bf04-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "[zh-cas-5dc9ec97bf04-dev20261020:p005]",
+        "[zh-cas-5dc9ec97bf04-dev20261020:p006]"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p005",
+        "zh-cas-5dc9ec97bf04-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-cas-1cf079b15eb7-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "[zh-cas-1cf079b15eb7-dev20261020:p003]"
+      ],
+      "normalized_ids": [
+        "zh-cas-1cf079b15eb7-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-cas-1cf079b15eb7-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "[zh-cas-1cf079b15eb7-dev20261020:p002]",
+        "[zh-cas-1cf079b15eb7-dev20261020:p004]"
+      ],
+      "normalized_ids": [
+        "zh-cas-1cf079b15eb7-dev20261020:p002",
+        "zh-cas-1cf079b15eb7-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-cas-1cf079b15eb7-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "[zh-cas-1cf079b15eb7-dev20261020:p004]"
+      ],
+      "normalized_ids": [
+        "zh-cas-1cf079b15eb7-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-cas_health-d9258d90ea32-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "[zh-cas_health-d9258d90ea32-dev20261020:p003]"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-d9258d90ea32-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "[zh-mct_local-6a04512f597f-dev20261020:p003]",
+        "[zh-mct_local-6a04512f597f-dev20261020:p004]"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p003",
+        "zh-mct_local-6a04512f597f-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "[zh-mct_local-6a04512f597f-dev20261020:p002]",
+        "[zh-mct_local-6a04512f597f-dev20261020:p006]"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p002",
+        "zh-mct_local-6a04512f597f-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p010"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p010"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "[zh-mct_local-f4d9389d2865-dev20261020:p006]",
+        "[zh-mct_local-f4d9389d2865-dev20261020:p010]"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p006",
+        "zh-mct_local-f4d9389d2865-dev20261020:p010"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p006"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "[zh-mct_local-f4d9389d2865-dev20261020:p006]",
+        "[zh-mct_local-f4d9389d2865-dev20261020:p007]"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p006",
+        "zh-mct_local-f4d9389d2865-dev20261020:p007"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "[zh-mct-2310a232a3eb-dev20261020:p003]",
+        "[zh-mct-2310a232a3eb-dev20261020:p004]"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p003",
+        "zh-mct-2310a232a3eb-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "[zh-mct-2310a232a3eb-dev20261020:p003]",
+        "[zh-mct-2310a232a3eb-dev20261020:p005]"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p003",
+        "zh-mct-2310a232a3eb-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-12ed9616d64e",
+      "model_id": "llama31-8b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "[zh-mct-2310a232a3eb-dev20261020:p009]"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p009"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3bdacece0b2b",
+      "model_id": "qwen25-14b",
+      "language": "zh",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q03",
+      "raw_ids": [
+        "[zh-nbs-02a36a9fc6f8-devpilot:p001]",
+        "[zh-nbs-02a36a9fc6f8-devpilot:p007]",
+        "[zh-nbs-02a36a9fc6f8-devpilot:p008]"
+      ],
+      "normalized_ids": [
+        "zh-nbs-02a36a9fc6f8-devpilot:p001",
+        "zh-nbs-02a36a9fc6f8-devpilot:p007",
+        "zh-nbs-02a36a9fc6f8-devpilot:p008"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-3bdacece0b2b",
+      "model_id": "qwen25-14b",
+      "language": "zh",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q04",
+      "raw_ids": [
+        "[zh-nbs-02a36a9fc6f8-devpilot:p001]"
+      ],
+      "normalized_ids": [
+        "zh-nbs-02a36a9fc6f8-devpilot:p001"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3bdacece0b2b",
+      "model_id": "qwen25-14b",
+      "language": "zh",
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "[zh-nbs-d8dd3b95e0c6-dev20261020:p002]",
+        "[zh-nbs-d8dd3b95e0c6-dev20261020:p003]",
+        "[zh-nbs-d8dd3b95e0c6-dev20261020:p004]"
+      ],
+      "normalized_ids": [
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p002",
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p003",
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-3bdacece0b2b",
+      "model_id": "qwen25-14b",
+      "language": "zh",
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "[zh-nbs-d8dd3b95e0c6-dev20261020:p006]"
+      ],
+      "normalized_ids": [
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3bdacece0b2b",
+      "model_id": "qwen25-14b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p002"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3bdacece0b2b",
+      "model_id": "qwen25-14b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3bdacece0b2b",
+      "model_id": "qwen25-14b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p006"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3bdacece0b2b",
+      "model_id": "qwen25-14b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3bdacece0b2b",
+      "model_id": "qwen25-14b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p001"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p001"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3bdacece0b2b",
+      "model_id": "qwen25-14b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3bdacece0b2b",
+      "model_id": "qwen25-14b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p002"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p002"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-3bdacece0b2b",
+      "model_id": "qwen25-14b",
+      "language": "en",
+      "article_id": "en-loc-359fbdc1a252-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p006",
+        "p009"
+      ],
+      "normalized_ids": [
+        "en-loc-359fbdc1a252-dev20261020:p006",
+        "en-loc-359fbdc1a252-dev20261020:p009"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p002",
+        "p003",
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p002",
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p003",
+        "zh-nbs-d8dd3b95e0c6-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p003",
+        "p004",
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p003",
+        "zh-cas-5dc9ec97bf04-dev20261020:p004",
+        "zh-cas-5dc9ec97bf04-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p003",
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p003",
+        "zh-cas-5dc9ec97bf04-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-cas-1cf079b15eb7-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas-1cf079b15eb7-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-cas-1cf079b15eb7-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p002",
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas-1cf079b15eb7-dev20261020:p002",
+        "zh-cas-1cf079b15eb7-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-d9258d90ea32-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-d9258d90ea32-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q02",
+      "raw_ids": [
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p004",
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p004",
+        "zh-cas_health-31517790bbba-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p002",
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p002",
+        "zh-cas_health-31517790bbba-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p002",
+        "p006"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p002",
+        "zh-mct_local-6a04512f597f-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p006",
+        "p010"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p006",
+        "zh-mct_local-f4d9389d2865-dev20261020:p010"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p003",
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p003",
+        "zh-mct-2310a232a3eb-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "en",
+      "article_id": "en-nasa-2b3fb9c367c3-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p003",
+        "p004"
+      ],
+      "normalized_ids": [
+        "en-nasa-2b3fb9c367c3-dev20261020:p003",
+        "en-nasa-2b3fb9c367c3-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-94fee754bf41",
+      "model_id": "internlm25-7b",
+      "language": "en",
+      "article_id": "en-loc-359fbdc1a252-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p006",
+        "p009"
+      ],
+      "normalized_ids": [
+        "en-loc-359fbdc1a252-dev20261020:p006",
+        "en-loc-359fbdc1a252-dev20261020:p009"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p003",
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p003",
+        "zh-cas-5dc9ec97bf04-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-cas-5dc9ec97bf04-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-cas-5dc9ec97bf04-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-cas-1cf079b15eb7-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas-1cf079b15eb7-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-cas-1cf079b15eb7-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p002",
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas-1cf079b15eb7-dev20261020:p002",
+        "zh-cas-1cf079b15eb7-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-cas_health-d9258d90ea32-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-d9258d90ea32-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-cas_health-d9258d90ea32-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-d9258d90ea32-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-cas_health-d9258d90ea32-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-d9258d90ea32-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-cas_health-d9258d90ea32-dev20261020",
+      "question_id": "q06",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-d9258d90ea32-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 0
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q01",
+      "raw_ids": [
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p004"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p004"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-cas_health-31517790bbba-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p004",
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-cas_health-31517790bbba-dev20261020:p004",
+        "zh-cas_health-31517790bbba-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-mct_local-6a04512f597f-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p002",
+        "p006"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-6a04512f597f-dev20261020:p002",
+        "zh-mct_local-6a04512f597f-dev20261020:p006"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-mct_local-f4d9389d2865-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p006",
+        "p010"
+      ],
+      "normalized_ids": [
+        "zh-mct_local-f4d9389d2865-dev20261020:p006",
+        "zh-mct_local-f4d9389d2865-dev20261020:p010"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-mee-161477ffc17c-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p003"
+      ],
+      "normalized_ids": [
+        "zh-mee-161477ffc17c-dev20261020:p003"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q03",
+      "raw_ids": [
+        "p007",
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p007",
+        "zh-mct-2310a232a3eb-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "zh",
+      "article_id": "zh-mct-2310a232a3eb-dev20261020",
+      "question_id": "q05",
+      "raw_ids": [
+        "p003",
+        "p005"
+      ],
+      "normalized_ids": [
+        "zh-mct-2310a232a3eb-dev20261020:p003",
+        "zh-mct-2310a232a3eb-dev20261020:p005"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    },
+    {
+      "run_id": "run-3e2ac159085c",
+      "model_id": "internlm25-7b-official2024",
+      "language": "en",
+      "article_id": "en-loc-359fbdc1a252-dev20261020",
+      "question_id": "q04",
+      "raw_ids": [
+        "p006",
+        "p009"
+      ],
+      "normalized_ids": [
+        "en-loc-359fbdc1a252-dev20261020:p006",
+        "en-loc-359fbdc1a252-dev20261020:p009"
+      ],
+      "strict_evidence_exact": 0,
+      "diagnostic_evidence_exact": 1
+    }
+  ],
+  "limitations": "This post-hoc format sensitivity check is not a new reading ranking or a correction to archived scores. All original planned failures remain failures; semantic evidence errors remain errors."
+}

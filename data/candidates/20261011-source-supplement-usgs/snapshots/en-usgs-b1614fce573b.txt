@@ -1,0 +1,71 @@
+Any number of satellites can show us what the Earth’s surface looks like now—but only the Landsat Program can reveal more than 50 years of change. We can watch cities grow, farmland shrink, and forests and lakes fluctuate.
+
+Here’s a closer look at an economically significant land change. After the first Landsat satellite launched, scientists scrutinized imagery from around the world for signs of undiscovered minerals. Now, a half-century later, the Landsat archive visualizes entire life cycles of mines.
+
+Northeastern Wyoming offers a clear example of a coal mine’s life cycle, with the end returning to the beginning in Landsat’s view of the grassland and shrubland landscape.
+
+The Powder River Basin spans across the grasslands of northeastern Wyoming and southeastern Montana and contains large quantities of subbituminous coal resources and reserves.
+
+Surface coal mining operations in the Powder River Basin supply thermal coal to power plants throughout the central United States to generate electricity.
+
+In the map on the left, based on a Landsat image, Powder River Basin coal mines (in the center from top to bottom and sprawling eastward) in northeastern Wyoming are visible near the town of Wright.
+
+Coal mines began operating east of Wright in the 1970s, coinciding with the beginning of the Landsat Program. The population of Wright peaked in 2010 at 1,807, just as the coal mines in the area reached peak production.
+
+The Powder River Basin is home to some of the most productive coal mines in the world, with productivity being driven by a combination of thick coal beds (some can be over 100 feet thick) and thin overlying soil and rock layers, collectively called overburden.
+
+This background photo and the photo displayed with the title of this article are of open pit coal mines in the Powder River Basin of Wyoming. Both are used courtesy of the Bureau of Land Management Wyoming.
+
+Using surface coal mining methods, the overburden is removed to expose the underlying thick coal beds. First, the topsoil layers are scraped off and segregated into separate piles so they can be reused during the mine reclamation process. The solid rock layers are drilled and blasted with explosives to break up the rock, then excavated from over top of the coal bed and placed in “spoil piles.”
+
+The above diagram shows the equipment and process of open pit coal mining, from excavation to loading and hauling to reclamation. Diagram courtesy of the Wyoming State Geological Society.
+
+The excavated coal is loaded into large haul trucks and transported out of the mining pit to the mine's load-out facility. At the load-out facility, the coal is screened to remove noncoal rock partings and crushed to break the coal into smaller pieces to facilitate loading into railroad coal hoppers.
+
+Once the coal has been removed, the mining pit is refilled with the broken rock from the spoil piles. Then, the previously segregated topsoil piles are placed over the spoil material. The area is graded to match its original lay and contour and then revegetated.
+
+For the mines near Wright, that means restoring the land to native shrubland, grassland and grazing land. The Landsat archive provides a historical record useful to the energy industry to identify previous landscape aspects for restoration projects like this.
+
+Landsat images show the evolution of mining almost like photographs. Landsat-based Annual National Land Cover Database (NLCD) maps are created using novel artificial intelligence/machine learning techniques to translate Landsat’s visible features into labeled categories of land cover.
+
+As the definitive land cover source for the United States, Annual NLCD maps indicate what has been on the land’s surface for the lower 48 states over a 40-year time span (1985-2024). Governments of all levels, private industry and researchers use Annual NLCD data for purposes ranging from hazard modeling for the insurance industry to the U.S. Department of Agriculture’s cropland mapping to habitat monitoring on public and private land.
+
+The Landsat and Annual NLCD maps below animate the progression of the mines in the Powder River Basin from 1985 to 2024.
+
+Landsat satellites capture imagery on a regular basis—currently every eight days between Landsat 8 and Landsat 9—in visible, near-infrared and shortwave spectral bands. Different combinations of those bands can display the landscape in its natural colors, or in false colors that can make certain aspects clearer such as barren ground, urban areas with buildings and pavement, or vegetation. In the Landsat false-color animation here, you can see in detail the open pits being created and then refilled over time. Vegetation appears in shades of reds and browns, and mining areas show up as lighter tans with spots of black.
+
+The Annual NLCD land cover animation shows how the landscape began predominantly as shrub/scrub (such as sagebrush) and grassland. Then the areas were barren during active mining years and went back to vegetation when mine operations and reclamation activities were completed.
+
+The maps below focus on close views of the lower portion of the Powder River Basin area that’s shown in the above animations. Landsat images make up the top row, with Annual NLCD land cover maps on the bottom. These maps illustrate pre-mine, active mine and post-mine conditions. The Landsat images highlight the massive open pits being created and then refilled over time.
+
+Relying on Landsat’s unique historical record, the Annual NLCD land cover maps show areas of vegetated land cover (1985) changing to barren land cover during active coal mining (2003), and then, in some areas, back to vegetated landcover (2024) as mining wraps up and reclamation activities begin to restore the surface of the land.
+
+To fill a variety of needs, Landsat and derived products like Annual NLCD make identifying and monitoring land change over time across the United States much more efficient for land and resource managers, government agencies and scientists. Landsat and Annual NLCD save time and money compared to relying solely on infrequent field work, and they fill gaps in incomplete historical records.
+
+The Landsat trove contains countless stories of change like the coal mines of northeastern Wyoming. And Landsat and Annual NLCD are open to anyone to browse—even those who are just curious about the land next door to them, on the other side of their state or across the country.
+
+When we think of growth across the United States, we tend to think of medium or large cities with suburbs that expand into the surrounding area, such...
+
+Landsat satellites can capture the image of a hurricane if they happen to be passing over at the right time, but they also help property owners and...
+
+The southeastern United States is an important wood-producing region of the world, sometimes referred to as the wood basket. The state of Georgia is a...
+
+Sometimes it takes distance to really see something. Take the Earth observing Landsat satellites. They’re orbiting 438 miles above us, but they...
+
+The U.S. Geological Survey (USGS) has released the reference and validation data for Annual National Land Cover Database (NLCD) Conterminous U.S. (CU)...
+
+The landscape of the Prairie Pothole Region of North and South Dakota formed when glaciers from the last ice age receded. The potholes are shallow...
+
+The U.S. Geological Survey (USGS) Earth Resources Observation and Science (EROS) Center and the National Land Cover Database (NLCD) project are...
+
+The more land managers know about the land they manage, the better decisions they can make. This applies to everyone from farmers and ranchers to...
+
+Agricultural crops are grown on nearly 16% of the land across the lower 48 states. Thanks to the Landsat Satellite Program and the U.S. Geological...
+
+Landsat’s mission isn’t communications, but its data is helping shape the networks we rely on every day.
+
+Imagine the task of designing clear paths for...
+
+Hurricane flooding. City planning. A new natural gas pipeline. Preparing for future events—whether sudden or expected—requires high-quality data to...
+
+Populations around the world are increasing (US Census Bureau, 2023). As agriculture tries to keep up with feeding this growing population, the use of...

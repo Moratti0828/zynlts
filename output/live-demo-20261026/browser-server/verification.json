@@ -1,0 +1,28 @@
+{
+  "source": "actual_browser_button_click",
+  "run_id": "run-803e05d88cc8",
+  "status": "completed",
+  "progress": {
+    "done": 3,
+    "total": 3
+  },
+  "actual_model_call_attempts": 3,
+  "response_errors": 0,
+  "reload_same_run_confirmed_in_browser": true,
+  "ui_json_download_sha256_matches_export": true,
+  "json_csv_reload_match": true,
+  "browser_console_errors": [],
+  "request_latency_sum_s": 6.536,
+  "artifacts": {
+    "json": {
+      "path": "run-803e05d88cc8.json",
+      "sha256": "cc4d78af347381a64a2d014187f82caa3a5e4cedba6af55b34f5bbf1972abfff"
+    },
+    "csv": {
+      "path": "run-803e05d88cc8.csv",
+      "sha256": "2c4f035f4c5ff760f912bff8ad9b7322270a0017e951d5498ba1e49447e3630a"
+    }
+  },
+  "screenshot": "../live-demo-server-completed.png",
+  "formal": false
+}

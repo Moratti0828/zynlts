@@ -1,0 +1,16 @@
+{
+  "url": "https://registry.ollama.ai/v2/library/gemma2/manifests/9b-instruct-q4_K_M",
+  "file": "output\\model-suite-20261024\\metadata\\gemma2-manifest.json",
+  "sha256": "c20bec88025f3aefa420efd64dca0ee4abc8e36078d6b74b0f660cdcbd5d1982",
+  "headers": {
+    "Date": "Sat, 24 Oct 2026 15:11:23 GMT",
+    "Content-Type": "application/vnd.docker.distribution.manifest.v2+json",
+    "Content-Length": "856",
+    "Connection": "close",
+    "vary": "Accept, User-Agent",
+    "via": "1.1 google",
+    "cf-cache-status": "DYNAMIC",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f9e9eb7c24178b-MAA"
+  }
+}

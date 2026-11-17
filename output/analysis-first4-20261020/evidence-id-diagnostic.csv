@@ -1,0 +1,9 @@
+﻿model_id,language,planned_answerable,strict_exact_n,format_normalized_exact_n_aux,difference_n_aux,mapped_response_n,duplicate_mapping_unchanged_n
+qwen25-15b,zh,60,11,19,8,18,0
+qwen25-15b,en,60,10,12,2,36,0
+qwen25-3b,zh,60,40,40,0,0,0
+qwen25-3b,en,60,34,34,0,1,0
+qwen25-7b,zh,60,12,44,32,45,0
+qwen25-7b,en,60,30,38,8,14,0
+llama31-8b,zh,60,31,44,13,24,0
+llama31-8b,en,60,48,48,0,0,0

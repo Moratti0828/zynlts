@@ -1,0 +1,27 @@
+Wednesday, June 17, 2026
+
+With neuronal data, AI models predicted grammar, meaning, and context of spoken sentences.
+
+By applying machine-learning models to single-cell brain recordings taken from humans in conversation, a National Institutes of Health (NIH)-funded research team identified both individual and collective neuronal activity that reflected key features of language. The work offers unprecedented insight into how neurons encode linguistic information, suggesting that brain activity may one day be used to infer speech-related thoughts, which could be transformative for some patients.
+
+“This level of granularity is necessary for us to more completely understand how the brain generates speech and, ultimately, how we can develop technologies to restore it for individuals with communication disorders,” said Debara Tucci, M.D., director of NIH’s National Institute on Deafness and Other Communication Disorders (NIDCD).
+
+The neuronal data came from microelectrode arrays implanted in eight patients for the separate purpose of epilepsy monitoring. The scientists, from Massachusetts General Hospital, Boston, made use of the opportunity by conducting and recording naturally flowing conversations in English, spanning a wide range of topics, with each of the study participants.
+
+The researchers aligned transcriptions of the conversations in time with data describing the activity of hundreds of neurons in the frontotemporal cortex — a region the team previously linked to speech production. Then, wielding natural language processing models, they set out to uncover relationships between the datasets.
+
+The authors found that neuronal recordings from just before participants spoke were predictors of many properties describing subsequent speech, across any topic of discussion. They detected a division of labor among the examined neurons, with some reflecting basic information, such as the meaning and roles of specific words, while others tackled more complex tasks including grouping phrases into structured sentences.
+
+Their models could distinguish between similar phrases and words, suggesting the neuronal activity captured the unique context of sentences as well.
+
+“For the first time we’re describing processes not only at the regional but cellular scale that produce speech. Having identified these fundamental building blocks, we’ve set the table for us to begin answering some really interesting questions,” said first author Jing Cai, Ph.D., a researcher and instructor at Mass General.
+
+These findings reveal how individual neurons encode language during speech, advancing our understanding of the brain's linguistic architecture. This knowledge could enable a new generation of technologies that translate neural activity into machine-generated speech beyond current capabilities.
+
+About the National Institute on Deafness and Other Communication Disorders (NIDCD): The NIDCD supports and conducts research and research training on the normal and disordered processes of hearing, balance, taste, smell, voice, speech, and language and provides health information, based upon scientific discovery, to the public.
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+Jing Cai et al. Mapping the neuronal building blocks of human language with language models. Nature. 2026. DOI: 10.1038/s41586-026-10691-5

@@ -1,0 +1,17 @@
+-This is a guest post by Brett Zongker and Deb Fiscella, both of the public affairs section in the Office of Communications. It also appears in slightly different form in the May/June issue of the Library of Congress Magazine.
+
+The nation’s oldest federal cultural institution is using some of the newest technology to preserve digital copies of historical collection items for the next 250 years.
+
+As part of America’s 250th anniversary celebrations, the Library made a trailblazing contribution to America’s Time Capsule : a tiny metal pellet holding synthetic DNA encoded with digital copies of items from the Library’s collections. The capsule itself – a 900-pound stainless steel cylinder covered by a 1,100-pound stainless steel bell jar – was ceremonially buried 10 feet underground on July 4th at Independence National Historical Park in Philadelphia.
+
+Maintained by the park and the National Park Service, it is not to be opened until July 4, 2276. Hundreds of other items – letters, memorabilia and documents, all helping tell the story of the nation’s history and culture – were all tucked in the capsule, including from all three branches of government, the Supreme Court and all states and territories. The Library’s experts helped determine which items could survive two and and a half centuries. (A bottle of Coca-Cola, an I-Phone, and the starting lineup of the Philadelphia Phillies all made the cut.)
+
+For the Library’s tiny, data-packed cylinder, the Library initiated a molecular data storage feasibility study in response to a request from Congress in 2024. As a result, the Library has been examining the storage capabilities of a new medium, synthetic DNA. An entirely manufactured molecule, synthetic DNA is designed to replicate the exceptional information density of nature’s best storage medium: DNA itself.
+
+Working with the University of Washington’s Molecular Information Systems Lab, the Library has converted selected digital data into synthesized DNA strands encased in a metal vial about the length of a pencil eraser.
+
+The synthetic DNA includes, among other Library collection items, digital copies of: Thomas Jefferson’s rough draft of the Declaration of Independence; “The Star-Spangled Banner” lyrics written in Francis Scott Key’s hand; the 1791 L’Enfant plan for Washington, D.C.; digitized 1890 Native American audio recordings in Passamaquoddy; the canvas drawing of the Blackwell’s Kinfolk family tree, depicting more than 1,500 names; and the Annals of the Congress of the United States, covering congressional proceedings, including the making of the Constitution, from 1789 to 1824.
+
+Synthetic DNA can store about nine terabytes of digital data in one cubic millimeter, approximately 1,000 to 100,000 times greater than the capacity of conventional digital storage methods like hard drives, tape drives and cloud storage. It also is highly durable, lasting thousands of years with little to no maintenance or power consumption.
+
+The encasement includes a small chip containing decoding instructions, ensuring the synthetic DNA sequence can be reassembled into its original digital data when the time capsule is opened 250 years from now.

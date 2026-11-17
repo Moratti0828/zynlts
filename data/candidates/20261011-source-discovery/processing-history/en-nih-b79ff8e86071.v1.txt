@@ -1,0 +1,39 @@
+Friday, May 15, 2026
+
+A group of pediatric eye disease researchers supported by the National Institutes of Health (NIH) has launched an open-access tool designed to help manage pediatric cases of amblyopia, a condition in which the brain fails to properly develop normal vision in one or both eyes early in life. It is the leading cause of preventable single-eye (monocular) vision loss, affecting three of every 100 children in the nation. The tool is aimed at expanding access to evidence-based amblyopia clinical-decision-making expertise amidst a shortage of pediatric eye care specialists in the United States.
+
+“This online tool quickly distills the relevant literature into individualized treatment advice for busy clinicians anywhere with internet access. Those without internet access can utilize the article figures as clinical reference sheets,” said article lead author, Allison Summers, O.D., associate professor, Oregon Health & Science University, Portland.
+
+During early childhood, our developing brains learn how to take images from each eye and fuse them into a single image to produce vision. Amblyopia can develop when the eyes are misaligned (a condition called strabismus), when there is a significant difference in glasses prescription strength between the two eyes, when both eyes haven’t received a needed high glasses prescription strength, or when vision is blocked (e.g., by a cataract or drooping eyelid).
+
+If missed or left untreated, the poor vision can become permanent, with no amount of correction from glasses or contact lenses able to correct it in adulthood. Long-term, having abnormal vision in one eye can negatively affect school performance, employment status, and quality of life, and increase the burden of vision loss from other eye diseases or injuries.
+
+Amblyopia typically responds well to treatment, with vision often reaching near-normal levels. Early detection leads to the best outcomes, yet treatment can be beneficial for children of any age and multiple options exist. Recent workforce studies show substantial variation in the geographic distribution of pediatric optometrists and pediatric ophthalmologists throughout the U.S., with a clustering of the specialists in some states, and none in others.
+
+“We hope that this tool can be leveraged to minimize gaps in access to pediatric ophthalmic care,” said Stacy L. Pineles, M.D., of the Jules Stein Institute at the University of California and co-chair of the Pediatric Eye Disease Investigator Group (PEDIG).
+
+Known as the Amblyopia Navigator Decision-Support Instrument (ANDI), the tool is designed to guide any eye doctor through the diagnosis of amblyopia. Once amblyopia is diagnosed, ANDI helps to guide the eye care clinician without specialty training in pediatric eye care through management options. The tool helps the eye doctor determine the best glasses prescription for the patient based on a few clinical findings. The tool also helps the doctor determine how long to monitor whether glasses alone are improving vision, which can work for up to a third of children without any further treatment.
+
+If glasses are not enough, ANDI walks the eye doctor through next steps: patching the stronger eye for a couple of hours a day, using atropine eye drops to temporarily blur the stronger eye, or considering newer digital treatments delivered through specially designed games or videos. If a child stops making progress, the tool advises whether to increase the intensity of treatment, switch approaches, reassess the glasses prescription, or refer to a specialist. It provides steps for follow-up visits and what signs of recurrence to watch for after treatment ends. The tool can be used at an initial visit, or any follow-up visit in their amblyopia care journey.
+
+ANDI was developed by PEDIG, an NIH-funded research network with over 400 investigators, and it draws on evidence from 147 published studies. To access ANDI, go to https://public.jaeb.org/pedig .
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+Summers AI, Hatch WS, Hatt SR, Wiecek EK, Hribar MR, Robinson JL, Chen AM, Kulp MT, Chen DML, Repka MX, Wang J, Roberts TL, Wallace DK, Vricella M, Chang S, Stutz KM, Beaulieu WT, Kraker RT, Cotter SA, Holmes JM, Weise KK, Pineles SL (for PEDIG). Web-Based Amblyopia Decision Support Tool. Published May 7, 2026 in JAMA Ophthalmol. doi: 10.1001/jamaophthalmol.2026.1095 .
+
+Walsh HL, Parrish A, Hucko L, Sridhar J, Cavuoto KM. Access to Pediatric Ophthalmological Care by Geographic Distribution and US Population Demographic Characteristics in 2022. JAMA Ophthalmol. 2023;141(3):242–249. doi: 10.1001/jamaophthalmol.2022.6010 .
+
+Siegler NE, Walsh HL, Cavuoto KM. Access to Pediatric Eye Care by Practitioner Type, Geographic Distribution, and US Population Demographics. JAMA Ophthalmol. 2024;142(5):454–461. doi: 10.1001/jamaophthalmol.2024.0612 .
+
+Institute/Center
+
+NIH Office of Communications
+
+National Institutes of Health
+
+Connect with Us
+
+Subscribe to news releases RSS Feed

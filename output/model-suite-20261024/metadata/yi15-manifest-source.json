@@ -1,0 +1,16 @@
+{
+  "url": "https://registry.ollama.ai/v2/library/yi/manifests/6b-chat-v1.5-q4_K_M",
+  "file": "output\\model-suite-20261024\\metadata\\yi15-manifest.json",
+  "sha256": "fa152930bd7fba7d9c42c1544a3538eb219873dc4a39d0036ecd0253948998c0",
+  "headers": {
+    "Date": "Sat, 24 Oct 2026 15:11:24 GMT",
+    "Content-Type": "application/vnd.docker.distribution.manifest.v2+json",
+    "Content-Length": "857",
+    "Connection": "close",
+    "vary": "Accept, User-Agent",
+    "via": "1.1 google",
+    "cf-cache-status": "DYNAMIC",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f9e9ec482ca27c-MAA"
+  }
+}

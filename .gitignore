@@ -1,0 +1,15 @@
+var/
+runtime/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.venv/
+.DS_Store
+*.sqlite3*
+*.pem
+*.key
+*.tar.gz
+*.zip
+*.ssh.log

@@ -1,0 +1,50 @@
+{
+  "schema_version": "reading-expansion-stage-v1",
+  "stage": "anchor",
+  "configurations": [
+    {
+      "models": [
+        "qwen25-7b"
+      ],
+      "bank": "dev-expanded-20261020",
+      "num_ctx": 8192,
+      "strict_time": "true",
+      "name": "anchor-main",
+      "mode": "with_context"
+    },
+    {
+      "models": [
+        "qwen25-7b"
+      ],
+      "bank": "dev-expanded-20261020",
+      "num_ctx": 8192,
+      "strict_time": "true",
+      "name": "anchor-control",
+      "mode": "no_context",
+      "question_ids": [
+        "q01",
+        "q02",
+        "q03",
+        "q04"
+      ]
+    },
+    {
+      "models": [
+        "qwen25-7b"
+      ],
+      "bank": "dev-counterfactual-20261020",
+      "num_ctx": 8192,
+      "strict_time": "true",
+      "name": "anchor-counterfactual",
+      "mode": "with_context"
+    }
+  ],
+  "settings": {
+    "temperature": 0,
+    "seed": 42,
+    "max_tokens": 512,
+    "strict_budget": false
+  },
+  "formal": false,
+  "notice": "Public historical reference and recent AI-draft banks stay separate; no contamination-free or formal ranking claim."
+}

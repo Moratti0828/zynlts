@@ -1,0 +1,624 @@
+{
+  "created_at": "2026-10-20T07:11:45.307854+00:00",
+  "backup": "/home/jmy/reading-bench/runtime/deployments/20261020/bench-final.sqlite3",
+  "health_version": "1.2.0",
+  "models": [
+    {
+      "id": "internlm25-7b",
+      "name": "InternLM2.5 · 7B Chat（registry分发待核）",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "internlm2:7b-chat-v2.5-q4_K_M",
+      "api_key_env": "",
+      "release_date": "2024-07-03",
+      "release_source": "https://huggingface.co/internlm/internlm2_5-7b-chat",
+      "expected_digest": "aa0c9b808286311ca91e6c5f200f77be95b7c7c1428211d4fbb791358e02d06b",
+      "created_at": "2026-10-20T05:26:07.259725+00:00",
+      "suite_record": {
+        "original_repo": "internlm/internlm2_5-7b-chat",
+        "original_revision": "eb72b541689b0432dade0435feb339b89fdd39ff",
+        "distribution_manifest_sha256": "aa0c9b808286311ca91e6c5f200f77be95b7c7c1428211d4fbb791358e02d06b",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "provenance_review": {
+        "client_date": "2026-10-20",
+        "status": "not_equivalent_to_official_2024_gguf;historical_conversion_lineage_unverified",
+        "different_quantized_tensors": 226,
+        "different_tokenizer_metadata_entries": 3,
+        "not_a_retraining_or_contamination_proof": true,
+        "separate_official_configuration": "internlm25-7b-official2024"
+      },
+      "digest": "aa0c9b808286311ca91e6c5f200f77be95b7c7c1428211d4fbb791358e02d06b",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "internlm2",
+        "families": [
+          "internlm2"
+        ],
+        "parameter_size": "7.7B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    {
+      "id": "internlm25-7b-official2024",
+      "name": "InternLM2.5 · 7B Chat（官方2024 GGUF）",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "reading-internlm25-7b:20240716-q4_K_M",
+      "expected_digest": "9ca68ac94adb81795241ed162c328cd6a5c8b6ec2620107c9f0b9c429e3e1245",
+      "api_key_env": "",
+      "release_date": "2024-07-16",
+      "release_source": "https://huggingface.co/internlm/internlm2_5-7b-chat-gguf/tree/8fa9dff166b63e3d356b3a3ca95c5ab2a4b1b378",
+      "created_at": "2026-10-20T06:56:48.591062+00:00",
+      "suite_record": {
+        "official_gguf_repo": "internlm/internlm2_5-7b-chat-gguf",
+        "gguf_revision": "8fa9dff166b63e3d356b3a3ca95c5ab2a4b1b378",
+        "original_model_release_date": "2024-07-03",
+        "historical_revision_date": "2024-07-16",
+        "official_weight_blob_sha256": "450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55",
+        "distribution_manifest_sha256": "9ca68ac94adb81795241ed162c328cd6a5c8b6ec2620107c9f0b9c429e3e1245",
+        "conversion_lineage": "official author's 2024 GGUF bytes verified; original tensor-to-GGUF transformation not independently repeated",
+        "runtime_template_status": "frozen InternLM ChatML runtime template; exact tokenizer accounting not certified; engine BOS behavior retained"
+      },
+      "digest": "9ca68ac94adb81795241ed162c328cd6a5c8b6ec2620107c9f0b9c429e3e1245",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "internlm2",
+        "families": [
+          "internlm2"
+        ],
+        "parameter_size": "7.7B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    {
+      "id": "llama31-8b",
+      "name": "Llama 3.1 · 8B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "llama3.1:8b-instruct-q4_K_M",
+      "api_key_env": "",
+      "release_date": "2024-07-23",
+      "release_source": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "expected_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "created_at": "2026-10-20T05:50:42.151847+00:00",
+      "suite_record": {
+        "original_repo": "meta-llama/Llama-3.1-8B-Instruct",
+        "original_revision": null,
+        "distribution_manifest_sha256": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    {
+      "id": "mistral03-7b",
+      "name": "Mistral · 7B Instruct v0.3",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "mistral:7b-instruct-v0.3-q4_K_M",
+      "api_key_env": "",
+      "release_date": "2024-05-22",
+      "release_source": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+      "expected_digest": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+      "created_at": "2026-10-20T05:33:15.750703+00:00",
+      "suite_record": {
+        "original_repo": "mistralai/Mistral-7B-Instruct-v0.3",
+        "original_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+        "distribution_manifest_sha256": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "digest": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "7.2B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    {
+      "id": "qwen25-14b",
+      "name": "Qwen2.5 · 14B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "qwen2.5:14b-instruct-q4_K_M",
+      "api_key_env": "",
+      "release_date": "2024-09-19",
+      "release_source": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct",
+      "expected_digest": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+      "created_at": "2026-10-20T05:26:00.105660+00:00",
+      "suite_record": {
+        "original_repo": "Qwen/Qwen2.5-14B-Instruct",
+        "original_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+        "distribution_manifest_sha256": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "tokenizer_spec": {
+        "repo_id": "Qwen/Qwen2.5-14B-Instruct",
+        "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+        "artifact_dir": "/home/jmy/reading-bench/runtime/tokenizers/qwen25-14b-cf98f3b",
+        "manifest_sha256": "2ee873d1be8613f7b02aceb641d6a93ada09f45d12315f42cf0a0fac8a27f1c3"
+      },
+      "runtime_template_kind": "raw_rendered_prompt",
+      "token_budget_margin": 512,
+      "digest": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "14.8B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    {
+      "id": "qwen25-15b",
+      "name": "Qwen2.5 · 1.5B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "qwen2.5:1.5b-instruct-q4_K_M",
+      "api_key_env": "",
+      "release_date": "2024-09-19",
+      "release_source": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "expected_digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+      "created_at": "2026-10-20T05:03:07.919679+00:00",
+      "suite_record": {
+        "original_repo": "Qwen/Qwen2.5-1.5B-Instruct",
+        "original_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "distribution_manifest_sha256": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "tokenizer_spec": {
+        "repo_id": "Qwen/Qwen2.5-1.5B-Instruct",
+        "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "artifact_dir": "/home/jmy/reading-bench/runtime/tokenizers/qwen25-15b-989aa79",
+        "manifest_sha256": "588f4da0689e48c2174d38b6919d7ba7e6118cd6d513a2a774082c36104abbbd"
+      },
+      "runtime_template_kind": "raw_rendered_prompt",
+      "token_budget_margin": 512,
+      "digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "1.5B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    {
+      "id": "qwen25-7b",
+      "name": "Qwen2.5 · 7B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "qwen2.5:7b-instruct",
+      "api_key_env": "",
+      "release_date": "2024-09-19",
+      "release_source": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "expected_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "created_at": "2026-10-20T05:00:43.968826+00:00",
+      "suite_record": {
+        "original_repo": "Qwen/Qwen2.5-7B-Instruct",
+        "original_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "distribution_manifest_sha256": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "tokenizer_spec": {
+        "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+        "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "artifact_dir": "/home/jmy/reading-bench/runtime/tokenizers/qwen25-7b-a09a354",
+        "manifest_sha256": "9dd35fd52541064912583bff5bd15c47a918cd86a2dfb0dec065b39029d44d7b"
+      },
+      "runtime_template_kind": "raw_rendered_prompt",
+      "token_budget_margin": 512,
+      "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "7.6B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    {
+      "id": "qwen25-3b",
+      "name": "Qwen2.5 · 3B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "api_key_env": "",
+      "release_date": "2024-09-19",
+      "release_source": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+      "expected_digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "created_at": "2026-10-20T05:00:43.856398+00:00",
+      "suite_record": {
+        "original_repo": "Qwen/Qwen2.5-3B-Instruct",
+        "original_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "distribution_manifest_sha256": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "tokenizer_spec": {
+        "repo_id": "Qwen/Qwen2.5-3B-Instruct",
+        "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+        "artifact_dir": "/home/jmy/reading-bench/runtime/tokenizers/qwen25-3b-aa8e725",
+        "manifest_sha256": "fdd7ef3103aa12e6a3a1b58aeaa1a544c402b483056b0043749335dc64d58fea"
+      },
+      "runtime_template_kind": "raw_rendered_prompt",
+      "token_budget_margin": 512,
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "3.1B",
+        "quantization_level": "Q4_K_M"
+      }
+    }
+  ],
+  "run_ids": [
+    {
+      "id": "run-1ae6ce44c68b",
+      "status": "completed",
+      "progress": {
+        "done": 10,
+        "total": 10
+      },
+      "bank_id": "dev-counterfactual-20261020",
+      "formal": false,
+      "errors": 0
+    },
+    {
+      "id": "run-0cc1e7ed583c",
+      "status": "completed",
+      "progress": {
+        "done": 80,
+        "total": 80
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 6
+    },
+    {
+      "id": "run-3e2ac159085c",
+      "status": "completed",
+      "progress": {
+        "done": 160,
+        "total": 160
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 12
+    },
+    {
+      "id": "run-bfdcc60a8b94",
+      "status": "completed",
+      "progress": {
+        "done": 10,
+        "total": 10
+      },
+      "bank_id": "dev-counterfactual-20261020",
+      "formal": false,
+      "errors": 0
+    },
+    {
+      "id": "run-26e785624f9c",
+      "status": "completed",
+      "progress": {
+        "done": 10,
+        "total": 10
+      },
+      "bank_id": "dev-counterfactual-20261020",
+      "formal": false,
+      "errors": 1
+    },
+    {
+      "id": "run-9783ec151469",
+      "status": "completed",
+      "progress": {
+        "done": 10,
+        "total": 10
+      },
+      "bank_id": "dev-counterfactual-20261020",
+      "formal": false,
+      "errors": 1
+    },
+    {
+      "id": "run-db2275bc5db6",
+      "status": "completed",
+      "progress": {
+        "done": 10,
+        "total": 10
+      },
+      "bank_id": "dev-counterfactual-20261020",
+      "formal": false,
+      "errors": 0
+    },
+    {
+      "id": "run-95ce2db99365",
+      "status": "completed",
+      "progress": {
+        "done": 10,
+        "total": 10
+      },
+      "bank_id": "dev-counterfactual-20261020",
+      "formal": false,
+      "errors": 0
+    },
+    {
+      "id": "run-b30c4b57f03d",
+      "status": "completed",
+      "progress": {
+        "done": 10,
+        "total": 10
+      },
+      "bank_id": "dev-counterfactual-20261020",
+      "formal": false,
+      "errors": 0
+    },
+    {
+      "id": "run-e0765981cb2a",
+      "status": "completed",
+      "progress": {
+        "done": 10,
+        "total": 10
+      },
+      "bank_id": "dev-counterfactual-20261020",
+      "formal": false,
+      "errors": 0
+    },
+    {
+      "id": "run-ddbd87001ddd",
+      "status": "completed",
+      "progress": {
+        "done": 80,
+        "total": 80
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 0
+    },
+    {
+      "id": "run-963ff84ccef4",
+      "status": "completed",
+      "progress": {
+        "done": 80,
+        "total": 80
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 32
+    },
+    {
+      "id": "run-f49382659b18",
+      "status": "completed",
+      "progress": {
+        "done": 80,
+        "total": 80
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 13
+    },
+    {
+      "id": "run-94fee754bf41",
+      "status": "completed",
+      "progress": {
+        "done": 160,
+        "total": 160
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 8
+    },
+    {
+      "id": "run-f0bc2329cc4f",
+      "status": "completed",
+      "progress": {
+        "done": 160,
+        "total": 160
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 25
+    },
+    {
+      "id": "run-3bdacece0b2b",
+      "status": "completed",
+      "progress": {
+        "done": 160,
+        "total": 160
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 26
+    },
+    {
+      "id": "run-b4e5f365dda5",
+      "status": "completed",
+      "progress": {
+        "done": 80,
+        "total": 80
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 11
+    },
+    {
+      "id": "run-6c27eefaa44e",
+      "status": "completed",
+      "progress": {
+        "done": 80,
+        "total": 80
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 33
+    },
+    {
+      "id": "run-c33e76f3f3c4",
+      "status": "completed",
+      "progress": {
+        "done": 80,
+        "total": 80
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 8
+    },
+    {
+      "id": "run-03a7c3c425fd",
+      "status": "completed",
+      "progress": {
+        "done": 80,
+        "total": 80
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 3
+    },
+    {
+      "id": "run-12ed9616d64e",
+      "status": "completed",
+      "progress": {
+        "done": 160,
+        "total": 160
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 20
+    },
+    {
+      "id": "run-63db73a5f12c",
+      "status": "completed",
+      "progress": {
+        "done": 160,
+        "total": 160
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 19
+    },
+    {
+      "id": "run-d58ba2a13445",
+      "status": "completed",
+      "progress": {
+        "done": 160,
+        "total": 160
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 29
+    },
+    {
+      "id": "run-200d372d332a",
+      "status": "completed",
+      "progress": {
+        "done": 160,
+        "total": 160
+      },
+      "bank_id": "dev-expanded-20261020",
+      "formal": false,
+      "errors": 12
+    },
+    {
+      "id": "run-6f98451c34d3",
+      "status": "completed",
+      "progress": {
+        "done": 16,
+        "total": 16
+      },
+      "bank_id": "dev-pilot-v2",
+      "formal": false,
+      "errors": 1
+    },
+    {
+      "id": "run-0977d9d98171",
+      "status": "completed",
+      "progress": {
+        "done": 16,
+        "total": 16
+      },
+      "bank_id": "dev-pilot-v2",
+      "formal": false,
+      "errors": 1
+    },
+    {
+      "id": "run-211c1f402d9d",
+      "status": "completed",
+      "progress": {
+        "done": 16,
+        "total": 16
+      },
+      "bank_id": "dev-pilot-v2",
+      "formal": false,
+      "errors": 6
+    },
+    {
+      "id": "run-848ef0b0538b",
+      "status": "completed",
+      "progress": {
+        "done": 16,
+        "total": 16
+      },
+      "bank_id": "dev-pilot-v2",
+      "formal": false,
+      "errors": 3
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "review_date_client": "2026-10-13",
+  "note": "阅读状态指重点方法与评分部分，不表示逐页全文精读；main/master源码仅为抓取时快照，SHA提供本地固定证据。",
+  "sources": [
+    {
+      "key": "squad2-paper",
+      "url": "https://aclanthology.org/P18-2124.pdf",
+      "http_status": 200,
+      "sha256": "eef5c20c786701d5d06e093adc2968e8b9c58724306de75772697a840b91f709",
+      "bytes": 232240,
+      "path": "reading-bench/docs/research-sources/literature-20261013/squad2-paper.pdf",
+      "accessed_at_utc": "2026-10-13T09:01:12.141849+00:00",
+      "read_status": "已读论文 §5.1–5.2 / Table3；短答EM/F1及无答案",
+      "text_path": "reading-bench/docs/research-sources/literature-20261013/squad2-paper.txt",
+      "pages": 6
+    },
+    {
+      "key": "race-paper",
+      "url": "https://aclanthology.org/D17-1082.pdf",
+      "http_status": 200,
+      "sha256": "09451ca98547ebda234f14c42acbab3dcf5b470225215e711bee1e4e57808e06",
+      "bytes": 537659,
+      "path": "reading-bench/docs/research-sources/literature-20261013/race-paper.pdf",
+      "accessed_at_utc": "2026-10-13T09:01:12.576758+00:00",
+      "read_status": "已读论文 §3.2 / §5；MCQ准确率",
+      "text_path": "reading-bench/docs/research-sources/literature-20261013/race-paper.txt",
+      "pages": 10
+    },
+    {
+      "key": "hotpotqa-paper",
+      "url": "https://aclanthology.org/D18-1259.pdf",
+      "http_status": 200,
+      "sha256": "4ac04d526dfdf4a2549e4a7fcebe0c55a8ff0071b61ea53615e49c3a778f907c",
+      "bytes": 2674930,
+      "path": "reading-bench/docs/research-sources/literature-20261013/hotpotqa-paper.pdf",
+      "accessed_at_utc": "2026-10-13T09:01:13.675501+00:00",
+      "read_status": "已读论文 §5.2；句级support facts与joint",
+      "text_path": "reading-bench/docs/research-sources/literature-20261013/hotpotqa-paper.txt",
+      "pages": 12
+    },
+    {
+      "key": "hotpotqa-scorer",
+      "url": "https://raw.githubusercontent.com/hotpotqa/hotpot/master/hotpot_evaluate_v1.py",
+      "http_status": 200,
+      "sha256": "d35fc91a6db21d791dbdda11daf3856e9359f5701d54e3eefba20d88fecc02c0",
+      "bytes": 4257,
+      "path": "reading-bench/docs/research-sources/literature-20261013/hotpotqa-scorer.py",
+      "accessed_at_utc": "2026-10-13T09:01:10.783736+00:00",
+      "read_status": "已读完整官方scorer"
+    },
+    {
+      "key": "drop-paper",
+      "url": "https://aclanthology.org/N19-1246.pdf",
+      "http_status": 200,
+      "sha256": "8a3d26ec6b4dcaf20ba7d4b70c63788398878ac7dbd333e0a9568e310dff89b7",
+      "bytes": 446727,
+      "path": "reading-bench/docs/research-sources/literature-20261013/drop-paper.pdf",
+      "accessed_at_utc": "2026-10-13T09:01:12.899266+00:00",
+      "read_status": "已读论文 §5；numeracy-aware EM/F1",
+      "text_path": "reading-bench/docs/research-sources/literature-20261013/drop-paper.txt",
+      "pages": 11
+    },
+    {
+      "key": "drop-scorer",
+      "url": "https://raw.githubusercontent.com/allenai/allennlp-models/main/allennlp_models/rc/tools/drop.py",
+      "http_status": 200,
+      "sha256": "589abfbb8a85760cdb3d30381068acb4545c82076311c2da5a112e283193e0a2",
+      "bytes": 11222,
+      "path": "reading-bench/docs/research-sources/literature-20261013/drop-scorer.py",
+      "accessed_at_utc": "2026-10-13T09:01:13.158008+00:00",
+      "read_status": "已读AllenAI实现 get_metrics/_match_numbers_if_present/_align_bags；不是执行结果"
+    },
+    {
+      "key": "narrativeqa-paper",
+      "url": "https://aclanthology.org/Q18-1023.pdf",
+      "http_status": 200,
+      "sha256": "9867e2c4f78b8bc1b1da388f44566bb12ac0581142ac3dcc4036a6eada5048a9",
+      "bytes": 176679,
+      "path": "reading-bench/docs/research-sources/literature-20261013/narrativeqa-paper.pdf",
+      "accessed_at_utc": "2026-10-13T09:01:15.204276+00:00",
+      "read_status": "已读论文 §3.4；BLEU/METEOR/ROUGE-L及MRR",
+      "text_path": "reading-bench/docs/research-sources/literature-20261013/narrativeqa-paper.txt",
+      "pages": 12
+    },
+    {
+      "key": "quality-paper",
+      "url": "https://aclanthology.org/2022.naacl-main.391.pdf",
+      "http_status": 200,
+      "sha256": "c6b7570bd1122a5a27f48fc501215af58d27f4d29866630edf483f6283ad0d68",
+      "bytes": 2712871,
+      "path": "reading-bench/docs/research-sources/literature-20261013/quality-paper.pdf",
+      "accessed_at_utc": "2026-10-13T09:01:16.174425+00:00",
+      "read_status": "已读论文 §2 / §4 / §6；全体及HARD准确率",
+      "text_path": "reading-bench/docs/research-sources/literature-20261013/quality-paper.txt",
+      "pages": 23
+    },
+    {
+      "key": "longbench-paper",
+      "url": "https://aclanthology.org/2024.acl-long.172.pdf",
+      "http_status": 200,
+      "sha256": "410776768ed1a2867ddc438277b8de6f3838b313f906344081175d95446d29d4",
+      "bytes": 11900280,
+      "path": "reading-bench/docs/research-sources/literature-20261013/longbench-paper.pdf",
+      "accessed_at_utc": "2026-10-13T09:01:18.982085+00:00",
+      "read_status": "已读论文 Table1/§4.1；官方task和scorer已读",
+      "text_path": "reading-bench/docs/research-sources/literature-20261013/longbench-paper.txt",
+      "pages": 19
+    },
+    {
+      "key": "longbench-task",
+      "url": "https://raw.githubusercontent.com/THUDM/LongBench/main/LongBench/task.md",
+      "http_status": 200,
+      "sha256": "71a978674a26646f8490eb6618a88d57e4a59458fb106c7fd4a57a06663b8695",
+      "bytes": 11747,
+      "path": "reading-bench/docs/research-sources/literature-20261013/longbench-task.md",
+      "accessed_at_utc": "2026-10-13T09:01:16.146909+00:00",
+      "read_status": "已读官方task表"
+    },
+    {
+      "key": "longbench-metrics",
+      "url": "https://raw.githubusercontent.com/THUDM/LongBench/main/LongBench/metrics.py",
+      "http_status": 200,
+      "sha256": "e22e2a2662e0f7e683137fa3541f64edb6a801e9138d16d2f3459a6ab9941323",
+      "bytes": 5190,
+      "path": "reading-bench/docs/research-sources/literature-20261013/longbench-metrics.py",
+      "accessed_at_utc": "2026-10-13T09:01:16.771317+00:00",
+      "read_status": "已读完整官方scorer；中文jieba"
+    },
+    {
+      "key": "longbench-eval",
+      "url": "https://raw.githubusercontent.com/THUDM/LongBench/main/LongBench/eval.py",
+      "http_status": 200,
+      "sha256": "1a3acfc25d9b053e9bb75c479f7e385d0cb9989f0f7115346b7d632655967721",
+      "bytes": 3776,
+      "path": "reading-bench/docs/research-sources/literature-20261013/longbench-eval.py",
+      "accessed_at_utc": "2026-10-13T09:01:16.631131+00:00",
+      "read_status": "已读官方聚合实现；逐题多gold取max"
+    },
+    {
+      "key": "longbenchv2-paper",
+      "url": "https://aclanthology.org/2025.acl-long.183.pdf",
+      "http_status": 200,
+      "sha256": "cb8c8a4de3dbc2d7bd8fc2586e502c45b5dc424c2a062ca9a8e02c55e0f6a46d",
+      "bytes": 10314775,
+      "path": "reading-bench/docs/research-sources/literature-20261013/longbenchv2-paper.pdf",
+      "accessed_at_utc": "2026-10-13T09:01:25.563048+00:00",
+      "read_status": "已读论文 §3.3/§4.1/Table2及Table3；全英文MCQ accuracy",
+      "text_path": "reading-bench/docs/research-sources/literature-20261013/longbenchv2-paper.txt",
+      "pages": 26
+    },
+    {
+      "key": "longbenchv2-result",
+      "url": "https://raw.githubusercontent.com/THUDM/LongBench/main/result.py",
+      "http_status": 200,
+      "sha256": "b6675c1c0b72090c01e12c94d3b176c4991fe38ceed9a301d24d22b1997465bd",
+      "bytes": 1428,
+      "path": "reading-bench/docs/research-sources/literature-20261013/longbenchv2-result.py",
+      "accessed_at_utc": "2026-10-13T09:01:17.437933+00:00",
+      "read_status": "已读官方汇总代码 compensated=False"
+    },
+    {
+      "key": "text2dist-paper",
+      "url": "https://aclanthology.org/2026.findings-acl.520.pdf",
+      "http_status": 200,
+      "sha256": "622fe0ba362bbe3267c08a7ffb38637ba357d9c2505d5dcdaeb53c51c8a7f330",
+      "bytes": 1169304,
+      "path": "reading-bench/docs/research-sources/literature-20261013/text2dist-paper.pdf",
+      "accessed_at_utc": "2026-10-13T09:01:19.938228+00:00",
+      "read_status": "已读论文 §3.3/§5/§6.1；1−TVD与ACC",
+      "text_path": "reading-bench/docs/research-sources/literature-20261013/text2dist-paper.txt",
+      "pages": 18
+    },
+    {
+      "key": "rpc-paper",
+      "url": "https://aclanthology.org/2026.acl-long.1277.pdf",
+      "http_status": 200,
+      "sha256": "d3cc48f6215eb8c3e501eb86357891cd064a75385e498de7a47bfb5248074e84",
+      "bytes": 3906653,
+      "path": "reading-bench/docs/research-sources/literature-20261013/rpc-paper.pdf",
+      "accessed_at_utc": "2026-10-13T09:01:23.092853+00:00",
+      "read_status": "已读论文 §3.5/§4.4/B.6/B.7/B.15；judge rubric、人工一致性、污染边界及claim ACC",
+      "text_path": "reading-bench/docs/research-sources/literature-20261013/rpc-paper.txt",
+      "pages": 35
+    },
+    {
+      "key": "certifying-page",
+      "url": "https://proceedings.mlr.press/v300/chaudhary26a.html",
+      "http_status": 200,
+      "sha256": "401b80b41d7c18c396c71f3a4baf1cc182bdacd08503485fe457495fd0610e5f",
+      "bytes": 17424,
+      "path": "reading-bench/docs/research-sources/literature-20261013/certifying-page.html",
+      "accessed_at_utc": "2026-10-13T09:01:22.920672+00:00",
+      "read_status": "只读官方摘要和出版元数据；未阅读全文，不作为主指标证据"
+    },
+    {
+      "key": "f1-not-enough-paper",
+      "url": "https://aclanthology.org/2020.emnlp-main.575.pdf",
+      "http_status": 200,
+      "sha256": "92b728318a991b1c26576c021edc9051f1c9a63935766a79fb3bbcb7261b28a6",
+      "bytes": 1452623,
+      "path": "reading-bench/docs/research-sources/literature-20261013/f1-not-enough-paper.pdf",
+      "accessed_at_utc": "2026-10-13T09:01:25.969346+00:00",
+      "read_status": "已读论文 §6.6/§7；解释性评价的局限",
+      "text_path": "reading-bench/docs/research-sources/literature-20261013/f1-not-enough-paper.txt",
+      "pages": 20
+    },
+    {
+      "key": "helmet-paper",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/f5332c8273d02729730a9c24dec2135e-Paper-Conference.pdf",
+      "http_status": 200,
+      "sha256": "f27a817e91ff70d44c0d973211341daa8eaf623379be8921bd4647437bd2414c",
+      "bytes": 1876206,
+      "path": "reading-bench/docs/research-sources/literature-20261013/helmet-paper.pdf",
+      "text_path": "reading-bench/docs/research-sources/literature-20261013/helmet-paper.txt",
+      "pages": 52,
+      "accessed_at_utc": "2026-10-13T09:05:17.338253+00:00",
+      "read_status": "已读论文 §2.1/§2.2/Table3；SubEM、MC accuracy、task-specific judge"
+    }
+  ]
+}

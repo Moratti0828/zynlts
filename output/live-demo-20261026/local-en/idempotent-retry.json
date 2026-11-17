@@ -1,0 +1,1226 @@
+{
+  "id": "run-48c1d48d99b4",
+  "run_id": "run-48c1d48d99b4",
+  "run": {
+    "id": "run-48c1d48d99b4",
+    "protocol": "reading-experiment-v2",
+    "status": "running",
+    "created_at": "2026-10-26T14:08:05.221431+00:00",
+    "config": {
+      "bank_id": "dev-expanded-20261020",
+      "model_ids": [
+        "qwen25-7b"
+      ],
+      "article_ids": [
+        "en-nasa-2b3fb9c367c3-dev20261020"
+      ],
+      "allow_draft": true,
+      "strict_time": true,
+      "strict_budget": false,
+      "mode": "with_context",
+      "question_limit": 1,
+      "max_tokens": 512,
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_thread": 4,
+      "bootstrap_repetitions": 0,
+      "prompt_version": "reading-prompt-v2.0-paragraph-20261013",
+      "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+      "runner_version": "reading-runner-v2.2-context-reference-20261024",
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "abstain": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "answer",
+          "unit",
+          "evidence_ids",
+          "confidence",
+          "abstain"
+        ],
+        "additionalProperties": false
+      },
+      "retry_policy": "completed_results_not_retried;resume_only_unfinished;unknown_inflight_may_repeat_with_attempt_log"
+    },
+    "formal": false,
+    "progress": {
+      "done": 0,
+      "total": 1
+    },
+    "summary": [
+      {
+        "model_id": "qwen25-7b",
+        "model_name": "Qwen2.5 · 7B Instruct",
+        "questions": 1,
+        "completed": 0,
+        "errors": 0,
+        "language_metrics": {
+          "zh": {
+            "planned_questions": 0,
+            "articles": 0,
+            "primary_metrics": {
+              "choice_accuracy": null,
+              "short_em": null,
+              "short_token_f1": null,
+              "numeric_strict_accuracy": null,
+              "evidence_exact_answerable": null,
+              "evidence_precision_answerable": null,
+              "evidence_recall_answerable": null,
+              "evidence_f1_answerable": null,
+              "correct_refusal_rate": null,
+              "unanswerable_substantive_rate": null,
+              "false_refusal_rate": null
+            },
+            "by_question_kind": {
+              "choice": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              },
+              "short": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              },
+              "numeric": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              },
+              "unanswerable": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              }
+            },
+            "supplemental_metrics": {
+              "grounded_understanding": null,
+              "joint_item_mean_answerable": null,
+              "dimension_scores": {
+                "D1": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D2": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D3": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D4": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D5": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                }
+              }
+            },
+            "grounded_understanding": null,
+            "dimension_scores": {
+              "D1": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D2": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D3": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D4": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D5": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              }
+            },
+            "answerable_questions": 0,
+            "unanswerable_questions": 0,
+            "answer_accuracy_answerable": null,
+            "joint_item_mean_answerable": null,
+            "evidence_precision_answerable": null,
+            "evidence_recall_answerable": null,
+            "evidence_f1_answerable": null,
+            "answer_evidence_quadrants": {
+              "both_correct": 0,
+              "answer_only": 0,
+              "evidence_only": 0,
+              "both_incorrect_or_error": 0
+            },
+            "correct_refusal_rate": null,
+            "unanswerable_substantive_rate": null,
+            "false_refusal_rate": null,
+            "answerable_substantive_rate": null,
+            "balanced_answerability": null,
+            "valid_output_rate": null,
+            "errors": 0,
+            "brier_answer": null,
+            "brier_effective_n": 0
+          },
+          "en": {
+            "planned_questions": 1,
+            "articles": 1,
+            "primary_metrics": {
+              "choice_accuracy": null,
+              "short_em": 0.0,
+              "short_token_f1": 0.0,
+              "numeric_strict_accuracy": null,
+              "evidence_exact_answerable": 0.0,
+              "evidence_precision_answerable": 0.0,
+              "evidence_recall_answerable": 0.0,
+              "evidence_f1_answerable": 0.0,
+              "correct_refusal_rate": null,
+              "unanswerable_substantive_rate": null,
+              "false_refusal_rate": 0.0
+            },
+            "by_question_kind": {
+              "choice": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              },
+              "short": {
+                "planned_questions": 1,
+                "articles": 1,
+                "errors": 1,
+                "valid_output_rate": 0.0,
+                "strict_answer_accuracy": 0.0,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": 0.0,
+                  "short_token_f1": 0.0,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": 0.0,
+                  "evidence_precision_answerable": 0.0,
+                  "evidence_recall_answerable": 0.0,
+                  "evidence_f1_answerable": 0.0,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": 0.0
+                },
+                "joint_success_supplement": 0.0
+              },
+              "numeric": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              },
+              "unanswerable": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              }
+            },
+            "supplemental_metrics": {
+              "grounded_understanding": null,
+              "joint_item_mean_answerable": 0.0,
+              "dimension_scores": {
+                "D1": {
+                  "joint_article_macro": 0.0,
+                  "articles": 1,
+                  "questions": 1
+                },
+                "D2": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D3": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D4": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D5": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                }
+              }
+            },
+            "grounded_understanding": null,
+            "dimension_scores": {
+              "D1": {
+                "joint_article_macro": 0.0,
+                "articles": 1,
+                "questions": 1
+              },
+              "D2": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D3": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D4": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D5": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              }
+            },
+            "answerable_questions": 1,
+            "unanswerable_questions": 0,
+            "answer_accuracy_answerable": 0.0,
+            "joint_item_mean_answerable": 0.0,
+            "evidence_precision_answerable": 0.0,
+            "evidence_recall_answerable": 0.0,
+            "evidence_f1_answerable": 0.0,
+            "answer_evidence_quadrants": {
+              "both_correct": 0,
+              "answer_only": 0,
+              "evidence_only": 0,
+              "both_incorrect_or_error": 1
+            },
+            "correct_refusal_rate": null,
+            "unanswerable_substantive_rate": null,
+            "false_refusal_rate": 0.0,
+            "answerable_substantive_rate": 0.0,
+            "balanced_answerability": null,
+            "valid_output_rate": 0.0,
+            "errors": 1,
+            "brier_answer": null,
+            "brier_effective_n": 0
+          },
+          "bilingual_equal_weight": null,
+          "bilingual_equal_weight_role": "supplemental_custom_grounded_understanding"
+        },
+        "protocol": "reading-experiment-v2"
+      }
+    ],
+    "results": [],
+    "plan": [
+      {
+        "model_id": "qwen25-7b",
+        "article_id": "en-nasa-2b3fb9c367c3-dev20261020",
+        "question_id": "q01",
+        "budget": {
+          "version": "reading-token-budget-v1",
+          "allowed": true,
+          "strict": false,
+          "method": "frozen_native_chat_tokens",
+          "exact": true,
+          "input_tokens": 779,
+          "reserved_output_tokens": 512,
+          "reserved_margin_tokens": 512,
+          "total_tokens": 1803,
+          "context_limit": 8192,
+          "remaining_tokens": 6389,
+          "tokenizer_identity": {
+            "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+            "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+            "manifest_sha256": "9dd35fd52541064912583bff5bd15c47a918cd86a2dfb0dec065b39029d44d7b",
+            "tokenizer_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+            "tokenizer_config_sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+            "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f"
+          },
+          "prompt_sha256": "f70e88c75d79e1d356f464412fd6ef8515b01086e7a2f7ec30f41687446fdaab",
+          "reason": "within_context_budget",
+          "warnings": [],
+          "dependency_versions": {
+            "tokenizers": "0.22.2",
+            "jinja2": "3.1.6"
+          },
+          "runtime_template_kind": "raw_rendered_prompt"
+        }
+      }
+    ],
+    "attempts": [],
+    "snapshots": {
+      "models": [
+        {
+          "id": "qwen25-7b",
+          "name": "Qwen2.5 · 7B Instruct",
+          "model": "qwen2.5:7b-instruct",
+          "release_date": "2024-09-19",
+          "release_source": "https://qwenlm.github.io/blog/qwen2.5/",
+          "expected_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+          "provider": "ollama",
+          "base_url": "http://127.0.0.1:11434",
+          "api_key_env": "",
+          "created_at": "2026-10-10T07:31:30.063360+00:00",
+          "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+          "available": true,
+          "status": "就绪",
+          "temporal_verified": true,
+          "details": {
+            "parent_model": "",
+            "format": "gguf",
+            "family": "qwen2",
+            "families": [
+              "qwen2"
+            ],
+            "parameter_size": "7.6B",
+            "quantization_level": "Q4_K_M",
+            "context_length": 32768,
+            "embedding_length": 3584,
+            "runner": "ggml"
+          },
+          "tokenizer_spec": {
+            "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+            "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+            "artifact_dir": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\runtime\\tokenizers\\qwen25-7b-a09a354",
+            "manifest_sha256": "9dd35fd52541064912583bff5bd15c47a918cd86a2dfb0dec065b39029d44d7b"
+          },
+          "runtime_template_kind": "raw_rendered_prompt",
+          "token_budget_margin": 512
+        }
+      ],
+      "bank": {
+        "schema_version": "reading-bank-v2",
+        "bank_version": "dev-expanded-20261020",
+        "formal": false,
+        "human_review_count": 0,
+        "note": "真实2026正文的AI编制开发草稿；0人工审题，仅供平台和评分器诊断，不是正式金标或模型排名。复用原2篇不重复计为新文章来源。",
+        "as_of_client_date": "2026-10-20",
+        "target_articles": 20,
+        "target_questions": 160,
+        "source_selection_sha256": "10f036c81a3f9b12cf08cc91640b05bdbaa4704552115c9f0490071bb4be2a60",
+        "pending_source_ids": [],
+        "articles": [
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020",
+            "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+            "language": "en",
+            "source_cluster_id": "en-nasa-2b3fb9c367c3",
+            "proposed_source_cluster": "nasa-langley-unsteady-psp-free-model-test-2026",
+            "source_cluster_reviewed": false,
+            "source_url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+            "source_name": "US National Aeronautics and Space Administration",
+            "agency_group": "NASA",
+            "published_at": "2026-10-02",
+            "first_published_at": null,
+            "date_evidence": {
+              "kind": "official_wordpress_api",
+              "field": "date",
+              "value": "2026-10-02T12:10:55",
+              "date_gmt": "2026-10-02T16:10:55",
+              "modified": "2026-10-02T12:10:56"
+            },
+            "rights": "美国联邦机构工作人员原创文字通常适用17 USC 105；本候选仍待核作者及第三方权利。照片、媒体、文学引文、第三方投稿不自动获得许可；当前仅本地私有教学科研使用。",
+            "source_text_sha256": "818f15dd2c1be492689adea8507a26c8ab83ed3a3e9068408d1bcb7b2cec4dec",
+            "source_raw_sha256": "54b69db4a673201c49a2fcb22dbdaccefc8a0aa850c03d0b06a462fc238e9405",
+            "source_raw_path": "data/candidates/20261011-source-discovery/snapshots/en-nasa-2b3fb9c367c3.api.json",
+            "source_text_path": "data/candidates/20261011-source-discovery/snapshots/en-nasa-2b3fb9c367c3.txt",
+            "scope": "excerpt",
+            "scope_note": "固定保留连续主文1—6段；源7—16为Related Terms和Explore More导航，不作为文章正文。",
+            "scope_declared_before_question_authoring": true,
+            "split": "development",
+            "domain": "science_technology",
+            "length_bin": "short",
+            "annotation_state": "ai_checked",
+            "formal": false,
+            "human_review_count": 0,
+            "globally_earliest_publication_proven": false,
+            "publication_date_is_answer_novelty_proof": false,
+            "training_seen_status": "unknown",
+            "risk_flags": [
+              "global_earliest_publication_not_proven",
+              "actual_training_membership_unknown",
+              "question_answer_novelty_not_yet_reviewed",
+              "source_first_publication_not_explicit"
+            ],
+            "time_review_note": "API 2026-10-02；旧压力漆原理与本次组合分开。保留完整六段，推荐区不呈现，首组合更早披露待查。",
+            "related_candidates_blocked_from_hidden_split": [
+              "en-nasa-2b3fb9c367c3"
+            ],
+            "paragraphs": [
+              {
+                "id": "en-nasa-2b3fb9c367c3-dev20261020:p001",
+                "text": "Groundbreaking tests at NASA’s Langley Research Center in Hampton, Virginia, are paving the way for new wind tunnel capabilities for designing the aircraft technologies of the future.",
+                "source_paragraph_indexes_1_based": [
+                  1
+                ]
+              },
+              {
+                "id": "en-nasa-2b3fb9c367c3-dev20261020:p002",
+                "text": "In a first-of-its-kind test in NASA Langley’s Transonic Dynamics Tunnel, researchers used unsteady Pressure Sensitive Paint to study how air flows around a standard wind tunnel model known as the Benchmark Supercritical Wing. As the team observed the test, the paint’s special capabilities made the model wing glow pink-purple when exposed to special ultraviolet lights, while high-speed cameras captured every detail.",
+                "source_paragraph_indexes_1_based": [
+                  2
+                ]
+              },
+              {
+                "id": "en-nasa-2b3fb9c367c3-dev20261020:p003",
+                "text": "The test combined two valuable NASA tools. NASA’s benchmark wings don’t represent a particular type of aircraft, rather they are meant as universal models to help researchers improve computer modeling using wind tunnel data.",
+                "source_paragraph_indexes_1_based": [
+                  3
+                ]
+              },
+              {
+                "id": "en-nasa-2b3fb9c367c3-dev20261020:p004",
+                "text": "Unsteady pressure sensitive paint is a specialized coating that varies in brightness according to how much pressure the air flow applies to the wing. High-speed cameras capture those changes, providing data for computer models. For years, NASA researchers at centers including Langley and the agency’s Ames Research Center in California’s Silicon Valley have been working to integrate the paint into wind tunnel tests for aircraft and rockets. NASA researchers consider the paint a vital tool and expect to find many more wind tunnel applications in the future.",
+                "source_paragraph_indexes_1_based": [
+                  4
+                ]
+              },
+              {
+                "id": "en-nasa-2b3fb9c367c3-dev20261020:p005",
+                "text": "This test marked the technique’s first use on a large-scale, freely moving model in a low‑oxygen environment, an achievement made possible by the Transonic Dynamic Tunnel’s unique testing capabilities.",
+                "source_paragraph_indexes_1_based": [
+                  5
+                ]
+              },
+              {
+                "id": "en-nasa-2b3fb9c367c3-dev20261020:p006",
+                "text": "This milestone opens the door for upcoming tests on flexible aircraft models that are designed to bend and adapt during flight to improve efficiency. It also lays the foundation for better simulations and designs as NASA advances the future of flight.",
+                "source_paragraph_indexes_1_based": [
+                  6
+                ]
+              }
+            ],
+            "presented_text_sha256": "c71b2dc0744d61af98ca3a382130a984305705779353f540753edd81f0d6869b",
+            "questions": [
+              {
+                "dimension": "D1",
+                "kind": "short",
+                "prompt": "What is the name of the standard wind-tunnel model used in the reported test? Give only its name.",
+                "answers": [
+                  "Benchmark Supercritical Wing",
+                  "the Benchmark Supercritical Wing"
+                ],
+                "id": "q01",
+                "evidence_sets": [
+                  [
+                    "en-nasa-2b3fb9c367c3-dev20261020:p002"
+                  ]
+                ],
+                "annotation_state": "ai_checked",
+                "generator": "Codex source-grounded authoring, 2026-10-20",
+                "human_reviews": [],
+                "adjudication_complete": false,
+                "human_review_count": 0,
+                "answer_novelty_review_state": "pending_human_review",
+                "training_seen_status": "unknown"
+              }
+            ],
+            "ai_source_audit": {
+              "date": "2026-10-20",
+              "human_review": false,
+              "model_outputs_consulted": false,
+              "status": "source_read_and_targeted_contract_fixes;human_review_pending"
+            }
+          }
+        ]
+      },
+      "bank_sha256": "a3af98719fb296366845b98d837ebeb7d7336bf8ebb60e46702fc2cc2e9a7f21",
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "abstain": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "answer",
+          "unit",
+          "evidence_ids",
+          "confidence",
+          "abstain"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "selection": {
+      "source_bank_questions": 160,
+      "selected_questions": 1
+    },
+    "cancel_requested": false,
+    "methodology_note": "AI草稿不能当正式排名。时间隔离与固定digest不证明零污染。",
+    "evaluation": {
+      "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+      "formal": false,
+      "diagnostic_note": "Draft scores are scorer diagnostics, not a frozen benchmark/model ranking.",
+      "evidence_granularity": "paragraph",
+      "failure_policy": "all_planned_items_zero_on_error",
+      "confidence_label": "strict_answer_correctness",
+      "summaries": {
+        "qwen25-7b": {
+          "zh": {
+            "planned_questions": 0,
+            "articles": 0,
+            "primary_metrics": {
+              "choice_accuracy": null,
+              "short_em": null,
+              "short_token_f1": null,
+              "numeric_strict_accuracy": null,
+              "evidence_exact_answerable": null,
+              "evidence_precision_answerable": null,
+              "evidence_recall_answerable": null,
+              "evidence_f1_answerable": null,
+              "correct_refusal_rate": null,
+              "unanswerable_substantive_rate": null,
+              "false_refusal_rate": null
+            },
+            "by_question_kind": {
+              "choice": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              },
+              "short": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              },
+              "numeric": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              },
+              "unanswerable": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              }
+            },
+            "supplemental_metrics": {
+              "grounded_understanding": null,
+              "joint_item_mean_answerable": null,
+              "dimension_scores": {
+                "D1": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D2": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D3": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D4": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D5": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                }
+              }
+            },
+            "grounded_understanding": null,
+            "dimension_scores": {
+              "D1": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D2": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D3": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D4": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D5": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              }
+            },
+            "answerable_questions": 0,
+            "unanswerable_questions": 0,
+            "answer_accuracy_answerable": null,
+            "joint_item_mean_answerable": null,
+            "evidence_precision_answerable": null,
+            "evidence_recall_answerable": null,
+            "evidence_f1_answerable": null,
+            "answer_evidence_quadrants": {
+              "both_correct": 0,
+              "answer_only": 0,
+              "evidence_only": 0,
+              "both_incorrect_or_error": 0
+            },
+            "correct_refusal_rate": null,
+            "unanswerable_substantive_rate": null,
+            "false_refusal_rate": null,
+            "answerable_substantive_rate": null,
+            "balanced_answerability": null,
+            "valid_output_rate": null,
+            "errors": 0,
+            "brier_answer": null,
+            "brier_effective_n": 0
+          },
+          "en": {
+            "planned_questions": 1,
+            "articles": 1,
+            "primary_metrics": {
+              "choice_accuracy": null,
+              "short_em": 0.0,
+              "short_token_f1": 0.0,
+              "numeric_strict_accuracy": null,
+              "evidence_exact_answerable": 0.0,
+              "evidence_precision_answerable": 0.0,
+              "evidence_recall_answerable": 0.0,
+              "evidence_f1_answerable": 0.0,
+              "correct_refusal_rate": null,
+              "unanswerable_substantive_rate": null,
+              "false_refusal_rate": 0.0
+            },
+            "by_question_kind": {
+              "choice": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              },
+              "short": {
+                "planned_questions": 1,
+                "articles": 1,
+                "errors": 1,
+                "valid_output_rate": 0.0,
+                "strict_answer_accuracy": 0.0,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": 0.0,
+                  "short_token_f1": 0.0,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": 0.0,
+                  "evidence_precision_answerable": 0.0,
+                  "evidence_recall_answerable": 0.0,
+                  "evidence_f1_answerable": 0.0,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": 0.0
+                },
+                "joint_success_supplement": 0.0
+              },
+              "numeric": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              },
+              "unanswerable": {
+                "planned_questions": 0,
+                "articles": 0,
+                "errors": 0,
+                "valid_output_rate": null,
+                "strict_answer_accuracy": null,
+                "primary_metrics": {
+                  "choice_accuracy": null,
+                  "short_em": null,
+                  "short_token_f1": null,
+                  "numeric_strict_accuracy": null,
+                  "evidence_exact_answerable": null,
+                  "evidence_precision_answerable": null,
+                  "evidence_recall_answerable": null,
+                  "evidence_f1_answerable": null,
+                  "correct_refusal_rate": null,
+                  "unanswerable_substantive_rate": null,
+                  "false_refusal_rate": null
+                },
+                "joint_success_supplement": null
+              }
+            },
+            "supplemental_metrics": {
+              "grounded_understanding": null,
+              "joint_item_mean_answerable": 0.0,
+              "dimension_scores": {
+                "D1": {
+                  "joint_article_macro": 0.0,
+                  "articles": 1,
+                  "questions": 1
+                },
+                "D2": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D3": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D4": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                },
+                "D5": {
+                  "joint_article_macro": null,
+                  "articles": 0,
+                  "questions": 0
+                }
+              }
+            },
+            "grounded_understanding": null,
+            "dimension_scores": {
+              "D1": {
+                "joint_article_macro": 0.0,
+                "articles": 1,
+                "questions": 1
+              },
+              "D2": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D3": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D4": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              },
+              "D5": {
+                "joint_article_macro": null,
+                "articles": 0,
+                "questions": 0
+              }
+            },
+            "answerable_questions": 1,
+            "unanswerable_questions": 0,
+            "answer_accuracy_answerable": 0.0,
+            "joint_item_mean_answerable": 0.0,
+            "evidence_precision_answerable": 0.0,
+            "evidence_recall_answerable": 0.0,
+            "evidence_f1_answerable": 0.0,
+            "answer_evidence_quadrants": {
+              "both_correct": 0,
+              "answer_only": 0,
+              "evidence_only": 0,
+              "both_incorrect_or_error": 1
+            },
+            "correct_refusal_rate": null,
+            "unanswerable_substantive_rate": null,
+            "false_refusal_rate": 0.0,
+            "answerable_substantive_rate": 0.0,
+            "balanced_answerability": null,
+            "valid_output_rate": 0.0,
+            "errors": 1,
+            "brier_answer": null,
+            "brier_effective_n": 0
+          },
+          "bilingual_equal_weight": null,
+          "bilingual_equal_weight_role": "supplemental_custom_grounded_understanding"
+        }
+      },
+      "rows": [
+        {
+          "model_id": "qwen25-7b",
+          "article_id": "en-nasa-2b3fb9c367c3-dev20261020",
+          "question_id": "q01",
+          "language": "en",
+          "dimension": "D1",
+          "kind": "short",
+          "output_state": "error",
+          "answer_correct": 0,
+          "evidence_exact": 0,
+          "joint_success": 0,
+          "evidence_f1": 0,
+          "evidence_precision": 0,
+          "evidence_recall": 0,
+          "correct_refusal": 0,
+          "substantive_answer": 0,
+          "false_refusal": 0,
+          "unanswerable_substantive": 0,
+          "brier_answer": null,
+          "error": "missing_planned_response",
+          "choice_accuracy": null,
+          "short_em": 0,
+          "short_token_f1": 0,
+          "numeric_strict_accuracy": null
+        }
+      ],
+      "metric_protocol": {
+        "primary": [
+          "choice_accuracy",
+          "short_em",
+          "short_token_f1",
+          "numeric_strict_accuracy",
+          "evidence_exact_answerable",
+          "evidence_precision_answerable",
+          "evidence_recall_answerable",
+          "evidence_f1_answerable",
+          "correct_refusal_rate",
+          "unanswerable_substantive_rate",
+          "false_refusal_rate"
+        ],
+        "aggregation": "planned_item_mean_within_language_and_applicable_question_kind; no unified reading score",
+        "short_em": "NFKC + casefold + collapse whitespace; retain order, punctuation, negation and units; best frozen alias",
+        "short_f1_zh": "custom Han character / Latin Unicode word multiset F1; NFKC/casefold, punctuation removed, articles/negation retained",
+        "short_f1_en": "custom Unicode word multiset F1; NFKC/casefold, punctuation removed, articles/negation retained",
+        "short_f1_aliases": "maximum across frozen aliases; repeated tokens counted; punctuation-only answers receive zero",
+        "short_f1_label": "local_overlap_diagnostic_not_official_SQuAD_or_LongBench_score",
+        "numeric_strict_accuracy": "numeric value within frozen absolute tolerance AND exact frozen unit; signs preserved",
+        "supplemental": [
+          "grounded_understanding",
+          "joint_item_mean_answerable",
+          "bilingual_equal_weight",
+          "balanced_answerability"
+        ],
+        "legacy_keys": "preserved for compatibility; grounded_understanding and its legacy confidence intervals are supplemental",
+        "boundary_rates": "execution errors remain in planned denominators; refusal and substantive rates need not sum to one"
+      },
+      "statistics": {
+        "repetitions": 0,
+        "seed": 42,
+        "unit": "source_article_cluster",
+        "confidence_level": 0.95,
+        "method": "stratified paired percentile bootstrap",
+        "legacy_score_interval_role": "supplemental_grounded_understanding",
+        "strata": [
+          "language",
+          "domain",
+          "length_bin"
+        ],
+        "languages": {
+          "zh": {
+            "clusters": 0,
+            "strata": 0,
+            "score_intervals": {
+              "qwen25-7b": null
+            },
+            "paired_difference_intervals": {},
+            "primary_metric_intervals": {
+              "qwen25-7b": {
+                "choice_accuracy": null,
+                "short_em": null,
+                "short_token_f1": null,
+                "numeric_strict_accuracy": null,
+                "evidence_exact_answerable": null,
+                "evidence_precision_answerable": null,
+                "evidence_recall_answerable": null,
+                "evidence_f1_answerable": null,
+                "correct_refusal_rate": null,
+                "unanswerable_substantive_rate": null,
+                "false_refusal_rate": null
+              }
+            },
+            "primary_paired_difference_intervals": {},
+            "note": "Primary intervals use all planned applicable items including errors at zero; omit resamples with no applicable items. Legacy U intervals require all D1-D5 dimensions. Inspect effective_resamples. Tiny strata or pilot banks cannot support population conclusions."
+          },
+          "en": {
+            "clusters": 1,
+            "strata": 1,
+            "score_intervals": {
+              "qwen25-7b": null
+            },
+            "paired_difference_intervals": {},
+            "primary_metric_intervals": {
+              "qwen25-7b": {
+                "choice_accuracy": null,
+                "short_em": null,
+                "short_token_f1": null,
+                "numeric_strict_accuracy": null,
+                "evidence_exact_answerable": null,
+                "evidence_precision_answerable": null,
+                "evidence_recall_answerable": null,
+                "evidence_f1_answerable": null,
+                "correct_refusal_rate": null,
+                "unanswerable_substantive_rate": null,
+                "false_refusal_rate": null
+              }
+            },
+            "primary_paired_difference_intervals": {},
+            "note": "Primary intervals use all planned applicable items including errors at zero; omit resamples with no applicable items. Legacy U intervals require all D1-D5 dimensions. Inspect effective_resamples. Tiny strata or pilot banks cannot support population conclusions."
+          }
+        }
+      },
+      "execution_complete": false
+    },
+    "live_demo": {
+      "version": "reading-live-demo-v1-20261026",
+      "preset_id": "en-quick",
+      "label": "English · 单题速跑",
+      "client_request_key_sha256": "bdc19fa261cee70d886c889ebab4d2df56a89d75295fa002680587b03abffc94",
+      "full_passage": true,
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "note": "现场真实推理；AI开发题，人审0，不形成正式排名。"
+    },
+    "started_at": "2026-10-26T14:08:05.286526+00:00"
+  },
+  "reused": true
+}

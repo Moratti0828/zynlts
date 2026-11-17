@@ -1,0 +1,601 @@
+{
+  "id": "run-3933bc890c13",
+  "status": "completed",
+  "created_at": "2026-10-10T07:36:34.729014+00:00",
+  "config": {
+    "model_ids": [
+      "qwen25-7b",
+      "llama31-8b"
+    ],
+    "article_ids": [
+      "zh-housing-2025"
+    ],
+    "mode": "no_context",
+    "strict_time": true,
+    "question_limit": 4,
+    "temperature": 0,
+    "max_tokens": 256,
+    "seed": 42,
+    "num_ctx": 8192,
+    "prompt_version": "reading-prompt-v1.1-schema",
+    "grader_version": "reading-grader-v1.0",
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "answer": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "abstain": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "answer",
+        "evidence",
+        "confidence",
+        "abstain"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "progress": {
+    "done": 8,
+    "total": 8
+  },
+  "summary": [
+    {
+      "model_id": "qwen25-7b",
+      "model_name": "Qwen2.5 · 7B Instruct",
+      "n": 4,
+      "successful": 4,
+      "errors": 0,
+      "em": 0.25,
+      "f1": 0.25,
+      "evidence_f1": null,
+      "evidence_n": 0,
+      "abstention_accuracy": 0.25,
+      "unanswerable_recall": 1.0,
+      "false_abstention_rate": 1.0,
+      "brier": 0.125,
+      "brier_n": 4,
+      "mean_latency_s": 2.51975,
+      "p95_latency_s": 7.424,
+      "input_tokens": 1199,
+      "output_tokens": 108,
+      "by_type": {
+        "fact": {
+          "n": 1,
+          "em": 0.0,
+          "f1": 0.0
+        },
+        "inference": {
+          "n": 1,
+          "em": 0.0,
+          "f1": 0.0
+        },
+        "numeric": {
+          "n": 1,
+          "em": 0.0,
+          "f1": 0.0
+        },
+        "unanswerable": {
+          "n": 1,
+          "em": 1.0,
+          "f1": 1.0
+        }
+      },
+      "denominator_note": "EM/F1 包含请求失败题（计0）；校准与拒答仅统计有效响应；尚未执行题不在当前分母。"
+    },
+    {
+      "model_id": "llama31-8b",
+      "model_name": "Llama 3.1 · 8B Instruct",
+      "n": 4,
+      "successful": 4,
+      "errors": 0,
+      "em": 0.5,
+      "f1": 0.5,
+      "evidence_f1": null,
+      "evidence_n": 0,
+      "abstention_accuracy": 0.5,
+      "unanswerable_recall": 1.0,
+      "false_abstention_rate": 0.6666666666666666,
+      "brier": 0.25,
+      "brier_n": 4,
+      "mean_latency_s": 2.96125,
+      "p95_latency_s": 8.089,
+      "input_tokens": 1288,
+      "output_tokens": 148,
+      "by_type": {
+        "fact": {
+          "n": 1,
+          "em": 0.0,
+          "f1": 0.0
+        },
+        "inference": {
+          "n": 1,
+          "em": 1.0,
+          "f1": 1.0
+        },
+        "numeric": {
+          "n": 1,
+          "em": 0.0,
+          "f1": 0.0
+        },
+        "unanswerable": {
+          "n": 1,
+          "em": 1.0,
+          "f1": 1.0
+        }
+      },
+      "denominator_note": "EM/F1 包含请求失败题（计0）；校准与拒答仅统计有效响应；尚未执行题不在当前分母。"
+    }
+  ],
+  "results": [
+    {
+      "model_id": "qwen25-7b",
+      "model_name": "Qwen2.5 · 7B Instruct",
+      "article_id": "zh-housing-2025",
+      "article_title": "住房租赁条例（公布说明及第二、七、八、十五条节选）",
+      "article_sha256": "1c2285d0a3abca8e60f4788187592f7a66159cd6b96a99118daa805c20bac1e1",
+      "question_id": "zh-housing-2025-fact",
+      "type": "fact",
+      "prompt": "根据节选，出租人应将住房租赁合同向哪个部门备案？只写部门名称。",
+      "reference_answer": "租赁住房所在地房产管理部门",
+      "gold_evidence": [
+        "将住房租赁合同向租赁住房所在地房产管理部门备案"
+      ],
+      "answer": "无法从文章确定",
+      "evidence": [],
+      "confidence": 0.5,
+      "abstain": true,
+      "raw_response": "{\"answer\": \"无法从文章确定\", \"evidence\": [], \"confidence\": 0.5, \"abstain\": true}",
+      "error": null,
+      "input_tokens": 293,
+      "output_tokens": 30,
+      "created_at": "2026-10-10T07:37:05.046302+00:00",
+      "prompt_sha256": "1e5443d3bf753bac75b2441c31588ba7c007cc4505db8af9e0588ed6430ce5cd",
+      "provider_duration_ns": 7422521500,
+      "metrics": {
+        "em": 0.0,
+        "f1": 0.0,
+        "evidence_f1": null,
+        "valid_quote_rate": null,
+        "abstention_correct": 0.0,
+        "brier": 0.25,
+        "grader_version": "reading-grader-v1.0"
+      },
+      "latency_s": 7.424
+    },
+    {
+      "model_id": "qwen25-7b",
+      "model_name": "Qwen2.5 · 7B Instruct",
+      "article_id": "zh-housing-2025",
+      "article_title": "住房租赁条例（公布说明及第二、七、八、十五条节选）",
+      "article_sha256": "1c2285d0a3abca8e60f4788187592f7a66159cd6b96a99118daa805c20bac1e1",
+      "question_id": "zh-housing-2025-inference",
+      "type": "inference",
+      "prompt": "有人计划把厨房单独出租给租客用于居住。这是否符合节选规定？只回答“符合”或“不符合”。",
+      "reference_answer": "不符合",
+      "gold_evidence": [
+        "厨房、卫生间、阳台、过道、地下储藏室、车库等非居住空间，不得单独出租用于居住。"
+      ],
+      "answer": "无法从文章确定",
+      "evidence": [],
+      "confidence": 0.5,
+      "abstain": true,
+      "raw_response": "{\"answer\":\"无法从文章确定\",\"evidence\":[],\"confidence\":0.5,\"abstain\":true}",
+      "error": null,
+      "input_tokens": 301,
+      "output_tokens": 25,
+      "created_at": "2026-10-10T07:37:12.556427+00:00",
+      "prompt_sha256": "7af5b8e6518005133b44bd9a5a94a8e135f2b154a4574d890d97e9ed821f8e49",
+      "provider_duration_ns": 817141300,
+      "metrics": {
+        "em": 0.0,
+        "f1": 0.0,
+        "evidence_f1": null,
+        "valid_quote_rate": null,
+        "abstention_correct": 0.0,
+        "brier": 0.25,
+        "grader_version": "reading-grader-v1.0"
+      },
+      "latency_s": 0.83
+    },
+    {
+      "model_id": "qwen25-7b",
+      "model_name": "Qwen2.5 · 7B Instruct",
+      "article_id": "zh-housing-2025",
+      "article_title": "住房租赁条例（公布说明及第二、七、八、十五条节选）",
+      "article_sha256": "1c2285d0a3abca8e60f4788187592f7a66159cd6b96a99118daa805c20bac1e1",
+      "question_id": "zh-housing-2025-numeric",
+      "type": "numeric",
+      "prompt": "根据节选，住房租赁企业领取营业执照后，应在多少日内报送开业信息？只回答整数，不写单位。",
+      "reference_answer": "30",
+      "gold_evidence": [
+        "住房租赁企业应当自领取营业执照之日起30日内"
+      ],
+      "answer": "无法从文章确定",
+      "evidence": [],
+      "confidence": 0.0,
+      "abstain": true,
+      "raw_response": "{\"answer\":\"无法从文章确定\",\"evidence\":[],\"confidence\":0.0,\"abstain\":true}",
+      "error": null,
+      "input_tokens": 299,
+      "output_tokens": 25,
+      "created_at": "2026-10-10T07:37:13.461785+00:00",
+      "prompt_sha256": "dd0c7e7c2f870fa5283d86b2b4b501410927e1b5069cc11b63ed0c6560b5428d",
+      "provider_duration_ns": 852620400,
+      "metrics": {
+        "em": 0.0,
+        "f1": 0.0,
+        "evidence_f1": null,
+        "valid_quote_rate": null,
+        "abstention_correct": 0.0,
+        "brier": 0.0,
+        "grader_version": "reading-grader-v1.0"
+      },
+      "latency_s": 0.876
+    },
+    {
+      "model_id": "qwen25-7b",
+      "model_name": "Qwen2.5 · 7B Instruct",
+      "article_id": "zh-housing-2025",
+      "article_title": "住房租赁条例（公布说明及第二、七、八、十五条节选）",
+      "article_sha256": "1c2285d0a3abca8e60f4788187592f7a66159cd6b96a99118daa805c20bac1e1",
+      "question_id": "zh-housing-2025-unanswerable",
+      "type": "unanswerable",
+      "prompt": "根据所给节选，全国住房租赁管理服务平台2025年的日均访问人数是多少？若没有依据，请回答“无法从文章确定”。",
+      "reference_answer": "无法从文章确定",
+      "gold_evidence": [],
+      "answer": "无法从文章确定",
+      "evidence": [],
+      "confidence": 1,
+      "abstain": true,
+      "raw_response": "{\"answer\": \"无法从文章确定\", \"evidence\": [], \"confidence\": 1, \"abstain\": true}",
+      "error": null,
+      "input_tokens": 306,
+      "output_tokens": 28,
+      "created_at": "2026-10-10T07:37:14.400730+00:00",
+      "prompt_sha256": "4c43659db18700537333fba3c7c367527720393ef24c0dcea1e4bf5d12ba7fe6",
+      "provider_duration_ns": 946990800,
+      "metrics": {
+        "em": 1.0,
+        "f1": 1.0,
+        "evidence_f1": null,
+        "valid_quote_rate": null,
+        "abstention_correct": 1.0,
+        "brier": 0.0,
+        "grader_version": "reading-grader-v1.0"
+      },
+      "latency_s": 0.949
+    },
+    {
+      "model_id": "llama31-8b",
+      "model_name": "Llama 3.1 · 8B Instruct",
+      "article_id": "zh-housing-2025",
+      "article_title": "住房租赁条例（公布说明及第二、七、八、十五条节选）",
+      "article_sha256": "1c2285d0a3abca8e60f4788187592f7a66159cd6b96a99118daa805c20bac1e1",
+      "question_id": "zh-housing-2025-fact",
+      "type": "fact",
+      "prompt": "根据节选，出租人应将住房租赁合同向哪个部门备案？只写部门名称。",
+      "reference_answer": "租赁住房所在地房产管理部门",
+      "gold_evidence": [
+        "将住房租赁合同向租赁住房所在地房产管理部门备案"
+      ],
+      "answer": "房管局",
+      "evidence": [
+        "本实验不提供文章，无法确定具体内容"
+      ],
+      "confidence": 0,
+      "abstain": true,
+      "raw_response": "{\"answer\": \"房管局\", \"evidence\": [\"本实验不提供文章，无法确定具体内容\"], \"confidence\": 0, \"abstain\": true}",
+      "error": null,
+      "input_tokens": 315,
+      "output_tokens": 38,
+      "created_at": "2026-10-10T07:37:15.481096+00:00",
+      "prompt_sha256": "1e5443d3bf753bac75b2441c31588ba7c007cc4505db8af9e0588ed6430ce5cd",
+      "provider_duration_ns": 8063481200,
+      "metrics": {
+        "em": 0.0,
+        "f1": 0.0,
+        "evidence_f1": null,
+        "valid_quote_rate": null,
+        "abstention_correct": 0.0,
+        "brier": 0.0,
+        "grader_version": "reading-grader-v1.0"
+      },
+      "latency_s": 8.089
+    },
+    {
+      "model_id": "llama31-8b",
+      "model_name": "Llama 3.1 · 8B Instruct",
+      "article_id": "zh-housing-2025",
+      "article_title": "住房租赁条例（公布说明及第二、七、八、十五条节选）",
+      "article_sha256": "1c2285d0a3abca8e60f4788187592f7a66159cd6b96a99118daa805c20bac1e1",
+      "question_id": "zh-housing-2025-inference",
+      "type": "inference",
+      "prompt": "有人计划把厨房单独出租给租客用于居住。这是否符合节选规定？只回答“符合”或“不符合”。",
+      "reference_answer": "不符合",
+      "gold_evidence": [
+        "厨房、卫生间、阳台、过道、地下储藏室、车库等非居住空间，不得单独出租用于居住。"
+      ],
+      "answer": "不符合",
+      "evidence": [
+        "(本实验不提供文章)"
+      ],
+      "confidence": 1,
+      "abstain": false,
+      "raw_response": "{\n  \"answer\": \"不符合\",\n  \"evidence\": [\n    \"(本实验不提供文章)\"\n  ],\n  \"confidence\": 1,\n  \"abstain\": false\n}",
+      "error": null,
+      "input_tokens": 322,
+      "output_tokens": 42,
+      "created_at": "2026-10-10T07:37:23.627652+00:00",
+      "prompt_sha256": "7af5b8e6518005133b44bd9a5a94a8e135f2b154a4574d890d97e9ed821f8e49",
+      "provider_duration_ns": 1412855800,
+      "metrics": {
+        "em": 1.0,
+        "f1": 1.0,
+        "evidence_f1": null,
+        "valid_quote_rate": null,
+        "abstention_correct": 1.0,
+        "brier": 0.0,
+        "grader_version": "reading-grader-v1.0"
+      },
+      "latency_s": 1.429
+    },
+    {
+      "model_id": "llama31-8b",
+      "model_name": "Llama 3.1 · 8B Instruct",
+      "article_id": "zh-housing-2025",
+      "article_title": "住房租赁条例（公布说明及第二、七、八、十五条节选）",
+      "article_sha256": "1c2285d0a3abca8e60f4788187592f7a66159cd6b96a99118daa805c20bac1e1",
+      "question_id": "zh-housing-2025-numeric",
+      "type": "numeric",
+      "prompt": "根据节选，住房租赁企业领取营业执照后，应在多少日内报送开业信息？只回答整数，不写单位。",
+      "reference_answer": "30",
+      "gold_evidence": [
+        "住房租赁企业应当自领取营业执照之日起30日内"
+      ],
+      "answer": "无法从文章确定",
+      "evidence": [],
+      "confidence": 0,
+      "abstain": true,
+      "raw_response": "{\n  \"answer\": \"无法从文章确定\",\n  \"evidence\": [],\n  \"confidence\": 0,\n  \"abstain\": true\n}",
+      "error": null,
+      "input_tokens": 324,
+      "output_tokens": 34,
+      "created_at": "2026-10-10T07:37:25.137291+00:00",
+      "prompt_sha256": "dd0c7e7c2f870fa5283d86b2b4b501410927e1b5069cc11b63ed0c6560b5428d",
+      "provider_duration_ns": 1160523100,
+      "metrics": {
+        "em": 0.0,
+        "f1": 0.0,
+        "evidence_f1": null,
+        "valid_quote_rate": null,
+        "abstention_correct": 0.0,
+        "brier": 0.0,
+        "grader_version": "reading-grader-v1.0"
+      },
+      "latency_s": 1.179
+    },
+    {
+      "model_id": "llama31-8b",
+      "model_name": "Llama 3.1 · 8B Instruct",
+      "article_id": "zh-housing-2025",
+      "article_title": "住房租赁条例（公布说明及第二、七、八、十五条节选）",
+      "article_sha256": "1c2285d0a3abca8e60f4788187592f7a66159cd6b96a99118daa805c20bac1e1",
+      "question_id": "zh-housing-2025-unanswerable",
+      "type": "unanswerable",
+      "prompt": "根据所给节选，全国住房租赁管理服务平台2025年的日均访问人数是多少？若没有依据，请回答“无法从文章确定”。",
+      "reference_answer": "无法从文章确定",
+      "gold_evidence": [],
+      "answer": "无法从文章确定",
+      "evidence": [],
+      "confidence": 0,
+      "abstain": true,
+      "raw_response": "{\n  \"answer\": \"无法从文章确定\",\n  \"evidence\": [],\n  \"confidence\": 0,\n  \"abstain\": true\n}",
+      "error": null,
+      "input_tokens": 327,
+      "output_tokens": 34,
+      "created_at": "2026-10-10T07:37:26.380857+00:00",
+      "prompt_sha256": "4c43659db18700537333fba3c7c367527720393ef24c0dcea1e4bf5d12ba7fe6",
+      "provider_duration_ns": 1130616600,
+      "metrics": {
+        "em": 1.0,
+        "f1": 1.0,
+        "evidence_f1": null,
+        "valid_quote_rate": null,
+        "abstention_correct": 1.0,
+        "brier": 1.0,
+        "grader_version": "reading-grader-v1.0"
+      },
+      "latency_s": 1.148
+    }
+  ],
+  "snapshots": {
+    "models": [
+      {
+        "id": "qwen25-7b",
+        "name": "Qwen2.5 · 7B Instruct",
+        "model": "qwen2.5:7b-instruct",
+        "release_date": "2024-09-19",
+        "release_source": "https://qwenlm.github.io/blog/qwen2.5/",
+        "expected_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+        "provider": "ollama",
+        "base_url": "http://127.0.0.1:11434",
+        "api_key_env": "",
+        "created_at": "2026-10-10T07:31:30.063360+00:00",
+        "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+        "available": true,
+        "status": "就绪",
+        "temporal_verified": true,
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 3584,
+          "runner": "ggml"
+        }
+      },
+      {
+        "id": "llama31-8b",
+        "name": "Llama 3.1 · 8B Instruct",
+        "model": "llama3.1:8b-instruct-q4_K_M",
+        "release_date": "2024-07-23",
+        "release_source": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+        "expected_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+        "provider": "ollama",
+        "base_url": "http://127.0.0.1:11434",
+        "api_key_env": "",
+        "created_at": "2026-10-10T07:31:30.068431+00:00",
+        "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+        "available": true,
+        "status": "就绪",
+        "temporal_verified": true,
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "8.0B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 131072,
+          "embedding_length": 4096,
+          "runner": "ggml"
+        }
+      }
+    ],
+    "articles": [
+      {
+        "id": "zh-housing-2025",
+        "title": "住房租赁条例（公布说明及第二、七、八、十五条节选）",
+        "language": "zh",
+        "published_at": "2025-07-21",
+        "source_page_published_at": "2025-07-21",
+        "source_url": "https://www.forestry.gov.cn/c/www/szxx/635119.jhtml",
+        "source_name": "国务院法规正文／国家林业和草原局官方转载",
+        "license": "法规正文：《中华人民共和国著作权法》第五条第一项不适用；网页模板、图片不纳入测评正文",
+        "scope": "excerpt",
+        "scope_note": "选取公布说明及第二、七、八、十五条；段间删节以〔……〕明示。published_at 为来源转载网页发布时间，promulgated_at 为正文所载国务院令公布日期。",
+        "text": "《住房租赁条例》已经2025年6月27日国务院第62次常务会议通过，现予公布，自2025年9月15日起施行。\n\n〔……〕\n\n第二条 城镇国有土地上住房租赁活动及其监督管理，适用本条例。\n\n〔……〕\n\n第七条 用于出租的住房应当符合建筑、消防、燃气、室内装饰装修等方面的法律、法规、规章和强制性标准，不得危及人身安全和健康。\n厨房、卫生间、阳台、过道、地下储藏室、车库等非居住空间，不得单独出租用于居住。\n租赁住房单间租住人数上限和人均最低租住面积，应当符合设区的市级以上地方人民政府规定的标准。\n\n〔……〕\n\n第八条 出租人和承租人应当使用实名签订住房租赁合同。\n出租人应当按照规定，通过住房租赁管理服务平台等方式将住房租赁合同向租赁住房所在地房产管理部门备案。房产管理部门应当提高住房租赁合同备案服务水平，不得就住房租赁合同备案收取任何费用。\n出租人未办理住房租赁合同备案的，承租人可以办理备案。\n\n〔……〕\n\n第十五条 住房租赁企业依法登记的经营范围应当使用“住房租赁”的表述。\n住房租赁企业应当自领取营业执照之日起30日内，向所在地县级以上地方人民政府房产管理部门报送开业信息。房产管理部门应当将住房租赁企业开业信息向社会公开。\n住房租赁企业应当在其经营场所醒目位置公示本企业开业信息、服务规范和标准等。",
+        "sha256": "1c2285d0a3abca8e60f4788187592f7a66159cd6b96a99118daa805c20bac1e1",
+        "downloaded_at": "2026-10-10T07:25:30+00:00",
+        "raw_path": "data/raw/20261010-initial/zh-housing-2025.html",
+        "questions": [
+          {
+            "id": "zh-housing-2025-fact",
+            "type": "fact",
+            "prompt": "根据节选，出租人应将住房租赁合同向哪个部门备案？只写部门名称。",
+            "answers": [
+              "租赁住房所在地房产管理部门",
+              "房产管理部门"
+            ],
+            "evidence": [
+              "将住房租赁合同向租赁住房所在地房产管理部门备案"
+            ],
+            "reference_answer": "租赁住房所在地房产管理部门",
+            "reviewed": true,
+            "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。逐字核对第八条；所问对象是合同备案接收部门。"
+          },
+          {
+            "id": "zh-housing-2025-inference",
+            "type": "inference",
+            "prompt": "有人计划把厨房单独出租给租客用于居住。这是否符合节选规定？只回答“符合”或“不符合”。",
+            "answers": [
+              "不符合"
+            ],
+            "evidence": [
+              "厨房、卫生间、阳台、过道、地下储藏室、车库等非居住空间，不得单独出租用于居住。"
+            ],
+            "reference_answer": "不符合",
+            "reviewed": true,
+            "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。将第七条禁止规定应用于给定情形，不引入节选以外事实。"
+          },
+          {
+            "id": "zh-housing-2025-numeric",
+            "type": "numeric",
+            "prompt": "根据节选，住房租赁企业领取营业执照后，应在多少日内报送开业信息？只回答整数，不写单位。",
+            "answers": [
+              "30"
+            ],
+            "evidence": [
+              "住房租赁企业应当自领取营业执照之日起30日内"
+            ],
+            "reference_answer": "30",
+            "unit": "日",
+            "reviewed": true,
+            "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。第十五条直接提取期限；日不等同工作日。"
+          },
+          {
+            "id": "zh-housing-2025-unanswerable",
+            "type": "unanswerable",
+            "prompt": "根据所给节选，全国住房租赁管理服务平台2025年的日均访问人数是多少？若没有依据，请回答“无法从文章确定”。",
+            "answers": [
+              "无法从文章确定"
+            ],
+            "evidence": [],
+            "reference_answer": "无法从文章确定",
+            "reviewed": true,
+            "review_note": "AI编制并据来源核对；待用户/伙伴独立人工复核。节选出现平台名称，但未给访问人数；不得凭外部常识补全。"
+          }
+        ],
+        "excerpt_line_ranges": [
+          {
+            "start_line": 65,
+            "end_line": 65
+          },
+          {
+            "start_line": 71,
+            "end_line": 71
+          },
+          {
+            "start_line": 80,
+            "end_line": 82
+          },
+          {
+            "start_line": 83,
+            "end_line": 85
+          },
+          {
+            "start_line": 104,
+            "end_line": 106
+          }
+        ],
+        "raw_sha256": "2082ff7c5dfd40409665d443ba58c974f2206466f35f7e4a0616501efb4e1627",
+        "promulgated_at": "2025-07-16",
+        "license_url": "https://www.ncac.gov.cn/xxfb/flfg/flfg_532/202103/t20210309_50530.html",
+        "temporal_date": "2025-07-16",
+        "reference_note": "人工仍需复核参考答案；reviewed字段只是审查记录，不能证明独立人工验收"
+      }
+    ],
+    "question_ids": [
+      "zh-housing-2025-fact",
+      "zh-housing-2025-inference",
+      "zh-housing-2025-numeric",
+      "zh-housing-2025-unanswerable"
+    ]
+  },
+  "cancel_requested": false,
+  "methodology_note": "时间门槛检查发布日期声明与固定digest，不证明历史训练/微调数据无污染。示例题库为AI整理和静态校验，正式结论需独立人工复核。",
+  "started_at": "2026-10-10T07:37:04.948128+00:00",
+  "finished_at": "2026-10-10T07:37:27.543742+00:00"
+}

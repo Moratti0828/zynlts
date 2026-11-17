@@ -1,0 +1,380 @@
+[
+  {
+    "model_id": "qwen25-15b",
+    "mode": "with_context",
+    "language": "zh",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 3
+    },
+    "wrong_answer_valid": 26,
+    "answer_correct_evidence_wrong": 43
+  },
+  {
+    "model_id": "qwen25-15b",
+    "mode": "with_context",
+    "language": "en",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 9
+    },
+    "wrong_answer_valid": 22,
+    "answer_correct_evidence_wrong": 40
+  },
+  {
+    "model_id": "qwen25-15b",
+    "mode": "no_context",
+    "language": "zh",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 3
+    },
+    "wrong_answer_valid": 21,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "qwen25-15b",
+    "mode": "no_context",
+    "language": "en",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {},
+    "wrong_answer_valid": 31,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "qwen25-3b",
+    "mode": "with_context",
+    "language": "zh",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 11
+    },
+    "wrong_answer_valid": 14,
+    "answer_correct_evidence_wrong": 16
+  },
+  {
+    "model_id": "qwen25-3b",
+    "mode": "with_context",
+    "language": "en",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 18
+    },
+    "wrong_answer_valid": 16,
+    "answer_correct_evidence_wrong": 20
+  },
+  {
+    "model_id": "qwen25-3b",
+    "mode": "no_context",
+    "language": "zh",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 4
+    },
+    "wrong_answer_valid": 19,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "qwen25-3b",
+    "mode": "no_context",
+    "language": "en",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 4
+    },
+    "wrong_answer_valid": 21,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "qwen25-7b",
+    "mode": "with_context",
+    "language": "zh",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 3
+    },
+    "wrong_answer_valid": 6,
+    "answer_correct_evidence_wrong": 46
+  },
+  {
+    "model_id": "qwen25-7b",
+    "mode": "with_context",
+    "language": "en",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 16
+    },
+    "wrong_answer_valid": 5,
+    "answer_correct_evidence_wrong": 28
+  },
+  {
+    "model_id": "qwen25-7b",
+    "mode": "no_context",
+    "language": "zh",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 19
+    },
+    "wrong_answer_valid": 13,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "qwen25-7b",
+    "mode": "no_context",
+    "language": "en",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 14
+    },
+    "wrong_answer_valid": 13,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "llama31-8b",
+    "mode": "with_context",
+    "language": "zh",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 12
+    },
+    "wrong_answer_valid": 11,
+    "answer_correct_evidence_wrong": 25
+  },
+  {
+    "model_id": "llama31-8b",
+    "mode": "with_context",
+    "language": "en",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 8
+    },
+    "wrong_answer_valid": 11,
+    "answer_correct_evidence_wrong": 11
+  },
+  {
+    "model_id": "llama31-8b",
+    "mode": "no_context",
+    "language": "zh",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 8
+    },
+    "wrong_answer_valid": 17,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "llama31-8b",
+    "mode": "no_context",
+    "language": "en",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 3
+    },
+    "wrong_answer_valid": 22,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "qwen25-14b",
+    "mode": "with_context",
+    "language": "zh",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 18
+    },
+    "wrong_answer_valid": 5,
+    "answer_correct_evidence_wrong": 15
+  },
+  {
+    "model_id": "qwen25-14b",
+    "mode": "with_context",
+    "language": "en",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 8
+    },
+    "wrong_answer_valid": 2,
+    "answer_correct_evidence_wrong": 11
+  },
+  {
+    "model_id": "qwen25-14b",
+    "mode": "no_context",
+    "language": "zh",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 10
+    },
+    "wrong_answer_valid": 30,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "qwen25-14b",
+    "mode": "no_context",
+    "language": "en",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 3
+    },
+    "wrong_answer_valid": 31,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "mistral03-7b",
+    "mode": "with_context",
+    "language": "zh",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 11
+    },
+    "wrong_answer_valid": 14,
+    "answer_correct_evidence_wrong": 15
+  },
+  {
+    "model_id": "mistral03-7b",
+    "mode": "with_context",
+    "language": "en",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 14
+    },
+    "wrong_answer_valid": 10,
+    "answer_correct_evidence_wrong": 13
+  },
+  {
+    "model_id": "mistral03-7b",
+    "mode": "no_context",
+    "language": "zh",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 12
+    },
+    "wrong_answer_valid": 15,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "mistral03-7b",
+    "mode": "no_context",
+    "language": "en",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 20
+    },
+    "wrong_answer_valid": 19,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "internlm25-7b",
+    "mode": "with_context",
+    "language": "zh",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 5
+    },
+    "wrong_answer_valid": 22,
+    "answer_correct_evidence_wrong": 45
+  },
+  {
+    "model_id": "internlm25-7b",
+    "mode": "with_context",
+    "language": "en",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 3
+    },
+    "wrong_answer_valid": 26,
+    "answer_correct_evidence_wrong": 22
+  },
+  {
+    "model_id": "internlm25-7b",
+    "mode": "no_context",
+    "language": "zh",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {},
+    "wrong_answer_valid": 23,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "internlm25-7b",
+    "mode": "no_context",
+    "language": "en",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {},
+    "wrong_answer_valid": 24,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "internlm25-7b-official2024",
+    "mode": "with_context",
+    "language": "zh",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 8
+    },
+    "wrong_answer_valid": 20,
+    "answer_correct_evidence_wrong": 41
+  },
+  {
+    "model_id": "internlm25-7b-official2024",
+    "mode": "with_context",
+    "language": "en",
+    "planned": 80,
+    "recorded": 80,
+    "error_type_counts": {
+      "format_or_response_contract": 4
+    },
+    "wrong_answer_valid": 22,
+    "answer_correct_evidence_wrong": 16
+  },
+  {
+    "model_id": "internlm25-7b-official2024",
+    "mode": "no_context",
+    "language": "zh",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 3
+    },
+    "wrong_answer_valid": 23,
+    "answer_correct_evidence_wrong": 0
+  },
+  {
+    "model_id": "internlm25-7b-official2024",
+    "mode": "no_context",
+    "language": "en",
+    "planned": 40,
+    "recorded": 40,
+    "error_type_counts": {
+      "format_or_response_contract": 3
+    },
+    "wrong_answer_valid": 22,
+    "answer_correct_evidence_wrong": 0
+  }
+]

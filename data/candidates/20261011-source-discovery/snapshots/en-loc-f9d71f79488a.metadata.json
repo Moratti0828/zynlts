@@ -1,0 +1,72 @@
+{
+  "id": "en-loc-f9d71f79488a",
+  "title": "American Women Fight for Their Own Independence | Timeless",
+  "language": "en",
+  "provider": "loc",
+  "source_name": "US Library of Congress",
+  "source_url": "https://blogs.loc.gov/loc/2026/08/american-women-fight-for-their-own-independence/",
+  "request_url": "https://blogs.loc.gov/loc/2026/08/american-women-fight-for-their-own-independence/",
+  "source_attribution": null,
+  "published_at": "2026-08-04",
+  "first_published_at": null,
+  "date_evidence": {
+    "kind": "publication_meta",
+    "field": "dc.date",
+    "value": "2026-08-04"
+  },
+  "date_review_note": "Official source page/API publication verified; earlier publication or repost elsewhere remains to be checked. Do not equate an URL stamp or update with first publication.",
+  "recency_tier": "2026-H2",
+  "domain_provisional": "history_culture",
+  "genre_provisional": "cultural_narrative",
+  "rights": "美国联邦机构工作人员原创文字通常适用17 USC 105；本候选仍待核作者及第三方权利。照片、媒体、文学引文、第三方投稿不自动获得许可；当前仅本地私有教学科研使用。",
+  "scope": "article_body_candidate",
+  "extraction_selector": ".entry-content",
+  "text": "—This is as guest post by Elizabeth A. Novara, a historian in the Manuscript Division . It also appears in the May/June issue of the Library of Congress Magazine, which is devoted to the celebration of the nation’s 250th birthday.\n\nThe Declaration of Independence inspired many American women to demand their rights.\n\nThe most famous instance is likely the nation’s first women’s rights convention in Seneca Falls, New York, in July 1848. At this meeting of over 300 persons, suffragist Elizabeth Cady Stanton read her now-famous “Declaration of Sentiments” protesting women’s inferior legal status and listing 11 resolutions for the moral, economic and political equality of women, the most radical of which demanded “the elective franchise.”\n\nFast forward to 1876, when the nation celebrated the 100th anniversary of the Declaration of Independence with the Centennial Exposition, a massive world’s fair held in Philadelphia that drew nearly 10 million visitors for an exuberant six-month celebration of American progress and patriotism.\n\nThe fair’s patriotic symbolism culminated on July 4, 1876, with a staged reading of the Declaration of Independence by a descendant of signer Richard Henry Lee, held in front of Independence Hall.\n\nMembers of the National Woman Suffrage Association , however, disrupted the event by pushing their way to the platform to give Susan B. Anthony the opportunity to present a “Declaration of Rights” for women to Thomas W. Ferry, acting vice president of the United States. Hurrying from the building, the women distributed copies of the document to the assembled body.\n\nOnce outside, a crowd gathered, and Anthony read the women’s demands, which included equality for all individuals.\n\nMeanwhile, a stirring painting by Archibald M. Willard, titled “The Spirit of ’76” (better known simply as “Yankee Doodle”), created especially for the Centennial Exposition, captured the imagination of the fair’s visitors. As they did with the stirring language of the Declaration of Independence, women’s rights activists appropriated the painting’s visual power for their own ends.\n\nMore than 40 years after the 1876 Centennial Exposition, the women’s suffrage movement continued to take inspiration from the Declaration of Independence and Willard’s painting in publications and postcards, tying the movement for women’s voting rights and equality to the rights of representation sought by the nation’s founding generation.",
+  "paragraphs": [
+    "—This is as guest post by Elizabeth A. Novara, a historian in the Manuscript Division . It also appears in the May/June issue of the Library of Congress Magazine, which is devoted to the celebration of the nation’s 250th birthday.",
+    "The Declaration of Independence inspired many American women to demand their rights.",
+    "The most famous instance is likely the nation’s first women’s rights convention in Seneca Falls, New York, in July 1848. At this meeting of over 300 persons, suffragist Elizabeth Cady Stanton read her now-famous “Declaration of Sentiments” protesting women’s inferior legal status and listing 11 resolutions for the moral, economic and political equality of women, the most radical of which demanded “the elective franchise.”",
+    "Fast forward to 1876, when the nation celebrated the 100th anniversary of the Declaration of Independence with the Centennial Exposition, a massive world’s fair held in Philadelphia that drew nearly 10 million visitors for an exuberant six-month celebration of American progress and patriotism.",
+    "The fair’s patriotic symbolism culminated on July 4, 1876, with a staged reading of the Declaration of Independence by a descendant of signer Richard Henry Lee, held in front of Independence Hall.",
+    "Members of the National Woman Suffrage Association , however, disrupted the event by pushing their way to the platform to give Susan B. Anthony the opportunity to present a “Declaration of Rights” for women to Thomas W. Ferry, acting vice president of the United States. Hurrying from the building, the women distributed copies of the document to the assembled body.",
+    "Once outside, a crowd gathered, and Anthony read the women’s demands, which included equality for all individuals.",
+    "Meanwhile, a stirring painting by Archibald M. Willard, titled “The Spirit of ’76” (better known simply as “Yankee Doodle”), created especially for the Centennial Exposition, captured the imagination of the fair’s visitors. As they did with the stirring language of the Declaration of Independence, women’s rights activists appropriated the painting’s visual power for their own ends.",
+    "More than 40 years after the 1876 Centennial Exposition, the women’s suffrage movement continued to take inspiration from the Declaration of Independence and Willard’s painting in publications and postcards, tying the movement for women’s voting rights and equality to the rights of representation sought by the nation’s founding generation."
+  ],
+  "body_bytes": 2502,
+  "word_count": 386,
+  "han_count": 0,
+  "sha256": "18e0a151ae038007fde3f12f3d614754b95d2373c1af562fe783ebefce494060",
+  "raw_sha256": "43a4ce4d045f6331e3b4017232bfdbcaefda4d006c6d2b10ca4951dc0d755476",
+  "raw_path": "data/candidates/20261011-source-discovery/snapshots/en-loc-f9d71f79488a.html",
+  "text_path": "data/candidates/20261011-source-discovery/snapshots/en-loc-f9d71f79488a.txt",
+  "reviewed": false,
+  "review_note": "真实下载的待审候选。尚无阅读理解题、参考答案或人工审定；不计入正式测评题库。",
+  "resolved_url": "https://blogs.loc.gov/loc/2026/08/american-women-fight-for-their-own-independence/",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified": "Sun, 11 Oct 2026 02:48:58 GMT",
+  "downloaded_at": "2026-10-11T02:48:59+00:00",
+  "derived_text_processing_log": {
+    "version": "candidate-prose-cleaning-v1",
+    "processed_at": "2026-10-11T02:54:49+00:00",
+    "previous_text_sha256": "87a6b071ebb51afee3b86acfc357613906f4f78bff379b43a2a37fd77947117e",
+    "previous_selector": ".entry-content",
+    "history_metadata_path": "data/candidates/20261011-source-discovery/processing-history/en-loc-f9d71f79488a.v1.metadata.json",
+    "removed_paragraphs": [
+      {
+        "text": "Subscribe to the blog— it’s free!",
+        "reason": "page subscription/contact/read-time/navigation UI"
+      }
+    ],
+    "original_paragraph_count": 10,
+    "result_paragraph_count": 9,
+    "policy": "Remove only page UI/recommendation containers, repeated title and standalone numbered CAS image captions; preserve original wording and document paragraphs. Raw source bytes unchanged."
+  },
+  "raw_capture_kind": "http_response_bytes",
+  "rights_reference_url": "https://www.loc.gov/legal/",
+  "rights_review_status": "pending_article_author_and_third_party_rights_review",
+  "human_reviewed": false,
+  "status": "candidate"
+}

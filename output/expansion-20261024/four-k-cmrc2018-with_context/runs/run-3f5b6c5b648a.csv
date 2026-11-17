@@ -1,0 +1,97 @@
+﻿model_name,language,article_id,question_id,dimension,kind,question,answer,unit,evidence_ids,confidence,abstain,answer_correct,choice_accuracy,short_em,short_token_f1,numeric_strict_accuracy,evidence_exact,evidence_f1,joint_success,brier_answer,latency_s,input_tokens,output_tokens,error,raw_response
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-30e392af87cfb7bad436,q01,D1,short,隐面龙属被发现的地点在哪里?,尼日的Gadoufaoua,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,4.526,644,50,,"{
+  ""answer"": ""尼日的Gadoufaoua"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-30e392af87cfb7bad436,q02,D1,short,隐面龙这个名字是谁命的？,保罗·塞里诺,,"[""p001""]",1,False,0,,0,0.6666666666666666,,0,0,0,1,1.405,642,46,,"{
+  ""answer"": ""保罗·塞里诺"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-30e392af87cfb7bad436,q03,D1,short,隐面龙属属于什么科？,阿贝力龙科,,"[""p001""]",1,False,0,,0,0.7142857142857143,,0,0,0,1,1.363,642,46,,"{
+  ""answer"": ""阿贝力龙科"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2e827be252c3982e5813,q01,D1,short,1985年林双不的哪部小说获得吴浊流文学奖小说佳作奖？,《大学女生庄南安》,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.527,659,48,,"{
+  ""answer"": ""《大学女生庄南安》"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2e827be252c3982e5813,q02,D1,short,谁曾鼓舞林双不积极去投稿？,张清海,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.952,646,29,,"{""answer"":""张清海"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2e827be252c3982e5813,q03,D1,short,林双不就读辅仁大学哲学系时出版了哪些散文集？,《山中归路》、《古榕》、《班会之死》,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.784,652,59,,"{
+  ""answer"": ""《山中归路》、《古榕》、《班会之死》"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-1ddca8ea1543636366d7,q01,D1,short,北海道狼又叫做什么？,虾夷狼,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.965,537,29,,"{""answer"":""虾夷狼"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-1ddca8ea1543636366d7,q02,D1,short,日本狼分布在哪里？,本州、四国及九州,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.255,535,41,,"{""answer"": ""本州、四国及九州"", ""unit"": """", ""evidence_ids"": [""p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-1ddca8ea1543636366d7,q03,D1,short,在北海道虾夷狼被爱奴族称作什么？,远吠之神,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.154,544,38,,"{""answer"": ""远吠之神"", ""unit"": """", ""evidence_ids"": [""p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-34dd37e1796d9743c8b7,q01,D1,short,约翰逊在什么时间成为黄蜂队队史上首位入选NBA全明星赛的球员？,1993年,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.028,615,31,,"{""answer"":""1993年"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-34dd37e1796d9743c8b7,q02,D1,short,拉里·约翰逊是什么运动的退役运动员？,篮球,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,0.909,606,27,,"{""answer"":""篮球"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-34dd37e1796d9743c8b7,q03,D1,short,1990年，约翰逊率队击败了哪个教练执教的杜克大学，夺得了当年NCAA冠军？,迈克·沙舍夫斯基,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.033,622,33,,"{""answer"":""迈克·沙舍夫斯基"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-185ca5b8daa53663ac53,q01,D1,short,王欣逸演出了哪个偶像剧男主角的童年时期？,《海豚湾恋人》,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.072,561,32,,"{""answer"":""《海豚湾恋人》"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-185ca5b8daa53663ac53,q02,D1,short,王欣逸多少岁时入围了金钟奖？,13,,"[""p001""]",1,False,0,,0,0.6666666666666666,,0,0,0,1,0.967,559,31,,"{""answer"":""13"", ""unit"":"""",""evidence_ids"":[""p001""], ""confidence"":1, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-185ca5b8daa53663ac53,q03,D1,short,王欣逸在国中时期加入了什么组织？,竹联帮,,"[""p001""]",1,False,0,,0,0.75,,0,0,0,1,1.329,559,44,,"{
+  ""answer"": ""竹联帮"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-cae49579c178bebcbecb,q01,D1,short,太阳历某年的年号是怎么命名的？,以该年第一日当天对照的神圣历的日符来命名,,"[""p001""]",1,False,0,,0,0.975609756097561,,0,0,0,1,1.313,618,40,,"{""answer"":""以该年第一日当天对照的神圣历的日符来命名"",""unit"":"""",""evidence_ids"":[""p001""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-cae49579c178bebcbecb,q02,D1,short,谁特别熟悉阿兹特克神圣历的用法？,阿兹特克祭司,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.212,621,40,,"{""answer"": ""阿兹特克祭司"", ""unit"": """", ""evidence_ids"": [""p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-cae49579c178bebcbecb,q03,D1,short,阿兹特克神圣历是怎么划分时间的？,一年分为20旬，一旬13日,,"[""p001""]",1,False,0,,0,0.36363636363636365,,0,0,0,1,1.522,619,52,,"{
+  ""answer"": ""一年分为20旬，一旬13日"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2391a5c0a60c6534f554,q01,D1,short,关于福斯否洛斯的父母有哪些说法？,一般认为是阿斯特莱欧斯和艾奥斯，也有说法认为是刻法罗斯和艾奥斯,,"[""p001""]",1,False,0,,0,1.0,,0,0,0,1,1.972,604,63,,"{
+  ""answer"": ""一般认为是阿斯特莱欧斯和艾奥斯，也有说法认为是刻法罗斯和艾奥斯"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2391a5c0a60c6534f554,q02,D1,short,后来希腊人仿照巴比伦人的做法把谁作为金星的唯一神祇？,阿佛洛狄忒,,"[""p001""]",1.0,False,1,,1,1.0,,0,0,0,0.0,1.239,613,41,,"{""answer"": ""阿佛洛狄忒"", ""unit"": """", ""evidence_ids"": [""p001""], ""confidence"": 1.0, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-2391a5c0a60c6534f554,q03,D1,short,掌管黄昏时出现的金星（太白星）的神祇是谁？,赫斯珀洛斯,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.415,611,46,,"{
+  ""answer"": ""赫斯珀洛斯"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-479ebb36f1b68de283bd,q01,D1,short,郑倢伃是哪个团体的成员？,我爱黑涩会,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.428,569,46,,"{
+  ""answer"": ""我爱黑涩会"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-479ebb36f1b68de283bd,q02,D1,short,郑倢伃学习了什么乐器？,小提琴及钢琴,,"[""p001""]",1,False,1,,1,1.0,,0,0,0,0,1.346,568,46,,"{
+  ""answer"": ""小提琴及钢琴"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 7B Instruct,zh,ref-cmrc2018-479ebb36f1b68de283bd,q03,D1,short,郑倢伃妹妹冰冰有着什么样的称号？,,,[],0,True,0,,0,0,,0,0,0,0,1.011,570,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"

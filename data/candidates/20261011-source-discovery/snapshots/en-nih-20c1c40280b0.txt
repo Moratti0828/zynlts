@@ -1,0 +1,37 @@
+Wednesday, September 23, 2026
+
+NIH-funded effort delivers new insights into symptoms and underlying mechanisms of these conditions to improve prevention, detection, treatment, and outcomes.
+
+A major research effort supported by the National Institutes of Health (NIH) is expanding our understanding of the molecular drivers and cellular landscape of the symptoms of Alzheimer’s disease and other neurodegenerative and neuropsychiatric disorders. This work represents the largest comparative investigation of human brain disorders at single-cell resolution, providing a foundation for new precision medicine approaches to diagnose and treat Alzheimer’s and related disorders.
+
+“This is the most comprehensive, population-scale, molecular mapping of Alzheimer’s and related neurodegenerative and neuropsychiatric disorders to date,” said Dr. Richard Hodes, director of NIH’s National Institute on Aging (NIA), which supported the research. “These insights provide a foundation that will help identify precision targets for managing, treating, and reducing the neuropsychiatric symptoms of Alzheimer’s and related dementias, while also adding to our knowledge of the molecular processes happening in different conditions.”
+
+Alzheimer’s and related dementias are frequently accompanied by an array of neuropsychiatric symptoms such as depression, agitation, aggression, psychosis, insomnia, and irritability. These symptoms not only impact quality of life for those with the conditions and caregivers but also accelerate the disease process and are difficult to treat. NIH established the PsychAD program to increase understanding of the molecular processes that underlie these symptoms and lay the foundation for finding better ways to treat and prevent them. In addition, because having certain neuropsychiatric conditions in early and midlife can increase the risk of developing dementia, research teams supported through the PsychAD program have been investigating the shared and distinct molecular mechanisms underlying neurodegenerative and neuropsychiatric disorders.
+
+A capstone of the research was the establishment of a single-cell atlas of biological pathways across brain disorders. The atlas of the human dorsolateral prefrontal cortex (part of the brain that is key for memory and other complex cognitive functions) uses over 6.3 million nuclei from brain tissue specimens from 1,494 donors with common and complex brain disorders, including Alzheimer’s, Parkinson’s disease, Lewy body disease, vascular dementia, schizophrenia, and bipolar disorder, as well as from neurotypical controls. The researchers were able to identify shared and disease-specific molecular processes across different cell types, while also defining trajectories associated with Alzheimer’s disease progression and the presence of neuropsychiatric symptoms.
+
+“These highly complex brain disorders impose an enormous public health burden, yet we still have a limited understanding of the molecular mechanisms that drive symptoms, progression, and resilience,” said Panos Roussos, M.D., Ph.D., professor in the Department of Genetics and Genomics Sciences and the Department of Psychiatry at the Icahn School of Medicine at Mount Sinai, and senior author of the studies. “By mapping shared and distinct cellular programs across Alzheimer’s disease, related dementias, and psychiatric disorders, PsychAD creates a framework for moving beyond traditional diagnostic boundaries toward precision approaches for target discovery, biomarker development, and therapeutic prioritization.”
+
+The studies also include:
+
+A single-nucleus transcriptome-wide association study of human brain disorders
+
+A single-cell atlas of the human prefrontal cortex over the lifespan, which can serve as a reference for distinguishing normal aging from disease-associated changes in the brain
+
+An atlas of cell-type-specific gene regulation across the human prefrontal cortex, which serves as a reference map linking genetic risk variants to specific brain cell types and molecular pathways
+
+An AI framework developed to identify cell states associated with Alzheimer’s disease pathology, cognitive decline, resilience, and neuropsychiatric symptoms
+
+The introduction of new personalized medicine tools and methods for conducting this kind of research
+
+All data and methods have been made available to the global research community to accelerate precision medicine research on brain aging, neurodegeneration, and psychiatric disorders.
+
+The PsychAD Consortium at Mount Sinai is a cross-disciplinary, multi-institutional effort that uses open science practices to deepen the understanding of the molecular and cellular mechanisms of Alzheimer’s and related neurodegenerative and neuropsychiatric disorders. The new research was published in nine manuscripts in Nature and multiple Nature portfolio journals.
+
+About the National Institute on Aging (NIA): NIA seeks to understand the nature of aging and diseases associated with growing older, with the goal of extending the healthy, active years of life. https://www.nia.nih.gov
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+Lee D, et al. Single-cell atlas of transcriptomic vulnerability across brain disorders. Nature. 2026. DOI: https://www.nature.com/articles/s41586-025-09573-z All papers can be found here: https://www.nature.com/collections/jfibicjjjg

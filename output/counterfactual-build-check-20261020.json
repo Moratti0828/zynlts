@@ -1,0 +1,107 @@
+{
+  "synthetic": true,
+  "human_review_count": 0,
+  "checks": [
+    {
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot-cf",
+      "question_id": "q01",
+      "old_gold": "327569",
+      "new_gold": "427569",
+      "exact_literal_edits_match": true,
+      "question_unchanged": true,
+      "draft_budget_admitted": true,
+      "gold_scorer_roundtrip": true
+    },
+    {
+      "article_id": "zh-nbs-d8dd3b95e0c6-dev20261020-cf",
+      "question_id": "q01",
+      "old_gold": "5963.4",
+      "new_gold": "6963.4",
+      "exact_literal_edits_match": true,
+      "question_unchanged": true,
+      "draft_budget_admitted": true,
+      "gold_scorer_roundtrip": true
+    },
+    {
+      "article_id": "zh-cas_health-d9258d90ea32-dev20261020-cf",
+      "question_id": "q01",
+      "old_gold": "300",
+      "new_gold": "420",
+      "exact_literal_edits_match": true,
+      "question_unchanged": true,
+      "draft_budget_admitted": true,
+      "gold_scorer_roundtrip": true
+    },
+    {
+      "article_id": "zh-cas_health-31517790bbba-dev20261020-cf",
+      "question_id": "q02",
+      "old_gold": "98",
+      "new_gold": "97",
+      "exact_literal_edits_match": true,
+      "question_unchanged": true,
+      "draft_budget_admitted": true,
+      "gold_scorer_roundtrip": true
+    },
+    {
+      "article_id": "zh-mct-2310a232a3eb-dev20261020-cf",
+      "question_id": "q01",
+      "old_gold": "30000",
+      "new_gold": "33000",
+      "exact_literal_edits_match": true,
+      "question_unchanged": true,
+      "draft_budget_admitted": true,
+      "gold_scorer_roundtrip": true
+    },
+    {
+      "article_id": "en-census-be20ba82c0cc-dev20261020-cf",
+      "question_id": "q01",
+      "old_gold": "87460",
+      "new_gold": "96460",
+      "exact_literal_edits_match": true,
+      "question_unchanged": true,
+      "draft_budget_admitted": true,
+      "gold_scorer_roundtrip": true
+    },
+    {
+      "article_id": "en-nih-63b73a8c608a-dev20261020-cf",
+      "question_id": "q01",
+      "old_gold": "15809",
+      "new_gold": "16809",
+      "exact_literal_edits_match": true,
+      "question_unchanged": true,
+      "draft_budget_admitted": true,
+      "gold_scorer_roundtrip": true
+    },
+    {
+      "article_id": "en-loc-829b92bd1e91-dev20261020-cf",
+      "question_id": "q02",
+      "old_gold": "150000",
+      "new_gold": "175000",
+      "exact_literal_edits_match": true,
+      "question_unchanged": true,
+      "draft_budget_admitted": true,
+      "gold_scorer_roundtrip": true
+    },
+    {
+      "article_id": "en-usgs_release-8091ff19244f-dev20261020-cf",
+      "question_id": "q02",
+      "old_gold": "2",
+      "new_gold": "3",
+      "exact_literal_edits_match": true,
+      "question_unchanged": true,
+      "draft_budget_admitted": true,
+      "gold_scorer_roundtrip": true
+    },
+    {
+      "article_id": "en-govuk-d5865b812982-dev20261020-cf",
+      "question_id": "q01",
+      "old_gold": "100",
+      "new_gold": "120",
+      "exact_literal_edits_match": true,
+      "question_unchanged": true,
+      "draft_budget_admitted": true,
+      "gold_scorer_roundtrip": true
+    }
+  ],
+  "note": "Mechanical derivation checks only, no independent human validation and not a contamination proof."
+}

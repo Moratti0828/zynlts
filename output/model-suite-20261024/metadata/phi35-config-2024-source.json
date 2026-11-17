@@ -1,0 +1,7 @@
+{
+  "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct/raw/af0dfb8029e8a74545d0736d30cb6b58d2f0f3f0/config.json",
+  "retrieved_at_utc": "2026-10-24T15:12:12.071299+00:00",
+  "file": "output\\model-suite-20261024\\metadata\\phi35-config-2024.json",
+  "sha256": "224de4f6a15b9d2a89695ec04b7f7ab2dd93a008a506979925e5a88cb5804974",
+  "bytes": 3451
+}

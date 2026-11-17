@@ -1,0 +1,15 @@
+{
+  "scope": "clean-state launcher health check; no model inference",
+  "model_calls": 0,
+  "old_python": {
+    "exit_code": 1,
+    "explicit_version_error": true
+  },
+  "http_status": 200,
+  "health": {
+    "status": "ok",
+    "version": "1.2.0"
+  },
+  "server_log": "Reading Bench ready: http://127.0.0.1:63925\n",
+  "status": "PASS"
+}

@@ -1,0 +1,35 @@
+To mark the 250th anniversary of the United States, the U.S. Geological Survey (USGS) has released a new portrait of the nation from space.
+
+The mosaic stretches from the rainforests of the Pacific Northwest to the Everglades of Florida, and from the peaks of the Rocky Mountains to the agricultural heartland of the Great Plains.
+
+The image, created using imagery from Landsat 8 and Landsat 9, is the latest chapter in a tradition that began half a century ago, when satellite imagery first gave Americans a new way to see their country.
+
+You can download the full resolution poster at https://www.usgs.gov/media/files/landsat-portrait-america .
+
+A Tradition Rooted in 1976
+
+Fifty years ago, to celebrate the bicentennial, the July 1976 issue of National Geographic featured the first Landsat photomosaic of the contiguous United States, titled "Portrait U.S.A." The image introduced millions of Americans to a new satellite perspective of their country and demonstrated the potential of Landsat's emerging Earth-observation record. It was proof that satellites could serve both as a scientific record and as a new way of seeing the American landscape.
+
+The new 2026 portrait continues that tradition. Where the 1976 mosaic introduced a new perspective on the nation, this image reflects how five decades of continuous observations, improved sensors, and advances in image processing have expanded our understanding of the American landscape.
+
+How It Was Made
+
+Creating a cloud-free, seamless portrait of an entire nation is no small feat. The mosaic was built by analyzing billions of Landsat 8 and Landsat 9 pixels from the USGS Landsat archive. For each location, cloud-free observations collected during the growing season were compared, and the pixels that best represented typical conditions were selected to create the final image. The result was then draped over elevation data to add depth and contrast.
+
+Five Decades of Change
+
+Over the past half century, Landsat has become part of the nation's decision-making infrastructure. Farmers use Landsat-derived products to monitor crop conditions and irrigation. Water managers rely on Landsat observations to track snow cover, reservoir conditions, and water use. Emergency managers use Landsat imagery to assess wildfire impacts and flooding after major disasters.
+
+The Landsat archive also provides a long-term record of change. Researchers use Landsat to map land cover change, monitor coastal environments, track urban growth, and study shifts in forests, wetlands, and agricultural lands. When a major event occurs, Landsat imagery provides the before-and-after context needed to understand what changed and how landscapes recover over time.
+
+Behind this portrait is more than five decades of observations that have documented the American landscape since 1972. These observations have become an essential resource for understanding how the nation has changed and for helping guide decisions about its future.
+
+Looking Ahead
+
+The Landsat record will continue to grow in the years ahead. Landsat 10 , planned for launch in 2031, will preserve the continuity that makes the Landsat archive so valuable while expanding what scientists can observe. Its Earth-imaging sensor will collect observations across many more wavelengths of light and at finer spatial resolution than previous Landsat missions. These advances will provide a more detailed picture of water quality, agriculture, minerals, vegetation health, and other environmental conditions.
+
+A Resource for Everyone
+
+Managed jointly by NASA and USGS, Landsat data underpin thousands of scientific, governmental, and commercial applications ranging from agriculture and forestry monitoring to disaster response, water resource management, and urban planning. The program's commitment to open, free, and timely data access has made it one of the most widely used Earth-observation datasets in the world.
+
+At 54 years and counting, the Landsat archive already spans more than a fifth of the nation's history. By the time Landsat 10 completes its mission, that fraction will be closer to a third.

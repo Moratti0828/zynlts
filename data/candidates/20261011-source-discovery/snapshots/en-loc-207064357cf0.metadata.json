@@ -1,0 +1,73 @@
+{
+  "id": "en-loc-207064357cf0",
+  "title": "A250: America’s pop culture, a worldwide export | Timeless",
+  "language": "en",
+  "provider": "loc",
+  "source_name": "US Library of Congress",
+  "source_url": "https://blogs.loc.gov/loc/2026/06/a250-americas-pop-culture-a-worldwide-export/",
+  "request_url": "https://blogs.loc.gov/loc/2026/06/a250-americas-pop-culture-a-worldwide-export/",
+  "source_attribution": null,
+  "published_at": "2026-06-29",
+  "first_published_at": null,
+  "date_evidence": {
+    "kind": "publication_meta",
+    "field": "dc.date",
+    "value": "2026-06-29"
+  },
+  "date_review_note": "Official source page/API publication verified; earlier publication or repost elsewhere remains to be checked. Do not equate an URL stamp or update with first publication.",
+  "recency_tier": "2026-H1-extension",
+  "domain_provisional": "history_culture",
+  "genre_provisional": "cultural_narrative",
+  "rights": "美国联邦机构工作人员原创文字通常适用17 USC 105；本候选仍待核作者及第三方权利。照片、媒体、文学引文、第三方投稿不自动获得许可；当前仅本地私有教学科研使用。",
+  "scope": "article_body_candidate",
+  "extraction_selector": ".entry-content",
+  "text": "This story also appears in the May/June issue of the Library of Congress Magazine , which focuses on America 250.\n\nBaseball, basketball, football, blues, jazz, rock, Hollywood, Broadway, comic books — what would the planet look like without the great spewing fountain of American pop culture?\n\nNever mind the economic, dance floor and movie theater impact of America’s entertainment industry. When the Cold War came down to it, the United States had what Soviet kids wanted most: blue jeans and rock ’n’ roll. Who could compete with Levi’s and Elvis?\n\nLikewise baseball, first codified in New York in 1845, was America’s much beloved national pastime — but then became a cultural mainstay in nations as diverse as Castro’s Cuba and post-World War II Japan.\n\nThe Library’s collections preserve much of this history in multiple formats. In the early 20th century, once modern recording and film technologies took hold and broadcast and mass distribution outlets proliferated, American creativity rocketed not just from Key West to Honolulu but around the world. The global impact of American films, television, theater, music (blues, jazz, rock, rap), comic books and even fast food can’t be quantified — but much of it can be catalogued.\n\nThe Library’s baseball holdings are exhaustive. The National Audio-Visual Conservation Center holds millions of items documenting film, music, television and radio history, perhaps best recognized in the National Film Registry and the National Recording Registry.\n\nThe Stephen A. Geppi Collection of Comics and Graphic Arts is home to iconic editions of heroes such as Spider-Man, Wonder Woman, Batman, Superman and so many more. The Music Division holds the entire collections of titans such as George and Ira Gershwin , Leonard Bernstein , Stephen Sondheim, Oscar Hammerstein II and Billy Strayhorn .\n\nBut it’s always the individual items that take the breath away.\n\nThe first storyboard of a Mickey Mouse cartoon , before anyone had seen anything by Walt Disney. The 1899 sheet music of Scott Joplin’s “ Maple Leaf Rag, ” sent in for copyright deposit, before “ragtime” was the name of an era or before the word “jazz” even existed. And there’s Ruth Graves Wakefield’s 1939 recipe for a little creation she served at her restaurant in Whitman, Massachusetts.\n\nYou, and the rest of the world, now know it as the chocolate chip cookie . Sometimes American history can be just that sweet.",
+  "paragraphs": [
+    "This story also appears in the May/June issue of the Library of Congress Magazine , which focuses on America 250.",
+    "Baseball, basketball, football, blues, jazz, rock, Hollywood, Broadway, comic books — what would the planet look like without the great spewing fountain of American pop culture?",
+    "Never mind the economic, dance floor and movie theater impact of America’s entertainment industry. When the Cold War came down to it, the United States had what Soviet kids wanted most: blue jeans and rock ’n’ roll. Who could compete with Levi’s and Elvis?",
+    "Likewise baseball, first codified in New York in 1845, was America’s much beloved national pastime — but then became a cultural mainstay in nations as diverse as Castro’s Cuba and post-World War II Japan.",
+    "The Library’s collections preserve much of this history in multiple formats. In the early 20th century, once modern recording and film technologies took hold and broadcast and mass distribution outlets proliferated, American creativity rocketed not just from Key West to Honolulu but around the world. The global impact of American films, television, theater, music (blues, jazz, rock, rap), comic books and even fast food can’t be quantified — but much of it can be catalogued.",
+    "The Library’s baseball holdings are exhaustive. The National Audio-Visual Conservation Center holds millions of items documenting film, music, television and radio history, perhaps best recognized in the National Film Registry and the National Recording Registry.",
+    "The Stephen A. Geppi Collection of Comics and Graphic Arts is home to iconic editions of heroes such as Spider-Man, Wonder Woman, Batman, Superman and so many more. The Music Division holds the entire collections of titans such as George and Ira Gershwin , Leonard Bernstein , Stephen Sondheim, Oscar Hammerstein II and Billy Strayhorn .",
+    "But it’s always the individual items that take the breath away.",
+    "The first storyboard of a Mickey Mouse cartoon , before anyone had seen anything by Walt Disney. The 1899 sheet music of Scott Joplin’s “ Maple Leaf Rag, ” sent in for copyright deposit, before “ragtime” was the name of an era or before the word “jazz” even existed. And there’s Ruth Graves Wakefield’s 1939 recipe for a little creation she served at her restaurant in Whitman, Massachusetts.",
+    "You, and the rest of the world, now know it as the chocolate chip cookie . Sometimes American history can be just that sweet."
+  ],
+  "body_bytes": 2470,
+  "word_count": 394,
+  "han_count": 0,
+  "sha256": "2b7286397d5e928b816a3bfa89e371d92c477c56c1993ef12a09809445149d96",
+  "raw_sha256": "9e9799519060348a679de11ff16878d6b68f2ca0a905f138dead21fa94835c57",
+  "raw_path": "data/candidates/20261011-source-discovery/snapshots/en-loc-207064357cf0.html",
+  "text_path": "data/candidates/20261011-source-discovery/snapshots/en-loc-207064357cf0.txt",
+  "reviewed": false,
+  "review_note": "真实下载的待审候选。尚无阅读理解题、参考答案或人工审定；不计入正式测评题库。",
+  "resolved_url": "https://blogs.loc.gov/loc/2026/06/a250-americas-pop-culture-a-worldwide-export/",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified": "Sun, 11 Oct 2026 02:49:05 GMT",
+  "downloaded_at": "2026-10-11T02:49:05+00:00",
+  "derived_text_processing_log": {
+    "version": "candidate-prose-cleaning-v1",
+    "processed_at": "2026-10-11T02:54:49+00:00",
+    "previous_text_sha256": "411b3fefd8b3359f26358ed73f4a84f387ec9c9e1809555f71c42c514f05f718",
+    "previous_selector": ".entry-content",
+    "history_metadata_path": "data/candidates/20261011-source-discovery/processing-history/en-loc-207064357cf0.v1.metadata.json",
+    "removed_paragraphs": [
+      {
+        "text": "Subscribe to the blog— it’s free!",
+        "reason": "page subscription/contact/read-time/navigation UI"
+      }
+    ],
+    "original_paragraph_count": 11,
+    "result_paragraph_count": 10,
+    "policy": "Remove only page UI/recommendation containers, repeated title and standalone numbered CAS image captions; preserve original wording and document paragraphs. Raw source bytes unchanged."
+  },
+  "raw_capture_kind": "http_response_bytes",
+  "rights_reference_url": "https://www.loc.gov/legal/",
+  "rights_review_status": "pending_article_author_and_third_party_rights_review",
+  "human_reviewed": false,
+  "status": "candidate"
+}

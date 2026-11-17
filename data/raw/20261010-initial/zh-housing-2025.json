@@ -1,0 +1,16 @@
+{
+  "id": "zh-housing-2025",
+  "url": "https://www.forestry.gov.cn/c/www/szxx/635119.jhtml",
+  "language": "zh",
+  "resolved_url": "https://www.forestry.gov.cn/c/www/szxx/635119.jhtml",
+  "downloaded_at": "2026-10-10T07:25:30+00:00",
+  "raw_sha256": "2082ff7c5dfd40409665d443ba58c974f2206466f35f7e4a0616501efb4e1627",
+  "extracted_sha256": "59258e9fb640dc0b31ded1757cc90072d093481ffd9b31362cb2ef316211e654",
+  "bytes": 67248,
+  "charset": "utf-8",
+  "http_headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "reviewed": false,
+  "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+}

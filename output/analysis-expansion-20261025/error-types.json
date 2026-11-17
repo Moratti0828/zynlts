@@ -1,0 +1,492 @@
+[
+  {
+    "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+    "model_id": "gemma2-9b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "dev-counterfactual-20261020",
+    "bank_track": "synthetic_diagnostic",
+    "planned": 5,
+    "errors": 0,
+    "error_type_counts": {},
+    "wrong_answer_valid": 0
+  },
+  {
+    "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+    "model_id": "gemma2-9b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "dev-counterfactual-20261020",
+    "bank_track": "synthetic_diagnostic",
+    "planned": 5,
+    "errors": 1,
+    "error_type_counts": {
+      "format_or_response_contract": 1
+    },
+    "wrong_answer_valid": 1
+  },
+  {
+    "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+    "model_id": "phi35-mini",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "dev-counterfactual-20261020",
+    "bank_track": "synthetic_diagnostic",
+    "planned": 5,
+    "errors": 0,
+    "error_type_counts": {},
+    "wrong_answer_valid": 3
+  },
+  {
+    "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+    "model_id": "phi35-mini",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "dev-counterfactual-20261020",
+    "bank_track": "synthetic_diagnostic",
+    "planned": 5,
+    "errors": 0,
+    "error_type_counts": {},
+    "wrong_answer_valid": 0
+  },
+  {
+    "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+    "model_id": "qwen25-7b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "dev-counterfactual-20261020",
+    "bank_track": "synthetic_diagnostic",
+    "planned": 5,
+    "errors": 0,
+    "error_type_counts": {},
+    "wrong_answer_valid": 0
+  },
+  {
+    "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+    "model_id": "qwen25-7b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "dev-counterfactual-20261020",
+    "bank_track": "synthetic_diagnostic",
+    "planned": 5,
+    "errors": 0,
+    "error_type_counts": {},
+    "wrong_answer_valid": 0
+  },
+  {
+    "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+    "model_id": "phi35-mini",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "reference-cmrc2018-20261025",
+    "bank_track": "public_historical_reference",
+    "planned": 150,
+    "errors": 0,
+    "error_type_counts": {},
+    "wrong_answer_valid": 86
+  },
+  {
+    "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+    "model_id": "qwen25-7b",
+    "mode": "no_context",
+    "num_ctx": 4096,
+    "language": "zh",
+    "bank_id": "reference-cmrc2018-20261025",
+    "bank_track": "public_historical_reference",
+    "planned": 24,
+    "errors": 0,
+    "error_type_counts": {},
+    "wrong_answer_valid": 24
+  },
+  {
+    "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+    "model_id": "qwen25-7b",
+    "mode": "with_context",
+    "num_ctx": 4096,
+    "language": "zh",
+    "bank_id": "reference-cmrc2018-20261025",
+    "bank_track": "public_historical_reference",
+    "planned": 24,
+    "errors": 0,
+    "error_type_counts": {},
+    "wrong_answer_valid": 8
+  },
+  {
+    "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+    "model_id": "qwen25-7b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "reference-cmrc2018-20261025",
+    "bank_track": "public_historical_reference",
+    "planned": 150,
+    "errors": 0,
+    "error_type_counts": {},
+    "wrong_answer_valid": 58
+  },
+  {
+    "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+    "model_id": "yi15-6b",
+    "mode": "no_context",
+    "num_ctx": 4096,
+    "language": "zh",
+    "bank_id": "reference-cmrc2018-20261025",
+    "bank_track": "public_historical_reference",
+    "planned": 24,
+    "errors": 1,
+    "error_type_counts": {
+      "format_or_response_contract": 1
+    },
+    "wrong_answer_valid": 23
+  },
+  {
+    "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+    "model_id": "yi15-6b",
+    "mode": "with_context",
+    "num_ctx": 4096,
+    "language": "zh",
+    "bank_id": "reference-cmrc2018-20261025",
+    "bank_track": "public_historical_reference",
+    "planned": 24,
+    "errors": 0,
+    "error_type_counts": {},
+    "wrong_answer_valid": 9
+  },
+  {
+    "source_bank_sha256": "67f918724560f34c140c7464d39480b4c651a73754ef260a77f264bad8e0d9e3",
+    "model_id": "gemma2-9b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "dev-recent-additions-20261024",
+    "bank_track": "recent_development",
+    "planned": 80,
+    "errors": 1,
+    "error_type_counts": {
+      "format_or_response_contract": 1
+    },
+    "wrong_answer_valid": 3
+  },
+  {
+    "source_bank_sha256": "67f918724560f34c140c7464d39480b4c651a73754ef260a77f264bad8e0d9e3",
+    "model_id": "gemma2-9b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "dev-recent-additions-20261024",
+    "bank_track": "recent_development",
+    "planned": 80,
+    "errors": 9,
+    "error_type_counts": {
+      "format_or_response_contract": 9
+    },
+    "wrong_answer_valid": 2
+  },
+  {
+    "source_bank_sha256": "67f918724560f34c140c7464d39480b4c651a73754ef260a77f264bad8e0d9e3",
+    "model_id": "qwen25-7b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "dev-recent-additions-20261024",
+    "bank_track": "recent_development",
+    "planned": 80,
+    "errors": 19,
+    "error_type_counts": {
+      "format_or_response_contract": 19
+    },
+    "wrong_answer_valid": 5
+  },
+  {
+    "source_bank_sha256": "67f918724560f34c140c7464d39480b4c651a73754ef260a77f264bad8e0d9e3",
+    "model_id": "qwen25-7b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "dev-recent-additions-20261024",
+    "bank_track": "recent_development",
+    "planned": 80,
+    "errors": 1,
+    "error_type_counts": {
+      "format_or_response_contract": 1
+    },
+    "wrong_answer_valid": 5
+  },
+  {
+    "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+    "model_id": "gemma2-9b",
+    "mode": "no_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "dev-expanded-20261020",
+    "bank_track": "recent_development",
+    "planned": 40,
+    "errors": 11,
+    "error_type_counts": {
+      "format_or_response_contract": 11
+    },
+    "wrong_answer_valid": 13
+  },
+  {
+    "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+    "model_id": "gemma2-9b",
+    "mode": "no_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "dev-expanded-20261020",
+    "bank_track": "recent_development",
+    "planned": 40,
+    "errors": 9,
+    "error_type_counts": {
+      "format_or_response_contract": 9
+    },
+    "wrong_answer_valid": 14
+  },
+  {
+    "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+    "model_id": "gemma2-9b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "dev-expanded-20261020",
+    "bank_track": "recent_development",
+    "planned": 80,
+    "errors": 1,
+    "error_type_counts": {
+      "format_or_response_contract": 1
+    },
+    "wrong_answer_valid": 4
+  },
+  {
+    "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+    "model_id": "gemma2-9b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "dev-expanded-20261020",
+    "bank_track": "recent_development",
+    "planned": 80,
+    "errors": 11,
+    "error_type_counts": {
+      "format_or_response_contract": 11
+    },
+    "wrong_answer_valid": 6
+  },
+  {
+    "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+    "model_id": "phi35-mini",
+    "mode": "no_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "dev-expanded-20261020",
+    "bank_track": "recent_development",
+    "planned": 40,
+    "errors": 5,
+    "error_type_counts": {
+      "format_or_response_contract": 5
+    },
+    "wrong_answer_valid": 20
+  },
+  {
+    "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+    "model_id": "phi35-mini",
+    "mode": "no_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "dev-expanded-20261020",
+    "bank_track": "recent_development",
+    "planned": 40,
+    "errors": 6,
+    "error_type_counts": {
+      "format_or_response_contract": 6
+    },
+    "wrong_answer_valid": 21
+  },
+  {
+    "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+    "model_id": "phi35-mini",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "dev-expanded-20261020",
+    "bank_track": "recent_development",
+    "planned": 80,
+    "errors": 22,
+    "error_type_counts": {
+      "format_or_response_contract": 22
+    },
+    "wrong_answer_valid": 11
+  },
+  {
+    "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+    "model_id": "phi35-mini",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "dev-expanded-20261020",
+    "bank_track": "recent_development",
+    "planned": 80,
+    "errors": 15,
+    "error_type_counts": {
+      "format_or_response_contract": 15
+    },
+    "wrong_answer_valid": 16
+  },
+  {
+    "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+    "model_id": "qwen25-7b",
+    "mode": "no_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "dev-expanded-20261020",
+    "bank_track": "recent_development",
+    "planned": 40,
+    "errors": 16,
+    "error_type_counts": {
+      "format_or_response_contract": 16
+    },
+    "wrong_answer_valid": 13
+  },
+  {
+    "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+    "model_id": "qwen25-7b",
+    "mode": "no_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "dev-expanded-20261020",
+    "bank_track": "recent_development",
+    "planned": 40,
+    "errors": 20,
+    "error_type_counts": {
+      "format_or_response_contract": 20
+    },
+    "wrong_answer_valid": 12
+  },
+  {
+    "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+    "model_id": "qwen25-7b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "dev-expanded-20261020",
+    "bank_track": "recent_development",
+    "planned": 80,
+    "errors": 16,
+    "error_type_counts": {
+      "format_or_response_contract": 16
+    },
+    "wrong_answer_valid": 5
+  },
+  {
+    "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+    "model_id": "qwen25-7b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "zh",
+    "bank_id": "dev-expanded-20261020",
+    "bank_track": "recent_development",
+    "planned": 80,
+    "errors": 3,
+    "error_type_counts": {
+      "format_or_response_contract": 3
+    },
+    "wrong_answer_valid": 6
+  },
+  {
+    "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+    "model_id": "phi35-mini",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "reference-squad2-20261025",
+    "bank_track": "public_historical_reference",
+    "planned": 150,
+    "errors": 16,
+    "error_type_counts": {
+      "format_or_response_contract": 16
+    },
+    "wrong_answer_valid": 74
+  },
+  {
+    "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+    "model_id": "qwen25-7b",
+    "mode": "no_context",
+    "num_ctx": 4096,
+    "language": "en",
+    "bank_id": "reference-squad2-20261025",
+    "bank_track": "public_historical_reference",
+    "planned": 24,
+    "errors": 3,
+    "error_type_counts": {
+      "format_or_response_contract": 3
+    },
+    "wrong_answer_valid": 14
+  },
+  {
+    "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+    "model_id": "qwen25-7b",
+    "mode": "with_context",
+    "num_ctx": 4096,
+    "language": "en",
+    "bank_id": "reference-squad2-20261025",
+    "bank_track": "public_historical_reference",
+    "planned": 24,
+    "errors": 5,
+    "error_type_counts": {
+      "format_or_response_contract": 5
+    },
+    "wrong_answer_valid": 6
+  },
+  {
+    "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+    "model_id": "qwen25-7b",
+    "mode": "with_context",
+    "num_ctx": 8192,
+    "language": "en",
+    "bank_id": "reference-squad2-20261025",
+    "bank_track": "public_historical_reference",
+    "planned": 150,
+    "errors": 25,
+    "error_type_counts": {
+      "format_or_response_contract": 25
+    },
+    "wrong_answer_valid": 54
+  },
+  {
+    "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+    "model_id": "yi15-6b",
+    "mode": "no_context",
+    "num_ctx": 4096,
+    "language": "en",
+    "bank_id": "reference-squad2-20261025",
+    "bank_track": "public_historical_reference",
+    "planned": 24,
+    "errors": 1,
+    "error_type_counts": {
+      "format_or_response_contract": 1
+    },
+    "wrong_answer_valid": 22
+  },
+  {
+    "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+    "model_id": "yi15-6b",
+    "mode": "with_context",
+    "num_ctx": 4096,
+    "language": "en",
+    "bank_id": "reference-squad2-20261025",
+    "bank_track": "public_historical_reference",
+    "planned": 24,
+    "errors": 1,
+    "error_type_counts": {
+      "format_or_response_contract": 1
+    },
+    "wrong_answer_valid": 16
+  }
+]

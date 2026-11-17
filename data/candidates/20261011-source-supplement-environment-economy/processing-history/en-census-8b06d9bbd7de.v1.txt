@@ -1,0 +1,89 @@
+Note: The figures in this story were revised September 24 based on updated weights in the Public-Use File. More information is available in the March 2026 User Note . While the revision to the weighting did result in some changes to the estimates, it did not change any of the conclusions made from statistical testing.
+
+About 56% of U.S. workers said they have used Artificial Intelligence (AI) on the job for at least one of 11 tasks asked about on the U.S. Census Bureau’s March 2026 Household Trends and Outlook Pulse Survey (HTOPS).
+
+The tasks covered a range of everyday work activities, such as searching for technical help, writing, generating ideas, and coding.
+
+Those who reported using AI at work in the last week were asked how many additional hours they would’ve needed to finish their work without AI. A quarter said AI saved them less than an hour and 31% said AI saved them one to two hours.
+
+The survey describes AI as the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception and decision-making.
+
+The survey question provided examples of AI as machine learning, natural language processing, virtual agents, and voice recognition.
+
+Among workers who used AI at work, about a third said it cut one or two hours from their tasks.
+
+The HTOPS, a bi-monthly survey that provides timely insight on social and economic impacts on U.S. households, asked workers about their AI use for 11 job tasks. The top five ways people said they’ve used AI at work:
+
+37% said to search for information or technical help.
+
+32% to write communications, documentation or instructions.
+
+32% to generate ideas.
+
+31% to interpret, translate or summarize information.
+
+27% to do administrative tasks.
+
+Fewer U.S. workers reported using AI for other tasks like coding or modeling, customer support and managing logistics or supply chains.
+
+How Often Workers Use AI and How Much Time They Save
+
+About 24% of AI users at work — those who reported using AI for any of the survey’s 11 tasks – said they used AI every day in the last week.
+
+Another 46% said they used it at least one day (but not every day), and 31% said they didn’t use it at all.
+
+Those who reported using AI at work in the last week were asked how many additional hours they would’ve needed to finish their work without AI.
+
+A quarter said AI saved them less than an hour and 31% said AI saved them one to two hours.
+
+A smaller share (15%) reported AI cut their workload by three to four hours and another 15% said by more than four hours.
+
+Some (10%) said AI didn’t save any time and 4% reported using AI required additional time to complete their work.
+
+AI Use at Work by Educational Attainment
+
+Higher shares of workers with a bachelor’s degree or higher reported using AI at work compared to those with lower levels of education.
+
+For example, 46% of workers with a bachelor’s degree or higher reported using AI at work to interpret, translate or summarize information, compared with 25% of those with some college or an associate’s degree and 15% with a high school diploma or less (including high school equivalency).
+
+Asked how often they used AI at work last week, 75% of those with a bachelor’s degree or higher said at least one day , compared with 62% with some college or an associate’s degree and 59% with a high school diploma/equivalency or less.
+
+AI Use at Work by Sex
+
+There were some differences in the tasks that men and women used AI for at work.
+
+About 42% of male workers said they used it to search for information compared with 31% of female workers. And about a third of male workers (34%) used it to interpret, translate or summarize information compared to 28% of female workers.
+
+When AI users at work were asked how much they used AI in the last week, 30% of male workers said they used it every day, compared with 17% of female workers. Half of female workers said they used it at least one day, but not every day, and 41% of male workers said the same.
+
+About 3 in 10 male (28%) and female workers (32%) said they did not use AI last week.
+
+AI Use at Work by Age
+
+Younger workers were more likely to report using AI for four of the top five job tasks.
+
+For example, 34% of workers ages 18 to 49 said they used it to write communications, documentation or instructions, compared with 29% of workers age 50 and older. There were no statistical differences in searching for information or technical help by age group.
+
+About a quarter (25%) of AI users at work ages 18 to 49 and 20% of those age 50 and older reported using AI daily last week.
+
+Additional Resources and Data
+
+The HTOPS March 2026 table package also features findings on topics, such as employment, mental health and social connectedness.
+
+The HTOPS March 2026 PUF contains data on the questions featured in this article and can be used to calculate standard errors for estimates presented here.
+
+About the Research
+
+All comparative statements have undergone statistical testing and, unless otherwise noted, all comparisons are statistically significant at the 90% confidence level.
+
+All data are subject to error arising from a variety of sources, including sampling error, non-sampling error, modeling error, and any other sources of error. More information about the Household Trends and Outlook Pulse Survey is available here .
+
+Renee Stepler is a supervisory survey statistician at the Census Bureau.
+
+Related Statistics
+
+Household Trends and Outlook Pulse Survey (HTOPS) The Household Trends and Outlook Pulse Survey (HTOPS) panel collects information on topics such as food and nutrition, transportation, employment, and education
+
+Our email newsletter is sent out on the day we publish a story. Get an alert directly in your inbox to read, share and blog about our newest stories.
+
+Contact our Public Information Office for media inquiries or interviews.

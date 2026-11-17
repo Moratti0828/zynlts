@@ -1,0 +1,9 @@
+{
+  "recorded_at_server_utc": "2026-10-11T02:32:07.263243+00:00",
+  "cuda_visible_devices": "0",
+  "library": "libcuda.so.1",
+  "cuda_available": true,
+  "cuInit_code": 0,
+  "cuDeviceGetCount_code": 0,
+  "device_count": 1
+}

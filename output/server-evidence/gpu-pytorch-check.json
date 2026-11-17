@@ -1,0 +1,13 @@
+{
+  "recorded_at_server_utc": "2026-10-10T14:01:51.315107+00:00",
+  "cuda_visible_devices": "0",
+  "interpreter": "/home/jmy/miniconda3/envs/zimage/bin/python",
+  "torch_version": "2.6.0+cu124",
+  "torch_built_cuda": "12.4",
+  "cuda_available": false,
+  "reported_device_count": 1,
+  "warnings": [
+    "CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:109.)"
+  ],
+  "limit": "Readiness diagnostic only. No tensors or model weights were allocated on GPUs."
+}

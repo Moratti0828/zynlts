@@ -1,0 +1,101 @@
+{
+  "sha": "eee5fdbf62f8613a7812b03419e6b29617b74fd1",
+  "node_id": "C_kwDOA_RdMdoAKGVlZTVmZGJmNjJmODYxM2E3ODEyYjAzNDE5ZTZiMjk2MTdiNzRmZDE",
+  "commit": {
+    "author": {
+      "name": "Robin Jia",
+      "email": "robinjia@stanford.edu",
+      "date": "2023-10-12T19:49:22Z"
+    },
+    "committer": {
+      "name": "Robin Jia",
+      "email": "robinjia@stanford.edu",
+      "date": "2023-10-12T19:49:22Z"
+    },
+    "message": "Update 2.0",
+    "tree": {
+      "sha": "620f9919744203d50647a58912dabc4eda80f1b7",
+      "url": "https://api.github.com/repos/rajpurkar/SQuAD-explorer/git/trees/620f9919744203d50647a58912dabc4eda80f1b7"
+    },
+    "url": "https://api.github.com/repos/rajpurkar/SQuAD-explorer/git/commits/eee5fdbf62f8613a7812b03419e6b29617b74fd1",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/rajpurkar/SQuAD-explorer/commits/eee5fdbf62f8613a7812b03419e6b29617b74fd1",
+  "html_url": "https://github.com/rajpurkar/SQuAD-explorer/commit/eee5fdbf62f8613a7812b03419e6b29617b74fd1",
+  "comments_url": "https://api.github.com/repos/rajpurkar/SQuAD-explorer/commits/eee5fdbf62f8613a7812b03419e6b29617b74fd1/comments",
+  "author": {
+    "login": "robinjia",
+    "id": 7267349,
+    "node_id": "MDQ6VXNlcjcyNjczNDk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7267349?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/robinjia",
+    "html_url": "https://github.com/robinjia",
+    "followers_url": "https://api.github.com/users/robinjia/followers",
+    "following_url": "https://api.github.com/users/robinjia/following{/other_user}",
+    "gists_url": "https://api.github.com/users/robinjia/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/robinjia/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/robinjia/subscriptions",
+    "organizations_url": "https://api.github.com/users/robinjia/orgs",
+    "repos_url": "https://api.github.com/users/robinjia/repos",
+    "events_url": "https://api.github.com/users/robinjia/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/robinjia/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "robinjia",
+    "id": 7267349,
+    "node_id": "MDQ6VXNlcjcyNjczNDk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7267349?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/robinjia",
+    "html_url": "https://github.com/robinjia",
+    "followers_url": "https://api.github.com/users/robinjia/followers",
+    "following_url": "https://api.github.com/users/robinjia/following{/other_user}",
+    "gists_url": "https://api.github.com/users/robinjia/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/robinjia/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/robinjia/subscriptions",
+    "organizations_url": "https://api.github.com/users/robinjia/orgs",
+    "repos_url": "https://api.github.com/users/robinjia/repos",
+    "events_url": "https://api.github.com/users/robinjia/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/robinjia/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "5173b85fbe7ae4e70b3194b0c7428ff6f61e488a",
+      "url": "https://api.github.com/repos/rajpurkar/SQuAD-explorer/commits/5173b85fbe7ae4e70b3194b0c7428ff6f61e488a",
+      "html_url": "https://github.com/rajpurkar/SQuAD-explorer/commit/5173b85fbe7ae4e70b3194b0c7428ff6f61e488a"
+    }
+  ],
+  "stats": {
+    "total": 8,
+    "additions": 4,
+    "deletions": 4
+  },
+  "files": [
+    {
+      "sha": "e4acbb57841d80bbadbce75ce2be0a82e52e0113",
+      "filename": "out-v2.0.json",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "changes": 8,
+      "blob_url": "https://github.com/rajpurkar/SQuAD-explorer/blob/eee5fdbf62f8613a7812b03419e6b29617b74fd1/out-v2.0.json",
+      "raw_url": "https://github.com/rajpurkar/SQuAD-explorer/raw/eee5fdbf62f8613a7812b03419e6b29617b74fd1/out-v2.0.json",
+      "contents_url": "https://api.github.com/repos/rajpurkar/SQuAD-explorer/contents/out-v2.0.json?ref=eee5fdbf62f8613a7812b03419e6b29617b74fd1",
+      "patch": "@@ -10288,7 +10288,7 @@\n             },\n             \"submission\": {\n                 \"created\": 1696000895,\n-                \"description\": \"RoberTa Parallel Adapters Single (Quant Studio)\",\n+                \"description\": \"RoberTa+Parallel+Adapters (single model) (Quant Studio)\",\n                 \"num_period_submissions\": 0,\n                 \"num_total_submissions\": 3,\n                 \"public\": true,\n@@ -15817,7 +15817,7 @@\n             },\n             \"submission\": {\n                 \"created\": 1696006062,\n-                \"description\": \"RoberTa Fusion Adapters Single (Quant Studio)\",\n+                \"description\": \"RoberTa+Fusion+Adapters (single model) (Quant Studio)\",\n                 \"num_period_submissions\": 0,\n                 \"num_total_submissions\": 3,\n                 \"public\": true,\n@@ -16531,7 +16531,7 @@\n             },\n             \"submission\": {\n                 \"created\": 1695019511,\n-                \"description\": \"RoberTa Adapter Single (Quant Studio)\",\n+                \"description\": \"RoberTa+Adapter (single model) (Quant Studio)\",\n                 \"num_period_submissions\": 0,\n                 \"num_total_submissions\": 3,\n                 \"public\": true,\n@@ -23302,5 +23302,5 @@\n             }\n         }\n     ],\n-    \"updated\": 1696896105.4632692\n+    \"updated\": 1697137750.6356642\n }\n\\ No newline at end of file"
+    }
+  ]
+}

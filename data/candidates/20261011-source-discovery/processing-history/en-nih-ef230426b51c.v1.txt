@@ -1,0 +1,39 @@
+Friday, May 22, 2026
+
+Modulating intracellular signaling may extend drug effects.
+
+A team of researchers at the National Institutes of Health (NIH) have unveiled new details about the events GLP-1 receptor agonists trigger within neurons, which have been largely unexplored until now. A study in mice identified key intracellular signaling processes that are tied to the weight-loss effects of the GLP-1 drug semaglutide. The findings improve our understanding of how increasingly prevalent GLP-1s may influence human behavior and identify new opportunities to potentially enhance treatment.
+
+The weight-loss benefits of GLP-1s are well documented and scientists generally know the brain regions associated with these effects. However, several questions remain, such as why responses to medication differ between patients and why the effects for most eventually plateau.
+
+“We know much less about the nuts and bolts of what goes on within the neurons that these medications target. By digging into these mechanisms, we’re beginning to answer some of these questions,” said co-corresponding author Andrew Lutas, Ph.D., an investigator at NIH’s National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK).
+
+Experiments led by first author Claire Gao, Ph.D., a postdoctoral fellow at NIH’s National Institute of General Medical Sciences (NIGMS), utilized a fluorescence imaging technique to explore semaglutide-induced intracellular activity in living brain tissue from mice. By selectively inhibiting or removing different intracellular signaling molecules, the researchers were able to identify which ones were most important for weight loss
+
+Researchers found that the drug’s weight-loss effects hinged on increased levels of the signaling molecule cyclic adenosine monophosphate, or cAMP, in the area postrema — a brain region containing circuits related to appetite. However, these increases varied from neuron to neuron.
+
+“It was not an all or nothing phenomenon. We observed that cAMP responses across cells varied on a continuum,” said co-corresponding author Michael Krashes, Ph.D., a senior investigator at NIDDK.
+
+Some cells sustained their elevated cAMP levels in the presence of semaglutide. Meanwhile, other neurons only experienced temporary increases, possibly because they internalized or degraded their GLP-1 receptors, the authors explained. By inhibiting the naturally occurring enzyme PDE4, which degrades cAMP, with the drug roflumilast they showed that they could skew neurons toward a sustained response.
+
+The finding suggests that the effects of GLP-1s could be extended, potentially reducing how often these drugs must be administered. Eventually, cAMP modulation may be a way to break past plateaus experienced by many patients. Finding out will require much more work, the authors noted.
+
+The methods only permitted researchers to examine intracellular signaling in brain tissue over a matter of hours. In the future, the researchers aim to apply new techniques to study the intracellular effects of GLP-1s over days and weeks.
+
+About the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK): The NIDDK, a component of the National Institutes of Health (NIH), conducts and supports research on diabetes and other endocrine and metabolic diseases; digestive diseases, nutrition and obesity; and kidney, urologic and hematologic diseases. Spanning the full spectrum of medicine and afflicting people of all ages and ethnic groups, these diseases encompass some of the most common, severe, and disabling conditions affecting Americans. For more information about the NIDDK and its programs, see www.niddk.nih.gov .
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+Claire Gao et al. Semaglutide drives weight loss through cAMP-dependent mechanisms in GLP1R-1 expressing hindbrain neurons. Nature Metabolism. 2026. DOI: https://www.nature.com/articles/s42255-026-01534-8
+
+Institute/Center
+
+National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)
+
+NIH Office of Communications
+
+Connect with Us
+
+Subscribe to news releases RSS Feed

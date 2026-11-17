@@ -1,0 +1,85 @@
+2 min read
+
+Planning crewed missions to the Moon and Mars involves preparing for the medical realities of long-duration space travel. Factors like cosmic radiation, microgravity, and distance from Earth create unique health considerations for astronauts. To anticipate these needs ahead of time, NASA developed the Integrated Medical Model (IMM).
+
+The IMM is a decision-support tool that uses medical evidence and computational modeling to forecast health risks before a mission launches.
+
+How the Model Works
+
+The IMM pulls from decades of flight records and clinical research compiled in NASA’s Integrated Medical Evidence Database (iMED).
+
+Using Monte Carlo simulations, the tool models thousands of potential mission paths. Each run accounts for specific mission parameters, such as crew size, flight duration, planned spacewalks, and the spacecraft environment. This approach allows planners to evaluate risks for new mission profiles that lack historical precedents.
+
+The model evaluates more than 100 medical conditions, ranging from common health concerns to hazards specific to spaceflight, like:
+
+Decompression sickness
+
+Radiation sickness
+
+Space motion sickness
+
+Smoke inhalation and barotrauma
+
+Routine conditions like infections and kidney stones
+
+Practical Applications for Mission Planning
+
+The model generates several quantitative metrics to help teams prepare:
+
+Total Medical Events (TME): The projected number of illnesses or injuries during the mission.
+
+Crew Health Index (CHI): An indicator of the crew’s overall functional capacity.
+
+Quality-Adjusted Time Lost (QTL): The estimated time spent diagnosing conditions, treating patients, and recovering.
+
+Probability of Evacuation and Loss of Crew Life (EVAC / LOCL): The likelihood of a medical emergency requiring a mission abort or resulting in a fatality.
+
+Resource Utilization: Projections of which medical consumables, medications, and tools the crew will need.
+
+Because spacecraft carry strict mass and volume constraints, these outputs guide the composition of onboard medical kits (MedCap). Mission planners can balance necessary medical coverage against available cargo space with clear data in hand.
+
+Planning for Greater Distances
+
+On the International Space Station, emergency medical evacuation back to Earth can happen within hours. Deep-space exploration changes that timeline significantly, introducing communication delays and eliminating the option for a rapid return.
+
+The IMM provides the data flight surgeons and engineers need to build resilient, self-sufficient medical systems for long journeys ahead.
+
+Explore More
+
+To dig deeper into how NASA prepares for the medical realities of space travel, explore the full IMM overview and supporting documentation:
+
+Discover Related Topics
+
+Human Spaceflight and Aviation Standards
+
+The Human Spaceflight and Aviation Standards Team continuously works with subject matter experts and with each space flight program to…
+
+NASA Integrated Medical Model (IMM) Overview
+
+The Integrated Medical Model (IMM) is a sophisticated, stochastic (probabilistic) risk assessment tool used by NASA to evaluate the impact…
+
+Technical and Medical Briefs
+
+Technical Briefs are available for standards that offer technical data, background, and application notes for vehicle developers and medical professionals.…
+
+Aerospace Medical Certification Standard
+
+This NASA Technical Standard provides medical requirements and clinical procedures designed to ensure crew health and safety and occupational longevity…
+
+Related Terms
+
+Astronauts
+
+Exploration Systems Development Mission Directorate
+
+Human Spaceflight Mission Directorate
+
+Humans in Space
+
+International Space Station (ISS)
+
+Johnson Space Center
+
+Knowledge Inventory For Professionals
+
+Office of the Chief Health and Medical Officer (OCHMO)

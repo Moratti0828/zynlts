@@ -1,0 +1,287 @@
+{
+  "client_date": "2026-10-26",
+  "scope": "real_live_demo_and_frontend_backend_integration",
+  "formal": false,
+  "human_review_count": 0,
+  "completed_runs": 4,
+  "real_model_call_attempts": 8,
+  "response_errors": 0,
+  "jobs": [
+    {
+      "environment": "local-zh",
+      "run_id": "run-3c2034d26172",
+      "status": "completed",
+      "attempts": 1,
+      "response_errors": 0,
+      "request_latency_sum_s": 8.8,
+      "verification_path": "output/live-demo-20261026/local-zh/verification.json"
+    },
+    {
+      "environment": "local-en",
+      "run_id": "run-48c1d48d99b4",
+      "status": "completed",
+      "attempts": 1,
+      "response_errors": 0,
+      "request_latency_sum_s": 1.92,
+      "verification_path": "output/live-demo-20261026/local-en/verification.json"
+    },
+    {
+      "environment": "server-zh",
+      "run_id": "run-61df87c2a21f",
+      "status": "completed",
+      "attempts": 3,
+      "response_errors": 0,
+      "request_latency_sum_s": 7.209,
+      "verification_path": "output/live-demo-20261026/server-zh/verification.json"
+    },
+    {
+      "environment": "browser-server",
+      "run_id": "run-803e05d88cc8",
+      "status": "completed",
+      "attempts": 3,
+      "response_errors": 0,
+      "request_latency_sum_s": 6.536,
+      "verification_path": "output/live-demo-20261026/browser-server/verification.json"
+    }
+  ],
+  "final_readiness": [
+    {
+      "environment": "server",
+      "url": "http://127.0.0.1:8877/#demo",
+      "ready": true,
+      "available_model_configurations": 11,
+      "preset_count": 4,
+      "model_generation_calls_from_check": 0
+    },
+    {
+      "environment": "local",
+      "url": "http://127.0.0.1:8787/#demo",
+      "ready": true,
+      "available_model_configurations": 2,
+      "preset_count": 4,
+      "model_generation_calls_from_check": 0
+    }
+  ],
+  "tests": {
+    "python_unittest": {
+      "passed": 95,
+      "log": "output/live-demo-20261026/python-tests.txt"
+    },
+    "frontend_offline": {
+      "previous": 7,
+      "new": 14,
+      "total": 21,
+      "passed": true
+    },
+    "javascript_syntax": "passed",
+    "powershell_5_1_and_7_launcher": "passed",
+    "previous_expansion_delivery_hash_files_checked": 103
+  },
+  "browser": {
+    "actual_start_click": true,
+    "run_id": "run-803e05d88cc8",
+    "same_id_after_reload": true,
+    "download_json_matches_api_bytes": true,
+    "console_error_count": 0,
+    "screenshot": "output/live-demo-20261026/live-demo-server-completed.png"
+  },
+  "server_deployment": {
+    "health": {
+      "status": "ok",
+      "version": "1.2.0"
+    },
+    "deployed_files": {
+      "backend/server.py": "4a67f2f0a479c2481cbd7804431c1ef25909d9230bdb7745c8eb720a4f1784d3",
+      "backend/live_demo.py": "0d3e2783e982aabc7387c259181e9863148486449227c692db7d2269d112188a",
+      "frontend/index.html": "e8f00144e977823990ee035921df24da4558b34890913e1aa113ea321094ff9a",
+      "frontend/app.js": "e76134a67803ab77da7599733a228bb22bd0c8a15a0302a782c026ed8f793e31",
+      "frontend/styles.css": "35fe947975dd2afff94880cee0be79eb06d0609af7efbd4829f26b3a01b15e11"
+    },
+    "previous_files": {
+      "backend/server.py": true,
+      "backend/live_demo.py": false,
+      "frontend/index.html": true,
+      "frontend/app.js": true,
+      "frontend/styles.css": true
+    },
+    "backup": {
+      "path": "/home/jmy/reading-bench/runtime/deployments/20261026/before-demo-20261026T140712Z/bench.sqlite3",
+      "sha256": "133e191a2b792a0207e7589d479c7e2406f84d35d200761187418da28ac83e8a"
+    },
+    "demo_ready": true,
+    "model_calls": 0
+  },
+  "local_before_backup_sha256": "db8241d0018df0d23f3adbc5fa26e87812b8733a221ea2edfbefba28ee2b28c4",
+  "source_files": [
+    {
+      "path": "README.md",
+      "sha256": "721ba6a90d947e8381339a02eb554052be36113d9473c43ff6c2eb7cf74046d2"
+    },
+    {
+      "path": "task_plan.md",
+      "sha256": "8ecce3499e43d08a07a6e4ab20894e6c766f2912b705721dc874e46aad447c21"
+    },
+    {
+      "path": "notes.md",
+      "sha256": "597fc7f208b95467d62f687a216defadd5ac986a2c4d67a911d95010780698e2"
+    },
+    {
+      "path": "backend/live_demo.py",
+      "sha256": "0d3e2783e982aabc7387c259181e9863148486449227c692db7d2269d112188a"
+    },
+    {
+      "path": "backend/server.py",
+      "sha256": "4a67f2f0a479c2481cbd7804431c1ef25909d9230bdb7745c8eb720a4f1784d3"
+    },
+    {
+      "path": "frontend/index.html",
+      "sha256": "e8f00144e977823990ee035921df24da4558b34890913e1aa113ea321094ff9a"
+    },
+    {
+      "path": "frontend/app.js",
+      "sha256": "e76134a67803ab77da7599733a228bb22bd0c8a15a0302a782c026ed8f793e31"
+    },
+    {
+      "path": "frontend/styles.css",
+      "sha256": "35fe947975dd2afff94880cee0be79eb06d0609af7efbd4829f26b3a01b15e11"
+    },
+    {
+      "path": "launch-demo.ps1",
+      "sha256": "acfc29499ec9382635eba3a877b728e4636c24242670a2a81b01b896e734f0e6"
+    },
+    {
+      "path": "docs/live-demo-guide-20261026.md",
+      "sha256": "0c8b60c7bc5060783820f4fd8bd7406bc2cc0cc3d36ce423dc3e3d63cb189478"
+    },
+    {
+      "path": "docs/live-demo-verification-20261026.md",
+      "sha256": "fa186a58c6d4f09bc952a802dcddda9ac4e2bc52eda730ddbb921a3bed0b5c99"
+    },
+    {
+      "path": "scripts/deploy_live_demo_20261026.py",
+      "sha256": "e76024b72f5becc4cb0b7cace80002b556affe86d5355d7cab71ee2851dbf9b6"
+    },
+    {
+      "path": "scripts/verify_live_demo_20261026.py",
+      "sha256": "c904ebb0ca575ea10c0a00d140bdacc6cb4334e70a2a78585ebd65aebf742f97"
+    },
+    {
+      "path": "tests/test_live_demo.py",
+      "sha256": "88762dac0ad5c32614c8d562cb8d16449464235e8656f474fca8aa7bb2ef3949"
+    },
+    {
+      "path": "tests/test_live_demo_frontend.js",
+      "sha256": "680e392afb92b8ae6a8e04a0058271c53bfa8a00fecc45aaa6922031c1e7ca03"
+    },
+    {
+      "path": "tests/test_demo_launcher.ps1",
+      "sha256": "21e810b42e36b72b3679299aba73556cc1fe645158c715ff83ba49a096506874"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "output/live-demo-20261026/browser-server/run-803e05d88cc8.csv",
+      "sha256": "2c4f035f4c5ff760f912bff8ad9b7322270a0017e951d5498ba1e49447e3630a"
+    },
+    {
+      "path": "output/live-demo-20261026/browser-server/run-803e05d88cc8.json",
+      "sha256": "cc4d78af347381a64a2d014187f82caa3a5e4cedba6af55b34f5bbf1972abfff"
+    },
+    {
+      "path": "output/live-demo-20261026/browser-server/verification.json",
+      "sha256": "2a266a6094d5716b116dcc33e6adcd59a47fc367b711ea8fe7d5e4dbf68e4aae"
+    },
+    {
+      "path": "output/live-demo-20261026/live-demo-server-completed.png",
+      "sha256": "9ed9fbce8dc1e6453f8d920113abdf4b3efdc1079107a4e4d3399bb703e80f39"
+    },
+    {
+      "path": "output/live-demo-20261026/local-en/created.json",
+      "sha256": "09826ffc3e864959385a7f834f633b14075b9b91739e3bbdc37c00a1c35290a7"
+    },
+    {
+      "path": "output/live-demo-20261026/local-en/idempotent-retry.json",
+      "sha256": "440c9bdaeec2702ad817e57c03978638e5c4ec573d7630c2cc0c5ea846825e35"
+    },
+    {
+      "path": "output/live-demo-20261026/local-en/plan.json",
+      "sha256": "5a7783df445dd17a8f9619c32c1759cf3be9bb9d4f9e7feec665ea8944dcb553"
+    },
+    {
+      "path": "output/live-demo-20261026/local-en/run-48c1d48d99b4.csv",
+      "sha256": "701ecae7ff274cef366e31b5782b401c682914dc612de5c49082d3881c5de8e7"
+    },
+    {
+      "path": "output/live-demo-20261026/local-en/run-48c1d48d99b4.json",
+      "sha256": "c4a62582e6c893818f822b815320e73920bd7b0559507b873dfff61769b65bac"
+    },
+    {
+      "path": "output/live-demo-20261026/local-en/status-before.json",
+      "sha256": "524c4dec716453ddefc4dd8115aabbbaa3edc38f75e1981e6f8a417d035a28f3"
+    },
+    {
+      "path": "output/live-demo-20261026/local-en/verification.json",
+      "sha256": "e08e89b76e38c9fecdbdf098cbf94297c459587915888c71346e523cc55f2671"
+    },
+    {
+      "path": "output/live-demo-20261026/local-zh/created.json",
+      "sha256": "0d0b2617d08a8d731667bb5d01b0dde4384d42c98d6b42522f756251d71a5290"
+    },
+    {
+      "path": "output/live-demo-20261026/local-zh/idempotent-retry.json",
+      "sha256": "bd340f5b559d17be8ac11c8808e8741b13db1b7e50eff1a213dc812225d8190d"
+    },
+    {
+      "path": "output/live-demo-20261026/local-zh/plan.json",
+      "sha256": "820a07e58d49a766efc213713fcdf724512e173923d1c73cd8121dd2d0886fd3"
+    },
+    {
+      "path": "output/live-demo-20261026/local-zh/run-3c2034d26172.csv",
+      "sha256": "5c200a4b11b9d16773a1ed55fe6724f49869d0e0bf2c459fe659ea681197146e"
+    },
+    {
+      "path": "output/live-demo-20261026/local-zh/run-3c2034d26172.json",
+      "sha256": "f9a30ff4a3f4af8f2c6e393339499813d54be656d419785feaee2151e98d83a9"
+    },
+    {
+      "path": "output/live-demo-20261026/local-zh/status-before.json",
+      "sha256": "23b96ce8a6c796c4e0f66352fe4f6fea8e0586a46f8bd0af2bc46d259838a38b"
+    },
+    {
+      "path": "output/live-demo-20261026/local-zh/verification.json",
+      "sha256": "7921b4ce8360c5975592ab41dfa18b501748c6abcca7148e391df802fa22fa6a"
+    },
+    {
+      "path": "output/live-demo-20261026/python-tests.txt",
+      "sha256": "6bf2af39fa396ce0e85438e3388f2d2aec2ca2072d610ccbc5a4e591543371ef"
+    },
+    {
+      "path": "output/live-demo-20261026/server-zh/created.json",
+      "sha256": "c1818d734d4a40f96e2ca29832b9400f8068ae20fbc152b7ecf2ef123348aeee"
+    },
+    {
+      "path": "output/live-demo-20261026/server-zh/idempotent-retry.json",
+      "sha256": "d4bc812d3586295c2eae9acfe68451905d3f433e0c77b09f13bca72eef859097"
+    },
+    {
+      "path": "output/live-demo-20261026/server-zh/plan.json",
+      "sha256": "5ecbbe61a8f93292a320c2f278cba1919160736990dba5be7e5f73044b989074"
+    },
+    {
+      "path": "output/live-demo-20261026/server-zh/run-61df87c2a21f.csv",
+      "sha256": "c53233aad1c654887adc29abde036600f86515e8f3ff1cf899d78990c7b87203"
+    },
+    {
+      "path": "output/live-demo-20261026/server-zh/run-61df87c2a21f.json",
+      "sha256": "ca2b99342aff772145ef57b5b4deadd874ea86bed0e2e1053ec596c9a49ce330"
+    },
+    {
+      "path": "output/live-demo-20261026/server-zh/status-before.json",
+      "sha256": "2692141d35f683abd83f3dedbbecfbaa5f06cad40f1cf3253b3c70a3c245e617"
+    },
+    {
+      "path": "output/live-demo-20261026/server-zh/verification.json",
+      "sha256": "c5d9935b98264805d7a4dc6b082a92cdc94fe681d108129172005b617aebf3b1"
+    }
+  ]
+}

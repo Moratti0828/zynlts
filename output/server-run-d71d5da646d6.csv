@@ -1,0 +1,31 @@
+﻿model_name,article_id,question_id,type,prompt,reference_answer,answer,evidence,confidence,abstain,em,f1,evidence_f1,brier,latency_s,error,raw_response
+Qwen2.5 · 7B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-fact,fact,In which journal were the new findings published? Give only the journal name.,The Astrophysical Journal,无法从文章确定,[],0.5,True,0.0,0.0,,0.25,50.615,,"{""answer"":""无法从文章确定"",""evidence"":[],""confidence"":0.5,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-inference,inference,"Because brown dwarfs form from collapsing gas clouds like stars, must they be able to sustain hydrogen fusion in their cores? Answer only yes or no.",no,无法从文章确定,[],0.5,True,0.0,0.0,,0.25,13.97,,"{""answer"":""无法从文章确定"",""evidence"":[],""confidence"":0.5,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-numeric,numeric,How many nearby brown dwarfs did the study authors analyze using SPHEREx observations? Give only the integer.,37,无法从文章确定,[],0.5,True,0.0,0.0,,0.25,12.156,,"{""answer"":""无法从文章确定"",""evidence"":[],""confidence"":0.5,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-unanswerable,unanswerable,"According to the supplied excerpt, what is the exact distance in light-years to the nearest of the 37 analyzed brown dwarfs? If the excerpt does not say, answer exactly 无法从文章确定.",无法从文章确定,无法从文章确定,[],1,True,1.0,1.0,,0.0,15.865,,"{""answer"": ""无法从文章确定"", ""evidence"": [], ""confidence"": 1, ""abstain"": true}"
+Llama 3.1 · 8B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-fact,fact,In which journal were the new findings published? Give only the journal name.,The Astrophysical Journal,,[],,False,0.0,0.0,,,53.834,拒答输出不一致：abstain=true时必须使用无答案表达且evidence为空,"{
+  ""answer"": """",
+  ""evidence"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Llama 3.1 · 8B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-inference,inference,"Because brown dwarfs form from collapsing gas clouds like stars, must they be able to sustain hydrogen fusion in their cores? Answer only yes or no.",no,no,"[""Because brown dwarfs form from collapsing gas clouds like stars,""]",1,False,1.0,1.0,,0.0,17.903,,"{
+  ""answer"": ""no"",
+  ""evidence"": [
+    ""Because brown dwarfs form from collapsing gas clouds like stars,""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-numeric,numeric,How many nearby brown dwarfs did the study authors analyze using SPHEREx observations? Give only the integer.,37,无法从文章确定,[],0,True,0.0,0.0,,0.0,13.325,,"{
+  ""answer"": ""无法从文章确定"",
+  ""evidence"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Llama 3.1 · 8B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-unanswerable,unanswerable,"According to the supplied excerpt, what is the exact distance in light-years to the nearest of the 37 analyzed brown dwarfs? If the excerpt does not say, answer exactly 无法从文章确定.",无法从文章确定,无法从文章确定,[],0,True,1.0,1.0,,1.0,15.839,,"{
+  ""answer"": ""无法从文章确定"",
+  ""evidence"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"

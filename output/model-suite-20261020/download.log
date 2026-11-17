@@ -1,0 +1,227 @@
+{"model": "qwen2.5:1.5b-instruct-q4_K_M", "status": "pulling manifest"}
+{"model": "qwen2.5:1.5b-instruct-q4_K_M", "status": "pulling 183715c43589", "digest": "sha256:183715c435899236895da3869489cc30ac241476b4971a20285b1a462818a5b4", "total": 986048512, "completed": 188556722}
+{"model": "qwen2.5:1.5b-instruct-q4_K_M", "status": "pulling 183715c43589", "digest": "sha256:183715c435899236895da3869489cc30ac241476b4971a20285b1a462818a5b4", "total": 986048512, "completed": 407842919}
+{"model": "qwen2.5:1.5b-instruct-q4_K_M", "status": "pulling 183715c43589", "digest": "sha256:183715c435899236895da3869489cc30ac241476b4971a20285b1a462818a5b4", "total": 986048512, "completed": 627999459}
+{"model": "qwen2.5:1.5b-instruct-q4_K_M", "status": "pulling 183715c43589", "digest": "sha256:183715c435899236895da3869489cc30ac241476b4971a20285b1a462818a5b4", "total": 986048512, "completed": 844579492}
+{"model": "qwen2.5:1.5b-instruct-q4_K_M", "status": "success"}
+Traceback (most recent call last):
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/http/client.py", line 1303, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/http/client.py", line 1349, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/http/client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/http/client.py", line 1058, in _send_output
+    self.send(msg)
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/http/client.py", line 996, in send
+    self.connect()
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/http/client.py", line 1468, in connect
+    super().connect()
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/http/client.py", line 962, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/socket.py", line 863, in create_connection
+    raise exceptions[0]
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/socket.py", line 848, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jmy/reading-bench/scripts/freeze_tokenizer.py", line 79, in <module>
+    main()
+  File "/home/jmy/reading-bench/scripts/freeze_tokenizer.py", line 54, in main
+    with urllib.request.urlopen(request, timeout=45) as response:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/urllib/request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jmy/miniconda3/envs/torch_py311/lib/python3.11/urllib/request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error timed out>
+{"model": "qwen25-15b", "error": "Command '['/home/jmy/reading-bench/.venv/bin/python', '/home/jmy/reading-bench/scripts/freeze_tokenizer.py', '--repo', 'Qwen/Qwen2.5-1.5B-Instruct', '--revision', '989aa7980e4cf806f80c7fef2b1adb7bc71aa306', '--dest', '/home/jmy/reading-bench/runtime/tokenizers/qwen25-15b-989aa79']' returned non-zero exit status 1.", "type": "CalledProcessError"}
+{"model": "qwen2.5:3b-instruct-q4_K_M", "status": "pulling manifest"}
+{"model": "qwen2.5:3b-instruct-q4_K_M", "status": "pulling 5ee4f07cdb9b", "digest": "sha256:5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6", "total": 1929903008, "completed": 192718469}
+{"model": "qwen2.5:3b-instruct-q4_K_M", "status": "pulling 5ee4f07cdb9b", "digest": "sha256:5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6", "total": 1929903008, "completed": 354447141}
+{"model": "qwen2.5:3b-instruct-q4_K_M", "status": "pulling 5ee4f07cdb9b", "digest": "sha256:5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6", "total": 1929903008, "completed": 573201156}
+{"model": "qwen2.5:3b-instruct-q4_K_M", "status": "pulling 5ee4f07cdb9b", "digest": "sha256:5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6", "total": 1929903008, "completed": 792123770}
+{"model": "qwen2.5:3b-instruct-q4_K_M", "status": "pulling 5ee4f07cdb9b", "digest": "sha256:5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6", "total": 1929903008, "completed": 1010791691}
+{"model": "qwen2.5:3b-instruct-q4_K_M", "status": "pulling 5ee4f07cdb9b", "digest": "sha256:5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6", "total": 1929903008, "completed": 1226424443}
+{"model": "qwen2.5:3b-instruct-q4_K_M", "status": "pulling 5ee4f07cdb9b", "digest": "sha256:5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6", "total": 1929903008, "completed": 1443949033}
+{"model": "qwen2.5:3b-instruct-q4_K_M", "status": "pulling 5ee4f07cdb9b", "digest": "sha256:5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6", "total": 1929903008, "completed": 1661955470}
+{"model": "qwen2.5:3b-instruct-q4_K_M", "status": "pulling 5ee4f07cdb9b", "digest": "sha256:5ee4f07cdb9beadbbb293e85803c569b01bd37ed059d2715faa7bb405f31caa6", "total": 1929903008, "completed": 1876971571}
+{"model": "qwen2.5:3b-instruct-q4_K_M", "status": "success"}
+{"installed": "qwen25-3b", "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b", "exact_tokenizer": true}
+{"installed": "qwen25-7b", "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e", "exact_tokenizer": true}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling manifest"}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 182211718}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 401886030}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 618141086}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 812431239}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 986185575}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 1173287928}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 1355842774}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 1532379435}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 1712315175}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 1895880276}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 2079209144}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 2257320220}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 2436705643}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 2618054120}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 2790852917}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 2966845405}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 3177567626}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 3366627550}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 3563060572}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 3760006808}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 3957553248}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 4156420879}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 4356679354}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 4538096890}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 4716699133}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 4902561679}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 5090338442}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 5276698951}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 5470966739}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 5637669660}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 5759126313}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 5885801890}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 6002701433}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 6129419677}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 6262037876}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 6386755287}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 6532850265}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 6691981504}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 6865554032}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 6978711307}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7052947985}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7124754847}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7204848219}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7288263000}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7382532445}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7479095190}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7564500643}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7654209245}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7729490714}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7800095769}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7864814435}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7932413562}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 7998981736}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8054542529}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8106006700}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8151028916}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8193515674}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8234312104}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8254053717}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8285269949}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8295361503}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8300424609}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8308715723}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8333320841}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8368213831}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8414794895}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8480871567}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8546574797}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8606703168}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8657822085}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8709542678}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8770728032}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8837010216}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8900988131}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "pulling 2049f5674b1e", "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54", "total": 8988110688, "completed": 8976197326}
+{"model": "qwen2.5:14b-instruct-q4_K_M", "status": "success"}
+{"installed": "qwen25-14b", "digest": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6", "exact_tokenizer": true}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling manifest"}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 188211782}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 406457252}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 625341572}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 846158792}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 1064597398}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 1288419888}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 1501529253}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 1721714180}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 1942613860}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 2163721201}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 2383442709}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 2598968510}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 2810720344}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 3025433245}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 3237477957}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 3452039945}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 3664723211}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 3880639373}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 4090982462}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling f5074b1221da", "digest": "sha256:f5074b1221da0f5a2910d33b642efa5b9eb58cfdddca1c79e16d7ad28aa2b31f", "total": 4372811712, "completed": 4297291620}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "pulling 43070e2d4e53", "digest": "sha256:43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1", "total": 11356}
+{"model": "mistral:7b-instruct-v0.3-q4_K_M", "status": "success"}
+{"installed": "mistral03-7b", "digest": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf", "exact_tokenizer": false}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling manifest"}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 74576697}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 176019822}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 275448822}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 380854697}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 483378572}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 589734197}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 696171697}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 798449947}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 902594947}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 1005528197}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 1116583447}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 1217682697}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 1312559447}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 1408975447}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 1506717822}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 1631004072}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 1770666447}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 1915257697}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 2062665447}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 2206650822}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 2348818572}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 2494130322}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 2649529072}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 2805386322}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 2950648947}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 3091932447}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 3225143072}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 3343976447}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 3491613447}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 3645915072}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 3796172072}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 3927696072}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 4054749697}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 4145909322}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 4233302697}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 4313622072}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 4399115947}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 4476504197}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 450ef0b157ee", "digest": "sha256:450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55", "total": 4712768320, "completed": 4583547572}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "hf.co/internlm/internlm2_5-7b-chat-gguf:Q4_K_M", "status": "pulling 3e9c19662c62", "digest": "sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761", "total": 101}
+{"model": "internlm25-7b", "error": "max retries exceeded: Get \"https://huggingface.co/v2/internlm/internlm2_5-7b-chat-gguf/blobs/sha256:3e9c19662c62ac69687769db7192eef3c40211b7cf758d67546e8ac644871761?__sign=eyJhbGciOiJFZERTQSIsImtpZCI6IjVHZDBvd0g5MTM2eDZjc1FvbE1zcktNWUZoRVFoUm5PVVVybEpjOUhaUEEifQ.eyJyZWFkIjp0cnVlLCJwZXJtaXNzaW9ucyI6eyJyZXBvLmNvbnRlbnQucmVhZCI6dHJ1ZX0sInJlcG9JZHMiOlsiNjY4M2RlM2NmNTkzYTQzMmNlNTBkMTEzIl0sImlhdCI6MTc5MjQ3NTE5NiwianRpIjoiZmM0NmRmOWYtMjYwOS00OWIwLWFkYmItN2Q2MDE3MjJiMDYxIiwic3ViIjoiL2ludGVybmxtL2ludGVybmxtMl81LTdiLWNoYXQtZ2d1ZiIsImV4cCI6MTc5MjQ3NTc5NiwiaXNzIjoiaHR0cHM6Ly9odWdnaW5nZmFjZS5jbyJ9.Zzk3C4J1LrjliM-dfs7Msygd9KENn8gLqe3_KJDTZgk09MokAU7r2I82MLJEhyWL-JNUUFFhfHwCBYDRxTu0AA\": dial tcp [2a03:2880:f11c:8083:face:b00c:0:25de]:443: i/o timeout", "type": "ValueError"}
+{"installed": "llama31-8b", "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e", "exact_tokenizer": false}

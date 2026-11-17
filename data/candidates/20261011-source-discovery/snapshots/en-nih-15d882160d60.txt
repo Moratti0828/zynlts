@@ -1,0 +1,33 @@
+Monday, September 14, 2026
+
+Device translates brain activity underlying full-body communication into digital expression.
+
+A National Institutes of Health (NIH)-funded scientific team has shown that a new brain-computer interface (BCI) can allow people with vocal tract and bodily paralysis to convey both speech and upper-body gestures simultaneously. While BCIs have facilitated one or the other in the past, this new system is the first to enable both modes of communication at once, more closely replicating natural expression.
+
+Scientists at the University of California, San Francisco, used machine learning to decipher the unique brain activity that underpins concurrent speech and physical gesture in three patients. Their BCI successfully translated the thoughts of two participants into commands that dictated the expressions of a full-body virtual avatar.
+
+“Conversation is about much more than the words being spoken. It’s a multilayered, dynamic process involving the whole motor cortex,” said corresponding author Edward Chang, M.D., a professor of neurological surgery at UCSF. “This proof-of-concept shows us it’s possible for a BCI to restore some of this freedom and flexibility.”
+
+People with amyotrophic lateral syndrome (ALS) or who have experienced brainstem strokes often become severely paralyzed, which can hinder or eliminate their verbal and non-verbal capabilities. Eye-tracking technologies, the current standard of care, enable text-to-speech for patients, but are slow, offer limited forms of expression, and can be physically exhausting to use.
+
+Chang and his colleagues have been working to provide a more natural solution. They previously implanted a thin strip of sensors called an electrocorticography (ECoG) array onto the motor cortex of several patients. Computer models, called decoders, then translated their brain signals into computer commands that controlled a digital head and face .
+
+For the new study, the authors deployed ECoG arrays in patients with varying levels of vocal-tract and bodily paralysis, but this time they aimed to permit upper-limb expressions by connecting participants to an avatar of a complete body. The researchers acquired data while participants attempted to verbalize specific phrases or perform common gestures such as a hand wave or thumbs-up sign, both separately and concurrently.
+
+Verbal and non-verbal communication have each been facilitated by BCIs in the past but attempting both at once seemingly diminishes speech capabilities . Scientists have suspected that the brain signals associated with simultaneous speech and gestures would simply be an aggregate of the two types of signals, but Chang and his co-authors learned that multimodal communication is more than the sum of its parts.
+
+Despite there being some overlap, the picture painted by data from simultaneous expressions was very different from the kinds created by speech or gestures separately. They found that decoders were more successful at deciphering signals from mixed expressions if they had previously been trained on data acquired while participants performed simultaneous rather than isolated speech and gestures.
+
+With this strategy, researchers and participants proved that a BCI device can enable multifaceted, lifelike expressions.
+
+“These promising results give me hope that in the future, patients with severe paralysis will be able to recapture the holistic nature of human communication,” said Debara Tucci, M.D., director of NIH’s National Institute on Deafness and Other Communication Disorders (NIDCD).
+
+While the BCI used in this study entailed a wired system connecting implanted sensors to external processing units, Chang explained that his team will soon test a fully implantable, wireless version with better prospects for long-term application.
+
+About the National Institute on Deafness and Other Communication Disorders (NIDCD): The NIDCD supports and conducts research and research training on the normal and disordered processes of hearing, balance, taste, smell, voice, speech, and language and provides health information, based upon scientific discovery, to the public.
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+Samantha C. Brosler et al. Simultaneous speech and gesture decoding for multimodal communication in paralysis. Nature Neuroscience. September 14, 2026. DOI: 10.1038/s41593-026-02446-2

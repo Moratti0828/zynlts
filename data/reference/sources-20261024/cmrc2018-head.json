@@ -1,0 +1,101 @@
+{
+  "sha": "c0eb1b6ba219847457e6af3180da722bbeb656af",
+  "node_id": "C_kwDOBu0OHNoAKGMwZWIxYjZiYTIxOTg0NzQ1N2U2YWYzMTgwZGE3MjJiYmViNjU2YWY",
+  "commit": {
+    "author": {
+      "name": "ymcui",
+      "email": "me@ymcui.com",
+      "date": "2022-04-27T06:05:29Z"
+    },
+    "committer": {
+      "name": "ymcui",
+      "email": "me@ymcui.com",
+      "date": "2022-04-27T06:05:29Z"
+    },
+    "message": "update evaluate script (codalab ver)",
+    "tree": {
+      "sha": "d9b881da843a0212886fd436a1046a90260ffd91",
+      "url": "https://api.github.com/repos/ymcui/cmrc2018/git/trees/d9b881da843a0212886fd436a1046a90260ffd91"
+    },
+    "url": "https://api.github.com/repos/ymcui/cmrc2018/git/commits/c0eb1b6ba219847457e6af3180da722bbeb656af",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/ymcui/cmrc2018/commits/c0eb1b6ba219847457e6af3180da722bbeb656af",
+  "html_url": "https://github.com/ymcui/cmrc2018/commit/c0eb1b6ba219847457e6af3180da722bbeb656af",
+  "comments_url": "https://api.github.com/repos/ymcui/cmrc2018/commits/c0eb1b6ba219847457e6af3180da722bbeb656af/comments",
+  "author": {
+    "login": "ymcui",
+    "id": 16095339,
+    "node_id": "MDQ6VXNlcjE2MDk1MzM5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/16095339?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ymcui",
+    "html_url": "https://github.com/ymcui",
+    "followers_url": "https://api.github.com/users/ymcui/followers",
+    "following_url": "https://api.github.com/users/ymcui/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ymcui/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ymcui/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ymcui/subscriptions",
+    "organizations_url": "https://api.github.com/users/ymcui/orgs",
+    "repos_url": "https://api.github.com/users/ymcui/repos",
+    "events_url": "https://api.github.com/users/ymcui/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ymcui/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "ymcui",
+    "id": 16095339,
+    "node_id": "MDQ6VXNlcjE2MDk1MzM5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/16095339?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ymcui",
+    "html_url": "https://github.com/ymcui",
+    "followers_url": "https://api.github.com/users/ymcui/followers",
+    "following_url": "https://api.github.com/users/ymcui/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ymcui/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ymcui/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ymcui/subscriptions",
+    "organizations_url": "https://api.github.com/users/ymcui/orgs",
+    "repos_url": "https://api.github.com/users/ymcui/repos",
+    "events_url": "https://api.github.com/users/ymcui/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ymcui/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "937ef90b7d88d3c1822a8d9f0b7f93ef61e2b9e0",
+      "url": "https://api.github.com/repos/ymcui/cmrc2018/commits/937ef90b7d88d3c1822a8d9f0b7f93ef61e2b9e0",
+      "html_url": "https://github.com/ymcui/cmrc2018/commit/937ef90b7d88d3c1822a8d9f0b7f93ef61e2b9e0"
+    }
+  ],
+  "stats": {
+    "total": 27,
+    "additions": 12,
+    "deletions": 15
+  },
+  "files": [
+    {
+      "sha": "62aed7fee72baf75f250c51e288a0fc25590566f",
+      "filename": "baseline/cmrc2018_evaluate.py",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 15,
+      "changes": 27,
+      "blob_url": "https://github.com/ymcui/cmrc2018/blob/c0eb1b6ba219847457e6af3180da722bbeb656af/baseline%2Fcmrc2018_evaluate.py",
+      "raw_url": "https://github.com/ymcui/cmrc2018/raw/c0eb1b6ba219847457e6af3180da722bbeb656af/baseline%2Fcmrc2018_evaluate.py",
+      "contents_url": "https://api.github.com/repos/ymcui/cmrc2018/contents/baseline%2Fcmrc2018_evaluate.py?ref=c0eb1b6ba219847457e6af3180da722bbeb656af",
+      "patch": "@@ -1,8 +1,8 @@\n # -*- coding: utf-8 -*-\n '''\n Evaluation script for CMRC 2018\n-version: v5 - special\n Note: \n+v6: compatible for both original and SQuAD-style CMRC 2018 datasets. support python3.\n v5 - special: Evaluate on SQuAD-style CMRC 2018 Datasets\n v5: formatted output, add usage description\n v4: fixed segmentation issues\n@@ -14,14 +14,12 @@\n import argparse\n import json\n import sys\n-reload(sys)\n-sys.setdefaultencoding('utf8')\n import nltk\n import pdb\n \n # split Chinese with English\n def mixed_segmentation(in_str, rm_punc=False):\n-\tin_str = str(in_str).decode('utf-8').lower().strip()\n+\tin_str = str(in_str).lower().strip()\n \tsegs_out = []\n \ttemp_str = \"\"\n \tsp_char = ['-',':','_','*','^','/','\\\\','~','`','+','=',\n@@ -30,7 +28,7 @@ def mixed_segmentation(in_str, rm_punc=False):\n \tfor char in in_str:\n \t\tif rm_punc and char in sp_char:\n \t\t\tcontinue\n-\t\tif re.search(ur'[\\u4e00-\\u9fa5]', char) or char in sp_char:\n+\t\tif re.search(r'[\\u4e00-\\u9fa5]', char) or char in sp_char:\n \t\t\tif temp_str != \"\":\n \t\t\t\tss = nltk.word_tokenize(temp_str)\n \t\t\t\tsegs_out.extend(ss)\n@@ -46,10 +44,9 @@ def mixed_segmentation(in_str, rm_punc=False):\n \n \treturn segs_out\n \n-\n # remove punctuation\n def remove_punctuation(in_str):\n-\tin_str = str(in_str).decode('utf-8').lower().strip()\n+\tin_str = str(in_str).lower().strip()\n \tsp_char = ['-',':','_','*','^','/','\\\\','~','`','+','=',\n \t\t\t   '\uff0c','\u3002','\uff1a','\uff1f','\uff01','\u201c','\u201d','\uff1b','\u2019','\u300a','\u300b','\u2026\u2026','\u00b7','\u3001',\n \t\t\t   '\u300c','\u300d','\uff08','\uff09','\uff0d','\uff5e','\u300e','\u300f']\n@@ -82,22 +79,22 @@ def evaluate(ground_truth_file, prediction_file):\n \tem = 0\n \ttotal_count = 0\n \tskip_count = 0\n-\tfor instance in ground_truth_file[\"data\"]:\n-\t\t#context_id   = instance['context_id'].strip()\n-\t\t#context_text = instance['context_text'].strip()\n-\t\tfor para in instance[\"paragraphs\"]:\n+\n+\tdata_list = ground_truth_file['data'] if  'data' in ground_truth_file else ground_truth_file\n+\tfor instance in data_list:\n+\t\tpara_list = instance['paragraphs'] if 'paragraphs' in instance else [instance]\n+\t\tfor para in para_list:\n \t\t\tfor qas in para['qas']:\n \t\t\t\ttotal_count += 1\n-\t\t\t\tquery_id    = qas['id'].strip()\n-\t\t\t\tquery_text  = qas['question'].strip()\n-\t\t\t\tanswers \t= [x[\"text\"] for x in qas['answers']]\n+\t\t\t\tquery_id    = qas['id'] if 'id' in qas else qas['query_id']\n+\t\t\t\tanswers \t= [x['text'] if isinstance(x, dict) else x for x in qas['answers']]\n \n \t\t\t\tif query_id not in prediction_file:\n \t\t\t\t\tsys.stderr.write('Unanswered question: {}\\n'.format(query_id))\n \t\t\t\t\tskip_count += 1\n \t\t\t\t\tcontinue\n \n-\t\t\t\tprediction \t= str(prediction_file[query_id]).decode('utf-8')\n+\t\t\t\tprediction \t= str(prediction_file[query_id])\n \t\t\t\tf1 += calc_f1_score(answers, prediction)\n \t\t\t\tem += calc_em_score(answers, prediction)\n "
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "selection_policy": "fixed SHA order; complete original contexts; all questions fit conservative 4096 budget; unique title/source clusters; no model scores used",
+  "models": [
+    "qwen25-7b",
+    "yi15-6b"
+  ],
+  "num_ctx": 4096,
+  "formal": false,
+  "squad2": {
+    "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+    "eligible_contexts": 49,
+    "article_ids": [
+      "ref-squad2-ef89fd8649969f09fc47",
+      "ref-squad2-0078a3aad6d29993d7ba",
+      "ref-squad2-a28b1741ae11a0ca192d",
+      "ref-squad2-46b22fbb7cb725f7dbd4",
+      "ref-squad2-93620703d50b4155fab9",
+      "ref-squad2-83c030609aaae7ee99b6",
+      "ref-squad2-679435646d97368fa394",
+      "ref-squad2-ee860af1558390e8f6b7"
+    ],
+    "selected_questions": 24,
+    "conservative_max_total_tokens": 3672,
+    "selected_source_clusters": 8
+  },
+  "cmrc2018": {
+    "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+    "eligible_contexts": 34,
+    "article_ids": [
+      "ref-cmrc2018-30e392af87cfb7bad436",
+      "ref-cmrc2018-2e827be252c3982e5813",
+      "ref-cmrc2018-1ddca8ea1543636366d7",
+      "ref-cmrc2018-34dd37e1796d9743c8b7",
+      "ref-cmrc2018-185ca5b8daa53663ac53",
+      "ref-cmrc2018-cae49579c178bebcbecb",
+      "ref-cmrc2018-2391a5c0a60c6534f554",
+      "ref-cmrc2018-479ebb36f1b68de283bd"
+    ],
+    "selected_questions": 24,
+    "conservative_max_total_tokens": 3854,
+    "selected_source_clusters": 8
+  }
+}

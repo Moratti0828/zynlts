@@ -1,0 +1,435 @@
+{
+  "grader_version": "reading-grader-v2.0-paragraph-draft",
+  "formal": false,
+  "diagnostic_note": "Draft scores are scorer diagnostics, not a frozen benchmark/model ranking.",
+  "evidence_granularity": "paragraph",
+  "failure_policy": "all_planned_items_zero_on_error",
+  "confidence_label": "strict_answer_correctness",
+  "summaries": {
+    "constructed-scorer-fixture": {
+      "zh": {
+        "planned_questions": 8,
+        "articles": 1,
+        "grounded_understanding": 1.0,
+        "dimension_scores": {
+          "D1": {
+            "joint_article_macro": 1.0,
+            "articles": 1,
+            "questions": 1
+          },
+          "D2": {
+            "joint_article_macro": 1.0,
+            "articles": 1,
+            "questions": 2
+          },
+          "D3": {
+            "joint_article_macro": 1.0,
+            "articles": 1,
+            "questions": 1
+          },
+          "D4": {
+            "joint_article_macro": 1.0,
+            "articles": 1,
+            "questions": 1
+          },
+          "D5": {
+            "joint_article_macro": 1.0,
+            "articles": 1,
+            "questions": 1
+          }
+        },
+        "answerable_questions": 6,
+        "unanswerable_questions": 2,
+        "answer_accuracy_answerable": 1.0,
+        "joint_item_mean_answerable": 1.0,
+        "correct_refusal_rate": 1.0,
+        "unanswerable_substantive_rate": 0.0,
+        "false_refusal_rate": 0.0,
+        "answerable_substantive_rate": 1.0,
+        "balanced_answerability": 1.0,
+        "valid_output_rate": 1.0,
+        "errors": 0,
+        "brier_answer": null,
+        "brier_effective_n": 0
+      },
+      "en": {
+        "planned_questions": 8,
+        "articles": 1,
+        "grounded_understanding": 1.0,
+        "dimension_scores": {
+          "D1": {
+            "joint_article_macro": 1.0,
+            "articles": 1,
+            "questions": 2
+          },
+          "D2": {
+            "joint_article_macro": 1.0,
+            "articles": 1,
+            "questions": 1
+          },
+          "D3": {
+            "joint_article_macro": 1.0,
+            "articles": 1,
+            "questions": 1
+          },
+          "D4": {
+            "joint_article_macro": 1.0,
+            "articles": 1,
+            "questions": 1
+          },
+          "D5": {
+            "joint_article_macro": 1.0,
+            "articles": 1,
+            "questions": 1
+          }
+        },
+        "answerable_questions": 6,
+        "unanswerable_questions": 2,
+        "answer_accuracy_answerable": 1.0,
+        "joint_item_mean_answerable": 1.0,
+        "correct_refusal_rate": 1.0,
+        "unanswerable_substantive_rate": 0.0,
+        "false_refusal_rate": 0.0,
+        "answerable_substantive_rate": 1.0,
+        "balanced_answerability": 1.0,
+        "valid_output_rate": 1.0,
+        "errors": 0,
+        "brier_answer": null,
+        "brier_effective_n": 0
+      },
+      "bilingual_equal_weight": 1.0
+    }
+  },
+  "rows": [
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q01",
+      "language": "zh",
+      "dimension": "D1",
+      "output_state": "answer",
+      "answer_correct": 1,
+      "evidence_exact": 1,
+      "joint_success": 1,
+      "evidence_f1": 1.0,
+      "correct_refusal": 0,
+      "substantive_answer": 1,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q02",
+      "language": "zh",
+      "dimension": "D2",
+      "output_state": "answer",
+      "answer_correct": 1,
+      "evidence_exact": 1,
+      "joint_success": 1,
+      "evidence_f1": 1.0,
+      "correct_refusal": 0,
+      "substantive_answer": 1,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q03",
+      "language": "zh",
+      "dimension": "D3",
+      "output_state": "answer",
+      "answer_correct": 1,
+      "evidence_exact": 1,
+      "joint_success": 1,
+      "evidence_f1": 1.0,
+      "correct_refusal": 0,
+      "substantive_answer": 1,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q04",
+      "language": "zh",
+      "dimension": "D4",
+      "output_state": "answer",
+      "answer_correct": 1,
+      "evidence_exact": 1,
+      "joint_success": 1,
+      "evidence_f1": 1.0,
+      "correct_refusal": 0,
+      "substantive_answer": 1,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q05",
+      "language": "zh",
+      "dimension": "D5",
+      "output_state": "answer",
+      "answer_correct": 1,
+      "evidence_exact": 1,
+      "joint_success": 1,
+      "evidence_f1": 1.0,
+      "correct_refusal": 0,
+      "substantive_answer": 1,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q06",
+      "language": "zh",
+      "dimension": "D2",
+      "output_state": "answer",
+      "answer_correct": 1,
+      "evidence_exact": 1,
+      "joint_success": 1,
+      "evidence_f1": 1.0,
+      "correct_refusal": 0,
+      "substantive_answer": 1,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q07",
+      "language": "zh",
+      "dimension": "D6",
+      "output_state": "refusal",
+      "answer_correct": 1,
+      "evidence_exact": 0,
+      "joint_success": 0,
+      "evidence_f1": null,
+      "correct_refusal": 1,
+      "substantive_answer": 0,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+      "question_id": "q08",
+      "language": "zh",
+      "dimension": "D6",
+      "output_state": "refusal",
+      "answer_correct": 1,
+      "evidence_exact": 0,
+      "joint_success": 0,
+      "evidence_f1": null,
+      "correct_refusal": 1,
+      "substantive_answer": 0,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q01",
+      "language": "en",
+      "dimension": "D1",
+      "output_state": "answer",
+      "answer_correct": 1,
+      "evidence_exact": 1,
+      "joint_success": 1,
+      "evidence_f1": 1.0,
+      "correct_refusal": 0,
+      "substantive_answer": 1,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q02",
+      "language": "en",
+      "dimension": "D2",
+      "output_state": "answer",
+      "answer_correct": 1,
+      "evidence_exact": 1,
+      "joint_success": 1,
+      "evidence_f1": 1.0,
+      "correct_refusal": 0,
+      "substantive_answer": 1,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q03",
+      "language": "en",
+      "dimension": "D3",
+      "output_state": "answer",
+      "answer_correct": 1,
+      "evidence_exact": 1,
+      "joint_success": 1,
+      "evidence_f1": 1.0,
+      "correct_refusal": 0,
+      "substantive_answer": 1,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q04",
+      "language": "en",
+      "dimension": "D4",
+      "output_state": "answer",
+      "answer_correct": 1,
+      "evidence_exact": 1,
+      "joint_success": 1,
+      "evidence_f1": 1.0,
+      "correct_refusal": 0,
+      "substantive_answer": 1,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q05",
+      "language": "en",
+      "dimension": "D5",
+      "output_state": "answer",
+      "answer_correct": 1,
+      "evidence_exact": 1,
+      "joint_success": 1,
+      "evidence_f1": 1.0,
+      "correct_refusal": 0,
+      "substantive_answer": 1,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q06",
+      "language": "en",
+      "dimension": "D1",
+      "output_state": "answer",
+      "answer_correct": 1,
+      "evidence_exact": 1,
+      "joint_success": 1,
+      "evidence_f1": 1.0,
+      "correct_refusal": 0,
+      "substantive_answer": 1,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q07",
+      "language": "en",
+      "dimension": "D6",
+      "output_state": "refusal",
+      "answer_correct": 1,
+      "evidence_exact": 0,
+      "joint_success": 0,
+      "evidence_f1": null,
+      "correct_refusal": 1,
+      "substantive_answer": 0,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    },
+    {
+      "model_id": "constructed-scorer-fixture",
+      "article_id": "en-nasa-1992c310d7b6-devpilot",
+      "question_id": "q08",
+      "language": "en",
+      "dimension": "D6",
+      "output_state": "refusal",
+      "answer_correct": 1,
+      "evidence_exact": 0,
+      "joint_success": 0,
+      "evidence_f1": null,
+      "correct_refusal": 1,
+      "substantive_answer": 0,
+      "false_refusal": 0,
+      "unanswerable_substantive": 0,
+      "brier_answer": null,
+      "error": null
+    }
+  ],
+  "statistics": {
+    "repetitions": 2000,
+    "seed": 42,
+    "unit": "source_article_cluster",
+    "strata": [
+      "language",
+      "domain",
+      "length_bin"
+    ],
+    "languages": {
+      "zh": {
+        "clusters": 1,
+        "strata": 1,
+        "score_intervals": {
+          "constructed-scorer-fixture": {
+            "lower": 1.0,
+            "upper": 1.0,
+            "effective_resamples": 2000
+          }
+        },
+        "paired_difference_intervals": {},
+        "note": "Intervals are omitted when any D1-D5 dimension is absent in the resample; inspect effective_resamples. Tiny strata or pilot banks cannot support population conclusions."
+      },
+      "en": {
+        "clusters": 1,
+        "strata": 1,
+        "score_intervals": {
+          "constructed-scorer-fixture": {
+            "lower": 1.0,
+            "upper": 1.0,
+            "effective_resamples": 2000
+          }
+        },
+        "paired_difference_intervals": {},
+        "note": "Intervals are omitted when any D1-D5 dimension is absent in the resample; inspect effective_resamples. Tiny strata or pilot banks cannot support population conclusions."
+      }
+    }
+  },
+  "inputs": {
+    "bank_sha256": "3b12d0375e3b44a500327e594094e333df02909d36b5e1c6476764ae66ad174b",
+    "responses_sha256": "84d6d2c9b896c052bd08c521373cf46be1599dc8d68f1aae3417fe5fb2a8ab26"
+  }
+}

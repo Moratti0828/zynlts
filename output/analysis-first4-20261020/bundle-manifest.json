@@ -1,0 +1,167 @@
+{
+  "analysis_version": "reading-matrix-analysis-v1-20261020",
+  "created_at": "2026-10-20T06:48:06.818423+00:00",
+  "formal": false,
+  "complete_inputs": true,
+  "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+  "source_artifacts": [
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\manifest.json",
+      "sha256": "cc98853fe6c166218d629339e02609a4d9e1d4832dbed9d496a2d818086e420d",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-200d372d332a.csv",
+      "sha256": "3077b6c8e12d0cf7d0c3d9bdb445a089b79973c3857f2f8c817aaf74d108cc27",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-200d372d332a.json",
+      "sha256": "f3d25a075884884e7b6e587a8f144beef667e99194572a2111f8bade56d0078e",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-d58ba2a13445.csv",
+      "sha256": "18daecd91afa32f577af5f8bee04425ca2db3a0d7ae289d3e79d7e65ff364ec2",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-d58ba2a13445.json",
+      "sha256": "9ff3f5af884041093efd5504334627fde1926f437d08a280f5044a177492d430",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-63db73a5f12c.csv",
+      "sha256": "36b5d29297d53fefe401fdba11951925cdd8d88aa3b0f58650688b48527da6fa",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-63db73a5f12c.json",
+      "sha256": "b67442957757df311cda7e37b580a0b05ea01d55ab053b03f87ab87f0eaad808",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-12ed9616d64e.csv",
+      "sha256": "3de2f17ea53db68dfdbcaf5b5446445c843e787069b834613e64b42b2e6513e5",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\runs\\run-12ed9616d64e.json",
+      "sha256": "9e9b6b13a6470694eadb675c4c01dfa4760795b8d9f9ae60a9e9ecf634e1bcb9",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-main-first4\\device-observations.jsonl",
+      "sha256": "c092a88ff1cab9cee4d2f66ad6f2a374799aca09863c866ce30a51d6fc2f3a44",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\manifest.json",
+      "sha256": "3803e56a22143cc260a8c6986cd69218503a37b0d2aec0b16409c2a332d675ff",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-03a7c3c425fd.csv",
+      "sha256": "590a220244f5a931ef69dbeaab38d5b2ce5f921e8797a77a99de4428fac9bcee",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-03a7c3c425fd.json",
+      "sha256": "ae8e3a5c80fd704bd3643bb8f67e799ce1d3180c4b3390070be5b227a118dee6",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-c33e76f3f3c4.csv",
+      "sha256": "178617dba91ff3eb86465a6b17919a1ee8f5ac84c6fb5a6681e463b80a02266e",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-c33e76f3f3c4.json",
+      "sha256": "1286db64f0e32e06c36dae02fa383778362a1962f1ddd9b186c2c8ddcf61f7c3",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-6c27eefaa44e.csv",
+      "sha256": "038dd96197b2d9524835ba5ca9620ce38c4afcaea3c8f6fa138c50e8916fcf63",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-6c27eefaa44e.json",
+      "sha256": "8eb0a08ed81812de246373ef9321d909c991808cdfca85f64c5ab00b04c49570",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-b4e5f365dda5.csv",
+      "sha256": "7a8c5769bfab7709d1a83d5c259205f062da67f5bca8d353d5d4972b1ec9d31b",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\runs\\run-b4e5f365dda5.json",
+      "sha256": "9e9ef6501b5058d91be0fbfdc8e0289e23336d5c1d499f8ca59d323d3c7f0e7c",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\model-matrix-20261020-diagnostic-first4\\device-observations.jsonl",
+      "sha256": "ebb5a9b2f0b35553bb33826ce9d53878837f596d6230c8780cbd10c100cf4046",
+      "kind": "device_observations"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis-report.md",
+      "sha256": "d028f195188b2dc094316e945eb0f8160b21414fb776d16f8ba3cef73121fa13"
+    },
+    {
+      "path": "analysis.json",
+      "sha256": "1fc1e33df5378deed8ce4d73dc93d3b58444f2bdf69156c3abcbf21f24a174d0"
+    },
+    {
+      "path": "efficiency.json",
+      "sha256": "53f4dfa3a151102ea2f6403526e08c3e2ad83dcdfa1d8380b847fc261aa372a0"
+    },
+    {
+      "path": "error-types.json",
+      "sha256": "6eb940a482581c2f1942a64018e41f8c4c026b5b3a6d1dff58f1b8acf609c1cc"
+    },
+    {
+      "path": "figure-catalog.md",
+      "sha256": "3470e4ecbdaa5bfa756a67f8c9bf55e7ea10a3d3a762bc9a96acdf1cb4f10aba"
+    },
+    {
+      "path": "figures/figure-01-task-comparison.pdf",
+      "sha256": "1a22ca42aa546dc1d85f67075534ef7bbb1404161852cd7dd75965c63ecbb112"
+    },
+    {
+      "path": "figures/figure-01-task-comparison.png",
+      "sha256": "477e45e2f06e373285a4ccb5f6ecaa7bb03a2c2ddcfc33dcd75afef6bd59f5d0"
+    },
+    {
+      "path": "figures/figure-02-context-difference.pdf",
+      "sha256": "8e378eba16abca700e138c7605f333fb4813401b823e691ea17724a590bd86b9"
+    },
+    {
+      "path": "figures/figure-02-context-difference.png",
+      "sha256": "c14854414f32e259cc15286eceb7a6035d1491f6ae27dd596d01b3d288664c5e"
+    },
+    {
+      "path": "numeric-table.csv",
+      "sha256": "d0ded833fc47187973edae7738937a09bdf92d030da006149bbf35fa19dbde50"
+    },
+    {
+      "path": "numeric-table.json",
+      "sha256": "ea5026689a7ec92d9768db9ea093e9ff5abb845ac5642ad20c61405527cdc380"
+    },
+    {
+      "path": "paired-differences.json",
+      "sha256": "d6cfed9775328f756fbe0bd83776dfeae2ee5d48e260beceb1cd67f1fc358b69"
+    },
+    {
+      "path": "stats-appendix.md",
+      "sha256": "f2246c20555d1e417581e4bd16412f8966e9b820020fedea36b60dfb6abe48f7"
+    },
+    {
+      "path": "wrong-cases.json",
+      "sha256": "516f2944a3d3e1f67705af4b1465f8011919e9d98e4ebeddb8d5d905e5aa1bbf"
+    }
+  ]
+}

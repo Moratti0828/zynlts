@@ -1,0 +1,152 @@
+{
+  "checks": [
+    {
+      "model": "qwen2.5:7b-instruct",
+      "recorded_at_server_utc": "2026-10-10T13:58:07.971516+00:00",
+      "elapsed_seconds": 63.149,
+      "article_id": "zh-housing-2025",
+      "article_sha256": "1c2285d0a3abca8e60f4788187592f7a66159cd6b96a99118daa805c20bac1e1",
+      "question_id": "zh-housing-2025-fact",
+      "request": {
+        "model": "qwen2.5:7b-instruct",
+        "stream": false,
+        "format": "json",
+        "keep_alive": "5m",
+        "options": {
+          "temperature": 0,
+          "seed": 42,
+          "num_ctx": 8192,
+          "num_predict": 180,
+          "num_thread": 2
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "只根据提供的文章回答问题。返回JSON对象，字段answer为答案，evidence为文章中支持答案的原文。"
+          },
+          {
+            "role": "user",
+            "content": "文章：\n《住房租赁条例》已经2025年6月27日国务院第62次常务会议通过，现予公布，自2025年9月15日起施行。\n\n〔……〕\n\n第二条 城镇国有土地上住房租赁活动及其监督管理，适用本条例。\n\n〔……〕\n\n第七条 用于出租的住房应当符合建筑、消防、燃气、室内装饰装修等方面的法律、法规、规章和强制性标准，不得危及人身安全和健康。\n厨房、卫生间、阳台、过道、地下储藏室、车库等非居住空间，不得单独出租用于居住。\n租赁住房单间租住人数上限和人均最低租住面积，应当符合设区的市级以上地方人民政府规定的标准。\n\n〔……〕\n\n第八条 出租人和承租人应当使用实名签订住房租赁合同。\n出租人应当按照规定，通过住房租赁管理服务平台等方式将住房租赁合同向租赁住房所在地房产管理部门备案。房产管理部门应当提高住房租赁合同备案服务水平，不得就住房租赁合同备案收取任何费用。\n出租人未办理住房租赁合同备案的，承租人可以办理备案。\n\n〔……〕\n\n第十五条 住房租赁企业依法登记的经营范围应当使用“住房租赁”的表述。\n住房租赁企业应当自领取营业执照之日起30日内，向所在地县级以上地方人民政府房产管理部门报送开业信息。房产管理部门应当将住房租赁企业开业信息向社会公开。\n住房租赁企业应当在其经营场所醒目位置公示本企业开业信息、服务规范和标准等。\n\n问题：根据节选，出租人应将住房租赁合同向哪个部门备案？只写部门名称。"
+          }
+        ]
+      },
+      "response": {
+        "model": "qwen2.5:7b-instruct",
+        "created_at": "2026-10-10T13:58:07.96831918Z",
+        "message": {
+          "role": "assistant",
+          "content": "{ \"answer\": \"房产管理部门\", \"evidence\": \"出租人应当按照规定，通过住房租赁管理服务平台等方式将住房租赁合同向租赁住房所在地房产管理部门备案。\" }"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 63143383728,
+        "load_duration": 3079355159,
+        "prompt_eval_count": 386,
+        "prompt_eval_duration": 50132365815,
+        "eval_count": 40,
+        "eval_duration": 8896604966
+      },
+      "loaded_models": {
+        "models": [
+          {
+            "name": "qwen2.5:7b-instruct",
+            "model": "qwen2.5:7b-instruct",
+            "size": 4840321024,
+            "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+            "details": {
+              "parent_model": "",
+              "format": "gguf",
+              "family": "qwen2",
+              "families": [
+                "qwen2"
+              ],
+              "parameter_size": "7.6B",
+              "quantization_level": "Q4_K_M"
+            },
+            "expires_at": "2026-10-10T14:03:07.96877796Z",
+            "size_vram": 0,
+            "context_length": 8192
+          }
+        ]
+      },
+      "gpu_compute_processes": "gpu_uuid, pid, process_name, used_gpu_memory [MiB]",
+      "functional_call_ok": true,
+      "answer_matches_first_question": true,
+      "verified_execution_device": "cpu"
+    },
+    {
+      "model": "llama3.1:8b-instruct-q4_K_M",
+      "recorded_at_server_utc": "2026-10-10T13:59:44.407581+00:00",
+      "elapsed_seconds": 94.117,
+      "article_id": "zh-housing-2025",
+      "article_sha256": "1c2285d0a3abca8e60f4788187592f7a66159cd6b96a99118daa805c20bac1e1",
+      "question_id": "zh-housing-2025-fact",
+      "request": {
+        "model": "llama3.1:8b-instruct-q4_K_M",
+        "stream": false,
+        "format": "json",
+        "keep_alive": "5m",
+        "options": {
+          "temperature": 0,
+          "seed": 42,
+          "num_ctx": 8192,
+          "num_predict": 180,
+          "num_thread": 2
+        },
+        "messages": [
+          {
+            "role": "system",
+            "content": "只根据提供的文章回答问题。返回JSON对象，字段answer为答案，evidence为文章中支持答案的原文。"
+          },
+          {
+            "role": "user",
+            "content": "文章：\n《住房租赁条例》已经2025年6月27日国务院第62次常务会议通过，现予公布，自2025年9月15日起施行。\n\n〔……〕\n\n第二条 城镇国有土地上住房租赁活动及其监督管理，适用本条例。\n\n〔……〕\n\n第七条 用于出租的住房应当符合建筑、消防、燃气、室内装饰装修等方面的法律、法规、规章和强制性标准，不得危及人身安全和健康。\n厨房、卫生间、阳台、过道、地下储藏室、车库等非居住空间，不得单独出租用于居住。\n租赁住房单间租住人数上限和人均最低租住面积，应当符合设区的市级以上地方人民政府规定的标准。\n\n〔……〕\n\n第八条 出租人和承租人应当使用实名签订住房租赁合同。\n出租人应当按照规定，通过住房租赁管理服务平台等方式将住房租赁合同向租赁住房所在地房产管理部门备案。房产管理部门应当提高住房租赁合同备案服务水平，不得就住房租赁合同备案收取任何费用。\n出租人未办理住房租赁合同备案的，承租人可以办理备案。\n\n〔……〕\n\n第十五条 住房租赁企业依法登记的经营范围应当使用“住房租赁”的表述。\n住房租赁企业应当自领取营业执照之日起30日内，向所在地县级以上地方人民政府房产管理部门报送开业信息。房产管理部门应当将住房租赁企业开业信息向社会公开。\n住房租赁企业应当在其经营场所醒目位置公示本企业开业信息、服务规范和标准等。\n\n问题：根据节选，出租人应将住房租赁合同向哪个部门备案？只写部门名称。"
+          }
+        ]
+      },
+      "response": {
+        "model": "llama3.1:8b-instruct-q4_K_M",
+        "created_at": "2026-10-10T13:59:44.405076761Z",
+        "message": {
+          "role": "assistant",
+          "content": "{\"answer\": \"租赁住房所在地房产管理部门\", \"evidence\": \"第八条 出租人应当按照规定，通过住房租赁管理服务平台等方式将住房租赁合同向租赁住房所在地房产管理部门备案。\"}"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 94114300766,
+        "load_duration": 3846450320,
+        "prompt_eval_count": 515,
+        "prompt_eval_duration": 72597147274,
+        "eval_count": 66,
+        "eval_duration": 16123320807
+      },
+      "loaded_models": {
+        "models": [
+          {
+            "name": "llama3.1:8b-instruct-q4_K_M",
+            "model": "llama3.1:8b-instruct-q4_K_M",
+            "size": 5691138048,
+            "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+            "details": {
+              "parent_model": "",
+              "format": "gguf",
+              "family": "llama",
+              "families": [
+                "llama"
+              ],
+              "parameter_size": "8.0B",
+              "quantization_level": "Q4_K_M"
+            },
+            "expires_at": "2026-10-10T14:04:44.405377997Z",
+            "size_vram": 0,
+            "context_length": 8192
+          }
+        ]
+      },
+      "gpu_compute_processes": "gpu_uuid, pid, process_name, used_gpu_memory [MiB]",
+      "functional_call_ok": true,
+      "answer_matches_first_question": true,
+      "verified_execution_device": "cpu"
+    }
+  ]
+}

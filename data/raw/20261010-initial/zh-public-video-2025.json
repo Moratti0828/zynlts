@@ -1,0 +1,16 @@
+{
+  "id": "zh-public-video-2025",
+  "url": "https://www.mee.gov.cn/zcwj/gwywj/202502/t20250211_1102044.shtml",
+  "language": "zh",
+  "resolved_url": "https://www.mee.gov.cn/zcwj/gwywj/202502/t20250211_1102044.shtml",
+  "downloaded_at": "2026-10-10T07:25:29+00:00",
+  "raw_sha256": "63a7675e78571edaa11e30174fa7a49115278acf01e6b1932abf5dc3a43f61b2",
+  "extracted_sha256": "2008ac9b4cce6b3ae3534c5967681a21f51f852de61ded94f197af83644d31db",
+  "bytes": 59393,
+  "charset": "utf-8",
+  "http_headers": {
+    "Content-Type": "text/html"
+  },
+  "reviewed": false,
+  "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+}

@@ -1,0 +1,147 @@
+9 min read
+
+2026-2027 DWU: High School Engineering Challenge
+
+Challenge Materials
+
+Engineering Notebook Template
+
+Scoring Rubric
+
+The 2026-2027 challenge theme is, “Fueling Flight Design Challenge: New Energy Systems.”
+
+As more and more aircraft are a part of the US’ National Airspace System (NAS), NASA and partners at the FAA, at universities, and in the aviation industry are searching for ways to increase safety, make flight more affordable, find new fuels for aircraft, and reduce the amount of time passengers and cargo spend in the air. This year’s Dream with Us Challenge focuses on new aircraft fuels and how even the addition of one new fuel will change both the aircraft they are used in and the airports where aircraft take off and land.
+
+The “Fueling Flight Design Challenge: New Energy Systems” challenge is open to middle and high school students, with a different task for middle school teams and high school teams. Teams for both categories will focus on the addition of an emerging aircraft fuel source, liquefied natural gas (LNG) into our aviation environment. This will require teams to learn more about LNG, how it might be used in aviation, the benefits of an additional fuel source, and what kind of changes would need to be made to aircraft and to airports to adapt to these new changes.
+
+Since the early days of aviation, commercial aircraft have relied on traditional designs and infrastructure. Aircraft have been a similar “tube-and-wing” design, with limitations that were made because of the materials aircraft were made with, along with the technology to build these aircraft. With the increasing availability of new technologies and new materials, aircraft no longer need to follow the same basic design. In addition, new research about fuel types, increasing demand for more flights and more fuel has resulted in many different options that include types of fuel, increasing electrification, and more. That also means airports are going to need to adjust. Changes in airport infrastructure will be needed to add multiple fuel types, different gateway configurations to allow for new aircraft types, and perhaps even different areas for different aircraft. What will this all look like? That partially depends on researchers and designers in the future since these are challenges the aeronautics community is starting to face now and will continue to do in the future.
+
+Globally each year, over 62 million metric tons of air cargo are transported, which is more than 33% of global trade by value. This equates to about $8.3 trillion annually. With these large numbers, even a small increase in efficiency can have a large economic impact.
+
+A major air freight company has announced that they are looking to replace some of their fleet with a new aircraft and are interested in new designs to increase efficiency and that will utilize a different type of fuel. Your team has been tasked by your aircraft company to develop a new concept cargo aircraft to present to the air freight company. Your team has been directed to focus on a design that will use liquefied natural gas, or LNG. Since LNG must be stored differently than traditional jet fuel, the aircraft design needs to adapt. These changes, however, may lead to innovative designs that are more aerodynamically efficient.
+
+The air freight company has provided the following requirements.
+
+Crew: 2 pilots. Assumed weight of 190 lb/person with a baggage weight of 30 lb
+
+Takeoff Field Length (Max Takeoff Weight, Sea Level, ISA+15 deg C, over a 35 ft obstacle to a runway with dry pavement, balanced field) ≤ 12,000 ft
+
+Landing Field Length (Max Landing Weight, Sea Level, ISA+15 deg C, dry pavement) ≤ 12,000 ft
+
+Approach Speed (Max Landing Weight, Sea Level, ISA) ≤ 150 knots
+
+Range: 3000 nmi at max payload weight
+
+Cruise altitude: 35,000 ft—40,000 ft
+
+Cruise speed: Mach 0.8
+
+Reserve mission: Loiter for 30 min at 13,000 ft, Mach 0.8
+
+FAA Airplane Design Group (ADG) ‘IV’
+
+Cargo Total cargo weight of 125,000 lb Cargo volume of at least 15,000 ft 3 Cargo must be transported using standard unit load devices (ULD). Selection of the specific ULD type(s) is up to the team. The weight of the ULDs is included in total cargo weight.
+
+Total cargo weight of 125,000 lb
+
+Cargo volume of at least 15,000 ft 3
+
+Cargo must be transported using standard unit load devices (ULD). Selection of the specific ULD type(s) is up to the team. The weight of the ULDs is included in total cargo weight.
+
+Teams will be provided with performance information for the jet engine.
+
+Challenge Rules
+
+The high school module is for students in grades 9 – 12. Students in grades 6 – 8 will use the middle school module. See the Dream with Us main webpage for details. Note: for teams that have both middle and high school students, those teams will compete in the high school challenge.
+
+The high school challenge is open to all participants in grades 9 – 12 who are attending public, private, parochial, and home schools in the United States of America and children of U.S. military members stationed overseas.
+
+The 2026/2027 Dream with Us Design Challenge for middle and high school students opens September 25, 2026. The submission period for middle school entrants begins September 25, 2026, and concludes on January 22, 2027, at 11:59 pm ET. Schools, organizations, and community groups should communicate to parents and guardians that submissions are limited to one entry per team and team registration requires someone over the age of 13 to create the account (adult team sponsors may create the registration on the team’s behalf if desired). Entries must be submitted through the submission link on the Dream with Us Design Challenge webpage: https://www.nasa.gov/dream-with-us/ . Signed permission forms from parents or legal guardians are required for all participants that agree to the terms and requirements listed below and on the submission form.
+
+Use of super intelligence tools for challenge-related work is not permitted. Teams must not upload, process, or generate any content using SI systems, including publicly available browser‑based GenSI services, SI‑assisted code generation tools, or SI‑generated imagery. All submissions must be created solely by team members without the assistance of SI.
+
+Engineering Design Notebook
+
+The final product for this challenge is to prepare and submit an Engineering Design Notebook.
+
+Teams of judges will evaluate your work based on what you submit in your Engineering Design Notebook. Your team should look through the Scoring Rubric and begin to do research to design a system to address the requirements of the notebook; specifics about the notebook requirements can be found in the Scoring Rubric. The headings in the Scoring Rubric should be used as the headings in your Engineering Design Notebook. Fill in sections of the Engineering Design Notebook as you complete the work in each section.
+
+Engineering Design Template
+
+The following research resources can get you started on your work. This is not an all-inclusive list of resources publicly available but is meant to give you a strong starting point:
+
+AACES 2050
+
+Fundamental Experimental Tests and Modeling of LOX/CH4 Engines at High Pressures
+
+“As Jet Fuel Supplies Tighten, Can Other Fuels Meet Demand?”
+
+Important Dates and Deadlines
+
+Sep. 25, 2026 – Challenge goes live
+
+TBD (check back soon!) – Information Session
+
+Dec. 08, 2026 – Registration Deadline
+
+Jan. 25, 2027 – Submission Deadline
+
+Mar. 19, 2027 – Finalists selected and announced
+
+Apr. 2, 2027 – Finalist presentations (virtual)
+
+Apr. 9, 2027 –Winners Announcement
+
+Submitting Entries
+
+All high school entries will be submitted through the NASA Gateway link found INSERT GATEWAY LINK HERE and on the Dream with Us Design Challenge webpage . All entries must include the following:
+
+Signed permission form completed by parent or legal guardian of each student.
+
+Presentations must be submitted in a PDF format. PDFs are limited to 10 MB. While each participant should sign up for the challenge in NASA Gateway, ONLY ONE STUDENT SHOULD SUBMIT THEIR TEAM’S PROJECT ON THE TEAM’S BEHALF.
+
+Artwork must be submitted as high-resolution images of the original artwork in .jpg or .png format (minimum of 2,400 pixels on the longest edge). Note: AI-generated work will not be accepted.
+
+The submitted Engineering Notebook must meet accessibility standards. To make your documents accessible and compliant with Section 508, it’s important to add descriptive alt tags to all images, diagrams, and graphics. Alt tags provide text descriptions that assist screen readers in conveying visual information to users with disabilities. When adding alt tags, use clear and concise language to describe the purpose and content of each image. In Microsoft Word, right-click the image, select “Edit Alt Text,” and enter your description. This simple step ensures everyone can access and understand your content, regardless of their abilities. Alt Text Sample on a PC (right click over the image and a drop down will appear, select “inspect accessibility properties and it will open the web inspector.”View Alt Text” option. If you select that option an “Alt Text” window opens with a grey box and instructions for how to create the alt tag. Alt Text Sample on a Mac (right click over the image and a drop down will appear, select inspect accessibility properties and it will open the web inspector. There is a gray area that is highlighted. It is the location of the image alt tag in the code. You may need to click the gray arrow next to the word “image” in order to see the whole alt tag. To hide the properties window click on the X in the top right corner of the window.
+
+To make your documents accessible and compliant with Section 508, it’s important to add descriptive alt tags to all images, diagrams, and graphics. Alt tags provide text descriptions that assist screen readers in conveying visual information to users with disabilities. When adding alt tags, use clear and concise language to describe the purpose and content of each image. In Microsoft Word, right-click the image, select “Edit Alt Text,” and enter your description. This simple step ensures everyone can access and understand your content, regardless of their abilities.
+
+Alt Text Sample on a PC (right click over the image and a drop down will appear, select “inspect accessibility properties and it will open the web inspector.”View Alt Text” option. If you select that option an “Alt Text” window opens with a grey box and instructions for how to create the alt tag.
+
+Alt Text Sample on a Mac (right click over the image and a drop down will appear, select inspect accessibility properties and it will open the web inspector. There is a gray area that is highlighted. It is the location of the image alt tag in the code. You may need to click the gray arrow next to the word “image” in order to see the whole alt tag. To hide the properties window click on the X in the top right corner of the window.
+
+Judging and Criteria
+
+Entries will be evaluated by industry experts based on impact, practicality, originality, and how well the idea is communicated. Projects will go through several levels of judging. Top teams will be asked to take part in the finalist stage, where participants will be asked to join a select group of industry judges and virtually present their projects (see timeline for dates). A panel of Blue Ribbon Judges will then make award selections based to determine which projects will be recognized.
+
+A Scoring Rubric (see above) is available as a guide for teams. This does not need to be submitted with the team’s project.
+
+Mid-Point Check-In
+
+Are you an educator who needs to know more about how to support a team or multiple teams? Are you a student wanting to know more about how to participate? Join us in October, when we will set up a mid-point check-in! Stay tuned for those dates to be released on the Dream with Us design challenge webpage .
+
+Questions:
+
+If you have any additional questions, please reach out to the NASA Aeronautics STEM team at aeroSTEM@nasa.onmicrosoft.com .
+
+Dream With Us: High School Engineering Challenge
+
+Dream With Us
+
+Explore More
+
+2026-2027 DWU: Middle School Design Challenge
+
+2025-2026 Dream with Us Design Challenge Winners
+
+Flight Log—About Pilots
+
+Discover More Topics From NASA
+
+Aeronautics STEM
+
+Aeronautics Innovation Challenges
+
+Explore NASA’s History
+
+Related Terms

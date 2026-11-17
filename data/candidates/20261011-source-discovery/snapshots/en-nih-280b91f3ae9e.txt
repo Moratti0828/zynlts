@@ -1,0 +1,35 @@
+Wednesday, August 5, 2026
+
+NIH-funded international research collaboration catalogues 25 tumor types from thousands of patient donors.
+
+A research project funded by the National Institutes of Health (NIH), with collaborators around the country and the world, has generated one of the most extensive and diverse collections of patient-derived tumor models. Tumor tissue from hundreds of cancer patients contributed to the compendium of tumor models that will enhance the study of tumor biology and be an asset in accelerating the development of cancer therapies while guiding future research directions.
+
+The Human Cancer Models Initiative (HMCI), a decade-long effort is now an internationally accessible resource of models and data. It is a collection that includes 665 next-generation laboratory models representing 25 types of cancer from 2,780 donors. HCMI has developed models for all the common subtypes of cancer, including most of the predominant genetic alterations within each subtype.
+
+“By linking patient-derived models with detailed molecular and clinical data, HCMI has established a framework for advancing both our understanding of cancer and outcomes for patients,” said Anthony Letai, M.D., Ph.D., director of NIH’s National Cancer Institute (NCI). “HCMI will distribute those models to cancer researchers to amass in-depth knowledge about cancer.”
+
+Patient-derived cancer models are fundamental tools for understanding how tumors develop and respond to treatment. However, existing collections captured only a limited portion of the biological diversity seen in human cancer. The extent to which such models preserved molecular features of their original tumors has been unclear. HCMI has addressed this gap by generating a large, well-characterized repository of models that match their parental tumors closely, sharing both genetic alterations and gene expression signatures that define the malignancy processes in each patient’s cancer.
+
+“These validated models are a step closer to providing the experimental base needed for us to better understanding of the complexities of cancer biology," said Dan Gallahan, Ph.D., director of NCI’s Division of Cancer Biology.
+
+The lab-grown research models include organoids with similar cellular composition as natural organs, such as neurosphere cell clusters from brain cancers that have characteristics of neural stem cells. Each enables studies to explore tumor evolution and diversity, as well as studies relating to genetic features of the cancer models with drug sensitivity.
+
+“The HCMI resource provides researchers with unprecedented access to models that closely reflect the complexity of human tumors,” said Louis M. Staudt, M.D., Ph.D., chief of the Lymphoid Malignancies Branch, Center for Cancer Research at NCI. “This valuable tool lays the groundwork for preclinical studies that we hope will advance precision oncology.”
+
+A fundamental question in the field of cancer modeling is whether laboratory-grown models retain key biological features of the tumors from which they are derived. Scientists participating in the HCMI analyzed 421 sets of tumors paired with their models. They found that the tumors and models retained molecular characteristics even after extended growth in laboratory conditions. The analysis found 97.8% agreement in genetic alterations, 95% concordance in epigenetic features that regulate genome activity, and 92% similarity in RNA expression patterns that reflect the cellular origin of each tumor and its malignant behavior.
+
+Genomic features of the models make them useful for the study of therapeutic resistance, which occurs when a cancer does not respond to initial treatment or when a treatment loses its intended effect over time, causing the cancer to relapse. In glioblastoma models, for example, researchers detected various genetic features associated with resistance to the chemotherapy drug temozolomide, including inherited genetic abnormalities, acquired amplification of oncogenes, and mutational signatures of prior temozolomide exposure.
+
+“The culture conditions for growth of the organoids did not skew their genetic makeup or biological phenotypes, such as their differentiation state and proliferation rate,” Staudt said. “The hope and expectation are that the close similarity between a patient’s tumor and the derived organoid model means that researchers can use them to discover vulnerabilities that can be exploited therapeutically.”
+
+The HCMI tumor compendium includes 522 models with detailed clinical data, 153 models of rare cancers, and 71 models from individuals of non-European ancestry. All are being made broadly available to the scientific community in partnership with the American Type Culture Collection (ATCC) , along with associated genomic, transcriptomic, epigenomic, and clinical information data. Available models can be searched and filtered based on cancer type, therapeutic history, demographic information, and more via the HCMI Searchable Catalog . Published in Nature, this study is accompanied by companion papers led by researchers at the Wellcome Sanger Institute in Cambridge, United Kingdom, the Broad Institute of MIT and Harvard in Cambridge, and Cold Spring Harbor Laboratories.
+
+This project was supported in part by the NCI Human Cancer Models Initiative (HCMI) and multiple grants from NIH/NCI. A full list of funders is provided in the paper.
+
+About the National Cancer Institute (NCI): NCI leads the National Cancer Program and NIH’s efforts to dramatically reduce the prevalence of cancer and improve the lives of cancer patients and their families, through research into prevention and cancer biology, the development of new interventions, and the training and mentoring of new researchers. For more information about cancer, please visit the NCI website at cancer.gov or call NCI’s contact center, the Cancer Information Service, at 1-800-4-CANCER (1-800-422-6237).
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+D ElHarouni, M Al-Jazrawe, S Choi, et al. A compendium of next-generation patient-derived models for diverse cancers. Nature. August 5, 2026. DOI: https://doi.org/10.1038/s41586-026-10806-y

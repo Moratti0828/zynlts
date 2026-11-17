@@ -1,0 +1,13 @@
+{
+  "status": "restored_loopback_forward",
+  "ssh_pid": 15960,
+  "health": {
+    "status": "ok",
+    "version": "1.2.0"
+  },
+  "ssh_log": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\server-v2-tunnel-20261013.ssh.log",
+  "url": "http://127.0.0.1:8877/#v2experiment",
+  "bind": "127.0.0.1:8877",
+  "destination": "127.0.0.1:8787",
+  "host_alias": "gpu-server"
+}

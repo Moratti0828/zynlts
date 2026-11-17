@@ -1,0 +1,290 @@
+{
+  "pool": "data/candidates/20261011-source-supplement-environment-economy",
+  "processed_at": "2026-10-11T02:54:51+00:00",
+  "counts": {
+    "changed": 30,
+    "unchanged": 5
+  },
+  "articles": [
+    {
+      "id": "en-census-08f27adf9a00",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "267eae56b2407884acb615ec5e451e80f65107aebdfa24f755252f04dafdec0c",
+      "sha256": "cedd1611acedab210332f181704466078dc491473e16acb8e515a4b57a2c6c3f",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-0cdfb82d51f0",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "bf9c87faa3244033215ebbc715c8549abe7208ad308a60a70752181a6f36a7fe",
+      "sha256": "362eeef2ca89266759029e8ed37b2c655309fa64f1bdb5454b4ba75aea998865",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-103b8a3d4cb2",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "743d712e48534005445f33fe81c075d5862b3dd39f553466c70a86acb1f017e6",
+      "sha256": "84064d6bf234fc9ca2ffff9306cc515882a8da792a61d766cc32f35054465b41",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-20c31489b144",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "81cd937bcc09b62be2c890aecddb755b7cb238e4e5ca98d3caf1642469dd68e5",
+      "sha256": "672b90630801ba7b5010b0817b833afedfe8811fe8146c437c2e551b2dce4ad6",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-304de929d44e",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "ba40d1f92cba233edd50a142572c95b6d19ecdaf79a666f0409baf7409838195",
+      "sha256": "ac19b722d5871d877a3882a80264f4b4449f3e062f95776eb9c5053b0116b7b5",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-306910a30820",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "89be7b63562984db94bf0f40dbaad3b9c958c9a69befcdf5b7495a0a18e3a615",
+      "sha256": "ca80a1ee69b4a12619c215759d5e22a6e7e16aa608dc8f951c92e0c93d4508b1",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-3256da0de89d",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "f361e16f4fc5e4f85f1e355e427b45b8aac2661dae16ab2c5de4ed18348e401f",
+      "sha256": "3ef88e3115771b97cbb83fa893ceb3e41de0d16697edd6f1535e36c62660e7c5",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-36b24e0c2e93",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "bb4295f9b8311f1520d53d75fd8ff9f3e4208e5d7def00967fb0e65bf40176d0",
+      "sha256": "84286165afe4f9c0a54e4de6ba4565609e062e62a8f461a0c5d18ed1c8fec31e",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-434357e80b64",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "dbd2c473b2f41fa90e6c473a27b1f656285d69742b8b01b26a2cbad047075bb4",
+      "sha256": "4765cbc19027bc58d5c0e3e7a2a89c998795644cd2715f9448e6c6511f3bd4c1",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-4769793386e5",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "5452dbd33050fc97689f4adf81ab22e03291489d61c7744db83249e2d62a4e06",
+      "sha256": "995af836e40ceeb81fb1ef49737f00fe3a16ba28d17d7522de0d3163e36ae544",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-4aa315261353",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "f0b0d736076dc857dc2a8ad6723c0154e096bf3dcaf76750af801a3e1e3d8b5b",
+      "sha256": "95edf0e4ce8b01f944b7caebec7d0dfa071eae86fa3dcbce7326303c39000218",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-50c203150ac7",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "e387e8d7ca65a273d0c0e34edb27bdcad3e17454a6f5a502a432e8df191e0a31",
+      "sha256": "56b8eeb244f8ef6a3ee8a6d65de5cf4b71e6ff549e40f24e715636c53fac12bb",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-5824ceaf6520",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "713d8c0fb303ea46843fd3bf2289c231229b7ca15f8a252fc9491a5ac864de55",
+      "sha256": "5609dfc8befaa5bbb63178c9792d9de5b5e42af8a559940ac37607cc64444ceb",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-5a37f19cfe9c",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "3531f8776ac55d7ae5067217dd7429f922e6f50e46d947d22f2d8f7098951f82",
+      "sha256": "1fc1f9e13f046f26dacd0799c6671d8b56afc5fc5a5be601b0ccf137155da699",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-64338618ac9b",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "8e47f37ca5ab6dc5b60494dac4ae67f25a2d97a0fa35bd05e0d345c9eeef2cca",
+      "sha256": "709d64d08cbaa713c69797cc36e2a32c9b39ec0e775a25b0c74fcc5632f5b3cc",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-8b06d9bbd7de",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "4eafdd38759ac0b6c03a2fc535a2b975ef81f012f69de293540aa51e20e5527e",
+      "sha256": "e4601addcbecce06cd4cc68be2133363f88997c2d52cd7457feed698cce32fcb",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-902cebe9ad12",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "e4ddf9bde1c8517de0cef1d4f57267250999ec0cea568aa155eff11128716f01",
+      "sha256": "02a1dbdff86980be2aea44e4eeb66bb0d5be52b43f89c3c886b24e06e71a562f",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-96668e6377a7",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "4e2a82477b3178680459da0f8e4bc7d40c5e3bd49c17402da52a457c3505b028",
+      "sha256": "8413b6ff5e2b7705d973784132a4543e5ce41a58f892e44527e186e4d9592fb9",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-9c01cc131803",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "5acd7c78c1ced2555c8e7354639c3ef4b4ccee04fd57318eb67454cf43842c03",
+      "sha256": "bf5c09031d341c6a426390806fddc74b03fe089d54aebfa6265a6318915295ae",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-9cbba816b947",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "bc25f1afd40e669d159d24823d76871c0e2aed4f94cde35caf277db8a779271a",
+      "sha256": "de71af15f7855271a9f3cbfc579bdfc3b3fe44e3b95b2bad85c2480095c6892c",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-9f5365892831",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "82484b6947f6e61a890af3019478da173c4b3d38552e2ab566505fdc47bc673e",
+      "sha256": "d16906ae3b40376d5b546f1230e29abff57afceef5c28b65421911ea68835ee1",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-a37727d966d0",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "f7c4fa254df327afc1bf207ed4a36e65a5ba0a529c9e7a97fcf3fbf0ae666c45",
+      "sha256": "4e0fb3fa9f3cedc8a4e9918ea5e6f45490352e409339e7861ceeb1b4348aa7d2",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-be20ba82c0cc",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "6f70bcaf10561d8cd9c2992a5845e2c44fc36af2e31fdbfe4ae073949dada6c9",
+      "sha256": "5e2bafaaea2a3da03d0f34ec212cdbff0161451b1653367299b0b212cf2b74f6",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-c89a22048d22",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "f144a50c1a7aafe04c367f0d15e9e248c2a2bf65945d4cfc0fa990ea436e64d8",
+      "sha256": "7dec46f6df786f39bf951ec94b467a5e08a742ddba108a3ce1846be25aca2ba5",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-d38e1ef40d75",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "6e46cd45044455ae1ee2cf177beaa3ae22e94d8a144a5536b69df796ee681ba3",
+      "sha256": "75655fad71562cde5b0ff7f1e90d5d84f1470b6c91a678dce452d7f252b52654",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-d403c43d5bef",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "219b57832300e7bbc464f122bc184e8f79be16e1d95608460e69fe2f437dbb16",
+      "sha256": "007e1098e5211b640fd719c4f29f4d20c796edfa79bb9a70def9f2ca4824fb40",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-d9b752fdd59f",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "fc1c42b59a9386948c4d03a991126d3c2608942d8bbeafae53c071ba5398c6ef",
+      "sha256": "4c68857e47d56fca1580af121e0ca04ee48636af5714043a3ec1c2577925e0e1",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-dc3d956744e4",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "e8733899df2bacb52716e9fd09628d5d569345fe55aef1f8364ff4fc2c25b243",
+      "sha256": "ea695fdd4389c622677830724f7307177c1d478f42b373c252308625d698a8cc",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-f07ac21ec9d3",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "3651f0d3f6b604e373de42dbaf15adf950dd5e217bcdb0087558ef8d0c598769",
+      "sha256": "037359060389962f613b418f8ff56a5f85f328df065fc12102710eaf6051dea5",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-census-f362d7581a87",
+      "text_changed": true,
+      "provenance_changed": false,
+      "previous_sha256": "33f0982d7015fca6cd310cc32507c774b09faf73ebc616b41c4c2f95299f52ce",
+      "sha256": "690d6abe4d27cf748f449659b28395501b26a5934095355bbc491c729afeebed",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-usgs-654e58f9c0cc",
+      "text_changed": false,
+      "provenance_changed": false,
+      "previous_sha256": "5a924799b500fa5853cd3d0137855280067df859e7143da7b78deedc50448e29",
+      "sha256": "5a924799b500fa5853cd3d0137855280067df859e7143da7b78deedc50448e29",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-usgs-83facc5ef8bb",
+      "text_changed": false,
+      "provenance_changed": false,
+      "previous_sha256": "5e9aa751a7cb784642390c4bed2fc7bc9815797fd37864807db08cd1fbae97da",
+      "sha256": "5e9aa751a7cb784642390c4bed2fc7bc9815797fd37864807db08cd1fbae97da",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-usgs-8b7e767b230c",
+      "text_changed": false,
+      "provenance_changed": false,
+      "previous_sha256": "284186c07fb81a93bd1ab044082b97cdfd890b34427b6ca7472296eb52925bea",
+      "sha256": "284186c07fb81a93bd1ab044082b97cdfd890b34427b6ca7472296eb52925bea",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-usgs-f9cfaffac79d",
+      "text_changed": false,
+      "provenance_changed": false,
+      "previous_sha256": "291875d7864d3a60fa36e12f090270fd7ef6efe9123860a0870feeab1ea01473",
+      "sha256": "291875d7864d3a60fa36e12f090270fd7ef6efe9123860a0870feeab1ea01473",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-usgs-fe34467182ef",
+      "text_changed": false,
+      "provenance_changed": false,
+      "previous_sha256": "f40ff3393e6c2df6a0055a30bb02538fb70aba1aafebdf10b8862d26df24eb50",
+      "sha256": "f40ff3393e6c2df6a0055a30bb02538fb70aba1aafebdf10b8862d26df24eb50",
+      "removed_paragraphs": 0
+    }
+  ]
+}

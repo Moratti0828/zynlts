@@ -1,0 +1,105 @@
+NSTGRO Homepage
+
+Omar Alyousef University Of Memphis Polycatenated Architected Materials (PAM) for Origami-Inspired Space Docking Ports
+
+Cade Armstrong University Of Texas at Austin Intelligent Multi-Agent Constellations for Cooperative Cislunar Operations
+
+Laurel Barnett Harvard University Photonic SNSPD Readout and Feed Forward System for Improved Optical Communication Capabilities
+
+Katie Barcak William Marsh Rice University Compact magnetic heat switch for thermal management of long duration low power exploration missions
+
+Austin Bodin University Of Colorado, Boulder Rapid Robust Trajectory Design via Motion Funnels in Multi-Body Systems
+
+William Bodnar North Carolina State University Near-field Thermophotovoltaics for Extraterrestrial Surface Power Generation
+
+Diana Bolanos University of California, Berkeley Origami-inspired lattice architectures for robotic assembly and reconfiguration of modular space structures
+
+Annalise Cabra University Of Colorado, Boulder Development of RF Hydrogen Plasma for Ion-Assisted Metal Processing of Lunar Regolith
+
+William Callahan Eshleman University of Illinois at Urbana-Champaign Plume-Surface Interaction Experiments for Physics-Informed Ejecta Modeling
+
+Alexander Chin University of Washington Adaptive Wire-Bent Compliant Attachment Aids for Small Satellite Docking and ISAM Applications
+
+Eric Comstock Georgia Institute of Technology Vlasov Simulation Methods for Air Breathing Electric Propulsion
+
+Rachel Constantin University Of Tennessee High-Speed Tomographic Background-Oriented Schlieren for Supersonic Retropropulsion Characterization
+
+Andrew Dean University Of Central Florida Power and Mass Determination for Scalable Molten Salt Powered Lunar Outposts
+
+Lars Erickson University Of Minnesota Embedded Normal Form Algorithms for Low-Cost Cislunar Navigation
+
+Elsa Forberger University Of Southern California Capability-Aware Planning and Control of Multi-Robot Teams for Resilient Lunar Cargo Transport
+
+Abigail Glover Colorado School Of Mines Standardizing Regolith Terramechanics Properties via Multi-Modal Characterization for Risk-Aware Navigation in Rovers
+
+Emily Gokie University Of Colorado, Boulder A low-SWaP timing system for distributed in-orbit and planetary surface platforms
+
+Elan Graupe University Of Minnesota Model-Driven Navigation for Robust Spacecraft Atmospheric Entry and Descent
+
+Nikki Hart William Marsh Rice University Lifelong Plan Adaptation for Robot Manipulation Starting from One Example
+
+Elizabeth Hoerber Georgia Institute of Technology High-Precision Landing Using Visual-Inertial Odometry
+
+Theodore Houser University Of Chicago ECLiPSe: ElectroChemical Liquid Propellant Synthesis
+
+Hannah Hutton University of Michigan RESIST: Radiation-Enabled Structural Improvement in Space Materials
+
+Joseph Hwang Purdue University Experimental and Computational Study of Spray Cooling for Propellant Tank Thermal Management
+
+John Lance North Carolina State University Predicting RDRE Thermal Loads and Performance through Accurate Detonation Modeling
+
+Madison Lin University of Colorado, Boulder Autonomous Trajectory Anomaly Detection and Replanning in Cislunar Space
+
+Breno Macarenhas Pontes University Of Colorado, Boulder Development of a Compact, Wide-Field X-ray Navigation Sensor for Simultaneous Multi-Pulsar Tracking
+
+Emilia Mann William Marsh Rice University Advanced, 3D Knit Autonomous and Reconfigurable Soft Robots for Sustainable Planetary Surface Logistics
+
+Alanis Matias-Perez Colorado School Of Mines Linking Thermophysical Properties and Electrochemical Behavior in Molten Regolith Electrolysis
+
+Connor McCleery Yale University Ultrafast, High-Temperature Sintering of Mechanically Robust, Spectrally Selective Coatings for Cryogenic Propellant Storage
+
+Eleni Mowery University of Michigan Multiphysics Simulation of Vapor Core Nuclear Reactors with MHD Power Conversion
+
+Dillon Mulrooney University of Illinois at Urbana-Champaign Internal Pressure in Pyrolyzing Ablators for Atmospheric Entry
+
+Robert Muldrow University of Florida Enabling Autonomous SmallSat Robotic Docking via Novel Electrical & Data Interface
+
+Ari Nadelson University of Illinois at Urbana-Champaign Designing Solid State Batteries & Electrolytes for Low Temperature Applications
+
+Karl Pederson University Of Minnesota Lightweight Metamaterial Smart Windows for Human Space Exploration
+
+Abbey Piatt Price Columbia University Leveraging Protonic Solid-Oxide Electrochemical Cells for Process Intensification of H2 Recycling and In-Situ Resource Production
+
+Rithvik Ramesh California Institute of Technology Integrated Opto-Electronically Mode-Locked Laser for Space Applications
+
+Alexander Roush Colorado School Of Mines Adaptive Autonomy for Lunar Regolith Construction through Graph-Based Planning and Physics-Informed Surrogate Modeling
+
+Samuel Russell Johns Hopkins University Particle concentration and surface topography during plume-surface interaction
+
+Jamie Santos Oregon State University Dynamic Multi-Objective Prioritization for Autonomous Robot Teams on the Moon and Mars
+
+Liam Smego Georgia Institute of Technology A Differential Geometric Approach to Autonomous Navigation
+
+Truman Stoller University Of Nebraska, Lincoln Proposing an Advanced Heat Pipe: an Innovative Pumpless Flow Boiling Device
+
+Tetiana Tymoshevska University of Michigan Liquid Droplet Radiator Enabled by an Electrospray Array
+
+James Wall Massachusetts Institute of Technology A new model for cavitation in rocket engine turbopump inducers
+
+Adam Zheng Texas A&M University Coupled Thermal-Structural Design of Self-Deploying Reflectors for Solar Energy Distribution to Lunar Surface Assets
+
+Albert Zhou California Institute of Technology Master-Equation-Informed Reduced-Order Model for Non-Equilibrium Thermochemistry of Air in Planetary Entry
+
+Eleanor Zimmermann Michigan Technological University Radiative Passive Processing Technology for Offworld Resource Separation (RaPPTORS)
+
+Discover More Topics From NASA
+
+Space Technology Mission Directorate
+
+Space Technology Research Grants
+
+NASA Space Technology Graduate Research Opportunities (NSTGRO)
+
+Technology
+
+Related Terms

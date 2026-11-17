@@ -1,0 +1,71 @@
+{
+  "id": "en-loc-bdbeec422f68",
+  "title": "The Supreme Court’s 1954 Brown v. Board Ruling: “A Day That Will Live in Glory” | Timeless",
+  "language": "en",
+  "provider": "loc",
+  "source_name": "US Library of Congress",
+  "source_url": "https://blogs.loc.gov/loc/2026/08/the-supreme-courts-1954-brown-v-board-ruling-a-day-that-will-live-in-glory/",
+  "request_url": "https://blogs.loc.gov/loc/2026/08/the-supreme-courts-1954-brown-v-board-ruling-a-day-that-will-live-in-glory/",
+  "source_attribution": null,
+  "published_at": "2026-08-20",
+  "first_published_at": null,
+  "date_evidence": {
+    "kind": "publication_meta",
+    "field": "dc.date",
+    "value": "2026-08-20"
+  },
+  "date_review_note": "Official source page/API publication verified; earlier publication or repost elsewhere remains to be checked. Do not equate an URL stamp or update with first publication.",
+  "recency_tier": "2026-H2",
+  "domain_provisional": "history_culture",
+  "genre_provisional": "cultural_narrative",
+  "rights": "美国联邦机构工作人员原创文字通常适用17 USC 105；本候选仍待核作者及第三方权利。照片、媒体、文学引文、第三方投稿不自动获得许可；当前仅本地私有教学科研使用。",
+  "scope": "article_body_candidate",
+  "extraction_selector": ".entry-content",
+  "text": "-This article also appears in the May/June issue of the Library of Congress Magazine, which focused on momentous events in the nation’s first 250 years.\n\nThe Supreme Court’s ruling in Brown v. Board of Education on May 17, 1954, was one of the most consequential decisions in American history and is exhaustively documented at the Library. A unanimous court emphatically ruled that the “separate but equal” doctrine of the 1896 Plessy v. Ferguson Supreme Court ruling — the basis for legalized segregation in the United States — was a false premise and always had been.\n\n“We conclude that in the field of public education ‘separate but equal’ has no place,” Chief Justice Earl Warren wrote in his opinion, underlining the last phrase in his reading copy. Then he delivered the hammer blow, underlining the entire next sentence: “Separate educational facilities are inherently unequal.”\n\nThe case, though focused on public schools, would apply to every facet of American life. No more “Colored Only” water fountains. The nation was entering a new era.\n\n“Dear Chief: This is a day that will live in glory,” Justice Felix Frankfurter wrote to Warren in a short, handwritten memo. “It is also a great day in the history of the court.”\n\nThat the court had to issue another ruling the next year, saying the nation should integrate “with all deliberate speed,” and yet another in 1969 , after more than a decade of civil rights upheavals across the country, demanding that integration take place “immediately,” showed how deeply (and violently) embedded segregation was in American society.\n\nBut back in 1954, Warren had not written in his opinion that the verdict was unanimous. It was critical that the nation understand that, he thought, so he penned it alongside the typewritten text in his reading copy, reminding him to say, “Therefore, we unanimously hold …,” when reading it aloud in court to a breathless, waiting nation.\n\nHe later recalled the electricity that shot through the room: “When the word ‘unanimously’ was spoken, a wave of emotion swept the room; no words or intentional movement, yet a distinct emotional manifestation that defies description.”",
+  "paragraphs": [
+    "-This article also appears in the May/June issue of the Library of Congress Magazine, which focused on momentous events in the nation’s first 250 years.",
+    "The Supreme Court’s ruling in Brown v. Board of Education on May 17, 1954, was one of the most consequential decisions in American history and is exhaustively documented at the Library. A unanimous court emphatically ruled that the “separate but equal” doctrine of the 1896 Plessy v. Ferguson Supreme Court ruling — the basis for legalized segregation in the United States — was a false premise and always had been.",
+    "“We conclude that in the field of public education ‘separate but equal’ has no place,” Chief Justice Earl Warren wrote in his opinion, underlining the last phrase in his reading copy. Then he delivered the hammer blow, underlining the entire next sentence: “Separate educational facilities are inherently unequal.”",
+    "The case, though focused on public schools, would apply to every facet of American life. No more “Colored Only” water fountains. The nation was entering a new era.",
+    "“Dear Chief: This is a day that will live in glory,” Justice Felix Frankfurter wrote to Warren in a short, handwritten memo. “It is also a great day in the history of the court.”",
+    "That the court had to issue another ruling the next year, saying the nation should integrate “with all deliberate speed,” and yet another in 1969 , after more than a decade of civil rights upheavals across the country, demanding that integration take place “immediately,” showed how deeply (and violently) embedded segregation was in American society.",
+    "But back in 1954, Warren had not written in his opinion that the verdict was unanimous. It was critical that the nation understand that, he thought, so he penned it alongside the typewritten text in his reading copy, reminding him to say, “Therefore, we unanimously hold …,” when reading it aloud in court to a breathless, waiting nation.",
+    "He later recalled the electricity that shot through the room: “When the word ‘unanimously’ was spoken, a wave of emotion swept the room; no words or intentional movement, yet a distinct emotional manifestation that defies description.”"
+  ],
+  "body_bytes": 2218,
+  "word_count": 353,
+  "han_count": 0,
+  "sha256": "bdf46ff9d17cbd742c2ee9b695a56ad612fa13961b59e5d7f61be466882b4cbd",
+  "raw_sha256": "5c65998604117fc6db32838e81218b739213ac87762de94eaa19cfb79ff6c5ba",
+  "raw_path": "data/candidates/20261011-source-discovery/snapshots/en-loc-bdbeec422f68.html",
+  "text_path": "data/candidates/20261011-source-discovery/snapshots/en-loc-bdbeec422f68.txt",
+  "reviewed": false,
+  "review_note": "真实下载的待审候选。尚无阅读理解题、参考答案或人工审定；不计入正式测评题库。",
+  "resolved_url": "https://blogs.loc.gov/loc/2026/08/the-supreme-courts-1954-brown-v-board-ruling-a-day-that-will-live-in-glory/",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified": "Sun, 11 Oct 2026 02:48:56 GMT",
+  "downloaded_at": "2026-10-11T02:48:57+00:00",
+  "derived_text_processing_log": {
+    "version": "candidate-prose-cleaning-v1",
+    "processed_at": "2026-10-11T02:54:49+00:00",
+    "previous_text_sha256": "2927ca30b74e34ba5a747eccba957755d719cefe93cf2e50ae701687e0dd7644",
+    "previous_selector": ".entry-content",
+    "history_metadata_path": "data/candidates/20261011-source-discovery/processing-history/en-loc-bdbeec422f68.v1.metadata.json",
+    "removed_paragraphs": [
+      {
+        "text": "Subscribe to the blog— it’s free!",
+        "reason": "page subscription/contact/read-time/navigation UI"
+      }
+    ],
+    "original_paragraph_count": 9,
+    "result_paragraph_count": 8,
+    "policy": "Remove only page UI/recommendation containers, repeated title and standalone numbered CAS image captions; preserve original wording and document paragraphs. Raw source bytes unchanged."
+  },
+  "raw_capture_kind": "http_response_bytes",
+  "rights_reference_url": "https://www.loc.gov/legal/",
+  "rights_review_status": "pending_article_author_and_third_party_rights_review",
+  "human_reviewed": false,
+  "status": "candidate"
+}

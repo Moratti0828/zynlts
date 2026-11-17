@@ -1,0 +1,115 @@
+{
+  "version": "reading-benchmark-v2.1-task-metrics-draft-20261013",
+  "status": "design_draft",
+  "created_at": "2026-10-11",
+  "updated_at": "2026-10-13",
+  "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+  "previous_version": "reading-benchmark-v2-draft-20261011",
+  "measurement": "关闭联网、检索和历史，依据实际呈现的陌生文本恢复信息关系、整合证据、形成文本支持的结论并识别信息不足。",
+  "languages": ["zh", "en"],
+  "reporting": "中英文分别报告；双语总览采用语言等权，不能将语言差异完全归因于理解能力。",
+  "targets": {
+    "candidate_articles_minimum": 150,
+    "candidate_per_language_minimum": 75,
+    "selected_articles": 120,
+    "selected_per_language": 60,
+    "development_articles": 20,
+    "development_per_language": 10,
+    "test_articles": 100,
+    "test_per_language": 50,
+    "questions_per_article": 8,
+    "answerable_per_article": 6,
+    "unanswerable_per_article": 2,
+    "total_questions": 960,
+    "test_questions": 800,
+    "test_answerable_per_dimension": 120,
+    "test_answerable_per_dimension_per_language": 60,
+    "test_articles_per_dimension_minimum": 40,
+    "maximum_questions_same_dimension_per_article": 3,
+    "minimum_answerable_dimensions_per_article": 3,
+    "maximum_source_share": 0.2
+  },
+  "dimensions": [
+    {"id": "D1", "name": "信息定位与准确释义", "operation": "找到主体、对象、时间与条件，保留范围和否定", "evidence_minimum": 1},
+    {"id": "D2", "name": "语义、指代与条件理解", "operation": "解析指代、否定、例外与条件；区分错误前提和信息缺失", "evidence_minimum": 1},
+    {"id": "D3", "name": "跨句整合与推断", "operation": "连接至少两个必要信息单元，记录最短连接步骤", "necessary_information_units_minimum": 2},
+    {"id": "D4", "name": "数值、时间与集合推理", "operation": "对文本内操作数真实进行求差、比例、计数、排序或日期运算；直接摘取数字归D1", "requires_recorded_operation": true},
+    {"id": "D5", "name": "主旨、结构与论证评价", "operation": "理解目的/结构或检查文本论据支持范围；主旨和论证子类分别报告", "requires_complete_relevant_text": true},
+    {"id": "D6", "name": "可回答性与知识边界", "operation": "识别缺必要条件及实体/时间/范围错配；用可答题同时检测误拒"}
+  ],
+  "domain_targets": [
+    {"id": "science_technology", "name": "科学技术", "zh": 10, "en": 10},
+    {"id": "environment_energy", "name": "环境与能源", "zh": 10, "en": 10},
+    {"id": "public_policy", "name": "公共政策", "zh": 10, "en": 10},
+    {"id": "society_culture", "name": "社会与文化", "zh": 10, "en": 10},
+    {"id": "health_life", "name": "健康与生命科学", "zh": 10, "en": 10},
+    {"id": "economy_industry", "name": "经济与产业", "zh": 10, "en": 10}
+  ],
+  "length_targets": {
+    "unit_zh": "汉字数，另记全部字符数",
+    "unit_en": "英文词数",
+    "zh": {"short": [300, 600], "medium": [600, 1200], "longer": [1200, 2000]},
+    "en": {"short": [200, 400], "medium": [400, 800], "longer": [800, 1400]},
+    "per_language_per_bin": 20,
+    "note": "采集保存全文；实际呈现文本单独冻结。必须通过全部模型的tokenizer/模板预算，无静默截断。旧v1保留6000 UTF-8字节限制；新版已验证指定固定Qwen tokenizer和原生模板的8192-token完整预算，其他模型尚未认证。当前短开发题验收不能证明长上下文能力。"
+  },
+  "evidence": {
+    "initial_granularity": "paragraph",
+    "stable_id_pattern": "article-id:p001",
+    "gold": "预先审定的多套完整最小支持段落ID集合；模型返回一套集合",
+    "strict_success": "预测ID集合与至少一套金标集合相同；未知ID、缺支持段落、多余无关段落均失败",
+    "limitations": "段落ID集合分不等于句级分，不证明内部推理，也不直接判定自由答案的语义正确。分段文本与ID映射一起冻结。"
+  },
+  "metrics": {
+    "primary": {"id": "task_metric_panel", "name": "按任务分别报告，不设统一阅读总分", "aggregation": "中英文分别报告；每种适用题型按全部预定题计均值，缺少某题型为null。失败保留分母。", "metrics": ["choice_accuracy", "short_em", "short_token_f1", "numeric_strict_accuracy", "evidence_exact_answerable", "evidence_precision_answerable", "evidence_recall_answerable", "evidence_f1_answerable", "correct_refusal_rate", "unanswerable_substantive_rate", "false_refusal_rate"]},
+    "choice": {"id": "choice_accuracy", "rule": "模型answer字段严格等于冻结correct_option；大小写错误、附加说明、非法选项均不计正确。"},
+    "short": {"em": "short_em", "f1": "short_token_f1", "em_rule": "NFKC、大小写折叠、合并空白后与任一冻结别名完全相同；保留语序、标点、否定、单位。", "f1_rule": "NFKC与大小写折叠后去标点，中文以汉字和连续外文词/数字为token，英文以Unicode词为token；保留冠词与否定，按词频多重集交集计算2*overlap/(predicted_count+gold_count)，取冻结别名最高值。空token不计分。", "protocol_label": "项目自定义双语重叠指标；中文字符F1不是LongBench官方jieba F1，英文也不冒充SQuAD官方评分。公开基准按各自官方脚本另轨执行。", "strict_label": "F1仅部分匹配指标；即使颠倒主体仍高F1，也不改变严格答案正确性A、联合J或Brier标签。"},
+    "numeric": {"id": "numeric_strict_accuracy", "rule": "数值与冻结gold差值不超过明确absolute_tolerance，且unit严格匹配；保留正负号，禁止隐式百分比/比例/单位转换。"},
+    "evidence_metrics": {"gold_rule": "与某套完整金标集合相同计EM；F1取最高完整集合，P/R来自同一集合；任何未知段落ID使证据评分为0。", "denominator": "全部预定可答题，包括缺失、拒答和契约错误；段落指标与句级支持事实分不同。"},
+    "boundary": {"metrics": ["correct_refusal_rate", "unanswerable_substantive_rate", "false_refusal_rate"], "note": "正确拒答和缺信息题实质误答以全部预定缺信息题为分母；可答误拒以全部预定可答题为分母。执行错误为0并另报，不能把误答率与正确拒答率强行视作互补。"},
+    "supplemental": {"id": "grounded_understanding", "name": "项目自定义有依据理解分U", "item_rule": "答案严格正确 A 与完整证据集合正确 S 同时为1，J=A*S", "aggregation": "每篇每维先求均值，再对适用文章求均值U_d；D1-D5等权平均。缺少某维时U为null。J、U、双语等权U仅作为补充，不冒充Hotpot官方Joint F1或统一学术阅读分。"},
+    "answerability": {"id": "balanced_answerability", "role": "supplemental_custom_boundary_coverage", "name": "可回答性平衡覆盖指标", "rule": "0.5*(正确拒答无答案题数/全部无答案题数 + 合法实质回答可答题数/全部可答题数)", "note": "实质回答并不等于答案正确；全拒和全答策略无执行错误时均仅0.5。此自定义量不称为标准二分类平衡准确率。"},
+    "auxiliary": ["严格答案准确率混合汇总仅供诊断", "答案正确概率Brier及有效N", "完成率/契约错误率", "响应时间及冷启动信息"],
+    "failure_policy": "所有预定题均入分母，缺失/超时/非法输出成功项为0；有效输出子集另报覆盖率。取消运行标未完成。",
+    "calibration_label": "模型置信度契约为答案正确概率时使用A，不偷换成J；不能用F1标签。"
+  },
+  "annotation_states": ["candidate", "ai_checked", "human_reviewed", "frozen"],
+  "annotation_rules": {
+    "ai_checked": "AI核对来源和候选答案，不等于人工审题",
+    "human_reviewed": "两位真实人员独立核对题面、可答性、答案、必要证据、维度和歧义，记录审题者与时间，仲裁分歧",
+    "frozen": "完成审定、源文章簇划分、正文/题/金标/证据ID/提示词/评分器版本hash并封存",
+    "no_fake_reviews": true,
+    "open_answers": "开放要点题需冻结原子事实与矛盾规则和盲审流程；初版确定性评分器不自动评分此类题。",
+    "unanswerable": "围绕文本主题缺必要条件或合理范围错配；明确被文本反驳的前提仍属于可回答题。"
+  },
+  "temporal_policy": {
+    "model_publication_upper_bounds": {"qwen2.5_original": "2024-09-19", "llama3.1_original": "2024-07-23"},
+    "article_first_publication_after": "2025-01-01",
+    "preferred_period": "2026年，采集优先2026-07-01及之后",
+    "unknown_first_publication": "候选隔离，不据网页更新时间/URL/抓取时间认定首发",
+    "claim": "时间隔离降低公开文本泄漏风险，不能证明模型从未见过事实、相似旧稿或不透明的后续微调。"
+  },
+  "statistics": {
+    "unit": "source_article_cluster",
+    "comparison": "模型在相同冻结文章/题上成对比较；中英文分别报告",
+    "bootstrap_repetitions": 2000,
+    "seed": 42,
+    "confidence_interval": 0.95,
+    "strata": ["language", "domain", "length_bin"],
+    "method": "stratified paired percentile bootstrap",
+    "primary_interval_keys": ["primary_metric_intervals", "primary_paired_difference_intervals"],
+    "missing_kind": "没有适用题的统计量/区间为null；某次重采样没有适用题时跳过该指标并报告effective_resamples，不影响其他题型。",
+    "note": "800题不是800个独立样本；百篇不保证能区分小差异；置信区间跨0时差异不确定。"
+  },
+  "sources": [
+    {"name": "OECD PISA 2018 Reading Framework", "url": "https://www.oecd.org/en/publications/pisa-2018-assessment-and-analytical-framework_b25efab8-en/full-report/component-3.html"},
+    {"name": "HotpotQA", "url": "https://aclanthology.org/D18-1259/"},
+    {"name": "DROP", "url": "https://aclanthology.org/N19-1246/"},
+    {"name": "SQuAD 2.0", "url": "https://aclanthology.org/P18-2124/"},
+    {"name": "QuALITY", "url": "https://aclanthology.org/2022.naacl-main.391/"},
+    {"name": "LongBench", "url": "https://aclanthology.org/2024.acl-long.172/"},
+    {"name": "LongBench v2", "url": "https://aclanthology.org/2025.acl-long.183/"},
+    {"name": "RPC-Bench", "url": "https://aclanthology.org/2026.acl-long.1277/"},
+    {"name": "F1 is Not Enough!", "url": "https://aclanthology.org/2020.emnlp-main.575/"}
+  ]
+}

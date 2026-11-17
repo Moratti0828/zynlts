@@ -1,0 +1,7 @@
+{
+  "url": "https://registry.ollama.ai/v2/library/phi3.5/blobs/sha256:c5f9f560a7047d53bbefeef37f0a5b448aba03871b2fb63c4331b9ae0248914a",
+  "retrieved_at_utc": "2026-10-24T15:12:14.830368+00:00",
+  "file": "output\\model-suite-20261024\\metadata\\phi35-registry-license.txt",
+  "sha256": "c5f9f560a7047d53bbefeef37f0a5b448aba03871b2fb63c4331b9ae0248914a",
+  "bytes": 1073
+}

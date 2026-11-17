@@ -1,0 +1,594 @@
+{
+  "version": "reading-live-demo-v1-20261026",
+  "ready": true,
+  "status": "ready",
+  "problems": [],
+  "deployment": {
+    "label": "本机 · Ollama",
+    "hostname": "Moratti",
+    "model_connection_note": "模型调用由当前平台后端发起；服务地址中的127.0.0.1指后端所在机器。"
+  },
+  "models": [
+    {
+      "id": "llama31-8b",
+      "name": "Llama 3.1 · 8B Instruct",
+      "model": "llama3.1:8b-instruct-q4_K_M",
+      "release_date": "2024-07-23",
+      "release_source": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "expected_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11434",
+      "api_key_env": "",
+      "created_at": "2026-10-10T07:31:30.068431+00:00",
+      "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 131072,
+        "embedding_length": 4096,
+        "runner": "ggml"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3040
+        },
+        "zh-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3242
+        },
+        "en-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 3736
+        },
+        "en-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "draft_utf8_byte_upper_bound",
+          "exact_budget": false,
+          "max_input_tokens": 4025
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick",
+        "zh-reading",
+        "en-quick",
+        "en-reading"
+      ],
+      "demo_context_tokens": 8192
+    },
+    {
+      "id": "qwen25-7b",
+      "name": "Qwen2.5 · 7B Instruct",
+      "model": "qwen2.5:7b-instruct",
+      "release_date": "2024-09-19",
+      "release_source": "https://qwenlm.github.io/blog/qwen2.5/",
+      "expected_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11434",
+      "api_key_env": "",
+      "created_at": "2026-10-10T07:31:30.063360+00:00",
+      "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "7.6B",
+        "quantization_level": "Q4_K_M",
+        "context_length": 32768,
+        "embedding_length": 3584,
+        "runner": "ggml"
+      },
+      "compatibility": {
+        "zh-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 729
+        },
+        "zh-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 784
+        },
+        "en-quick": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 779
+        },
+        "en-reading": {
+          "allowed": true,
+          "reason": "完整原文与全部选中问题通过当前上下文预算检查",
+          "num_ctx": 8192,
+          "strict_time": true,
+          "strict_budget": false,
+          "budget_method": "frozen_native_chat_tokens",
+          "exact_budget": true,
+          "max_input_tokens": 835
+        }
+      },
+      "compatible_preset_ids": [
+        "zh-quick",
+        "zh-reading",
+        "en-quick",
+        "en-reading"
+      ],
+      "demo_context_tokens": 8192
+    }
+  ],
+  "presets": [
+    {
+      "id": "zh-quick",
+      "label": "中文 · 单题速跑",
+      "language": "zh",
+      "bank_id": "dev-expanded-20261020",
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "question_count": 1,
+      "formal": false,
+      "note": "完整原文、已有冻结开发题；人工复核0。现场演示不形成正式排名。",
+      "article": {
+        "id": "zh-cas-1cf079b15eb7-dev20261020",
+        "title": "非局域超表面实现激子发射定向调控",
+        "language": "zh",
+        "published_at": "2026-10-09",
+        "source_url": "https://www.cas.cn/syky/202609/t20260930_5121254.shtml",
+        "paragraphs": [
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p001",
+            "text": "传统光学超表面虽能对光场进行像素化相位调控，但其相位响应依赖每个超原子的局域光场，超原子之间缺乏空间相干性，难以对自发辐射实施空间相干的相位调控。",
+            "source_paragraph_indexes_1_based": [
+              1
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p002",
+            "text": "近日，中国科学院苏州纳米技术与纳米仿生研究所将单层MoSe 2 与WS 2 非局域超表面进行全范德华集成，构建了全范德华非局域相位梯度超表面激子发光器件。",
+            "source_paragraph_indexes_1_based": [
+              2
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p003",
+            "text": "团队通过调控超原子的面内对称性，利用布里渊区折叠，在光锥之上引入高品质因子的准连续域束缚态非局域共振。该共振具有面内扩展的集体光场，使超表面同时具备高品质因子和良好的空间相干性。",
+            "source_paragraph_indexes_1_based": [
+              3
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p004",
+            "text": "在此基础上，团队实现了手性依赖的激子发射光束偏转，并建立了全范德华非局域相位梯度超表面平台。该研究为二维激子发射的精确方向控制提供了新路径，也为多功能荧光发射器和片上光源设计开辟了新前景。",
+            "source_paragraph_indexes_1_based": [
+              4
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p005",
+            "text": "相关研究成果发表在《先进功能材料》（ Advanced Functional Materials ）上。研究工作得到国家自然科学基金等的支持。",
+            "source_paragraph_indexes_1_based": [
+              5
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p006",
+            "text": "全范德华非局域相位梯度超表面实现激子发射定向调控的概念示意图",
+            "source_paragraph_indexes_1_based": [
+              6
+            ]
+          }
+        ],
+        "source_cluster_id": "zh-cas-1cf079b15eb7",
+        "presented_text_sha256": "cc9762f47962a92d5dd08fa1b5249564ac90a12580223fd62819c76bc6fe5c50",
+        "first_published_at": null
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "prompt": "报道中用于集成的单层材料是什么？只写化学式，省略空格。",
+          "kind": "short",
+          "dimension": "D1"
+        }
+      ],
+      "compatible_model_ids": [
+        "llama31-8b",
+        "qwen25-7b"
+      ]
+    },
+    {
+      "id": "zh-reading",
+      "label": "中文 · 三题阅读",
+      "language": "zh",
+      "bank_id": "dev-expanded-20261020",
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "question_count": 3,
+      "formal": false,
+      "note": "完整原文、已有冻结开发题；人工复核0。现场演示不形成正式排名。",
+      "article": {
+        "id": "zh-cas-1cf079b15eb7-dev20261020",
+        "title": "非局域超表面实现激子发射定向调控",
+        "language": "zh",
+        "published_at": "2026-10-09",
+        "source_url": "https://www.cas.cn/syky/202609/t20260930_5121254.shtml",
+        "paragraphs": [
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p001",
+            "text": "传统光学超表面虽能对光场进行像素化相位调控，但其相位响应依赖每个超原子的局域光场，超原子之间缺乏空间相干性，难以对自发辐射实施空间相干的相位调控。",
+            "source_paragraph_indexes_1_based": [
+              1
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p002",
+            "text": "近日，中国科学院苏州纳米技术与纳米仿生研究所将单层MoSe 2 与WS 2 非局域超表面进行全范德华集成，构建了全范德华非局域相位梯度超表面激子发光器件。",
+            "source_paragraph_indexes_1_based": [
+              2
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p003",
+            "text": "团队通过调控超原子的面内对称性，利用布里渊区折叠，在光锥之上引入高品质因子的准连续域束缚态非局域共振。该共振具有面内扩展的集体光场，使超表面同时具备高品质因子和良好的空间相干性。",
+            "source_paragraph_indexes_1_based": [
+              3
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p004",
+            "text": "在此基础上，团队实现了手性依赖的激子发射光束偏转，并建立了全范德华非局域相位梯度超表面平台。该研究为二维激子发射的精确方向控制提供了新路径，也为多功能荧光发射器和片上光源设计开辟了新前景。",
+            "source_paragraph_indexes_1_based": [
+              4
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p005",
+            "text": "相关研究成果发表在《先进功能材料》（ Advanced Functional Materials ）上。研究工作得到国家自然科学基金等的支持。",
+            "source_paragraph_indexes_1_based": [
+              5
+            ]
+          },
+          {
+            "id": "zh-cas-1cf079b15eb7-dev20261020:p006",
+            "text": "全范德华非局域相位梯度超表面实现激子发射定向调控的概念示意图",
+            "source_paragraph_indexes_1_based": [
+              6
+            ]
+          }
+        ],
+        "source_cluster_id": "zh-cas-1cf079b15eb7",
+        "presented_text_sha256": "cc9762f47962a92d5dd08fa1b5249564ac90a12580223fd62819c76bc6fe5c50",
+        "first_published_at": null
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "prompt": "报道中用于集成的单层材料是什么？只写化学式，省略空格。",
+          "kind": "short",
+          "dimension": "D1"
+        },
+        {
+          "id": "q03",
+          "prompt": "传统超表面对自发辐射实施空间相干相位调控的限制是什么？",
+          "kind": "choice",
+          "dimension": "D2",
+          "options": {
+            "A": "超原子之间已有过强相干性",
+            "B": "相位响应依赖局域光场而超原子间缺乏空间相干性",
+            "C": "只能对光强而不能对任何相位调控",
+            "D": "不存在超原子之间的光学响应"
+          }
+        },
+        {
+          "id": "q07",
+          "prompt": "该器件在实验中实现的最大光束偏转角精确是多少度？",
+          "kind": "unanswerable",
+          "dimension": "D6"
+        }
+      ],
+      "compatible_model_ids": [
+        "llama31-8b",
+        "qwen25-7b"
+      ]
+    },
+    {
+      "id": "en-quick",
+      "label": "English · 单题速跑",
+      "language": "en",
+      "bank_id": "dev-expanded-20261020",
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "question_count": 1,
+      "formal": false,
+      "note": "完整原文、已有冻结开发题；人工复核0。现场演示不形成正式排名。",
+      "article": {
+        "id": "en-nasa-2b3fb9c367c3-dev20261020",
+        "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+        "language": "en",
+        "published_at": "2026-10-02",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+        "paragraphs": [
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p001",
+            "text": "Groundbreaking tests at NASA’s Langley Research Center in Hampton, Virginia, are paving the way for new wind tunnel capabilities for designing the aircraft technologies of the future.",
+            "source_paragraph_indexes_1_based": [
+              1
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p002",
+            "text": "In a first-of-its-kind test in NASA Langley’s Transonic Dynamics Tunnel, researchers used unsteady Pressure Sensitive Paint to study how air flows around a standard wind tunnel model known as the Benchmark Supercritical Wing. As the team observed the test, the paint’s special capabilities made the model wing glow pink-purple when exposed to special ultraviolet lights, while high-speed cameras captured every detail.",
+            "source_paragraph_indexes_1_based": [
+              2
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p003",
+            "text": "The test combined two valuable NASA tools. NASA’s benchmark wings don’t represent a particular type of aircraft, rather they are meant as universal models to help researchers improve computer modeling using wind tunnel data.",
+            "source_paragraph_indexes_1_based": [
+              3
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p004",
+            "text": "Unsteady pressure sensitive paint is a specialized coating that varies in brightness according to how much pressure the air flow applies to the wing. High-speed cameras capture those changes, providing data for computer models. For years, NASA researchers at centers including Langley and the agency’s Ames Research Center in California’s Silicon Valley have been working to integrate the paint into wind tunnel tests for aircraft and rockets. NASA researchers consider the paint a vital tool and expect to find many more wind tunnel applications in the future.",
+            "source_paragraph_indexes_1_based": [
+              4
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p005",
+            "text": "This test marked the technique’s first use on a large-scale, freely moving model in a low‑oxygen environment, an achievement made possible by the Transonic Dynamic Tunnel’s unique testing capabilities.",
+            "source_paragraph_indexes_1_based": [
+              5
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p006",
+            "text": "This milestone opens the door for upcoming tests on flexible aircraft models that are designed to bend and adapt during flight to improve efficiency. It also lays the foundation for better simulations and designs as NASA advances the future of flight.",
+            "source_paragraph_indexes_1_based": [
+              6
+            ]
+          }
+        ],
+        "source_cluster_id": "en-nasa-2b3fb9c367c3",
+        "presented_text_sha256": "c71b2dc0744d61af98ca3a382130a984305705779353f540753edd81f0d6869b",
+        "first_published_at": null
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "prompt": "What is the name of the standard wind-tunnel model used in the reported test? Give only its name.",
+          "kind": "short",
+          "dimension": "D1"
+        }
+      ],
+      "compatible_model_ids": [
+        "llama31-8b",
+        "qwen25-7b"
+      ]
+    },
+    {
+      "id": "en-reading",
+      "label": "English · 三题阅读",
+      "language": "en",
+      "bank_id": "dev-expanded-20261020",
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "question_count": 3,
+      "formal": false,
+      "note": "完整原文、已有冻结开发题；人工复核0。现场演示不形成正式排名。",
+      "article": {
+        "id": "en-nasa-2b3fb9c367c3-dev20261020",
+        "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+        "language": "en",
+        "published_at": "2026-10-02",
+        "source_url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+        "paragraphs": [
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p001",
+            "text": "Groundbreaking tests at NASA’s Langley Research Center in Hampton, Virginia, are paving the way for new wind tunnel capabilities for designing the aircraft technologies of the future.",
+            "source_paragraph_indexes_1_based": [
+              1
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p002",
+            "text": "In a first-of-its-kind test in NASA Langley’s Transonic Dynamics Tunnel, researchers used unsteady Pressure Sensitive Paint to study how air flows around a standard wind tunnel model known as the Benchmark Supercritical Wing. As the team observed the test, the paint’s special capabilities made the model wing glow pink-purple when exposed to special ultraviolet lights, while high-speed cameras captured every detail.",
+            "source_paragraph_indexes_1_based": [
+              2
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p003",
+            "text": "The test combined two valuable NASA tools. NASA’s benchmark wings don’t represent a particular type of aircraft, rather they are meant as universal models to help researchers improve computer modeling using wind tunnel data.",
+            "source_paragraph_indexes_1_based": [
+              3
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p004",
+            "text": "Unsteady pressure sensitive paint is a specialized coating that varies in brightness according to how much pressure the air flow applies to the wing. High-speed cameras capture those changes, providing data for computer models. For years, NASA researchers at centers including Langley and the agency’s Ames Research Center in California’s Silicon Valley have been working to integrate the paint into wind tunnel tests for aircraft and rockets. NASA researchers consider the paint a vital tool and expect to find many more wind tunnel applications in the future.",
+            "source_paragraph_indexes_1_based": [
+              4
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p005",
+            "text": "This test marked the technique’s first use on a large-scale, freely moving model in a low‑oxygen environment, an achievement made possible by the Transonic Dynamic Tunnel’s unique testing capabilities.",
+            "source_paragraph_indexes_1_based": [
+              5
+            ]
+          },
+          {
+            "id": "en-nasa-2b3fb9c367c3-dev20261020:p006",
+            "text": "This milestone opens the door for upcoming tests on flexible aircraft models that are designed to bend and adapt during flight to improve efficiency. It also lays the foundation for better simulations and designs as NASA advances the future of flight.",
+            "source_paragraph_indexes_1_based": [
+              6
+            ]
+          }
+        ],
+        "source_cluster_id": "en-nasa-2b3fb9c367c3",
+        "presented_text_sha256": "c71b2dc0744d61af98ca3a382130a984305705779353f540753edd81f0d6869b",
+        "first_published_at": null
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "prompt": "What is the name of the standard wind-tunnel model used in the reported test? Give only its name.",
+          "kind": "short",
+          "dimension": "D1"
+        },
+        {
+          "id": "q03",
+          "prompt": "How should the benchmark wing's relationship to an actual aircraft type be understood? Return only the option ID.",
+          "kind": "choice",
+          "dimension": "D2",
+          "options": {
+            "A": "It is an exact prototype of one named passenger aircraft",
+            "B": "It represents every aircraft's final production design",
+            "C": "It was built solely to identify the model of an unknown aircraft",
+            "D": "It is a universal model, rather than a representation of a particular aircraft type"
+          }
+        },
+        {
+          "id": "q07",
+          "prompt": "What exact air pressure, in pascals, was applied to the wing when the paint glowed pink-purple? Abstain if the passage does not determine the number.",
+          "kind": "unanswerable",
+          "dimension": "D6"
+        }
+      ],
+      "compatible_model_ids": [
+        "llama31-8b",
+        "qwen25-7b"
+      ]
+    }
+  ],
+  "default_model_id": "qwen25-7b",
+  "default_preset_id": "zh-quick",
+  "active_run": null,
+  "recent_runs": [
+    {
+      "id": "run-3c2034d26172",
+      "status": "completed",
+      "created_at": "2026-10-26T14:06:17.996429+00:00",
+      "started_at": "2026-10-26T14:06:18.057069+00:00",
+      "finished_at": "2026-10-26T14:06:27.039361+00:00",
+      "progress": {
+        "done": 1,
+        "total": 1
+      },
+      "config": {
+        "bank_id": "dev-expanded-20261020",
+        "model_ids": [
+          "qwen25-7b"
+        ],
+        "article_ids": [
+          "zh-cas-1cf079b15eb7-dev20261020"
+        ],
+        "allow_draft": true,
+        "strict_time": true,
+        "strict_budget": false,
+        "mode": "with_context",
+        "question_limit": 1,
+        "max_tokens": 512,
+        "temperature": 0,
+        "seed": 42,
+        "num_ctx": 8192,
+        "num_thread": 4,
+        "bootstrap_repetitions": 0,
+        "prompt_version": "reading-prompt-v2.0-paragraph-20261013",
+        "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+        "runner_version": "reading-runner-v2.2-context-reference-20261024",
+        "output_schema": {
+          "type": "object",
+          "properties": {
+            "answer": {
+              "type": "string"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "confidence": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "abstain": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "answer",
+            "unit",
+            "evidence_ids",
+            "confidence",
+            "abstain"
+          ],
+          "additionalProperties": false
+        },
+        "retry_policy": "completed_results_not_retried;resume_only_unfinished;unknown_inflight_may_repeat_with_attempt_log"
+      },
+      "live_demo": {
+        "version": "reading-live-demo-v1-20261026",
+        "preset_id": "zh-quick",
+        "label": "中文 · 单题速跑",
+        "client_request_key_sha256": "bb85ea854558eab5da873df44da6c9299caf18dc82a5ca7ca5e3f6108518605b",
+        "full_passage": true,
+        "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+        "note": "现场真实推理；AI开发题，人审0，不形成正式排名。"
+      }
+    }
+  ],
+  "model_calls": 0
+}

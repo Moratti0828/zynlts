@@ -1,0 +1,69 @@
+In 1810, during the early stages of the Industrial Revolution and two decades after the first U.S. decennial population count, U.S. Marshals were tasked with collecting Manufacturing data as part of their census-taking duties.
+
+They asked questions on 25 categories of manufactured products and more than 200 types of goods, from tobacco to food.
+
+According to the 2024 Annual Integrated Economic Survey, manufacturing generated $7.0 trillion in total revenue.
+
+More than two centuries later, multiple Census Bureau surveys collect data on manufacturing companies and their products.
+
+We look back at the nation’s history of manufacturing through Census Bureau data in recognition of the 15th anniversary of Manufacturing Day on Oct. 2.
+
+The Census Bureau Manufacturing Week page highlights the latest data on the industry.
+
+History of Capturing U.S. Manufacturing Data
+
+To best respond to lessons learned from the 1810 and 1820 Censuses and enhance economic measurement, manufacturing data was not collected in 1830. When collection resumed with the 1840 Census, questions on mining, fisheries, and agriculture were added.
+
+In 1902, Congress established the permanent Census Bureau and directed that, in addition to the once-a-decade population count, a Census of Manufactures be taken every five years.
+
+The 1905 Census of Manufactures marked the first time a census of any kind was taken separately from the decennial population census.
+
+The First Economic Census
+
+The first Census of Business took place in 1930, covering Retail Trade, Wholesale Trade, and Construction industries. It soon broadened to include some service trades like carpentry and healthcare.
+
+The 1954 Economic Census was the first to fully integrate questions on various kinds of business and provide comparable data across economic sectors (Figure 2).
+
+The range of industries covered in the economic census continued to expand. For example, the inclusion of construction industries began in 1967, and the scope of service industries continued to grow.
+
+In 1987 the economic census expanded to include business establishments (a single physical location of a business) engaged in various transportation industries, paralleling data on establishments in other sectors.
+
+The last major expansion of the economic census occurred in 1992, when the Census Bureau added Transportation and Warehousing ; Finance and Insurance ; Real Estate and Rental and Leasing ; Information ; and Utilities — industries that today account for more than 20% of U.S. Gross Domestic Product (GDP).
+
+The 1997 Economic Census was the first major statistical report to use the North American Industry Classification System ( NAICS ). Developed jointly by the United States, Canada and Mexico, NAICS replaced the older Standard Industrial Classification (SIC) system to allow greater comparability with international statistics.
+
+The current economic census, together with the separately conducted censuses of agriculture and governments, covers virtually the entire economy.
+
+Historical Data Shows Growth by Industry
+
+Figure 3 is an example of more than two centuries of change in one industry: alcoholic beverages manufacturing.
+
+For example, although the data were incomplete, the 1810 Statement of the Arts and Manufactures reported 132 breweries in operation and the 2022 Economic Census counted 4,857 firms that owned breweries.
+
+There were actually more U.S. distilleries in 1810 (14,191) than in 2022 (1,230) but they generated much less in sales: $15.6 million compared to $18.8 billion (not adjusted for inflation).
+
+The cause of the difference? Turning surplus grain into alcohol was an easy way for homesteaders to preserve their harvest and create their own “liquid currency.”
+
+Impact of Manufacturing on U.S. Economy
+
+According to the 2023 County Business Patterns , the Manufacturing sector is the fifth-largest employer in the United States, larger than Transportation and Warehousing ; Construction ; and Professional, Scientific, and Technical Services (Figure 4).
+
+According to the 2024 Annual Integrated Economic Survey (AIES), manufacturing generated $7.0 trillion in total revenue (Figure 5).
+
+Manufacturing Week Webpage
+
+The Census Bureau’s Manufacturing webpage provides manufacturing statistics, data products and a wide range of resources, including other America Counts stories, datasets, data tools, visualizations, training resources and news.
+
+It also highlights careers in manufacturing, part of the sector’s effort to encourage companies and educational institutions around the nation to open their doors to students, parents, teachers and community leaders.
+
+Adam Grundy is a supervisory statistician at the Census Bureau.
+
+Related Statistics
+
+Manufacturing Week The U.S. Census Bureau joins the celebration by providing a week's worth of rich content, including statistics that inform businesses and policymakers.
+
+Stats for Stories National Manufacturing Day: October 2, 2026 The U.S. Census Bureau joins public and private organizations in celebrating the importance of the manufacturing sector to the nation’s economy.
+
+Business and Economy The Census Bureau produces economic data from across the entire U.S. economy on a monthly, quarterly, yearly, and 5-year basis.
+
+Our email newsletter is sent out on the day we publish a story. Get an alert directly in your inbox to read, share and blog about our newest stories.

@@ -1,0 +1,174 @@
+{
+  "client_date": "2026-10-24",
+  "source_records": [
+    {
+      "record": "gemma2-hf-source.json",
+      "url": "https://huggingface.co/api/models/google/gemma-2-9b-it",
+      "sha256": "f321bbb230da85e363936e5fcb284424758ecffa0f851847e246dd06ff7371bd",
+      "source_file": "output\\model-suite-20261024\\metadata\\gemma2-hf.json"
+    },
+    {
+      "record": "gemma2-launch-source.json",
+      "url": "https://blog.google/technology/developers/google-gemma-2/",
+      "sha256": "17ba114621f5d5b1573ec627eda96d8b4ec1df0da33fd0e66df14011db0e76e2",
+      "source_file": "output\\model-suite-20261024\\metadata\\gemma2-launch.html"
+    },
+    {
+      "record": "gemma2-manifest-source.json",
+      "url": "https://registry.ollama.ai/v2/library/gemma2/manifests/9b-instruct-q4_K_M",
+      "sha256": "c20bec88025f3aefa420efd64dca0ee4abc8e36078d6b74b0f660cdcbd5d1982",
+      "source_file": "output\\model-suite-20261024\\metadata\\gemma2-manifest.json"
+    },
+    {
+      "record": "gemma2-model-card-source.json",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_2",
+      "sha256": "90af08a43abd096c79e59e905b7acb77c31236febe0ba755146b0fb99496c9a2",
+      "source_file": "output\\model-suite-20261024\\metadata\\gemma2-model-card.html"
+    },
+    {
+      "record": "gemma2-registry-config-source.json",
+      "url": "https://registry.ollama.ai/v2/library/gemma2/blobs/sha256:7a058fe7bbba716486cb59d30fda98fe7a734d956a3b7f3a4f72fd20096ff664",
+      "sha256": "7a058fe7bbba716486cb59d30fda98fe7a734d956a3b7f3a4f72fd20096ff664",
+      "source_file": "output\\model-suite-20261024\\metadata\\gemma2-registry-config.json"
+    },
+    {
+      "record": "gemma2-registry-license-source.json",
+      "url": "https://registry.ollama.ai/v2/library/gemma2/blobs/sha256:097a36493f718248845233af1d3fefe7a303f864fae13bc31a3a9704229378ca",
+      "sha256": "097a36493f718248845233af1d3fefe7a303f864fae13bc31a3a9704229378ca",
+      "source_file": "output\\model-suite-20261024\\metadata\\gemma2-registry-license.txt"
+    },
+    {
+      "record": "gemma2-registry-params-source.json",
+      "url": "https://registry.ollama.ai/v2/library/gemma2/blobs/sha256:2490e7468436707d5156d7959cf3c6341cc46ee323084cfa3fcf30fe76e397dc",
+      "sha256": "2490e7468436707d5156d7959cf3c6341cc46ee323084cfa3fcf30fe76e397dc",
+      "source_file": "output\\model-suite-20261024\\metadata\\gemma2-registry-params.txt"
+    },
+    {
+      "record": "gemma2-registry-template-source.json",
+      "url": "https://registry.ollama.ai/v2/library/gemma2/blobs/sha256:109037bec39c0becc8221222ae23557559bc594290945a2c4221ab4f303b8871",
+      "sha256": "109037bec39c0becc8221222ae23557559bc594290945a2c4221ab4f303b8871",
+      "source_file": "output\\model-suite-20261024\\metadata\\gemma2-registry-template.txt"
+    },
+    {
+      "record": "phi35-card-2024-source.json",
+      "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct/raw/af0dfb8029e8a74545d0736d30cb6b58d2f0f3f0/README.md",
+      "sha256": "b5dcf6c1b138b2d26f72cdb6ecfb0dfc65593b1edca95721b339ca0f3cc048bf",
+      "source_file": "output\\model-suite-20261024\\metadata\\phi35-card-2024.md"
+    },
+    {
+      "record": "phi35-commits-source.json",
+      "url": "https://huggingface.co/api/models/microsoft/Phi-3.5-mini-instruct/commits/main",
+      "sha256": "6c2da8305c2475cb4c4a41dc51d259d26f82fd1a184724f81679b51eed89a5d3",
+      "source_file": "output\\model-suite-20261024\\metadata\\phi35-commits.json"
+    },
+    {
+      "record": "phi35-config-2024-source.json",
+      "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct/raw/af0dfb8029e8a74545d0736d30cb6b58d2f0f3f0/config.json",
+      "sha256": "224de4f6a15b9d2a89695ec04b7f7ab2dd93a008a506979925e5a88cb5804974",
+      "source_file": "output\\model-suite-20261024\\metadata\\phi35-config-2024.json"
+    },
+    {
+      "record": "phi35-hf-source.json",
+      "url": "https://huggingface.co/api/models/microsoft/Phi-3.5-mini-instruct",
+      "sha256": "ee18fb6d14400fbe65c9642fee8480c83ef17419799c8de3e7c894ce5fbabed1",
+      "source_file": "output\\model-suite-20261024\\metadata\\phi35-hf.json"
+    },
+    {
+      "record": "phi35-manifest-source.json",
+      "url": "https://registry.ollama.ai/v2/library/phi3.5/manifests/3.8b-mini-instruct-q4_K_M",
+      "sha256": "57096159698481b47ea17995d1a71f28eea1e26fc801df39a841b29badb4aa63",
+      "source_file": "output\\model-suite-20261024\\metadata\\phi35-manifest.json"
+    },
+    {
+      "record": "phi35-registry-config-source.json",
+      "url": "https://registry.ollama.ai/v2/library/phi3.5/blobs/sha256:bc584ebb621de3913406e11828d375da25934ded008faa7bfe1c0c3074d3885f",
+      "sha256": "bc584ebb621de3913406e11828d375da25934ded008faa7bfe1c0c3074d3885f",
+      "source_file": "output\\model-suite-20261024\\metadata\\phi35-registry-config.json"
+    },
+    {
+      "record": "phi35-registry-license-source.json",
+      "url": "https://registry.ollama.ai/v2/library/phi3.5/blobs/sha256:c5f9f560a7047d53bbefeef37f0a5b448aba03871b2fb63c4331b9ae0248914a",
+      "sha256": "c5f9f560a7047d53bbefeef37f0a5b448aba03871b2fb63c4331b9ae0248914a",
+      "source_file": "output\\model-suite-20261024\\metadata\\phi35-registry-license.txt"
+    },
+    {
+      "record": "phi35-registry-params-source.json",
+      "url": "https://registry.ollama.ai/v2/library/phi3.5/blobs/sha256:45ac4c662a77b82b9941f315d57f22b2dc034f1eb26eef0c381e7a5eab689c37",
+      "sha256": "45ac4c662a77b82b9941f315d57f22b2dc034f1eb26eef0c381e7a5eab689c37",
+      "source_file": "output\\model-suite-20261024\\metadata\\phi35-registry-params.txt"
+    },
+    {
+      "record": "phi35-registry-template-source.json",
+      "url": "https://registry.ollama.ai/v2/library/phi3.5/blobs/sha256:c608dc615584cd20d9d830363dabf8a4783ae5d34245c3d8c115edb3bc7b28e4",
+      "sha256": "c608dc615584cd20d9d830363dabf8a4783ae5d34245c3d8c115edb3bc7b28e4",
+      "source_file": "output\\model-suite-20261024\\metadata\\phi35-registry-template.txt"
+    },
+    {
+      "record": "yi-family-official-readme-source.json",
+      "url": "https://raw.githubusercontent.com/01-ai/Yi/main/README.md",
+      "sha256": "dda5d5affdcb066c4ad76c12bae67a84830c4175718ea0b49cb344f29b790836",
+      "source_file": "output\\model-suite-20261024\\metadata\\yi-family-official-readme.md"
+    },
+    {
+      "record": "yi15-card-2024-source.json",
+      "url": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat/raw/771924d1c83d67527d665913415d7086f11ea9c0/README.md",
+      "sha256": "5b245685718cc62faa5a588e87ccc215532ff93bb2a6f24f1fd698445432b460",
+      "source_file": "output\\model-suite-20261024\\metadata\\yi15-card-2024.md"
+    },
+    {
+      "record": "yi15-commits-source.json",
+      "url": "https://huggingface.co/api/models/01-ai/Yi-1.5-6B-Chat/commits/main",
+      "sha256": "e56b4dbcb58650793da7d20ccfdcb81fc1a0fec43b7d22846d9c6e120af1e6c0",
+      "source_file": "output\\model-suite-20261024\\metadata\\yi15-commits.json"
+    },
+    {
+      "record": "yi15-config-2024-source.json",
+      "url": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat/raw/771924d1c83d67527d665913415d7086f11ea9c0/config.json",
+      "sha256": "74e1d68c56a03b43b752997f600feff7d67a156f6affd2ae491aaac014cd8c17",
+      "source_file": "output\\model-suite-20261024\\metadata\\yi15-config-2024.json"
+    },
+    {
+      "record": "yi15-hf-source.json",
+      "url": "https://huggingface.co/api/models/01-ai/Yi-1.5-6B-Chat",
+      "sha256": "368a1e66bad25f45cd57e59cd54cdbf58bca5345460232e35c42ba2a4cc44e16",
+      "source_file": "output\\model-suite-20261024\\metadata\\yi15-hf.json"
+    },
+    {
+      "record": "yi15-manifest-source.json",
+      "url": "https://registry.ollama.ai/v2/library/yi/manifests/6b-chat-v1.5-q4_K_M",
+      "sha256": "fa152930bd7fba7d9c42c1544a3538eb219873dc4a39d0036ecd0253948998c0",
+      "source_file": "output\\model-suite-20261024\\metadata\\yi15-manifest.json"
+    },
+    {
+      "record": "yi15-registry-config-source.json",
+      "url": "https://registry.ollama.ai/v2/library/yi/blobs/sha256:06a06959837399e6151aa59fa5b0fd7096e0d9aa52b80d4c14e09d30b9e53ea8",
+      "sha256": "06a06959837399e6151aa59fa5b0fd7096e0d9aa52b80d4c14e09d30b9e53ea8",
+      "source_file": "output\\model-suite-20261024\\metadata\\yi15-registry-config.json"
+    },
+    {
+      "record": "yi15-registry-license-source.json",
+      "url": "https://registry.ollama.ai/v2/library/yi/blobs/sha256:c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source_file": "output\\model-suite-20261024\\metadata\\yi15-registry-license.txt"
+    },
+    {
+      "record": "yi15-registry-params-source.json",
+      "url": "https://registry.ollama.ai/v2/library/yi/blobs/sha256:f02dd72bb2423204352eabc5637b44d79d17f109fdb510a7c51455892aa2d216",
+      "sha256": "f02dd72bb2423204352eabc5637b44d79d17f109fdb510a7c51455892aa2d216",
+      "source_file": "output\\model-suite-20261024\\metadata\\yi15-registry-params.txt"
+    },
+    {
+      "record": "yi15-registry-template-source.json",
+      "url": "https://registry.ollama.ai/v2/library/yi/blobs/sha256:62fbfd9ed093d6e5ac83190c86eec5369317919f4b149598d2dbb38900e9faef",
+      "sha256": "62fbfd9ed093d6e5ac83190c86eec5369317919f4b149598d2dbb38900e9faef",
+      "source_file": "output\\model-suite-20261024\\metadata\\yi15-registry-template.txt"
+    }
+  ],
+  "weights_downloaded_on_workstation": false,
+  "inference_calls_by_this_task": 0,
+  "known_access_failure": {
+    "url": "https://huggingface.co/api/models/google/gemma-2-9b-it/commits/main",
+    "status": 401,
+    "action": "not authenticated; author public metadata and Google public pages used instead"
+  }
+}

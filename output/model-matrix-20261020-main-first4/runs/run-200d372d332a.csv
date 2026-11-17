@@ -1,0 +1,633 @@
+﻿model_name,language,article_id,question_id,dimension,kind,question,answer,unit,evidence_ids,confidence,abstain,answer_correct,choice_accuracy,short_em,short_token_f1,numeric_strict_accuracy,evidence_exact,evidence_f1,joint_success,brier_answer,latency_s,input_tokens,output_tokens,error,raw_response
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q01,D1,numeric,2026年1—8月份社会消费品零售总额是多少？answer只写数值，unit写“亿元”。,39824,亿元,"[""zh-nbs-02a36a9fc6f8-devpilot:p001""]",0.75,False,0,,,,0,1,1.0,0,0.5625,12.71,1577,62,,"{""answer"": ""39824"", ""unit"": ""亿元"", ""evidence_ids"": [""zh-nbs-02a36a9fc6f8-devpilot:p001""], ""confidence"": 0.75, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q02,D2,choice,按文中统计定义，以下哪项属于社会消费品零售总额？只回答选项ID。,B,亿元,"[""zh-nbs-02a36a9fc6f8-devpilot:p001""]",0.75,False,1,1,,,,0,0,0,0.0625,1.48,1618,50,,"{""answer"":""B"",""unit"":""亿元"",""evidence_ids"":[""zh-nbs-02a36a9fc6f8-devpilot:p001""],""confidence"":0.75,""abstain"":false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q03,D3,choice,某公司通过第三方公共网络交易平台，把非生产、非经营用的实物商品售给个人。结合文中的两项定义，这笔交易属于哪些指标？只回答选项ID。,C,,"[""zh-nbs-02a36a9fc6f8-devpilot:p010""]",1,False,1,1,,,,0,0,0,0,1.526,1623,53,,"{""answer"": ""C"", ""unit"": """", ""evidence_ids"": [""zh-nbs-02a36a9fc6f8-devpilot:p010""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q04,D4,numeric,根据8月份总额与除汽车以外零售额，8月份汽车消费品零售额是多少？answer只写差额，unit写“亿元”。,327569 - 39824 = 28774,亿元,"[""zh-nbs-02a36a9fc6f8-devpilot:p001""]",1,False,0,,,,0,1,1.0,0,1,2.232,1582,74,,"{""answer"": ""327569 - 39824 = 28774"", ""unit"": ""亿元"", ""evidence_ids"": [""zh-nbs-02a36a9fc6f8-devpilot:p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q05,D5,choice,有人把“网上商品和服务零售额”与以前公布的“网上零售额”直接作为同口径数据比较。文章末段是否支持这种做法？只回答选项ID。,D,无,[],1,False,1,1,,,,0,0,0,0,0.751,1649,25,,"{""answer"":""D"",""unit"":""无"",""evidence_ids"":[],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q06,D2,choice,“2026年8月份社会消费品零售总额同比增长1.1%。”这一说法是否符合文章对统计期间的区分？只回答选项ID。,A,%,"[""zh-nbs-02a36a9fc6f8-devpilot:p014""]",0.5,False,1,1,,,,0,0,0,0.25,1.475,1646,49,,"{""answer"":""A"",""unit"":""%"",""evidence_ids"":[""zh-nbs-02a36a9fc6f8-devpilot:p014""],""confidence"":0.5,""abstain"":false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q07,D6,unanswerable,2026年8月份网上吃类商品零售额的具体金额是多少？若文本不足以确定，请拒答。,504.9亿元,,"[""zh-nbs-02a36a9fc6f8-devpilot:p011""]",0.7,False,0,,,,,0,,0,0.48999999999999994,1.971,1576,71,,"{
+  ""answer"": ""504.9亿元"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""zh-nbs-02a36a9fc6f8-devpilot:p011""
+  ],
+  ""confidence"": 0.7,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q08,D6,unanswerable,导致1—8月份百货店零售额同比下降3.0%的最主要原因是什么？若文本不足以确定，请拒答。,新开业、破产、注（吊）销企业（单位、个体户）的影响,,"[""zh-nbs-02a36a9fc6f8-devpilot:p011""]",1,False,0,,,,,0,,0,1,2.127,1578,70,,"{""answer"": ""新开业、破产、注（吊）销企业（单位、个体户）的影响"", ""unit"": """", ""evidence_ids"": [""zh-nbs-02a36a9fc6f8-devpilot:p011""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-d8dd3b95e0c6-dev20261020,q01,D1,numeric,根据2026年早稻公告，全国早稻单位面积产量是多少？answer只写数值，unit写“公斤/公顷”。,5963.4,公斤/公顷,"[""zh-nbs-d8dd3b95e0c6-dev20261020:p002""]",1,False,1,,,,1,0,0,0,0,2.057,1807,67,,"{""answer"": ""5963.4"", ""unit"": ""公斤/公顷"", ""evidence_ids"": [""zh-nbs-d8dd3b95e0c6-dev20261020:p002""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-d8dd3b95e0c6-dev20261020,q02,D4,numeric,按2026年分省表，湖南早稻总产量比江西多多少？answer只写差额，unit写“万吨”。,1.3,万吨,"[""zh-nbs-d8dd3b95e0c6-dev20261020:p004""]",1,False,0,,,,0,0,0,0,1,1.817,1808,62,,"{""answer"": ""1.3"", ""unit"": ""万吨"", ""evidence_ids"": [""zh-nbs-d8dd3b95e0c6-dev20261020:p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-d8dd3b95e0c6-dev20261020,q03,D2,choice,阅读2026年分地区表及表下注释，对表中未列出数值的省份应怎样理解？只答选项ID。,C,无,"[""zh-nbs-d8dd3b95e0c6-dev20261020:p006""]",0.7,False,1,1,,,,1,1.0,1,0.09000000000000002,1.618,1869,54,,"{""answer"":""C"",""unit"":""无"",""evidence_ids"":[""zh-nbs-d8dd3b95e0c6-dev20261020:p006""],""confidence"":0.7,""abstain"":false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-d8dd3b95e0c6-dev20261020,q04,D3,choice,结合公告的面积变化、单产变化和产量计算方法，哪种解释与2026年全国早稻数据一致？只答选项ID。,B,,"[""zh-nbs-d8dd3b95e0c6-dev20261020:p002""]",1,False,1,1,,,,0,0.5,0,0,1.688,1873,58,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""zh-nbs-d8dd3b95e0c6-dev20261020:p002""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-d8dd3b95e0c6-dev20261020,q05,D5,choice,有人把公告中的2026年早稻总产量称为“对每一块早稻田逐块普查后直接相加的结果”。文中是否支持？只答选项ID。,D,无,"[""zh-nbs-d8dd3b95e0c6-dev20261020:p004""]",0.7,False,1,1,,,,0,0,0,0.09000000000000002,1.549,1873,54,,"{""answer"":""D"",""unit"":""无"",""evidence_ids"":[""zh-nbs-d8dd3b95e0c6-dev20261020:p004""],""confidence"":0.7,""abstain"":false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-d8dd3b95e0c6-dev20261020,q06,D3,short,只比较2026年表中的江西和湖南，哪个省播种面积更大、但总产量更小？只写省名。,江西,,"[""zh-nbs-d8dd3b95e0c6-dev20261020:p004""]",0.75,False,1,,1,1.0,,0,0,0,0.0625,1.749,1806,61,,"{""answer"": ""江西"", ""unit"": """", ""evidence_ids"": [""zh-nbs-d8dd3b95e0c6-dev20261020:p004""], ""confidence"": 0.75, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-d8dd3b95e0c6-dev20261020,q07,D6,unanswerable,2026年湖南早稻的平均售粮价格是多少元/公斤？若正文不能确定，请拒答。,61.8,元 / 公斤,"[""zh-nbs-d8dd3b95e0c6-dev20261020:p004""]",1,False,0,,,,,0,,0,1,2.169,1802,78,,"{
+  ""answer"": ""61.8"",
+  ""unit"": ""元 / 公斤"",
+  ""evidence_ids"": [
+    ""zh-nbs-d8dd3b95e0c6-dev20261020:p004""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-nbs-d8dd3b95e0c6-dev20261020,q08,D6,unanswerable,2026年江西早稻因洪涝损失的具体产量是多少万吨？若正文不能确定，请拒答。,688.6,万吨,"[""zh-nbs-d8dd3b95e0c6-dev20261020:p004""]",1,False,0,,,,,0,,0,1,2.156,1801,75,,"{
+  ""answer"": ""688.6"",
+  ""unit"": ""万吨"",
+  ""evidence_ids"": [
+    ""zh-nbs-d8dd3b95e0c6-dev20261020:p004""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-5dc9ec97bf04-dev20261020,q01,D1,short,这项月壤水冰热导率研究采用的玄武质月壤模拟物型号是什么？只写型号。,IRSM-L1,,"[""zh-cas-5dc9ec97bf04-dev20261020:p001""]",1,False,1,,1,1.0,,0,0,0,0,1.732,1492,60,,"{""answer"": ""IRSM-L1"", ""unit"": """", ""evidence_ids"": [""zh-cas-5dc9ec97bf04-dev20261020:p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-5dc9ec97bf04-dev20261020,q02,D2,choice,文中两类含冰样品具有近似水冰含量，为什么仍可有不同热导率？只答选项ID。,A,,"[""zh-cas-5dc9ec97bf04-dev20261020:p003""]",0.8,False,1,1,,,,1,1.0,1,0.03999999999999998,1.726,1549,59,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""zh-cas-5dc9ec97bf04-dev20261020:p003""], ""confidence"": 0.8, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-5dc9ec97bf04-dev20261020,q03,D3,choice,结合制样方法和热导率增长路径，哪项配对正确？只答选项ID。,C,,"[""zh-cas-5dc9ec97bf04-dev20261020:p003""]",0.8,False,1,1,,,,0,0.6666666666666666,0,0.03999999999999998,1.706,1585,59,,"{""answer"": ""C"", ""unit"": """", ""evidence_ids"": [""zh-cas-5dc9ec97bf04-dev20261020:p003""], ""confidence"": 0.8, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-5dc9ec97bf04-dev20261020,q04,D5,choice,“只测热导率，就能唯一确定月壤水冰含量，不必考虑冰形态。”文中研究是否支持这一结论？只答选项ID。,B,,"[""zh-cas-5dc9ec97bf04-dev20261020:p003""]",0.8,False,1,1,,,,0,0,0,0.03999999999999998,1.654,1567,59,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""zh-cas-5dc9ec97bf04-dev20261020:p003""], ""confidence"": 0.8, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-5dc9ec97bf04-dev20261020,q05,D1,short,研究用哪一种显微观察方法证实冰胶结型样品存在颗粒间冰桥和胶结接触？只写方法名称。,冷冻扫描电镜,,"[""zh-cas-5dc9ec97bf04-dev20261020:p003""]",1,False,1,,1,1.0,,0,0,0,0,1.725,1496,60,,"{""answer"": ""冷冻扫描电镜"", ""unit"": """", ""evidence_ids"": [""zh-cas-5dc9ec97bf04-dev20261020:p003""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-5dc9ec97bf04-dev20261020,q06,D2,choice,为什么冰胶结型样品在高饱和度阶段，继续增加冰含量带来的导热增益趋弱？只答选项ID。,D,,"[""zh-cas-5dc9ec97bf04-dev20261020:p003""]",0.8,False,1,1,,,,0,0,0,0.03999999999999998,1.728,1551,59,,"{""answer"": ""D"", ""unit"": """", ""evidence_ids"": [""zh-cas-5dc9ec97bf04-dev20261020:p003""], ""confidence"": 0.8, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-5dc9ec97bf04-dev20261020,q07,D6,unanswerable,这项试验在水冰饱和度恰为50%时测得的热导率数值是多少W/(m·K)？若正文不足，请拒答。,1.2,,"[""zh-cas-5dc9ec97bf04-dev20261020:p003""]",0.8,False,0,,,,,0,,0,0.6400000000000001,1.725,1502,61,,"{""answer"": ""1.2"", ""unit"": """", ""evidence_ids"": [""zh-cas-5dc9ec97bf04-dev20261020:p003""], ""confidence"": 0.8, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-5dc9ec97bf04-dev20261020,q08,D6,unanswerable,根据该报道，月球南极可开采水冰总储量精确为多少吨？若正文不足，请拒答。,,,[],,False,0,,,,,0,,0,,1.718,1492,59,refusal_contains_answer_or_evidence,"{""answer"": ""abstain"", ""unit"": """", ""evidence_ids"": [""zh-cas-5dc9ec97bf04-dev20261020:p003""], ""confidence"": 0, ""abstain"": true}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-1cf079b15eb7-dev20261020,q01,D1,short,报道中用于集成的单层材料是什么？只写化学式，省略空格。,MoSe2 WS2,,"[""zh-cas-1cf079b15eb7-dev20261020:p001"", ""zh-cas-1cf079b15eb7-dev20261020:p002""]",0.8,False,0,,0,0.6666666666666666,,0,0.6666666666666666,0,0.6400000000000001,2.653,729,93,,"{""answer"": ""MoSe2 WS2"", ""unit"": """", ""evidence_ids"": [""zh-cas-1cf079b15eb7-dev20261020:p001"", ""zh-cas-1cf079b15eb7-dev20261020:p002""], ""confidence"": 0.8, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-1cf079b15eb7-dev20261020,q02,D1,short,报道所用非局域超表面的材料是什么？只写化学式，省略空格。,MoSe2 WS2,,"[""zh-cas-1cf079b15eb7-dev20261020:p001"", ""zh-cas-1cf079b15eb7-dev20261020:p002""]",1,False,0,,0,0.6666666666666666,,0,0.6666666666666666,0,1,2.604,731,91,,"{""answer"": ""MoSe2 WS2"", ""unit"": """", ""evidence_ids"": [""zh-cas-1cf079b15eb7-dev20261020:p001"", ""zh-cas-1cf079b15eb7-dev20261020:p002""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-1cf079b15eb7-dev20261020,q03,D2,choice,传统超表面对自发辐射实施空间相干相位调控的限制是什么？,B,,"[""zh-cas-1cf079b15eb7-dev20261020:p001""]",1,False,1,1,,,,1,1.0,1,0,1.574,784,58,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""zh-cas-1cf079b15eb7-dev20261020:p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-1cf079b15eb7-dev20261020,q04,D2,choice,文中引入的准连续域束缚态共振为何有助于空间相干调控？,D,,"[""p003""]",1,False,1,1,,,,0,0,0,0,1.138,785,42,,"{
+  ""answer"": ""D"",
+  ""unit"": """",
+  ""evidence_ids"": [""p003""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-1cf079b15eb7-dev20261020,q05,D3,choice,哪项同时正确描述所构建器件的材料体系及已实现的光束调控？,A,,"[""zh-cas-1cf079b15eb7-dev20261020:p001"", ""zh-cas-1cf079b15eb7-dev20261020:p002""]",1,False,1,1,,,,0,0.5,0,0,2.531,819,87,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""zh-cas-1cf079b15eb7-dev20261020:p001"", ""zh-cas-1cf079b15eb7-dev20261020:p002""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-1cf079b15eb7-dev20261020,q06,D5,choice,将“为片上光源设计开辟新前景”理解为“已公布片上光源量产良率”是否成立？,C,,"[""zh-cas-1cf079b15eb7-dev20261020:p004""]",0.8,False,1,1,,,,1,1.0,1,0.03999999999999998,1.694,791,60,,"{""answer"": ""C"", ""unit"": """", ""evidence_ids"": [""zh-cas-1cf079b15eb7-dev20261020:p004""], ""confidence"": 0.8, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-1cf079b15eb7-dev20261020,q07,D6,unanswerable,该器件在实验中实现的最大光束偏转角精确是多少度？,180,,"[""zh-cas-1cf079b15eb7-dev20261020:p004""]",1,False,0,,,,,0,,0,1,1.781,725,60,,"{""answer"": ""180"", ""unit"": """", ""evidence_ids"": [""zh-cas-1cf079b15eb7-dev20261020:p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas-1cf079b15eb7-dev20261020,q08,D6,unanswerable,该器件在指定工作电压下的外量子效率是多少百分比？,,,[],,False,0,,,,,0,,0,,1.725,723,62,refusal_contains_answer_or_evidence,"{""answer"": ""abstain"", ""unit"": """", ""evidence_ids"": [""zh-cas-1cf079b15eb7-dev20261020:p004""], ""confidence"": 0.3, ""abstain"": true}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-d9258d90ea32-dev20261020,q01,D1,numeric,文中柔性电极连续在体电生理测试持续多少天？answer写数字，unit写“天”。,300,天,"[""zh-cas_health-d9258d90ea32-dev20261020:p003""]",1,False,1,,,,1,1,1.0,1,0,1.876,1252,63,,"{""answer"": ""300"", ""unit"": ""天"", ""evidence_ids"": [""zh-cas_health-d9258d90ea32-dev20261020:p003""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-d9258d90ea32-dev20261020,q02,D1,numeric,植入满测试期后，修饰电极触发明显运动反馈所需刺激电流是多少？answer写数字，unit写“μA”。,2,μA,"[""zh-cas_health-d9258d90ea32-dev20261020:p004""]",1,False,1,,,,1,0,0,0,0,1.75,1257,62,,"{""answer"": ""2"", ""unit"": ""μA"", ""evidence_ids"": [""zh-cas_health-d9258d90ea32-dev20261020:p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-d9258d90ea32-dev20261020,q03,D2,choice,该涂层与电极原有性能之间的关系如何？,C,,"[""zh-cas_health-d9258d90ea32-dev20261020:p001"", ""zh-cas_health-d9258d90ea32-dev20261020:p002""]",1,False,1,1,,,,0,0.6666666666666666,0,0,2.847,1289,101,,"{
+    ""answer"": ""C"",
+    ""unit"": """",
+    ""evidence_ids"": [
+        ""zh-cas_health-d9258d90ea32-dev20261020:p001"",
+        ""zh-cas_health-d9258d90ea32-dev20261020:p002""
+    ],
+    ""confidence"": 1,
+    ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-d9258d90ea32-dev20261020,q04,D4,numeric,根据文中修饰电极周边相关炎症细胞数量相对裸电极组的比例，修饰组约减少百分之多少？answer只写数值，unit写“%”。,20,%,"[""zh-cas_health-d9258d90ea32-dev20261020:p004""]",0.7,False,0,,,,0,1,1.0,0,0.48999999999999994,1.787,1263,63,,"{""answer"": ""20"", ""unit"": ""%"", ""evidence_ids"": [""zh-cas_health-d9258d90ea32-dev20261020:p004""], ""confidence"": 0.7, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-d9258d90ea32-dev20261020,q05,D3,choice,哪项同时符合文中的长期电信号结果和取出后的组织观察？,A,,"[""zh-cas_health-d9258d90ea32-dev20261020:p004""]",1,False,1,1,,,,0,0.6666666666666666,0,0,1.94,1331,70,,"{
+  ""answer"": ""A"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""zh-cas_health-d9258d90ea32-dev20261020:p004""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-d9258d90ea32-dev20261020,q06,D5,choice,报道中的验证能否直接表述为“已完成300天人体临床试验”？,B,,"[""zh-cas_health-d9258d90ea32-dev20261020:p002""]",0.7,False,1,1,,,,1,1.0,1,0.09000000000000002,1.72,1301,61,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""zh-cas_health-d9258d90ea32-dev20261020:p002""], ""confidence"": 0.7, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-d9258d90ea32-dev20261020,q07,D6,unanswerable,动物试验中实际纳入了多少只动物？,多肽修饰材料可适配硅、金、聚酰亚胺、医用聚氨酯等多种植入器械基底，通过表面共价接枝形成超薄修饰层，依托适度高电势活性以及氢键水合屏障实现多重功能协同，且不改变电极本身力学与电学属性。团队将修饰后的柔性电极植入大脑运动皮层开展长达300天连续在体电生理测试，对比显示，综合性能优于传统裸电极。修饰电极植入满300天，有效工作通道无衰减，神经元动作电位幅值持续维持在155μV以上。在神经刺激调控层面，植入300天后，修饰电极仅需2μA即可触发明显运动反馈，神经调控综合效率提升50倍。,,"[""zh-cas_health-d9258d90ea32-dev20261020:p003""]",0.7,False,0,,,,,0,,0,0.48999999999999994,6.726,1237,233,,"{""answer"": ""多肽修饰材料可适配硅、金、聚酰亚胺、医用聚氨酯等多种植入器械基底，通过表面共价接枝形成超薄修饰层，依托适度高电势活性以及氢键水合屏障实现多重功能协同，且不改变电极本身力学与电学属性。团队将修饰后的柔性电极植入大脑运动皮层开展长达300天连续在体电生理测试，对比显示，综合性能优于传统裸电极。修饰电极植入满300天，有效工作通道无衰减，神经元动作电位幅值持续维持在155μV以上。在神经刺激调控层面，植入300天后，修饰电极仅需2μA即可触发明显运动反馈，神经调控综合效率提升50倍。"", ""unit"": """", ""evidence_ids"": [""zh-cas_health-d9258d90ea32-dev20261020:p003""], ""confidence"": 0.7, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-d9258d90ea32-dev20261020,q08,D6,unanswerable,该涂层在人体植入五年后的感染率是多少？,0%,,"[""zh-cas_health-d9258d90ea32-dev20261020:p004""]",0.7,False,0,,,,,0,,0,0.48999999999999994,1.72,1239,61,,"{""answer"": ""0%"", ""unit"": """", ""evidence_ids"": [""zh-cas_health-d9258d90ea32-dev20261020:p004""], ""confidence"": 0.7, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-31517790bbba-dev20261020,q01,D1,short,该研究发现SET7直接结合并修饰的关键转录因子是什么？只写名称。,IRF3,,"[""[zh-cas_health-31517790bbba-dev20261020:p004]""]",1,False,1,,1,1.0,,0,0,0,0,1.845,1080,63,,"{""answer"": ""IRF3"", ""unit"": """", ""evidence_ids"": [""[zh-cas_health-31517790bbba-dev20261020:p004]""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-31517790bbba-dev20261020,q02,D1,numeric,SET7介导IRF3的第几位赖氨酸发生单甲基化？answer写数字，unit写“位”。,98,位,"[""zh-cas_health-31517790bbba-dev20261020:p004""]",1,False,1,,,,1,1,1.0,1,0,1.774,1089,62,,"{""answer"": ""98"", ""unit"": ""位"", ""evidence_ids"": [""zh-cas_health-31517790bbba-dev20261020:p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-31517790bbba-dev20261020,q03,D2,choice,set7敲除斑马鱼与文中病毒感染抵抗能力的关系是什么？,D,,"[""zh-cas_health-31517790bbba-dev20261020:p004""]",1,False,1,1,,,,0,0,0,0,1.638,1134,59,,"{""answer"": ""D"", ""unit"": """", ""evidence_ids"": [""zh-cas_health-31517790bbba-dev20261020:p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-31517790bbba-dev20261020,q04,D2,choice,SET7修饰IRF3之后的机制链与哪项一致？,A,,"[""zh-cas_health-31517790bbba-dev20261020:p004""]",1,False,1,1,,,,1,1.0,1,0,1.656,1144,59,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""zh-cas_health-31517790bbba-dev20261020:p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-31517790bbba-dev20261020,q05,D3,choice,哪项同时准确给出IRF3被修饰的残基位置与遗传学验证策略？,B,,"[""zh-cas_health-31517790bbba-dev20261020:p004""]",1,False,1,1,,,,0,0.6666666666666666,0,0,1.691,1156,59,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""zh-cas_health-31517790bbba-dev20261020:p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-31517790bbba-dev20261020,q06,D5,choice,“SET7只能修饰组蛋白，因此不能直接调控IRF3”是否符合文中论述？,C,,"[""zh-cas_health-31517790bbba-dev20261020:p001""]",0.8,False,1,1,,,,0,0,0,0.03999999999999998,1.725,1149,61,,"{""answer"": ""C"", ""unit"": """", ""evidence_ids"": [""zh-cas_health-31517790bbba-dev20261020:p001""], ""confidence"": 0.8, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-31517790bbba-dev20261020,q07,D6,unanswerable,SET7抑制剂在人类患者中降低病毒载量的百分比是多少？,,,[],,False,0,,,,,0,,0,,1.978,1078,74,refusal_contains_answer_or_evidence,"{
+  ""answer"": ""abstain"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""zh-cas_health-31517790bbba-dev20261020:p008""
+  ],
+  ""confidence"": 0.4,
+  ""abstain"": true
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-cas_health-31517790bbba-dev20261020,q08,D6,unanswerable,文中每组斑马鱼的确切样本数是多少？,无,,"[""zh-cas_health-31517790bbba-dev20261020:p004""]",0.8,False,0,,,,,0,,0,0.6400000000000001,1.757,1073,61,,"{""answer"": ""无"", ""unit"": """", ""evidence_ids"": [""zh-cas_health-31517790bbba-dev20261020:p004""], ""confidence"": 0.8, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-6a04512f597f-dev20261020,q01,D1,short,2026年入选名单中，海宁市文化馆申报的案例名称是什么？只写案例名。,海宁非遗的全球对话与文化出海新实践,,"[""[zh-mct_local-6a04512f597f-dev20261020:p001]"", ""[zh-mct_local-6a04512f597f-dev20261020:p002]""]",1,False,1,,1,1.0,,0,0,0,0,3.062,1114,106,,"{""answer"": ""海宁非遗的全球对话与文化出海新实践"", ""unit"": """", ""evidence_ids"": [""[zh-mct_local-6a04512f597f-dev20261020:p001]"", ""[zh-mct_local-6a04512f597f-dev20261020:p002]""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-6a04512f597f-dev20261020,q02,D1,short,报道所述“光影的故事”海宁皮影戏活动在老挝哪个城市举办？只写城市名。,万象,,"[""[zh-mct_local-6a04512f597f-dev20261020:p006]""]",1,False,1,,1,1.0,,0,0,0,0,1.874,1113,65,,"{ ""answer"": ""万象"" , ""unit"": """", ""evidence_ids"": [""[zh-mct_local-6a04512f597f-dev20261020:p006]""], ""confidence"": 1, ""abstain"": false }"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-6a04512f597f-dev20261020,q03,D4,numeric,按报道给出的2026年老挝活动起止日，首尾两天均计入，活动共持续多少天？answer写数字，unit写“天”。,14,天,[],0.9,False,0,,,,0,0,0,0,0.81,0.802,1127,28,,"{""answer"":""14"",""unit"":""天"",""evidence_ids"":[],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-6a04512f597f-dev20261020,q04,D2,choice,海宁将两个非遗项目组合对外展示的主要方式是什么？,静态灯彩展览搭配动态皮影演出和现场互动体验,,"[""p003""]",1,False,0,0,,,,0,0,0,1,1.482,1157,54,,"{
+    ""answer"": ""静态灯彩展览搭配动态皮影演出和现场互动体验"",
+    ""unit"": """",
+    ""evidence_ids"": [""p003""],
+    ""confidence"": 1,
+    ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-6a04512f597f-dev20261020,q05,D3,choice,哪项同时正确描述传播格局的组织方式和老挝活动的受众安排？,D,,"[""zh-mct_local-6a04512f597f-dev20261020:p003"", ""zh-mct_local-6a04512f597f-dev20261020:p006""]",1,False,1,1,,,,0,0.5,0,0,2.686,1169,93,,"{""answer"": ""D"", ""unit"": """", ""evidence_ids"": [""zh-mct_local-6a04512f597f-dev20261020:p003"", ""zh-mct_local-6a04512f597f-dev20261020:p006""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-6a04512f597f-dev20261020,q06,D5,choice,把“国家级非遗代表性项目”解读为“本文已确认两项都是联合国教科文组织名录项目”，是否有充分依据？,A,,"[""zh-mct_local-6a04512f597f-dev20261020:p003""]",1,False,1,1,,,,0,0,0,0,1.712,1169,61,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""zh-mct_local-6a04512f597f-dev20261020:p003""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-6a04512f597f-dev20261020,q07,D6,unanswerable,2026年老挝各场活动合计有多少观众？,15,,"[""zh-mct_local-6a04512f597f-dev20261020:p006""]",0.8,False,0,,,,,0,,0,0.6400000000000001,2.118,1103,75,,"{
+  ""answer"": ""15"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""zh-mct_local-6a04512f597f-dev20261020:p006""
+  ],
+  ""confidence"": 0.8,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-6a04512f597f-dev20261020,q08,D6,unanswerable,2026年这些海外交流活动的总支出是多少万元？,15,,"[""zh-mct_local-6a04512f597f-dev20261020:p003""]",0.8,False,0,,,,,0,,0,0.6400000000000001,2.09,1104,75,,"{
+  ""answer"": ""15"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""zh-mct_local-6a04512f597f-dev20261020:p003""
+  ],
+  ""confidence"": 0.8,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-f4d9389d2865-dev20261020,q01,D1,short,文中浙江推广的文化馆服务体系名称是什么？只写名称。,没有围墙的文化馆,,"[""zh-mct_local-f4d9389d2865-dev20261020:p002""]",1,False,1,,1,1.0,,0,0,0,0,1.918,1403,63,,"{""answer"": ""没有围墙的文化馆"", ""unit"": """", ""evidence_ids"": [""zh-mct_local-f4d9389d2865-dev20261020:p002""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-f4d9389d2865-dev20261020,q02,D1,short,在武林广场，把舞台交给观众的活动叫什么？只写名称。,音乐任意门,,"[""[zh-mct_local-f4d9389d2865-dev20261020:p007]"", ""[zh-mct_local-f4d9389d2865-dev20261020:p011]""]",0.9,False,1,,1,1.0,,0,0,0,0.009999999999999995,2.768,1407,97,,"{""answer"": ""音乐任意门"", ""unit"": """", ""evidence_ids"": [""[zh-mct_local-f4d9389d2865-dev20261020:p007]"", ""[zh-mct_local-f4d9389d2865-dev20261020:p011]""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-f4d9389d2865-dev20261020,q03,D2,choice,文中“围墙”的含义为何不限于建筑？,C,,"[""zh-mct_local-f4d9389d2865-dev20261020:p002""]",1,False,1,1,,,,0,0,0,0,1.936,1455,71,,"{
+    ""answer"": ""C"",
+    ""unit"": """",
+    ""evidence_ids"": [
+        ""zh-mct_local-f4d9389d2865-dev20261020:p002""
+    ],
+    ""confidence"": 1,
+    ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-f4d9389d2865-dev20261020,q04,D3,choice,哪项同时正确描述浙江的基层服务组织和西子廊桥的演出方式？,A,,"[""zh-mct_local-f4d9389d2865-dev20261020:p007"", ""zh-mct_local-f4d9389d2865-dev20261020:p011""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,2.643,1483,93,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""zh-mct_local-f4d9389d2865-dev20261020:p007"", ""zh-mct_local-f4d9389d2865-dev20261020:p011""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-f4d9389d2865-dev20261020,q05,D1,numeric,报道描述文化特派员队伍时使用“多少余名”的说法？answer只写该基数，unit写“人”。,1570,人,"[""zh-mct_local-f4d9389d2865-dev20261020:p003""]",1,False,1,,,,1,0,0,0,0,1.831,1415,63,,"{""answer"":""1570"", ""unit"":""人"", ""evidence_ids"": [""zh-mct_local-f4d9389d2865-dev20261020:p003""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-f4d9389d2865-dev20261020,q06,D5,choice,文中“没有围墙”是否意味着取消所有文化馆建筑？,D,,"[""zh-mct_local-f4d9389d2865-dev20261020:p001""]",1,False,1,1,,,,0,0,0,0,1.694,1453,60,,"{""answer"": ""D"", ""unit"": """", ""evidence_ids"": [""zh-mct_local-f4d9389d2865-dev20261020:p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-f4d9389d2865-dev20261020,q07,D6,unanswerable,文中1570余名文化特派员在杭州各区的确切人数分别是多少？,1570,,"[""zh-mct_local-f4d9389d2865-dev20261020:p003""]",1,False,0,,,,,0,,0,1,2.05,1407,74,,"{
+  ""answer"": ""1570"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""zh-mct_local-f4d9389d2865-dev20261020:p003""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct_local-f4d9389d2865-dev20261020,q08,D6,unanswerable,西子廊桥近两年这些演出的总财政支出是多少元？,400万,,"[""p010""]",1,False,0,,,,,0,,0,1,1.347,1404,49,,"{
+  ""answer"": ""400万"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""p010""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mee-161477ffc17c-dev20261020,q01,D1,short,2026年这次秦岭协同座谈会在哪个城市召开？只写城市名。,湖北十堰,,"[""[zh-mee-161477ffc17c-dev20261020:p001]"", ""[zh-mee-161477ffc17c-dev20261020:p002]""]",1,False,1,,1,1.0,,0,0,0,0,2.721,704,93,,"{ ""answer"": ""湖北十堰"" , ""unit"": """", ""evidence_ids"": [""[zh-mee-161477ffc17c-dev20261020:p001]"",""[zh-mee-161477ffc17c-dev20261020:p002]""], ""confidence"": 1, ""abstain"": false }"
+Qwen2.5 · 1.5B Instruct,zh,zh-mee-161477ffc17c-dev20261020,q02,D1,short,会议宣布正式上线的平台名称是什么？只写正文中的名称。,秦岭信息平台,,"[""[zh-mee-161477ffc17c-dev20261020:p001]""]",1,False,1,,1,1.0,,0,0,0,0,1.79,699,63,,"{""answer"": ""秦岭信息平台"", ""unit"": """", ""evidence_ids"": [""[zh-mee-161477ffc17c-dev20261020:p001]""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mee-161477ffc17c-dev20261020,q03,D2,choice,关于把地方主动发现问题和整改成效纳入考核加分项，文章表达的是哪种状态？只答选项ID。,B,,"[""[zh-mee-161477ffc17c-dev20261020:p003]"", ""[zh-mee-161477ffc17c-dev20261020:p004]""]",0.95,False,1,1,,,,0,0,0,0.0025000000000000044,2.588,760,91,,"{""answer"":""B"",""unit"": """", ""evidence_ids"": [""[zh-mee-161477ffc17c-dev20261020:p003]"",""[zh-mee-161477ffc17c-dev20261020:p004]""], ""confidence"": 0.95, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mee-161477ffc17c-dev20261020,q04,D3,choice,哪项同时正确概括信息平台的当前状态和会议要求的后续用途？只答选项ID。,C,,"[""p001"", ""p002""]",1,False,1,1,,,,0,0,0,0,1.166,762,41,,"{""answer"": ""C"", ""unit"": """", ""evidence_ids"": [""p001"", ""p002""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mee-161477ffc17c-dev20261020,q05,D5,choice,有人说：“这次会议认为相邻行政区保护区域管理已经完全一致，无需继续协调。”文中是否支持？只答选项ID。,A,,"[""[zh-mee-161477ffc17c-dev20261020:p002]"", ""[zh-mee-161477ffc17c-dev20261020:p003]""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,2.629,771,92,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""[zh-mee-161477ffc17c-dev20261020:p002]"",""[zh-mee-161477ffc17c-dev20261020:p003]""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mee-161477ffc17c-dev20261020,q06,D1,numeric,本次会议明确提出下一步重点做好几个方面工作？answer只写数量，unit写“项”。,6,项,"[""[zh-mee-161477ffc17c-dev20261020:p003]""]",1,False,1,,,,1,0,0,0,0,1.781,705,62,,"{""answer"": ""6"", ""unit"": ""项"", ""evidence_ids"": [""[zh-mee-161477ffc17c-dev20261020:p003]""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mee-161477ffc17c-dev20261020,q07,D6,unanswerable,本次正式上线的秦岭信息平台建设总预算具体是多少万元？若正文不能确定，请拒答。,1000,,"[""zh-mee-161477ffc17c-dev20261020:p001""]",1,False,0,,,,,0,,0,1,1.702,707,61,,"{""answer"": ""1000"", ""unit"": """", ""evidence_ids"": [""zh-mee-161477ffc17c-dev20261020:p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mee-161477ffc17c-dev20261020,q08,D6,unanswerable,会议提及的三年行动计划，确切起始日期和终止日期分别是哪一天？若正文不能确定，请拒答。,2026年,,"[""[zh-mee-161477ffc17c-dev20261020:p001]"", ""[zh-mee-161477ffc17c-dev20261020:p002]""]",1,False,0,,,,,0,,0,1,2.651,709,93,,"{""answer"": ""2026年"", ""unit"": """", ""evidence_ids"": [""[zh-mee-161477ffc17c-dev20261020:p001]"", ""[zh-mee-161477ffc17c-dev20261020:p002]""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct-2310a232a3eb-dev20261020,q01,D1,numeric,案例一中对河南华之旅旅行社作出的罚款数额是多少？answer写数字，unit写“元”。,30000,元,"[""p001"", ""p002"", ""p003""]",1,False,1,,,,1,0,0,0,0,1.863,1232,68,,"{
+  ""answer"": ""30000"",
+  ""unit"": ""元""
+  ,
+  ""evidence_ids"": [
+    ""p001"",
+    ""p002"",
+    ""p003""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct-2310a232a3eb-dev20261020,q02,D1,short,案例一的行政处罚由哪个城市的文化广电和旅游局作出？只写城市名。,郑州市,,"[""p001"", ""p002""]",1,False,1,,1,1.0,,0,0,0,0,1.18,1226,43,,"{ ""answer"": ""郑州市"" , ""unit"": """", ""evidence_ids"": [""p001"", ""p002""], ""confidence"": 1, ""abstain"": false }"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct-2310a232a3eb-dev20261020,q03,D4,numeric,案例三对旅行社的罚款比案例二对旅行社的罚款高多少？answer写差额，unit写“元”。,40000,,"[""p007""]",1,False,0,,,,0,0,0,0,1,1.189,1235,41,,"{""answer"": ""40000"", ""unit"": """" , ""evidence_ids"": [""p007""] , ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct-2310a232a3eb-dev20261020,q04,D2,choice,案例三的文化传播馆在执法事实中被认定为什么场所？,B,,"[""p007""]",1,False,1,1,,,,0,0,0,0,0.993,1258,35,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""p007""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct-2310a232a3eb-dev20261020,q05,D3,choice,关于案例一与案例二，哪项共同点及差异的配对正确？,C,,"[""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008""]",1,False,1,1,,,,0,0,0,0,2.653,1291,95,,"{
+  ""answer"": ""C"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""p001"",
+    ""p002"",
+    ""p003"",
+    ""p004"",
+    ""p005"",
+    ""p006"",
+    ""p007"",
+    ""p008""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct-2310a232a3eb-dev20261020,q06,D5,choice,把案例四的25000元罚款写为“对黑龙江腾达旅行社的罚款”，是否符合处罚对象？,A,,"[""p009""]",1,False,1,1,,,,0,0,0,0,0.973,1293,35,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""p009""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct-2310a232a3eb-dev20261020,q07,D6,unanswerable,案例一旅行社被没收的违法所得确切是多少元？,30000,,"[""p001"", ""p002""]",1,False,0,,,,,0,,0,1,1.55,1220,57,,"{
+  ""answer"": ""30000"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""p001"",
+    ""p002""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,zh,zh-mct-2310a232a3eb-dev20261020,q08,D6,unanswerable,案例四中有多少名游客最终购买了自费套餐？,1,,"[""p009""]",1,False,0,,,,,0,,0,1,1.221,1221,46,,"{
+  ""answer"": ""1"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""p009""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-1992c310d7b6-devpilot,q01,D1,choice,To which port will Dragon autonomously dock after arrival? Return only the option ID.,D,,"[""en-nasa-1992c310d7b6-devpilot:p002""]",1,False,1,1,,,,1,1.0,1,0,1.638,1390,54,,"{""answer"": ""D"", ""unit"": """", ""evidence_ids"": [""en-nasa-1992c310d7b6-devpilot:p002""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-1992c310d7b6-devpilot,q02,D2,choice,"What does “targeting no earlier than Tuesday, Oct. 13” mean in the article? Return only the option ID.",B,,"[""en-nasa-1992c310d7b6-devpilot:p001""]",0.8,False,1,1,,,,1,1.0,1,0.03999999999999998,1.378,1416,48,,"{""answer"":""B"",""unit"":"""",""evidence_ids"":[""en-nasa-1992c310d7b6-devpilot:p001""],""confidence"":0.8,""abstain"":false}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-1992c310d7b6-devpilot,q03,D3,choice,"Which pair studies fabrication of artificial retinas and formation of vascular networks in heart tissue models, respectively? Combine the descriptions and return only the option ID.",C,,"[""en-nasa-1992c310d7b6-devpilot:p005"", ""en-nasa-1992c310d7b6-devpilot:p006""]",1,False,0,0,,,,1,1.0,0,1,2.277,1412,79,,"{""answer"": ""C"", ""unit"": """", ""evidence_ids"": [""en-nasa-1992c310d7b6-devpilot:p005"", ""en-nasa-1992c310d7b6-devpilot:p006""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-1992c310d7b6-devpilot,q04,D4,numeric,"How many distinct named science experiments are described in the list beginning with LambdaVision-1 and ending with MINDS? Count only that list, not all experiments ever performed aboard the station. Write the number in answer and unit=""experiments"".",4,experiments,"[""en-nasa-1992c310d7b6-devpilot:p005"", ""en-nasa-1992c310d7b6-devpilot:p006"", ""en-nasa-1992c310d7b6-devpilot:p007"", ""en-nasa-1992c310d7b6-devpilot:p008""]",1,False,1,,,,1,1,1.0,1,0,4.127,1379,147,,"{
+  ""answer"": ""4"",
+  ""unit"": ""experiments""
+  , ""evidence_ids"": [
+    ""en-nasa-1992c310d7b6-devpilot:p005"",
+    ""en-nasa-1992c310d7b6-devpilot:p006"",
+    ""en-nasa-1992c310d7b6-devpilot:p007"",
+    ""en-nasa-1992c310d7b6-devpilot:p008""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-1992c310d7b6-devpilot,q05,D5,choice,Does the article establish that microgravity has already improved vascular-network formation in these heart tissue models? Return only the option ID.,C,,"[""en-nasa-1992c310d7b6-devpilot:p005""]",1,False,1,1,,,,0,0,0,0,1.677,1404,61,,"{
+  ""answer"": ""C"",
+  ""unit"": """",
+  ""evidence_ids"": [""en-nasa-1992c310d7b6-devpilot:p005""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-1992c310d7b6-devpilot,q06,D1,choice,Who will monitor the Dragon spacecraft’s arrival? Return only the option ID.,A,,"[""en-nasa-1992c310d7b6-devpilot:p004""]",0.8,False,1,1,,,,0,0,0,0.03999999999999998,1.552,1391,56,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [""en-nasa-1992c310d7b6-devpilot:p004""], ""confidence"": 0.8, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-1992c310d7b6-devpilot,q07,D6,unanswerable,What is the exact scheduled docking date and clock time for this Dragon mission? Abstain if the passage does not establish both.,"Tuesday, Oct. 13",,"[""en-nasa-1992c310d7b6-devpilot:p001"", ""en-nasa-1992c310d7b6-devpilot:p002""]",1,False,0,,,,,0,,0,1,2.588,1356,92,,"{
+  ""answer"": ""Tuesday, Oct. 13"",
+  ""unit"": """",
+  ""evidence_ids"": [""en-nasa-1992c310d7b6-devpilot:p001"", ""en-nasa-1992c310d7b6-devpilot:p002""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-1992c310d7b6-devpilot,q08,D6,unanswerable,How many layers will each completed LambdaVision-1 artificial retina contain? Abstain if the passage does not determine the number.,one thin layer at a time,,"[""en-nasa-1992c310d7b6-devpilot:p005""]",1,False,0,,,,,0,,0,1,1.808,1356,66,,"{
+  ""answer"": ""one thin layer at a time"",
+  ""unit"": """",
+  ""evidence_ids"": [""en-nasa-1992c310d7b6-devpilot:p005""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-2b3fb9c367c3-dev20261020,q01,D1,short,What is the name of the standard wind-tunnel model used in the reported test? Give only its name.,Benchmark Supercritical Wing,,"[""p001"", ""p002""]",1,False,1,,1,1.0,,0,0,0,0,1.298,779,45,,"{""answer"": ""Benchmark Supercritical Wing"", ""unit"": """", ""evidence_ids"": [""p001"", ""p002""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-2b3fb9c367c3-dev20261020,q02,D1,short,At which NASA research center did the reported tests take place? Give only the center name.,Langley Research Center,,"[""en-nasa-2b3fb9c367c3-dev20261020:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,1.759,775,62,,"{""answer"": ""Langley Research Center"", ""unit"": """", ""evidence_ids"": [""en-nasa-2b3fb9c367c3-dev20261020:p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-2b3fb9c367c3-dev20261020,q03,D2,choice,How should the benchmark wing's relationship to an actual aircraft type be understood? Return only the option ID.,D,,"[""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006""]",1,False,1,1,,,,0,0,0,0,1.834,835,65,,"{""answer"": ""D"", ""unit"": """", ""evidence_ids"": [""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-2b3fb9c367c3-dev20261020,q04,D3,choice,How do the benchmark wing and the paint measurements contribute together to computer modeling? Return only the option ID.,B,,"[""p002"", ""p003""]",1,False,1,1,,,,0,0,0,0,1.165,843,41,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""p002"", ""p003""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-2b3fb9c367c3-dev20261020,q05,D5,choice,Does the article report that these tests have already demonstrated a measured efficiency gain in flexible aircraft during flight? Return only the option ID.,C,,"[""p005"", ""p006""]",1,False,1,1,,,,0,0,0,0,1.306,841,48,,"{
+  ""answer"": ""C"",
+  ""unit"": """",
+  ""evidence_ids"": [""p005"", ""p006""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-2b3fb9c367c3-dev20261020,q06,D1,short,"In what oxygen condition was the large-scale, freely moving model tested for the technique's first such use? Use the phrase in the passage.",low-oxygen environment,,"[""en-nasa-2b3fb9c367c3-dev20261020:p005""]",1,False,1,,1,1.0,,1,1.0,1,0,1.736,785,62,,"{""answer"": ""low-oxygen environment"", ""unit"": """", ""evidence_ids"": [""en-nasa-2b3fb9c367c3-dev20261020:p005""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-2b3fb9c367c3-dev20261020,q07,D6,unanswerable,"What exact air pressure, in pascals, was applied to the wing when the paint glowed pink-purple? Abstain if the passage does not determine the number.",100,Pa,"[""p002""]",1,False,0,,,,,0,,0,1,1.29,792,46,,"{
+  ""answer"": ""100"",
+  ""unit"": ""Pa"",
+  ""evidence_ids"": [""p002""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nasa-2b3fb9c367c3-dev20261020,q08,D6,unanswerable,By what exact percentage did these tests improve the fuel efficiency of an aircraft in actual flight? Abstain if the passage does not determine the number.,,,[],,False,0,,,,,0,,0,,1.126,787,40,refusal_contains_answer_or_evidence,"{""answer"": ""abstain=true"", ""unit"": """", ""evidence_ids"": [""p005""], ""confidence"": 0.9, ""abstain"": true}"
+Qwen2.5 · 1.5B Instruct,en,en-census-8b06d9bbd7de-dev20261020,q01,D1,numeric,"Among workers who used AI at work in the last week, what percentage said it saved one to two hours? Write only the number and unit=""%"".",31%,%,"[""en-census-8b06d9bbd7de-dev20261020:p004"", ""en-census-8b06d9bbd7de-dev20261020:p005""]",0.9,False,0,,,,0,0,0.6666666666666666,0,0.81,2.979,1479,104,,"{
+  ""answer"": ""31%"",
+  ""unit"": ""%""
+  , ""evidence_ids"": [
+    ""en-census-8b06d9bbd7de-dev20261020:p004"",
+    ""en-census-8b06d9bbd7de-dev20261020:p005""
+  ],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-census-8b06d9bbd7de-dev20261020,q02,D4,numeric,"Using the reported top-five task percentages, how many percentage points separate searching for information or technical help from administrative tasks? Write only the difference and unit=""percentage points"".",7,percentage points,"[""p003"", ""p012""]",1,False,0,,,,0,0,0,0,1,1.354,1481,48,,"{ ""answer"": ""7"", ""unit"": ""percentage points"" , ""evidence_ids"": [ ""p003"", ""p012"" ], ""confidence"": 1, ""abstain"": false }"
+Qwen2.5 · 1.5B Instruct,en,en-census-8b06d9bbd7de-dev20261020,q03,D2,choice,Which population is the denominator for the one-to-two-hours time-saving percentage?,D,,"[""p002"", ""p016""]",1,False,1,1,,,,0,0,0,0,1.265,1504,48,,"{
+  ""answer"": ""D"",
+  ""unit"": """",
+  ""evidence_ids"": [""p002"", ""p016""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-census-8b06d9bbd7de-dev20261020,q04,D3,choice,Which pair of listed tasks has the same reported percentage?,C,,"[""p002"", ""p011""]",1,False,0,0,,,,0,0,0,1,1.34,1493,48,,"{
+  ""answer"": ""C"",
+  ""unit"": """",
+  ""evidence_ids"": [""p002"", ""p011""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-census-8b06d9bbd7de-dev20261020,q05,D5,choice,What does the opening revision note say about statistical-testing conclusions after reweighting?,A,,"[""p001"", ""p002""]",1,False,1,1,,,,0,0,0,0,1.377,1499,48,,"{
+  ""answer"": ""A"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001"", ""p002""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-census-8b06d9bbd7de-dev20261020,q06,D1,short,Which survey collected the March 2026 worker responses discussed here? Give its abbreviation.,HTOPS,,"[""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008"", ""p009"", ""p010"", ""p011"", ""p012"", ""p013"", ""p014"", ""p015"", ""p016"", ""p017"", ""p018"", ""p019"", ""p020"", ""p021""]",1,False,1,,1,1.0,,0,0,0,0,4.512,1467,156,,"{""answer"": ""HTOPS"", ""unit"": """", ""evidence_ids"": [""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008"", ""p009"", ""p010"", ""p011"", ""p012"", ""p013"", ""p014"", ""p015"", ""p016"", ""p017"", ""p018"", ""p019"", ""p020"", ""p021""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-census-8b06d9bbd7de-dev20261020,q07,D6,unanswerable,Exactly how many individual workers answered the March 2026 AI questions?,56%,%,"[""p001"", ""p002""]",1,False,0,,,,,0,,0,1,1.355,1464,50,,"{
+  ""answer"": ""56%"",
+  ""unit"": ""%"",
+  ""evidence_ids"": [""p001"", ""p002""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-census-8b06d9bbd7de-dev20261020,q08,D6,unanswerable,What was the exact average dollar increase in each worker's wages caused by using AI?,,,[],,False,0,,,,,0,,0,,1.047,1465,39,refusal_contains_answer_or_evidence,"{
+  ""answer"": ""abstain"",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 1.5B Instruct,en,en-census-be20ba82c0cc-dev20261020,q01,D1,numeric,"What was U.S. real median household income in 2025? Write only the number and unit=""USD"".",87460,USD,"[""en-census-be20ba82c0cc-dev20261020:p001"", ""en-census-be20ba82c0cc-dev20261020:p004"", ""en-census-be20ba82c0cc-dev20261020:p005"", ""en-census-be20ba82c0cc-dev20261020:p006""]",1,False,1,,,,1,0,0.4,0,0,4.624,1421,158,,"{
+  ""answer"": ""87460"",
+  ""unit"": ""USD""
+  , ""evidence_ids"": [
+    ""en-census-be20ba82c0cc-dev20261020:p001"",
+    ""en-census-be20ba82c0cc-dev20261020:p004"",
+    ""en-census-be20ba82c0cc-dev20261020:p005"",
+    ""en-census-be20ba82c0cc-dev20261020:p006""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-census-be20ba82c0cc-dev20261020,q02,D4,numeric,"From the article's post-tax median household income amounts, calculate the increase from 2024 to 2025. Write only the difference and unit=""USD"".","1,040",USD,"[""en-census-be20ba82c0cc-dev20261020:p003"", ""en-census-be20ba82c0cc-dev20261020:p005""]",1,False,0,,,,0,0,0,0,1,2.572,1432,90,,"{ ""answer"": ""1,040"", ""unit"": ""USD"" ,""evidence_ids"": [""en-census-be20ba82c0cc-dev20261020:p003"",""en-census-be20ba82c0cc-dev20261020:p005""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-census-be20ba82c0cc-dev20261020,q03,D2,choice,Does the pre-tax record imply that post-tax median income also set a record in 2025?,C,,"[""p005"", ""p010""]",1,False,1,1,,,,0,0,0,0,1.279,1486,48,,"{
+  ""answer"": ""C"",
+  ""unit"": """",
+  ""evidence_ids"": [""p005"", ""p010""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-census-be20ba82c0cc-dev20261020,q04,D3,choice,Which pairing correctly distinguishes the change at the bottom and top of the distribution in 2025?,D,,"[""en-census-be20ba82c0cc-dev20261020:p014""]",1,False,1,1,,,,0,0,0,0,1.866,1489,67,,"{
+  ""answer"": ""D"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""en-census-be20ba82c0cc-dev20261020:p014""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-census-be20ba82c0cc-dev20261020,q05,D5,choice,Can the widening 1967-to-2025 percentile ratio be described as a statistically tested significant change based on this text?,B,,"[""p015""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,1.006,1485,37,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""p015""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-census-be20ba82c0cc-dev20261020,q06,D1,short,What survey supplement's technical documentation is cited for methodology and error information? Give its abbreviation.,CPS ASEC,,"[""en-census-be20ba82c0cc-dev20261020:p017""]",1,False,1,,1,1.0,,1,1.0,1,0,1.725,1414,59,,"{""answer"": ""CPS ASEC"", ""unit"": """", ""evidence_ids"": [""en-census-be20ba82c0cc-dev20261020:p017""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-census-be20ba82c0cc-dev20261020,q07,D6,unanswerable,What was the exact median household income in Alaska in 2025?,Not provided,,"[""p018""]",0.9,False,0,,,,,0,,0,0.81,1.265,1412,45,,"{
+  ""answer"": ""Not provided"",
+  ""unit"": """",
+  ""evidence_ids"": [""p018""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-census-be20ba82c0cc-dev20261020,q08,D6,unanswerable,What exact margin of error applies to the 1967 90th-percentile estimate?,Not available,,"[""p015""]",0.8,False,0,,,,,0,,0,0.6400000000000001,1.206,1417,45,,"{
+  ""answer"": ""Not available"",
+  ""unit"": """",
+  ""evidence_ids"": [""p015""],
+  ""confidence"": 0.8,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-88aa9c4bbbb9-dev20261020,q01,D1,short,What is the name of the experimental PubMed tool launched in this article? Give only the tool name.,Linked Discoveries,,"[""en-nih-88aa9c4bbbb9-dev20261020:p001""]",1,False,1,,1,1.0,,0,0,0,0,1.647,1078,58,,"{""answer"": ""Linked Discoveries"", ""unit"": """", ""evidence_ids"": [""en-nih-88aa9c4bbbb9-dev20261020:p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-88aa9c4bbbb9-dev20261020,q02,D1,short,Which NIH library developed the tool? Give only its full name or abbreviation.,National Library of Medicine (NLM),,"[""p002""]",1,False,0,,0,0.8888888888888888,,0,0,0,1,1.18,1073,42,,"{""answer"": ""National Library of Medicine (NLM)"" , ""unit"": """", ""evidence_ids"": [""p002""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-88aa9c4bbbb9-dev20261020,q03,D2,choice,Which activity is explicitly outside the tool's stated role? Return only the option ID.,A,,"[""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007""]",1,False,1,1,,,,0,0,0,0,2.111,1117,78,,"{
+  ""answer"": ""A"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-88aa9c4bbbb9-dev20261020,q04,D3,choice,Which pairing correctly describes an available filtering feature and responsibility for assessing evidence? Return only the option ID.,D,,"[""p002""]",1,False,1,1,,,,0,0,0,0,1.007,1131,35,,"{""answer"": ""D"", ""unit"": """", ""evidence_ids"": [""p002""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-88aa9c4bbbb9-dev20261020,q05,D5,choice,Does finding a paper connected to other publications in Linked Discoveries establish that its finding was successfully replicated? Return only the option ID.,B,,"[""p003""]",1,False,1,1,,,,0,0,0,0,0.965,1135,35,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""p003""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-88aa9c4bbbb9-dev20261020,q06,D2,choice,What does the article say about the September 24 release and subsequent development? Return only the option ID.,C,,"[""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008""]",1,False,1,1,,,,0,0,0,0,2.319,1137,84,,"{
+  ""answer"": ""C"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-88aa9c4bbbb9-dev20261020,q07,D6,unanswerable,What fraction of all studies represented at launch had already been successfully replicated? Abstain if the passage does not determine the fraction.,,,[],,False,0,,,,,0,,0,,1.179,1084,45,refusal_contains_answer_or_evidence,"{
+  ""answer"": ""abstain=true"",
+  ""unit"": """",
+  ""evidence_ids"": [""p002""],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-88aa9c4bbbb9-dev20261020,q08,D6,unanswerable,What was the exact total dollar cost of developing the launched tool? Abstain if the passage does not determine the cost.,,,[],,False,0,,,,,0,,0,,0.852,1083,32,refusal_contains_answer_or_evidence,"{""answer"": ""Abstain"", ""unit"": """", ""evidence_ids"": [], ""confidence"": 0, ""abstain"": true}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-63b73a8c608a-dev20261020,q01,D1,numeric,"How many patients were in the Massachusetts General Hospital dataset used to fine-tune the model? Write only the number and unit=""patients"".",15809,patients,"[""p004""]",1.0,False,1,,,,1,0,0,0,0.0,1.418,1318,52,,"{
+  ""answer"": ""15809"",
+  ""unit"": ""patients""
+  , ""evidence_ids"": [""p004""]
+  , ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-63b73a8c608a-dev20261020,q02,D4,numeric,"Add the patient counts in the two performance-assessment datasets described in the article. Write only the sum and unit=""patients"".",19629,patients,"[""p003"", ""p004""]",0.8,False,0,,,,0,0,0,0,0.6400000000000001,1.673,1316,61,,"{
+  ""answer"": ""19629"",
+  ""unit"": ""patients"",
+  ""evidence_ids"": [
+    ""p003"",
+    ""p004""
+  ],
+  ""confidence"": 0.8,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-63b73a8c608a-dev20261020,q03,D2,choice,Which ECG setup did the research model use?,A,,"[""p003"", ""p004""]",1,False,1,1,,,,0,0,0,0,1.322,1342,48,,"{
+  ""answer"": ""A"",
+  ""unit"": """",
+  ""evidence_ids"": [""p003"", ""p004""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-63b73a8c608a-dev20261020,q04,D3,choice,Which pairing correctly separates outcomes the article says the model could predict from outcomes needing further optimization?,B,,"[""p006"", ""p010""]",1,False,0,0,,,,0,0,0,1,1.3,1385,48,,"{
+  ""answer"": ""B"",
+  ""unit"": """",
+  ""evidence_ids"": [""p006"", ""p010""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-63b73a8c608a-dev20261020,q05,D5,choice,Does risk prediction reported here establish that this model prevents cardiovascular events?,B,,"[""p003"", ""p004""]",1,False,1,1,,,,0,0,0,0,1.318,1361,48,,"{
+  ""answer"": ""B"",
+  ""unit"": """",
+  ""evidence_ids"": [""p003"", ""p004""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-63b73a8c608a-dev20261020,q06,D1,short,From what type of records were the study outcomes derived? Give only the source.,electronic health records,,"[""en-nih-63b73a8c608a-dev20261020:p004""]",1,False,1,,1,1.0,,0,0,0,0,1.786,1307,63,,"{""answer"": ""electronic health records"", ""unit"": """", ""evidence_ids"": [""en-nih-63b73a8c608a-dev20261020:p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-63b73a8c608a-dev20261020,q07,D6,unanswerable,What exact AUROC did the model achieve for stroke at Emory?,0.85,,"[""en-nih-63b73a8c608a-dev20261020:p004""]",0.9,False,0,,,,,0,,0,0.81,2.093,1305,76,,"{
+  ""answer"": ""0.85"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""en-nih-63b73a8c608a-dev20261020:p004""
+  ],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-nih-63b73a8c608a-dev20261020,q08,D6,unanswerable,How many heart attacks did use of this model prevent during follow-up?,,,[],,False,0,,,,,0,,0,,1.272,1305,47,refusal_contains_answer_or_evidence,"{
+  ""answer"": ""abstain=true"",
+  ""unit"": """",
+  ""evidence_ids"": [""p003""],
+  ""confidence"": 0.9,
+  ""abstain"": true
+}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-359fbdc1a252-dev20261020,q01,D1,short,What is the title of the new 2026 American Folklife Center anniversary exhibition? Give only the title.,Alive in Many Hands: The American Folklife Center at 50,,"[""en-loc-359fbdc1a252-dev20261020:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,2.066,1116,72,,"{""answer"": ""Alive in Many Hands: The American Folklife Center at 50"", ""unit"": """", ""evidence_ids"": [""en-loc-359fbdc1a252-dev20261020:p001""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-359fbdc1a252-dev20261020,q02,D1,numeric,"In what year is the exhibition scheduled to end, according to the excerpt? Write the year and unit=""year"".",2028,year,"[""en-loc-359fbdc1a252-dev20261020:p004""]",1,False,1,,,,1,1,1.0,1,0,2.092,1114,75,,"{
+  ""answer"": ""2028"",
+  ""unit"": ""year""
+  , ""evidence_ids"": [
+    ""en-loc-359fbdc1a252-dev20261020:p004""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-359fbdc1a252-dev20261020,q03,D2,choice,How is the new exhibition related to the Library's America250 activities?,A,,"[""p001"", ""p002"", ""p003""]",1,False,1,1,,,,0,0,0,0,1.462,1160,54,,"{
+  ""answer"": ""A"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001"", ""p002"", ""p003""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-359fbdc1a252-dev20261020,q04,D3,choice,Which pairing correctly matches a displayed object with the tradition described in the excerpt?,D,,"[""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008"", ""p009"", ""p010""]",1,False,1,1,,,,0,0,0,0,2.678,1178,96,,"{
+  ""answer"": ""D"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008"", ""p009"", ""p010""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-359fbdc1a252-dev20261020,q05,D5,choice,Does the excerpt support a claim that Raymond Nichols remembered the exact place and time he learned the puzzle-carving skill?,C,,"[""p008""]",1,False,1,1,,,,0,0,0,0,1.159,1173,42,,"{
+  ""answer"": ""C"",
+  ""unit"": """",
+  ""evidence_ids"": [""p008""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-359fbdc1a252-dev20261020,q06,D1,short,In which month does the article say the 2026 anniversary celebration culminates with the exhibit opening? Give the month only.,mid-September,,"[""en-loc-359fbdc1a252-dev20261020:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,1.79,1119,62,,"{ ""answer"": ""mid-September"" , ""unit"": """", ""evidence_ids"": [""en-loc-359fbdc1a252-dev20261020:p001""], ""confidence"": 1, ""abstain"": false }"
+Qwen2.5 · 1.5B Instruct,en,en-loc-359fbdc1a252-dev20261020,q07,D6,unanswerable,What is the exact admission ticket price for the new exhibition?,,,[],,False,0,,,,,0,,0,,1.417,1103,51,refusal_contains_answer_or_evidence,"{
+  ""answer"": ""abstain=true"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001"", ""p002""],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-359fbdc1a252-dev20261020,q08,D6,unanswerable,What is the total dollar cost of curating the new exhibition?,,,[],,False,0,,,,,0,,0,,1.042,1104,40,refusal_contains_answer_or_evidence,"{
+  ""answer"": ""abstain=true"",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-829b92bd1e91-dev20261020,q01,D1,short,Which organization won the 2026 David M.Rubenstein Prize in this report? Give only its name.,Escola Sem Portas Nem Janelas (Schools Without Doors or Windows),,"[""en-loc-829b92bd1e91-dev20261020:p003""]",1,False,0,,0,0.0,,0,0,0,1,2.18,1401,75,,"{""answer"": ""Escola Sem Portas Nem Janelas (Schools Without Doors or Windows)"" , ""unit"": """", ""evidence_ids"": [""en-loc-829b92bd1e91-dev20261020:p003""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-829b92bd1e91-dev20261020,q02,D1,numeric,"How much was Projeto Uerê's 2026 David M. Rubenstein Prize? Write only the number and unit=""USD"".",150000,USD,"[""en-loc-829b92bd1e91-dev20261020:p004""]",1,False,1,,,,1,0,0,0,0,1.961,1407,68,,"{ ""answer"": ""150000"", ""unit"": ""USD"" ,""evidence_ids"": [""en-loc-829b92bd1e91-dev20261020:p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-829b92bd1e91-dev20261020,q03,D4,numeric,"Using the reported total awarded and Projeto Uerê's prize, calculate the amount left for all the other 2026 recipients combined. Write only the difference and unit=""USD"".",345000,USD,"[""en-loc-829b92bd1e91-dev20261020:p005"", ""en-loc-829b92bd1e91-dev20261020:p007""]",1,False,1,,,,1,0,0.5,0,0,3.019,1416,108,,"{
+  ""answer"": ""345000"",
+  ""unit"": ""USD""
+  , ""evidence_ids"": [
+    ""en-loc-829b92bd1e91-dev20261020:p005"", ""en-loc-829b92bd1e91-dev20261020:p007""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-829b92bd1e91-dev20261020,q04,D2,choice,What learning problem does Projeto Uerê seek to address?,Trauma-related disruption of learning and basic cognitive functions in children,,"[""p002"", ""p003""]",1,False,0,0,,,,0,0,0,1,1.607,1432,59,,"{
+  ""answer"": ""Trauma-related disruption of learning and basic cognitive functions in children"",
+  ""unit"": """",
+  ""evidence_ids"": [""p002"", ""p003""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-829b92bd1e91-dev20261020,q05,D3,choice,Which pairing correctly matches the other2026 prize winners to their reported work?,A,,"[""en-loc-829b92bd1e91-dev20261020:p004""]",1,False,1,1,,,,0,0,0,0,1.985,1474,70,,"{
+  ""answer"": ""A"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""en-loc-829b92bd1e91-dev20261020:p004""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-829b92bd1e91-dev20261020,q06,D5,choice,Does the report establish that the2026 prize proves every child in the program has caught up to grade level?,D,,"[""p002"", ""p003"", ""p004""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,1.532,1466,56,,"{
+  ""answer"": ""D"",
+  ""unit"": """",
+  ""evidence_ids"": [""p002"", ""p003"", ""p004""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-829b92bd1e91-dev20261020,q07,D6,unanswerable,Exactly what percentage of students reached grade level after one year?,100%,%,"[""p003""]",1,False,0,,,,,0,,0,1,1.236,1389,45,,"{
+  ""answer"": ""100%"",
+  ""unit"": ""%"",
+  ""evidence_ids"": [""p003""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-loc-829b92bd1e91-dev20261020,q08,D6,unanswerable,What exact share of the2026 prize will Projeto Uerê spend on staff salaries?,,,[],,False,0,,,,,0,,0,,2.553,1398,95,refusal_contains_answer_or_evidence,"{
+  ""answer"": ""abstain=true"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008"", ""p009""],
+  ""confidence"": 0.0,
+  ""abstain"": true
+}"
+Qwen2.5 · 1.5B Instruct,en,en-usgs_release-8091ff19244f-dev20261020,q01,D1,short,For which Pennsylvania county will the funded project develop a high-resolution landslide inventory and susceptibility map? Give only the county name.,Washington County,,"[""p004""]",1,False,1,,1,1.0,,0,0,0,0,1.013,1154,36,,"{""answer"": ""Washington County"", ""unit"": """", ""evidence_ids"": [""p004""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-usgs_release-8091ff19244f-dev20261020,q02,D1,numeric,"Over how many years will the Pennsylvania project described in the article develop its inventory and map? Write only the number in answer and use unit=""years"".",2,years,"[""p004"", ""p005""]",1.0,False,1,,,,1,0,0,0,0.0,1.459,1160,54,,"{
+  ""answer"": ""2"",
+  ""unit"": ""years""
+  , ""evidence_ids"": [""p004"", ""p005""]
+  , ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-usgs_release-8091ff19244f-dev20261020,q03,D2,choice,Does the article's count of 16 recipients mean that 16 separate state governments received the grants? Return only the option ID.,B,,"[""p002""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,0.828,1210,29,,"{""answer"":""B"",""unit"":"""",""evidence_ids"":[""p002""],""confidence"":0.9,""abstain"":false}"
+Qwen2.5 · 1.5B Instruct,en,en-usgs_release-8091ff19244f-dev20261020,q04,D3,choice,Which pairing correctly distinguishes the Pennsylvania and Nevada projects? Return only the option ID.,A,,"[""p005"", ""p007""]",1,False,1,1,,,,0,0,0,0,1.304,1210,48,,"{
+  ""answer"": ""A"",
+  ""unit"": """",
+  ""evidence_ids"": [""p005"", ""p007""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-usgs_release-8091ff19244f-dev20261020,q05,D4,numeric,"Using the total grant amount and number of recipients reported in the article, calculate the arithmetic mean per recipient. This does not determine any individual award. Write the average in answer and unit=""USD per recipient"".",625000,USD per recipient,"[""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008"", ""p009""]",1,False,0,,,,0,0,0,0,1,2.669,1171,99,,"{
+  ""answer"": ""625000"",
+  ""unit"": ""USD per recipient"",
+  ""evidence_ids"": [""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008"", ""p009""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-usgs_release-8091ff19244f-dev20261020,q06,D5,choice,Does the article establish that all funded projects have already finished and eliminated landslide risk? Return only the option ID.,D,,"[""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008"", ""p009""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,2.621,1213,92,,"{
+  ""answer"": ""D"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008"", ""p009""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-usgs_release-8091ff19244f-dev20261020,q07,D6,unanswerable,What exact dollar amount was awarded to the Nevada Bureau of Mines and Geology? Abstain if the passage does not determine the individual award.,1 million,,"[""p003""]",1,False,0,,,,,0,,0,1,1.15,1159,43,,"{
+  ""answer"": ""1 million"",
+  ""unit"": """",
+  ""evidence_ids"": [""p003""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-usgs_release-8091ff19244f-dev20261020,q08,D6,unanswerable,Exactly how many landslide deaths will these grants prevent in fiscal year 2027? Abstain if the passage does not determine the number.,,,[],,False,0,,,,,0,,0,,1.195,1160,44,refusal_contains_answer_or_evidence,"{
+  ""answer"": ""Abstain"",
+  ""unit"": """",
+  ""evidence_ids"": [""p010""],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Qwen2.5 · 1.5B Instruct,en,en-govuk-d5865b812982-dev20261020,q01,D1,numeric,"What total funding amount is stated for the procurement scheme? Write the number in millions and unit=""million GBP"".",100,million GBP,"[""p004""]",1,False,1,,,,1,0,0,0,0,1.432,1499,51,,"{
+  ""answer"": ""100"",
+  ""unit"": ""million GBP"",
+  ""evidence_ids"": [
+    ""p004""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-govuk-d5865b812982-dev20261020,q02,D1,short,With which group of countries does the UK plan to open international cooperation for the AI Economics Institute? Give the group only.,G7,,"[""p018""]",1,False,1,,1,1.0,,0,0,0,0,0.991,1501,36,,"{""answer"": ""G7"", ""unit"": """", ""evidence_ids"": [""p018""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-govuk-d5865b812982-dev20261020,q03,D2,choice,What does the article say about intellectual property created by successful companies?,C,,"[""p014""]",1,False,1,1,,,,0,0,0,0,1.155,1535,42,,"{
+  ""answer"": ""C"",
+  ""unit"": """",
+  ""evidence_ids"": [""p014""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-govuk-d5865b812982-dev20261020,q04,D3,choice,Which pairing correctly combines support for small startups with the stated route beyond the pilot?,B,,"[""p012""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,1.033,1548,37,,"{""answer"": ""B"", ""unit"": """", ""evidence_ids"": [""p012""], ""confidence"": 0.9, ""abstain"": false}"
+Qwen2.5 · 1.5B Instruct,en,en-govuk-d5865b812982-dev20261020,q05,D5,choice,Does the announcement demonstrate that the proposed AI solutions have already delivered measured NHS productivity gains?,D,,"[""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008"", ""p009"", ""p010"", ""p011"", ""p012"", ""p013"", ""p014"", ""p015"", ""p016""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,3.706,1555,134,,"{
+  ""answer"": ""D"",
+  ""unit"": """",
+  ""evidence_ids"": [""p001"", ""p002"", ""p003"", ""p004"", ""p005"", ""p006"", ""p007"", ""p008"", ""p009"", ""p010"", ""p011"", ""p012"", ""p013"", ""p014"", ""p015"", ""p016""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-govuk-d5865b812982-dev20261020,q06,D1,short,What abbreviation is used for the institute studying AI's economic impacts? Give only the abbreviation.,AIEI,,[],1,False,1,,1,1.0,,0,0,0,0,0.755,1495,27,,"{""answer"":""AIEI"",""unit"": """", ""evidence_ids"":[],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 1.5B Instruct,en,en-govuk-d5865b812982-dev20261020,q07,D6,unanswerable,What is the exact application closing date for these competitions?,Not specified,,"[""p012""]",0.95,False,0,,,,,0,,0,0.9025,1.233,1488,46,,"{
+  ""answer"": ""Not specified"",
+  ""unit"": """",
+  ""evidence_ids"": [""p012""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}"
+Qwen2.5 · 1.5B Instruct,en,en-govuk-d5865b812982-dev20261020,q08,D6,unanswerable,What exact funding amount will each successful company receive?,upfront payments,,"[""p015""]",1,False,0,,,,,0,,0,1,1.153,1487,44,,"{
+  ""answer"": ""upfront payments"",
+  ""unit"": """",
+  ""evidence_ids"": [""p015""],
+  ""confidence"": 1,
+  ""abstain"": false
+}"

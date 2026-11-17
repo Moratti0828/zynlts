@@ -1,0 +1,7 @@
+{
+  "url": "https://registry.ollama.ai/v2/library/yi/blobs/sha256:06a06959837399e6151aa59fa5b0fd7096e0d9aa52b80d4c14e09d30b9e53ea8",
+  "retrieved_at_utc": "2026-10-24T15:12:15.858511+00:00",
+  "file": "output\\model-suite-20261024\\metadata\\yi15-registry-config.json",
+  "sha256": "06a06959837399e6151aa59fa5b0fd7096e0d9aa52b80d4c14e09d30b9e53ea8",
+  "bytes": 485
+}

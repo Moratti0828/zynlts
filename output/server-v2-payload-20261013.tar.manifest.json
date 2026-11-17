@@ -1,0 +1,177 @@
+{
+  "schema": "reading-bench-v2-deployment-1",
+  "files": {
+    "backend/__init__.py": {
+      "sha256": "f394c0a6333fa451da68c36cac8187cc6080dd590c37d1c67aafc28f6c15c188",
+      "bytes": 67
+    },
+    "backend/benchmark_v2.py": {
+      "sha256": "eed641328aebb078b8dfd8952f38fa684cf584b89677684d6ce0ef3ff044fe3f",
+      "bytes": 27037
+    },
+    "backend/corpus_workspace.py": {
+      "sha256": "301f37d9b2222479a94496004963ff62a35b52eb8502afbd6b620fbede11fdd0",
+      "bytes": 10200
+    },
+    "backend/experiment_v2.py": {
+      "sha256": "f827722d9017311283e7b4b9ace544d8239d4ff44dcc2ae47bb1aa269d0340a0",
+      "bytes": 29004
+    },
+    "backend/scoring.py": {
+      "sha256": "5d0ddd6abe0525c5ed65876fcc795631481becf37333e7877bb96f67ed807479",
+      "bytes": 4100
+    },
+    "backend/server.py": {
+      "sha256": "acc4e27de3377c654e5111a5fbd61f9ff5ea2829eee9ecb6fe0a72a2db2db840",
+      "bytes": 34193
+    },
+    "backend/token_budget.py": {
+      "sha256": "20e5cdfbc812db7744517644008110dc444dc99d126d51eb9225f337f0253bae",
+      "bytes": 13473
+    },
+    "data/annotation/dev-pilot-v2.json": {
+      "sha256": "3b12d0375e3b44a500327e594094e333df02909d36b5e1c6476764ae66ad174b",
+      "bytes": 30626
+    },
+    "data/benchmark-spec-v2.json": {
+      "sha256": "2463b7dff00a2d6e46f38c18d14d5adfca36f8b4ccc38614a9ecc0cced235587",
+      "bytes": 10467
+    },
+    "deploy/.env.example": {
+      "sha256": "af69e54a34c67bfe0f2f31ec816e7fe01b6c65b5caad9501eabed46cea285fe1",
+      "bytes": 519
+    },
+    "deploy/.gitignore": {
+      "sha256": "c922f483a151dd3a8665836fc8d11283a6970ef17ed528f097817764dfdcbca1",
+      "bytes": 46
+    },
+    "deploy/Dockerfile": {
+      "sha256": "b4421341849bf263515988fa42b0b46ca86427eef6b17d9a55478142d9916444",
+      "bytes": 813
+    },
+    "deploy/Dockerfile.dockerignore": {
+      "sha256": "6b0b6b23ac410259c771bac9c9d5c619586560af58644b64a6130dd0346f5672",
+      "bytes": 263
+    },
+    "deploy/capture-models.py": {
+      "sha256": "1a6b05af5816675bccddb2d8d81223781cefa002ae22435ed58f1a0f6098ec0d",
+      "bytes": 3920
+    },
+    "deploy/compose.gpu.yml": {
+      "sha256": "4a1902dcba0be7d838fa6b5568d0192889409cf56c48eb72c10fa01585646051",
+      "bytes": 356
+    },
+    "deploy/compose.yml": {
+      "sha256": "2904b0f736c00a7ac4024654a706feed4ebe1fc9c9ee893a49e875c4c92075c4",
+      "bytes": 1214
+    },
+    "deploy/cuda-readiness.py": {
+      "sha256": "0d5cabb67854d6230e37a5655e163da03914a202ee6898b2ff6a911d007d866f",
+      "bytes": 1550
+    },
+    "deploy/init_env.py": {
+      "sha256": "4c2cfa020fce0fbae4c1008c819a34ecbefc15d91f224c8c566b32595dc5d423",
+      "bytes": 1343
+    },
+    "deploy/model-evidence.py": {
+      "sha256": "4078b7591c63b5fd79432d44a71f2434b45e4d776c4615f39d60c3b044483564",
+      "bytes": 4133
+    },
+    "deploy/model-manifest-local.json": {
+      "sha256": "303bb4a5988f2086fcbdc1590c51aab585a0014c5e13dfb3bebdaceb4979411b",
+      "bytes": 61516
+    },
+    "deploy/model-smoke.py": {
+      "sha256": "36ad1b04acbc7fa6b323e2d8651956945fd49ee8c93a07b42e1da03c2a70b713",
+      "bytes": 3321
+    },
+    "deploy/pull-models.sh": {
+      "sha256": "1ee94e51909505b51ca2e606be10f253aef9eee41060c65118f89463f4bc96b1",
+      "bytes": 998
+    },
+    "deploy/server-preflight.sh": {
+      "sha256": "80c447482762fa9febcac14b548b633dc131f6377f2f4d969e83bdb0cdcab69d",
+      "bytes": 1057
+    },
+    "deploy/ssh_wlan_relay.py": {
+      "sha256": "9585d6f5e56bce22cf44db38dc4a0da055ae3addc485a2705a7c3f2619adadaa",
+      "bytes": 1084
+    },
+    "deploy/start-isolated-app.sh": {
+      "sha256": "572d66ac98e34f14eac2bf85bd0d7bd0bff3399cd83b9da214db4d421e08e4f7",
+      "bytes": 993
+    },
+    "deploy/start-isolated-ollama.sh": {
+      "sha256": "e8a6c762a034ff192dc795c72b893eb38d7eb4af233334932a9230bf7774d3b1",
+      "bytes": 1154
+    },
+    "deploy/start-isolated-services.sh": {
+      "sha256": "b3ee619bf7e3409da4fa77a539e6f93ef83ef61355a2e58c243a16f25bbffd94",
+      "bytes": 1436
+    },
+    "deploy/start-server.sh": {
+      "sha256": "ba33318d184f6516962027d8c1a4ccbfd7d55188b9395e47875c4b17561bff1a",
+      "bytes": 1014
+    },
+    "frontend/app.js": {
+      "sha256": "c09cf3b77ea008b7a27904644e6af300add6d07562cb31b4cecbc6db53aa44cb",
+      "bytes": 105471
+    },
+    "frontend/index.html": {
+      "sha256": "bcd947d05426c999ce0ec1a811523722197efa92f6520abbb9c1a974adce9b76",
+      "bytes": 3219
+    },
+    "frontend/styles.css": {
+      "sha256": "c0545e5dff148e82a199c26944700e7fab1dc7b453963b696fabf74901bf9cdf",
+      "bytes": 36887
+    },
+    "requirements-tokenizer.txt": {
+      "sha256": "384569de7c72a006ff05ed5bbd4702b8e55330c1984dff162e631ce5cfaa7c0a",
+      "bytes": 114
+    },
+    "runtime/tokenizers/qwen25-7b-a09a354/manifest.json": {
+      "sha256": "9dd35fd52541064912583bff5bd15c47a918cd86a2dfb0dec065b39029d44d7b",
+      "bytes": 876
+    },
+    "runtime/tokenizers/qwen25-7b-a09a354/tokenizer.json": {
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "bytes": 7031645
+    },
+    "runtime/tokenizers/qwen25-7b-a09a354/tokenizer_config.json": {
+      "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "bytes": 7305
+    },
+    "scripts/audit_candidate_pool.py": {
+      "sha256": "1c2a7c46839a0654447b6276435390e485b45f1a2be964cf81f0a104f00139b0",
+      "bytes": 26918
+    },
+    "scripts/audit_contamination_risk.py": {
+      "sha256": "fc2c21c8e6da2e43e277f71a7fdd205b9df9674719bab8aa928e086ae1439a62",
+      "bytes": 11414
+    },
+    "scripts/clean_candidate_texts.py": {
+      "sha256": "b24a770248966d88b2d46cf660482012249b34bdc484dff0abfb80da080d1d6b",
+      "bytes": 8682
+    },
+    "scripts/collect_articles.py": {
+      "sha256": "52fe1779b538b04d3f3a013d79cec44c647c77a4f129ebbe28a82a88e7561488",
+      "bytes": 6365
+    },
+    "scripts/discover_recent_sources.py": {
+      "sha256": "1bac34d925e12db383575c556d27fc035b5ee4d2c001a847e8aaf09c6deeab9f",
+      "bytes": 30128
+    },
+    "scripts/freeze_tokenizer.py": {
+      "sha256": "1b547e11521e47510073f1adc4bfbaacaa515505004bc7197e1bc5d676402e3a",
+      "bytes": 4303
+    },
+    "scripts/score_benchmark_v2.py": {
+      "sha256": "839d6d399157db401f379f563379151d8fe02edeef87adbc66e1683b22b74c5d",
+      "bytes": 1589
+    },
+    "scripts/verify_v2_resume_live.py": {
+      "sha256": "b3cba4389cb4c3b78d388fad058bb3402b6e6adf62b5638a4bbcf0b8f35c4817",
+      "bytes": 2954
+    }
+  }
+}

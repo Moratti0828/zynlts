@@ -1,0 +1,72 @@
+{
+  "id": "en-loc-0d64e247d429",
+  "title": "My Job: Serena Ying-Ting Chiu and the American Folklife Center | Timeless",
+  "language": "en",
+  "provider": "loc",
+  "source_name": "US Library of Congress",
+  "source_url": "https://blogs.loc.gov/loc/2026/10/my-job-serena-ying-ting-chiu-and-the-american-folklife-center/",
+  "request_url": "https://blogs.loc.gov/loc/2026/10/my-job-serena-ying-ting-chiu-and-the-american-folklife-center/",
+  "source_attribution": null,
+  "published_at": "2026-10-07",
+  "first_published_at": null,
+  "date_evidence": {
+    "kind": "publication_meta",
+    "field": "dc.date",
+    "value": "2026-10-07"
+  },
+  "date_review_note": "Official source page/API publication verified; earlier publication or repost elsewhere remains to be checked. Do not equate an URL stamp or update with first publication.",
+  "recency_tier": "2026-H2",
+  "domain_provisional": "history_culture",
+  "genre_provisional": "cultural_narrative",
+  "rights": "美国联邦机构工作人员原创文字通常适用17 USC 105；本候选仍待核作者及第三方权利。照片、媒体、文学引文、第三方投稿不自动获得许可；当前仅本地私有教学科研使用。",
+  "scope": "article_body_candidate",
+  "extraction_selector": ".entry-content",
+  "text": "-“My Job” is a recurring feature that runs across all Library publications. You can also find this story in the September/October issue of the Library of Congress Magazine.\n\nAs a library technician at the American Folklife Center , I process archival folklife collections in a wide range of formats — manuscripts, photographs, audio recordings, moving images and digital files — and help make them accessible to researchers and the public. I particularly enjoy the multiformat nature of the work, where I can listen to everything from wax cylinder recordings to reel-to-reel tapes to contemporary digital formats.\n\nMy path to AFC was not a direct one. Originally from Taiwan, I came to the United States to study music at the University of Maryland — I’m a classically trained pianist. When I decided to change careers, I started thinking about working in a library. I felt the two fields share something in common: You can discover hidden treasures in both worlds.\n\nBefore joining the Library of Congress, I worked at the National Library of Medicine, where I gained experience working with large-scale collections. At the same time, I still wanted to stay connected to my musical background. An opportunity at AFC immediately felt like the right place for me, where my interests in living traditions, folk culture and performance could come together. In many ways, it connects my path in music with my interest in archives and cultural memory.\n\nA highlight has been processing the AIDS Memorial Quilt Records after they were donated by the NAMES Project to AFC in 2019. I helped process more than 150,000 letters, photos, personal mementos and ephemera connected to nearly 50,000 quilt panels memorializing over 110,000 people who lost their lives to HIV/AIDS. I also assisted archives staff members with a digitization project to have these materials presented on the Library’s website. We began work on the collection during the COVID-19 pandemic and had to set up social-distancing protocols to be able to collaborate on processing this collection, which documents another global pandemic.\n\nWhile processing the collection, I read many moving letters written by family members and loved ones. I was touched by the deep love, grief and resilience of the people and communities affected by the AIDS epidemic. The work gave me a meaningful opportunity to help preserve a collective expression of remembrance through community folk art.\n\nOne thing that continues to amaze me about AFC is its kaleidoscope-like environment. AFC brings together so many different voices and traditions — expressive culture, oral traditions, folk and traditional music, foodways, occupational traditions and the diverse cultural practices of American and diaspora communities.\n\nThe best part is that I get to experience folklife, not just archive it. Through AFC’s public programs, I have attended a Homegrown concert by an Argentine ethnomusicologist, listened to a rising folk singer-songwriter from Tennessee, attended a Botkin Lecture by the director of the Irish Traditional Music Archive in Dublin and learned about traditions such as Louisiana French music and Thai American culture through the Community Collections Grants Symposium .\n\nWorking at AFC feels like being inside a globe and seeing the world right in front of me.",
+  "paragraphs": [
+    "-“My Job” is a recurring feature that runs across all Library publications. You can also find this story in the September/October issue of the Library of Congress Magazine.",
+    "As a library technician at the American Folklife Center , I process archival folklife collections in a wide range of formats — manuscripts, photographs, audio recordings, moving images and digital files — and help make them accessible to researchers and the public. I particularly enjoy the multiformat nature of the work, where I can listen to everything from wax cylinder recordings to reel-to-reel tapes to contemporary digital formats.",
+    "My path to AFC was not a direct one. Originally from Taiwan, I came to the United States to study music at the University of Maryland — I’m a classically trained pianist. When I decided to change careers, I started thinking about working in a library. I felt the two fields share something in common: You can discover hidden treasures in both worlds.",
+    "Before joining the Library of Congress, I worked at the National Library of Medicine, where I gained experience working with large-scale collections. At the same time, I still wanted to stay connected to my musical background. An opportunity at AFC immediately felt like the right place for me, where my interests in living traditions, folk culture and performance could come together. In many ways, it connects my path in music with my interest in archives and cultural memory.",
+    "A highlight has been processing the AIDS Memorial Quilt Records after they were donated by the NAMES Project to AFC in 2019. I helped process more than 150,000 letters, photos, personal mementos and ephemera connected to nearly 50,000 quilt panels memorializing over 110,000 people who lost their lives to HIV/AIDS. I also assisted archives staff members with a digitization project to have these materials presented on the Library’s website. We began work on the collection during the COVID-19 pandemic and had to set up social-distancing protocols to be able to collaborate on processing this collection, which documents another global pandemic.",
+    "While processing the collection, I read many moving letters written by family members and loved ones. I was touched by the deep love, grief and resilience of the people and communities affected by the AIDS epidemic. The work gave me a meaningful opportunity to help preserve a collective expression of remembrance through community folk art.",
+    "One thing that continues to amaze me about AFC is its kaleidoscope-like environment. AFC brings together so many different voices and traditions — expressive culture, oral traditions, folk and traditional music, foodways, occupational traditions and the diverse cultural practices of American and diaspora communities.",
+    "The best part is that I get to experience folklife, not just archive it. Through AFC’s public programs, I have attended a Homegrown concert by an Argentine ethnomusicologist, listened to a rising folk singer-songwriter from Tennessee, attended a Botkin Lecture by the director of the Irish Traditional Music Archive in Dublin and learned about traditions such as Louisiana French music and Thai American culture through the Community Collections Grants Symposium .",
+    "Working at AFC feels like being inside a globe and seeing the world right in front of me."
+  ],
+  "body_bytes": 3332,
+  "word_count": 527,
+  "han_count": 0,
+  "sha256": "c2910af22c44ff1c29d9027fc77a2cc989c1ccd0fbd59c5a2e4e7593679293c3",
+  "raw_sha256": "5ff838860f4c700ff9515bb640f3e582045a5136733daa10f406a5f9da093898",
+  "raw_path": "data/candidates/20261011-source-discovery/snapshots/en-loc-0d64e247d429.html",
+  "text_path": "data/candidates/20261011-source-discovery/snapshots/en-loc-0d64e247d429.txt",
+  "reviewed": false,
+  "review_note": "真实下载的待审候选。尚无阅读理解题、参考答案或人工审定；不计入正式测评题库。",
+  "resolved_url": "https://blogs.loc.gov/loc/2026/10/my-job-serena-ying-ting-chiu-and-the-american-folklife-center/",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified": "Sun, 11 Oct 2026 02:47:52 GMT",
+  "downloaded_at": "2026-10-11T02:48:52+00:00",
+  "derived_text_processing_log": {
+    "version": "candidate-prose-cleaning-v1",
+    "processed_at": "2026-10-11T02:54:49+00:00",
+    "previous_text_sha256": "98952439fcfd6f617c78332afcd976d4c162a07c07199c8344e561571bd8109e",
+    "previous_selector": ".entry-content",
+    "history_metadata_path": "data/candidates/20261011-source-discovery/processing-history/en-loc-0d64e247d429.v1.metadata.json",
+    "removed_paragraphs": [
+      {
+        "text": "Subscribe to the blog— it’s free!",
+        "reason": "page subscription/contact/read-time/navigation UI"
+      }
+    ],
+    "original_paragraph_count": 10,
+    "result_paragraph_count": 9,
+    "policy": "Remove only page UI/recommendation containers, repeated title and standalone numbered CAS image captions; preserve original wording and document paragraphs. Raw source bytes unchanged."
+  },
+  "raw_capture_kind": "http_response_bytes",
+  "rights_reference_url": "https://www.loc.gov/legal/",
+  "rights_review_status": "pending_article_author_and_third_party_rights_review",
+  "human_reviewed": false,
+  "status": "candidate"
+}

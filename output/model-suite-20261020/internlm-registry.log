@@ -1,0 +1,40 @@
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling manifest"}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 68418952}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 175376188}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 293319169}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 404597792}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 489940193}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 580961939}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 675950350}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 782679007}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 888905790}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 1012233449}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 1153757851}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 1301097167}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 1441752969}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 1580261296}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 1726553367}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 1875825950}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 2029026654}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 2189076774}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 2356881243}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 2430365069}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 2561129183}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 2604389328}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 2649699011}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 2785512294}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 2981579174}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 3161131812}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 3329430612}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 3472281275}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 3615794193}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 3766537947}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 3921295364}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 4080521979}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 4226875947}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 4366218420}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 4520461279}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "pulling 6226fc28c1bb", "digest": "sha256:6226fc28c1bb045822d40341ef9062e5f4ea89adc851f9757e1fb6c832e52980", "total": 4712768352, "completed": 4659279077}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "writing manifest"}
+{"model": "internlm2:7b-chat-v2.5-q4_K_M", "status": "success"}
+{"installed": "internlm25-7b", "digest": "aa0c9b808286311ca91e6c5f200f77be95b7c7c1428211d4fbb791358e02d06b", "exact_tokenizer": false}

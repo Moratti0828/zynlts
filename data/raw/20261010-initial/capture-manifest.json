@@ -1,0 +1,101 @@
+{
+  "captures": [
+    {
+      "id": "zh-public-video-2025",
+      "url": "https://www.mee.gov.cn/zcwj/gwywj/202502/t20250211_1102044.shtml",
+      "language": "zh",
+      "resolved_url": "https://www.mee.gov.cn/zcwj/gwywj/202502/t20250211_1102044.shtml",
+      "downloaded_at": "2026-10-10T07:25:29+00:00",
+      "raw_sha256": "63a7675e78571edaa11e30174fa7a49115278acf01e6b1932abf5dc3a43f61b2",
+      "extracted_sha256": "2008ac9b4cce6b3ae3534c5967681a21f51f852de61ded94f197af83644d31db",
+      "bytes": 59393,
+      "charset": "utf-8",
+      "http_headers": {
+        "Content-Type": "text/html"
+      },
+      "reviewed": false,
+      "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+    },
+    {
+      "id": "zh-data-sharing-2025",
+      "url": "https://www.mee.gov.cn/zcwj/gwywj/202506/t20250604_1120657.shtml",
+      "language": "zh",
+      "resolved_url": "https://www.mee.gov.cn/zcwj/gwywj/202506/t20250604_1120657.shtml",
+      "downloaded_at": "2026-10-10T07:25:29+00:00",
+      "raw_sha256": "aa4b541a7432f936c87dc95588590e54d338c1636c3c8de8e5756a8c3d530344",
+      "extracted_sha256": "d21c2988733c71cb5af420982335c7b87626aca90e29156d25daac595b70a275",
+      "bytes": 64374,
+      "charset": "utf-8",
+      "http_headers": {
+        "Content-Type": "text/html"
+      },
+      "reviewed": false,
+      "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+    },
+    {
+      "id": "en-nisar-2025",
+      "url": "https://www.nasa.gov/news-release/nasa-isro-satellite-lifts-off-to-track-earths-changing-surfaces/",
+      "language": "en",
+      "resolved_url": "https://www.nasa.gov/news-release/nasa-isro-satellite-lifts-off-to-track-earths-changing-surfaces/",
+      "downloaded_at": "2026-10-10T07:25:30+00:00",
+      "raw_sha256": "094641b54b979eed6f981d768b430a0b426da52be762c1a8f5ddd29f463bd075",
+      "extracted_sha256": "a07b8ecad3802b98b05c76315f4853931ab95e02a64d5fff8fdf187575e14e01",
+      "bytes": 290280,
+      "charset": "utf-8",
+      "http_headers": {
+        "Content-Type": "text/html; charset=UTF-8"
+      },
+      "reviewed": false,
+      "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+    },
+    {
+      "id": "en-comet-2026",
+      "url": "https://science.nasa.gov/blogs/3iatlas/2026/02/04/nasas-spherex-mission-tracks-brightening-of-interstellar-comet/",
+      "language": "en",
+      "resolved_url": "https://science.nasa.gov/blogs/3iatlas/2026/02/04/nasas-spherex-mission-tracks-brightening-of-interstellar-comet/",
+      "downloaded_at": "2026-10-10T07:25:30+00:00",
+      "raw_sha256": "052d7e29f4c33b381c6e25e952ed055cf808a41702917f3d70cc4c50c2937728",
+      "extracted_sha256": "bc29ce003ce8781a37d6b12c19882a0e259faab176205e7bf23dd174aea942f4",
+      "bytes": 272074,
+      "charset": "utf-8",
+      "http_headers": {
+        "Content-Type": "text/html; charset=UTF-8"
+      },
+      "reviewed": false,
+      "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+    },
+    {
+      "id": "en-bennu-2025",
+      "url": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+      "language": "en",
+      "resolved_url": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+      "downloaded_at": "2026-10-10T07:25:30+00:00",
+      "raw_sha256": "daf1393629c15be6e2c6c6b18a241da3446b9b8428e32bd66acffec5be42160d",
+      "extracted_sha256": "fb45c714311abd358d33f1f0e4c2d1dec26e4152a84809040636ce3b36368c6d",
+      "bytes": 290961,
+      "charset": "utf-8",
+      "http_headers": {
+        "Content-Type": "text/html; charset=UTF-8"
+      },
+      "reviewed": false,
+      "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+    },
+    {
+      "id": "zh-housing-2025",
+      "url": "https://www.forestry.gov.cn/c/www/szxx/635119.jhtml",
+      "language": "zh",
+      "resolved_url": "https://www.forestry.gov.cn/c/www/szxx/635119.jhtml",
+      "downloaded_at": "2026-10-10T07:25:30+00:00",
+      "raw_sha256": "2082ff7c5dfd40409665d443ba58c974f2206466f35f7e4a0616501efb4e1627",
+      "extracted_sha256": "59258e9fb640dc0b31ded1757cc90072d093481ffd9b31362cb2ef316211e654",
+      "bytes": 67248,
+      "charset": "utf-8",
+      "http_headers": {
+        "Content-Type": "text/html; charset=UTF-8"
+      },
+      "reviewed": false,
+      "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+    }
+  ],
+  "failures": []
+}

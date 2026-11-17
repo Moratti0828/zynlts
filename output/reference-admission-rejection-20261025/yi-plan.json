@@ -1,0 +1,98 @@
+{
+  "schema_version": "reading-expansion-stage-v1",
+  "stage": "yi",
+  "configurations": [
+    {
+      "name": "four-k-squad2-with_context",
+      "models": [
+        "qwen25-7b",
+        "yi15-6b"
+      ],
+      "bank": "reference-squad2-20261024",
+      "mode": "with_context",
+      "num_ctx": 4096,
+      "strict_time": "false",
+      "article_ids": [
+        "ref-squad2-ef89fd8649969f09fc47",
+        "ref-squad2-0078a3aad6d29993d7ba",
+        "ref-squad2-a28b1741ae11a0ca192d",
+        "ref-squad2-46b22fbb7cb725f7dbd4",
+        "ref-squad2-93620703d50b4155fab9",
+        "ref-squad2-83c030609aaae7ee99b6",
+        "ref-squad2-679435646d97368fa394",
+        "ref-squad2-ee860af1558390e8f6b7"
+      ]
+    },
+    {
+      "name": "four-k-squad2-no_context",
+      "models": [
+        "qwen25-7b",
+        "yi15-6b"
+      ],
+      "bank": "reference-squad2-20261024",
+      "mode": "no_context",
+      "num_ctx": 4096,
+      "strict_time": "false",
+      "article_ids": [
+        "ref-squad2-ef89fd8649969f09fc47",
+        "ref-squad2-0078a3aad6d29993d7ba",
+        "ref-squad2-a28b1741ae11a0ca192d",
+        "ref-squad2-46b22fbb7cb725f7dbd4",
+        "ref-squad2-93620703d50b4155fab9",
+        "ref-squad2-83c030609aaae7ee99b6",
+        "ref-squad2-679435646d97368fa394",
+        "ref-squad2-ee860af1558390e8f6b7"
+      ]
+    },
+    {
+      "name": "four-k-cmrc2018-with_context",
+      "models": [
+        "qwen25-7b",
+        "yi15-6b"
+      ],
+      "bank": "reference-cmrc2018-20261024",
+      "mode": "with_context",
+      "num_ctx": 4096,
+      "strict_time": "false",
+      "article_ids": [
+        "ref-cmrc2018-30e392af87cfb7bad436",
+        "ref-cmrc2018-2e827be252c3982e5813",
+        "ref-cmrc2018-1ddca8ea1543636366d7",
+        "ref-cmrc2018-34dd37e1796d9743c8b7",
+        "ref-cmrc2018-185ca5b8daa53663ac53",
+        "ref-cmrc2018-cae49579c178bebcbecb",
+        "ref-cmrc2018-2391a5c0a60c6534f554",
+        "ref-cmrc2018-479ebb36f1b68de283bd"
+      ]
+    },
+    {
+      "name": "four-k-cmrc2018-no_context",
+      "models": [
+        "qwen25-7b",
+        "yi15-6b"
+      ],
+      "bank": "reference-cmrc2018-20261024",
+      "mode": "no_context",
+      "num_ctx": 4096,
+      "strict_time": "false",
+      "article_ids": [
+        "ref-cmrc2018-30e392af87cfb7bad436",
+        "ref-cmrc2018-2e827be252c3982e5813",
+        "ref-cmrc2018-1ddca8ea1543636366d7",
+        "ref-cmrc2018-34dd37e1796d9743c8b7",
+        "ref-cmrc2018-185ca5b8daa53663ac53",
+        "ref-cmrc2018-cae49579c178bebcbecb",
+        "ref-cmrc2018-2391a5c0a60c6534f554",
+        "ref-cmrc2018-479ebb36f1b68de283bd"
+      ]
+    }
+  ],
+  "settings": {
+    "temperature": 0,
+    "seed": 42,
+    "max_tokens": 512,
+    "strict_budget": false
+  },
+  "formal": false,
+  "notice": "Public historical reference and recent AI-draft banks stay separate; no contamination-free or formal ranking claim."
+}

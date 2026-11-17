@@ -1,0 +1,2185 @@
+{
+  "analysis_version": "reading-expansion-analysis-v1-20261025",
+  "formal": false,
+  "complete_inputs": true,
+  "counts": {
+    "matrix_manifests": 13,
+    "banks": 5,
+    "models": 4,
+    "runs": 23,
+    "attempts": 1862,
+    "planned_rows": 1862,
+    "recorded_rows": 1862,
+    "response_errors": 218
+  },
+  "versions": {
+    "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+    "runner_version": "reading-runner-v2.2-context-reference-20261024",
+    "prompt_version": "reading-prompt-v2.0-paragraph-20261013"
+  },
+  "banks": {
+    "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f": {
+      "bank_id": "dev-expanded-20261020",
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "track": "recent_development",
+      "article_count": 20,
+      "question_count": 160,
+      "human_review_counts": {
+        "0": 20
+      },
+      "evidence_interpretation": "AI-draft support-chain diagnostic; not human gold"
+    },
+    "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c": {
+      "bank_id": "dev-counterfactual-20261020",
+      "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+      "track": "synthetic_diagnostic",
+      "article_count": 10,
+      "question_count": 10,
+      "human_review_counts": {
+        "0": 10
+      },
+      "evidence_interpretation": "AI-draft support-chain diagnostic; not human gold"
+    },
+    "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c": {
+      "bank_id": "reference-cmrc2018-20261025",
+      "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+      "track": "public_historical_reference",
+      "article_count": 50,
+      "question_count": 150,
+      "human_review_counts": {
+        "0": 50
+      },
+      "evidence_interpretation": "span-derived mechanical proxy only; auxiliary"
+    },
+    "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b": {
+      "bank_id": "reference-squad2-20261025",
+      "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+      "track": "public_historical_reference",
+      "article_count": 50,
+      "question_count": 150,
+      "human_review_counts": {
+        "0": 50
+      },
+      "evidence_interpretation": "span-derived mechanical proxy only; auxiliary"
+    },
+    "67f918724560f34c140c7464d39480b4c651a73754ef260a77f264bad8e0d9e3": {
+      "bank_id": "dev-recent-additions-20261024",
+      "source_bank_sha256": "67f918724560f34c140c7464d39480b4c651a73754ef260a77f264bad8e0d9e3",
+      "track": "recent_development",
+      "article_count": 20,
+      "question_count": 160,
+      "human_review_counts": {
+        "0": 20
+      },
+      "evidence_interpretation": "AI-draft support-chain diagnostic; not human gold"
+    }
+  },
+  "model_snapshots": {
+    "qwen25-7b": {
+      "id": "qwen25-7b",
+      "name": "Qwen2.5 · 7B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "qwen2.5:7b-instruct",
+      "api_key_env": "",
+      "release_date": "2024-09-19",
+      "release_source": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "expected_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "created_at": "2026-10-20T05:00:43.968826+00:00",
+      "suite_record": {
+        "original_repo": "Qwen/Qwen2.5-7B-Instruct",
+        "original_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "distribution_manifest_sha256": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+        "weight_blob_sha256": null,
+        "provenance_status": "historical_original_checkpoint_known;distribution_conversion_lineage_not_independently_reproduced"
+      },
+      "tokenizer_spec": {
+        "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+        "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+        "artifact_dir": "/home/jmy/reading-bench/runtime/tokenizers/qwen25-7b-a09a354",
+        "manifest_sha256": "9dd35fd52541064912583bff5bd15c47a918cd86a2dfb0dec065b39029d44d7b"
+      },
+      "runtime_template_kind": "raw_rendered_prompt",
+      "token_budget_margin": 512,
+      "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen2",
+        "families": [
+          "qwen2"
+        ],
+        "parameter_size": "7.6B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    "gemma2-9b": {
+      "id": "gemma2-9b",
+      "name": "Gemma 2 · 9B Instruct",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "gemma2:9b-instruct-q4_K_M",
+      "api_key_env": "",
+      "expected_digest": "c20bec88025f3aefa420efd64dca0ee4abc8e36078d6b74b0f660cdcbd5d1982",
+      "release_date": "2024-06-27",
+      "release_source": "https://blog.google/technology/developers/google-gemma-2/",
+      "created_at": "2026-10-24T15:30:49.334042+00:00",
+      "native_context_tokens": 8192,
+      "token_budget_margin": 512,
+      "suite_record": {
+        "original_repo": "google/gemma-2-9b-it",
+        "original_revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+        "release_date_basis": "official Google launch article datePublished=2024-06-27",
+        "distribution_manifest_sha256": "c20bec88025f3aefa420efd64dca0ee4abc8e36078d6b74b0f660cdcbd5d1982",
+        "weight_blob_sha256": "cb654129f57b4f44e372fab3d6540c0d6784c3adc33125d7c38ab47122ee2a54",
+        "total_parameters": 9241705984,
+        "architecture": "Gemma2ForCausalLM",
+        "license": "Gemma Terms of Use (custom)",
+        "language_coverage": "Official model card describes English; Chinese results exploratory",
+        "native_context_tokens": 8192,
+        "provenance_status": "original_historical_checkpoint_known;fixed_registry_bytes_verified;conversion_lineage_not_independently_reproduced",
+        "tokenizer_status": "not_runtime_certified;conservative_budget_unless_verified_native_adapter_available",
+        "license_action": "stored source license text; no gated login or new click-through acceptance performed"
+      },
+      "digest": "c20bec88025f3aefa420efd64dca0ee4abc8e36078d6b74b0f660cdcbd5d1982",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "gemma2",
+        "families": [
+          "gemma2"
+        ],
+        "parameter_size": "9.2B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    "phi35-mini": {
+      "id": "phi35-mini",
+      "name": "Phi-3.5 · Mini Instruct (3.8B)",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "phi3.5:3.8b-mini-instruct-q4_K_M",
+      "api_key_env": "",
+      "expected_digest": "57096159698481b47ea17995d1a71f28eea1e26fc801df39a841b29badb4aa63",
+      "release_date": "2024-08-20",
+      "release_source": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct/commit/d509c5617b2dd9fcdc75022aad9382c4bc8e8b54",
+      "created_at": "2026-10-24T15:34:41.165556+00:00",
+      "native_context_tokens": 131072,
+      "token_budget_margin": 512,
+      "suite_record": {
+        "original_repo": "microsoft/Phi-3.5-mini-instruct",
+        "original_revision": "af0dfb8029e8a74545d0736d30cb6b58d2f0f3f0",
+        "release_date_basis": "author model card published 2024-08-20; conservative known-public upper bound, not exact training end",
+        "distribution_manifest_sha256": "57096159698481b47ea17995d1a71f28eea1e26fc801df39a841b29badb4aa63",
+        "weight_blob_sha256": "3ef532675b6684b28e0a1a0dca8b3bf4132673bf2294b7d87b41b1d64bb03bca",
+        "total_parameters": 3821079552,
+        "architecture": "Phi3ForCausalLM",
+        "license": "MIT",
+        "language_coverage": "Official 2024 card lists English and Chinese among 23 supported languages; quality differs by language",
+        "native_context_tokens": 131072,
+        "provenance_status": "original_historical_checkpoint_known;fixed_registry_bytes_verified;conversion_lineage_not_independently_reproduced",
+        "tokenizer_status": "not_runtime_certified;conservative_budget_unless_verified_native_adapter_available",
+        "license_action": "stored source license text; no gated login or new click-through acceptance performed"
+      },
+      "digest": "57096159698481b47ea17995d1a71f28eea1e26fc801df39a841b29badb4aa63",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "phi3",
+        "families": [
+          "phi3"
+        ],
+        "parameter_size": "3.8B",
+        "quantization_level": "Q4_K_M"
+      }
+    },
+    "yi15-6b": {
+      "id": "yi15-6b",
+      "name": "Yi-1.5 · 6B Chat",
+      "provider": "ollama",
+      "base_url": "http://127.0.0.1:11435",
+      "model": "yi:6b-chat-v1.5-q4_K_M",
+      "api_key_env": "",
+      "expected_digest": "fa152930bd7fba7d9c42c1544a3538eb219873dc4a39d0036ecd0253948998c0",
+      "release_date": "2024-08-27",
+      "release_source": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat/commit/771924d1c83d67527d665913415d7086f11ea9c0",
+      "created_at": "2026-10-24T15:30:57.588993+00:00",
+      "native_context_tokens": 4096,
+      "token_budget_margin": 512,
+      "suite_record": {
+        "original_repo": "01-ai/Yi-1.5-6B-Chat",
+        "original_revision": "771924d1c83d67527d665913415d7086f11ea9c0",
+        "release_date_basis": "fixed author snapshot committed 2024-08-27; conservative known-public upper bound, not first release date",
+        "distribution_manifest_sha256": "fa152930bd7fba7d9c42c1544a3538eb219873dc4a39d0036ecd0253948998c0",
+        "weight_blob_sha256": "79bc28516580c9da278d14b8dbcfa2761dc99ccc2e905e1b31c786dc5f866fd1",
+        "total_parameters": 6061035520,
+        "architecture": "LlamaForCausalLM",
+        "license": "Apache-2.0",
+        "language_coverage": "Yi family is Chinese/English bilingual; task performance still measured separately",
+        "native_context_tokens": 4096,
+        "provenance_status": "original_historical_checkpoint_known;fixed_registry_bytes_verified;conversion_lineage_not_independently_reproduced",
+        "tokenizer_status": "official_HF_literal_backslash_template_differs_from_registry;runtime_uses_original_registry_ChatML_template;exact_tokenizer_equivalence_not_certified",
+        "license_action": "stored source license text; no gated login or new click-through acceptance performed",
+        "tokenizer_audit_artifact": "runtime/tokenizers/yi15-6b-771924d;reference_files_only_not_runtime_tokenizer_spec"
+      },
+      "digest": "fa152930bd7fba7d9c42c1544a3538eb219873dc4a39d0036ecd0253948998c0",
+      "available": true,
+      "status": "就绪",
+      "temporal_verified": true,
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "6B",
+        "quantization_level": "Q4_K_M"
+      }
+    }
+  },
+  "jobs": [
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-control",
+      "bank_id": "dev-expanded-20261020",
+      "model_id": "qwen25-7b",
+      "mode": "no_context",
+      "num_ctx": 8192,
+      "planned": 80,
+      "run_id": "run-83a60bb85111",
+      "attempts": 80,
+      "selection_sha256": "9391ee672bae646498c4ac6907beeb568038fd6ba67604510a3277e8b1cc1bd3",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-control\\runs\\run-83a60bb85111.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": true,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-counterfactual",
+      "bank_id": "dev-counterfactual-20261020",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "planned": 10,
+      "run_id": "run-0252b605d22a",
+      "attempts": 10,
+      "selection_sha256": "02eaeaf73e4659c13b0e7d1247e5327494586c36a317f70f4641e8e0cef540ac",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-counterfactual\\runs\\run-0252b605d22a.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": true,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-main",
+      "bank_id": "dev-expanded-20261020",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "planned": 160,
+      "run_id": "run-4454c08f9bcf",
+      "attempts": 160,
+      "selection_sha256": "c6f37a98af4a6fa237c063e3537087454bd8f552c817a39424c314067bb229ce",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-main\\runs\\run-4454c08f9bcf.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": true,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control",
+      "bank_id": "dev-expanded-20261020",
+      "model_id": "gemma2-9b",
+      "mode": "no_context",
+      "num_ctx": 8192,
+      "planned": 80,
+      "run_id": "run-a2d02a44ddde",
+      "attempts": 80,
+      "selection_sha256": "9391ee672bae646498c4ac6907beeb568038fd6ba67604510a3277e8b1cc1bd3",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\runs\\run-a2d02a44ddde.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": true,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control",
+      "bank_id": "dev-expanded-20261020",
+      "model_id": "phi35-mini",
+      "mode": "no_context",
+      "num_ctx": 8192,
+      "planned": 80,
+      "run_id": "run-77f36504ec26",
+      "attempts": 80,
+      "selection_sha256": "9391ee672bae646498c4ac6907beeb568038fd6ba67604510a3277e8b1cc1bd3",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\runs\\run-77f36504ec26.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": true,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual",
+      "bank_id": "dev-counterfactual-20261020",
+      "model_id": "gemma2-9b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "planned": 10,
+      "run_id": "run-a5624cb6d98d",
+      "attempts": 10,
+      "selection_sha256": "02eaeaf73e4659c13b0e7d1247e5327494586c36a317f70f4641e8e0cef540ac",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\runs\\run-a5624cb6d98d.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": true,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual",
+      "bank_id": "dev-counterfactual-20261020",
+      "model_id": "phi35-mini",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "planned": 10,
+      "run_id": "run-5a79cad36f5c",
+      "attempts": 10,
+      "selection_sha256": "02eaeaf73e4659c13b0e7d1247e5327494586c36a317f70f4641e8e0cef540ac",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\runs\\run-5a79cad36f5c.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": true,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main",
+      "bank_id": "dev-expanded-20261020",
+      "model_id": "gemma2-9b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "planned": 160,
+      "run_id": "run-e178cdbac048",
+      "attempts": 160,
+      "selection_sha256": "c6f37a98af4a6fa237c063e3537087454bd8f552c817a39424c314067bb229ce",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\runs\\run-e178cdbac048.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": true,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main",
+      "bank_id": "dev-expanded-20261020",
+      "model_id": "phi35-mini",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "planned": 160,
+      "run_id": "run-70bf30a6dd7a",
+      "attempts": 160,
+      "selection_sha256": "c6f37a98af4a6fa237c063e3537087454bd8f552c817a39424c314067bb229ce",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\runs\\run-70bf30a6dd7a.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": true,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context",
+      "bank_id": "reference-cmrc2018-20261025",
+      "model_id": "qwen25-7b",
+      "mode": "no_context",
+      "num_ctx": 4096,
+      "planned": 24,
+      "run_id": "run-db419832159d",
+      "attempts": 24,
+      "selection_sha256": "94135cbf2a81ac9fef5dc2213dcea4fe69310288706290ee19ecda5a67ccd1a9",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\runs\\run-db419832159d.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": false,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context",
+      "bank_id": "reference-cmrc2018-20261025",
+      "model_id": "yi15-6b",
+      "mode": "no_context",
+      "num_ctx": 4096,
+      "planned": 24,
+      "run_id": "run-5db7b6eb7023",
+      "attempts": 24,
+      "selection_sha256": "94135cbf2a81ac9fef5dc2213dcea4fe69310288706290ee19ecda5a67ccd1a9",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\runs\\run-5db7b6eb7023.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": false,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context",
+      "bank_id": "reference-cmrc2018-20261025",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 4096,
+      "planned": 24,
+      "run_id": "run-3f5b6c5b648a",
+      "attempts": 24,
+      "selection_sha256": "94135cbf2a81ac9fef5dc2213dcea4fe69310288706290ee19ecda5a67ccd1a9",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\runs\\run-3f5b6c5b648a.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": false,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context",
+      "bank_id": "reference-cmrc2018-20261025",
+      "model_id": "yi15-6b",
+      "mode": "with_context",
+      "num_ctx": 4096,
+      "planned": 24,
+      "run_id": "run-f698689c7e2e",
+      "attempts": 24,
+      "selection_sha256": "94135cbf2a81ac9fef5dc2213dcea4fe69310288706290ee19ecda5a67ccd1a9",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\runs\\run-f698689c7e2e.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": false,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context",
+      "bank_id": "reference-squad2-20261025",
+      "model_id": "qwen25-7b",
+      "mode": "no_context",
+      "num_ctx": 4096,
+      "planned": 24,
+      "run_id": "run-b505a52713eb",
+      "attempts": 24,
+      "selection_sha256": "98cf606c2769ff5aac72fc171e32cf9788b767e9a9f8e750be97d44d9920a91f",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\runs\\run-b505a52713eb.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": false,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context",
+      "bank_id": "reference-squad2-20261025",
+      "model_id": "yi15-6b",
+      "mode": "no_context",
+      "num_ctx": 4096,
+      "planned": 24,
+      "run_id": "run-bb0a117ec70e",
+      "attempts": 24,
+      "selection_sha256": "98cf606c2769ff5aac72fc171e32cf9788b767e9a9f8e750be97d44d9920a91f",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\runs\\run-bb0a117ec70e.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": false,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context",
+      "bank_id": "reference-squad2-20261025",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 4096,
+      "planned": 24,
+      "run_id": "run-ccfd5b808408",
+      "attempts": 24,
+      "selection_sha256": "98cf606c2769ff5aac72fc171e32cf9788b767e9a9f8e750be97d44d9920a91f",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\runs\\run-ccfd5b808408.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": false,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context",
+      "bank_id": "reference-squad2-20261025",
+      "model_id": "yi15-6b",
+      "mode": "with_context",
+      "num_ctx": 4096,
+      "planned": 24,
+      "run_id": "run-20a0168f622d",
+      "attempts": 24,
+      "selection_sha256": "98cf606c2769ff5aac72fc171e32cf9788b767e9a9f8e750be97d44d9920a91f",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\runs\\run-20a0168f622d.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": false,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main",
+      "bank_id": "dev-recent-additions-20261024",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "planned": 160,
+      "run_id": "run-91f62eda620f",
+      "attempts": 160,
+      "selection_sha256": "07b28c866e4bf06b53b4ef1e10c2bb72b2b3d1593fe80dd3d1701d5b71f3a328",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\runs\\run-91f62eda620f.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": true,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main",
+      "bank_id": "dev-recent-additions-20261024",
+      "model_id": "gemma2-9b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "planned": 160,
+      "run_id": "run-603a2b32adf8",
+      "attempts": 160,
+      "selection_sha256": "07b28c866e4bf06b53b4ef1e10c2bb72b2b3d1593fe80dd3d1701d5b71f3a328",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\runs\\run-603a2b32adf8.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": true,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018",
+      "bank_id": "reference-cmrc2018-20261025",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "planned": 150,
+      "run_id": "run-b61997ff7700",
+      "attempts": 150,
+      "selection_sha256": "3a1bf52473b9477a372e5dcb27a312ede66bedb6ca2cd95e28baec4f3157636e",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\runs\\run-b61997ff7700.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": false,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018",
+      "bank_id": "reference-cmrc2018-20261025",
+      "model_id": "phi35-mini",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "planned": 150,
+      "run_id": "run-454d96622cc1",
+      "attempts": 150,
+      "selection_sha256": "3a1bf52473b9477a372e5dcb27a312ede66bedb6ca2cd95e28baec4f3157636e",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\runs\\run-454d96622cc1.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": false,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2",
+      "bank_id": "reference-squad2-20261025",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "planned": 150,
+      "run_id": "run-5d16eb99ee37",
+      "attempts": 150,
+      "selection_sha256": "40da23e4e71d913eb744958c93ffb74c0a2309db9767c71e066558437b63afb8",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\runs\\run-5d16eb99ee37.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": false,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    },
+    {
+      "matrix": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2",
+      "bank_id": "reference-squad2-20261025",
+      "model_id": "phi35-mini",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "planned": 150,
+      "run_id": "run-c4ba6b5f122b",
+      "attempts": 150,
+      "selection_sha256": "40da23e4e71d913eb744958c93ffb74c0a2309db9767c71e066558437b63afb8",
+      "json": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\runs\\run-c4ba6b5f122b.json",
+      "gpu_observed": true,
+      "gpu_fully_resident_observed": true,
+      "strict_budget": false,
+      "strict_time": false,
+      "temperature": 0,
+      "seed": 42,
+      "max_tokens": 512
+    }
+  ],
+  "coverage": [
+    {
+      "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+      "model_id": "gemma2-9b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "dev-counterfactual-20261020",
+      "bank_track": "synthetic_diagnostic",
+      "planned_questions": 5,
+      "recorded_questions": 5,
+      "selected_articles": 5,
+      "selected_source_clusters": 5,
+      "question_kind_counts": {
+        "numeric": 5
+      },
+      "dimension_counts": {
+        "D1": 5
+      },
+      "run_ids": [
+        "run-a5624cb6d98d"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+      "model_id": "gemma2-9b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "dev-counterfactual-20261020",
+      "bank_track": "synthetic_diagnostic",
+      "planned_questions": 5,
+      "recorded_questions": 5,
+      "selected_articles": 5,
+      "selected_source_clusters": 5,
+      "question_kind_counts": {
+        "numeric": 5
+      },
+      "dimension_counts": {
+        "D1": 5
+      },
+      "run_ids": [
+        "run-a5624cb6d98d"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+      "model_id": "phi35-mini",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "dev-counterfactual-20261020",
+      "bank_track": "synthetic_diagnostic",
+      "planned_questions": 5,
+      "recorded_questions": 5,
+      "selected_articles": 5,
+      "selected_source_clusters": 5,
+      "question_kind_counts": {
+        "numeric": 5
+      },
+      "dimension_counts": {
+        "D1": 5
+      },
+      "run_ids": [
+        "run-5a79cad36f5c"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+      "model_id": "phi35-mini",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "dev-counterfactual-20261020",
+      "bank_track": "synthetic_diagnostic",
+      "planned_questions": 5,
+      "recorded_questions": 5,
+      "selected_articles": 5,
+      "selected_source_clusters": 5,
+      "question_kind_counts": {
+        "numeric": 5
+      },
+      "dimension_counts": {
+        "D1": 5
+      },
+      "run_ids": [
+        "run-5a79cad36f5c"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "dev-counterfactual-20261020",
+      "bank_track": "synthetic_diagnostic",
+      "planned_questions": 5,
+      "recorded_questions": 5,
+      "selected_articles": 5,
+      "selected_source_clusters": 5,
+      "question_kind_counts": {
+        "numeric": 5
+      },
+      "dimension_counts": {
+        "D1": 5
+      },
+      "run_ids": [
+        "run-0252b605d22a"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "02b5bbd46b791e979bbc898e3a89570feca8b660e47314c638fd8d8f9d23d19c",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "dev-counterfactual-20261020",
+      "bank_track": "synthetic_diagnostic",
+      "planned_questions": 5,
+      "recorded_questions": 5,
+      "selected_articles": 5,
+      "selected_source_clusters": 5,
+      "question_kind_counts": {
+        "numeric": 5
+      },
+      "dimension_counts": {
+        "D1": 5
+      },
+      "run_ids": [
+        "run-0252b605d22a"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+      "model_id": "phi35-mini",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "reference-cmrc2018-20261025",
+      "bank_track": "public_historical_reference",
+      "planned_questions": 150,
+      "recorded_questions": 150,
+      "selected_articles": 50,
+      "selected_source_clusters": 50,
+      "question_kind_counts": {
+        "short": 150
+      },
+      "dimension_counts": {
+        "D1": 150
+      },
+      "run_ids": [
+        "run-454d96622cc1"
+      ],
+      "strict_time": [
+        false
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+      "model_id": "qwen25-7b",
+      "mode": "no_context",
+      "num_ctx": 4096,
+      "language": "zh",
+      "bank_id": "reference-cmrc2018-20261025",
+      "bank_track": "public_historical_reference",
+      "planned_questions": 24,
+      "recorded_questions": 24,
+      "selected_articles": 8,
+      "selected_source_clusters": 8,
+      "question_kind_counts": {
+        "short": 24
+      },
+      "dimension_counts": {
+        "D1": 24
+      },
+      "run_ids": [
+        "run-db419832159d"
+      ],
+      "strict_time": [
+        false
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 4096,
+      "language": "zh",
+      "bank_id": "reference-cmrc2018-20261025",
+      "bank_track": "public_historical_reference",
+      "planned_questions": 24,
+      "recorded_questions": 24,
+      "selected_articles": 8,
+      "selected_source_clusters": 8,
+      "question_kind_counts": {
+        "short": 24
+      },
+      "dimension_counts": {
+        "D1": 24
+      },
+      "run_ids": [
+        "run-3f5b6c5b648a"
+      ],
+      "strict_time": [
+        false
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "reference-cmrc2018-20261025",
+      "bank_track": "public_historical_reference",
+      "planned_questions": 150,
+      "recorded_questions": 150,
+      "selected_articles": 50,
+      "selected_source_clusters": 50,
+      "question_kind_counts": {
+        "short": 150
+      },
+      "dimension_counts": {
+        "D1": 150
+      },
+      "run_ids": [
+        "run-b61997ff7700"
+      ],
+      "strict_time": [
+        false
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+      "model_id": "yi15-6b",
+      "mode": "no_context",
+      "num_ctx": 4096,
+      "language": "zh",
+      "bank_id": "reference-cmrc2018-20261025",
+      "bank_track": "public_historical_reference",
+      "planned_questions": 24,
+      "recorded_questions": 24,
+      "selected_articles": 8,
+      "selected_source_clusters": 8,
+      "question_kind_counts": {
+        "short": 24
+      },
+      "dimension_counts": {
+        "D1": 24
+      },
+      "run_ids": [
+        "run-5db7b6eb7023"
+      ],
+      "strict_time": [
+        false
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+      "model_id": "yi15-6b",
+      "mode": "with_context",
+      "num_ctx": 4096,
+      "language": "zh",
+      "bank_id": "reference-cmrc2018-20261025",
+      "bank_track": "public_historical_reference",
+      "planned_questions": 24,
+      "recorded_questions": 24,
+      "selected_articles": 8,
+      "selected_source_clusters": 8,
+      "question_kind_counts": {
+        "short": 24
+      },
+      "dimension_counts": {
+        "D1": 24
+      },
+      "run_ids": [
+        "run-f698689c7e2e"
+      ],
+      "strict_time": [
+        false
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "67f918724560f34c140c7464d39480b4c651a73754ef260a77f264bad8e0d9e3",
+      "model_id": "gemma2-9b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "dev-recent-additions-20261024",
+      "bank_track": "recent_development",
+      "planned_questions": 80,
+      "recorded_questions": 80,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "short": 15,
+        "numeric": 15,
+        "choice": 30,
+        "unanswerable": 20
+      },
+      "dimension_counts": {
+        "D1": 25,
+        "D2": 10,
+        "D3": 10,
+        "D5": 10,
+        "D6": 20,
+        "D4": 5
+      },
+      "run_ids": [
+        "run-603a2b32adf8"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "67f918724560f34c140c7464d39480b4c651a73754ef260a77f264bad8e0d9e3",
+      "model_id": "gemma2-9b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "dev-recent-additions-20261024",
+      "bank_track": "recent_development",
+      "planned_questions": 80,
+      "recorded_questions": 80,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "numeric": 17,
+        "short": 12,
+        "choice": 31,
+        "unanswerable": 20
+      },
+      "dimension_counts": {
+        "D1": 21,
+        "D4": 8,
+        "D2": 11,
+        "D3": 10,
+        "D5": 10,
+        "D6": 20
+      },
+      "run_ids": [
+        "run-603a2b32adf8"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "67f918724560f34c140c7464d39480b4c651a73754ef260a77f264bad8e0d9e3",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "dev-recent-additions-20261024",
+      "bank_track": "recent_development",
+      "planned_questions": 80,
+      "recorded_questions": 80,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "short": 15,
+        "numeric": 15,
+        "choice": 30,
+        "unanswerable": 20
+      },
+      "dimension_counts": {
+        "D1": 25,
+        "D2": 10,
+        "D3": 10,
+        "D5": 10,
+        "D6": 20,
+        "D4": 5
+      },
+      "run_ids": [
+        "run-91f62eda620f"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "67f918724560f34c140c7464d39480b4c651a73754ef260a77f264bad8e0d9e3",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "dev-recent-additions-20261024",
+      "bank_track": "recent_development",
+      "planned_questions": 80,
+      "recorded_questions": 80,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "numeric": 17,
+        "short": 12,
+        "choice": 31,
+        "unanswerable": 20
+      },
+      "dimension_counts": {
+        "D1": 21,
+        "D4": 8,
+        "D2": 11,
+        "D3": 10,
+        "D5": 10,
+        "D6": 20
+      },
+      "run_ids": [
+        "run-91f62eda620f"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "model_id": "gemma2-9b",
+      "mode": "no_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "dev-expanded-20261020",
+      "bank_track": "recent_development",
+      "planned_questions": 40,
+      "recorded_questions": 40,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "choice": 20,
+        "numeric": 12,
+        "short": 8
+      },
+      "dimension_counts": {
+        "D1": 16,
+        "D2": 10,
+        "D3": 9,
+        "D4": 5
+      },
+      "run_ids": [
+        "run-a2d02a44ddde"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "model_id": "gemma2-9b",
+      "mode": "no_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "dev-expanded-20261020",
+      "bank_track": "recent_development",
+      "planned_questions": 40,
+      "recorded_questions": 40,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "numeric": 11,
+        "choice": 18,
+        "short": 11
+      },
+      "dimension_counts": {
+        "D1": 17,
+        "D2": 12,
+        "D3": 5,
+        "D4": 5,
+        "D5": 1
+      },
+      "run_ids": [
+        "run-a2d02a44ddde"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "model_id": "gemma2-9b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "dev-expanded-20261020",
+      "bank_track": "recent_development",
+      "planned_questions": 80,
+      "recorded_questions": 80,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "choice": 33,
+        "numeric": 13,
+        "unanswerable": 20,
+        "short": 14
+      },
+      "dimension_counts": {
+        "D1": 23,
+        "D2": 11,
+        "D3": 10,
+        "D4": 6,
+        "D5": 10,
+        "D6": 20
+      },
+      "run_ids": [
+        "run-e178cdbac048"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "model_id": "gemma2-9b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "dev-expanded-20261020",
+      "bank_track": "recent_development",
+      "planned_questions": 80,
+      "recorded_questions": 80,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "numeric": 13,
+        "choice": 34,
+        "unanswerable": 20,
+        "short": 13
+      },
+      "dimension_counts": {
+        "D1": 20,
+        "D2": 14,
+        "D3": 11,
+        "D4": 5,
+        "D5": 10,
+        "D6": 20
+      },
+      "run_ids": [
+        "run-e178cdbac048"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "model_id": "phi35-mini",
+      "mode": "no_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "dev-expanded-20261020",
+      "bank_track": "recent_development",
+      "planned_questions": 40,
+      "recorded_questions": 40,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "choice": 20,
+        "numeric": 12,
+        "short": 8
+      },
+      "dimension_counts": {
+        "D1": 16,
+        "D2": 10,
+        "D3": 9,
+        "D4": 5
+      },
+      "run_ids": [
+        "run-77f36504ec26"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "model_id": "phi35-mini",
+      "mode": "no_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "dev-expanded-20261020",
+      "bank_track": "recent_development",
+      "planned_questions": 40,
+      "recorded_questions": 40,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "numeric": 11,
+        "choice": 18,
+        "short": 11
+      },
+      "dimension_counts": {
+        "D1": 17,
+        "D2": 12,
+        "D3": 5,
+        "D4": 5,
+        "D5": 1
+      },
+      "run_ids": [
+        "run-77f36504ec26"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "model_id": "phi35-mini",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "dev-expanded-20261020",
+      "bank_track": "recent_development",
+      "planned_questions": 80,
+      "recorded_questions": 80,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "choice": 33,
+        "numeric": 13,
+        "unanswerable": 20,
+        "short": 14
+      },
+      "dimension_counts": {
+        "D1": 23,
+        "D2": 11,
+        "D3": 10,
+        "D4": 6,
+        "D5": 10,
+        "D6": 20
+      },
+      "run_ids": [
+        "run-70bf30a6dd7a"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "model_id": "phi35-mini",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "dev-expanded-20261020",
+      "bank_track": "recent_development",
+      "planned_questions": 80,
+      "recorded_questions": 80,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "numeric": 13,
+        "choice": 34,
+        "unanswerable": 20,
+        "short": 13
+      },
+      "dimension_counts": {
+        "D1": 20,
+        "D2": 14,
+        "D3": 11,
+        "D4": 5,
+        "D5": 10,
+        "D6": 20
+      },
+      "run_ids": [
+        "run-70bf30a6dd7a"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "model_id": "qwen25-7b",
+      "mode": "no_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "dev-expanded-20261020",
+      "bank_track": "recent_development",
+      "planned_questions": 40,
+      "recorded_questions": 40,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "choice": 20,
+        "numeric": 12,
+        "short": 8
+      },
+      "dimension_counts": {
+        "D1": 16,
+        "D2": 10,
+        "D3": 9,
+        "D4": 5
+      },
+      "run_ids": [
+        "run-83a60bb85111"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "model_id": "qwen25-7b",
+      "mode": "no_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "dev-expanded-20261020",
+      "bank_track": "recent_development",
+      "planned_questions": 40,
+      "recorded_questions": 40,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "numeric": 11,
+        "choice": 18,
+        "short": 11
+      },
+      "dimension_counts": {
+        "D1": 17,
+        "D2": 12,
+        "D3": 5,
+        "D4": 5,
+        "D5": 1
+      },
+      "run_ids": [
+        "run-83a60bb85111"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "dev-expanded-20261020",
+      "bank_track": "recent_development",
+      "planned_questions": 80,
+      "recorded_questions": 80,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "choice": 33,
+        "numeric": 13,
+        "unanswerable": 20,
+        "short": 14
+      },
+      "dimension_counts": {
+        "D1": 23,
+        "D2": 11,
+        "D3": 10,
+        "D4": 6,
+        "D5": 10,
+        "D6": 20
+      },
+      "run_ids": [
+        "run-4454c08f9bcf"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "8d37696d74067a2095f800192e8398b85f72d1ef09ca254f0da3f0ffb2c99a3f",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "zh",
+      "bank_id": "dev-expanded-20261020",
+      "bank_track": "recent_development",
+      "planned_questions": 80,
+      "recorded_questions": 80,
+      "selected_articles": 10,
+      "selected_source_clusters": 10,
+      "question_kind_counts": {
+        "numeric": 13,
+        "choice": 34,
+        "unanswerable": 20,
+        "short": 13
+      },
+      "dimension_counts": {
+        "D1": 20,
+        "D2": 14,
+        "D3": 11,
+        "D4": 5,
+        "D5": 10,
+        "D6": 20
+      },
+      "run_ids": [
+        "run-4454c08f9bcf"
+      ],
+      "strict_time": [
+        true
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+      "model_id": "phi35-mini",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "reference-squad2-20261025",
+      "bank_track": "public_historical_reference",
+      "planned_questions": 150,
+      "recorded_questions": 150,
+      "selected_articles": 50,
+      "selected_source_clusters": 35,
+      "question_kind_counts": {
+        "short": 100,
+        "unanswerable": 50
+      },
+      "dimension_counts": {
+        "D1": 100,
+        "D6": 50
+      },
+      "run_ids": [
+        "run-c4ba6b5f122b"
+      ],
+      "strict_time": [
+        false
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+      "model_id": "qwen25-7b",
+      "mode": "no_context",
+      "num_ctx": 4096,
+      "language": "en",
+      "bank_id": "reference-squad2-20261025",
+      "bank_track": "public_historical_reference",
+      "planned_questions": 24,
+      "recorded_questions": 24,
+      "selected_articles": 8,
+      "selected_source_clusters": 8,
+      "question_kind_counts": {
+        "short": 16,
+        "unanswerable": 8
+      },
+      "dimension_counts": {
+        "D1": 16,
+        "D6": 8
+      },
+      "run_ids": [
+        "run-b505a52713eb"
+      ],
+      "strict_time": [
+        false
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 4096,
+      "language": "en",
+      "bank_id": "reference-squad2-20261025",
+      "bank_track": "public_historical_reference",
+      "planned_questions": 24,
+      "recorded_questions": 24,
+      "selected_articles": 8,
+      "selected_source_clusters": 8,
+      "question_kind_counts": {
+        "short": 16,
+        "unanswerable": 8
+      },
+      "dimension_counts": {
+        "D1": 16,
+        "D6": 8
+      },
+      "run_ids": [
+        "run-ccfd5b808408"
+      ],
+      "strict_time": [
+        false
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+      "model_id": "qwen25-7b",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "language": "en",
+      "bank_id": "reference-squad2-20261025",
+      "bank_track": "public_historical_reference",
+      "planned_questions": 150,
+      "recorded_questions": 150,
+      "selected_articles": 50,
+      "selected_source_clusters": 35,
+      "question_kind_counts": {
+        "short": 100,
+        "unanswerable": 50
+      },
+      "dimension_counts": {
+        "D1": 100,
+        "D6": 50
+      },
+      "run_ids": [
+        "run-5d16eb99ee37"
+      ],
+      "strict_time": [
+        false
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+      "model_id": "yi15-6b",
+      "mode": "no_context",
+      "num_ctx": 4096,
+      "language": "en",
+      "bank_id": "reference-squad2-20261025",
+      "bank_track": "public_historical_reference",
+      "planned_questions": 24,
+      "recorded_questions": 24,
+      "selected_articles": 8,
+      "selected_source_clusters": 8,
+      "question_kind_counts": {
+        "short": 16,
+        "unanswerable": 8
+      },
+      "dimension_counts": {
+        "D1": 16,
+        "D6": 8
+      },
+      "run_ids": [
+        "run-bb0a117ec70e"
+      ],
+      "strict_time": [
+        false
+      ],
+      "strict_budget": [
+        false
+      ]
+    },
+    {
+      "source_bank_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+      "model_id": "yi15-6b",
+      "mode": "with_context",
+      "num_ctx": 4096,
+      "language": "en",
+      "bank_id": "reference-squad2-20261025",
+      "bank_track": "public_historical_reference",
+      "planned_questions": 24,
+      "recorded_questions": 24,
+      "selected_articles": 8,
+      "selected_source_clusters": 8,
+      "question_kind_counts": {
+        "short": 16,
+        "unanswerable": 8
+      },
+      "dimension_counts": {
+        "D1": 16,
+        "D6": 8
+      },
+      "run_ids": [
+        "run-20a0168f622d"
+      ],
+      "strict_time": [
+        false
+      ],
+      "strict_budget": [
+        false
+      ]
+    }
+  ],
+  "source_artifacts": [
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-plan.json",
+      "sha256": "075ff7ef3d2e862018c7a8ae0d04ff2af597c15a70c002863ea789e74ad61fd5",
+      "kind": "stage_plan"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-plan.json",
+      "sha256": "9ce5af8223fe5c2f1f38ebd0ff8d307714de8b83ea0f87fafda947ae1284e22b",
+      "kind": "stage_plan"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-plan.json",
+      "sha256": "b8d244220207b243207980fdf08eb118edb64aabd476aa8b8bada0f0fa979d2d",
+      "kind": "stage_plan"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-plan.json",
+      "sha256": "336531d75af47b56c516d3d657b2f4f44c4e850eebc110eb967a704af7bc60b3",
+      "kind": "stage_plan"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\yi-plan.json",
+      "sha256": "d6cbd1134e286718b8d538ff78e268f696e1d86cb5eaa33c8666d165f02a248d",
+      "kind": "stage_plan"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-control\\manifest.json",
+      "sha256": "083d9e273702086f206ca03bbbb5464540e38870e902b66d8bd521fcb3bb8dc5",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-control\\device-observations.jsonl",
+      "sha256": "4cf4fbfd0b38cd04371b04aeb5ed9dbd76dda58f41bc1c47b5b8c995e21489bd",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-control\\runs\\run-83a60bb85111.csv",
+      "sha256": "90d9000c17b192072a57491d13df2e62a488a6b0e51cd1cefc5f2444a8e828ca",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-control\\runs\\run-83a60bb85111.json",
+      "sha256": "932314ab4090c09775406f04ec81c39c972bd469afddddeca92e251bb4e6c670",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-counterfactual\\manifest.json",
+      "sha256": "c5205f4a06bf12e22409f24b9f3df536144b0ed400e2e7bfd8653f8603a956ca",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-counterfactual\\device-observations.jsonl",
+      "sha256": "3b9818080822a44a9d5d9f14662f5b1535c8d70d241d8ca871c01e4fa1c50f90",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-counterfactual\\runs\\run-0252b605d22a.csv",
+      "sha256": "e15ffb4d0239702d69fdac9de49175f9412d73a81aa25610bb483c9dd6cd7c99",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-counterfactual\\runs\\run-0252b605d22a.json",
+      "sha256": "be578bb6cefe2dc688b433add70f554d2f267255895db8b05f60c41b08c911f8",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-main\\manifest.json",
+      "sha256": "f37a871466044e61f90104a3d6dbbb9dfec58e357bb4eefd0b7d01c8e4da9230",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-main\\device-observations.jsonl",
+      "sha256": "493a0d10e9d845483870cb41e367196eb9463b673875d9a716fb2ab4fb0fe093",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-main\\runs\\run-4454c08f9bcf.csv",
+      "sha256": "a81cfe15f6a46064370eeb770d01e49d79e1d4a4eac59bb1b0b18457217ee094",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-main\\runs\\run-4454c08f9bcf.json",
+      "sha256": "51d817e61c85b721fc7a772920c49b5090f11a941f6a96389230322675af4ca8",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\manifest.json",
+      "sha256": "1f7c88a7f9c6bba9f1ac7e97d55f79f2e128eca891f0de3908d31eeba67e7fe0",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\device-observations.jsonl",
+      "sha256": "b998a522319ac553cfbdd444668ea0f7bbfa9ff87ee4f62695196158172ba7b8",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\runs\\run-a2d02a44ddde.csv",
+      "sha256": "86ac5ad79c69dff36cba964558c121607af0cf627311cf518ab3e9a1146bf81f",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\runs\\run-a2d02a44ddde.json",
+      "sha256": "fca699107b95667ad88335da4f3e029b4709a50dfe97bedb65e445693f6c8f84",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\runs\\run-77f36504ec26.csv",
+      "sha256": "f063b26d23cb4b37f20de13df783cd9170b3466a83a3bbb41e3e9ec12a52fd01",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\runs\\run-77f36504ec26.json",
+      "sha256": "e84f2112a735207a713baddcb20652ff24845695f05c1ea441befdcf54e005e1",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\manifest.json",
+      "sha256": "b80392bc83a4cfa957da7bfb033ad32a447ee45c36519a1eb2fa3eae35bd4566",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\device-observations.jsonl",
+      "sha256": "bc77463bd7273d30bfb65618a5918a631ae320dd96a84b42d448b5d9b0a79131",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\runs\\run-a5624cb6d98d.csv",
+      "sha256": "b3d30e7433df7b241a177948f086aaaa5b21f078f151b414cdf4e264c1c80efa",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\runs\\run-a5624cb6d98d.json",
+      "sha256": "c554e4840fccb6f487e6e18d24d82f68e836b1ffce213ffd776572540b1e16ba",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\runs\\run-5a79cad36f5c.csv",
+      "sha256": "006287025deafc8fffe7b7015aedcf9901b5b337fd81196846fa2fb656267dca",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\runs\\run-5a79cad36f5c.json",
+      "sha256": "f3ff449d1a51b807288242af836b3c13b641286c27002e2aec1206160ed2d02d",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\manifest.json",
+      "sha256": "f2761035d93a3e2a10aa97cbcfbe8731a29611cfd7ea3aea2224b3b098f9a36e",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\device-observations.jsonl",
+      "sha256": "2198752f7b467b7bf329a369017452ccc880b31470f7b15acef1b52021066872",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\runs\\run-e178cdbac048.csv",
+      "sha256": "2dd3e15a97d4491e00a54742d23283b5df90e59bc8026a6b598abdb2f8b82eea",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\runs\\run-e178cdbac048.json",
+      "sha256": "56b4ab79c0846f0d72d5222726e2b273543f3ba918713b644d70ee807fc51e15",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\runs\\run-70bf30a6dd7a.csv",
+      "sha256": "0db0aea2f9342e04a09fcdc6c1d1adb04c44f9ea6a1e1e1d111d9cb8c4c57ee6",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\runs\\run-70bf30a6dd7a.json",
+      "sha256": "3f49c38f376ba47a9eab09dcc95216d36ae57b85bd49744c2ef7cee4f469dde2",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\manifest.json",
+      "sha256": "cee7ac850a06b49e799cfa8508530db294d5e7c808e144cb34a5373804a41859",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\device-observations.jsonl",
+      "sha256": "ded9a20342a289a3aba1ba17a3988cb92229c39c49e7ce1d2a1188421c1b7901",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\runs\\run-db419832159d.csv",
+      "sha256": "7673b9878bb4dcd88027a84d4bcab2a39c4a4190946ab718237542449bd0d8b2",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\runs\\run-db419832159d.json",
+      "sha256": "0867abd935861e84160215d7ce2432e9f6316e334f69492f80e7d2f8c2f1ad84",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\runs\\run-5db7b6eb7023.csv",
+      "sha256": "9fac22cf17d7da9e1437c63e7e33ace68097d165e6c87e68fb927270d25be2f4",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\runs\\run-5db7b6eb7023.json",
+      "sha256": "1f335340c95cf006b79400d1f62a74086f90a8796da17227edfe8123c921c13d",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\manifest.json",
+      "sha256": "aef81af31dd821f3ec79435bbf55a3644cf0457c5ecce779b2b4dc5797e22713",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\device-observations.jsonl",
+      "sha256": "bfdea95cc4afcb274d5864ba423b7badf27842b691a32bce4d86db394e4daacf",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\runs\\run-3f5b6c5b648a.csv",
+      "sha256": "4ae06c662df01c0809bbfd1f8043b6be1c2c8ea206d6d8c05550c435b8fcfd07",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\runs\\run-3f5b6c5b648a.json",
+      "sha256": "5288493b88c502de17ef09a817baedda6df79423b538a39d4e9c244227d261c3",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\runs\\run-f698689c7e2e.csv",
+      "sha256": "32c8b3ce1216a15c78e60e6ce56eb3c56cee263dc23f0b03be9b9d664ecfc1e4",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\runs\\run-f698689c7e2e.json",
+      "sha256": "a48f8471211a673b7dfb49f13fde919556b62cd35e28a4b2d3512bfac0850fec",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\manifest.json",
+      "sha256": "57268e63253dce0e2595d82efdc2f69d503ed232c59d193d346b8d5936ab0a8f",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\device-observations.jsonl",
+      "sha256": "9e01cc9682b642c247ae08afdcf6c5042126383b9ce9263e4efbc16173d45d18",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\runs\\run-b505a52713eb.csv",
+      "sha256": "1bbd5d49ec4ffb7d6258e4738ba34ec7a7534f619cf8b775dfe9fed26e2ddd09",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\runs\\run-b505a52713eb.json",
+      "sha256": "9f9f9b039b283076792d959df354202c2a1f3f278816d6b87ec95f6302a21606",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\runs\\run-bb0a117ec70e.csv",
+      "sha256": "50be56c37c1c9c00e10978f1eed5d97193fb274e2d7c8982c4508ad8fce53543",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\runs\\run-bb0a117ec70e.json",
+      "sha256": "b439e4f44282f34669e489dd732e286b80db5c7b4af52d19fb582ffeaea40c6f",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\manifest.json",
+      "sha256": "a727b1ae214ec7646479bd0314b69e6d6eab7f1679cd6ad90b5e544604df342e",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\device-observations.jsonl",
+      "sha256": "c7d97ac4e7f29fe943162612d8f0e54312462afd8908b81a41a9ba6bb2287f9b",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\runs\\run-ccfd5b808408.csv",
+      "sha256": "61bc049d50b5b45c02faa001c1b206def398bea55c015ea0b076e73a2a662b50",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\runs\\run-ccfd5b808408.json",
+      "sha256": "2aa2cb371a27d26e3dac7aaeda31e1739df450bea43430a3ee29ea77dc4d572b",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\runs\\run-20a0168f622d.csv",
+      "sha256": "9bd9bdd026c095d8807b42a9bb5df7932fbf1e407e9f38c63a3419353a24ad4c",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\runs\\run-20a0168f622d.json",
+      "sha256": "7d2b230e67d4ec1f4c00b125d8eaafa2d5857bd076c28ceb033f875e4c76e26d",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\manifest.json",
+      "sha256": "16cb68ec316d88590da458965cc344fb0052d77db313eb680224f8658887b6b4",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\device-observations.jsonl",
+      "sha256": "4fc88efb94fa567e0e831730a11f11d82f76d4a90601bb364a4d4fd61eced062",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\runs\\run-91f62eda620f.csv",
+      "sha256": "fd0751f0719185dae57ca0165bfe22bf800eef815ee8404386f46d8c628bfe6b",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\runs\\run-91f62eda620f.json",
+      "sha256": "6192452e4efaca0b4b45536bc384dc7892331e02fd482f3939f57adca632a1b3",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\runs\\run-603a2b32adf8.csv",
+      "sha256": "75b6acc952bc8a7ba6671e51beeaaedabb0c3bc57ca0c99a0a9d33acdbe28d47",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\runs\\run-603a2b32adf8.json",
+      "sha256": "1446f0f15c43a03ae283e6c9bbcc1c7a116853a309f0a47985e49dd1405e413f",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\manifest.json",
+      "sha256": "c5f9c08d8b9d6bf7ba1e8e0b6efca4515c12cf61368e941561bc66c6f8903d89",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\device-observations.jsonl",
+      "sha256": "f794d675c9c65b4c52358a39fa9bf32c8db07623d5bb27d8789b2e59a9bea339",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\runs\\run-b61997ff7700.csv",
+      "sha256": "e87d7cd1cb804f15255fb5eafff1b414bae05ef7fc8f62a40122ab1f8d171083",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\runs\\run-b61997ff7700.json",
+      "sha256": "033c7c99c07eaff831c72cf4376c9b4e12a1914e4ebdf8081f3a41942cf979c0",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\runs\\run-454d96622cc1.csv",
+      "sha256": "6d21816f9689df59cb2113017467cbef8b19ece25dbc2bd769cb730047d53598",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\runs\\run-454d96622cc1.json",
+      "sha256": "e9a0b863851d9db975c6aa9519f12a54dfcde73457c05bd65b4f0722f9a4c81e",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\manifest.json",
+      "sha256": "f05542341a6832f0ee8f23e6204f8981442add3d4f1bc1ae927cdf15d4725488",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\device-observations.jsonl",
+      "sha256": "9f5c995f8eb5b6369a8b3baad597c314e1b1d0f540b23240e861855af11e9076",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\runs\\run-5d16eb99ee37.csv",
+      "sha256": "3d3070e676bfe6c8cde1c06e3a5b9141a0629e1392edf3cbee51c51ac2ead48b",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\runs\\run-5d16eb99ee37.json",
+      "sha256": "0d6610a1394ae7e443a80c00c7c67439ed422d76666616eb9e8284ecab5fe3b8",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\runs\\run-c4ba6b5f122b.csv",
+      "sha256": "1c446992c077a400ed78aea68e3d61213b27ca43f9dd668b4885aedb62307e3d",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\runs\\run-c4ba6b5f122b.json",
+      "sha256": "ed59a0fe9b27aa376a221e438cb8f43436bf17c9082746caa09a9b49898372e0",
+      "kind": "run_json"
+    }
+  ],
+  "protocol": {
+    "group_by": [
+      "source_bank_sha256",
+      "model_id",
+      "mode",
+      "num_ctx",
+      "language"
+    ],
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 20261025,
+    "confidence_level": 0.95,
+    "generation_seed": 42,
+    "generation_seeds_n": 1,
+    "bootstrap_unit": "source_cluster_id within bank/language and actual selected cohort; whole clusters resampled",
+    "pairing": "same canonical bank, language and identical article/question keys; intersection only",
+    "context_policy": "Never subtract 4K-subset and 8K-full means; report paired intersection with excluded counts",
+    "metrics": "Project-local normalization/character-word F1; not official SQuAD/CMRC leaderboard scores",
+    "public_reference_evidence": "span-derived proxy, auxiliary only; no genuine reasoning-chain accuracy claim",
+    "aggregation": "all planned applicable questions; errors zero; valid subset diagnostic only; missing task N/A",
+    "statistics": "exploratory marginal percentile 95% cluster CIs; no tests, p values, multiplicity/winner claims",
+    "small_cluster_policy": "fewer than two clusters: CI not estimated; degenerate finite-sample CI is not certainty",
+    "limitations": "human review 0; public historical training contamination high/unknown; recent dates do not prove no contamination; provisional clusters; single seed"
+  },
+  "unavailable_pairs": [],
+  "figure_policy": "real audited numeric values only; unavailable pair panels omitted",
+  "analysis_source": {
+    "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\scripts\\summarize_expansion_20261024.py",
+    "sha256": "5ea962d257a3b2dc46d7c1530c40421b780327f24aecb20cb0dbde7a5f79e4ed",
+    "kind": "analysis_code"
+  }
+}

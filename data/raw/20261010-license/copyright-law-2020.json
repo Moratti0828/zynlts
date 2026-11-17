@@ -1,0 +1,16 @@
+{
+  "id": "copyright-law-2020",
+  "url": "https://www.ncac.gov.cn/xxfb/flfg/flfg_532/202103/t20210309_50530.html",
+  "language": "zh",
+  "resolved_url": "https://www.ncac.gov.cn/xxfb/flfg/flfg_532/202103/t20210309_50530.html",
+  "downloaded_at": "2026-10-10T07:31:10+00:00",
+  "raw_sha256": "e27fccf5c3a0f29439d7e165f09e4e3d148ac301c16f71d0210339c175cca4f3",
+  "extracted_sha256": "62f6ce8279aca7b68f57440700a502c25e4953d8d37e48e9e2623368fcaa54f6",
+  "bytes": 122716,
+  "charset": "utf-8",
+  "http_headers": {
+    "Content-Type": "text/html"
+  },
+  "reviewed": false,
+  "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+}

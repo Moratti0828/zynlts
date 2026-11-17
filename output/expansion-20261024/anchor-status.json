@@ -1,0 +1,28 @@
+{
+  "stage": "anchor",
+  "updated_at": "2026-10-25T05:11:13.907832+00:00",
+  "complete": true,
+  "matrices": [
+    {
+      "name": "anchor-main",
+      "complete": true,
+      "exit_code": 1,
+      "rows": 160,
+      "response_errors": 19
+    },
+    {
+      "name": "anchor-control",
+      "complete": true,
+      "exit_code": 1,
+      "rows": 80,
+      "response_errors": 36
+    },
+    {
+      "name": "anchor-counterfactual",
+      "complete": true,
+      "exit_code": 0,
+      "rows": 10,
+      "response_errors": 0
+    }
+  ]
+}

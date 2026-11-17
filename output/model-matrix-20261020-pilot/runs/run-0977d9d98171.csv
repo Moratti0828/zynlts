@@ -1,0 +1,132 @@
+﻿model_name,language,article_id,question_id,dimension,kind,question,answer,unit,evidence_ids,confidence,abstain,answer_correct,choice_accuracy,short_em,short_token_f1,numeric_strict_accuracy,evidence_exact,evidence_f1,joint_success,brier_answer,latency_s,input_tokens,output_tokens,error,raw_response
+Llama 3.1 · 8B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q01,D1,numeric,2026年1—8月份社会消费品零售总额是多少？answer只写数值，unit写“亿元”。,327569,亸6元,"[""zh-nbs-02a36a9fc6f8-devpilot:p001""]",1,False,0,,,,0,1,1.0,0,1,36.055,1674,60,,"{
+""answer"": ""327569"",
+""unit"": ""\u4eb86\u5143"",
+""evidence_ids"": [""zh-nbs-02a36a9fc6f8-devpilot:p001""],
+""confidence"": 1,
+""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q02,D2,choice,按文中统计定义，以下哪项属于社会消费品零售总额？只回答选项ID。,B,,"[""zh-nbs-02a36a9fc6f8-devpilot:p007""]",1,False,1,1,,,,1,1.0,1,0,1.532,1719,51,,"{
+""answer"": ""B"",
+""unit"": """",
+""evidence_ids"": [""zh-nbs-02a36a9fc6f8-devpilot:p007""],
+""confidence"": 1,
+""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q03,D3,choice,某公司通过第三方公共网络交易平台，把非生产、非经营用的实物商品售给个人。结合文中的两项定义，这笔交易属于哪些指标？只回答选项ID。,C,,"[""zh-nbs-02a36a9fc6f8-devpilot:p007"", ""zh-nbs-02a36a9fc6f8-devpilot:p008""]",1,False,1,1,,,,1,1.0,1,0,2.169,1729,73,,"{
+""answer"": ""C"",
+""unit"": """",
+""evidence_ids"": [
+""zh-nbs-02a36a9fc6f8-devpilot:p007"",
+""zh-nbs-02a36a9fc6f8-devpilot:p008""
+],
+""confidence"": 1,
+""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q04,D4,numeric,根据8月份总额与除汽车以外零售额，8月份汽车消费品零售额是多少？answer只写差额，unit写“亿元”。,39824-36545,亿元,"[""zh-nbs-02a36a9fc6f8-devpilot:p001""]",1,False,0,,,,0,1,1.0,0,1,1.711,1682,57,,"{
+""answer"": ""39824-36545"",
+""unit"": ""亿元"",
+""evidence_ids"": [""zh-nbs-02a36a9fc6f8-devpilot:p001""],
+""confidence"": 1,
+""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q05,D5,choice,有人把“网上商品和服务零售额”与以前公布的“网上零售额”直接作为同口径数据比较。文章末段是否支持这种做法？只回答选项ID。,D,,"[""zh-nbs-02a36a9fc6f8-devpilot:p012"", ""zh-nbs-02a36a9fc6f8-devpilot:p013""]",1,False,1,1,,,,0,0.6666666666666666,0,0,2.128,1757,71,,"{
+""answer"": ""D"",
+""unit"": """",
+""evidence_ids"": [""zh-nbs-02a36a9fc6f8-devpilot:p012"", ""zh-nbs-02a36a9fc6f8-devpilot:p013""],
+""confidence"": 1,
+""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q06,D2,choice,“2026年8月份社会消费品零售总额同比增长1.1%。”这一说法是否符合文章对统计期间的区分？只回答选项ID。,A,,"[""zh-nbs-02a36a9fc6f8-devpilot:p001""]",1,False,1,1,,,,1,1.0,1,0,1.527,1753,51,,"{
+""answer"": ""A"",
+""unit"": """",
+""evidence_ids"": [""zh-nbs-02a36a9fc6f8-devpilot:p001""],
+""confidence"": 1,
+""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q07,D6,unanswerable,2026年8月份网上吃类商品零售额的具体金额是多少？若文本不足以确定，请拒答。,,,[],0,True,1,,,,,0,,0,1,0.87,1674,30,,"{
+""answer"": """",
+""unit"": """",
+""evidence_ids"": [],
+""confidence"": 0,
+""abstain"": true
+}"
+Llama 3.1 · 8B Instruct,zh,zh-nbs-02a36a9fc6f8-devpilot,q08,D6,unanswerable,导致1—8月份百货店零售额同比下降3.0%的最主要原因是什么？若文本不足以确定，请拒答。,,,[],,False,0,,,,,0,,0,,1.541,1680,51,refusal_contains_answer_or_evidence,"{
+""answer"": """",
+""unit"": """",
+""evidence_ids"": [
+""zh-nbs-02a36a9fc6f8-devpilot:p004""
+],
+""confidence"": 0,
+""abstain"": true
+}"
+Llama 3.1 · 8B Instruct,en,en-nasa-1992c310d7b6-devpilot,q01,D1,choice,To which port will Dragon autonomously dock after arrival? Return only the option ID.,D,,"[""en-nasa-1992c310d7b6-devpilot:p002""]",1,False,1,1,,,,1,1.0,1,0,1.772,1297,50,,"{
+""answer"": ""D"",
+""unit"": """",
+""evidence_ids"": [""en-nasa-1992c310d7b6-devpilot:p002""],
+""confidence"": 1,
+""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,en,en-nasa-1992c310d7b6-devpilot,q02,D2,choice,"What does “targeting no earlier than Tuesday, Oct. 13” mean in the article? Return only the option ID.",B,,"[""en-nasa-1992c310d7b6-devpilot:p001""]",1,False,1,1,,,,1,1.0,1,0,1.485,1319,50,,"{
+""answer"": ""B"",
+""unit"": """",
+""evidence_ids"": [""en-nasa-1992c310d7b6-devpilot:p001""],
+""confidence"": 1,
+""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,en,en-nasa-1992c310d7b6-devpilot,q03,D3,choice,"Which pair studies fabrication of artificial retinas and formation of vascular networks in heart tissue models, respectively? Combine the descriptions and return only the option ID.",A,,"[""en-nasa-1992c310d7b6-devpilot:p005"", ""en-nasa-1992c310d7b6-devpilot:p006""]",1,False,1,1,,,,1,1.0,1,0,2.201,1320,73,,"{
+""answer"": ""A"",
+""unit"": """",
+""evidence_ids"": [
+    ""en-nasa-1992c310d7b6-devpilot:p005"",
+    ""en-nasa-1992c310d7b6-devpilot:p006""
+],
+""confidence"": 1,
+""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,en,en-nasa-1992c310d7b6-devpilot,q04,D4,numeric,"How many distinct named science experiments are described in the list beginning with LambdaVision-1 and ending with MINDS? Count only that list, not all experiments ever performed aboard the station. Write the number in answer and unit=""experiments"".",6,experiments,"[""en-nasa-1992c310d7b6-devpilot:p005"", ""en-nasa-1992c310d7b6-devpilot:p006"", ""en-nasa-1992c310d7b6-devpilot:p007"", ""en-nasa-1992c310d7b6-devpilot:p008""]",1,False,0,,,,0,1,1.0,0,1,3.604,1287,122,,"{
+  ""answer"": ""6"",
+  ""unit"": ""experiments"",
+  ""evidence_ids"": [
+    ""en-nasa-1992c310d7b6-devpilot:p005"",
+    ""en-nasa-1992c310d7b6-devpilot:p006"",
+    ""en-nasa-1992c310d7b6-devpilot:p007"",
+    ""en-nasa-1992c310d7b6-devpilot:p008""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,en,en-nasa-1992c310d7b6-devpilot,q05,D5,choice,Does the article establish that microgravity has already improved vascular-network formation in these heart tissue models? Return only the option ID.,C,,"[""en-nasa-1992c310d7b6-devpilot:p006""]",1,False,1,1,,,,1,1.0,1,0,1.747,1312,59,,"{
+  ""answer"": ""C"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""en-nasa-1992c310d7b6-devpilot:p006""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,en,en-nasa-1992c310d7b6-devpilot,q06,D1,choice,Who will monitor the Dragon spacecraft’s arrival? Return only the option ID.,A,,"[""en-nasa-1992c310d7b6-devpilot:p009""]",1,False,1,1,,,,1,1.0,1,0,1.693,1299,59,,"{
+  ""answer"": ""A"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""en-nasa-1992c310d7b6-devpilot:p009""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,en,en-nasa-1992c310d7b6-devpilot,q07,D6,unanswerable,What is the exact scheduled docking date and clock time for this Dragon mission? Abstain if the passage does not establish both.,,,[],0,True,1,,,,,0,,0,1,0.992,1264,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Llama 3.1 · 8B Instruct,en,en-nasa-1992c310d7b6-devpilot,q08,D6,unanswerable,How many layers will each completed LambdaVision-1 artificial retina contain? Abstain if the passage does not determine the number.,a,,"[""en-nasa-1992c310d7b6-devpilot:p005""]",1,False,0,,,,,0,,0,1,1.684,1264,59,,"{
+  ""answer"": ""a"",
+  ""unit"": """",
+  ""evidence_ids"": [
+    ""en-nasa-1992c310d7b6-devpilot:p005""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"

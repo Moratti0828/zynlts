@@ -1,0 +1,7 @@
+{
+  "url": "https://registry.ollama.ai/v2/library/gemma2/blobs/sha256:2490e7468436707d5156d7959cf3c6341cc46ee323084cfa3fcf30fe76e397dc",
+  "retrieved_at_utc": "2026-10-24T15:12:13.841659+00:00",
+  "file": "output\\model-suite-20261024\\metadata\\gemma2-registry-params.txt",
+  "sha256": "2490e7468436707d5156d7959cf3c6341cc46ee323084cfa3fcf30fe76e397dc",
+  "bytes": 65
+}

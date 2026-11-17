@@ -1,0 +1,16 @@
+{
+  "id": "en-nisar-2025",
+  "url": "https://www.nasa.gov/news-release/nasa-isro-satellite-lifts-off-to-track-earths-changing-surfaces/",
+  "language": "en",
+  "resolved_url": "https://www.nasa.gov/news-release/nasa-isro-satellite-lifts-off-to-track-earths-changing-surfaces/",
+  "downloaded_at": "2026-10-10T07:25:30+00:00",
+  "raw_sha256": "094641b54b979eed6f981d768b430a0b426da52be762c1a8f5ddd29f463bd075",
+  "extracted_sha256": "a07b8ecad3802b98b05c76315f4853931ab95e02a64d5fff8fdf187575e14e01",
+  "bytes": 290280,
+  "charset": "utf-8",
+  "http_headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "reviewed": false,
+  "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+}

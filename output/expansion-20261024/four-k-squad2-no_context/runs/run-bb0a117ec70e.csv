@@ -1,0 +1,112 @@
+﻿model_name,language,article_id,question_id,dimension,kind,question,answer,unit,evidence_ids,confidence,abstain,answer_correct,choice_accuracy,short_em,short_token_f1,numeric_strict_accuracy,evidence_exact,evidence_f1,joint_success,brier_answer,latency_s,input_tokens,output_tokens,error,raw_response
+Yi-1.5 · 6B Chat,en,ref-squad2-ef89fd8649969f09fc47,q01,D1,short,Complement proteins bind to what kind of molecules on the surface of microbes in order to elicit an immune response?,antigens,,[],0.95,False,0,,0,0.0,,,,,0.9025,3.075,349,40,,"{""answer"": ""antigens"", ""unit"": """", ""evidence_ids"": [], ""confidence"": 0.95, ""abstain"": false}"
+Yi-1.5 · 6B Chat,en,ref-squad2-ef89fd8649969f09fc47,q02,D1,short,How can the deposition of compliment kill invader cells directly?,Chemotaxis,,[],1.0,False,0,,0,0.0,,,,,1.0,0.78,337,52,,"{
+  ""answer"": ""Chemotaxis"",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-ef89fd8649969f09fc47,q03,D6,unanswerable,What triggers a slow killing response?,C,,[],1.0,False,0,,,,,,,,1.0,0.722,332,49,,"{
+  ""answer"": ""C"",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-0078a3aad6d29993d7ba,q01,D1,short,When is the oldest recorded incident of civil disobedience?,A,,[],0.95,False,0,,0,0.0,,,,,0.9025,0.564,336,38,,"{""answer"": ""A"", ""unit"": """", ""evidence_ids"": [], ""confidence"": 0.95, ""abstain"": false}"
+Yi-1.5 · 6B Chat,en,ref-squad2-0078a3aad6d29993d7ba,q02,D1,short,What did the Jewish people do so pagan items wouldn't be in the temple of Jerusalem?,built separate vessels,,[],0.95,False,0,,0,0.0,,,,,0.9025,0.596,345,40,,"{""answer"": ""built separate vessels"", ""unit"": """", ""evidence_ids"": [], ""confidence"": 0.95, ""abstain"": false}"
+Yi-1.5 · 6B Chat,en,ref-squad2-0078a3aad6d29993d7ba,q03,D6,unanswerable,How was the event covered when Jews were arrested by tax collectors?,,,[],,False,0,,,,,,,,,0.756,338,51,refusal_contains_answer_or_evidence,"{
+  ""answer"": ""abstain"",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0.5,
+  ""abstain"": true
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-a28b1741ae11a0ca192d,q01,D1,short,what is the fee range for accessing BSkyB's EPG?,"a short answer, only the option letter for multiple choice, only a number for numeric questions. Put the numeric unit in unit; otherwise unit is empty.",GBP,[],0.95,False,0,,0,0.0,,,,,0.9025,1.283,340,82,,"{
+  ""answer"": ""a short answer, only the option letter for multiple choice, only a number for numeric questions. Put the numeric unit in unit; otherwise unit is empty."",
+  ""unit"": ""GBP"",
+  ""evidence_ids"": [],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-a28b1741ae11a0ca192d,q02,D1,short,Can BSkyB veto the presence of channels on their EPG?,yes,,"[""1""]",0.95,False,0,,0,0.0,,,,,0.9025,0.799,339,54,,"{
+  ""answer"": ""yes"",
+  ""unit"": """",
+  ""evidence_ids"": [""1""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-a28b1741ae11a0ca192d,q03,D6,unanswerable,Who took away the operating license from BSkyB?,Ofcom,,"[""1""]",0.95,False,0,,,,,,,,0.9025,0.827,336,55,,"{
+  ""answer"": ""Ofcom"",
+  ""unit"": """",
+  ""evidence_ids"": [""1""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-46b22fbb7cb725f7dbd4,q01,D1,short,What makes the Wells Fargo Center stand out?,Eiffel Tower,,[],0.98,False,0,,0,0.0,,,,,0.9603999999999999,0.678,334,44,,"{""answer"": ""Eiffel Tower"", ""unit"": """", ""evidence_ids"": [], ""confidence"": 0.98, ""abstain"": false}
+
+ "
+Yi-1.5 · 6B Chat,en,ref-squad2-46b22fbb7cb725f7dbd4,q02,D1,short,How tall is the Bank of America Tower?,a,feet,"[""1""]",0.95,False,0,,0,0.0,,,,,0.9025,0.831,334,56,,"{
+  ""answer"": ""a"",
+  ""unit"": ""feet"",
+  ""evidence_ids"": [""1""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-46b22fbb7cb725f7dbd4,q03,D6,unanswerable,In the shortest building in downtown Jacksonville?,a,feet,"[""1""]",0.95,False,0,,,,,,,,0.9025,0.702,333,44,,"{""answer"": ""a"", ""unit"": ""feet"", ""evidence_ids"": [""1""], ""confidence"": 0.95, ""abstain"": false}"
+Yi-1.5 · 6B Chat,en,ref-squad2-93620703d50b4155fab9,q01,D1,short,"the Great Internet Mersenne Prime Search, what was the prize for finding a prime with at least 10 million digits?","$100,000",,[],1.0,False,1,,1,1.0,,,,,0.0,0.677,351,44,,"{""answer"": ""$100,000"", ""unit"": """", ""evidence_ids"": [], ""confidence"": 1.0, ""abstain"": false}"
+Yi-1.5 · 6B Chat,en,ref-squad2-93620703d50b4155fab9,q02,D1,short,In what interval are some of the greatest primes without a distinct form discovered in?,20 to 35,,"[""1""]",0.9,False,0,,0,0.0,,,,,0.81,0.885,341,58,,"{
+  ""answer"": ""20 to 35"",
+  ""unit"": """",
+  ""evidence_ids"": [""1""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-93620703d50b4155fab9,q03,D6,unanswerable,"In the Great Internet Mersenne Prime Search hat was the prize for finding a prime with at least 150,000 digits?","$100,000",USD,"[""GIMPS:Prize""]",0.95,False,0,,,,,,,,0.9025,1.071,355,69,,"{
+  ""answer"": ""$100,000"",
+  ""unit"": ""USD"",
+  ""evidence_ids"": [""GIMPS:Prize""],
+  ""confidence"": 0.95
+  ,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-83c030609aaae7ee99b6,q01,D1,short,In 1758 what was duc de Choiseul's plan for focused military efforts?,to invade Georgia and reduce its garrison to a small detachment,,"[""1758-duke-of-choiseul""]",0.95,False,0,,0,0.15384615384615385,,,,,0.9025,1.217,347,79,,"{
+  ""answer"": ""to invade Georgia and reduce its garrison to a small detachment"",
+  ""unit"": """",
+  ""evidence_ids"": [""1758-duke-of-choiseul""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-83c030609aaae7ee99b6,q02,D1,short,What naval battles did France lose in 1759?,Fortress of Louisbourg and Battle of Sackville Sound,,"[""1""]",0.95,False,0,,0,0.16666666666666666,,,,,0.9025,1.007,338,65,,"{
+  ""answer"": ""Fortress of Louisbourg and Battle of Sackville Sound"",
+  ""unit"": """",
+  ""evidence_ids"": [""1""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-83c030609aaae7ee99b6,q03,D6,unanswerable,How unsuccessful was the French revised efforts?,a,,[],0.95,False,0,,,,,,,,0.9025,0.752,333,50,,"{
+  ""answer"": ""a"",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-679435646d97368fa394,q01,D1,short,What is thought to have happened to the y. pestis that caused the black death?,died out,,[],0.95,False,0,,0,0.0,,,,,0.9025,0.614,343,40,,"{""answer"": ""died out"", ""unit"": """", ""evidence_ids"": [], ""confidence"": 0.95, ""abstain"": false}"
+Yi-1.5 · 6B Chat,en,ref-squad2-679435646d97368fa394,q02,D1,short,Where was the burial site used for testing located?,A,,"[""1""]",0.95,False,0,,0,0.0,,,,,0.9025,0.812,335,54,,"{
+  ""answer"": ""A"",
+  ""unit"": """",
+  ""evidence_ids"": [""1""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-679435646d97368fa394,q03,D6,unanswerable,What was Schuenemann's first name?,Schuenemann,,[],1.0,False,0,,,,,,,,1.0,0.626,337,41,,"{""answer"": ""Schuenemann"", ""unit"": """", ""evidence_ids"": [], ""confidence"": 1.0, ""abstain"": false}"
+Yi-1.5 · 6B Chat,en,ref-squad2-ee860af1558390e8f6b7,q01,D1,short,What device is used to treat various conditions such as carbon monoxide poisoning?,hemoglobin,,[],0.95,False,0,,0,0.0,,,,,0.9025,0.611,340,41,,"{""answer"": ""hemoglobin"", ""unit"": """", ""evidence_ids"": [], ""confidence"": 0.95, ""abstain"": false}"
+Yi-1.5 · 6B Chat,en,ref-squad2-ee860af1558390e8f6b7,q02,D1,short,To what pathogen that causes gas gangrene is oxygen poisonous?,Clostridium perfringens,,[],1.0,False,0,,0,0.0,,,,,1.0,0.827,339,55,,"{
+  ""answer"": ""Clostridium perfringens"",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}"
+Yi-1.5 · 6B Chat,en,ref-squad2-ee860af1558390e8f6b7,q03,D6,unanswerable,What is treated with medical chambers?,medical chambers,,[],1.0,False,0,,,,,,,,1.0,0.601,332,38,,"{""answer"": ""medical chambers"", ""unit"": """", ""evidence_ids"": [], ""confidence"": 1.0, ""abstain"": false}"

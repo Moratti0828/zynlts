@@ -1,0 +1,48 @@
+{
+  "run_id": "run-48c1d48d99b4",
+  "status": "completed",
+  "base_url": "http://127.0.0.1:8787",
+  "preset_id": "en-quick",
+  "model_id": "qwen25-7b",
+  "progress": {
+    "done": 1,
+    "total": 1
+  },
+  "actual_model_call_attempts": 1,
+  "response_errors": 0,
+  "idempotent_retry_same_run": true,
+  "reload_export_match": true,
+  "csv_rows": 1,
+  "frontend_hashes": {
+    "app.js": "e76134a67803ab77da7599733a228bb22bd0c8a15a0302a782c026ed8f793e31",
+    "styles.css": "35fe947975dd2afff94880cee0be79eb06d0609af7efbd4829f26b3a01b15e11",
+    "index.html": "e8f00144e977823990ee035921df24da4558b34890913e1aa113ea321094ff9a"
+  },
+  "formal": false,
+  "artifacts": [
+    {
+      "path": "created.json",
+      "sha256": "09826ffc3e864959385a7f834f633b14075b9b91739e3bbdc37c00a1c35290a7"
+    },
+    {
+      "path": "idempotent-retry.json",
+      "sha256": "440c9bdaeec2702ad817e57c03978638e5c4ec573d7630c2cc0c5ea846825e35"
+    },
+    {
+      "path": "plan.json",
+      "sha256": "5a7783df445dd17a8f9619c32c1759cf3be9bb9d4f9e7feec665ea8944dcb553"
+    },
+    {
+      "path": "run-48c1d48d99b4.csv",
+      "sha256": "701ecae7ff274cef366e31b5782b401c682914dc612de5c49082d3881c5de8e7"
+    },
+    {
+      "path": "run-48c1d48d99b4.json",
+      "sha256": "c4a62582e6c893818f822b815320e73920bd7b0559507b873dfff61769b65bac"
+    },
+    {
+      "path": "status-before.json",
+      "sha256": "524c4dec716453ddefc4dd8115aabbbaa3edc38f75e1981e6f8a417d035a28f3"
+    }
+  ]
+}

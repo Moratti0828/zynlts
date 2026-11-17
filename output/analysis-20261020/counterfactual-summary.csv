@@ -1,0 +1,17 @@
+﻿model_id,language,cases,original_strict_correct,modified_strict_correct,both_original_and_modified_correct,modified_numeric_value_matches_new_aux,modified_numeric_value_matches_old_aux,response_errors
+qwen25-15b,zh,5,4,4,4,4,0,0
+qwen25-15b,en,5,5,4,4,4,0,0
+qwen25-3b,zh,5,4,5,4,5,0,0
+qwen25-3b,en,5,2,2,2,2,0,0
+qwen25-7b,zh,5,5,5,5,5,0,0
+qwen25-7b,en,5,5,5,5,5,0,0
+llama31-8b,zh,5,4,4,4,5,0,0
+llama31-8b,en,5,3,4,3,4,0,0
+qwen25-14b,zh,5,4,3,3,3,0,1
+qwen25-14b,en,5,5,5,5,5,0,0
+mistral03-7b,zh,5,4,4,4,4,0,1
+mistral03-7b,en,5,5,5,5,5,0,0
+internlm25-7b,zh,5,5,5,5,5,0,0
+internlm25-7b,en,5,3,2,2,2,0,0
+internlm25-7b-official2024,zh,5,4,5,4,5,0,0
+internlm25-7b-official2024,en,5,3,3,3,3,0,0

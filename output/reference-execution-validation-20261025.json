@@ -1,0 +1,22 @@
+{
+  "squad2": {
+    "bank_id": "reference-squad2-20261025",
+    "canonical_sha256": "9802f4f7501ae8bf5be0bff3a8264203a8927501457d2c35d6a49cc8ee23f32b",
+    "file_sha256": "3caa693df5522436e9f1894b6974d8bf1ffc9b73dda4337035e27f0b092bad4d",
+    "mixed_length_contexts": 16,
+    "passages": 50,
+    "original_qa_and_contexts_unchanged": true,
+    "statistical_admission_passed": true,
+    "human_review_count": 0
+  },
+  "cmrc2018": {
+    "bank_id": "reference-cmrc2018-20261025",
+    "canonical_sha256": "2218910f5cac888ba5af8cc97fdce07c71cff043b9b12a273fb3561ed5fef70c",
+    "file_sha256": "cd2021be1159d35963751ed1659bc41dba362a74d282c0ed37042065d9e51b92",
+    "mixed_length_contexts": 0,
+    "passages": 50,
+    "original_qa_and_contexts_unchanged": true,
+    "statistical_admission_passed": true,
+    "human_review_count": 0
+  }
+}

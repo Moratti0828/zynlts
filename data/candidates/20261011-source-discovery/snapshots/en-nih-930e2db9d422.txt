@@ -1,0 +1,35 @@
+Friday, September 11, 2026
+
+Miniaturized model provides window into production and behavior of long-lived antibody-producing cells in NIH-funded study.
+
+A scientific team funded by the National Institutes of Health (NIH) has developed a laboratory model that reveals how antibody-producing plasma cells migrate, mature, and survive within human bone marrow, a main location of long-lived antibody-producing plasma cells. The platform combines a lymph node mimicking organoid with a tissue chip that mimics bone marrow, allowing scientists to observe key stages of plasma cell development that have been difficult to study in humans. Analysis of the cells in the tissue chip provides essential new information that advances our understanding of plasma cell development and function. This model also supports testing of new therapies for infection prevention, inhibition of allergy, and reduction of autoimmunity. The study was published in Science Advances.
+
+“This innovative bioengineering platform provides a window into a hidden aspect of the function of the human immune system” said John H. Powers III, M.D., acting director of NIH’s National Institute of Allergy and Infectious Diseases (NIAID). “By emulating key elements of the immune system in this lymphoid and bone marrow-on-a-chip system, this tool provides opportunities to gather new insights that existing models do not offer.”
+
+Plasma cells are an important component of the immune system. They produce antibodies that help protect against infections, but when antibody production goes awry, they can lead to autoimmune disease and allergy. If they proliferate excessively, they can also cause blood cancer. Long-lived plasma cells in the bone marrow are essential for maintaining antibody production and long-term immunity following infection or vaccination. However, how these cells migrate and settle into the bone marrow and how they are maintained in humans has remained poorly understood.
+
+“Our approach has been working toward solving fundamental questions and advancing approaches to translate those findings,” said Ankur Singh, Ph.D., Carl Ring Family Professor of Bioengineering and the Director of Center for Immunoengineering at Georgia Tech, Atlanta. “A fundamental question our study addresses why it is that when B cells are ready to make antibodies, they relocate from lymph nodes, the spleen, and other organs and enter and take up residence in bone marrow. Another is a question of the role that the environment of bone marrow plays in orienting those cells and responses to reinfection.”
+
+Singh leads the team at Georgia Tech that developed the human lymphoid organoid by isolating B cells from human tonsil tissue and blood sources and growing them in a microenvironment that mimics lymphoid tissue. In this phase of the research, they overcame challenges in culturing B cells and stimulating their transformation into antibody secreting plasma cells within the organoid, using inactivated influenza virus to spur the process. This method generated sufficient antibody-secreting plasma cells to use in their experiments with the bone marrow on a chip system.
+
+The lab of Krishnendu Roy, Ph.D., Vanderbilt University, engineered the bone marrow chip using a complex microfluidics-based vascularized microenvironment that closely mimics conditions found in human bone marrow.
+
+“We can never replicate the full complexity of the human body,” Roy said. “However, we are trying to mimic the structure, fundamental biological functions, and spatial microenvironments to ask questions about human organ-like behavior in this more simplified model.”
+
+The human bone marrow-on-a-chip model is assembled within a three-by-five-inch stack of 96-well plastic plates, each less than half-an-inch thick. The chip interior is crisscrossed with multiple channels and coated with a gel-like material that is a facsimile of bone marrow and awash with nutrients and growth factors that support plasma cell function and maintenance. The layers of the chip structure correspond to an area at the outer edge of the bone marrow cavity, known as the endosteal subniche, where plasma cells are stored until called upon. The model also replicates an area deeper inside the center of the bone marrow, known as the perivascular subniche, that surrounds a network of blood vessels, where plasma cells proliferate and are activated.
+
+The bone marrow chip system facilitates imaging of plasma cells to interpret their activity in response to signaling proteins. It also makes it possible to systemically study the effect of the various biological niches within the bone marrow on plasma cell differentiation and durability.
+
+“It is nearly impossible to achieve high imaging resolution of plasma cells in living human bone marrow,” Singh said. “You can do some level of imaging in the bone marrow of a mouse, and so far that is what people have focused on.”
+
+The organoid model can be seeded with cells from unique patient populations to study the effect of aging on plasma cell function, or people with autoimmune or allergic diseases to understand how autoimmunity or allergy-promoting plasma cells are produced and maintained. The researchers note that there are many questions they would still like to answer, such as why B cells exhibit a “stop-and-go” pattern of movement and whether this pattern of movement is part of a constant migration within the broader bone marrow structure.
+
+This research was funded in part by NIAID under R01AI186314 and R01AI181282 and by the National Institute of General Medical Sciences (NIGMS) grant T32GM145735.
+
+NIAID conducts and supports research to study the causes of infectious and immune-mediated diseases, and to develop better means of preventing, diagnosing and treating these illnesses. News releases, fact sheets and other NIAID-related materials are available on the NIAID website .
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+L Kramer et al. Ex Vivo Bone Marrow Subniches Influence the Fate of Human Antibody-Secreting Cells. Science Advances: www.science.org/doi/10.1126/sciadv.adz3976 .

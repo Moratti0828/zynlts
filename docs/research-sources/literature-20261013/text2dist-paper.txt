@@ -1,0 +1,1272 @@
+[PDF page 1]
+Findings of the Association for Computational Linguistics: ACL 2026, pages 10711–10728
+July 2-7, 2026 ©2026 Association for Computational Linguistics
+Beyond Facts: Benchmarking Distributional Reading Comprehension in
+Large Language Models
+Pei-Fu Guo1, Ya-An Tsai1, Chun-Chia Hsu1, Kai-Xin Chen1, Yun-Da Tsai1,
+Kai-Wei Chang2,Nanyun Peng 2,Mi-Yen Yeh3,Shou-De Lin 1,4
+1National Taiwan University 2University of California, Los Angeles
+3Academia Sinica, Taiwan 4NTU AI-CoRE
+Correspondence:r12922217@csie.ntu.edu.tw
+Abstract
+While most reading comprehension bench-
+marks for LLMs focus on factual information
+that can be answered by localizing specific tex-
+tual evidence, many real-world tasks require
+understanding distributional information, such
+as population-level trends and preferences ex-
+pressed across collections of text. We intro-
+duce TEXT2DISTBENCH, a reading compre-
+hension benchmark for evaluating LLMs’ abil-
+ity to infer distributional knowledge from nat-
+ural language. Built from real-world YouTube
+comments about movie and music entities, the
+benchmark provides models with entity meta-
+data and associated comments, and requires
+them to answer distributional questions, such
+as estimating the proportions of positive and
+negative comments, or identifying the most
+and second most frequent topics discussed
+among viewers. To support reliable and long-
+term evaluation, the construction pipeline of
+TEXT2DISTBENCHis fully automated and con-
+tinuously updated to incorporate newly emerg-
+ing entities over time. Experiments across
+multiple LLMs show that while models sub-
+stantially outperform random baselines, per-
+formance varies widely across different distri-
+bution types and characteristics. These find-
+ings highlight both the capabilities and limita-
+tions of current LLMs in distributional reading
+comprehension and demonstrate the value of
+TEXT2DISTBENCHas a practical and scalable
+testbed for future research.1
+1 Introduction
+Large language models (LLMs) are increasingly
+used as general-purpose language understanding
+systems, where they must comprehend diverse in-
+formation from text and produce appropriate re-
+sponses. Most existing reading comprehension
+benchmarks focus onfactual knowledge, where
+answers can be obtained by retrieving or reasoning
+1Code and data are available at link.
+Figure 1:Factual vs. Distributional Knowledge.
+over specific pieces of textual evidence, such as sen-
+tence spans (Rajpurkar et al., 2016; Kwiatkowski
+et al., 2019; Dua et al., 2019) or a set of localized
+facts (Tafjord et al., 2019; Welbl et al., 2018).
+However, many real-world information needs
+go beyond factual knowledge and require models
+to understanddistributional knowledgeexpressed
+across text. As illustrated in Figure 1, factual in-
+formation such as movie genre or director is local-
+ized and can be answered by identifying specific
+textual evidence. In contrast, distributional infor-
+mation, such as proportion of viewer sentiment or
+topic prevalence, must be derived by aggregating
+patterns across many individual comments. This
+form of understanding is important as LLMs are in-
+creasingly used to support human decision making
+and analyze public opinion in real-world settings
+such as market research and product review anal-
+ysis, where users summarize collective opinions,
+identify dominant trends, and compare preferences
+across aspects from large volumes of text.
+Recent work has explored models’distributional
+knowledgefrom different perspectives. Some
+benchmarks study models’ distributional knowl-
+1
+10711
+
+[PDF page 2]
+edge of human values, using survey-style ques-
+tions to probe models’ beliefs about cultural values
+or political attitudes associated with specific de-
+mographic groups (Durmus et al., 2023; Meister
+et al., 2025; Röttger et al., 2024; Zhao et al., 2024).
+Other benchmarks focus on probabilistic reasoning,
+where models are provided with explicitly spec-
+ified distributions (e.g., Poisson distributions) or
+numeric data and are asked to calculate statistics or
+sample outcomes (Paruchuri et al., 2024; Pourne-
+mat et al., 2025; Ozturkler et al., 2023). While
+valuable, these benchmarks primarily probe dis-
+tributional knowledge encoded in models during
+pretraining. They do not evaluate whether models
+can derive population-level distributions, such as
+thefrequenciesorprevalencesof different opin-
+ions, by reading and aggregating information from
+natural language text.
+Based on this gap, we introduce TEXT2DIST-
+BENCH, a reading comprehension benchmark de-
+signed to systematically evaluate LLMs’ ability
+to inferdistributional knowledgefrom text. Con-
+structed from real-world YouTube comments, the
+benchmark provides models with metadata and user
+comments for movie and music entities released
+after the model knowledge cutoff date. Specifi-
+cally, each benchmark instance includes: (1)entity
+metadata, which provides background informa-
+tion needed to interpret the comments; (2) a set of
+human commentsassociated with the entity; and
+(3)distributional QA pairs, which require mod-
+els to aggregate information across comments to
+infer population-level statistics (e.g., estimating the
+percentage of positive and negative comments or
+identifying the most frequently discussed topics).
+To define the underlying distributions, each com-
+ment is automatically annotated using multiple
+LLMs across two attributes:sentiment(e.g., posi-
+tive or negative) andtopic(e.g., acting, storyline,
+visuals, or audio). These annotations induce a dis-
+crete distribution over attributes for each entity.
+Based on this formulation, we design questions
+that probe different aspects of distributional under-
+standing. Specifically, models are asked to esti-
+mate category proportions (estimation) and to iden-
+tify the most and second most frequent categories
+(mode queries). These questions are instantiated
+over marginal distributions (e.g., overall sentiment
+or topic prevalence), conditional distributions (e.g.,
+viewer sentiment given a topic), and joint distribu-
+tions that capture attribute co-occurrence patterns
+(e.g. percentage of users that are positive on the
+lyrics of a song).
+In addition, TEXT2DISTBENCHis constructed
+through a fully automated pipeline that supports
+continuous updates. By continuously introducing
+newly emerging entities, the benchmark reduces
+the risk of data leakage, where models may have
+already been exposed to the entity-related informa-
+tion during training, and instead encourages them
+to derive distributions from the provided text. This
+design makes TEXT2DISTBENCHmore sustain-
+able and allows it to remain reliable as LLMs and
+their training data evolve over time.
+Using TEXT2DISTBENCH, we evaluate a range
+of state-of-the-art LLMs. Our experiments show
+that while current models substantially outperform
+random baseline, their performance varies widely
+across distributional settings. In particular, mod-
+els generally perform better on questions related
+to marginal distributions than on conditional or
+joint distributions, and are sensitive to intrinsic
+properties of the target distribution (e.g., unifor-
+mity, probability mass concentration). Moreover,
+we find that models can form informative prior be-
+liefs from factual information alone, which often
+closely approximate the target distributions even
+for unseen entities. These findings highlight both
+the strengths and limitations of current LLMs in un-
+derstanding population-level information from text
+and demonstrate the utility of TEXT2DISTBENCH
+for distributional reading comprehension.
+2 Related Work
+Reading Comprehension BenchmarksMost
+reading comprehension benchmarks focus on eval-
+uatingfactual knowledgethat can be derived
+from text, where answers can be obtained by re-
+trieving or reasoning over specific pieces of tex-
+tual evidence, such as sentence spans or local-
+ized facts. Representative benchmarks include
+SQuAD, WikiReading, Natural Questions, and
+DROP, which evaluate factual understanding over
+short or long documents (Rajpurkar et al., 2016;
+Hewlett et al., 2016; Kwiatkowski et al., 2019; Dua
+et al., 2019). Other benchmarks emphasize more
+advanced forms of comprehension, such as contex-
+tual commonsense reasoning (Huang et al., 2019),
+qualitative relations (Tafjord et al., 2019), and
+multi-hop reasoning (Welbl et al., 2018). In con-
+trast, TEXT2DISTBENCHfocuses on distributional
+knowledge, where the goal is to infer population-
+level patterns and statistics by aggregating informa-
+2
+10712
+
+[PDF page 3]
+tion across a collection of textual comments.
+Probabilistic Reasoning BenchmarksA sepa-
+rate line of work evaluates models’ understanding
+of probabilistic concepts (Paruchuri et al., 2024;
+Pournemat et al., 2025; Freedman and Toni, 2025).
+In these benchmarks, models are typically provided
+with explicitly specified distributions (e.g., Nor-
+mal or Poisson distributions) or tabular numerical
+data, and are asked to estimate percentiles, sam-
+ple outcomes, or compute specific probabilities.
+In contrast to these settings, where the underly-
+ing distributions are directly given or numerically
+represented, TEXT2DISTBENCHrequires models
+to infer distributional properties from unstructured
+natural language.
+Human Values Distribution BenchmarksRe-
+cent work has evaluated LLMs by comparing their
+response distributions to human distributions, often
+using survey-style questions and divergence-based
+metrics (Durmus et al., 2023; Meister et al., 2025).
+These benchmarks typically probe models’ beliefs
+about cultural values (Naous et al., 2024; Wang
+et al., 2024), political attitudes (Röttger et al., 2024;
+Stammbach et al., 2024), and public opinions (Zhao
+et al., 2024) associated with specific demographic
+groups. In contrast, TEXT2DISTBENCHevaluates
+distributional understanding grounded in text, re-
+quiring models to derive population-level statistics
+by aggregating information from the provided con-
+text rather than relying on pretrained knowledge.
+3 Methodology: Benchmark Overview
+TEXT2DISTBENCHis a reading comprehension
+benchmark designed to evaluate a model’s abil-
+ity to understanddistributional knowledgefrom
+text. We use movie and music comments from
+YouTube as data sources and construct reading com-
+prehension questions that require models to infer
+different properties of the distributions expressed
+across the comments. Each TEXT2DISTBENCH
+instance consists of three components: (1)entity
+metadata, which provides contextual background
+for interpreting the comments; (2) a set ofhuman
+commentsassociated with the entity; and (3)distri-
+butional QA pairs, which ask information about the
+underlying distribution expressed in the comments.
+To enable systematic evaluation, questions are or-
+ganized along two axes:distribution type, which
+specifies the distribution being queried, andtask
+type, which specifies how the model is asked about
+that distribution.
+3.1 Distribution Type
+In real-world scenarios, distributional information
+can come from different types of distributions. For
+example, in product reviews that include ratings
+and topic tags, determining whether overall feed-
+back is mostly positive or negative corresponds to
+a marginal distribution, while analyzing sentiment
+toward a specific product feature corresponds to a
+conditional distribution.
+In TEXT2DISTBENCH, each viewer comment is
+annotated along two dimensions:sentiment S (e.g.,
+positive or negative) andtopic T (e.g., Actor, Sto-
+ryline, Visual, Audio). Together, these annotations
+define a discrete joint distribution P(S, T) over the
+comment set. Based on this formulation, we de-
+fine threedistribution types, each corresponding
+to a distribution derived from P(S, T) :Marginal
+distributions, such as P(S) and P(T) , capture
+the overall distribution of sentiment or topic across
+all comments;Conditional distributions, such as
+P(S|T) and P(T|S) , describe how one variable
+is distributed given a specific value of the other; and
+Joint distributions, P(S, T) , represent the full co-
+occurrence between sentiment and topic. These
+distribution types specify which distribution a ques-
+tion targets. Question examples associated with
+each distribution type are shown in Table 1.
+3.2 Task Types
+We design three tasks to probe model understand-
+ing for each distribution type. Question examples
+of each task are shown in Table 2.
+(1) EstimationThe model is asked to estimate
+the full numerical distribution by predicting the
+percentage associated with each support category.
+This task evaluates whether the model can recover
+the overall shape of the distribution and correctly
+allocate probability mass across categories.
+(2) Most FrequentThe model is asked to iden-
+tify the support category with the largest probabil-
+ity mass. This task tests whether the model can
+reliably recognize the dominant trend in the dis-
+tribution, corresponding to use cases where users
+primarily care about the majority outcome.
+(3) Second FrequentThe model is asked to iden-
+tify the support category with the second-largest
+probability mass. This task probes a more sub-
+tle form of distributional understanding, requiring
+3
+10713
+
+[PDF page 4]
+Distribution Question Example (Task Type: Most Frequent)
+Marginals P(S): What overall attitude do most viewers express? Positive or Negative.
+P(T): Which aspect of the movie is discussed most often? Actor, Storyline, Visual,
+or Audio.
+Conditionals P(S|T): Among the comments that talk about the actor, what attitude do viewers
+express most commonly? Positive or Negative.
+P(T|S): Among the comments that express a positive attitude, which aspect of the
+movie is mentioned most often? Actor, Storyline, Visual, or Audio.
+Joint P(S, T): Considering both (1) which aspect (Actor, Storyline, Visual, Audio) is
+being talked about and (2) whether the attitude is positive or negative. Which
+(aspect, sentiment) combination appears most often in the comments?
+Table 1:Question Examples of different distribution type.
+Question Question Example (Distribution Type: Marginals)
+Estimation Movie Information:{meta_data}
+YouTube Viewer Comments: {comments}
+What aspects of the movie do viewers talk about?
+Summarize how frequently each aspect appears in the comments using percentages.
+Output your answer in the following format:
+{ "Actor":"<int>%", "Storyline":"<int>%", "Visual":"<int>%", "Audio":"<int>%" }
+Most
+Frequent
+Movie Information:{meta_data}
+YouTube Viewer Comments: {comments}
+Which aspect of the movie is discussed most often?
+Actor, Storyline, Visual, or Audio.
+Second
+Frequent
+Movie Information:{meta_data}
+YouTube Viewer Comments: {comments}
+Which aspect of the movie is discussed the second most often?
+Actor, Storyline, Visual, or Audio.
+Table 2:Question Examples of different task type
+the model to correctly rank alternatives beyond the
+dominant mode.
+3.3 Evaluation Metrics
+Evaluation metrics are defined by tasks, indepen-
+dent of the distribution type.
+(1) EstimationIn this task, the model outputs a
+distribution. To quantify the discrepancy between
+the predicted distribution ˆpi and the ground-truth
+distribution pi, we follow prior work on measuring
+distributional alignment (Pournemat et al., 2025;
+Meister et al., 2025; Gupta et al., 2025) and adopt
+theTotal V ariation Distance (TVD)as the evalua-
+tion metric. TVD measures the minimum amount
+of probability mass that must be redistributed to
+transform ˆpi into pi and is invariant to the size of
+the support:
+TVD(ˆpi, pi) = 1
+2
+K∑
+k=1
+|ˆpi,k−p i,k|(1)
+where K denotes the number of support categories.
+Since TVD is bounded in [0,1] , with lower values
+indicating better alignment, we report 1−TVD for
+consistency with other metrics where higher values
+represent better performance.
+(2) Most / Second FrequentIn this task, the
+model identifies the category with the largest or
+second-largest probability mass, and performance
+is evaluated using classification accuracy :
+ACC =1[ˆyi =y i](2)
+where ˆyi is the model’s prediction and yi is the
+ground-truth category label.
+4 Methodology: Benchmark Construction
+TEXT2DISTBENCHis constructed through a fully
+automated data generation pipeline designed to sup-
+port continuous updates. As illustrated in Figure 2,
+the pipeline consists of four stages: (1) entity se-
+lection, (2) comment annotation, (3) empirical dis-
+tribution estimation, and (4) QA generation.
+Stage 1: Opinion Entity SelectionTo reliably
+evaluate whether models can infer distributional
+knowledge from the provided text, it is crucial that
+4
+10714
+
+[PDF page 5]
+Figure 2:TEXT2DISTBENCHGeneration Pipeline.The construction process consists of four stages: (1) selecting
+valid opinion entities; (2) annotating comment topic and sentiment; (3) estimating empirical opinion distributions;
+and (4) generating distributional reading-comprehension questions.
+target entities are not already familiar to the model.
+If an entity has been widely discussed during pre-
+training, the model may have already encountered
+entity-related comments or human opinions, rather
+than actually comprehending the provided input,
+leading to a contaminated evaluation.
+To mitigate this issue, we select entities accord-
+ing to two criteria. First, each entity must appear at
+least six months after the model’s pretraining cutoff
+date, reducing the likelihood that large-scale public
+discussions are included in the training data. Sec-
+ond, entities must be largely self-contained, such
+that audience reactions are primarily driven by the
+entity itself rather than by other similar or previ-
+ously existing entities. Based on these criteria,
+newly released movies and musics are well-suited
+domains for our benchmark.
+In practice, we retrieve candidate entities using
+domain-specific APIs, including IMDB and TMDB
+for movies and YouTube Music for songs. These
+APIs allow us to filter entities by release time and
+obtain relevant metadata. For each entity, we then
+use the YouTube Data API to retrieve associated
+videos (e.g., movie trailers or music videos). En-
+tities with comment volumes below a minimum
+threshold are discarded. For the retained entities,
+viewer comments and metadata are collected. Ad-
+ditional details of the retrieval and filtering process
+are provided in Appendix B.1.
+Stage 2: Comment AnnotationFor each se-
+lected entity, viewer comments are automatically
+annotated with two attributes:topicandsentiment.
+Motivated by prior work showing that LLMs can
+match or even outperform human annotators on
+common text classification tasks (Gilardi et al.,
+2023), we employ multiple state-of-the-art LLMs
+to independently assign a(topic, sentiment)label
+to each comment. We then apply majority voting
+across model outputs to mitigate model-specific bi-
+ases and improve annotation robustness (Farr et al.,
+2024; Qiu et al., 2025). Comments for which no
+majority is reached, or that are identified as express-
+ing multiple topics, are discarded.
+To assess annotation quality, we conduct human
+verification on all comments in the dataset (Sec-
+tion 5). The automated annotations achieve 95%
+precision against human judgments, indicating high
+annotation reliability. Details of the annotation
+process, prompt design, and human evaluation are
+provided in Appendix B.2 and C.
+Stage 3: Empirical Distribution Estimation
+Following annotation, each entity is associated with
+a collection of comments, each assigned a(topic,
+sentiment)label. Treating each comment as one ob-
+servation, we compute an empirical joint distribu-
+tion by counting label frequencies and normalizing
+over all comments. From this joint distribution, we
+derive the corresponding marginal and conditional
+distributions, which serve as ground-truth statistics
+for distributional question answering.
+Stage 4: QA GenerationFinally, we generate
+distributional reading-comprehension questions us-
+ing the templates described in Section 3. Each
+benchmark instance consists of entity metadata,
+the associated viewer comments, and a set of ques-
+tion–answer pairs, where each answer is computed
+directly from the empirical distributions. Examples
+5
+10715
+
+[PDF page 6]
+are provided in Appendix D.
+Benchmark MaintenanceTEXT2DISTBENCH
+supports easy maintenance. By periodically retriev-
+ing newly released entities and re-running the auto-
+mated generation pipeline, the benchmark can be
+continuously updated with new content. The entire
+process requires no human annotation, enabling
+up-to-date evaluation for newly released LLMs.
+5 Experimental Setup
+ModelsWe evaluate both closed-source and
+open-source LLMs, including GPT-5.1 2, GEMINI-
+2.5-PRO 3, GROK-4-FAST 4, CLAUDE-SONNET-
+4.5 5, QWEN3-32B 6, and LLAMA3.3-70B 7.
+These models vary in pretraining data, parameter
+scale, and alignment strategies, providing a diverse
+testbed for evaluation.
+Benchmark ConfigurationSince TEXT2DIST-
+BENCHis continuously updated, we construct a
+dataset using the pipeline in Section 4. The dataset
+consists of 20 movie and music entities released
+between July and October 2025,8 Under this con-
+figuration, each task type yields 40 marginal, 120
+conditional, and 20 joint questions, resulting in a
+total of 540 evaluation questions across the three
+tasks. For each entity, we randomly sample 50
+comments from the associated videos to balance
+question token length. Dataset statistics and con-
+struction details are reported in Appendix A.
+Inference ConfigurationWe evaluate all mod-
+els using fixed zero-shot prompt templates. Each
+prompt includes definitions of sentiment and topic,
+the entity metadata, a set of associated comments,
+and a distributional question. Full prompt tem-
+plates are provided in Appendix D. All models are
+evaluated in text-only mode, without tool calling
+or retrieval. Each question is sampled once using
+the model’s default decoding parameters, including
+temperature and maximum token limits.
+2https://platform.openai.com/docs/models/
+gpt-5.1
+3https://aistudio.google.com/app/prompts/new_
+chat?model=gemini-2.5-pro
+4https://x.ai/news/grok-4-fast
+5https://platform.claude.com/docs/en/
+about-claude/models/overview
+6https://huggingface.co/Qwen/Qwen3-32B
+7https://huggingface.co/meta-llama/Llama-3.
+3-70B-Instruct
+8The most recent model evaluated, GEMINI-2.5-PRO, has
+a knowledge cutoff date of 2025-01.
+6 Results & Analysis
+Building on the setup described in Section 5, we
+first present the main results, followed by addi-
+tional analyses on model behavior.
+6.1 Overall Performance and Ranking
+Table 3 summarizes model performance on
+TEXT2DISTBENCHacross different distribution
+and task types. Across all settings, every model
+substantially outperforms the random baseline, in-
+dicating that current LLMs can understand non-
+trivial distributional information from text.
+Model rankings differ across task types. For es-
+timation task, GPT-5.1 achieves the highest av-
+erage performance, with GEMINI-2.5-PROand
+GROK-4-FASTclosely following, and a similar
+ordering is observed for most-frequent task. In
+contrast, second-frequent task favors GEMINI-2.5-
+PRO, with GPT-5.1 and GROK-4-FASTranking
+slightly lower. Mid-tier models such as CLAUDE-
+SONNET-4.5 and LLAMA-3.3-70B remain com-
+petitive on estimation tasks but exhibit larger drops
+on most/second frequent questions, while QWEN3-
+32B consistently ranks lowest despite outperform-
+ing the random baseline.
+Across all tasks, a consistent difficulty order-
+ing emerges across distribution types. Marginal
+questions are the easiest for models, followed by
+conditional questions, while joint distribution ques-
+tions are the most challenging. This trend holds
+for estimation tasks and is especially pronounced
+for most/second frequent questions, where perfor-
+mance drops sharply on joint distributions.
+Overall, while several models consistently form
+a top-performing group, their performance varies
+across distribution and task types. This implies that,
+in practice, model selection should depend on the
+specific information the user is interested in.
+6.2 Target Distribution Characteristics
+Figure 3 analyzes how model performance corre-
+lates with intrinsic properties of the target distribu-
+tions. We characterize each ground-truth distribu-
+tion using four statistics: (1)JS divergence from
+the uniform distribution, which measures the de-
+gree of non-uniformity; (2)Top-1 probability mass,
+which captures the dominance of the most frequent
+category; (3)Top-2 margin, defined as the probabil-
+ity difference between the most and second most
+frequent categories, reflecting how sharply peaked
+the distribution is; and (4)Support size, the number
+6
+10716
+
+[PDF page 7]
+Estimation (1-TVD)↑Most Frequent (ACC)↑Second Frequent (ACC)↑
+Model M C J Avg M C J Avg M C J Avg
+GPT-5.1 0.930 0.865 0.8470.881 0.861 0.877 0.7780.839 0.834 0.805 0.556 0.732
+Gemini-2.5-Pro 0.903 0.869 0.805 0.859 0.805 0.886 0.722 0.804 0.778 0.835 0.6670.760
+Grok-4-Fast 0.911 0.856 0.838 0.868 0.889 0.858 0.667 0.805 0.833 0.728 0.611 0.724
+Claude-Sonnet-4.5 0.907 0.818 0.828 0.851 0.833 0.809 0.611 0.751 0.805 0.728 0.500 0.678
+Llama-3.3-70B 0.855 0.836 0.744 0.812 0.778 0.819 0.667 0.755 0.805 0.728 0.278 0.604
+Qwen3-32B 0.701 0.747 0.619 0.689 0.777 0.743 0.500 0.673 0.555 0.495 0.167 0.406
+Random Baseline 0.651 0.594 0.485 0.577 0.375 0.435 0.132 0.314 0.375 0.444 0.125 0.315
+Table 3:TEXT2DISTBENCHResultsWe report performance across distribution (Marginals,Conditionals,Joint)
+and task types. Random baselines are computed from 50 runs of random guessing for Most/Second Frequent
+questions and from a uniform distribution for Estimation questions. Higher values indicate better performance.
+JS(p|u)T op1-MassT op2-MarginSupport-Size
+GPT-5.1
+Gemini-2.5-Pro
+Grok-4-Fast
+Claude-4.5
+Llama-3.3-70B
+Qwen3-32B
+0.03 0.33* 0.29* -0.34*
+-0.01 0.31* 0.30* -0.38*
+0.03 0.34* 0.32* -0.34*
+0.02 0.22* 0.20* -0.27*
+-0.06 0.33* 0.30* -0.46*
+-0.18* 0.22* 0.20* -0.40*
+Estimation (Metric: 1-TVD)
+JS(p|u)T op1-MassT op2-MarginSupport-Size
+0.06 0.31* 0.27* -0.24*
+0.11 0.35* 0.36* -0.22*
+-0.01 0.35* 0.33* -0.37*
+0.18* 0.33* 0.33* -0.18*
+0.11 0.32* 0.35* -0.22*
+0.12 0.41* 0.40* -0.29*
+Most-frequent (Metric: ACC)
+JS(p|u)T op1-MassT op2-MarginSupport-Size
+-0.03 0.29* 0.24* -0.41*
+0.02 0.31* 0.31* -0.30*
+-0.14 0.15 0.14 -0.23*
+-0.03 0.27* 0.28* -0.29*
+-0.24* 0.20* 0.18* -0.35*
+-0.08 0.29* 0.30* -0.34*
+Second-frequent (Metric: ACC)
+0.6
+0.4
+0.2
+0.0
+0.2
+0.4
+0.6
+Spearman(Metric, Property)
+Figure 3:Sensitivity to target distribution characteristics.Each cell reports the Spearman correlation between
+model performance and distribution statistics. (*) indicates statistical significance (pvalue <0.05).
+of categories with non-zero probability mass.
+Across models and tasks, we observe consistent
+trends. Performance exhibits positive rank correla-
+tions with both Top-1 probability mass and Top-2
+margin, indicating that distributions with stronger
+dominance and clearer separation between leading
+categories are easier for models to handle. In con-
+trast, support size shows a negative correlation with
+performance, suggesting that distributions spread
+across more categories pose greater difficulty. Fi-
+nally, performance shows little systematic correla-
+tion with JS divergence from the uniform distribu-
+tion, indicating that overall non-uniformity alone
+is not a strong predictor of model success.
+6.3 Scaling Reasoning Effort
+As an additional analysis, we examine whether
+increasing reasoning effort improves model perfor-
+mance. We use GPT-5.1 as the test model and
+vary the reasoning effort from low to high. Fig-
+ure 4 shows the performance of GPT-5.1 under
+different reasoning-effort settings, with GPT-4.1,
+a strong non-reasoning model from the same fam-
+ily, included as a comparison baseline.
+Overall, increasing reasoning effort leads to
+consistent performance improvements, with the
+largest gains observed for joint distribution ques-
+tions. Across task types, estimation and most-
+frequent questions benefit more from additional
+reasoning effort than second-frequent questions.
+Performance improves as reasoning effort increases
+up to a medium level, after which gains diminish
+and may slightly degrade, indicating diminishing
+returns from further increases in reasoning effort.
+6.4 Prior Belief from Factual Information
+Beyond the main experiments, we consider an
+extreme setting in which viewer comments are
+removed from the input and only entity meta-
+data is provided. This metadata-only setting mir-
+rors a common human behavior of forming initial
+population-level beliefs from factual information
+alone, without observing individual responses.
+Figure 5 compares metadata-only (prior) and
+full-context (posterior) performance across the
+three task types. Across all models, prior predic-
+tions consistently outperform random baselines,
+indicating that models can leverage factual meta-
+data to form non-trivial distributional hypotheses
+even for previously unseen entities. Importantly,
+7
+10717
+
+[PDF page 8]
+4.1 5.1(Low) 5.1(Med) 5.1(High)
+0.750
+0.775
+0.800
+0.825
+0.850
+0.875
+0.900
+0.925(1 - TVD) ( )
+Estimation
+4.1 5.1(Low) 5.1(Med) 5.1(High)
+0.5
+0.6
+0.7
+0.8
+0.9ACC ( )
+Most Frequent
+4.1 5.1(Low) 5.1(Med) 5.1(High)
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0ACC ( )
+Second Frequent
+Movie Music Marginals Conditionals Joint
+Figure 4:Effect of scaling reasoning effort.Performance of GPT-5.1 under different reasoning-effort settings,
+with GPT-4.1 shown as a non-reasoning baseline for comparison.
+0.0 0.2 0.4 0.6 0.8 1.0
+Prior Score
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Posterior Score
+Estimation (Metric: 1-TVD)
+0.0 0.2 0.4 0.6 0.8 1.0
+Prior Score
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Posterior Score
+Most Frequent (Metric: ACC)
+0.0 0.2 0.4 0.6 0.8 1.0
+Prior Score
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Posterior Score
+Second Frequent (Metric: ACC)
+Knowledge
+Marginals Conditionals Joint
+Model
+GPT-5.1
+Gemini-2.5-Pro
+Grok-4-Fast
+Claude-Sonnet-4.5
+Llama-3.3-70B
+Qwen3-32B
+Figure 5:Prior belief from factual information.Each subplot compares prior (metadata-only) and posterior (with
+comments) performance for one task. The diagonal denotes equal prior and posterior performance, with points
+above it indicating improvements after observing viewer comments. Colored vertical dashed lines indicate random
+baselines for each distribution type.
+Model Esti-
+mation
+Most
+Frequent
+Second
+Frequent
+GPT-5.1 0.142 0.220* 0.246*
+Gemini-2.5-Pro 0.215* 0.221* 0.316*
+Grok-4-Fast 0.186* 0.341* 0.181*
+Claude-Sonnet-4.5 0.069 0.274* 0.158*
+Llama-3.3-70B 0.219* 0.154* 0.122
+Qwen3-32B 0.255* 0.304* 0.077
+Table 4: Spearman correlation between model prior and
+posterior performance. (*) indicates statistical signifi-
+cancepvalue <0.05.
+incorporating viewer comments leads to consistent
+performance improvements, with most points lying
+above the diagonal, including cases where prior
+predictions (e.g., joint distribution) are weak.
+Table 4 further shows that prior and posterior per-
+formance are positively correlated for most models
+and tasks. This suggests that models with stronger
+prior distributional beliefs tend to benefit more af-
+ter observing comments. Together, these results
+demonstrate that models actively integrate textual
+evidence to refine their initial beliefs, highlight-
+ing the value of TEXT2DISTBENCHfor evaluating
+text-conditioned distributional understanding.
+7 Conclusion
+In this work, we introduced TEXT2DISTBENCH,
+an automated and continuously updatable bench-
+mark for evaluating distributional reading compre-
+hension in LLMs. Our benchmark probes models’
+ability to infer distribution knowledge from text,
+spanning marginal, conditional, and joint distribu-
+tions under multiple question types. Our empirical
+results show that while LLMs substantially outper-
+form random baselines, their performance varies
+widely across different distribution settings. We
+also find that LLMs can form informative prior be-
+liefs for unseen entities from factual information
+alone, and that models with stronger priors tend to
+benefit more from incorporating viewer comments.
+8
+10718
+
+[PDF page 9]
+Together, these findings highlight both the capa-
+bilities and limitations of current LLMs in distri-
+butional reading comprehension, and demonstrate
+the value of TEXT2DISTBENCHas a practical and
+scalable testbed for future research.
+Limitations
+While TEXT2DISTBENCHprovides an automated
+and continuously updatable benchmark for system-
+atically evaluating distributional reading compre-
+hension, several limitations remain that could be
+addressed in future work. Currently, the benchmark
+defines three tasks. However, in real-world scenar-
+ios, humans may ask a wider range of questions
+about distributional information expressed in text,
+such as threshold-based or comparative queries.
+Extending the framework to support a richer set of
+query types would enable a more comprehensive
+evaluation of distributional understanding. More-
+over, expanding the benchmark to more domains
+could further improve its coverage and provide a
+more diverse testbed for evaluation.
+Ethical Considerations
+TEXT2DISTBENCHis constructed using publicly
+available APIs, including IMDB/TMDB for movie
+metadata and YouTube Data API for music meta-
+data and viewer comments. While these sources
+may occasionally contain inaccuracies due to hu-
+man error or reporting delays, they are widely
+recognized and provide verifiable records of real-
+world content. All data are derived from post-
+release or officially published materials, and no
+private, sensitive, or personally identifiable infor-
+mation is included in the benchmark.
+Use of Ai Assistants
+In this work, we leveraged large language mod-
+els (LLMs) to assist research in two ways. First,
+multiple LLMs were employed as part of the au-
+tomated benchmark generation pipeline, including
+comment annotation and relevant video verifica-
+tion. Second, an AI assistant (OpenAI GPT-5.2)
+was used for minor writing support, such as gram-
+mar correction and improving manuscript clarity.
+All AI-assisted contents were carefully reviewed
+by the authors to ensure factual accuracy and con-
+sistency with the authors’ original intent.
+Acknowledgment
+This material is based upon work supported by Na-
+tional Science and Technology Council, ROC un-
+der grant number 114-2221-E-002-134-MY3 and
+113-2628-E-001-003-MY4, NTU AI Center of Re-
+search Excellence within Taiwan Centers of Ex-
+cellence in Artificial Intelligence, and by National
+Taiwan University and Academia Sinica Innovative
+Joint Program, under grant AS-NTU-114-06.
+References
+Dheeru Dua, Yizhong Wang, Pradeep Dasigi, Gabriel
+Stanovsky, Sameer Singh, and Matt Gardner. 2019.
+Drop: A reading comprehension benchmark requir-
+ing discrete reasoning over paragraphs. InProceed-
+ings of the 2019 Conference of the North American
+Chapter of the Association for Computational Lin-
+guistics: Human Language Technologies, V olume 1
+(Long and Short Papers), pages 2368–2378.
+Esin Durmus, Karina Nguyen, Thomas I. Liao,
+Nicholas Schiefer, Amanda Askell, Anton Bakhtin,
+Carol Chen, Zac Hatfield-Dodds, Danny Hernan-
+dez, Nicholas Joseph, Liane Lovitt, Sam McCan-
+dlish, Orowa Sikder, Alex Tamkin, Janel Thamkul,
+Jared Kaplan, Jack Clark, and Deep Ganguli. 2023.
+Towards measuring the representation of subjective
+global opinions in language models.arXiv preprint
+arXiv:2306.16388.
+David Farr, Nico Manzonelli, Iain Cruickshank, Kate
+Starbird, and Jevin West. 2024. Llm chain ensembles
+for scalable and accurate data annotation.Preprint,
+arXiv:2410.13006.
+Gabriel Freedman and Francesca Toni. 2025. Ex-
+ploring the potential for large language models to
+demonstrate rational probabilistic beliefs.Preprint,
+arXiv:2504.13644.
+Fabrizio Gilardi, Meysam Alizadeh, and Maël Kubli.
+2023. Chatgpt outperforms crowd workers for
+text-annotation tasks.Proceedings of the National
+Academy of Sciences, 120(30).
+Ritwik Gupta, Rodolfo Corona, Jiaxin Ge, Eric Wang,
+Dan Klein, Trevor Darrell, and David M. Chan.
+2025. Enough coin flips can make llms act bayesian.
+Preprint, arXiv:2503.04722.
+Daniel Hewlett, Alexandre Lacoste, Llion Jones, Illia
+Polosukhin, Andrew Fandrianto, Jay Han, Matthew
+Kelcey, and David Berthelot. 2016. WikiReading: A
+novel large-scale language understanding task over
+Wikipedia. InProceedings of the 54th Annual Meet-
+ing of the Association for Computational Linguistics
+(V olume 1: Long Papers), pages 1535–1545, Berlin,
+Germany. Association for Computational Linguistics.
+Lifu Huang, Ronan Le Bras, Chandra Bhagavatula, and
+Yejin Choi. 2019. Cosmos QA: Machine reading
+9
+10719
+
+[PDF page 10]
+comprehension with contextual commonsense rea-
+soning. InProceedings of the 2019 Conference on
+Empirical Methods in Natural Language Processing
+and the 9th International Joint Conference on Natu-
+ral Language Processing (EMNLP-IJCNLP), pages
+2391–2401, Hong Kong, China. Association for Com-
+putational Linguistics.
+Tom Kwiatkowski, Jennimaria Palomaki, Olivia Red-
+field, Michael Collins, Ankur Parikh, Chris Alberti,
+Danielle Epstein, Illia Polosukhin, Matthew Kelcey,
+Jacob Devlin, Kenton Lee, Kristina Toutanova, Llion
+Jones, Ming-Wei Chang, Andrew Zhai, Jacob Davis,
+Jakob Uszkoreit, Quoc Le, and Slav Petrov. 2019.
+Natural questions: A benchmark for question answer-
+ing research.Transactions of the Association for
+Computational Linguistics, 7:452–466.
+Nicole Meister, Carlos Guestrin, and Tatsunori
+Hashimoto. 2025. Benchmarking distributional align-
+ment of large language models. InProceedings of
+the 2025 Conference of the Nations of the Americas
+Chapter of the Association for Computational Lin-
+guistics: Human Language Technologies (NAACL
+2025), V olume 1: Long Papers, pages 24–49. Associ-
+ation for Computational Linguistics.
+Tarek Naous, Michael Ryan, Alan Ritter, and Wei Xu.
+2024. Having beer after prayer? measuring cultural
+bias in large language models. InProceedings of the
+62nd Annual Meeting of the Association for Compu-
+tational Linguistics (V olume 1: Long Papers), pages
+16366–16393, Bangkok, Thailand. Association for
+Computational Linguistics.
+Batu Ozturkler, Nikolay Malkin, Zhen Wang, and Nebo-
+jsa Jojic. 2023. Thinksum: Probabilistic reasoning
+over sets using large language models.Preprint,
+arXiv:2210.01293.
+Akshay Paruchuri, Jake Garrison, Shun Liao, John Her-
+nandez, Jacob Sunshine, Tim Althoff, Xin Liu, and
+Daniel McDuff. 2024. What are the odds? lan-
+guage models are capable of probabilistic reasoning.
+Preprint, arXiv:2406.12830.
+Mobina Pournemat, Keivan Rezaei, Gaurang Srira-
+manan, Arman Zarei, Jiaxiang Fu, Yang Wang,
+Hamid Eghbalzadeh, and Soheil Feizi. 2025. Reason-
+ing under uncertainty: Exploring probabilistic reason-
+ing capabilities of llms.Preprint, arXiv:2509.10739.
+Jiaxing Qiu, Dongliang Guo, Natalie Papini, Noelle
+Peace, Hannah F. Fitterman-Harris, Cheri A. Levin-
+son, Tom Hartvigsen, and Teague R. Henry. 2025.
+Labeling free-text data using language model ensem-
+bles.Preprint, arXiv:2501.08413.
+Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and
+Percy Liang. 2016. Squad: 100,000+ questions
+for machine comprehension of text.arXiv preprint
+arXiv:1606.05250.
+Paul Röttger, Valentin Hofmann, Valentina Pyatkin,
+Musashi Hinck, Hannah Rose Kirk, Hinrich Schütze,
+and Dirk Hovy. 2024. Political compass or spinning
+arrow? towards more meaningful evaluations for val-
+ues and opinions in large language models.Preprint,
+arXiv:2402.16786.
+Dominik Stammbach, Philine Widmer, Eunjung Cho,
+Caglar Gulcehre, and Elliott Ash. 2024. Aligning
+large language models with diverse political view-
+points.Preprint, arXiv:2406.14155.
+Oyvind Tafjord, Matt Gardner, Kevin Lin, and Peter
+Clark. 2019. QuaRTz: An open-domain dataset of
+qualitative relationship questions. InProceedings of
+the 2019 Conference on Empirical Methods in Natu-
+ral Language Processing and the 9th International
+Joint Conference on Natural Language Processing
+(EMNLP-IJCNLP), pages 5941–5946, Hong Kong,
+China. Association for Computational Linguistics.
+Wenxuan Wang, Wenxiang Jiao, Jingyuan Huang, Ruyi
+Dai, Jen tse Huang, Zhaopeng Tu, and Michael Lyu.
+2024. Not all countries celebrate thanksgiving: On
+the cultural dominance in large language models. In
+Proceedings of the 62nd Annual Meeting of the As-
+sociation for Computational Linguistics (V olume 1:
+Long Papers), pages 6349–6384, Bangkok, Thailand.
+Association for Computational Linguistics.
+Johannes Welbl, Pontus Stenetorp, and Sebastian Riedel.
+2018. Constructing datasets for multi-hop reading
+comprehension across documents.Transactions of
+the Association for Computational Linguistics, 6:287–
+302.
+Wenlong Zhao, Debanjan Mondal, Niket Tandon, Dan-
+ica Dillion, Kurt Gray, and Yuling Gu. 2024. World-
+valuesbench: A large-scale benchmark dataset for
+multi-cultural value awareness of language models.
+Preprint, arXiv:2404.16308.
+10
+10720
+
+[PDF page 11]
+A Benchmark Statistics
+Following the experimental setup described in Section 5, we construct TEXT2DISTBENCHusing entities
+released between July and October 2025. The benchmark contains 20 entities in total, evenly split across
+two domains (10 movies and 10 music entities). Each entity is annotated with two attributes:sentiment
+(|S|= 2 ) andtopic( |T|= 4 ), which together define the underlying distributions. For each entity, we
+generate reading comprehension questions over three distribution types: marginals ( P(S) and P(T) ),
+conditionals (P(S|T) and P(T|S) ), and the joint distribution (P(S, T) ). Each question is instantiated
+under threetask types: Estimation, Most-Frequent, and Second-Frequent. For a single task, each entity
+is associated with a fixed set of questions: (1) 2 marginal questions (P(S) and P(T) ); (2) 6 conditional
+questions (4 for P(S|T) and 2 for P(T|S) ); and (3) 1 joint question ( P(S, T) ). This results in 9
+distributional questions per entity per task type. Across the three tasks, each entity therefore yields 27
+evaluation questions. Table 5 summarizes the number of questions per task and the total number of
+evaluation instances across all tasks.
+Entities #Marginals #Conditionals #Joints #Total (per Task) #Total (3 Tasks)
+20 (10 Movie + 10 Music) 40 120 20180 540
+Table 5:Benchmark Statistics Summary.
+B Data Generation
+This section describes theOpinion Entity SelectionandComment Annotationstages of the automated
+generation pipeline used to construct TEXT2DISTBENCH.
+B.1 Opinion Entity Selection
+We retrieve candidate opinion entities using domain-specific APIs, including IMDB and TMDB for movies
+and YouTube Music for songs. These APIs allow us to filter entities by release time and obtain relevant
+metadata. For each entity, we then use the YouTube Data API to retrieve associated videos, such as movie
+trailers or music videos. Because the YouTube Data API relies on text-based matching, some retrieved
+videos may be unrelated to the target entity. To address this issue, we employ an LLM (GPT-5.1-MINI) to
+filter out irrelevant or noisy video results. The prompt template used for this verification step is shown in
+Appendix C. Entities with comment volumes below a minimum threshold are discarded. For the remaining
+entities, we collect viewer comments and associated metadata.
+B.2 Comment Annotation
+MethodWe use three API-based LLMs (GPT-5.1-MINI, GEMINI-2.5-FLASH, and GROK-4-FAST)
+to annotate viewer comments. For each comment, models are prompted to assign both atopicand a
+sentiment. Tables 6 and 7 list the topic definitions provided to the models for the movie and music
+domains, respectively. All models are prompted using the template shown in Appendix C. When model
+predictions disagree, we apply a majority-voting scheme to determine the final label. If no majority is
+reached, or if a model indicates that a comment expresses multiple topics, the comment is discarded.
+Annotation QualityTo assess annotation quality, we conduct human verification on the test set described
+in Section 5, which consists of 20 entities with 50 comments each, totaling 1,000 comments. Human
+annotators are provided with the same annotation instructions as the models, including label definitions,
+entity metadata, and viewer comments. We recruit three annotators (two undergraduate students and one
+graduate student), and determine the final human label for each comment by majority vote. Annotation
+precision is then computed by comparing the automated labels against the human annotations.
+Based on the evaluation, with n=1,000 and an observed precision of 0.95, the sampling distribution
+follows a Binomial distribution, which, according to the Central Limit Theorem, yields a 95% confidence
+interval of [0.936, 0.964] with a margin error of ±1.4%. This narrow interval indicates that the estimated
+11
+10721
+
+[PDF page 12]
+precision is statistically stable, suggesting that our annotation pipeline produces results that are largely
+consistent with human judgments.
+Attribute Description
+Actor Performance, emotion, chemistry, casting quality.
+Storyline Plot, pacing, themes, character arcs, dialogue.
+Visual Cinematography, lighting, color, design, VFX, costumes.
+Audio Soundtrack, score, songs, sound effects, audio mix.
+Table 6: Movie Comment Topics
+Attribute Description
+Song Melody, harmony, rhythm, structure, arrangement.
+Singer Tone, technique, emotion, appearance.
+Lyrics Themes, message, storytelling, rhymes.
+Visual Cinematography, lighting, concept, choreography, VFX.
+Table 7: Music Comment Topics
+C Data Generation Prompt Examples (Movie)
+Movie Metadata
+- Movie Title: {title}
+- Release Date: {date}
+- Cast: {casts}
+- Summary: {summary}
+- Synopsis: {synopsis}
+Relevant Video Verification Prompt
+You searched YouTube for: {query}
+Following is the retrieved video information:
+Title: {title}
+Description: {description}
+Determine if this video matches the intended search query and satisfies
+the information need.
+If yes, return True. If not, return False.
+Comment Topic Annotation Prompt
+You are analyzing public reactions to a movie by assigning each viewer comment
+to one or more attributes (multi-label).
+Attributes (use EXACTLY these keys; prefer the single most dominant attribute
+unless the comment clearly discusses multiple):
+- Actor : Comments about the actors’ performances: delivery, emotion, chemistry,
+casting.
+- Storyline : Comments about the movie plot, narrative, themes, pacing, character
+arcs, or dialogue.
+12
+10722
+
+[PDF page 13]
+- Visual : Comments about cinematography, animation, lighting, color, production
+design, costumes, or visual effects.
+- Audio : Comments about the soundtrack, score, songs, sound effects, or audio
+mix.
+- Other : Use only if none of the above clearly fit (off-topic, spam, unclear).
+Movie Information:
+{meta_data}
+YouTube Viewer Comments (0-based indexing, e.g., 0, 1, 2, ...):
+{comments}
+Instructions:
+1) MULTI-LABEL is allowed, but if uncertain choose the single most dominant
+attribute.
+2) Use 0-based indices exactly as shown; do not invent indices.
+3) If a comment does not clearly fit any attribute, include it under "Other".
+4) Return ONLY the JSON object.
+5) The JSON must be a single object whose keys are EXACTLY the attributes below
+and whose values are lists of integer indices.
+6) Do not add, rename, or remove keys.
+Output JSON:
+{"Actor": [], "Storyline": [], "Visual": [], "Audio": [], "Other": []}
+Comment Sentiment Annotation Prompt
+Classify the sentiment expressed in YouTube comments toward the movie.
+Movie Information (for information reference only):
+{meta_data}
+YouTube Viewer Comments (0-based indexing, e.g., 0, 1, 2, ...):
+{comments}
+Labels (choose exactly one per comment):
+- support : praise / approval / positive attitude
+- oppose : criticism / disapproval / negative attitude
+Rules:
+1) Focus on the overall tone or attitude of the comment toward the movie.
+2) Use movie information only to resolve references (e.g., who/what "he", "it",
+or "this scene" refers to), not to guess sentiment.
+3) Consider emojis, slang, irony/sarcasm (e.g., quotes, “/s”, exaggeration,
+laugh reactions).
+4) Use 0-based indices exactly as shown; do not invent or skip indices.
+5) Each index must appear in EXACTLY ONE list (support OR oppose).
+Output JSON:
+{"support": [], "oppose": []}
+13
+10723
+
+[PDF page 14]
+D QA Template Examples (Movie)
+System Template
+You will be given information about a movie, followed by a collection of viewer
+comments.
+Each comment reflects what a viewer thinks about the movie and focuses on a
+particular aspect while expressing a certain attitude.
+When reading the comments, keep in mind two dimensions:
+- Sentiment: whether the comment expresses a positive or negative attitude.
+- Topic: which aspect of the movie the comment mainly talks about.
+Sentiment categories:
+- positive: expressing approval, enjoyment, or praise.
+- negative: expressing criticism, dissatisfaction, or disappointment.
+Topic categories:
+- Actor: acting performance, casting, chemistry, emotional expression.
+- Storyline: plot, narrative, pacing, themes, dialogue, character development.
+- Visual: cinematography, animation, lighting, color, visual effects, production
+design.
+- Audio: soundtrack, music, sound effects, or audio quality.
+Read the following movie information and the viewer comments carefully.
+Then answer the question based on this information.
+Movie Information: {meta_data}
+Viewer Comments: {comments}
+P(S)Estimation
+Question:
+Read the viewer comments.
+How do the expressed opinions break down in terms of overall attitude toward
+the movie?
+Summarize how common each sentiment is among the comments.
+Ensure the percentages sum to 100 and use integers only.
+Output your answer in the following JSON format:
+{ "positive": "<int>%", "negative": "<int>%"}
+Answer:
+P(T)Estimation
+Question:
+Read the viewer comments.
+What aspects of the movie do viewers talk about?
+Summarize how frequently each aspect appears in the comments.
+Ensure the percentages sum to 100 and use integers only.
+14
+10724
+
+[PDF page 15]
+Output your answer in the following JSON format:
+{"Actor": "<int>%", "Storyline": "<int>%", "Visual": "<int>%", "Audio":
+"<int>%"}
+Answer:
+P(S, T)Estimation
+Question:
+Read the viewer comments.
+Consider both which aspect is being discussed and whether the expressed opinion
+is positive or negative.
+Summarize how these combinations appear in the comments.
+Ensure the percentages sum to 100 and use integers only.
+Output your answer in the following JSON format:
+{
+"percentages": {
+"(Actor,positive)": "<int>%",
+"(Actor,negative)": "<int>%",
+"(Storyline,positive)": "<int>%",
+"(Storyline,negative)": "<int>%",
+"(Visual,positive)": "<int>%",
+"(Visual,negative)": "<int>%",
+"(Audio,positive)": "<int>%",
+"(Audio,negative)": "<int>%"
+}
+}
+Answer:
+P(S|T)Estimation
+Question:
+Read the viewer comments.
+Focus only on the comments that talk about the {topic} aspect of the movie.
+How are viewers’ attitudes divided?
+Ensure the percentages sum to 100 and use integers only.
+Output your answer in the following JSON format:
+{"positive": "<int>%", "negative": "<int>%" }
+Answer:
+P(T|S)Estimation
+Question:
+Read the viewer comments.
+Focus only on the comments that express a {sentiment_label} attitude toward the
+movie.
+Which aspects of the movie do these comments discuss?
+15
+10725
+
+[PDF page 16]
+Ensure the percentages sum to 100 and use integers only.
+Output your answer in the following JSON format:
+{"Actor": "<int>%", "Storyline": "<int>%", "Visual": "<int>%", "Audio":
+"<int>%"}
+Answer:
+P(S)Most Frequent
+Question:
+Read the viewer comments.
+What overall attitude do most viewers express?
+Positive or Negative.
+Answer:
+P(T)Most Frequent
+Question:
+Read the viewer comments.
+Which aspect of the movie is discussed most often?
+Choose from: Actor, Storyline, Visual, or Audio.
+Answer:
+P(S, T)Most Frequent
+Question:
+Read the viewer comments.
+Considering both (1) which aspect is being talked about and (2) whether the
+attitude is positive or negative.
+Which combination appears most often in the comments?
+Choose one pair from:
+(Actor,positive), (Actor,negative),
+(Storyline,positive), (Storyline,negative),
+(Visual,positive), (Visual,negative),
+(Audio,positive), (Audio,negative).
+Answer:
+P(S|T)Most Frequent
+Question:
+Read the viewer comments.
+Focus only on the comments that talk about the {topic} aspect of the movie.
+What attitude do viewers most commonly express?
+Positive or negative.
+Answer:
+16
+10726
+
+[PDF page 17]
+P(T|S)Most Frequent
+Question:
+Read the viewer comments.
+Focus only on the comments that express a {sentiment_label} attitude toward the
+movie.
+Which aspect of the movie is mentioned most often?
+Choose from: Actor, Storyline, Visual, or Audio.
+Answer:
+P(S)Second Most Frequent
+Question:
+Read the viewer comments.
+What overall attitude is the second most commonly expressed by viewers?
+Positive or Negative
+Answer:
+P(T)Second Most Frequent
+Question:
+Read the viewer comments.
+Which aspect of the movie is discussed the second most often?
+Choose from: Actor, Storyline, Visual, or Audio.
+Answer:
+P(S, T)Second Most Frequent
+Question:
+Read the viewer comments.
+Considering both (1) which aspect is being talked about and (2) whether the
+attitude is positive or negative.
+Which combination appears the second most often in the comments?
+Choose one pair from:
+(Actor,positive), (Actor,negative),
+(Storyline,positive), (Storyline,negative),
+(Visual,positive), (Visual,negative),
+(Audio,positive), (Audio,negative).
+Answer:
+P(S|T)Second Most Frequent
+Question:
+Read the viewer comments.
+Focus only on the comments that talk about the {topic} aspect of the movie.
+What attitude is the second most commonly expressed?
+Positive or Negative
+Answer:
+17
+10727
+
+[PDF page 18]
+P(T|S)Second Most Frequent
+Question:
+Read the viewer comments.
+Focus only on the comments that express a {sentiment_label} attitude toward the
+movie.
+Which aspect of the movie is mentioned the second most often?
+Choose from: Actor, Storyline, Visual, or Audio.
+Answer:
+18
+10728

@@ -1,0 +1,1430 @@
+{
+  "recorded_at_server_utc": "2026-10-20T04:54:28.171673+00:00",
+  "project": "/home/jmy/reading-bench",
+  "commands": {
+    "host": {
+      "argv": [
+        "uname",
+        "-a"
+      ],
+      "exit_code": 0,
+      "stdout": "Linux qilin 5.15.0-198-generic #208-Ubuntu SMP Fri Sep 4 10:22:38 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux\n",
+      "stderr": ""
+    },
+    "gpu": {
+      "argv": [
+        "nvidia-smi",
+        "--query-gpu=index,uuid,name,memory.total,memory.used,memory.free,utilization.gpu",
+        "--format=csv"
+      ],
+      "exit_code": 0,
+      "stdout": "index, uuid, name, memory.total [MiB], memory.used [MiB], memory.free [MiB], utilization.gpu [%]\n0, GPU-52b47fc0-2acd-b9dc-7c87-2aac499cc0d9, NVIDIA GeForce RTX 3090, 24576 MiB, 5284 MiB, 18842 MiB, 0 %\n1, GPU-9d18d415-7a1f-63bc-abc4-05c31594e27f, NVIDIA GeForce RTX 3090, 24576 MiB, 1 MiB, 24124 MiB, 0 %\n2, GPU-3e84cb7f-2b56-5dfe-827c-a1df3a2a3b34, NVIDIA GeForce RTX 3090, 24576 MiB, 1 MiB, 24124 MiB, 0 %\n3, GPU-bac43e0d-6a1c-d40c-ac9b-3b87b37d94a5, NVIDIA GeForce RTX 3090, 24576 MiB, 1 MiB, 24124 MiB, 0 %\n",
+      "stderr": ""
+    },
+    "compute_processes": {
+      "argv": [
+        "nvidia-smi",
+        "--query-compute-apps=gpu_uuid,pid,process_name,used_gpu_memory",
+        "--format=csv"
+      ],
+      "exit_code": 0,
+      "stdout": "gpu_uuid, pid, process_name, used_gpu_memory [MiB]\nGPU-52b47fc0-2acd-b9dc-7c87-2aac499cc0d9, 66202, /usr/local/bin/ollama, 5274 MiB\n",
+      "stderr": ""
+    },
+    "disk": {
+      "argv": [
+        "df",
+        "-B1",
+        "/home/jmy/reading-bench"
+      ],
+      "exit_code": 0,
+      "stdout": "Filesystem         1B-blocks          Used     Available Use% Mounted on\n/dev/sda       9717885374464 7412319096832 1815735324672  81% /home\n",
+      "stderr": ""
+    },
+    "tmux": {
+      "argv": [
+        "tmux",
+        "list-sessions"
+      ],
+      "exit_code": 0,
+      "stdout": "reading-bench-app: 1 windows (created Tue Oct 20 04:52:35 2026)\nreading-bench-model-download-20261020: 1 windows (created Tue Oct 20 04:54:23 2026)\nreading-bench-ollama: 1 windows (created Tue Oct 20 04:52:35 2026)\n",
+      "stderr": ""
+    },
+    "ports": {
+      "argv": [
+        "ss",
+        "-lntp"
+      ],
+      "exit_code": 0,
+      "stdout": "State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess                            \nLISTEN 0      4096       127.0.0.1:41047      0.0.0.0:*    users:((\"ollama\",pid=66202,fd=15))\nLISTEN 0      128          0.0.0.0:22         0.0.0.0:*                                      \nLISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*                                      \nLISTEN 0      5          127.0.0.1:8787       0.0.0.0:*    users:((\"python\",pid=65742,fd=3)) \nLISTEN 0      4096       127.0.0.1:11435      0.0.0.0:*    users:((\"ollama\",pid=65747,fd=3)) \nLISTEN 0      128             [::]:22            [::]:*                                      \n",
+      "stderr": ""
+    },
+    "models_size": {
+      "argv": [
+        "du",
+        "-sb",
+        "/home/jmy/reading-bench/runtime/models"
+      ],
+      "exit_code": 0,
+      "stdout": "10589920131\t/home/jmy/reading-bench/runtime/models\n",
+      "stderr": ""
+    },
+    "ollama_version": {
+      "argv": [
+        "/usr/local/bin/ollama",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "Warning: could not connect to a running Ollama instance\nWarning: client version is 0.13.5\n",
+      "stderr": ""
+    }
+  },
+  "http": {
+    "models": {
+      "url": "http://127.0.0.1:11435/api/tags",
+      "status": 200,
+      "data": {
+        "models": [
+          {
+            "name": "llama3.1:8b-instruct-q4_K_M",
+            "model": "llama3.1:8b-instruct-q4_K_M",
+            "modified_at": "2026-10-10T13:52:14.87745134Z",
+            "size": 4920753328,
+            "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+            "details": {
+              "parent_model": "",
+              "format": "gguf",
+              "family": "llama",
+              "families": [
+                "llama"
+              ],
+              "parameter_size": "8.0B",
+              "quantization_level": "Q4_K_M"
+            }
+          },
+          {
+            "name": "qwen2.5:7b-instruct",
+            "model": "qwen2.5:7b-instruct",
+            "modified_at": "2026-10-10T13:52:13.685411705Z",
+            "size": 4683087332,
+            "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+            "details": {
+              "parent_model": "",
+              "format": "gguf",
+              "family": "qwen2",
+              "families": [
+                "qwen2"
+              ],
+              "parameter_size": "7.6B",
+              "quantization_level": "Q4_K_M"
+            }
+          }
+        ]
+      }
+    },
+    "loaded_models": {
+      "url": "http://127.0.0.1:11435/api/ps",
+      "status": 200,
+      "data": {
+        "models": [
+          {
+            "name": "qwen2.5:7b-instruct",
+            "model": "qwen2.5:7b-instruct",
+            "size": 5341542400,
+            "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+            "details": {
+              "parent_model": "",
+              "format": "gguf",
+              "family": "qwen2",
+              "families": [
+                "qwen2"
+              ],
+              "parameter_size": "7.6B",
+              "quantization_level": "Q4_K_M"
+            },
+            "expires_at": "2026-10-20T05:03:59.218862329Z",
+            "size_vram": 5341542400,
+            "context_length": 8192
+          }
+        ]
+      }
+    },
+    "health": {
+      "url": "http://127.0.0.1:8787/api/health",
+      "status": 200,
+      "data": {
+        "status": "ok",
+        "version": "1.2.0"
+      }
+    },
+    "runs": {
+      "url": "http://127.0.0.1:8787/api/runs",
+      "status": 200,
+      "data": {
+        "runs": [
+          {
+            "id": "run-9bb8ee9680af",
+            "protocol": "reading-experiment-v2",
+            "status": "completed",
+            "created_at": "2026-10-13T12:29:42.337956+00:00",
+            "config": {
+              "bank_id": "server-engineering-single-paragraph-20261013",
+              "model_ids": [
+                "qwen25-7b"
+              ],
+              "article_ids": [
+                "zh-nbs-02a36a9fc6f8-devpilot"
+              ],
+              "allow_draft": true,
+              "strict_time": true,
+              "strict_budget": true,
+              "mode": "with_context",
+              "question_limit": 1,
+              "max_tokens": 512,
+              "temperature": 0,
+              "seed": 42,
+              "num_ctx": 8192,
+              "num_thread": 2,
+              "bootstrap_repetitions": 0,
+              "prompt_version": "reading-prompt-v2.0-paragraph-20261013",
+              "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+              "runner_version": "reading-runner-v2.1-attempt-log-20261013",
+              "output_schema": {
+                "type": "object",
+                "properties": {
+                  "answer": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "evidence_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "confidence": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "abstain": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "answer",
+                  "unit",
+                  "evidence_ids",
+                  "confidence",
+                  "abstain"
+                ],
+                "additionalProperties": false
+              },
+              "retry_policy": "completed_results_not_retried;resume_only_unfinished;unknown_inflight_may_repeat_with_attempt_log"
+            },
+            "formal": false,
+            "progress": {
+              "done": 1,
+              "total": 1
+            },
+            "summary": [
+              {
+                "model_id": "qwen25-7b",
+                "model_name": "Qwen2.5 · 7B Instruct",
+                "questions": 1,
+                "completed": 1,
+                "errors": 0,
+                "language_metrics": {
+                  "zh": {
+                    "planned_questions": 1,
+                    "articles": 1,
+                    "primary_metrics": {
+                      "choice_accuracy": null,
+                      "short_em": null,
+                      "short_token_f1": null,
+                      "numeric_strict_accuracy": 1.0,
+                      "evidence_exact_answerable": 0.0,
+                      "evidence_precision_answerable": 0.0,
+                      "evidence_recall_answerable": 0.0,
+                      "evidence_f1_answerable": 0.0,
+                      "correct_refusal_rate": null,
+                      "unanswerable_substantive_rate": null,
+                      "false_refusal_rate": 0.0
+                    },
+                    "by_question_kind": {
+                      "choice": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      },
+                      "short": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      },
+                      "numeric": {
+                        "planned_questions": 1,
+                        "articles": 1,
+                        "errors": 0,
+                        "valid_output_rate": 1.0,
+                        "strict_answer_accuracy": 1.0,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": 1.0,
+                          "evidence_exact_answerable": 0.0,
+                          "evidence_precision_answerable": 0.0,
+                          "evidence_recall_answerable": 0.0,
+                          "evidence_f1_answerable": 0.0,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": 0.0
+                        },
+                        "joint_success_supplement": 0.0
+                      },
+                      "unanswerable": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      }
+                    },
+                    "supplemental_metrics": {
+                      "grounded_understanding": null,
+                      "joint_item_mean_answerable": 0.0,
+                      "dimension_scores": {
+                        "D1": {
+                          "joint_article_macro": 0.0,
+                          "articles": 1,
+                          "questions": 1
+                        },
+                        "D2": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D3": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D4": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D5": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        }
+                      }
+                    },
+                    "grounded_understanding": null,
+                    "dimension_scores": {
+                      "D1": {
+                        "joint_article_macro": 0.0,
+                        "articles": 1,
+                        "questions": 1
+                      },
+                      "D2": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D3": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D4": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D5": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      }
+                    },
+                    "answerable_questions": 1,
+                    "unanswerable_questions": 0,
+                    "answer_accuracy_answerable": 1.0,
+                    "joint_item_mean_answerable": 0.0,
+                    "evidence_precision_answerable": 0.0,
+                    "evidence_recall_answerable": 0.0,
+                    "evidence_f1_answerable": 0.0,
+                    "answer_evidence_quadrants": {
+                      "both_correct": 0,
+                      "answer_only": 1,
+                      "evidence_only": 0,
+                      "both_incorrect_or_error": 0
+                    },
+                    "correct_refusal_rate": null,
+                    "unanswerable_substantive_rate": null,
+                    "false_refusal_rate": 0.0,
+                    "answerable_substantive_rate": 1.0,
+                    "balanced_answerability": null,
+                    "valid_output_rate": 1.0,
+                    "errors": 0,
+                    "brier_answer": 0.0,
+                    "brier_effective_n": 1
+                  },
+                  "en": {
+                    "planned_questions": 0,
+                    "articles": 0,
+                    "primary_metrics": {
+                      "choice_accuracy": null,
+                      "short_em": null,
+                      "short_token_f1": null,
+                      "numeric_strict_accuracy": null,
+                      "evidence_exact_answerable": null,
+                      "evidence_precision_answerable": null,
+                      "evidence_recall_answerable": null,
+                      "evidence_f1_answerable": null,
+                      "correct_refusal_rate": null,
+                      "unanswerable_substantive_rate": null,
+                      "false_refusal_rate": null
+                    },
+                    "by_question_kind": {
+                      "choice": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      },
+                      "short": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      },
+                      "numeric": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      },
+                      "unanswerable": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      }
+                    },
+                    "supplemental_metrics": {
+                      "grounded_understanding": null,
+                      "joint_item_mean_answerable": null,
+                      "dimension_scores": {
+                        "D1": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D2": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D3": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D4": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D5": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        }
+                      }
+                    },
+                    "grounded_understanding": null,
+                    "dimension_scores": {
+                      "D1": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D2": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D3": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D4": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D5": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      }
+                    },
+                    "answerable_questions": 0,
+                    "unanswerable_questions": 0,
+                    "answer_accuracy_answerable": null,
+                    "joint_item_mean_answerable": null,
+                    "evidence_precision_answerable": null,
+                    "evidence_recall_answerable": null,
+                    "evidence_f1_answerable": null,
+                    "answer_evidence_quadrants": {
+                      "both_correct": 0,
+                      "answer_only": 0,
+                      "evidence_only": 0,
+                      "both_incorrect_or_error": 0
+                    },
+                    "correct_refusal_rate": null,
+                    "unanswerable_substantive_rate": null,
+                    "false_refusal_rate": null,
+                    "answerable_substantive_rate": null,
+                    "balanced_answerability": null,
+                    "valid_output_rate": null,
+                    "errors": 0,
+                    "brier_answer": null,
+                    "brier_effective_n": 0
+                  },
+                  "bilingual_equal_weight": null,
+                  "bilingual_equal_weight_role": "supplemental_custom_grounded_understanding"
+                },
+                "protocol": "reading-experiment-v2"
+              }
+            ],
+            "attempts": [
+              {
+                "id": "attempt-4b88e71cc361",
+                "model_id": "qwen25-7b",
+                "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+                "question_id": "q01",
+                "status": "recorded_response",
+                "started_at": "2026-10-13T12:29:42.380823+00:00",
+                "prompt_sha256": "4fe644758d53ae7c43a131ca96558577e57c13580dd590fb503bdea7c874fe70",
+                "finished_at": "2026-10-13T12:30:50.872543+00:00",
+                "error": null,
+                "latency_s": 68.487
+              }
+            ],
+            "selection": {
+              "source_bank_questions": 1,
+              "selected_questions": 1
+            },
+            "cancel_requested": false,
+            "methodology_note": "AI草稿不能当正式排名。时间隔离与固定digest不证明零污染。",
+            "started_at": "2026-10-13T12:29:42.345296+00:00",
+            "finished_at": "2026-10-13T12:30:50.880810+00:00"
+          },
+          {
+            "id": "run-c92e4d3e9dfe",
+            "protocol": "reading-experiment-v2",
+            "status": "failed",
+            "created_at": "2026-10-13T12:20:04.585236+00:00",
+            "config": {
+              "bank_id": "dev-pilot-v2",
+              "model_ids": [
+                "qwen25-7b"
+              ],
+              "article_ids": [
+                "zh-nbs-02a36a9fc6f8-devpilot"
+              ],
+              "allow_draft": true,
+              "strict_time": true,
+              "strict_budget": true,
+              "mode": "with_context",
+              "question_limit": 1,
+              "max_tokens": 512,
+              "temperature": 0,
+              "seed": 42,
+              "num_ctx": 8192,
+              "num_thread": 2,
+              "bootstrap_repetitions": 0,
+              "prompt_version": "reading-prompt-v2.0-paragraph-20261013",
+              "grader_version": "reading-grader-v2.1-task-metrics-draft-20261013",
+              "runner_version": "reading-runner-v2.1-attempt-log-20261013",
+              "output_schema": {
+                "type": "object",
+                "properties": {
+                  "answer": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "evidence_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "confidence": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "abstain": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "answer",
+                  "unit",
+                  "evidence_ids",
+                  "confidence",
+                  "abstain"
+                ],
+                "additionalProperties": false
+              },
+              "retry_policy": "completed_results_not_retried;resume_only_unfinished;unknown_inflight_may_repeat_with_attempt_log"
+            },
+            "formal": false,
+            "progress": {
+              "done": 1,
+              "total": 1
+            },
+            "summary": [
+              {
+                "model_id": "qwen25-7b",
+                "model_name": "Qwen2.5 · 7B Instruct",
+                "questions": 1,
+                "completed": 1,
+                "errors": 1,
+                "language_metrics": {
+                  "zh": {
+                    "planned_questions": 1,
+                    "articles": 1,
+                    "primary_metrics": {
+                      "choice_accuracy": null,
+                      "short_em": null,
+                      "short_token_f1": null,
+                      "numeric_strict_accuracy": 0.0,
+                      "evidence_exact_answerable": 0.0,
+                      "evidence_precision_answerable": 0.0,
+                      "evidence_recall_answerable": 0.0,
+                      "evidence_f1_answerable": 0.0,
+                      "correct_refusal_rate": null,
+                      "unanswerable_substantive_rate": null,
+                      "false_refusal_rate": 0.0
+                    },
+                    "by_question_kind": {
+                      "choice": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      },
+                      "short": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      },
+                      "numeric": {
+                        "planned_questions": 1,
+                        "articles": 1,
+                        "errors": 1,
+                        "valid_output_rate": 0.0,
+                        "strict_answer_accuracy": 0.0,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": 0.0,
+                          "evidence_exact_answerable": 0.0,
+                          "evidence_precision_answerable": 0.0,
+                          "evidence_recall_answerable": 0.0,
+                          "evidence_f1_answerable": 0.0,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": 0.0
+                        },
+                        "joint_success_supplement": 0.0
+                      },
+                      "unanswerable": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      }
+                    },
+                    "supplemental_metrics": {
+                      "grounded_understanding": null,
+                      "joint_item_mean_answerable": 0.0,
+                      "dimension_scores": {
+                        "D1": {
+                          "joint_article_macro": 0.0,
+                          "articles": 1,
+                          "questions": 1
+                        },
+                        "D2": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D3": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D4": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D5": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        }
+                      }
+                    },
+                    "grounded_understanding": null,
+                    "dimension_scores": {
+                      "D1": {
+                        "joint_article_macro": 0.0,
+                        "articles": 1,
+                        "questions": 1
+                      },
+                      "D2": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D3": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D4": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D5": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      }
+                    },
+                    "answerable_questions": 1,
+                    "unanswerable_questions": 0,
+                    "answer_accuracy_answerable": 0.0,
+                    "joint_item_mean_answerable": 0.0,
+                    "evidence_precision_answerable": 0.0,
+                    "evidence_recall_answerable": 0.0,
+                    "evidence_f1_answerable": 0.0,
+                    "answer_evidence_quadrants": {
+                      "both_correct": 0,
+                      "answer_only": 0,
+                      "evidence_only": 0,
+                      "both_incorrect_or_error": 1
+                    },
+                    "correct_refusal_rate": null,
+                    "unanswerable_substantive_rate": null,
+                    "false_refusal_rate": 0.0,
+                    "answerable_substantive_rate": 0.0,
+                    "balanced_answerability": null,
+                    "valid_output_rate": 0.0,
+                    "errors": 1,
+                    "brier_answer": null,
+                    "brier_effective_n": 0
+                  },
+                  "en": {
+                    "planned_questions": 0,
+                    "articles": 0,
+                    "primary_metrics": {
+                      "choice_accuracy": null,
+                      "short_em": null,
+                      "short_token_f1": null,
+                      "numeric_strict_accuracy": null,
+                      "evidence_exact_answerable": null,
+                      "evidence_precision_answerable": null,
+                      "evidence_recall_answerable": null,
+                      "evidence_f1_answerable": null,
+                      "correct_refusal_rate": null,
+                      "unanswerable_substantive_rate": null,
+                      "false_refusal_rate": null
+                    },
+                    "by_question_kind": {
+                      "choice": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      },
+                      "short": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      },
+                      "numeric": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      },
+                      "unanswerable": {
+                        "planned_questions": 0,
+                        "articles": 0,
+                        "errors": 0,
+                        "valid_output_rate": null,
+                        "strict_answer_accuracy": null,
+                        "primary_metrics": {
+                          "choice_accuracy": null,
+                          "short_em": null,
+                          "short_token_f1": null,
+                          "numeric_strict_accuracy": null,
+                          "evidence_exact_answerable": null,
+                          "evidence_precision_answerable": null,
+                          "evidence_recall_answerable": null,
+                          "evidence_f1_answerable": null,
+                          "correct_refusal_rate": null,
+                          "unanswerable_substantive_rate": null,
+                          "false_refusal_rate": null
+                        },
+                        "joint_success_supplement": null
+                      }
+                    },
+                    "supplemental_metrics": {
+                      "grounded_understanding": null,
+                      "joint_item_mean_answerable": null,
+                      "dimension_scores": {
+                        "D1": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D2": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D3": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D4": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        },
+                        "D5": {
+                          "joint_article_macro": null,
+                          "articles": 0,
+                          "questions": 0
+                        }
+                      }
+                    },
+                    "grounded_understanding": null,
+                    "dimension_scores": {
+                      "D1": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D2": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D3": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D4": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      },
+                      "D5": {
+                        "joint_article_macro": null,
+                        "articles": 0,
+                        "questions": 0
+                      }
+                    },
+                    "answerable_questions": 0,
+                    "unanswerable_questions": 0,
+                    "answer_accuracy_answerable": null,
+                    "joint_item_mean_answerable": null,
+                    "evidence_precision_answerable": null,
+                    "evidence_recall_answerable": null,
+                    "evidence_f1_answerable": null,
+                    "answer_evidence_quadrants": {
+                      "both_correct": 0,
+                      "answer_only": 0,
+                      "evidence_only": 0,
+                      "both_incorrect_or_error": 0
+                    },
+                    "correct_refusal_rate": null,
+                    "unanswerable_substantive_rate": null,
+                    "false_refusal_rate": null,
+                    "answerable_substantive_rate": null,
+                    "balanced_answerability": null,
+                    "valid_output_rate": null,
+                    "errors": 0,
+                    "brier_answer": null,
+                    "brier_effective_n": 0
+                  },
+                  "bilingual_equal_weight": null,
+                  "bilingual_equal_weight_role": "supplemental_custom_grounded_understanding"
+                },
+                "protocol": "reading-experiment-v2"
+              }
+            ],
+            "attempts": [
+              {
+                "id": "attempt-4874e6567be5",
+                "model_id": "qwen25-7b",
+                "article_id": "zh-nbs-02a36a9fc6f8-devpilot",
+                "question_id": "q01",
+                "status": "recorded_error",
+                "started_at": "2026-10-13T12:20:04.629978+00:00",
+                "prompt_sha256": "19b81737886e41a941053c5a642e082a2976b7ed42965af345b5266242eeec38",
+                "finished_at": "2026-10-13T12:23:04.735816+00:00",
+                "error": "模型服务连接失败或超时",
+                "latency_s": 180.101
+              }
+            ],
+            "selection": {
+              "source_bank_questions": 16,
+              "selected_questions": 1
+            },
+            "cancel_requested": false,
+            "methodology_note": "AI草稿不能当正式排名。时间隔离与固定digest不证明零污染。",
+            "started_at": "2026-10-13T12:20:04.591984+00:00",
+            "finished_at": "2026-10-13T12:23:04.744249+00:00"
+          },
+          {
+            "id": "run-d71d5da646d6",
+            "status": "completed",
+            "created_at": "2026-10-10T14:00:46.343536+00:00",
+            "config": {
+              "model_ids": [
+                "qwen25-7b",
+                "llama31-8b"
+              ],
+              "article_ids": [
+                "en-brown-dwarfs-2026"
+              ],
+              "mode": "no_context",
+              "strict_time": true,
+              "question_limit": 4,
+              "temperature": 0,
+              "max_tokens": 512,
+              "seed": 42,
+              "num_ctx": 8192,
+              "num_thread": 2,
+              "prompt_version": "reading-prompt-v1.1-schema",
+              "grader_version": "reading-grader-v1.1",
+              "output_schema": {
+                "type": "object",
+                "properties": {
+                  "answer": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "confidence": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "abstain": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "answer",
+                  "evidence",
+                  "confidence",
+                  "abstain"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "progress": {
+              "done": 8,
+              "total": 8
+            },
+            "summary": [
+              {
+                "model_id": "qwen25-7b",
+                "model_name": "Qwen2.5 · 7B Instruct",
+                "n": 4,
+                "successful": 4,
+                "errors": 0,
+                "em": 0.25,
+                "f1": 0.25,
+                "evidence_f1": null,
+                "evidence_n": 0,
+                "abstention_accuracy": 0.25,
+                "unanswerable_recall": 1.0,
+                "false_abstention_rate": 1.0,
+                "brier": 0.1875,
+                "brier_n": 4,
+                "mean_latency_s": 23.1515,
+                "p95_latency_s": 50.615,
+                "input_tokens": 1197,
+                "output_tokens": 103,
+                "by_type": {
+                  "fact": {
+                    "n": 1,
+                    "em": 0.0,
+                    "f1": 0.0
+                  },
+                  "inference": {
+                    "n": 1,
+                    "em": 0.0,
+                    "f1": 0.0
+                  },
+                  "numeric": {
+                    "n": 1,
+                    "em": 0.0,
+                    "f1": 0.0
+                  },
+                  "unanswerable": {
+                    "n": 1,
+                    "em": 1.0,
+                    "f1": 1.0
+                  }
+                },
+                "denominator_note": "EM/F1 包含请求失败题（计0）；校准与拒答仅统计有效响应；尚未执行题不在当前分母。"
+              },
+              {
+                "model_id": "llama31-8b",
+                "model_name": "Llama 3.1 · 8B Instruct",
+                "n": 4,
+                "successful": 3,
+                "errors": 1,
+                "em": 0.5,
+                "f1": 0.5,
+                "evidence_f1": null,
+                "evidence_n": 0,
+                "abstention_accuracy": 0.6666666666666666,
+                "unanswerable_recall": 1.0,
+                "false_abstention_rate": 0.5,
+                "brier": 0.3333333333333333,
+                "brier_n": 3,
+                "mean_latency_s": 15.689,
+                "p95_latency_s": 17.903,
+                "input_tokens": 1260,
+                "output_tokens": 144,
+                "by_type": {
+                  "fact": {
+                    "n": 1,
+                    "em": 0.0,
+                    "f1": 0.0
+                  },
+                  "inference": {
+                    "n": 1,
+                    "em": 1.0,
+                    "f1": 1.0
+                  },
+                  "numeric": {
+                    "n": 1,
+                    "em": 0.0,
+                    "f1": 0.0
+                  },
+                  "unanswerable": {
+                    "n": 1,
+                    "em": 1.0,
+                    "f1": 1.0
+                  }
+                },
+                "denominator_note": "EM/F1 包含请求失败题（计0）；校准与拒答仅统计有效响应；尚未执行题不在当前分母。"
+              }
+            ],
+            "cancel_requested": false,
+            "methodology_note": "时间门槛检查发布日期声明与固定digest，不证明历史训练/微调数据无污染。示例题库为AI整理和静态校验，正式结论需独立人工复核。",
+            "started_at": "2026-10-10T14:06:29.770931+00:00",
+            "finished_at": "2026-10-10T14:09:43.349559+00:00"
+          },
+          {
+            "id": "run-6e0a37096c94",
+            "status": "completed",
+            "created_at": "2026-10-10T14:00:46.006745+00:00",
+            "config": {
+              "model_ids": [
+                "qwen25-7b",
+                "llama31-8b"
+              ],
+              "article_ids": [
+                "en-brown-dwarfs-2026"
+              ],
+              "mode": "with_context",
+              "strict_time": true,
+              "question_limit": 4,
+              "temperature": 0,
+              "max_tokens": 512,
+              "seed": 42,
+              "num_ctx": 8192,
+              "num_thread": 2,
+              "prompt_version": "reading-prompt-v1.1-schema",
+              "grader_version": "reading-grader-v1.1",
+              "output_schema": {
+                "type": "object",
+                "properties": {
+                  "answer": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "confidence": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "abstain": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "answer",
+                  "evidence",
+                  "confidence",
+                  "abstain"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "progress": {
+              "done": 8,
+              "total": 8
+            },
+            "summary": [
+              {
+                "model_id": "qwen25-7b",
+                "model_name": "Qwen2.5 · 7B Instruct",
+                "n": 4,
+                "successful": 4,
+                "errors": 0,
+                "em": 1.0,
+                "f1": 1.0,
+                "evidence_f1": 0.5542342342342342,
+                "evidence_n": 3,
+                "abstention_accuracy": 1.0,
+                "unanswerable_recall": 1.0,
+                "false_abstention_rate": 0.0,
+                "brier": 0.0,
+                "brier_n": 4,
+                "mean_latency_s": 38.21575,
+                "p95_latency_s": 101.901,
+                "input_tokens": 2545,
+                "output_tokens": 181,
+                "by_type": {
+                  "fact": {
+                    "n": 1,
+                    "em": 1.0,
+                    "f1": 1.0
+                  },
+                  "inference": {
+                    "n": 1,
+                    "em": 1.0,
+                    "f1": 1.0
+                  },
+                  "numeric": {
+                    "n": 1,
+                    "em": 1.0,
+                    "f1": 1.0
+                  },
+                  "unanswerable": {
+                    "n": 1,
+                    "em": 1.0,
+                    "f1": 1.0
+                  }
+                },
+                "denominator_note": "EM/F1 包含请求失败题（计0）；校准与拒答仅统计有效响应；尚未执行题不在当前分母。"
+              },
+              {
+                "model_id": "llama31-8b",
+                "model_name": "Llama 3.1 · 8B Instruct",
+                "n": 4,
+                "successful": 4,
+                "errors": 0,
+                "em": 1.0,
+                "f1": 1.0,
+                "evidence_f1": 0.6162962962962962,
+                "evidence_n": 3,
+                "abstention_accuracy": 1.0,
+                "unanswerable_recall": 1.0,
+                "false_abstention_rate": 0.0,
+                "brier": 0.25,
+                "brier_n": 4,
+                "mean_latency_s": 47.702,
+                "p95_latency_s": 119.21,
+                "input_tokens": 2564,
+                "output_tokens": 230,
+                "by_type": {
+                  "fact": {
+                    "n": 1,
+                    "em": 1.0,
+                    "f1": 1.0
+                  },
+                  "inference": {
+                    "n": 1,
+                    "em": 1.0,
+                    "f1": 1.0
+                  },
+                  "numeric": {
+                    "n": 1,
+                    "em": 1.0,
+                    "f1": 1.0
+                  },
+                  "unanswerable": {
+                    "n": 1,
+                    "em": 1.0,
+                    "f1": 1.0
+                  }
+                },
+                "denominator_note": "EM/F1 包含请求失败题（计0）；校准与拒答仅统计有效响应；尚未执行题不在当前分母。"
+              }
+            ],
+            "cancel_requested": false,
+            "methodology_note": "时间门槛检查发布日期声明与固定digest，不证明历史训练/微调数据无污染。示例题库为AI整理和静态校验，正式结论需独立人工复核。",
+            "started_at": "2026-10-10T14:00:46.012735+00:00",
+            "finished_at": "2026-10-10T14:06:29.764592+00:00"
+          }
+        ]
+      }
+    }
+  },
+  "compute_owners": {
+    "argv": [
+      "ps",
+      "-p",
+      "66202",
+      "-o",
+      "pid,user,comm"
+    ],
+    "exit_code": 0,
+    "stdout": "    PID USER     COMMAND\n  66202 jmy      ollama\n",
+    "stderr": ""
+  },
+  "cuda": {
+    "physical_device": "0",
+    "cuInit_code": 0,
+    "cuDeviceGetCount_code": 0,
+    "device_count": 1,
+    "ready": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "run_id": "run-61df87c2a21f",
+  "status": "completed",
+  "base_url": "http://127.0.0.1:8877",
+  "preset_id": "zh-reading",
+  "model_id": "qwen25-7b",
+  "progress": {
+    "done": 3,
+    "total": 3
+  },
+  "actual_model_call_attempts": 3,
+  "response_errors": 0,
+  "idempotent_retry_same_run": true,
+  "reload_export_match": true,
+  "csv_rows": 3,
+  "frontend_hashes": {
+    "app.js": "e76134a67803ab77da7599733a228bb22bd0c8a15a0302a782c026ed8f793e31",
+    "styles.css": "35fe947975dd2afff94880cee0be79eb06d0609af7efbd4829f26b3a01b15e11",
+    "index.html": "e8f00144e977823990ee035921df24da4558b34890913e1aa113ea321094ff9a"
+  },
+  "formal": false,
+  "artifacts": [
+    {
+      "path": "created.json",
+      "sha256": "c1818d734d4a40f96e2ca29832b9400f8068ae20fbc152b7ecf2ef123348aeee"
+    },
+    {
+      "path": "idempotent-retry.json",
+      "sha256": "d4bc812d3586295c2eae9acfe68451905d3f433e0c77b09f13bca72eef859097"
+    },
+    {
+      "path": "plan.json",
+      "sha256": "5ecbbe61a8f93292a320c2f278cba1919160736990dba5be7e5f73044b989074"
+    },
+    {
+      "path": "run-61df87c2a21f.csv",
+      "sha256": "c53233aad1c654887adc29abde036600f86515e8f3ff1cf899d78990c7b87203"
+    },
+    {
+      "path": "run-61df87c2a21f.json",
+      "sha256": "ca2b99342aff772145ef57b5b4deadd874ea86bed0e2e1053ec596c9a49ce330"
+    },
+    {
+      "path": "status-before.json",
+      "sha256": "2692141d35f683abd83f3dedbbecfbaa5f06cad40f1cf3253b3c70a3c245e617"
+    }
+  ]
+}

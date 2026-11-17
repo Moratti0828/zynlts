@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-17",
+  "slides": [
+    {
+      "file": "AI原生工程实践课程_章节01_衔接与2026更新_课堂教学PPT_V1.1_20260830.pptx",
+      "sha256": "6073c84d8be434d81b1fbb3659f2f092695cb433e8f968ea2089d7dad0cd0e57"
+    },
+    {
+      "file": "AI原生工程实践课程_前导.pptx",
+      "sha256": "3f7c25c6eb84795ca247610c8ec114a4e6a57888849c349730d9d369e9516cf0"
+    },
+    {
+      "file": "AI原生工程实践课程_章节02_Intent_Specification与双层Harness_课堂教学PPT_V1.1_20260830-D9 MacPro.pptx",
+      "sha256": "9b711c132d3d7a2bb1919190c974ef90099940b18e2795d93e9aba5330a26d08"
+    },
+    {
+      "file": "AI原生软件工程实践：项目设计与结对评价介绍.pptx",
+      "sha256": "0cea79e2aa43522293e5c6ddee4bd143e1be6a85cff4ceb5c9bbcf05bc3de274"
+    },
+    {
+      "file": "AI原生工程实践课程_章节04_Engineering_Experiment成本与结对复现_V3.0.pptx",
+      "sha256": "260377fdd7e4ac03fa9f9ceeec7fe02c2957fdeb14b3301abb56591f67fdcce5"
+    }
+  ],
+  "initial_environment_failure": {
+    "python": "3.9",
+    "errors": 7,
+    "skipped": 1,
+    "description": "6 unsupported Python annotation errors plus sandbox loopback bind denial"
+  },
+  "supported_python_sandbox_attempt": {
+    "python": "3.12",
+    "errors": 1,
+    "skipped": 1,
+    "description": "loopback bind denial; later full run with optional deps and loopback access passed"
+  }
+}

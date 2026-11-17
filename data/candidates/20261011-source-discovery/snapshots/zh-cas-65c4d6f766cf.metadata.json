@@ -1,0 +1,69 @@
+{
+  "id": "zh-cas-65c4d6f766cf",
+  "title": "研究以“刷上刷”共价结构实现多肽药物的有序胞内激活",
+  "language": "zh",
+  "provider": "cas",
+  "source_name": "中国科学院",
+  "source_url": "https://www.cas.cn/syky/202610/t20261008_5121498.shtml",
+  "request_url": "https://www.cas.cn/syky/202610/t20261008_5121498.shtml",
+  "source_attribution": "杭州医学研究所,中国科学院",
+  "published_at": "2026-10-10",
+  "first_published_at": null,
+  "date_evidence": {
+    "kind": "publication_meta",
+    "field": "PubDate",
+    "value": "2026-10-10 08:17"
+  },
+  "date_review_note": "Official source page/API publication verified; earlier publication or repost elsewhere remains to be checked. Do not equate an URL stamp or update with first publication.",
+  "recency_tier": "2026-H2",
+  "domain_provisional": "science_technology",
+  "genre_provisional": "research_explanation",
+  "rights": "机构官网新闻不自动属于公有领域。仅作为本地、私有的教学科研候选；保留署名及出处。公开分发全文或题库前须逐篇核实授权；转载、照片、第三方引语须单独审查。",
+  "scope": "article_body_candidate",
+  "extraction_selector": ".TRS_UEDITOR",
+  "text": "药物递送的核心是让药物在正确时间到达正确位置。越来越多的治疗靶点位于细胞内部甚至特定细胞器，跨越连续的生物屏障并实现精准的亚细胞递送成为新一代药物递送的难点。对于治疗性多肽而言，这一问题尤为突出。\n\n近日，中国科学院杭州医学研究所构建顺序解屏蔽肽释放架构SUPRA，通过共价brush-on-brush“刷上刷”层级结构，将具有不同响应功能的结构分配到内外两个层级，使多肽活性随着递送过程逐步恢复。\n\n血液循环中，外层聚乙二醇屏蔽多肽的膜活性，提高其稳定性、减少非特异性作用。到达肿瘤后，局部弱酸性环境去除聚乙二醇屏蔽，增强材料与细胞膜的相互作用。进入酸性内体后，解屏蔽使多肽刷暴露，引发内体膜破坏与胞质逃逸。在具有较强还原性的胞质中，聚二硫键主链断裂，解除多肽刷的结构约束，释放KLAK相关降解产物并在线粒体富集发挥作用。 这一过程具有明确的空间和时间依赖性。\n\nSUPRA利用不同细胞环境依次触发相应的结构变化，让前序过程为后一步创造条件，实现从循环保护到胞内激活的衔接。结果表明，SUPRA可以改善多肽的稳定性和体内递送表现，具备良好的抗肿瘤活性。\n\n该研究提出基于共价层级结构协调生物环境、材料状态与药物作用顺序的设计策略，为跨越多重生物屏障的治疗性分子提供了新的递送思路。\n\n相关研究成果发表在《德国应用化学》上。",
+  "paragraphs": [
+    "药物递送的核心是让药物在正确时间到达正确位置。越来越多的治疗靶点位于细胞内部甚至特定细胞器，跨越连续的生物屏障并实现精准的亚细胞递送成为新一代药物递送的难点。对于治疗性多肽而言，这一问题尤为突出。",
+    "近日，中国科学院杭州医学研究所构建顺序解屏蔽肽释放架构SUPRA，通过共价brush-on-brush“刷上刷”层级结构，将具有不同响应功能的结构分配到内外两个层级，使多肽活性随着递送过程逐步恢复。",
+    "血液循环中，外层聚乙二醇屏蔽多肽的膜活性，提高其稳定性、减少非特异性作用。到达肿瘤后，局部弱酸性环境去除聚乙二醇屏蔽，增强材料与细胞膜的相互作用。进入酸性内体后，解屏蔽使多肽刷暴露，引发内体膜破坏与胞质逃逸。在具有较强还原性的胞质中，聚二硫键主链断裂，解除多肽刷的结构约束，释放KLAK相关降解产物并在线粒体富集发挥作用。 这一过程具有明确的空间和时间依赖性。",
+    "SUPRA利用不同细胞环境依次触发相应的结构变化，让前序过程为后一步创造条件，实现从循环保护到胞内激活的衔接。结果表明，SUPRA可以改善多肽的稳定性和体内递送表现，具备良好的抗肿瘤活性。",
+    "该研究提出基于共价层级结构协调生物环境、材料状态与药物作用顺序的设计策略，为跨越多重生物屏障的治疗性分子提供了新的递送思路。",
+    "相关研究成果发表在《德国应用化学》上。"
+  ],
+  "body_bytes": 1598,
+  "word_count": null,
+  "han_count": 479,
+  "sha256": "d4bd93949c5622b31a7dd87c114348b3efede1a3c369c8ee9718d1db93cf9818",
+  "raw_sha256": "4363782340313781833c65fb6ee759932791cc88ad7d9165ca4e0557aaed770f",
+  "raw_path": "data/candidates/20261011-source-discovery/snapshots/zh-cas-65c4d6f766cf.html",
+  "text_path": "data/candidates/20261011-source-discovery/snapshots/zh-cas-65c4d6f766cf.txt",
+  "reviewed": false,
+  "review_note": "真实下载的待审候选。尚无阅读理解题、参考答案或人工审定；不计入正式测评题库。",
+  "resolved_url": "https://www.cas.cn/syky/202610/t20261008_5121498.shtml",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "etag": null,
+  "last_modified": null,
+  "downloaded_at": "2026-10-11T02:45:47+00:00",
+  "derived_text_processing_log": {
+    "version": "candidate-prose-cleaning-v1",
+    "processed_at": "2026-10-11T02:54:49+00:00",
+    "previous_text_sha256": "9fc9d073ba13f82030228dd5eb8fb95d129e8f8b1088dfce3da56a7498a9b380",
+    "previous_selector": ".TRS_UEDITOR",
+    "history_metadata_path": "data/candidates/20261011-source-discovery/processing-history/zh-cas-65c4d6f766cf.v1.metadata.json",
+    "removed_paragraphs": [
+      {
+        "text": "研究以“刷上刷”共价结构实现多肽药物的有序胞内激活",
+        "reason": "duplicate article heading"
+      }
+    ],
+    "original_paragraph_count": 7,
+    "result_paragraph_count": 6,
+    "policy": "Remove only page UI/recommendation containers, repeated title and standalone numbered CAS image captions; preserve original wording and document paragraphs. Raw source bytes unchanged."
+  },
+  "raw_capture_kind": "http_response_bytes",
+  "rights_reference_url": null,
+  "rights_review_status": "pending_article_author_and_third_party_rights_review",
+  "human_reviewed": false,
+  "status": "candidate"
+}

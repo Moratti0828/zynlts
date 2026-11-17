@@ -1,0 +1,1177 @@
+﻿model_name,language,article_id,question_id,dimension,kind,question,answer,unit,evidence_ids,confidence,abstain,answer_correct,choice_accuracy,short_em,short_token_f1,numeric_strict_accuracy,evidence_exact,evidence_f1,joint_success,brier_answer,latency_s,input_tokens,output_tokens,error,raw_response
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-083e9d9d0cfbbf2b79a2,q01,D1,short,What must a project adhere to?,zoning and building code requirements,,"[""ref-squad2-083e9d9d0cfbbf2b79a2:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,2.966,488,80,,"{
+  ""answer"": ""zoning and building code requirements"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-083e9d9d0cfbbf2b79a2:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-083e9d9d0cfbbf2b79a2,q02,D1,short,Who may seek changes or exemptions in the law that governs the land where the building will be built?,An attorney,,"[""ref-squad2-083e9d9d0cfbbf2b79a2:p001""]",1.0,False,1,,1,1.0,,1,1.0,1,0.0,0.772,502,79,,"{
+  ""answer"": ""An attorney"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-083e9d9d0cfbbf2b79a2:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-083e9d9d0cfbbf2b79a2,q03,D6,unanswerable,What do exemptions come from that prevent bad things?,malum prohibitum considerations,,"[""ref-squad2-083e9d9d0cfbbf2b79a2:p001""]",0.95,False,0,,,,,0,,0,0.9025,0.807,491,84,,"{
+  ""answer"": ""malum prohibitum considerations"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-083e9d9d0cfbbf2b79a2:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7816ed95a3a075f7465b,q01,D1,short,How does HT strive to amass power?,"Through ideological struggle, targeting elites for a change of government",,"[""ref-squad2-7816ed95a3a075f7465b:p001""]",0.9,False,0,,0,0.3333333333333333,,1,1.0,0,0.81,0.919,455,93,,"{
+  ""answer"": ""Through ideological struggle, targeting elites for a change of government"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-7816ed95a3a075f7465b:p001""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7816ed95a3a075f7465b,q02,D1,short,Who specifically does HT target to change the opinion of?,Muslim elites,,"[""ref-squad2-7816ed95a3a075f7465b:p001""]",0.9,False,0,,0,0.6666666666666666,,1,1.0,0,0.81,0.772,456,81,,"{
+  ""answer"": ""Muslim elites"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-7816ed95a3a075f7465b:p001""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7816ed95a3a075f7465b,q03,D6,unanswerable,What type of jihad does HT prefer to engage in?,Ideological struggle,,"[""ref-squad2-7816ed95a3a075f7465b:p001""]",0.9,False,0,,,,,0,,0,0.81,0.771,459,81,,"{
+  ""answer"": ""Ideological struggle"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-7816ed95a3a075f7465b:p001""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-0fd3a0b720dd6f6468a6,q01,D1,short,How did the Nixon administration negotiate with the uncooperative countries?,By arranging for Israel to pull back from certain areas and promising a negotiated settlement between belligerents,,"[""ref-squad2-0fd3a0b720dd6f6468a6:p001""]",0.95,False,0,,0,0.4375,,1,1.0,0,0.9025,1.003,502,99,,"{
+  ""answer"": ""By arranging for Israel to pull back from certain areas and promising a negotiated settlement between belligerents"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-0fd3a0b720dd6f6468a6:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-0fd3a0b720dd6f6468a6,q02,D1,short,On what date did Henry Kissinger negotiate an Israeli troop withdrawal from the Sinai Peninsula?,"January 18, 1974",date,"[""squad2-0fd3a0b720dd6f6468a6:p001""]",1.0,False,1,,1,1.0,,0,0,0,0.0,0.875,512,88,,"{
+  ""answer"": ""January 18, 1974"",
+  ""unit"": ""date"",
+  ""evidence_ids"": [""squad2-0fd3a0b720dd6f6468a6:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-0fd3a0b720dd6f6468a6,q03,D6,unanswerable,How did the crisis impact Arabs?,Arab oil producers linked policy changes to peace between belligerents and lifted an embargo after a negotiated settlement.,,"[""ref-squad2-0fd3a0b720dd6f6468a6:p001""]",0.95,False,0,,,,,0,,0,0.9025,0.981,494,100,,"{
+  ""answer"": ""Arab oil producers linked policy changes to peace between belligerents and lifted an embargo after a negotiated settlement."",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-0fd3a0b720dd6f6468a6:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-84f49c43c1af75d4275d,q01,D1,short,What nationality was Arthur Woolf?,British,,"[""ref-squad2-84f49c43c1af75d4275d:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.79,536,78,,"{
+  ""answer"": ""British"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-84f49c43c1af75d4275d:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-84f49c43c1af75d4275d,q02,D1,short,What is decreased by staging expansion across multiple cylinders?,cylinder heating and cooling,,"[""ref-squad2-84f49c43c1af75d4275d:p001""]",1,False,0,,0,0.0,,1,1.0,0,1,0.82,541,83,,"{
+  ""answer"": ""cylinder heating and cooling"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-84f49c43c1af75d4275d:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-84f49c43c1af75d4275d,q03,D6,unanswerable,What nationality was Arthur Smith?,,,[],,False,0,,,,,0,,0,,0.71,534,69,refusal_contains_answer_or_evidence,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-84f49c43c1af75d4275d""],
+  ""confidence"": 0,
+  ""abstain"": true
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-9d0027213b5979657181,q01,D1,short,What was the verdict on other alleged errors?,Generally unfounded and also marginal to the assessment,,"[""ref-squad2-9d0027213b5979657181:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.847,458,88,,"{
+  ""answer"": ""Generally unfounded and also marginal to the assessment"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-9d0027213b5979657181:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-9d0027213b5979657181,q02,D1,short,What direction did Watson say the mistake went in?,making it seem like climate change is more serious by overstating the impact,,"[""squad2-9d0027213b5979657181:p001""]",1,False,1,,1,1.0,,0,0,0,0,0.821,457,89,,"{
+  ""answer"": ""making it seem like climate change is more serious by overstating the impact"",
+  ""unit"": """",
+  ""evidence_ids"": [""squad2-9d0027213b5979657181:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-9d0027213b5979657181,q03,D6,unanswerable,Who published an error regarding the Himalayan glaciers?,Robert Watson,,"[""ref-squad2-9d0027213b5979657181:p001""]",1.0,False,0,,,,,0,,0,1.0,0.793,461,81,,"{
+  ""answer"": ""Robert Watson"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-9d0027213b5979657181:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-e6c11cd48902e40444e8,q01,D1,short,What should be the main goal of not using punishment in a just system?,Moral dialogue with the offender as a rational person,,"[""ref-squad2-e6c11cd48902e40444e8:p001""]",0.85,False,0,,0,0.15384615384615385,,1,1.0,0,0.7224999999999999,0.908,496,90,,"{
+  ""answer"": ""Moral dialogue with the offender as a rational person"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-e6c11cd48902e40444e8:p001""],
+  ""confidence"": 0.85,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-e6c11cd48902e40444e8,q02,D1,short,What should the punishment rely on instead in a just society?,Moral dialogue with the offender as a rational person,,"[""ref-squad2-e6c11cd48902e40444e8:p001""]",0.9,False,0,,0,0.13333333333333333,,1,1.0,0,0.81,0.868,493,89,,"{
+  ""answer"": ""Moral dialogue with the offender as a rational person"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-e6c11cd48902e40444e8:p001""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-e6c11cd48902e40444e8,q03,D6,unanswerable,On what grounds is a law judged to be moral?,Utilitarian grounds of doing more good than harm,,"[""ref-squad2-e6c11cd48902e40444e8:p001""]",0.85,False,0,,,,,0,,0,0.7224999999999999,0.859,492,88,,"{
+  ""answer"": ""Utilitarian grounds of doing more good than harm"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-e6c11cd48902e40444e8:p001""],
+  ""confidence"": 0.85,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-0427123719c1fd7ac702,q01,D1,short,In what year was the university's 5th president granted his position?,1929,,"[""ref-squad2-0427123719c1fd7ac702""]",1,False,1,,1,1.0,,0,0,0,0,0.733,508,73,,"{
+  ""answer"": ""1929"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-0427123719c1fd7ac702""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-0427123719c1fd7ac702,q02,D1,short,Who was the university's 5th president?,Robert Maynard Hutchins,,"[""ref-squad2-0427123719c1fd7ac702""]",1,False,1,,1,1.0,,0,0,0,0,0.765,503,77,,"{
+  ""answer"": ""Robert Maynard Hutchins"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-0427123719c1fd7ac702""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-0427123719c1fd7ac702,q03,D6,unanswerable,During who's tenure was the University of Chicago Hospitals system destroyed?,,,[],,False,0,,,,,0,,0,,0.684,511,68,refusal_contains_answer_or_evidence,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-0427123719c1fd7ac702""],
+  ""confidence"": 0,
+  ""abstain"": true
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-34b3cf8b2ee4c5e03d25,q01,D1,short,Who voted against Jacksonville's annexation?,Residents outside the city limits,,"[""ref-squad2-34b3cf8b2ee4c5e03d25:p001""]",1,False,0,,0,0.8,,1,1.0,0,1,0.791,446,80,,"{
+  ""answer"": ""Residents outside the city limits"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-34b3cf8b2ee4c5e03d25:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-34b3cf8b2ee4c5e03d25,q02,D1,short,What was the cause for the issues with city funding?,Dissipated tax base,,"[""ref-squad2-34b3cf8b2ee4c5e03d25:p001""]",1,False,0,,0,1.0,,1,1.0,0,1,0.774,447,80,,"{
+  ""answer"": ""Dissipated tax base"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-34b3cf8b2ee4c5e03d25:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-34b3cf8b2ee4c5e03d25,q03,D6,unanswerable,What cause city funding to increase?,Annexing outlying communities,,"[""ref-squad2-34b3cf8b2ee4c5e03d25:p001""]",0.9,False,0,,,,,0,,0,0.81,0.807,443,83,,"{
+  ""answer"": ""Annexing outlying communities"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-34b3cf8b2ee4c5e03d25:p001""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}
+
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-06522194b3b62f7819bb,q01,D1,short,What does matter actually have that Newtonian mechanics doesn't address?,Extended structure and flowing lattice,,"[""ref-squad2-06522194b3b62f7819bb:p001""]",0.9,False,0,,0,0.5714285714285714,,1,1.0,0,0.81,0.841,443,84,,"{
+  ""answer"": ""Extended structure and flowing lattice"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-06522194b3b62f7819bb:p001""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-06522194b3b62f7819bb,q02,D1,short,What didn't Newton's mechanics affext?,Extended structures and shape changes of matter,,"[""ref-squad2-06522194b3b62f7819bb:p001""]",0.9,False,0,,0,0.0,,1,1.0,0,0.81,0.833,440,85,,"{
+  ""answer"": ""Extended structures and shape changes of matter"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-06522194b3b62f7819bb:p001""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-06522194b3b62f7819bb,q03,D6,unanswerable,Whose mechanics affected three dimensional objects?,continuum mechanics,,"[""ref-squad2-06522194b3b62f7819bb:p001""]",0.95,False,0,,,,,0,,0,0.9025,0.773,437,82,,"{
+  ""answer"": ""continuum mechanics"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-06522194b3b62f7819bb:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-c4f7a9257e453b0a7525,q01,D1,short,Which areas of Northern Europe practiced those religions?,Germany,,"[""ref-squad2-c4f7a9257e453b0a7525:p001""]",0.95,False,0,,0,0.5,,1,1.0,0,0.9025,0.863,646,82,,"{
+  ""answer"": ""Germany"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-c4f7a9257e453b0a7525:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-c4f7a9257e453b0a7525,q02,D1,short,What military impact did Huguenot immigration have on Frederick's army?,Two new regiments were formed,regiment,"[""ref-squad2-c4f7a9257e453b0a7525:p001""]",0.95,False,0,,0,0.75,,1,1.0,0,0.9025,0.862,651,88,,"{
+  ""answer"": ""Two new regiments were formed"",
+  ""unit"": ""regiment"",
+  ""evidence_ids"": [""ref-squad2-c4f7a9257e453b0a7525:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-c4f7a9257e453b0a7525,q03,D6,unanswerable,How many Huguenot settled in the Baden territory of Germany?,"4,000",individuals,"[""ref-squad2-c4f7a9257e453b0a7525:p001""]",1.0,False,0,,,,,0,,0,1.0,0.845,648,87,,"{
+  ""answer"": ""4,000"",
+  ""unit"": ""individuals"",
+  ""evidence_ids"": [""ref-squad2-c4f7a9257e453b0a7525:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-10e098c47481efcd1f88,q01,D1,short,What did the Works Council Directive require?,workforce consultation in businesses,,"[""ref-squad2-10e098c47481efcd1f88""]",1,False,1,,1,1.0,,0,0,0,0,0.779,505,76,,"{
+  ""answer"": ""workforce consultation in businesses"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-10e098c47481efcd1f88""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-10e098c47481efcd1f88,q02,D1,short,Which directive mentioned was created in 1994?,Works Council Directive,,"[""ref-squad2-10e098c47481efcd1f88""]",1,False,1,,1,1.0,,0,0,0,0,0.731,509,74,,"{
+  ""answer"": ""Works Council Directive"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-10e098c47481efcd1f88""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-10e098c47481efcd1f88,q03,D6,unanswerable,What did not require workforce consultation in business?,The Parental Leave Directive,,"[""ref-squad2-10e098c47481efcd1f88""]",1,False,0,,,,,0,,0,1,0.748,507,76,,"{
+  ""answer"": ""The Parental Leave Directive"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-10e098c47481efcd1f88""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7250341734ca75ae43d8,q01,D1,short,Who ruled Cyprus in 1191?,Isaac Komnenos,,"[""ref-squad2-7250341734ca75ae43d8:p001""]",1.0,False,1,,1,1.0,,1,1.0,1,0.0,0.788,480,82,,"{
+  ""answer"": ""Isaac Komnenos"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-7250341734ca75ae43d8:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7250341734ca75ae43d8,q02,D1,short,What year did the storm hit Richard's fleet?,1191,year,"[""ref-squad2-7250341734ca75ae43d8:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.778,479,80,,"{
+  ""answer"": ""1191"",
+  ""unit"": ""year"",
+  ""evidence_ids"": [""ref-squad2-7250341734ca75ae43d8:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7250341734ca75ae43d8,q03,D6,unanswerable,Who left Messina in the 11th century?,,,[],,False,0,,,,,0,,0,,0.704,480,73,refusal_contains_answer_or_evidence,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-7250341734ca75ae43d8:p001""],
+  ""confidence"": 0,
+  ""abstain"": true
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-e9b551e811c9eba193b8,q01,D1,short,What is the name of the bridge that joins parts of the campus of the Charles River?,John W. Weeks Bridge,,"[""ref-squad2-e9b551e811c9eba193b8:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.786,470,81,,"{
+  ""answer"": ""John W. Weeks Bridge"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-e9b551e811c9eba193b8:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-e9b551e811c9eba193b8,q02,D1,short,"Where are the Harvard medical, Dental and school of Public Health located?",Longwood Medical and Academic Area,acres,"[""ref-squad2-e9b551e811c9eba193b8""]",0.95,False,1,,1,1.0,,0,0,0,0.0025000000000000044,0.798,467,83,,"{
+  ""answer"": ""Longwood Medical and Academic Area"",
+  ""unit"": ""acres"",
+  ""evidence_ids"": [""ref-squad2-e9b551e811c9eba193b8""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-e9b551e811c9eba193b8,q03,D6,unanswerable,What medical school is located in Allston?,Harvard Medical School,,"[""ref-squad2-e9b551e811c9eba193b811c9""]",1.0,False,0,,,,,0,,0,1.0,0.653,461,67,,"{""answer"": ""Harvard Medical School"", ""unit"": """", ""evidence_ids"": [""ref-squad2-e9b551e811c9eba193b811c9""], ""confidence"": 1.0, ""abstain"": false}"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-8a85cd818746eda4a579,q01,D1,short,What administrative division did Kublai leave unmodified?,Local administrative structure of past Chinese dynasties,,"[""ref-squad2-8a85cd818746eda4a579:p001""]",1.0,False,1,,1,1.0,,1,1.0,1,0.0,0.817,480,83,,"{
+  ""answer"": ""Local administrative structure of past Chinese dynasties"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-8a85cd818746eda4a579:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-8a85cd818746eda4a579,q02,D1,short,What natural resources did the Chinese government have a monopoly on?,Salt and iron,,"[""ref-squad2-8a85cd818746eda4a579:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.757,482,77,,"{
+  ""answer"": ""Salt and iron"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-8a85cd818746eda4a579:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-8a85cd818746eda4a579,q03,D6,unanswerable, How many societal class divisions were in the plan Kublai approved?,three,,"[""ref-squad2-8a85cd818746eda4a579:p001""]",1,False,0,,,,,0,,0,1,0.747,483,74,,"{
+  ""answer"": ""three"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-8a85cd818746eda4a579:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-a28b1741ae11a0ca192d,q01,D1,short,what is the fee range for accessing BSkyB's EPG?,"£15–100,000",GBP,"[""ref-squad2-a28b1741ae11a0ca192d:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.895,478,88,,"{
+  ""answer"": ""£15–100,000"",
+  ""unit"": ""GBP"",
+  ""evidence_ids"": [""ref-squad2-a28b1741ae11a0ca192d:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-a28b1741ae11a0ca192d,q02,D1,short,Can BSkyB veto the presence of channels on their EPG?,no,,"[""ref-squad2-a28b1741ae11a0ca192d:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.721,478,75,,"{
+  ""answer"": ""no"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-a28b1741ae11a0ca192d:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-a28b1741ae11a0ca192d,q03,D6,unanswerable,Who took away the operating license from BSkyB?,,,[],,False,0,,,,,0,,0,,0.698,474,73,refusal_contains_answer_or_evidence,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-a28b1741ae11a0ca192d:p001""],
+  ""confidence"": 0,
+  ""abstain"": true
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7c68f0f764734062722a,q01,D1,short,The west side of Fresno is the center of which ethnic community?,African-American,,"[""squad2-7c68f0f764734062722a:p001""]",1,False,1,,1,1.0,,0,0,0,0,0.774,475,79,,"{
+  ""answer"": ""African-American"",
+  ""unit"": """",
+  ""evidence_ids"": [""squad2-7c68f0f764734062722a:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7c68f0f764734062722a,q02,D1,short,In which direction does the west side of Fresno neighborhood lie to the 99 freeway?,southwest,,"[""ref-squad2-7c68f0f764734062722a:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.756,481,79,,"{
+  ""answer"": ""southwest"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-7c68f0f764734062722a:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7c68f0f764734062722a,q03,D6,unanswerable,What is significant about the age of Downtown Fresno?,It's one of the oldest neighborhoods in the city.,,"[""ref-squad2-7c68f0f764734062722a:p001""]",0.9,False,0,,,,,0,,0,0.81,0.762,473,78,,"{""answer"": ""It's one of the oldest neighborhoods in the city."", ""unit"": """", ""evidence_ids"": [""ref-squad2-7c68f0f764734062722a:p001""], ""confidence"": 0.9, ""abstain"": false}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-e72f4d9a7040228d30bf,q01,D1,short,What is blamed for causing the sharp drop in fish catches in the Black Sea and the Sea of Azov?,Mnemiopsis leidyi,% decrease in fish population due to overconsumption by Mnemiopsis leidyi,"[""ref-squad2-e72f4d9a7040228d30bf:p001""]",0.95,False,1,,1,1.0,,1,1.0,1,0.0025000000000000044,1.039,631,103,,"{
+  ""answer"": ""Mnemiopsis leidyi"",
+  ""unit"": ""% decrease in fish population due to overconsumption by Mnemiopsis leidyi"",
+  ""evidence_ids"": [""ref-squad2-e72f4d9a7040228d30bf:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-e72f4d9a7040228d30bf,q02,D1,short,When was ctenophore mnemiopsis leidyi introduced into The Black Sea and the Sea of Azov?,late 1980s,,"[""ref-squad2-e72f4d9a7040228d30bf:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.805,631,82,,"{
+  ""answer"": ""late 1980s"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-e72f4d9a7040228d30bf:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-e72f4d9a7040228d30bf,q03,D6,unanswerable,How did fish larvae accidentally get introduced into the two bodies of water?,through ballast tanks of ships,,"[""ref-squad2-e72f4d9a7040228d30bf:p001""]",1,False,0,,,,,0,,0,1,0.808,624,82,,"{
+  ""answer"": ""through ballast tanks of ships"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-e72f4d9a7040228d30bf:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7f5c1af34a119abe54f9,q01,D1,short,"After apartheid, what types of schools are referred to as ""Model C"" schools?",Government schools formerly reserved for white children,,"[""ref-squad2-7f5c1af34a119abe54f9:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.842,491,82,,"{
+  ""answer"": ""Government schools formerly reserved for white children"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-7f5c1af34a119abe54f9:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7f5c1af34a119abe54f9,q02,D1,short,How do the fees at former Model C schools compare to those at other schools?,higher,,"[""ref-squad2-7f5c1af34a119abe54f9:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.764,490,75,,"{
+  ""answer"": ""higher"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-7f5c1af34a119abe54f9:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7f5c1af34a119abe54f9,q03,D6,unanswerable,What school option were parents of minority children given to convert to?,Model C,,"[""squad2-7f5c1af34a119abe54f9:p001""]",1,False,0,,,,,0,,0,1,0.689,487,73,,"{
+  ""answer"": ""Model C"",
+  ""unit"": """",
+  ""evidence_ids"": [""squad2-7f5c1af34a119abe54f9:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-11f3c106363aa4f6fea9,q01,D1,short,An algorithm for X which reduces to C would us to do what?,solve any problem in class C,,"[""ref-squad2-11f3c106363aa4f6fea9:p001""]",1,False,0,,0,0.9090909090909091,,1,1.0,0,1,0.788,435,81,,"{
+  ""answer"": ""solve any problem in class C"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-11f3c106363aa4f6fea9:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-11f3c106363aa4f6fea9,q02,D1,short,A problem set that that is hard for the expression NP can also be stated how?,NP-hard,,"[""ref-squad2-11f3c106363aa4f6fea9:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.746,439,77,,"{
+  ""answer"": ""NP-hard"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-11f3c106363aa4f6fea9:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-11f3c106363aa4f6fea9,q03,D6,unanswerable,What does the complexity of problems not often depend on?,type of reduction being used,,"[""ref-squad2-11f3c106363aa4f6fea9:p001""]",1,False,0,,,,,0,,0,1,0.767,432,79,,"{
+  ""answer"": ""type of reduction being used"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-11f3c106363aa4f6fea9:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-c947cb59a7986b7be2fa,q01,D1,short,How many people lived in Warsaw in 1939?,"1,300,000",people,"[""ref-squad2-c947cb59a7986b7be2fa:p001""]",1.0,False,1,,1,1.0,,1,1.0,1,0.0,0.915,546,86,,"{
+  ""answer"": ""1,300,000"",
+  ""unit"": ""people"",
+  ""evidence_ids"": [""ref-squad2-c947cb59a7986b7be2fa:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-c947cb59a7986b7be2fa,q02,D1,short,When did the Warsaw area enlargement take place?,1951,,"[""ref-squad2-c947cb59a7986b7be2fa:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.77,544,77,,"{
+  ""answer"": ""1951"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-c947cb59a7986b7be2fa:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-c947cb59a7986b7be2fa,q03,D6,unanswerable,What conviction did many Poles have regarding how the Germans thought of themselves?,Varsovians thought of themselves as better only because they lived in the capital.,,"[""ref-squad2-c947cb59a7986b7be2fa:p001""]",1,False,0,,,,,0,,0,1,0.874,549,89,,"{
+  ""answer"": ""Varsovians thought of themselves as better only because they lived in the capital."",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-c947cb59a7986b7be2fa:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-ef89fd8649969f09fc47,q01,D1,short,Complement proteins bind to what kind of molecules on the surface of microbes in order to elicit an immune response?,carbohydrates,,"[""ref-squad2-ef89fd8649969f09fc47:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.81,535,79,,"{
+  ""answer"": ""carbohydrates"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-ef89fd8649969f09fc47:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-ef89fd8649969f09fc47,q02,D1,short,How can the deposition of compliment kill invader cells directly?,By disrupting their plasma membrane,,"[""ref-squad2-ef89fd8649969f09fc47:p001""]",1,False,0,,0,0.8888888888888888,,1,1.0,0,1,0.776,521,82,,"{
+  ""answer"": ""By disrupting their plasma membrane"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-ef89fd8649969f09fc47:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-ef89fd8649969f09fc47,q03,D6,unanswerable,What triggers a slow killing response?,,,[],,False,0,,,,,0,,0,,0.683,514,67,empty_substantive_answer,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-ef89fd8649969f09fc47""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-c3e063b58dd288e80a70,q01,D1,short,How are packets normally forwarded,"asynchronously using first-in, first-out buffering",none,"[""ref-squad2-c3e063b58dd288e80a70:p001""]",1,False,0,,0,0.8235294117647058,,1,1.0,0,1,0.911,430,90,,"{
+  ""answer"": ""asynchronously using first-in, first-out buffering"",
+  ""unit"": ""none"",
+  ""evidence_ids"": [""ref-squad2-c3e063b58dd288e80a70:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-c3e063b58dd288e80a70,q02,D1,short,In cases with shared medium how is it delivered ,multiple access scheme,,"[""ref-squad2-c3e063b58dd288e80a70:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.734,434,78,,"{
+  ""answer"": ""multiple access scheme"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-c3e063b58dd288e80a70:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-c3e063b58dd288e80a70,q03,D6,unanswerable,What type of medium is a 10BASE5 radio?,radio,,"[""ref-squad2-c3e063b58dd288e80a70:p001""]",1,False,0,,,,,0,,0,1,0.715,437,76,,"{
+  ""answer"": ""radio"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-c3e063b58dd288e80a70:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-a4f39f1d9df3c7a1c8e9,q01,D1,short,Who sets the legislative agenda in Victoria?,Daniel Andrews,,"[""ref-squad2-a4f39f1d9df3c7a1c8e9:p001""]",1,False,0,,0,0.0,,1,1.0,0,1,0.763,418,78,,"{
+  ""answer"": ""Daniel Andrews"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-a4f39f1d9df3c7a1c8e9:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-a4f39f1d9df3c7a1c8e9,q02,D1,short,What does the Premier of Victoria need to lead in the Legislative Assembly? ,the political party or coalition with the most seats,,"[""ref-squad2-a4f39f1d9df3c7a1c8e9:p001""]",1,False,0,,0,0.5,,1,1.0,0,1,0.812,424,85,,"{
+  ""answer"": ""the political party or coalition with the most seats"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-a4f39f1d9df3c7a1c8e9:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-a4f39f1d9df3c7a1c8e9,q03,D6,unanswerable,How are Victorian education members chosen?,,,[],,False,0,,,,,0,,0,,0.771,416,80,empty_substantive_answer,"{
+  ""answer"": """",
+  ""unit"": ""electoral process"",
+  ""evidence_ids"": [""ref-squad2-a4f39f1d9df3c7a1c8e9:p001""],
+  ""confidence"": 0.5,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-62ff2780adc89c5c8246,q01,D1,short,How can you find the absolute age of sedimentary rock units which do not contain radioactive isotopes?,Through dating lava and volcanic ash layers within a stratigraphic sequence,years or millions of years,"[""ref-squad2-62ff2780adc89c5c8246:p001""]",0.95,False,0,,0,0.8695652173913043,,1,1.0,0,0.9025,1.048,555,104,,"{
+  ""answer"": ""Through dating lava and volcanic ash layers within a stratigraphic sequence"",
+  ""unit"": ""years or millions of years"",
+  ""evidence_ids"": [""ref-squad2-62ff2780adc89c5c8246:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-62ff2780adc89c5c8246,q02,D1,short,What type of ratios are used in geochronologic and thermochronologic studies?,isotope ratios,,"[""ref-squad2-62ff2780adc89c5c8246:p001""]",1,False,0,,0,0.6666666666666666,,1,1.0,0,1,0.785,553,80,,"{
+  ""answer"": ""isotope ratios"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-62ff2780adc89c5c8246:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-62ff2780adc89c5c8246,q03,D6,unanswerable,What is one thing measuring in crystal lattices shows in ash layers?,The time that has passed since a rock passed through its closure temperature,years or millions of years,"[""ref-squad2-62ff2780adc89c5c8246:p001""]",0.95,False,0,,,,,0,,0,0.9025,0.932,548,97,,"{
+  ""answer"": ""The time that has passed since a rock passed through its closure temperature"",
+  ""unit"": ""years or millions of years"",
+  ""evidence_ids"": [""ref-squad2-62ff2780adc89c5c8246:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-9e095a3ecca7dadb435e,q01,D1,short,Why do the island archipelagos comprise a smaller number of electors?,Due to dispersed population and distance,,"[""ref-squad2-9e095a3ecca7dadb435e:p001""]",1,False,0,,0,0.8,,1,1.0,0,1,0.858,610,81,,"{
+  ""answer"": ""Due to dispersed population and distance"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-9e095a3ecca7dadb435e:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-9e095a3ecca7dadb435e,q02,D1,short,When was there a reduction in the number of Scottish MPs?,2005,,"[""ref-squad2-9e095a3ecca7dadb435e:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.759,605,77,,"{
+  ""answer"": ""2005"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-9e095a3ecca7dadb435e:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-9e095a3ecca7dadb435e,q03,D6,unanswerable,"If a Constituency MSP is forced from Parliament, what does it trigger?",a by-election,,"[""ref-squad2-9e095a3ecca7dadb435e:p001""]",1,False,0,,,,,0,,0,1,0.8,609,78,,"{
+  ""answer"": ""a by-election"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-9e095a3ecca7dadb435e:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-22a8092c42faa51f3d6d,q01,D1,short,What did creating highways in the Amazon rainforest lead to?,Increased settlement and deforestation,km2 per year,"[""ref-squad2-22a8092c42faa51f3d6d:p001""]",0.95,False,1,,1,1.0,,1,1.0,1,0.0025000000000000044,0.894,481,92,,"{
+  ""answer"": ""Increased settlement and deforestation"",
+  ""unit"": ""km2 per year"",
+  ""evidence_ids"": [""ref-squad2-22a8092c42faa51f3d6d:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-22a8092c42faa51f3d6d,q02,D1,short,"How much higher was the rate of deforestation in 2000, to 2005 compared to 1995 to 2000?",,,[],,False,0,,0,0,,0,0,0,,0.768,505,79,empty_substantive_answer,"{
+  ""answer"": """",
+  ""unit"": ""km2 per year"",
+  ""evidence_ids"": [""ref-squad2-22a8092c42faa51f3d6d:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-22a8092c42faa51f3d6d,q03,D6,unanswerable,What type of farmers have opposed many of the transportation projects in the Amazon?,soy farmers,,"[""ref-squad2-22a8092c42faa51f3d6d:p001""]",0.95,False,0,,,,,0,,0,0.9025,0.809,484,82,,"{
+  ""answer"": ""soy farmers"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-22a8092c42faa51f3d6d:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-83c030609aaae7ee99b6,q01,D1,short,In 1758 what was duc de Choiseul's plan for focused military efforts?,An invasion of Britain,,"[""ref-squad2-83c030609aaae7ee99b6:p001""]",0.9,False,1,,1,1.0,,1,1.0,1,0.009999999999999995,0.806,478,79,,"{
+  ""answer"": ""An invasion of Britain"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-83c030609aaae7ee99b6:p001""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-83c030609aaae7ee99b6,q02,D1,short,What naval battles did France lose in 1759?,Lagos and Quiberon Bay,naval battle,"[""ref-squad2-83c030609aaae7ee99b6:p001""]",0.95,False,1,,1,1.0,,1,1.0,1,0.0025000000000000044,0.857,471,88,,"{
+  ""answer"": ""Lagos and Quiberon Bay"",
+  ""unit"": ""naval battle"",
+  ""evidence_ids"": [""ref-squad2-83c030609aaae7ee99b6:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-83c030609aaae7ee99b6,q03,D6,unanswerable,How unsuccessful was the French revised efforts?,militarily and politically,,"[""ref-squad2-83c030609aaae7ee99b6:p001""]",0.9,False,0,,,,,0,,0,0.81,0.794,468,81,,"{
+  ""answer"": ""militarily and politically"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-83c030609aaae7ee99b6:p001""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7c320b94ab7050066a5e,q01,D1,short,"When rich countries trade with poor countries, whose wages increase?",Low-skilled workers in the poor countries,,"[""ref-squad2-7c320b94ab7050066a5e:p001""]",0.85,False,1,,1,1.0,,1,1.0,1,0.022500000000000006,0.89,617,88,,"{
+  ""answer"": ""Low-skilled workers in the poor countries"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-7c320b94ab7050066a5e:p001""],
+  ""confidence"": 0.85,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7c320b94ab7050066a5e,q02,D1,short,What effect does trade with richer countries have on the workers in poorer countries?,increased wages,%,"[""ref-squad2-7c320b94ab7050066a5e:p001""]",0.85,False,1,,1,1.0,,1,1.0,1,0.022500000000000006,0.822,621,84,,"{
+  ""answer"": ""increased wages"",
+  ""unit"": ""%"",
+  ""evidence_ids"": [""ref-squad2-7c320b94ab7050066a5e:p001""],
+  ""confidence"": 0.85,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-7c320b94ab7050066a5e,q03,D6,unanswerable,What has replaced higher skilled workers in the United States?,Machine labor,%,"[""ref-squad2-7c320b94ab7050066a5e:p001""]",0.85,False,0,,,,,0,,0,0.7224999999999999,0.782,616,82,,"{
+  ""answer"": ""Machine labor"",
+  ""unit"": ""%"",
+  ""evidence_ids"": [""ref-squad2-7c320b94ab7050066a5e:p001""],
+  ""confidence"": 0.85,
+  ""abstain"": false
+}
+
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-071a5970e18127aa4ea5,q01,D1,short,What type of district is southern California home to many of?,Central business districts,,"[""ref-squad2-071a5970e18127aa4ea5""]",1,False,0,,0,0.5,,0,0,0,1,0.697,373,73,,"{
+  ""answer"": ""Central business districts"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-071a5970e18127aa4ea5""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-071a5970e18127aa4ea5,q02,D1,short,"What is the only district in the CBD to not have ""downtown"" in it's name?",Downtown San Bernardino,,"[""ref-squad2-071a5970e18127aa4ea5:p001""]",1,False,0,,0,0.0,,1,1.0,0,1,0.766,385,81,,"{
+  ""answer"": ""Downtown San Bernardino"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-071a5970e18127aa4ea5:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-071a5970e18127aa4ea5,q03,D6,unanswerable,What does CDB stand for?,Central Business District,,"[""ref-squad2-071a5970e18127aa4ea5""]",1,False,0,,,,,0,,0,1,0.686,368,73,,"{
+  ""answer"": ""Central Business District"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-071a5970e18127aa4ea5""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-9be402bb7a93ae75db4b,q01,D1,short,When was the Rhine measurement corrected back to the original?,In 2010,years,"[""ref-squad2-9be402bb7a93ae75db4b:p001""]",0.9,False,0,,0,0.6666666666666666,,1,1.0,0,0.81,0.692,458,70,,"{""answer"": ""In 2010"", ""unit"": ""years"", ""evidence_ids"": [""ref-squad2-9be402bb7a93ae75db4b:p001""], ""confidence"": 0.9, ""abstain"": false}"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-9be402bb7a93ae75db4b,q02,D1,short,What was the accepted length of the Rhine prior to 1932?,"1,230 kilometres",kilometres,"[""ref-squad2-9be402bb7a93ae75db4b:p001""]",0.95,False,1,,1,1.0,,1,1.0,1,0.0025000000000000044,0.821,463,85,,"{
+  ""answer"": ""1,230 kilometres"",
+  ""unit"": ""kilometres"",
+  ""evidence_ids"": [""ref-squad2-9be402bb7a93ae75db4b:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-9be402bb7a93ae75db4b,q03,D6,unanswerable,What year was the German encyclopedia Knaurs Lexikon written?,1932,,"[""ref-squad2-9be402bb7a93ae75db4b:p001""]",1.0,False,0,,,,,0,,0,1.0,0.75,460,78,,"{
+  ""answer"": ""1932"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-9be402bb7a93ae75db4b:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-ee860af1558390e8f6b7,q01,D1,short,What device is used to treat various conditions such as carbon monoxide poisoning?,Hyperbaric chamber,,"[""ref-squad2-ee860af1558390e8f6b7:p001""]",1,False,0,,0,0.3333333333333333,,1,1.0,0,1,0.807,511,79,,"{
+  ""answer"": ""Hyperbaric chamber"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-ee860af1558390e8f6b7:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-ee860af1558390e8f6b7,q02,D1,short,To what pathogen that causes gas gangrene is oxygen poisonous?,anaerobic bacteria,,"[""ref-squad2-ee860af1558390e8f6b7:p001""]",0.95,False,1,,1,1.0,,1,1.0,1,0.0025000000000000044,0.824,509,84,,"{
+  ""answer"": ""anaerobic bacteria"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-ee860af1558390e8f6b7:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-ee860af1558390e8f6b7,q03,D6,unanswerable,What is treated with medical chambers?,"Carbon monoxide poisoning, gas gangrene, and decompression sickness",,"[""ref-squad2-ee860af1558390e8f6b7:p001""]",1.0,False,0,,,,,0,,0,1.0,0.914,503,93,,"{
+  ""answer"": ""Carbon monoxide poisoning, gas gangrene, and decompression sickness"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-ee860af1558390e8f6b7:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-b7d78d9fd858b52f4211,q01,D1,short,By what means is imperialism usually administered?,"colonization, use of military force",,"[""ref-squad2-b7d78d9fd858b52f4211:p001""]",1,False,0,,0,0.8333333333333334,,1,1.0,0,1,0.817,490,82,,"{
+  ""answer"": ""colonization, use of military force"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-b7d78d9fd858b52f4211:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-b7d78d9fd858b52f4211,q02,D1,short,"The term imperialism has been applied to western countries, and which eastern county?",Asia,,"[""ref-squad2-b7d78d9fd858b52f4211:p001""]",0.95,False,0,,0,0.0,,1,1.0,0,0.9025,0.762,495,80,,"{
+  ""answer"": ""Asia"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-b7d78d9fd858b52f4211:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-b7d78d9fd858b52f4211,q03,D6,unanswerable, In which century do most consider the beginning of imperialism?,19th century,,"[""ref-squad2-b7d78d9fd858b52f4211""]",0.95,False,0,,,,,0,,0,0.9025,0.746,491,77,,"{
+  ""answer"": ""19th century"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-b7d78d9fd858b52f4211""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-679435646d97368fa394,q01,D1,short,What is thought to have happened to the y. pestis that caused the black death?,may no longer exist,,"[""ref-squad2-679435646d97368fa394:p001""]",0.9,False,1,,1,1.0,,1,1.0,1,0.009999999999999995,0.782,450,81,,"{
+  ""answer"": ""may no longer exist"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-679435646d97368fa394:p001""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-679435646d97368fa394,q02,D1,short,Where was the burial site used for testing located?,"East Smithfield, England",,"[""ref-squad2-679435646d97368fa394:p001""]",1.0,False,0,,0,0.8,,1,1.0,0,1.0,0.815,442,83,,"{
+  ""answer"": ""East Smithfield, England"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-679435646d97368fa394:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-679435646d97368fa394,q03,D6,unanswerable,What was Schuenemann's first name?,Joris,,"[""ref-squad2-679435646d97368fa394:p001""]",1,False,0,,,,,0,,0,1,0.734,441,77,,"{
+  ""answer"": ""Joris"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-679435646d97368fa394:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-93620703d50b4155fab9,q01,D1,short,"the Great Internet Mersenne Prime Search, what was the prize for finding a prime with at least 10 million digits?","$100,000",US dollars,"[""ref-squad2-93620703d50b4155fab9:p001""]",1.0,False,1,,1,1.0,,1,1.0,1,0.0,0.879,548,86,,"{
+  ""answer"": ""$100,000"",
+  ""unit"": ""US dollars"",
+  ""evidence_ids"": [""ref-squad2-93620703d50b4155fab9:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-93620703d50b4155fab9,q02,D1,short,In what interval are some of the greatest primes without a distinct form discovered in?,256kn + 1 to 256k(n + 1) − 1,binary units,"[""ref-squad2-93620703d50b4155fab9:p001""]",1,False,0,,0,0.9230769230769231,,1,1.0,0,1,0.988,539,99,,"{
+  ""answer"": ""256kn + 1 to 256k(n + 1) − 1"",
+  ""unit"": ""binary units"",
+  ""evidence_ids"": [""ref-squad2-93620703d50b4155fab9:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-93620703d50b4155fab9,q03,D6,unanswerable,"In the Great Internet Mersenne Prime Search hat was the prize for finding a prime with at least 150,000 digits?",,,[],,False,0,,,,,0,,0,,0.722,552,73,refusal_contains_answer_or_evidence,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-93620703d50b4155fab9:p001""],
+  ""confidence"": 0,
+  ""abstain"": true
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-b13b5b0f3b4f559dbf0c,q01,D1,short,What is the name of the Latin translation of Dioscorides' book?,De Materia Medica,,"[""ref-squad2-b13b5b0f3b4f559dbf0c:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.802,464,81,,"{
+  ""answer"": ""De Materia Medica"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-b13b5b0f3b4f559dbf0c:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-b13b5b0f3b4f559dbf0c,q02,D1,short,What term resulted from Dioscorides' book?,materia medica,,"[""ref-squad2-b13b5b0f3b4f559dbf0c:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.765,459,80,,"{
+  ""answer"": ""materia medica"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-b13b5b0f3b4f559dbf0c:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-b13b5b0f3b4f559dbf0c,q03,D6,unanswerable,Who was the only man to study medicinal properties of plants in Ancient Greece?,Diocles of Carystus,,"[""ref-squad2-b13b5b0f3b4f559dbf0c:p001""]",0.95,False,0,,,,,0,,0,0.9025,0.832,466,86,,"{
+  ""answer"": ""Diocles of Carystus"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-b13b5b0f3b4f559dbf0c:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-c2d62502892e54f510c3,q01,D1,short,What is Engineering News-Record?,A trade magazine for the construction industry,,"[""ref-squad2-c2d62502892e54f510c3:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.84,496,83,,"{
+  ""answer"": ""A trade magazine for the construction industry"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-c2d62502892e54f510c3:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-c2d62502892e54f510c3,q02,D1,short,What compiles and reports on data about the size of design and construction companies?,Engineering News-Record (ENR),,"[""ref-squad2-c2d62502892e54f510c3:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.829,505,84,,"{
+  ""answer"": ""Engineering News-Record (ENR)"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-c2d62502892e54f510c3:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-c2d62502892e54f510c3,q03,D6,unanswerable,Who reports on the size of havy equipment and construction coompanies?,Engineering News-Record (ENR),,"[""ref-squad2-c2d62502892e54f510c3:p001""]",1.0,False,0,,,,,0,,0,1.0,0.837,505,86,,"{
+  ""answer"": ""Engineering News-Record (ENR)"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-c2d62502892e54f510c3:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-808648d31e3c0a580e37,q01,D1,short,What type of movement is the Muslim Brotherhood?,Islamist movements,,"[""ref-squad2-808648d31e3c0a580e37:p001""]",1,False,0,,0,0.6666666666666666,,1,1.0,0,1,0.776,437,81,,"{
+  ""answer"": ""Islamist movements"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-808648d31e3c0a580e37:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-808648d31e3c0a580e37,q02,D1,short,The Muslim Brotherhood's competence compares well against what type of local governments?,"incompetent, inefficient, or neglectful governments",,"[""ref-squad2-808648d31e3c0a580e37:p001""]",0.9,False,1,,1,1.0,,1,1.0,1,0.009999999999999995,0.88,446,91,,"{
+  ""answer"": ""incompetent, inefficient, or neglectful governments"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-808648d31e3c0a580e37:p001""],
+  ""confidence"": 0.9,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-808648d31e3c0a580e37,q03,D6,unanswerable,Why has the Muslim Brotherhood not facilitated inexpensive mass marriage ceremonies?,,,[],,False,0,,,,,0,,0,,0.702,445,75,refusal_contains_answer_or_evidence,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-808648d31e3c0a580e37:p001""],
+  ""confidence"": 0,
+  ""abstain"": true
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-273477661eba1a30cf53,q01,D1,short,Who would the occupation alienate?,Arabs and much of the rest of the Third World,,"[""ref-squad2-273477661eba1a30cf53:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.918,603,86,,"{
+  ""answer"": ""Arabs and much of the rest of the Third World"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-273477661eba1a30cf53:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-273477661eba1a30cf53,q02,D1,short,Which country was thinking about going to war to forcibly take Middle Eastern oil fields?,United States,,"[""ref-squad2-273477661eba1a30cf53:p001""]",1.0,False,0,,0,0.0,,1,1.0,0,1.0,0.779,615,79,,"{
+  ""answer"": ""United States"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-273477661eba1a30cf53:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-273477661eba1a30cf53,q03,D6,unanswerable,What did British Ambassador Lord Cromer order due to his worry about US mid East actions?,A British intelligence estimate of U.S. intentions,,"[""ref-squad2-273477661eba1a30cf53:p001""]",1,False,0,,,,,0,,0,1,0.83,615,85,,"{
+  ""answer"": ""A British intelligence estimate of U.S. intentions"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-273477661eba1a30cf53:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-777ba60932fa02fb3b72,q01,D1,short,What are injectors used to supply?,lower-pressure boiler feed water,,"[""ref-squad2-777ba60932fa02fb3b72:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.783,429,81,,"{
+  ""answer"": ""lower-pressure boiler feed water"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-777ba60932fa02fb3b72:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-777ba60932fa02fb3b72,q02,D1,short,What device is used to recycle the boiler water in most steam engines?,water pump,,"[""ref-squad2-777ba60932fa02fb3b72:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.736,437,76,,"{
+  ""answer"": ""water pump"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-777ba60932fa02fb3b72:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-777ba60932fa02fb3b72,q03,D6,unanswerable,What types of pumps are typically used in jet engines?,,,[],,False,0,,,,,0,,0,,0.696,433,75,empty_substantive_answer,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-777ba60932fa02fb3b72:p001""],
+  ""confidence"": 0.1,
+  ""abstain"": false
+}
+
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-844e8303cc9e09a9a85e,q01,D1,short,Who is on the IPCC Panel?,government representatives and climate change experts,,"[""ref-squad2-844e8303cc9e09a9a85e:p001""]",0.95,False,0,,0,0.3333333333333333,,1,1.0,0,0.9025,0.917,482,88,,"{
+  ""answer"": ""government representatives and climate change experts"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-844e8303cc9e09a9a85e:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-844e8303cc9e09a9a85e,q02,D1,short,How many people attended the 2003 IPCC meeting?,322,,"[""ref-squad2-844e8303cc9e09a9a85e:p001""]",1,False,0,,0,0.0,,1,1.0,0,1,0.765,487,78,,"{
+  ""answer"": ""322"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-844e8303cc9e09a9a85e:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-844e8303cc9e09a9a85e,q03,D6,unanswerable,Which non-governmental groups are participants of the plenary sessions?,,,[],,False,0,,,,,0,,0,,0.802,491,84,empty_substantive_answer,"{
+  ""answer"": """",
+  ""unit"": ""non-governmental groups"",
+  ""evidence_ids"": [""ref-squad2-844e8303cc9e09a9a85e:p001""],
+  ""confidence"": 0.6,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-0078a3aad6d29993d7ba,q01,D1,short,When is the oldest recorded incident of civil disobedience?,During the Roman Empire,,"[""ref-squad2-0078a3aad6d29993d7ba:p001""]",0.95,False,1,,1,1.0,,1,1.0,1,0.0025000000000000044,0.835,539,82,,"{
+  ""answer"": ""During the Roman Empire"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-0078a3aad6d29993d7ba:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-0078a3aad6d29993d7ba,q02,D1,short,What did the Jewish people do so pagan items wouldn't be in the temple of Jerusalem?,Gathered unarmed in the streets to prevent installation,,"[""ref-squad2-0078a3aad6d29993d7ba:p001""]",0.95,False,0,,0,0.6666666666666666,,1,1.0,0,0.9025,0.871,546,89,,"{
+  ""answer"": ""Gathered unarmed in the streets to prevent installation"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-0078a3aad6d29993d7ba:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-0078a3aad6d29993d7ba,q03,D6,unanswerable,How was the event covered when Jews were arrested by tax collectors?,"Thoreau's arrest received little to no coverage at the time, and his essay on the subject wasn't published until after significant events had occurred.",,"[""ref-squad2-0078a3aad6d29993d7ba:p001""]",0.85,False,0,,,,,0,,0,0.7224999999999999,1.093,540,109,,"{
+  ""answer"": ""Thoreau's arrest received little to no coverage at the time, and his essay on the subject wasn't published until after significant events had occurred."",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-0078a3aad6d29993d7ba:p001""],
+  ""confidence"": 0.85,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-9f74b3dd8fbafbd78a98,q01,D1,short,What Egyptologist was also apart of the university's faculty?,James Henry Breasted,,"[""ref-squad2-9f74b3dd8fbafbd78a98:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.762,471,76,,"{
+  ""answer"": ""James Henry Breasted"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-9f74b3dd8fbafbd78a98:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-9f74b3dd8fbafbd78a98,q02,D1,short,What meteorologist was also apart of the university's faculty?,Ted Fujita,,"[""ref-squad2-9f74b3dd8fbafbd78a98:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.732,471,77,,"{
+  ""answer"": ""Ted Fujita"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-9f74b3dd8fbafbd78a98:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-9f74b3dd8fbafbd78a98,q03,D6,unanswerable,"Who was a political philosopher, mathematician, author and also former faculty member?",Allan Bloom,,"[""ref-squad2-9f74b3dd8fbafbd78a98:p001""]",0.95,False,0,,,,,0,,0,0.9025,0.752,477,79,,"{
+  ""answer"": ""Allan Bloom"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-9f74b3dd8fbafbd78a98:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-46b22fbb7cb725f7dbd4,q01,D1,short,What makes the Wells Fargo Center stand out?,Its distinctive flared base,,"[""ref-squad2-46b22fbb7cb725f7dbd4:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.798,468,80,,"{
+  ""answer"": ""Its distinctive flared base"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-46b22fbb7cb725f7dbd4:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-46b22fbb7cb725f7dbd4,q02,D1,short,How tall is the Bank of America Tower?,617 ft,ft,"[""squad2-46b22fbb7cb725f7dbd4:p001""]",1,False,1,,1,1.0,,0,0,0,0,0.726,466,77,,"{
+  ""answer"": ""617 ft"",
+  ""unit"": ""ft"",
+  ""evidence_ids"": [""squad2-46b22fbb7cb725f7dbd4:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-46b22fbb7cb725f7dbd4,q03,D6,unanswerable,In the shortest building in downtown Jacksonville?,,,[],,False,0,,,,,0,,0,,0.707,469,74,拒答的unit必须为空,"{
+  ""answer"": """",
+  ""unit"": ""ft"",
+  ""evidence_ids"": [""ref-squad2-46b22fbb7cb725f7dbd4:p001""],
+  ""confidence"": 0,
+  ""abstain"": true
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-223421a455a8533ec3d8,q01,D1,short,When were the shortcomings of Aristotle's physics overcome?,early in the 17th century,,"[""ref-squad2-223421a455a8533ec3d8:p001""]",0.95,False,0,,0,0.75,,1,1.0,0,0.9025,0.842,453,87,,"{
+  ""answer"": ""early in the 17th century"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-223421a455a8533ec3d8:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-223421a455a8533ec3d8,q02,D1,short,What did objects in forced motion contain according to the late Medieval idea that influence Aristotle?,an innate force of impetus,,"[""ref-squad2-223421a455a8533ec3d8:p001""]",0.95,False,1,,1,1.0,,1,1.0,1,0.0025000000000000044,0.834,458,86,,"{
+  ""answer"": ""an innate force of impetus"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-223421a455a8533ec3d8:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-223421a455a8533ec3d8,q03,D6,unanswerable,Who constructed an experiment where stones and rocks were rolled down an incline?,Galileo Galilei,,"[""ref-squad2-223421a455a8533ec3d8:p001""]",1.0,False,0,,,,,0,,0,1.0,0.8,453,84,,"{
+  ""answer"": ""Galileo Galilei"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-223421a455a8533ec3d8:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-291631d73d5dcdb57b09,q01,D1,short,Who became king in 1643?,Louis XIV,,"[""ref-squad2-291631d73d5dcdb57b09:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.769,464,77,,"{
+  ""answer"": ""Louis XIV"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-291631d73d5dcdb57b09:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-291631d73d5dcdb57b09,q02,D1,short,What did the king do to regarding Huguenot education?,Closed Huguenot schools,,"[""ref-squad2-291631d73d5dcdb57b09:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.788,467,82,,"{
+  ""answer"": ""Closed Huguenot schools"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-291631d73d5dcdb57b09:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-291631d73d5dcdb57b09,q03,D6,unanswerable,In what year did Louis XIV start to bribe Protestants to convert to Catholicism?,,,[],,False,0,,,,,0,,0,,0.73,473,76,empty_substantive_answer,"{
+  ""answer"": """",
+  ""unit"": ""year"",
+  ""evidence_ids"": [""ref-squad2-291631d73d5dcdb57b09:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-2b772b90af6e0d587fdb,q01,D1,short,Which articles state that the member states' rights to deliver public services may not be obstructed?,Article 106,,"[""ref-squad2-2b772b90af6e0d587fdb:p001""]",1.0,False,0,,0,0.3333333333333333,,1,1.0,0,1.0,0.742,652,69,,"{""answer"": ""Article 106"", ""unit"": """", ""evidence_ids"": [""ref-squad2-2b772b90af6e0d587fdb:p001""], ""confidence"": 1.0, ""abstain"": false}"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-2b772b90af6e0d587fdb,q02,D1,short,In which article does the Treaty of Lisbon prohibit anti-competitive agreements?,Article 101,,"[""ref-squad2-2b772b90af6e0d587fdb:p001""]",1,False,0,,0,0.8,,1,1.0,0,1,0.81,651,80,,"{
+  ""answer"": ""Article 101"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-2b772b90af6e0d587fdb:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-2b772b90af6e0d587fdb,q03,D6,unanswerable,What does Article 107 not lay down?,The right to impose specific taxes or subsidies,,"[""ref-squad2-2b772b90af6e0d587fdb:p001""]",1.0,False,0,,,,,0,,0,1.0,0.867,642,88,,"{
+  ""answer"": ""The right to impose specific taxes or subsidies"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-2b772b90af6e0d587fdb:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-2040b02c1c6b01d53383,q01,D1,short,Who kicked Ethelred out?,Sweyn Forkbeard,person,"[""ref-squad2-2040b02c1c6b01d53383:p001""]",0.95,False,1,,1,1.0,,1,1.0,1,0.0025000000000000044,0.878,466,88,,"{
+  ""answer"": ""Sweyn Forkbeard"",
+  ""unit"": ""person"",
+  ""evidence_ids"": [""ref-squad2-2040b02c1c6b01d53383:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-2040b02c1c6b01d53383,q02,D1,short,Who did Emma Marry?,Duke Richard II of Normandy,,"[""ref-squad2-2040b02c1c6b01d53383:p001""]",1.0,False,0,,0,0.2857142857142857,,1,1.0,0,1.0,0.851,464,86,,"{
+  ""answer"": ""Duke Richard II of Normandy"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-2040b02c1c6b01d53383:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-2040b02c1c6b01d53383,q03,D6,unanswerable,Who married Cnut the Great?,Emma,,"[""ref-squad2-2040b02c1c6b01d53383:p001""]",0.95,False,0,,,,,0,,0,0.9025,0.788,465,81,,"{
+  ""answer"": ""Emma"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-2040b02c1c6b01d53383:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-4aaa6faf86477d3be34f,q01,D1,short,What does the Fogg Museum of Art cover?,"Western art from the Middle Ages to the present emphasizing Italian early Renaissance, British pre-Raphaelite, and 19th-century French art",,"[""ref-squad2-4aaa6faf86477d3be34f:p001""]",1.0,False,0,,0,0.6,,1,1.0,0,1.0,1.121,544,110,,"{
+  ""answer"": ""Western art from the Middle Ages to the present emphasizing Italian early Renaissance, British pre-Raphaelite, and 19th-century French art"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-4aaa6faf86477d3be34f:p001""],
+  ""confidence"": 1.0,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-4aaa6faf86477d3be34f,q02,D1,short,How many museums comprise Harvard Art Museums?,Three,museums,"[""ref-squad2-4aaa6faf86477d3be34f:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.757,544,77,,"{
+  ""answer"": ""Three"",
+  ""unit"": ""museums"",
+  ""evidence_ids"": [""ref-squad2-4aaa6faf86477d3be34f:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-4aaa6faf86477d3be34f,q03,D6,unanswerable,What glass flowers exhibit is included in the Busch-Reisinger Museum?,,,[],,False,0,,,,,0,,0,,0.698,550,72,refusal_contains_answer_or_evidence,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-4aaa6faf86477d3be34f:p001""],
+  ""confidence"": 0,
+  ""abstain"": true
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-791c219cd9c502ccefcd,q01,D1,short,Who led a Mongol attack on the Song dynasty?,Möngke Khan,,"[""ref-squad2-791c219cd9c502ccefcd:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.811,603,78,,"{
+  ""answer"": ""Möngke Khan"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-791c219cd9c502ccefcd:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-791c219cd9c502ccefcd,q02,D1,short,Where did Mongke Khan attack the Song dynasty?,Southern China,,"[""ref-squad2-791c219cd9c502ccefcd:p001""]",1,False,1,,1,1.0,,1,1.0,1,0,0.744,602,77,,"{
+  ""answer"": ""Southern China"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-791c219cd9c502ccefcd:p001""],
+  ""confidence"": 1,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-791c219cd9c502ccefcd,q03,D6,unanswerable, When was Mongke Khan born?,,,[],,False,0,,,,,0,,0,,0.701,598,72,refusal_contains_answer_or_evidence,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-791c219cd9c502ccefcd:p001""],
+  ""confidence"": 0,
+  ""abstain"": true
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-30b0e064c3aca4d389ca,q01,D1,short,What did Virgin Media claim BSkyB did that resulted Virgin not carrying the channels anymore?,Substantially increased the asking price for the channels,,"[""squad2-30b0e064c3aca4d389ca:p001""]",0.95,False,0,,0,0.8421052631578947,,0,0,0,0.9025,0.855,451,86,,"{
+  ""answer"": ""Substantially increased the asking price for the channels"",
+  ""unit"": """",
+  ""evidence_ids"": [""squad2-30b0e064c3aca4d389ca:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-30b0e064c3aca4d389ca,q02,D1,short,"What additional srevice did BSkyB offer besides HD channels that they claimed offered ""substantially more value""?",Video On Demand content,,"[""ref-squad2-30b0e064c3aca4d389ca:p001""]",0.95,False,1,,1,1.0,,1,1.0,1,0.0025000000000000044,0.772,458,81,,"{
+  ""answer"": ""Video On Demand content"",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-30b0e064c3aca4d389ca:p001""],
+  ""confidence"": 0.95,
+  ""abstain"": false
+}
+"
+Phi-3.5 · Mini Instruct (3.8B),en,ref-squad2-30b0e064c3aca4d389ca,q03,D6,unanswerable,When were basic channels first introduced by BSkyB?,,,[],,False,0,,,,,0,,0,,0.677,444,72,refusal_contains_answer_or_evidence,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [""ref-squad2-30b0e064c3aca4d389ca:p001""],
+  ""confidence"": 0,
+  ""abstain"": true
+}
+"

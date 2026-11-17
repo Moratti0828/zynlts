@@ -1,0 +1,7 @@
+{
+  "base_url": "http://127.0.0.1:8787",
+  "model_id": "qwen25-7b",
+  "preset_id": "zh-quick",
+  "client_request_id": "live-demo-check-9e76826059e848859f2bccea3eaeabc6",
+  "allow_draft": true
+}

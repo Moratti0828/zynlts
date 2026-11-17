@@ -1,0 +1,39 @@
+Friday, July 31, 2026
+
+NIH-funded, AI-powered analysis of interviews suggests that a youth’s framing of stressful events is a strong indicator of risk for future disorders.
+
+By applying artificial intelligence (AI) techniques to interviews with children about early life stress, researchers identified linguistic features that predicted future depressive or anxiety disorders. In a National Institutes of Health (NIH)-funded study, scientists developed predictive models based on these features that could predict symptom onset and diagnosis up to six years later, surpassing estimates based on gold-standard risk indicators.
+
+This new research, led by senior author Ian H. Gotlib, Ph.D., at Stanford University, may represent a better way of identifying children without mental health disorders but are at high risk of developing them later in life. Such a tool could enable healthcare providers to act during a crucial window when prevention is still possible — a capability not supported by current clinical assessments.
+
+“We know that exposure to early adversity is a potent risk factor for the development of mental health problems. At the same time, many children experience adversity but do not go on to develop psychopathology. With current methods, which rely heavily on static risk factors, we cannot reliably distinguish children who are at risk from those who are likely to be resilient,” said first author Chase Antonacci, a Ph.D. candidate at Stanford University.
+
+Seeking objective, data-driven factors that are more indicative of an individual’s risk, the authors searched for answers in language, wherein subtle cues have potentially been overlooked.
+
+The researchers analyzed audio recordings of structured interviews with 204 children, 9 to 13 years old, enrolled in the NIH-supported Early Life Stress Study . The interviews, about 30 minutes on average, covered each child’s lifetime exposure to traumatic events, providing a measure of baseline stress when children were not yet diagnosed with any mental health disorder. The team also obtained data from follow-up assessments conducted either four or six years later.
+
+Antonacci and his colleagues applied four different natural-language processing techniques to search for patterns within the audio recordings. These AI tools were sensitive to an array of properties, such as sentence structure, grammar, semantics, topics, and categories of words.
+
+By attempting to predict mental health outcomes at the four- and six-year follow-up assessments with each model, the authors identified which features of language were the strongest indicators of risk. For comparison, they also attempted to accomplish the same goal with only demographic information and stress severity scores that experts produced based on the interviews.
+
+The team found that linguistic style was paramount.
+
+One of the strongest predictors was elevated narrative complexity, marked by greater use of function words such as prepositions, which may indicate styles of thinking, including rumination, that are well-established risk factors of depression. Other robust markers included the use of rigid language that expressed absolute certainty and self-referential speech indicated by heavy use of first-person singular pronouns.
+
+“We saw that the way kids spoke about stress exposure — the mechanics of their language, rather than necessarily what they said — was a robust predictor of the onset of anxiety and depression,” Antonacci said.
+
+Semantic models linked specific themes to mental health outcomes. While narratives about routine engagement with hobbies, structured activities, and access to healthcare seemingly had a protective effect, those about acute physical violence and social exclusion steered children in the opposite direction.
+
+In many cases, the researchers showed that their predictive models outperformed predictions based on expert ratings, the gold-standard measurement of stress severity. In the future, the researchers aim to boost performance further by integrating their models.
+
+“A method of predicting which children are most vulnerable to developing mood and anxiety disorders would be tremendous in helping to prevent a possible burden of cost and suffering over a lifetime,” said Andrea Beckel-Mitchener, Ph.D., acting director of NIH’s National Institute of Mental Health (NIMH).
+
+NIH supported this research through NIMH grants R37MH101495 and F32MH135657.
+
+About the National Institute of Mental Health (NIMH): The mission of the NIMH is to transform the understanding and treatment of mental illnesses through basic and clinical research, paving the way for prevention, recovery and cure. For more information, visit the NIMH website .
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+Chase Antonacci et al. Natural Language Processing of Youth Speech Predicts Psychopathology Across Adolescence. Nature Mental Health. July 31, 2026. DOI: 10.1038/s44220-026-00683-9

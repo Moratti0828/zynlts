@@ -1,0 +1,39 @@
+Thursday, May 14, 2026
+
+NIH-funded study lays foundation for antibody-based measles treatment.
+
+A scientific team funded by the National Institutes of Health (NIH) has isolated and mapped in detail the first comprehensive group of human antibodies targeting the measles virus. The findings reveal previously unknown details about how the human immune system fights measles and identify specific antibodies capable of reducing the virus to undetectable levels in an animal model. The research could serve as the foundation for development of a measles treatment.
+
+Measles cases have recently increased in the United States and worldwide. More than 470,000 measles cases were reported globally in 2024, and at least 72 outbreaks have been recorded in the United States since January 2025. While effective prevention in the form of vaccination is available, no safe and effective therapies have received regulatory approval in the United States. This leaves people who cannot safely receive the vaccine - the immunocompromised, pregnant women, and infants too young to be vaccinated - with a lack of medical options.
+
+"With measles cases increasing, we urgently need effective therapeutics to protect the most vulnerable,” said Jeffrey K. Taubenberger, M.D., Ph.D., acting director of NIH’s National Institute of Allergy and Infectious Diseases. “This research gives us a clear picture for the first time of the most promising targets for antibody-based medicines that could protect or treat people for whom measles vaccination is not an option."
+
+Previous research into measles immunity had relied largely on mouse antibodies and indirect methods, leaving the human antibody response poorly understood and structurally uncharacterized. This study changes that. The research team, led by Dr. Erica Ollmann Saphire of the La Jolla Institute for Immunology, isolated memory B cells—the immune cells that retain long-term "memory" of past infections or vaccinations—from a donor who had been vaccinated for measles three times. From those cells, the team engineered and purified more than 100 individual human monoclonal antibodies, each targeting a specific site on the measles virus.
+
+Using cutting-edge cryo-electron microscopy, the scientists produced the first-ever atomic-resolution structural maps of human antibodies bound to measles virus proteins, identifying nine distinct sites on the virus's two surface proteins, Hemagglutinin (H) and Fusion (F), that the antibodies targets.
+
+The findings challenge a long-held assumption in the field. Scientists had believed protection against measles was driven almost exclusively by antibodies targeting the H protein, with antibodies against the F protein playing a minor role. This study found that antibodies against both proteins can confer powerful, independent protection.
+
+Most strikingly, one antibody targeting the F protein, designated 4F09, was the single most protective antibody in the study, reducing measles virus levels in the lungs of infected rats to completely undetectable levels. It works by physically locking the F protein in place, preventing the structural change the virus needs to break into human cells.
+
+The protective antibodies identified also target regions of the virus that look nearly identical across all known measles strains circulating globally, suggesting the virus may not be able to mutate enough to escape the antibodies and still survive.
+
+The scientists are now seeking partners to do the extensive research and testing needed to translate their discovery into a medicine that could serve as both a rapid post-exposure preventive and a therapeutic for people who are infected.
+
+NIAID conducts and supports research to study the causes of infectious and immune-mediated diseases, and to develop better means of preventing, diagnosing and treating these illnesses. News releases, fact sheets and other NIAID-related materials are available on the NIAID website .
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+Reference: M Acciani et al. Human neutralizing antibodies targeting the measles virus hemagglutinin and fusion surface proteins. Cell Host & Microbe DOI: 10.1016/j.chom.2026.04.010 (2026).
+
+Institute/Center
+
+National Institute of Allergy and Infectious Diseases (NIAID)
+
+NIH Office of Communications
+
+Connect with Us
+
+Subscribe to news releases RSS Feed

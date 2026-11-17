@@ -1,0 +1,75 @@
+The 2026 Atlantic hurricane season that officially began June 1 has been mild — so far. There have been very few named storms in the Atlantic and the National Weather Service expects “below normal” hurricane activity.
+
+But calm in the Atlantic could mean enhanced hurricane activity in the Pacific as El Niño warms seawater and lowers wind shear, a perfect storm for hurricane conditions.
+
+Recently, Hurricane Lala ravaged parts of Hawaii, even though direct landfalls are rare in the state. Hurricane Lowell also brought more storm damage in the Pacific.
+
+Coastal states face uncertainty during hurricane season but the Census Bureau has tools that can help communities prepare for the worst and plan for recovery from any disaster.
+
+Hurricane damage is not exclusive to coastal areas. Take Buncombe County, North Carolina, located nearly 300 miles from the coast. Hurricane Helene devastated the county in 2024, leaving 43 dead and causing catastrophic flooding — proving once again that hurricane destruction does not stop at the shoreline.
+
+In this story, we use Buncombe County to illustrate how Census Bureau tools can assist in planning and recovery.
+
+Community Resilience Estimates
+
+The Community Resilience Estimates (CRE) identify communities that may have difficulty withstanding and recovering from disasters because of certain factors like poverty, vehicle access and housing conditions.
+
+These indicators are available for every state, county and neighborhood (census tract) in the United States and Puerto Rico.
+
+The Community Resilience Estimates Viewer is an interactive tool that highlights the CRE and areas that may be vulnerable to disasters.
+
+According to the map, for example,18.5% of people in Buncombe County may have difficulty recovering from natural disasters. This is statistically similar to the national estimate of 20.4% of the population.
+
+Note: Select the image to go to the interactive data tool.
+
+The CRE program continues to develop data products to assist with all stages of a disaster. To share feedback on current tools or suggest ideas for new disaster-related information, email the team at [email protected] .
+
+CAREs: Assessment, Recovery and Evaluation
+
+Hurricane Helene was one of the most devastating hurricanes in American history, responsible for at least 249 fatalities, more than 4 million power outages, and countless road and bridge collapses. The Census Bureau is currently prototyping tools to help gauge the full scale of its impact and in recovery efforts.
+
+One resource is the Census Bureau’s Assessment, Recovery, and Evaluation datasets (CAREs ), which curates data from multiple federal sources, including the Census Bureau; Federal Emergency Management Agency (FEMA); Department of Energy (DOE); National Oceanic and Atmospheric Administration (NOAA); and Bureau of Labor Statistics (BLS).
+
+CAREs provides data users with relevant information about the population, disaster exposure and recovery all in one place.
+
+Among the major findings : Nearly 1.5 million households registered for aid in counties with a disaster declaration.
+
+This amounted to approximately 18 registrations for every 100 occupied households throughout the disaster area. In Buncombe County, that rate jumped to 86 registrations per 100 occupied households, underscoring the immense need for assistance within the county.
+
+Census Business Builder
+
+The Census Business Builder (CBB) is an interactive resource that provides key economic and demographic data down to the census tract level.
+
+During declared disasters, this tool allows users to access detailed supply chain reports highlighting top imports, employment patterns, and potentially impacted products to help inform response and recovery efforts.
+
+According to the CBB, some 826 U.S. employer establishments (those with at least one paid employee) closed and around 960 opened from March 2022 to March 2023 in Buncombe County.
+
+Tracking future business shifts is important because it can help measure recovery efforts.
+
+OnTheMap for Emergency Management
+
+OnTheMap for Emergency Management is a tool that provides an easy-to-use mapping interface for viewing the potential impacts of natural disasters in the United States.
+
+Maps, charts and reports include workforce, population and housing characteristics for hurricanes, floods, wildfires, winter storms and federal disaster declaration areas.
+
+To provide users with information for rapidly changing hazard events, OnTheMap for Emergency Management automatically incorporates real-time data updates from the National Weather Service’s (NWS) National Hurricane Center, the Department of Interior (DOI), the Department of Agriculture (DOA), and FEMA.
+
+Every four hours, these current disaster event boundaries are combined with the latest American Community Survey (ACS), Decennial, and LEHD Origin-Destination Employment Statistics (LODES) data. This pipeline gives emergency preparedness and response professionals information they can use in real time.
+
+Demographic and economic data for disaster-impacted areas are available for both current and historical events.
+
+Emergency Management Hub
+
+All of these data resources can be found on the Census Bureau’s Emergency Management Hub at disasters.census.gov.
+
+Along with data tools, the hub contains America Counts articles, data visualizations and pages that allow users to quickly find pertinent information about specific events.
+
+Chase Sawyer is a technical lead for data product development at the Census Bureau .
+
+Related Statistics
+
+Data Tool Emergency Management Hub This portal provides quick access to demographic, economic, and resilience information for areas impacted by the latest significant emergency events in the U.S.
+
+Program Survey Landing Page Community Resilience Estimates The Census Bureau’s CRE provide an easily understood metric for how socially vulnerable every neighborhood in the United States is to the impacts of disasters.
+
+Our email newsletter is sent out on the day we publish a story. Get an alert directly in your inbox to read, share and blog about our newest stories.

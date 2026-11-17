@@ -1,0 +1,16 @@
+{
+  "id": "zh-data-sharing-2025",
+  "url": "https://www.mee.gov.cn/zcwj/gwywj/202506/t20250604_1120657.shtml",
+  "language": "zh",
+  "resolved_url": "https://www.mee.gov.cn/zcwj/gwywj/202506/t20250604_1120657.shtml",
+  "downloaded_at": "2026-10-10T07:25:29+00:00",
+  "raw_sha256": "aa4b541a7432f936c87dc95588590e54d338c1636c3c8de8e5756a8c3d530344",
+  "extracted_sha256": "d21c2988733c71cb5af420982335c7b87626aca90e29156d25daac595b70a275",
+  "bytes": 64374,
+  "charset": "utf-8",
+  "http_headers": {
+    "Content-Type": "text/html"
+  },
+  "reviewed": false,
+  "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+}

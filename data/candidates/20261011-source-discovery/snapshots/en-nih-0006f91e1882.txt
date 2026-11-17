@@ -1,0 +1,37 @@
+Wednesday, September 23, 2026
+
+Modified HIV drug reverses vision loss and paralysis in multiple sclerosis model.
+
+A new National Institutes of Health (NIH)-funded study indicates that the experimental drug kamuvudine-9 (K-9) facilitates recovery from pre-existing vision loss and paralysis in animal models of multiple sclerosis (MS). Researchers at the University of Virginia found that these benefits were likely the result of K-9 preventing the inflammasome, a cell-killing alarm system native to the brain and spinal cord, from activating. A nationwide analysis of more than 3 million patients showed reduced rates of MS and MS relapses among those receiving common antiviral medications called NRTIs, of which K-9 is a non-toxic derivative.
+
+“The remarkable reversal of some of MS’s most severe complications in animals, taken together with this drug’s promising safety profile, present a very compelling translational pathway,” said Michael F. Chiang, M.D., director of NIH’s National Eye Institute (NEI).
+
+MS-induced neurodegeneration is conventionally understood by scientists to be a result of the adaptive immune system’s B and T cells mistakenly targeting healthy tissue. Standard treatments generally aim to rein in the rogue cells and while these interventions can prevent MS relapses, they don’t address pre-existing damage and often suppress immunity broadly.
+
+However, recent studies suggest that rampant adaptive immunity may not deliver the killing blow to cells, instead serving as an upstream trigger for the inflammasome, a key component of the central nervous system’s innate immunity, which initiates explosive cycles of cell death.
+
+NRTIs, antiviral drugs approved to treat HIV or hepatitis B, coincidentally also block inflammasome activation. At the University of Virginia, Jayakrishna Ambati, M.D., and colleagues stripped away their antiviral capabilities, which are associated with long-term neurological and muscular side effects, while preserving their anti-inflammasome properties, producing modified versions with better safety prospects. The team recently demonstrated that one of these drugs, K-9, prevented retinal damage and preserved sight in models of retinal detachment.
+
+In the new study, Ambati and his co-authors explored whether K-9 would have a similar effect in MS, where vision loss is a typical symptom. They induced an MS-like state in mice and then after several days, when symptoms became externally apparent, administered K-9 over the following two weeks.
+
+The researchers found that animals who received K-9 were completely protected from neurologic deficits and, to their surprise, also bounced back from their previous motor impairment and vision loss. No other groups of mice, including those that received a standard MS drug, recovered nearly as much.
+
+Further examination suggested that K-9 shielded axons and their insulating myelin sheaths, which are the primary conduit for signals in the central nervous system, from degeneration. Levels of a blood-based marker of nerve damage called neurofilament light chain (NfL) in these mice were also reduced, which the authors note is an indicator that the United States Food and Drug Administration (FDA) has previously used to approve certain medications for neurodegeneration.
+
+K-9’s striking effects coincided with two separate channels of inflammasome activation being shut down.
+
+The authors supplemented their animal studies by inspecting insurance claims from three separate populations of patients in the U.S., some who were receiving NRTIs for either HIV or hepatitis B. Compared to those not taking these medications, patients who were being treated with NRTIs were less likely to be diagnosed with MS, and among those who had been diagnosed, future relapses were also less likely.
+
+“Though NRTIs are different molecules, they too block inflammasome activation and the signal we detected here is exactly what we would expect to see if K-9 does one day prove effective in humans,” Ambati said.
+
+K-9 has already been tested in clinical trials for eye diseases such as diabetic macular edema and thyroid eye disease and a similar drug, K-8 , has shown promise in treating late-stage macular degeneration. The authors hope to soon move forward with K-9 in clinical studies for MS and other neurodegenerative diseases such as ALS.
+
+NIH supported this research through NEI grants R01EY028027, R01EY031039, and R01EY032512, National Institute on Aging (NIA) grants R01AG078892 and R01AG082108, National Institute on Drug Abuse (NIDA) grant R01DA054992, and National Institute of General Medical Sciences (NIGMS) grant R35GM148221.
+
+About the National Eye Institute (NEI): NEI leads the federal government’s research on the visual system and eye diseases. NEI supports basic and clinical science programs to develop sight-saving treatments and address special needs of people with vision loss. For more information, visit https://www.nei.nih.gov .
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+Praveen Yerramothu, Kameshwari Ambati et al. T he nucleoside analog kamuvudine-9 shows protective and therapeutic efficacy in a mouse model of multiple sclerosis . Science Translational Medicine. September 23, 2026. DOI: 10.1126/scitranslmed.aei2870

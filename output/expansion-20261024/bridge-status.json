@@ -1,0 +1,28 @@
+{
+  "stage": "bridge",
+  "updated_at": "2026-10-25T04:21:51.815661+00:00",
+  "complete": true,
+  "matrices": [
+    {
+      "name": "bridge-main",
+      "complete": true,
+      "exit_code": 1,
+      "rows": 320,
+      "response_errors": 49
+    },
+    {
+      "name": "bridge-control",
+      "complete": true,
+      "exit_code": 1,
+      "rows": 160,
+      "response_errors": 31
+    },
+    {
+      "name": "bridge-counterfactual",
+      "complete": true,
+      "exit_code": 1,
+      "rows": 20,
+      "response_errors": 1
+    }
+  ]
+}

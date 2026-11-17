@@ -1,0 +1,469 @@
+{
+  "analysis_version": "reading-expansion-analysis-v1-20261025",
+  "formal": false,
+  "complete_inputs": true,
+  "created_at": "2026-10-25T05:13:36.981743+00:00",
+  "counts": {
+    "matrix_manifests": 13,
+    "banks": 5,
+    "models": 4,
+    "runs": 23,
+    "attempts": 1862,
+    "planned_rows": 1862,
+    "recorded_rows": 1862,
+    "response_errors": 218
+  },
+  "source_artifacts": [
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-plan.json",
+      "sha256": "075ff7ef3d2e862018c7a8ae0d04ff2af597c15a70c002863ea789e74ad61fd5",
+      "kind": "stage_plan"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-plan.json",
+      "sha256": "9ce5af8223fe5c2f1f38ebd0ff8d307714de8b83ea0f87fafda947ae1284e22b",
+      "kind": "stage_plan"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-plan.json",
+      "sha256": "b8d244220207b243207980fdf08eb118edb64aabd476aa8b8bada0f0fa979d2d",
+      "kind": "stage_plan"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-plan.json",
+      "sha256": "336531d75af47b56c516d3d657b2f4f44c4e850eebc110eb967a704af7bc60b3",
+      "kind": "stage_plan"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\yi-plan.json",
+      "sha256": "d6cbd1134e286718b8d538ff78e268f696e1d86cb5eaa33c8666d165f02a248d",
+      "kind": "stage_plan"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-control\\manifest.json",
+      "sha256": "083d9e273702086f206ca03bbbb5464540e38870e902b66d8bd521fcb3bb8dc5",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-control\\device-observations.jsonl",
+      "sha256": "4cf4fbfd0b38cd04371b04aeb5ed9dbd76dda58f41bc1c47b5b8c995e21489bd",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-control\\runs\\run-83a60bb85111.csv",
+      "sha256": "90d9000c17b192072a57491d13df2e62a488a6b0e51cd1cefc5f2444a8e828ca",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-control\\runs\\run-83a60bb85111.json",
+      "sha256": "932314ab4090c09775406f04ec81c39c972bd469afddddeca92e251bb4e6c670",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-counterfactual\\manifest.json",
+      "sha256": "c5205f4a06bf12e22409f24b9f3df536144b0ed400e2e7bfd8653f8603a956ca",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-counterfactual\\device-observations.jsonl",
+      "sha256": "3b9818080822a44a9d5d9f14662f5b1535c8d70d241d8ca871c01e4fa1c50f90",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-counterfactual\\runs\\run-0252b605d22a.csv",
+      "sha256": "e15ffb4d0239702d69fdac9de49175f9412d73a81aa25610bb483c9dd6cd7c99",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-counterfactual\\runs\\run-0252b605d22a.json",
+      "sha256": "be578bb6cefe2dc688b433add70f554d2f267255895db8b05f60c41b08c911f8",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-main\\manifest.json",
+      "sha256": "f37a871466044e61f90104a3d6dbbb9dfec58e357bb4eefd0b7d01c8e4da9230",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-main\\device-observations.jsonl",
+      "sha256": "493a0d10e9d845483870cb41e367196eb9463b673875d9a716fb2ab4fb0fe093",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-main\\runs\\run-4454c08f9bcf.csv",
+      "sha256": "a81cfe15f6a46064370eeb770d01e49d79e1d4a4eac59bb1b0b18457217ee094",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\anchor-main\\runs\\run-4454c08f9bcf.json",
+      "sha256": "51d817e61c85b721fc7a772920c49b5090f11a941f6a96389230322675af4ca8",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\manifest.json",
+      "sha256": "1f7c88a7f9c6bba9f1ac7e97d55f79f2e128eca891f0de3908d31eeba67e7fe0",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\device-observations.jsonl",
+      "sha256": "b998a522319ac553cfbdd444668ea0f7bbfa9ff87ee4f62695196158172ba7b8",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\runs\\run-a2d02a44ddde.csv",
+      "sha256": "86ac5ad79c69dff36cba964558c121607af0cf627311cf518ab3e9a1146bf81f",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\runs\\run-a2d02a44ddde.json",
+      "sha256": "fca699107b95667ad88335da4f3e029b4709a50dfe97bedb65e445693f6c8f84",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\runs\\run-77f36504ec26.csv",
+      "sha256": "f063b26d23cb4b37f20de13df783cd9170b3466a83a3bbb41e3e9ec12a52fd01",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-control\\runs\\run-77f36504ec26.json",
+      "sha256": "e84f2112a735207a713baddcb20652ff24845695f05c1ea441befdcf54e005e1",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\manifest.json",
+      "sha256": "b80392bc83a4cfa957da7bfb033ad32a447ee45c36519a1eb2fa3eae35bd4566",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\device-observations.jsonl",
+      "sha256": "bc77463bd7273d30bfb65618a5918a631ae320dd96a84b42d448b5d9b0a79131",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\runs\\run-a5624cb6d98d.csv",
+      "sha256": "b3d30e7433df7b241a177948f086aaaa5b21f078f151b414cdf4e264c1c80efa",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\runs\\run-a5624cb6d98d.json",
+      "sha256": "c554e4840fccb6f487e6e18d24d82f68e836b1ffce213ffd776572540b1e16ba",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\runs\\run-5a79cad36f5c.csv",
+      "sha256": "006287025deafc8fffe7b7015aedcf9901b5b337fd81196846fa2fb656267dca",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-counterfactual\\runs\\run-5a79cad36f5c.json",
+      "sha256": "f3ff449d1a51b807288242af836b3c13b641286c27002e2aec1206160ed2d02d",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\manifest.json",
+      "sha256": "f2761035d93a3e2a10aa97cbcfbe8731a29611cfd7ea3aea2224b3b098f9a36e",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\device-observations.jsonl",
+      "sha256": "2198752f7b467b7bf329a369017452ccc880b31470f7b15acef1b52021066872",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\runs\\run-e178cdbac048.csv",
+      "sha256": "2dd3e15a97d4491e00a54742d23283b5df90e59bc8026a6b598abdb2f8b82eea",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\runs\\run-e178cdbac048.json",
+      "sha256": "56b4ab79c0846f0d72d5222726e2b273543f3ba918713b644d70ee807fc51e15",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\runs\\run-70bf30a6dd7a.csv",
+      "sha256": "0db0aea2f9342e04a09fcdc6c1d1adb04c44f9ea6a1e1e1d111d9cb8c4c57ee6",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\bridge-main\\runs\\run-70bf30a6dd7a.json",
+      "sha256": "3f49c38f376ba47a9eab09dcc95216d36ae57b85bd49744c2ef7cee4f469dde2",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\manifest.json",
+      "sha256": "cee7ac850a06b49e799cfa8508530db294d5e7c808e144cb34a5373804a41859",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\device-observations.jsonl",
+      "sha256": "ded9a20342a289a3aba1ba17a3988cb92229c39c49e7ce1d2a1188421c1b7901",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\runs\\run-db419832159d.csv",
+      "sha256": "7673b9878bb4dcd88027a84d4bcab2a39c4a4190946ab718237542449bd0d8b2",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\runs\\run-db419832159d.json",
+      "sha256": "0867abd935861e84160215d7ce2432e9f6316e334f69492f80e7d2f8c2f1ad84",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\runs\\run-5db7b6eb7023.csv",
+      "sha256": "9fac22cf17d7da9e1437c63e7e33ace68097d165e6c87e68fb927270d25be2f4",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-no_context\\runs\\run-5db7b6eb7023.json",
+      "sha256": "1f335340c95cf006b79400d1f62a74086f90a8796da17227edfe8123c921c13d",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\manifest.json",
+      "sha256": "aef81af31dd821f3ec79435bbf55a3644cf0457c5ecce779b2b4dc5797e22713",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\device-observations.jsonl",
+      "sha256": "bfdea95cc4afcb274d5864ba423b7badf27842b691a32bce4d86db394e4daacf",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\runs\\run-3f5b6c5b648a.csv",
+      "sha256": "4ae06c662df01c0809bbfd1f8043b6be1c2c8ea206d6d8c05550c435b8fcfd07",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\runs\\run-3f5b6c5b648a.json",
+      "sha256": "5288493b88c502de17ef09a817baedda6df79423b538a39d4e9c244227d261c3",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\runs\\run-f698689c7e2e.csv",
+      "sha256": "32c8b3ce1216a15c78e60e6ce56eb3c56cee263dc23f0b03be9b9d664ecfc1e4",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-cmrc2018-with_context\\runs\\run-f698689c7e2e.json",
+      "sha256": "a48f8471211a673b7dfb49f13fde919556b62cd35e28a4b2d3512bfac0850fec",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\manifest.json",
+      "sha256": "57268e63253dce0e2595d82efdc2f69d503ed232c59d193d346b8d5936ab0a8f",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\device-observations.jsonl",
+      "sha256": "9e01cc9682b642c247ae08afdcf6c5042126383b9ce9263e4efbc16173d45d18",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\runs\\run-b505a52713eb.csv",
+      "sha256": "1bbd5d49ec4ffb7d6258e4738ba34ec7a7534f619cf8b775dfe9fed26e2ddd09",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\runs\\run-b505a52713eb.json",
+      "sha256": "9f9f9b039b283076792d959df354202c2a1f3f278816d6b87ec95f6302a21606",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\runs\\run-bb0a117ec70e.csv",
+      "sha256": "50be56c37c1c9c00e10978f1eed5d97193fb274e2d7c8982c4508ad8fce53543",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-no_context\\runs\\run-bb0a117ec70e.json",
+      "sha256": "b439e4f44282f34669e489dd732e286b80db5c7b4af52d19fb582ffeaea40c6f",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\manifest.json",
+      "sha256": "a727b1ae214ec7646479bd0314b69e6d6eab7f1679cd6ad90b5e544604df342e",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\device-observations.jsonl",
+      "sha256": "c7d97ac4e7f29fe943162612d8f0e54312462afd8908b81a41a9ba6bb2287f9b",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\runs\\run-ccfd5b808408.csv",
+      "sha256": "61bc049d50b5b45c02faa001c1b206def398bea55c015ea0b076e73a2a662b50",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\runs\\run-ccfd5b808408.json",
+      "sha256": "2aa2cb371a27d26e3dac7aaeda31e1739df450bea43430a3ee29ea77dc4d572b",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\runs\\run-20a0168f622d.csv",
+      "sha256": "9bd9bdd026c095d8807b42a9bb5df7932fbf1e407e9f38c63a3419353a24ad4c",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\four-k-squad2-with_context\\runs\\run-20a0168f622d.json",
+      "sha256": "7d2b230e67d4ec1f4c00b125d8eaafa2d5857bd076c28ceb033f875e4c76e26d",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\manifest.json",
+      "sha256": "16cb68ec316d88590da458965cc344fb0052d77db313eb680224f8658887b6b4",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\device-observations.jsonl",
+      "sha256": "4fc88efb94fa567e0e831730a11f11d82f76d4a90601bb364a4d4fd61eced062",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\runs\\run-91f62eda620f.csv",
+      "sha256": "fd0751f0719185dae57ca0165bfe22bf800eef815ee8404386f46d8c628bfe6b",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\runs\\run-91f62eda620f.json",
+      "sha256": "6192452e4efaca0b4b45536bc384dc7892331e02fd482f3939f57adca632a1b3",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\runs\\run-603a2b32adf8.csv",
+      "sha256": "75b6acc952bc8a7ba6671e51beeaaedabb0c3bc57ca0c99a0a9d33acdbe28d47",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\recent-main\\runs\\run-603a2b32adf8.json",
+      "sha256": "1446f0f15c43a03ae283e6c9bbcc1c7a116853a309f0a47985e49dd1405e413f",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\manifest.json",
+      "sha256": "c5f9c08d8b9d6bf7ba1e8e0b6efca4515c12cf61368e941561bc66c6f8903d89",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\device-observations.jsonl",
+      "sha256": "f794d675c9c65b4c52358a39fa9bf32c8db07623d5bb27d8789b2e59a9bea339",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\runs\\run-b61997ff7700.csv",
+      "sha256": "e87d7cd1cb804f15255fb5eafff1b414bae05ef7fc8f62a40122ab1f8d171083",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\runs\\run-b61997ff7700.json",
+      "sha256": "033c7c99c07eaff831c72cf4376c9b4e12a1914e4ebdf8081f3a41942cf979c0",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\runs\\run-454d96622cc1.csv",
+      "sha256": "6d21816f9689df59cb2113017467cbef8b19ece25dbc2bd769cb730047d53598",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-cmrc2018\\runs\\run-454d96622cc1.json",
+      "sha256": "e9a0b863851d9db975c6aa9519f12a54dfcde73457c05bd65b4f0722f9a4c81e",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\manifest.json",
+      "sha256": "f05542341a6832f0ee8f23e6204f8981442add3d4f1bc1ae927cdf15d4725488",
+      "kind": "matrix_manifest"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\device-observations.jsonl",
+      "sha256": "9f5c995f8eb5b6369a8b3baad597c314e1b1d0f540b23240e861855af11e9076",
+      "kind": "device_observations"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\runs\\run-5d16eb99ee37.csv",
+      "sha256": "3d3070e676bfe6c8cde1c06e3a5b9141a0629e1392edf3cbee51c51ac2ead48b",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\runs\\run-5d16eb99ee37.json",
+      "sha256": "0d6610a1394ae7e443a80c00c7c67439ed422d76666616eb9e8284ecab5fe3b8",
+      "kind": "run_json"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\runs\\run-c4ba6b5f122b.csv",
+      "sha256": "1c446992c077a400ed78aea68e3d61213b27ca43f9dd668b4885aedb62307e3d",
+      "kind": "run_csv"
+    },
+    {
+      "path": "C:\\Users\\13412\\Desktop\\大三课\\专业能力提升\\reading-bench\\output\\expansion-20261024\\reference-squad2\\runs\\run-c4ba6b5f122b.json",
+      "sha256": "ed59a0fe9b27aa376a221e438cb8f43436bf17c9082746caa09a9b49898372e0",
+      "kind": "run_json"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis-report.md",
+      "sha256": "3a2e9ee8b542ca4403c328e266182fac493dc86267625505b3397f692b10e5eb"
+    },
+    {
+      "path": "analysis.json",
+      "sha256": "e0f4c30d7f8f16bad171d5ec8400e80cc3498241c50ff1db17ba9363a0f76929"
+    },
+    {
+      "path": "efficiency.json",
+      "sha256": "e48ff82c76b14f1af57800ab97f032070d7ba4ea30b3d123b0567739cb2fa452"
+    },
+    {
+      "path": "error-types.json",
+      "sha256": "172aa2c49531d4eb639c8cfc3956b0af292e0c36a0b4aab800cc2a6543f71bc5"
+    },
+    {
+      "path": "figure-catalog.md",
+      "sha256": "f32ab633c941ba8f9978ab653d0987e43bbf182295ca0d4e43634ee29f95f685"
+    },
+    {
+      "path": "figures/figure-01-bank-task-comparison.pdf",
+      "sha256": "aad00dc5eaad450e725ccfd91edd0789cf71426596dab47d0ca1fed613459234"
+    },
+    {
+      "path": "figures/figure-01-bank-task-comparison.png",
+      "sha256": "38df1e2f1d4d82abf2ee658dc8ba24971b744fd17da17fc6fe88f778c8d12f3f"
+    },
+    {
+      "path": "figures/figure-02-four-k-context-difference.pdf",
+      "sha256": "332e76249f7e575df1633104b7ffb133b621e6cbd9b73955377766b50206223c"
+    },
+    {
+      "path": "figures/figure-02-four-k-context-difference.png",
+      "sha256": "90de92daa75e243ccfd100213c4866f04bf6b959369c5650df9589c68227445a"
+    },
+    {
+      "path": "metadata.json",
+      "sha256": "37f560d64835c1cffb6c71bd5a415e3264209eb8366d1fee5025bb08f8f4cfe5"
+    },
+    {
+      "path": "numeric-table.csv",
+      "sha256": "81876b2481c82ac87f5cdc79ed826bd60f923a9389de2c9f720ae0e9d98b3585"
+    },
+    {
+      "path": "numeric-table.json",
+      "sha256": "0f3e58c7d07ea7366f8a6c2f55aec66b525a6bda3e19480ce7875b1b20728cc8"
+    },
+    {
+      "path": "paired-differences.csv",
+      "sha256": "3d6e57b9edb2239c2811183fb5a5da48d96e380a4822b18bedb2bf78b5630705"
+    },
+    {
+      "path": "paired-differences.json",
+      "sha256": "8254ddd7d54391c429b7dfdc9eacdee1a076bd5871631df1767d284a20fadd92"
+    },
+    {
+      "path": "stats-appendix.md",
+      "sha256": "ecfad65e8830e4c96fbcdc7afa632b09ff4c163d7378e6c963fef8124f9d7564"
+    },
+    {
+      "path": "wrong-cases.json",
+      "sha256": "18e0f102ab9d983fc013c1dea4a316841068681530361422cddef05770022f24"
+    }
+  ]
+}

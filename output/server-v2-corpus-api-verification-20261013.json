@@ -1,0 +1,269 @@
+{
+  "counts": {
+    "total": 402,
+    "downloaded": 402,
+    "language": {
+      "zh": 168,
+      "en": 234
+    },
+    "states": {
+      "candidate": 402,
+      "ai_checked": 0,
+      "human_reviewed": 0,
+      "frozen": 0
+    },
+    "questions": 0,
+    "runnable": 0
+  },
+  "annotation_counts": {
+    "articles": 2,
+    "questions": 16,
+    "human_reviewed_articles": 0,
+    "frozen_articles": 0,
+    "human_reviewed_questions": 0,
+    "frozen_questions": 0
+  },
+  "examples": {
+    "en": {
+      "id": "en-govuk-027559558240",
+      "title": "Upfront help cuts placement costs for healthcare students",
+      "language": "en",
+      "provider": "govuk",
+      "source_name": "UK Government (multiple departments)",
+      "source_url": "https://www.gov.uk/government/news/upfront-help-cuts-placement-costs-for-healthcare-students",
+      "source_attribution": null,
+      "published_at": "2026-09-01",
+      "first_published_at": "2026-09-01",
+      "date_evidence": {
+        "kind": "official_content_api",
+        "field": "first_published_at",
+        "value": "2026-09-01T00:05:00+01:00",
+        "updated_at": "2026-09-01T00:05:00+01:00"
+      },
+      "date_review_note": "Official Content API explicitly records first publication.",
+      "recency_tier": "2026-H2",
+      "domain_provisional": "public_policy",
+      "genre_provisional": "public_information",
+      "rights": "GOV.UK内容一般适用Open Government Licence v3.0，须署名，且不覆盖徽标、个人信息及第三方权利；当前候选须逐篇排除第三方引文和媒体后才能公开分发。",
+      "scope": "article_body_candidate",
+      "extraction_selector": "official Content API details.body",
+      "sha256": "4480f9ad2b828594ca9637539efda012f410a881624705384eb38dc14a1547a2",
+      "raw_sha256": "d1d4813731e81216ea91aa13d44236180d37d4f2a64d361bc10a14408c7201b3",
+      "body_bytes": 6410,
+      "word_count": 1005,
+      "han_count": 0,
+      "downloaded_at": "2026-10-11T02:49:52+00:00",
+      "review_note": "真实下载的待审候选。尚无阅读理解题、参考答案或人工审定；不计入正式测评题库。",
+      "annotation_status": "candidate",
+      "pool": "20261011-source-discovery",
+      "questions_count": 0,
+      "runnable": false,
+      "body_available": true,
+      "hash_verified": true,
+      "character_count": 6371,
+      "text": "Upfront cash help for nursing, midwifery, allied health, and dental therapy and hygiene students’ placement costs, meeting commitment set out in the 10 Year Health Plan\n\nStudents spared from paying excess placement travel and accommodation bills out of their own pockets as government works to help with cost of living\n\nBoost for rural and coastal placements where costs can be highest\n\nThousands of future nurses, midwives, allied health and dental professionals will receive upfront support with travel and accommodation costs for clinical placements under new plans to reduce the financial barriers to training.\n\nFrom the start of the 2026 to 2027 academic year, eligible students with full access to the NHS Learning Support Fund will be able to receive advance payments for placement-related travel and accommodation costs.\n\nThe change will mean students no longer have to cover expenses themselves before claiming the money back. Under the current system, students must book and pay for travel and accommodation upfront often amounting to hundreds of pounds, then submit claims before being reimbursed. The new system will give students greater control over their finances while they complete their training.\n\nWhile a new digital claims system introduced in January 2025 has already reduced processing times, students could still be left out of pocket while waiting for their claim to be processed. Advance payments will help ease those pressures by ensuring support is available.\n\nIt marks another step in the government’s work to ease cost-of-living pressures, putting money in students’ pockets sooner and helping them focus on training rather than bills.\n\nThe move will also make it easier for students to undertake placements in rural and coastal communities, where travel costs can be particularly high.\n\nHealth Minister, Alison McGovern, said:\n\nNo student training to care for patients should be held back because they cannot afford the upfront cost of getting to a placement.\n\nThese advance payments will put money in students’ pockets before costs hit, easing pressure on budgets and helping NHS staff get the experience they need, whether that is in a city hospital or a remote coastal community.\n\nThis is another step in delivering our 10 Year Health Plan , backing students, breaking down barriers to training, and building the NHS workforce patients need for the future.\n\nDuncan Burton, Chief Nursing Officer for England, said:\n\nThis is an important step in supporting the next generation of nurses, midwives and allied health professionals, and will be welcome news for the thousands of students working hard to develop the knowledge, skills and experience needed to care for patients.\n\nWe know travel and accommodation costs can put real pressure on students. By providing advance payments, we are removing a significant barrier to learning, helping students focus on their education and making it easier for them to access valuable placement opportunities.\n\nThe new advance payment facility, delivered with the NHS Business Services Authority ( NHSBSA ), will give students an upfront ‘float’ to help cover costs before they arise.\n\nStudents will continue to submit claims as normal, with approved claims automatically deducted from their advance payment balance. If the balance falls below £50, they will be able to request a top-up. Any outstanding float balance will be deducted from a student’s final training grant instalment.\n\nBy reducing the need to find money upfront, the government is helping students get the experience they need, wherever they are, supporting the future NHS workforce.\n\nLouisa Denye, Head of NHS Student Services, said:\n\nGiving eligible students the option to be paid for their travel and accommodation costs in advance builds on the improvements we’ve already made since introducing our digitised reimbursement journey last year, and is part of NHSBSA ’s ongoing commitment to modernise the way we support healthcare students financially throughout their studies.\n\nCaitlin Greenlagh, a third-year diagnostic radiography student at the University of Cumbria, said:\n\nTravel and accommodation for placements can cost hundreds of pounds. It is a lot to find upfront when you’re already managing everyday living costs as a student.\n\nReceiving this support in advance will take away a real financial worry and mean I can focus more on my learning and caring for patients. It will also make placements further from home, including in rural or coastal areas, feel much more accessible.\n\nBy supporting the future of our NHS, we are ensuring that staff have got the best exposure to learning and experience to prepare them for their roles.\n\nLater this year, we will publish a 10-year workforce plan, which will further set out how we will ensure the NHS has the right people with the right skills to care for patients when they need it.\n\nGill Walton, Royal College of Midwives ( RCM ) Chief Executive, said:\n\nStudent midwives work incredibly hard to qualify for one of the most rewarding yet demanding jobs in the NHS. They shouldn’t be left out of pocket for it too. We’re delighted that the government has listened to the RCM and our hardworking student midwives, and acted on this.\n\nThis is something we’ve been calling for since our 2024 State of UK Midwifery Student Finance report. No student should be paying to travel to their placements, especially in rural and remote areas where costs are highest.\n\nOur research found student midwives have concerns over graduate debt and financial hardship during training. This is a genuinely welcome step, but it must go hand in hand with guaranteeing these newly qualified midwives a job at the end of their course.\n\nSusan Price, Chair of the British Dietetic Association ( BDA ), said:\n\nNo student should have to choose between completing a placement and managing their finances. The BDA warmly welcomes these improvements to the NHS Learning Support Fund, which will provide much needed support to dietetic students and reduce cash-flow pressures during placements.\n\nThe changes will be especially beneficial for students from less advantaged backgrounds, and those travelling longer distances to more rural and remote placements. By making placements more accessible, this development strengthens the pipeline of future dietitians and support continued growth of the profession.",
+      "paragraphs": [
+        {
+          "id": "p001",
+          "text": "Upfront cash help for nursing, midwifery, allied health, and dental therapy and hygiene students’ placement costs, meeting commitment set out in the 10 Year Health Plan"
+        },
+        {
+          "id": "p002",
+          "text": "Students spared from paying excess placement travel and accommodation bills out of their own pockets as government works to help with cost of living"
+        },
+        {
+          "id": "p003",
+          "text": "Boost for rural and coastal placements where costs can be highest"
+        },
+        {
+          "id": "p004",
+          "text": "Thousands of future nurses, midwives, allied health and dental professionals will receive upfront support with travel and accommodation costs for clinical placements under new plans to reduce the financial barriers to training."
+        },
+        {
+          "id": "p005",
+          "text": "From the start of the 2026 to 2027 academic year, eligible students with full access to the NHS Learning Support Fund will be able to receive advance payments for placement-related travel and accommodation costs."
+        },
+        {
+          "id": "p006",
+          "text": "The change will mean students no longer have to cover expenses themselves before claiming the money back. Under the current system, students must book and pay for travel and accommodation upfront often amounting to hundreds of pounds, then submit claims before being reimbursed. The new system will give students greater control over their finances while they complete their training."
+        },
+        {
+          "id": "p007",
+          "text": "While a new digital claims system introduced in January 2025 has already reduced processing times, students could still be left out of pocket while waiting for their claim to be processed. Advance payments will help ease those pressures by ensuring support is available."
+        },
+        {
+          "id": "p008",
+          "text": "It marks another step in the government’s work to ease cost-of-living pressures, putting money in students’ pockets sooner and helping them focus on training rather than bills."
+        },
+        {
+          "id": "p009",
+          "text": "The move will also make it easier for students to undertake placements in rural and coastal communities, where travel costs can be particularly high."
+        },
+        {
+          "id": "p010",
+          "text": "Health Minister, Alison McGovern, said:"
+        },
+        {
+          "id": "p011",
+          "text": "No student training to care for patients should be held back because they cannot afford the upfront cost of getting to a placement."
+        },
+        {
+          "id": "p012",
+          "text": "These advance payments will put money in students’ pockets before costs hit, easing pressure on budgets and helping NHS staff get the experience they need, whether that is in a city hospital or a remote coastal community."
+        },
+        {
+          "id": "p013",
+          "text": "This is another step in delivering our 10 Year Health Plan , backing students, breaking down barriers to training, and building the NHS workforce patients need for the future."
+        },
+        {
+          "id": "p014",
+          "text": "Duncan Burton, Chief Nursing Officer for England, said:"
+        },
+        {
+          "id": "p015",
+          "text": "This is an important step in supporting the next generation of nurses, midwives and allied health professionals, and will be welcome news for the thousands of students working hard to develop the knowledge, skills and experience needed to care for patients."
+        },
+        {
+          "id": "p016",
+          "text": "We know travel and accommodation costs can put real pressure on students. By providing advance payments, we are removing a significant barrier to learning, helping students focus on their education and making it easier for them to access valuable placement opportunities."
+        },
+        {
+          "id": "p017",
+          "text": "The new advance payment facility, delivered with the NHS Business Services Authority ( NHSBSA ), will give students an upfront ‘float’ to help cover costs before they arise."
+        },
+        {
+          "id": "p018",
+          "text": "Students will continue to submit claims as normal, with approved claims automatically deducted from their advance payment balance. If the balance falls below £50, they will be able to request a top-up. Any outstanding float balance will be deducted from a student’s final training grant instalment."
+        },
+        {
+          "id": "p019",
+          "text": "By reducing the need to find money upfront, the government is helping students get the experience they need, wherever they are, supporting the future NHS workforce."
+        },
+        {
+          "id": "p020",
+          "text": "Louisa Denye, Head of NHS Student Services, said:"
+        },
+        {
+          "id": "p021",
+          "text": "Giving eligible students the option to be paid for their travel and accommodation costs in advance builds on the improvements we’ve already made since introducing our digitised reimbursement journey last year, and is part of NHSBSA ’s ongoing commitment to modernise the way we support healthcare students financially throughout their studies."
+        },
+        {
+          "id": "p022",
+          "text": "Caitlin Greenlagh, a third-year diagnostic radiography student at the University of Cumbria, said:"
+        },
+        {
+          "id": "p023",
+          "text": "Travel and accommodation for placements can cost hundreds of pounds. It is a lot to find upfront when you’re already managing everyday living costs as a student."
+        },
+        {
+          "id": "p024",
+          "text": "Receiving this support in advance will take away a real financial worry and mean I can focus more on my learning and caring for patients. It will also make placements further from home, including in rural or coastal areas, feel much more accessible."
+        },
+        {
+          "id": "p025",
+          "text": "By supporting the future of our NHS, we are ensuring that staff have got the best exposure to learning and experience to prepare them for their roles."
+        },
+        {
+          "id": "p026",
+          "text": "Later this year, we will publish a 10-year workforce plan, which will further set out how we will ensure the NHS has the right people with the right skills to care for patients when they need it."
+        },
+        {
+          "id": "p027",
+          "text": "Gill Walton, Royal College of Midwives ( RCM ) Chief Executive, said:"
+        },
+        {
+          "id": "p028",
+          "text": "Student midwives work incredibly hard to qualify for one of the most rewarding yet demanding jobs in the NHS. They shouldn’t be left out of pocket for it too. We’re delighted that the government has listened to the RCM and our hardworking student midwives, and acted on this."
+        },
+        {
+          "id": "p029",
+          "text": "This is something we’ve been calling for since our 2024 State of UK Midwifery Student Finance report. No student should be paying to travel to their placements, especially in rural and remote areas where costs are highest."
+        },
+        {
+          "id": "p030",
+          "text": "Our research found student midwives have concerns over graduate debt and financial hardship during training. This is a genuinely welcome step, but it must go hand in hand with guaranteeing these newly qualified midwives a job at the end of their course."
+        },
+        {
+          "id": "p031",
+          "text": "Susan Price, Chair of the British Dietetic Association ( BDA ), said:"
+        },
+        {
+          "id": "p032",
+          "text": "No student should have to choose between completing a placement and managing their finances. The BDA warmly welcomes these improvements to the NHS Learning Support Fund, which will provide much needed support to dietetic students and reduce cash-flow pressures during placements."
+        },
+        {
+          "id": "p033",
+          "text": "The changes will be especially beneficial for students from less advantaged backgrounds, and those travelling longer distances to more rural and remote placements. By making placements more accessible, this development strengthens the pipeline of future dietitians and support continued growth of the profession."
+        }
+      ],
+      "paragraph_note": "当前段落编号用于浏览，正式标注需在清理正文后重新锁定文章版本与稳定 ID。",
+      "annotation_preview": []
+    },
+    "zh": {
+      "id": "zh-cas-001ccd66ec38",
+      "title": "1,3-二烯立体发散性调聚反应研究取得进展",
+      "language": "zh",
+      "provider": "cas",
+      "source_name": "中国科学院",
+      "source_url": "https://www.cas.cn/syky/202609/t20260928_5121113.shtml",
+      "source_attribution": "上海有机化学研究所,中国科学院",
+      "published_at": "2026-09-28",
+      "first_published_at": null,
+      "date_evidence": {
+        "kind": "publication_meta",
+        "field": "PubDate",
+        "value": "2026-09-28 15:28"
+      },
+      "date_review_note": "Official source page/API publication verified; earlier publication or repost elsewhere remains to be checked. Do not equate an URL stamp or update with first publication.",
+      "recency_tier": "2026-H2",
+      "domain_provisional": "science_technology",
+      "genre_provisional": "research_explanation",
+      "rights": "机构官网新闻不自动属于公有领域。仅作为本地、私有的教学科研候选；保留署名及出处。公开分发全文或题库前须逐篇核实授权；转载、照片、第三方引语须单独审查。",
+      "scope": "article_body_candidate",
+      "extraction_selector": ".TRS_UEDITOR",
+      "sha256": "d2ff8f3629ebc5ebe1acd31c0e0db820757846b03bbdfd1776f81ab54a70c5ab",
+      "raw_sha256": "ac49443417ceb10b4d3c03872e031621871dd91ef5c20f4afe97fb927e570dd0",
+      "body_bytes": 1875,
+      "word_count": null,
+      "han_count": 564,
+      "downloaded_at": "2026-10-11T02:46:03+00:00",
+      "review_note": "真实下载的待审候选。尚无阅读理解题、参考答案或人工审定；不计入正式测评题库。",
+      "annotation_status": "candidate",
+      "pool": "20261011-source-discovery",
+      "questions_count": 0,
+      "runnable": false,
+      "body_available": true,
+      "hash_verified": true,
+      "character_count": 649,
+      "text": "1,3-二烯是一类基础的结构单元，广泛应用于有机合成和工业生产。然而，受多π体系结构特征影响，1,3-二烯参与的调聚反应中精准的立体选择性调控一直面临较大挑战。如何实现多维立体的同时调控，从而获得单一异构体是该类转化的核心难点。\n\n近日，中国科学院上海有机化学研究所科研团队利用官能团化1,3-二烯为底物，设计钯/酸协同催化体系，实现了对相同原料出发调聚过程的精准控制，立体发散性地制备出不同的调聚产物。\n\n团队验证了反应中区域选择性、烯烃几何选择性、对映选择性和非对映选择性的四维调控可行性。研究新设计的亚膦酰胺手性配体，保障了非对映选择性调聚过程高立体控制效果。该催化体系反应条件温和，催化剂用量可降至千分之一，且对空气和水不敏感。同时，底物中携带的酯基官能团，增加了产物的转化和修饰空间，展现出较高的应用潜力。\n\n实验机理研究显示，反应体系的立体控制由手性催化剂、酸和碱共同作用。酸主要作质子源及抗衡离子，碱则辅助转移质子、加速二价钯前体的还原并影响酸的功能。\n\n团队进一步通过DFT计算研究系统阐释了调聚反应的不同区域选择性起源，以及对映选择性的控制模式。计算研究表明，初始环金属化反应过程较快，是决定调聚反应的区域选择性的关键步骤，质子化过程会影响烯烃形成，最终取代过程为反应的决速步。基于此，团队提出该反应催化循环机制，为复杂多π体系底物的精准合成提供了新策略。\n\n相关研究成果发表在《科学》（ Science ）上。研究工作得到国家自然科学基金委员会、科学技术部、中国科学院等的支持。",
+      "paragraphs": [
+        {
+          "id": "p001",
+          "text": "1,3-二烯是一类基础的结构单元，广泛应用于有机合成和工业生产。然而，受多π体系结构特征影响，1,3-二烯参与的调聚反应中精准的立体选择性调控一直面临较大挑战。如何实现多维立体的同时调控，从而获得单一异构体是该类转化的核心难点。"
+        },
+        {
+          "id": "p002",
+          "text": "近日，中国科学院上海有机化学研究所科研团队利用官能团化1,3-二烯为底物，设计钯/酸协同催化体系，实现了对相同原料出发调聚过程的精准控制，立体发散性地制备出不同的调聚产物。"
+        },
+        {
+          "id": "p003",
+          "text": "团队验证了反应中区域选择性、烯烃几何选择性、对映选择性和非对映选择性的四维调控可行性。研究新设计的亚膦酰胺手性配体，保障了非对映选择性调聚过程高立体控制效果。该催化体系反应条件温和，催化剂用量可降至千分之一，且对空气和水不敏感。同时，底物中携带的酯基官能团，增加了产物的转化和修饰空间，展现出较高的应用潜力。"
+        },
+        {
+          "id": "p004",
+          "text": "实验机理研究显示，反应体系的立体控制由手性催化剂、酸和碱共同作用。酸主要作质子源及抗衡离子，碱则辅助转移质子、加速二价钯前体的还原并影响酸的功能。"
+        },
+        {
+          "id": "p005",
+          "text": "团队进一步通过DFT计算研究系统阐释了调聚反应的不同区域选择性起源，以及对映选择性的控制模式。计算研究表明，初始环金属化反应过程较快，是决定调聚反应的区域选择性的关键步骤，质子化过程会影响烯烃形成，最终取代过程为反应的决速步。基于此，团队提出该反应催化循环机制，为复杂多π体系底物的精准合成提供了新策略。"
+        },
+        {
+          "id": "p006",
+          "text": "相关研究成果发表在《科学》（ Science ）上。研究工作得到国家自然科学基金委员会、科学技术部、中国科学院等的支持。"
+        }
+      ],
+      "paragraph_note": "当前段落编号用于浏览，正式标注需在清理正文后重新锁定文章版本与稳定 ID。",
+      "annotation_preview": []
+    }
+  }
+}

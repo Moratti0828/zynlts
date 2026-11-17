@@ -1,0 +1,103 @@
+Last year was one of the nation’s most active tornado seasons on record, with approximately 1,559 tornadoes — 27% higher than the 30-year average from 1991–2020, according to the National Oceanic and Atmospheric Administration .
+
+The number of tornadoes not only grew but shifted eastward during that period: tornado activity decreased in the west by 25% and increased in the east by 12% (Figure 1). This shift is especially concerning because tornadoes are now increasingly affecting southern states with a large concentration of mobile home communities.
+
+The National Weather Service reports that mobile home residents are 15 to 20 times more likely to be killed in a tornado than those living in site‑built housing.
+
+To help identify where these communities are located and who may be most vulnerable to tornadoes, communities can turn to Census Bureau data.
+
+The American Community Survey ( ACS ) publishes data that enable communities to gauge risk to residents. The ACS contains variables on community vulnerability, including housing characteristics. This provides a national framework to identify tornado risk and prepare people for disaster.
+
+The Community Resilience Estimates ( CRE ), built with ACS data and small area modeling techniques, also help identify populations that may have difficulty with disaster recovery.
+
+Community leaders, emergency managers and everyday citizens can use Census Bureau data, like the ACS and the CRE, to better understand the disaster vulnerability of any neighborhood in the nation.
+
+Seasonal Change
+
+Tornado activity isn’t only shifting eastward — it’s also breaking out of the traditional late-spring-into-summer season, now stretching into winter and early spring.
+
+Between 1950 and 2009, tornado activity was strongly concentrated in the spring months, when nearly two‑thirds of all tornadoes occurred between April and June.
+
+From 2010 to 2025, tornado activity expanded, with higher tornado counts in January through April, and notable increases in October and December (Figure 2).
+
+Summertime tornado activity dropped compared to 1950-2009. The tornado season now begins earlier, ramps up more gradually, and extends later into the year.
+
+This growing threat of near year-round tornadoes is most pronounced in the South, particularly the Gulf Coast states of Alabama, Louisiana and Mississippi, where moisture-rich air creates an uninterrupted, seven-month tornado season in the cooler months.
+
+Communities at Risk
+
+In addition to increasing tornado activity, Alabama, Louisiana and Mississippi have some of the nation’s highest concentrations of mobile homes, also referred to as manufactured housing (Figure 3 and 4).
+
+“Site-built structures” constructed directly in the ground offer protection against weaker tornadoes. But manufactured housing can be severely damaged or destroyed by even the lowest-rated tornado on the Enhanced Fujita (EF) Scale, which classifies tornadoes by severity of damage caused.
+
+To gauge tornado risk in Alabama, Louisiana, and Mississippi, we selected one representative community in each state. Using ACS and CRE data, the analysis provides an overview of each community’s vulnerability through a socioeconomic profile paired with the National Oceanic and Atmospheric Administration’s count of tornado activity.
+
+The CRE’s measure of vulnerability includes ten components from poverty and disability to health insurance coverage and vehicle access. Individuals with three or more components are considered vulnerable to the impacts of a natural disaster.
+
+Greene County had the largest tornado‑rate increase among the three example communities. It is Alabama’s 2nd most vulnerable county according to the CRE measures of population vulnerability.
+
+Other underlying socioeconomic factors mean that even weak tornadoes can have a disproportionate impact on the county:
+
+Increase in tornado events, 2010-2025: An unprecedented 171% jump.
+
+CRE vulnerable population estimate: 38.9%
+
+Housing stock: 34.7% manufactured homes.
+
+Poverty rate: 33%.
+
+Disability rate: Over 18%.
+
+One quarter of residents are 65 or older.
+
+Low labor force participation.
+
+As Louisiana’s third most vulnerable parish, according to the CRE, St. Helena Parish’s housing stock is 45% mobile homes. The parish experienced a sizable increase in tornado events, and its other socioeconomic characteristics amplify the consequences of weak and moderate tornadoes:
+
+Increase in tornado events, 2010-2025: 67%.
+
+CRE vulnerable population estimate: 36.1%
+
+Poverty rate: over 32%.
+
+Disability rate: 27%.
+
+About one-quarter of residents are age 65 or older.
+
+Mississippi has a higher number of tornado events compared to Alabama or Louisiana.
+
+While Scott County ranked 50th in vulnerability out of Mississippi’s 82 counties, it has a higher percentage of residents with three or more CRE vulnerability components than about 83% of all U.S. counties. More than a third of its housing is mobile homes (35.8%).
+
+The county faces meaningful risk, but measured against the examples in Louisiana and Alabama, it has more resources due to lower poverty and a healthier labor market:
+
+Increase in tornado events, 2010-2025: 12%.
+
+CRE vulnerable population estimate: 27.9%
+
+Poverty rate: 22.2%, lower than in the other two chosen counties.
+
+Median household income supports a broader labor market and more diverse local economy, by comparison.
+
+Tornado Cost & Safety
+
+In addition to the toll tornadoes take on people, they are among the costliest weather hazards in the United States. Since 1980, tornadoes have accounted for nearly half of all billion-dollar weather disasters, and annual losses have increased by more than $1 billion over the past two decades.
+
+What can be done? The first line of defense is accurate detection and warning systems, which are essential as tornado risks evolve across regions and seasons.
+
+Assisted by census data, decision makers, emergency planners and ordinary residents can strengthen their tornado-prone community’s ability to adapt as tornado activity shifts eastward and extends later into the year.
+
+Census Bureau data offer communities a place to start by identifying where vulnerable communities are located, including areas with a higher percentage of mobile homes. The data help leaders focus planning, improve outreach and support the people who need it most.
+
+Janie Forbes is a geographer at the Census Bureau.
+
+Chase Sawyer, a demographic statistician at the Census Bureau, contributed to this story.
+
+Related Statistics
+
+American Community Survey (ACS) The American Community Survey is the premier source for information about America's changing population, housing and workforce.
+
+Program Survey Landing Page Community Resilience Estimates The Census Bureau’s CRE provide an easily understood metric for how socially vulnerable every neighborhood in the United States is to the impacts of disasters.
+
+Emergency Management Hub The U.S. Census Bureau produces timely local data that are critical to emergency planning, preparedness and recovery efforts.
+
+Our email newsletter is sent out on the day we publish a story. Get an alert directly in your inbox to read, share and blog about our newest stories.

@@ -1,0 +1,53 @@
+{
+  "schema_version": "reading-expansion-stage-v1",
+  "stage": "bridge",
+  "configurations": [
+    {
+      "models": [
+        "gemma2-9b",
+        "phi35-mini"
+      ],
+      "bank": "dev-expanded-20261020",
+      "num_ctx": 8192,
+      "strict_time": "true",
+      "name": "bridge-main",
+      "mode": "with_context"
+    },
+    {
+      "models": [
+        "gemma2-9b",
+        "phi35-mini"
+      ],
+      "bank": "dev-expanded-20261020",
+      "num_ctx": 8192,
+      "strict_time": "true",
+      "name": "bridge-control",
+      "mode": "no_context",
+      "question_ids": [
+        "q01",
+        "q02",
+        "q03",
+        "q04"
+      ]
+    },
+    {
+      "models": [
+        "gemma2-9b",
+        "phi35-mini"
+      ],
+      "bank": "dev-counterfactual-20261020",
+      "num_ctx": 8192,
+      "strict_time": "true",
+      "name": "bridge-counterfactual",
+      "mode": "with_context"
+    }
+  ],
+  "settings": {
+    "temperature": 0,
+    "seed": 42,
+    "max_tokens": 512,
+    "strict_budget": false
+  },
+  "formal": false,
+  "notice": "Public historical reference and recent AI-draft banks stay separate; no contamination-free or formal ranking claim."
+}

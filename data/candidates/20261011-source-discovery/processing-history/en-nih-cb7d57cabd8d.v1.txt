@@ -1,0 +1,35 @@
+Tuesday, September 1, 2026
+
+The discovery, made through malaria research, is a breakthrough for allergic condition associated with tick bites that has no treatment or cure.
+
+National Institutes of Health (NIH) researchers have discovered rare antibodies that could inform the development of an intervention for alpha-gal syndrome (AGS), an emerging tick-bite-associated condition that can lead to allergic reactions to a molecule in red meat and other animal products. In laboratory tests, these antibodies acted as a biological shield, successfully blocking human allergic antibodies from binding to red meat allergens. The findings were published in the Journal of Clinical Investigation.
+
+“Tick bite-associated cases of AGS are increasing in the U.S. and globally, and there is currently no specific treatment or prevention for it other than avoiding red meat,” said John Powers, M.D., acting director of NIH’s National Institute of Allergy and Infectious Diseases (NIAID). “This discovery of monoclonal antibodies by NIAID scientists and their collaborators is the first step in potentially identifying ways to prevent AGS and develop new targeted therapies for people before they are affected by this disabling condition.”
+
+AGS is an allergic condition associated with tick bites that can trigger severe reactions to a molecule called galactose-α-1,3-galactose (alpha-gal) found in red meat and other products that come from mammals. Approximately 110,000 suspected cases of the syndrome have been identified in the U.S. since 2010, though that number is likely higher, as cases are often not identified. People with AGS can experience many types of symptoms of varying severity, ranging from gastrointestinal problems to life-threatening anaphylaxis.
+
+Allergen-specific monoclonal antibodies that block an antibody called IgE from binding to allergens have emerged as potential treatments for allergies to pollen, peanuts, and cats. In this study, the researchers initially tried to identify antibodies that would target alpha-gal on malaria parasites as a potential strategy to prevent malaria infection. They isolated 42 antibodies specific to alpha-gal from cells of malaria-exposed individuals but found the antibodies didn’t bind well to the malaria parasite.
+
+The research team then screened the antibodies to see if they could potentially combat AGS and found that 13 of the antibodies could bind to allergens linked to the condition. Among these, two of the antibodies blocked IgE from patients with AGS from attaching to certain AGS allergens, and one of the antibodies interfered with the activation of basophils, which are immune cells involved in allergic reactions. These findings provide evidence that could lead to future studies that evaluate whether alpha-gal-specific antibodies could be used for preventing allergic reactions in people with AGS.
+
+“We are thrilled that this research is helping to advance the development of alpha-gal-specific monoclonal antibodies as a potential intervention for AGS,” said Peter Crompton, M.D., a lead author of the paper and senior investigator at NIAID. “This discovery is also a remarkable example of how collaborative global health research can lead to breakthroughs that improve the health and well-being of Americans.”
+
+The research team, which was also led by Scott Commins, M.D., Ph.D., at the University of North Carolina at Chapel Hill, suggests these findings could lead to future studies aimed at identifying additional monoclonal antibodies that work against a wider range of alpha-gal allergens.
+
+About the National Institute of Allergy and Infectious Diseases (NIAID): NIAID conducts and supports research to study the causes of infectious and immune-mediated diseases, and to develop better means of preventing, diagnosing and treating these illnesses. News releases, fact sheets and other NIAID-related materials are available on the NIAID website .
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+Cho H, et al. Human monoclonal antibodies targeting α-Gal restrict IgE engagement of α-Gal syndrome allergens. Journal of Clinical Investigation. 2026. DOI: https://doi.org/10.1172/JCI192370
+
+Institute/Center
+
+National Institute of Allergy and Infectious Diseases (NIAID):
+
+NIH Office of Communications
+
+Connect with Us
+
+Subscribe to news releases RSS Feed

@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-10-13T14:39:17.469118+00:00",
+  "url": "http://127.0.0.1:8877/#v2experiment",
+  "health": {
+    "status": "ok",
+    "version": "1.2.0"
+  },
+  "qwen": {
+    "id": "qwen25-7b",
+    "available": true,
+    "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "temporal_verified": true
+  },
+  "counts": {
+    "total": 402,
+    "downloaded": 402,
+    "language": {
+      "zh": 168,
+      "en": 234
+    },
+    "states": {
+      "candidate": 402,
+      "ai_checked": 0,
+      "human_reviewed": 0,
+      "frozen": 0
+    },
+    "questions": 0,
+    "runnable": 0
+  },
+  "annotation_counts": {
+    "articles": 2,
+    "questions": 16,
+    "human_reviewed_articles": 0,
+    "frozen_articles": 0,
+    "human_reviewed_questions": 0,
+    "frozen_questions": 0
+  },
+  "persistent_exec_session_id": 70121,
+  "foreground_connection_script": "connect-server.ps1",
+  "model_inference_requested": false
+}

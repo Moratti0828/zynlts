@@ -1,0 +1,10 @@
+﻿model_name,language,article_id,question_id,dimension,kind,question,answer,unit,evidence_ids,confidence,abstain,answer_correct,choice_accuracy,short_em,short_token_f1,numeric_strict_accuracy,evidence_exact,evidence_f1,joint_success,brier_answer,latency_s,input_tokens,output_tokens,error,raw_response
+Qwen2.5 · 7B Instruct,zh,zh-cas-1cf079b15eb7-dev20261020,q01,D1,short,报道中用于集成的单层材料是什么？只写化学式，省略空格。,MoSe2,,"[""zh-cas-1cf079b15eb7-dev20261020:p002""]",1,False,1,,1,1.0,,1,1.0,1,0,4.394,729,52,,"{""answer"":""MoSe2"",""unit"":"""",""evidence_ids"":[""zh-cas-1cf079b15eb7-dev20261020:p002""],""confidence"":1,""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-1cf079b15eb7-dev20261020,q03,D2,choice,传统超表面对自发辐射实施空间相干相位调控的限制是什么？,B,,"[""p001""]",0.9,False,1,1,,,,0,0,0,0.009999999999999995,1.06,784,32,,"{""answer"":""B"", ""unit"":"""",""evidence_ids"":[""p001""], ""confidence"":0.9, ""abstain"":false}"
+Qwen2.5 · 7B Instruct,zh,zh-cas-1cf079b15eb7-dev20261020,q07,D6,unanswerable,该器件在实验中实现的最大光束偏转角精确是多少度？,,,[],0,True,1,,,,,0,,0,1,1.082,725,35,,"{
+  ""answer"": """",
+  ""unit"": """",
+  ""evidence_ids"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"

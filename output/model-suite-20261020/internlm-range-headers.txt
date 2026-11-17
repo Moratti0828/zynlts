@@ -1,0 +1,51 @@
+HTTP/2 302 
+accept-ranges: bytes
+access-control-allow-origin: https://hf-mirror.com
+access-control-expose-headers: X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash
+access-control-max-age: 86400
+alt-svc: h3=":443"; ma=2592000
+cache-control: no-cache
+cache-control: no-store
+content-type: text/plain; charset=utf-8
+cross-origin-opener-policy: same-origin
+date: Tue, 20 Oct 2026 05:10:04 GMT
+link: <https://hf-mirror.com/api/models/internlm/internlm2_5-7b-chat-gguf/xet-read-token/8fa9dff166b63e3d356b3a3ca95c5ab2a4b1b378>; rel="xet-auth", <https://cas-server.xethub.hf.co/v1/reconstructions/adfc38d4a64391c4e6926aca2c98927fb83699f3d884a0aa2523f1cf9f4815ef>; rel="xet-reconstruction-info"
+location: https://cas-bridge.xethub.hf.co/xet-bridge-us/6683de3cf593a432ce50d113/adfc38d4a64391c4e6926aca2c98927fb83699f3d884a0aa2523f1cf9f4815ef?Expires=1792476604&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jYXMtYnJpZGdlLnhldGh1Yi5oZi5jby94ZXQtYnJpZGdlLXVzLzY2ODNkZTNjZjU5M2E0MzJjZTUwZDExMy9hZGZjMzhkNGE2NDM5MWM0ZTY5MjZhY2EyYzk4OTI3ZmI4MzY5OWYzZDg4NGEwYWEyNTIzZjFjZjlmNDgxNWVmKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5MjQ3NjYwNH19fV19&Signature=MEYCIQDNlQNXOWZc%7EKweP59KOKvPCJu3Zy7PRLnMOduMszHQVAIhAKbNK3JKqkQ%7E3dvArZopVWW8R8XiwB7MDpsl%7EEgkCx-r&Key-Pair-Id=K3EPXBYC3CKDRZ&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27internlm2_5-7b-chat-q4_k_m.gguf%3B+filename%3D%22internlm2_5-7b-chat-q4_k_m.gguf%22%3B&xip=Z75bM8rMbcQ&X-Xet-Cas-Uid=62171e3b6a99db28e0b3159d&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=cas%2F20261020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261020T051004Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=96032f10eb74d564ba159f29723f2d045db775e4837260e118e2458281529edb
+ratelimit: "resolvers";r=56162;t=131
+ratelimit-policy: "fixed window";"resolvers";q=100000;w=300
+referrer-policy: strict-origin-when-cross-origin
+server: hf-mirror
+strict-transport-security: max-age=31536000
+vary: Origin, Accept
+via: 2.0 Caddy
+via: 1.1 495b2c01d1ffa830c505307f4f8075bc.cloudfront.net (CloudFront)
+x-amz-cf-id: cuP2RYB5JUgTdLhTq8pqA46Fdq7Iv8h2JfP7AE1Olvqi3Yzhh4vwGg==
+x-amz-cf-pop: NRT12-P2
+x-cache: Miss from cloudfront
+x-linked-etag: "450ef0b157ee10586bb8fce4c5173ae1799345c43c537a6a7353518df1079f55"
+x-linked-size: 4712768320
+x-powered-by: huggingface-moon
+x-repo-commit: 8fa9dff166b63e3d356b3a3ca95c5ab2a4b1b378
+x-request-id: Root=1-6ad6f7ac-3022fc8f3da1a12e35dab7d1
+content-length: 1078
+
+HTTP/1.1 206 Partial Content
+Content-Length: 1024
+Connection: keep-alive
+Content-Disposition: inline; filename*=UTF-8''internlm2_5-7b-chat-q4_k_m.gguf; filename="internlm2_5-7b-chat-q4_k_m.gguf";
+Cache-Control: public, max-age=31536000
+ETag: "adfc38d4a64391c4e6926aca2c98927fb83699f3d884a0aa2523f1cf9f4815ef"
+access-control-allow-credentials: true
+access-control-expose-headers: accept-ranges,content-range,content-type,content-disposition,etag,x-cache
+x-request-id: 01M5BVC3ABE3GEC85SNV9RSKRC
+Date: Tue, 20 Oct 2026 05:08:31 GMT
+Vary: origin,access-control-request-method,access-control-request-headers
+X-Cache: Hit from cloudfront
+Via: 1.1 3be35e55079bc1ff522d45fb92e6dde2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HKG1-P2
+X-Amz-Cf-Id: 8ylOBc_NZTP-6Y0KEaaDedMbO7PQuA-zyyvkMIsDqFFp88EedkBA4Q==
+Age: 94
+Content-Security-Policy: default-src 'none'; media-src 'self'; sandbox allow-same-origin
+Strict-Transport-Security: max-age=31536000
+Content-Range: bytes 1048576-1049599/4712768320
+

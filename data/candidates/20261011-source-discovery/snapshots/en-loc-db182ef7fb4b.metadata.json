@@ -1,0 +1,71 @@
+{
+  "id": "en-loc-db182ef7fb4b",
+  "title": "“Four Score and Seven Years Ago….” Lincoln’s Handwritten Gettysburg Address | Timeless",
+  "language": "en",
+  "provider": "loc",
+  "source_name": "US Library of Congress",
+  "source_url": "https://blogs.loc.gov/loc/2026/07/four-score-and-seven-years-ago-lincolns-handwritten-gettysburg-address/",
+  "request_url": "https://blogs.loc.gov/loc/2026/07/four-score-and-seven-years-ago-lincolns-handwritten-gettysburg-address/",
+  "source_attribution": null,
+  "published_at": "2026-07-22",
+  "first_published_at": null,
+  "date_evidence": {
+    "kind": "publication_meta",
+    "field": "dc.date",
+    "value": "2026-07-22"
+  },
+  "date_review_note": "Official source page/API publication verified; earlier publication or repost elsewhere remains to be checked. Do not equate an URL stamp or update with first publication.",
+  "recency_tier": "2026-H2",
+  "domain_provisional": "history_culture",
+  "genre_provisional": "cultural_narrative",
+  "rights": "美国联邦机构工作人员原创文字通常适用17 USC 105；本候选仍待核作者及第三方权利。照片、媒体、文学引文、第三方投稿不自动获得许可；当前仅本地私有教学科研使用。",
+  "scope": "article_body_candidate",
+  "extraction_selector": ".entry-content",
+  "text": "Lincoln’s “few appropriate remarks” would later become famous as the Gettysburg Address and continue to resonate with people around the world.\n\nFor a document as iconic as the Gettysburg Address now is, many details about its creation and delivery have been lost to time or clouded by conflicting memories of witnesses. Lincoln began working on the address in Washington, drafting his opening lines in ink on Executive Mansion stationery.\n\nHarkening back to the Declaration of Independence 87 years earlier (“four score and seven years ago”), Lincoln noted that the Revolutionary generation had founded a new nation “conceived in liberty, and dedicated to the proposition that ‘all men are created equal.’” That nation was now being torn apart by civil war, Lincoln continued, and the question of “whether that nation, or any nation so conceived, and so dedicated, can long endure” remained to be answered. But at that ceremony, they gathered to dedicate a burial ground honoring those who gave their lives so that the nation would survive.\n\nPrecisely when Lincoln wrote the second page of his address is not known. Perhaps it was part of an earlier draft? Perhaps he was inspired to alter the ending of his speech after touring a portion of the nearby battlefield on the morning of the ceremony?\n\nRegardless, after penciling connecting words on the page of Executive Mansion stationery, Lincoln put pencil to a piece of ordinary writing paper to call for his audience, and all Americans, to honor those who had given their “last full measure of devotion” by dedicating themselves to completing the unfinished work of the war. He called for them to “highly resolve these dead shall not have died in vain; that the nation, shall have a new birth of freedom, and that government of the people, by the people, for the people, shall not perish from the earth.”\n\nHaving completed his remarks, Lincoln may have folded the pages together, creating matching creases in the mismatched pieces of paper. The president then amended his address further during its delivery, invoking a higher power in “that this nation, under God, shall have a new birth of freedom …”\n\nThe Library holds two copies of the Gettysburg Address, written in Lincoln’s own hand. When either is on display, visitors often linger and carefully read Lincoln’s words. Why do the roughly 270 words of the Gettysburg Address continue to resonate?\n\nEach guest has their own answer, but in addition to the beauty of Lincoln’s language, his address reminds us of the ideals on which the United States was founded, the unfinished nature of the experiment and that each generation must dedicate itself anew to ensuring that “government of the people, by the people, for the people, shall not perish from the earth.”",
+  "paragraphs": [
+    "Lincoln’s “few appropriate remarks” would later become famous as the Gettysburg Address and continue to resonate with people around the world.",
+    "For a document as iconic as the Gettysburg Address now is, many details about its creation and delivery have been lost to time or clouded by conflicting memories of witnesses. Lincoln began working on the address in Washington, drafting his opening lines in ink on Executive Mansion stationery.",
+    "Harkening back to the Declaration of Independence 87 years earlier (“four score and seven years ago”), Lincoln noted that the Revolutionary generation had founded a new nation “conceived in liberty, and dedicated to the proposition that ‘all men are created equal.’” That nation was now being torn apart by civil war, Lincoln continued, and the question of “whether that nation, or any nation so conceived, and so dedicated, can long endure” remained to be answered. But at that ceremony, they gathered to dedicate a burial ground honoring those who gave their lives so that the nation would survive.",
+    "Precisely when Lincoln wrote the second page of his address is not known. Perhaps it was part of an earlier draft? Perhaps he was inspired to alter the ending of his speech after touring a portion of the nearby battlefield on the morning of the ceremony?",
+    "Regardless, after penciling connecting words on the page of Executive Mansion stationery, Lincoln put pencil to a piece of ordinary writing paper to call for his audience, and all Americans, to honor those who had given their “last full measure of devotion” by dedicating themselves to completing the unfinished work of the war. He called for them to “highly resolve these dead shall not have died in vain; that the nation, shall have a new birth of freedom, and that government of the people, by the people, for the people, shall not perish from the earth.”",
+    "Having completed his remarks, Lincoln may have folded the pages together, creating matching creases in the mismatched pieces of paper. The president then amended his address further during its delivery, invoking a higher power in “that this nation, under God, shall have a new birth of freedom …”",
+    "The Library holds two copies of the Gettysburg Address, written in Lincoln’s own hand. When either is on display, visitors often linger and carefully read Lincoln’s words. Why do the roughly 270 words of the Gettysburg Address continue to resonate?",
+    "Each guest has their own answer, but in addition to the beauty of Lincoln’s language, his address reminds us of the ideals on which the United States was founded, the unfinished nature of the experiment and that each generation must dedicate itself anew to ensuring that “government of the people, by the people, for the people, shall not perish from the earth.”"
+  ],
+  "body_bytes": 2814,
+  "word_count": 462,
+  "han_count": 0,
+  "sha256": "9763ac59f5cbd9da4711926802a324b25c76e66e4aaa99298ccf5f2b2a5d840a",
+  "raw_sha256": "23fbe54c54007b3ef63bd221703310d80e7344c807867e4d61027a9195b1564a",
+  "raw_path": "data/candidates/20261011-source-discovery/snapshots/en-loc-db182ef7fb4b.html",
+  "text_path": "data/candidates/20261011-source-discovery/snapshots/en-loc-db182ef7fb4b.txt",
+  "reviewed": false,
+  "review_note": "真实下载的待审候选。尚无阅读理解题、参考答案或人工审定；不计入正式测评题库。",
+  "resolved_url": "https://blogs.loc.gov/loc/2026/07/four-score-and-seven-years-ago-lincolns-handwritten-gettysburg-address/",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified": "Sun, 11 Oct 2026 02:49:00 GMT",
+  "downloaded_at": "2026-10-11T02:49:01+00:00",
+  "derived_text_processing_log": {
+    "version": "candidate-prose-cleaning-v1",
+    "processed_at": "2026-10-11T02:54:49+00:00",
+    "previous_text_sha256": "e9a5291f025cae6228c102f31c6d6670ac872988598d08c67bf744313ec6f923",
+    "previous_selector": ".entry-content",
+    "history_metadata_path": "data/candidates/20261011-source-discovery/processing-history/en-loc-db182ef7fb4b.v1.metadata.json",
+    "removed_paragraphs": [
+      {
+        "text": "Subscribe to the blog— it’s free!",
+        "reason": "page subscription/contact/read-time/navigation UI"
+      }
+    ],
+    "original_paragraph_count": 9,
+    "result_paragraph_count": 8,
+    "policy": "Remove only page UI/recommendation containers, repeated title and standalone numbered CAS image captions; preserve original wording and document paragraphs. Raw source bytes unchanged."
+  },
+  "raw_capture_kind": "http_response_bytes",
+  "rights_reference_url": "https://www.loc.gov/legal/",
+  "rights_review_status": "pending_article_author_and_third_party_rights_review",
+  "human_reviewed": false,
+  "status": "candidate"
+}

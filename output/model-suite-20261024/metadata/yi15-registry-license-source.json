@@ -1,0 +1,7 @@
+{
+  "url": "https://registry.ollama.ai/v2/library/yi/blobs/sha256:c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "retrieved_at_utc": "2026-10-24T15:12:16.995628+00:00",
+  "file": "output\\model-suite-20261024\\metadata\\yi15-registry-license.txt",
+  "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "bytes": 11357
+}

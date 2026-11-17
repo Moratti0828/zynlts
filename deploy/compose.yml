@@ -1,0 +1,47 @@
+name: reading-bench
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      args:
+        PYTHON_IMAGE: ${PYTHON_IMAGE:-python:3.11-slim}
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      READING_BENCH_HOST: 0.0.0.0
+      READING_BENCH_PORT: "8787"
+      READING_BENCH_DATA_DIR: /app/var
+      READING_BENCH_TOKEN: ${READING_BENCH_TOKEN:?Run python3 deploy/init_env.py first}
+      READING_BENCH_OLLAMA_URL: ${READING_BENCH_OLLAMA_URL:-http://ollama:11434}
+    ports:
+      - "${APP_HOST_BIND:-127.0.0.1}:${APP_PORT:-8787}:8787"
+    volumes:
+      - bench_data:/app/var
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+  ollama:
+    image: ${OLLAMA_IMAGE:-ollama/ollama:latest}
+    profiles: ["ollama"]
+    restart: unless-stopped
+    environment:
+      OLLAMA_HOST: 0.0.0.0:11434
+      OLLAMA_CONTEXT_LENGTH: "8192"
+      OLLAMA_NUM_PARALLEL: "1"
+      OLLAMA_MAX_LOADED_MODELS: "1"
+    volumes:
+      - ollama_models:/root/.ollama
+    ports:
+      - "127.0.0.1:11434:11434"
+    security_opt:
+      - no-new-privileges:true
+
+volumes:
+  bench_data:
+  ollama_models:

@@ -1,0 +1,58 @@
+﻿model_name,article_id,question_id,type,prompt,reference_answer,answer,evidence,confidence,abstain,em,f1,evidence_f1,brier,latency_s,error,raw_response
+Qwen2.5 · 7B Instruct,zh-market-supervision-2026,zh-market-supervision-2026-fact,fact,根据节选，市场监督管理所以哪个部门的名义作出行政行为？只写部门名称。,县级人民政府市场监督管理部门,无法从文章确定,[],0.5,True,0.0,0.0,,0.25,5.882,,"{""answer"":""无法从文章确定"",""evidence"":[],""confidence"":0.5,""abstain"":true}"
+Qwen2.5 · 7B Instruct,zh-market-supervision-2026,zh-market-supervision-2026-inference,inference,以2026年10月10日为判断日期，仅根据节选所载施行日期，《市场监督管理所条例》是否已经施行？只回答“是”或“否”。,否,无法从文章确定,[],0.5,True,0.0,0.0,,0.25,0.745,,"{""answer"": ""无法从文章确定"", ""evidence"": [], ""confidence"": 0.5, ""abstain"": true}"
+Qwen2.5 · 7B Instruct,zh-market-supervision-2026,zh-market-supervision-2026-numeric,numeric,第五条用编号列举了市场监督管理所的职责，共有多少项？不另计后面的职责调整说明段，只回答整数。,7,无法从文章确定,[],0.0,True,0.0,0.0,,0.0,0.703,,"{""answer"": ""无法从文章确定"", ""evidence"": [], ""confidence"": 0.0, ""abstain"": true}"
+Qwen2.5 · 7B Instruct,zh-market-supervision-2026,zh-market-supervision-2026-unanswerable,unanswerable,根据所给节选，2026年全国市场监督管理所的建设经费总额是多少元？若没有依据，请回答“无法从文章确定”。,无法从文章确定,无法从文章确定,[],1,True,1.0,1.0,,0.0,0.65,,"{""answer"": ""无法从文章确定"", ""evidence"": [], ""confidence"": 1, ""abstain"": true}"
+Qwen2.5 · 7B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-fact,fact,In which journal were the new findings published? Give only the journal name.,The Astrophysical Journal,无法从文章确定,[],0.5,True,0.0,0.0,,0.25,0.563,,"{""answer"":""无法从文章确定"",""evidence"":[],""confidence"":0.5,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-inference,inference,"Because brown dwarfs form from collapsing gas clouds like stars, must they be able to sustain hydrogen fusion in their cores? Answer only yes or no.",no,不一定,[],0.8,False,0.0,0.0,,0.6400000000000001,0.619,,"{""answer"": ""不一定"", ""evidence"": [], ""confidence"": 0.8, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-numeric,numeric,How many nearby brown dwarfs did the study authors analyze using SPHEREx observations? Give only the integer.,37,无法从文章确定,[],0.0,True,0.0,0.0,,0.0,0.591,,"{""answer"":""无法从文章确定"",""evidence"":[],""confidence"":0.0,""abstain"":true}"
+Qwen2.5 · 7B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-unanswerable,unanswerable,"According to the supplied excerpt, what is the exact distance in light-years to the nearest of the 37 analyzed brown dwarfs? If the excerpt does not say, answer exactly 无法从文章确定.",无法从文章确定,无法从文章确定,[],1,True,1.0,1.0,,0.0,0.732,,"{""answer"": ""无法从文章确定"", ""evidence"": [], ""confidence"": 1, ""abstain"": true}"
+Llama 3.1 · 8B Instruct,zh-market-supervision-2026,zh-market-supervision-2026-fact,fact,根据节选，市场监督管理所以哪个部门的名义作出行政行为？只写部门名称。,县级人民政府市场监督管理部门,无法从文章确定,[],0,True,0.0,0.0,,0.0,6.542,,"{
+  ""answer"": ""无法从文章确定"",
+  ""evidence"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Llama 3.1 · 8B Instruct,zh-market-supervision-2026,zh-market-supervision-2026-inference,inference,以2026年10月10日为判断日期，仅根据节选所载施行日期，《市场监督管理所条例》是否已经施行？只回答“是”或“否”。,否,否,"[""(本实验不提供文章)""]",1,False,1.0,1.0,,0.0,0.966,,"{
+  ""answer"": ""否"",
+  ""evidence"": [
+    ""(本实验不提供文章)""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,zh-market-supervision-2026,zh-market-supervision-2026-numeric,numeric,第五条用编号列举了市场监督管理所的职责，共有多少项？不另计后面的职责调整说明段，只回答整数。,7,5,"[""第五条用编号列举了市场监督管理所的职责，共有多少项？""]",1,False,0.0,0.0,,1.0,1.323,,"{
+  ""answer"": ""5"",
+  ""evidence"": [
+    ""第五条用编号列举了市场监督管理所的职责，共有多少项？""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,zh-market-supervision-2026,zh-market-supervision-2026-unanswerable,unanswerable,根据所给节选，2026年全国市场监督管理所的建设经费总额是多少元？若没有依据，请回答“无法从文章确定”。,无法从文章确定,无法从文章确定,[],0,True,1.0,1.0,,1.0,0.812,,"{
+  ""answer"": ""无法从文章确定"",
+  ""evidence"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Llama 3.1 · 8B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-fact,fact,In which journal were the new findings published? Give only the journal name.,The Astrophysical Journal,无法从文章确定,[],0,True,0.0,0.0,,0.0,0.692,,"{""answer"": ""无法从文章确定"", ""evidence"": [], ""confidence"": 0, ""abstain"": true}"
+Llama 3.1 · 8B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-inference,inference,"Because brown dwarfs form from collapsing gas clouds like stars, must they be able to sustain hydrogen fusion in their cores? Answer only yes or no.",no,no,"[""Because brown dwarfs form from collapsing gas clouds like stars,""]",1,False,1.0,1.0,,0.0,1.139,,"{
+  ""answer"": ""no"",
+  ""evidence"": [
+    ""Because brown dwarfs form from collapsing gas clouds like stars,""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-numeric,numeric,How many nearby brown dwarfs did the study authors analyze using SPHEREx observations? Give only the integer.,37,无法从文章确定,[],0,True,0.0,0.0,,0.0,0.845,,"{
+  ""answer"": ""无法从文章确定"",
+  ""evidence"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"
+Llama 3.1 · 8B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-unanswerable,unanswerable,"According to the supplied excerpt, what is the exact distance in light-years to the nearest of the 37 analyzed brown dwarfs? If the excerpt does not say, answer exactly 无法从文章确定.",无法从文章确定,无法从文章确定,[],0,True,1.0,1.0,,1.0,0.812,,"{
+  ""answer"": ""无法从文章确定"",
+  ""evidence"": [],
+  ""confidence"": 0,
+  ""abstain"": true
+}"

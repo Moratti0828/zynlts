@@ -1,0 +1,171 @@
+{
+  "verified_on_client_date": "2026-10-13",
+  "verification_scope": "Local source snapshots, cross-report consistency, audit counts, metadata identity evidence and plan arithmetic; no new model inference or weight-byte verification",
+  "source_snapshot_count": 19,
+  "source_snapshots": [
+    {
+      "key": "squad2-paper",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "race-paper",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "hotpotqa-paper",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "hotpotqa-scorer",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "drop-paper",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "drop-scorer",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "narrativeqa-paper",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "quality-paper",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "longbench-paper",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "longbench-task",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "longbench-metrics",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "longbench-eval",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "longbenchv2-paper",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "longbenchv2-result",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "text2dist-paper",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "rpc-paper",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "certifying-page",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "f1-not-enough-paper",
+      "hash_match": true,
+      "bytes_match": true
+    },
+    {
+      "key": "helmet-paper",
+      "hash_match": true,
+      "bytes_match": true
+    }
+  ],
+  "main_model_count": 6,
+  "historical_metadata_match_count": 6,
+  "audit_counts": {
+    "candidate_articles": 402,
+    "languages": {
+      "en": 234,
+      "zh": 168
+    },
+    "technical_integrity_pass": 402,
+    "technical_integrity_fail": 0,
+    "source_first_published_explicit": 39,
+    "source_first_published_unknown": 363,
+    "page_dates_after_model_bound": 402,
+    "earliest_global_publication_proven": 0,
+    "training_membership_proven": 0,
+    "human_reviewed": 0,
+    "demo_articles": 8,
+    "demo_questions": 32,
+    "candidate_web_sampled": 20,
+    "candidate_not_individually_web_sampled": 382,
+    "candidate_web_sampled_by_agency": {
+      "CAS": 2,
+      "NBS": 2,
+      "MCT": 2,
+      "MEE": 2,
+      "NASA": 2,
+      "NIH": 2,
+      "LOC": 2,
+      "Census": 2,
+      "GOV.UK multiple departments": 2,
+      "USGS": 2
+    }
+  },
+  "documents": [
+    {
+      "path": "docs/research-and-experiment-plan-20261013.md",
+      "sha256": "4f63744c787e255dab6c2891e1424919eafa97dbd5981b8ca88306a0d4605282",
+      "replacement_characters": 0
+    },
+    {
+      "path": "docs/literature-review-20261013.md",
+      "sha256": "01b565e002dbc5a33112518e43e425f6467a48d1da8ed13ca3b990f221b1607f",
+      "replacement_characters": 0
+    },
+    {
+      "path": "docs/contamination-risk-audit-20261013.md",
+      "sha256": "be35819faf8b69656f4b2490bb73080a7ba135f8cb3624d2a4fa1366f6616035",
+      "replacement_characters": 0
+    },
+    {
+      "path": "docs/model-comparison-plan-20261013.md",
+      "sha256": "990c5f699a9f44395561ac57b15d11480f61c7ae6d4525d0fbea5053f3c84d19",
+      "replacement_characters": 0
+    },
+    {
+      "path": "docs/benchmark-protocol-v2.md",
+      "sha256": "1d2c6c4dedb9b5233f4a3f770094a451e89f7dcccdcb6947323bc963a798efec",
+      "replacement_characters": 0
+    },
+    {
+      "path": "docs/metrics-and-methodology.md",
+      "sha256": "6e7a3c98bd992f9f8b24a0e2a8d7be72ac4ee212e1c8cb575b57dd73ee3043fe",
+      "replacement_characters": 0
+    }
+  ],
+  "missing_local_links": [],
+  "planned_main_requests": 6240,
+  "planned_requests_including_interface_and_precision_checks": 6472,
+  "server_snapshot_sha256": "705957972dd807e447abda2497849614ccc64ab393032743df17519d25d08f45"
+}

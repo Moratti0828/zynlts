@@ -1,0 +1,35 @@
+﻿model_name,article_id,question_id,type,prompt,reference_answer,answer,evidence,confidence,abstain,em,f1,evidence_f1,brier,latency_s,error,raw_response
+Qwen2.5 · 7B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-fact,fact,In which journal were the new findings published? Give only the journal name.,The Astrophysical Journal,The Astrophysical Journal,"[""New findings published in The Astrophysical Journal show that these dark and cloudy worlds have chemically rich atmospheres not unlike the giant planets in our own solar system.""]",1,False,1.0,1.0,0.4,0.0,101.901,,"{""answer"": ""The Astrophysical Journal"", ""evidence"": [""New findings published in The Astrophysical Journal show that these dark and cloudy worlds have chemically rich atmospheres not unlike the giant planets in our own solar system.""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-inference,inference,"Because brown dwarfs form from collapsing gas clouds like stars, must they be able to sustain hydrogen fusion in their cores? Answer only yes or no.",no,no,"[""but they aren’t hefty enough to sustain hydrogen fusion in their cores.""]",1.0,False,1.0,1.0,0.7027027027027027,0.0,16.848,,"{""answer"": ""no"", ""evidence"": [""but they aren’t hefty enough to sustain hydrogen fusion in their cores.""], ""confidence"": 1.0, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-numeric,numeric,How many nearby brown dwarfs did the study authors analyze using SPHEREx observations? Give only the integer.,37,37,"[""The study authors analyzed SPHEREx observations of 37 nearby brown dwarfs spanning the full brown dwarf temperature range""]",1,False,1.0,1.0,0.56,0.0,19.675,,"{""answer"": ""37"", ""evidence"": [""The study authors analyzed SPHEREx observations of 37 nearby brown dwarfs spanning the full brown dwarf temperature range""], ""confidence"": 1, ""abstain"": false}"
+Qwen2.5 · 7B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-unanswerable,unanswerable,"According to the supplied excerpt, what is the exact distance in light-years to the nearest of the 37 analyzed brown dwarfs? If the excerpt does not say, answer exactly 无法从文章确定.",无法从文章确定,无法从文章确定,[],1,True,1.0,1.0,,0.0,14.439,,"{""answer"": ""无法从文章确定"", ""evidence"": [], ""confidence"": 1, ""abstain"": true}"
+Llama 3.1 · 8B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-fact,fact,In which journal were the new findings published? Give only the journal name.,The Astrophysical Journal,The Astrophysical Journal,"[""New findings published in The Astrophysical Journal show that these dark and cloudy worlds have chemically rich atmospheres not unlike the giant planets in our own solar system.""]",1,False,1.0,1.0,0.4,0.0,119.21,,"{
+  ""answer"": ""The Astrophysical Journal"",
+  ""evidence"": [
+    ""New findings published in The Astrophysical Journal show that these dark and cloudy worlds have chemically rich atmospheres not unlike the giant planets in our own solar system.""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-inference,inference,"Because brown dwarfs form from collapsing gas clouds like stars, must they be able to sustain hydrogen fusion in their cores? Answer only yes or no.",no,no,"[""First discovered in the 1990s, brown dwarfs form from collapsing clouds of gas, like stars do, but they aren’t hefty enough to sustain hydrogen fusion in their cores.""]",1,False,1.0,1.0,0.8888888888888888,0.0,30.362,,"{
+  ""answer"": ""no"",
+  ""evidence"": [
+    ""First discovered in the 1990s, brown dwarfs form from collapsing clouds of gas, like stars do, but they aren’t hefty enough to sustain hydrogen fusion in their cores.""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-numeric,numeric,How many nearby brown dwarfs did the study authors analyze using SPHEREx observations? Give only the integer.,37,37,"[""The study authors analyzed SPHEREx observations of 37 nearby brown dwarfs spanning the full brown dwarf temperature range,""]",1,False,1.0,1.0,0.56,0.0,24.469,,"{
+  ""answer"": ""37"",
+  ""evidence"": [
+    ""The study authors analyzed SPHEREx observations of 37 nearby brown dwarfs spanning the full brown dwarf temperature range,""
+  ],
+  ""confidence"": 1,
+  ""abstain"": false
+}"
+Llama 3.1 · 8B Instruct,en-brown-dwarfs-2026,en-brown-dwarfs-2026-unanswerable,unanswerable,"According to the supplied excerpt, what is the exact distance in light-years to the nearest of the 37 analyzed brown dwarfs? If the excerpt does not say, answer exactly 无法从文章确定.",无法从文章确定,无法从文章确定,[],0,True,1.0,1.0,,1.0,16.767,,"{
+""answer"": ""无法从文章确定"",
+""evidence"": [],
+""confidence"": 0,
+""abstain"": true
+}"

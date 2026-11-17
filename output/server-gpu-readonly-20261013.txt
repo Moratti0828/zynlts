@@ -1,0 +1,8 @@
+Client date: 2026-10-13 Asia/Shanghai
+Read-only command: nvidia-smi --query-gpu=index,name,memory.total,memory.used,memory.free,utilization.gpu --format=csv,noheader
+Captured stdout and stderr; no GPU initialization, reset, or deployment.
+ssh exit code: 0
+Unable to determine the device handle for GPU2: 0000:9B:00.0: Unknown Error
+0, NVIDIA GeForce RTX 3090, 24576 MiB, 1 MiB, 24124 MiB, 0 %
+1, NVIDIA GeForce RTX 3090, 24576 MiB, 1 MiB, 24124 MiB, 0 %
+3, NVIDIA GeForce RTX 3090, 24576 MiB, 1 MiB, 24124 MiB, 0 %

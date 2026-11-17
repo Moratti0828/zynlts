@@ -1,0 +1,31 @@
+Thursday, September 24, 2026
+
+The National Institutes of Health (NIH) today launched Linked Discoveries , an experimental tool designed to help scientists more easily see how an individual research finding relates to the larger body of biomedical evidence. From a citation in PubMed, users can use the Linked Discoveries tool to explore a “neighborhood” of publications closely related to that article, including replication studies. More than 29 million PubMed publications are represented in Linked Discoveries at launch.
+
+Developed by NIH’s National Library of Medicine (NLM), which oversees PubMed, Linked Discoveries is an early product of NIH’s agency-wide initiative to strengthen replication and reproducibility in NIH-funded research . In particular, this tool seeks to address the difficulty of determining how a finding fits within the existing evidence. Relevant studies and other research information may be dispersed across different resources, and traditional approaches to finding scientific literature can favor already prominent or frequently cited work. Linked Discoveries begins to address that challenge by giving researchers a more connected view of publications related to a particular study.
+
+“With modern science racing forward at incredible speed, we face an ever-growing volume of biomedical literature but lack a way to understand how it relates to one another or contributes to the broader scientific context,” said NIH Director Jay Bhattacharya, M.D., Ph.D. “Finding the right information and related publications isn’t just about matching keywords, it’s about understanding how ideas connect, how findings build on one another, and how research evolves as new evidence emerges. Linked Discoveries was designed to support that level of exploration.”
+
+Using an AI-informed approach, Linked Discoveries identifies related publications and allows users to examine connections among them through graph and timeline views. Researchers can narrow a neighborhood by conditions, genes and chemicals and see information such as citation connections, reviews, retractions and NIH-funded publications. That context can help researchers determine what evidence should be considered as they interpret previous findings and plan subsequent research.
+
+Linked Discoveries does not judge the quality of a study or determine whether a finding has been successfully replicated. Instead, it organizes connections among publications and provides researchers with additional context to evaluate the evidence for themselves.
+
+“Rather than treating published literature as a static collection of facts, Linked Discoveries enables dynamic and discerning engagement,” said NLM Director Peter Embí, M.D. “By allowing users to explore the ‘neighborhood’ of related articles surrounding a publication, we can give researchers a broader view of the work that came before and after it, helping them explore context and identify questions that may warrant further investigation.”
+
+The September 24 launch is the first public version of Linked Discoveries. NLM will continue to test and refine the tool informed by user feedback — which can be submitted directly within the tool — to help inform future features and capabilities. The resource is designed to grow alongside NIH’s broader work to strengthen replication and reproducibility, while keeping scientific assessment in the hands of researchers.
+
+The National Library of Medicine (NLM) is a leader in research in biomedical informatics and data science and the world’s largest biomedical library. NLM conducts and supports research in methods for recording, storing, retrieving, preserving, and communicating health information. NLM creates resources and tools that are used billions of times each year by millions of people to access and analyze molecular biology, biotechnology, toxicology, environmental health, and health services information. Additional information is available at https://www.nlm.nih.gov .
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+Institute/Center
+
+National Library of Medicine (NLM)
+
+NIH Office of Communications
+
+Connect with Us
+
+Subscribe to news releases RSS Feed

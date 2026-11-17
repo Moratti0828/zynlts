@@ -1,0 +1,64 @@
+{
+  "recorded_at_server_utc": "2026-10-11T02:32:50.011445+00:00",
+  "host": "qilin",
+  "service": "127.0.0.1:11435",
+  "tmux_sessions": "reading-bench-app: 1 windows (created Sun Oct 11 02:31:54 2026)\nreading-bench-ollama: 1 windows (created Sun Oct 11 02:32:07 2026)",
+  "gpu": "index, uuid, name, memory.total [MiB], memory.free [MiB], driver_version\n0, GPU-52b47fc0-2acd-b9dc-7c87-2aac499cc0d9, NVIDIA GeForce RTX 3090, 24576 MiB, 2166 MiB, 580.105.08\n1, GPU-9d18d415-7a1f-63bc-abc4-05c31594e27f, NVIDIA GeForce RTX 3090, 24576 MiB, 2165 MiB, 580.105.08\n2, GPU-3e84cb7f-2b56-5dfe-827c-a1df3a2a3b34, NVIDIA GeForce RTX 3090, 24576 MiB, 2165 MiB, 580.105.08\n3, GPU-bac43e0d-6a1c-d40c-ac9b-3b87b37d94a5, NVIDIA GeForce RTX 3090, 24576 MiB, 2165 MiB, 580.105.08",
+  "compute_processes": "gpu_uuid, pid, process_name, used_gpu_memory [MiB]\nGPU-52b47fc0-2acd-b9dc-7c87-2aac499cc0d9, 5212, VLLM::EngineCore, 21950 MiB\nGPU-9d18d415-7a1f-63bc-abc4-05c31594e27f, 5233, VLLM::EngineCore, 21950 MiB\nGPU-3e84cb7f-2b56-5dfe-827c-a1df3a2a3b34, 5229, VLLM::EngineCore, 21950 MiB\nGPU-bac43e0d-6a1c-d40c-ac9b-3b87b37d94a5, 5231, VLLM::EngineCore, 21950 MiB",
+  "cuda_probe": {
+    "recorded_at_server_utc": "2026-10-11T02:32:07.263243+00:00",
+    "cuda_visible_devices": "0",
+    "library": "libcuda.so.1",
+    "cuda_available": true,
+    "cuInit_code": 0,
+    "cuDeviceGetCount_code": 0,
+    "device_count": 1
+  },
+  "execution_mode": "cpu",
+  "selection_reason": "All four cards have existing compute processes and less than 18 GiB free. Existing services were not changed.",
+  "tags": {
+    "models": [
+      {
+        "name": "llama3.1:8b-instruct-q4_K_M",
+        "model": "llama3.1:8b-instruct-q4_K_M",
+        "modified_at": "2026-10-10T13:52:14.87745134Z",
+        "size": 4920753328,
+        "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "8.0B",
+          "quantization_level": "Q4_K_M"
+        }
+      },
+      {
+        "name": "qwen2.5:7b-instruct",
+        "model": "qwen2.5:7b-instruct",
+        "modified_at": "2026-10-10T13:52:13.685411705Z",
+        "size": 4683087332,
+        "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M"
+        }
+      }
+    ]
+  },
+  "ps": {
+    "models": []
+  },
+  "ollama_version": {
+    "version": "0.13.5"
+  },
+  "startup_log": "time=2026-10-11T02:32:07.513Z level=INFO source=routes.go:1554 msg=\"server config\" env=\"map[CUDA_VISIBLE_DEVICES:-1 GGML_VK_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_CONTEXT_LENGTH:4096 OLLAMA_DEBUG:INFO OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://127.0.0.1:11435 OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:1 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/home/jmy/reading-bench/runtime/models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NUM_PARALLEL:1 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_REMOTES:[ollama.com] OLLAMA_SCHED_SPREAD:false OLLAMA_VULKAN:false ROCR_VISIBLE_DEVICES: http_proxy: https_proxy: no_proxy:]\"\ntime=2026-10-11T02:32:07.761Z level=INFO source=images.go:493 msg=\"total blobs: 10\"\ntime=2026-10-11T02:32:07.761Z level=INFO source=images.go:500 msg=\"total unused blobs removed: 0\"\ntime=2026-10-11T02:32:07.763Z level=INFO source=routes.go:1607 msg=\"Listening on 127.0.0.1:11435 (version 0.13.5)\"\ntime=2026-10-11T02:32:07.773Z level=INFO source=runner.go:67 msg=\"discovering available GPUs...\"\ntime=2026-10-11T02:32:07.773Z level=WARN source=runner.go:485 msg=\"user overrode visible devices\" CUDA_VISIBLE_DEVICES=-1\ntime=2026-10-11T02:32:07.773Z level=WARN source=runner.go:489 msg=\"if GPUs are not correctly discovered, unset and try again\"\ntime=2026-10-11T02:32:07.779Z level=INFO source=server.go:429 msg=\"starting runner\" cmd=\"/usr/local/bin/ollama runner --ollama-engine --port 35265\"\ntime=2026-10-11T02:32:08.829Z level=INFO source=server.go:429 msg=\"starting runner\" cmd=\"/usr/local/bin/ollama runner --ollama-engine --port 36831\"\ntime=2026-10-11T02:32:09.749Z level=INFO source=runner.go:106 msg=\"experimental Vulkan support disabled.  To enable, set OLLAMA_VULKAN=1\"\ntime=2026-10-11T02:32:09.750Z level=INFO source=types.go:60 msg=\"inference compute\" id=cpu library=cpu compute=\"\" name=cpu description=cpu libdirs=ollama driver=\"\" pci_id=\"\" type=\"\" total=\"251.4 GiB\" available=\"235.8 GiB\"\ntime=2026-10-11T02:32:09.750Z level=INFO source=routes.go:1648 msg=\"entering low vram mode\" \"total vram\"=\"0 B\" threshold=\"20.0 GiB\"\n[GIN] 2026/10/11 - 02:32:15 | 200 |   73.412549ms |       127.0.0.1 | GET      \"/api/tags\"\n[GIN] 2026/10/11 - 02:32:15 | 200 |     357.705µs |       127.0.0.1 | GET      \"/api/ps\"\n[GIN] 2026/10/11 - 02:32:50 | 200 |     950.862µs |       127.0.0.1 | GET      \"/api/tags\"\n[GIN] 2026/10/11 - 02:32:50 | 200 |      53.594µs |       127.0.0.1 | GET      \"/api/ps\"\n[GIN] 2026/10/11 - 02:32:50 | 200 |       77.35µs |       127.0.0.1 | GET      \"/api/version\"\n"
+}

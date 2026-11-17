@@ -1,0 +1,294 @@
+[
+  {
+    "id": "run-6e0a37096c94",
+    "status": "completed",
+    "created_at": "2026-10-10T14:00:46.006745+00:00",
+    "finished_at": "2026-10-10T14:06:29.764592+00:00",
+    "config": {
+      "model_ids": [
+        "qwen25-7b",
+        "llama31-8b"
+      ],
+      "article_ids": [
+        "en-brown-dwarfs-2026"
+      ],
+      "mode": "with_context",
+      "strict_time": true,
+      "question_limit": 4,
+      "temperature": 0,
+      "max_tokens": 512,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_thread": 2,
+      "prompt_version": "reading-prompt-v1.1-schema",
+      "grader_version": "reading-grader-v1.1",
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "abstain": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "answer",
+          "evidence",
+          "confidence",
+          "abstain"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "progress": {
+      "done": 8,
+      "total": 8
+    },
+    "summary": [
+      {
+        "model_id": "qwen25-7b",
+        "model_name": "Qwen2.5 · 7B Instruct",
+        "n": 4,
+        "successful": 4,
+        "errors": 0,
+        "em": 1.0,
+        "f1": 1.0,
+        "evidence_f1": 0.5542342342342342,
+        "evidence_n": 3,
+        "abstention_accuracy": 1.0,
+        "unanswerable_recall": 1.0,
+        "false_abstention_rate": 0.0,
+        "brier": 0.0,
+        "brier_n": 4,
+        "mean_latency_s": 38.21575,
+        "p95_latency_s": 101.901,
+        "input_tokens": 2545,
+        "output_tokens": 181,
+        "by_type": {
+          "fact": {
+            "n": 1,
+            "em": 1.0,
+            "f1": 1.0
+          },
+          "inference": {
+            "n": 1,
+            "em": 1.0,
+            "f1": 1.0
+          },
+          "numeric": {
+            "n": 1,
+            "em": 1.0,
+            "f1": 1.0
+          },
+          "unanswerable": {
+            "n": 1,
+            "em": 1.0,
+            "f1": 1.0
+          }
+        },
+        "denominator_note": "EM/F1 包含请求失败题（计0）；校准与拒答仅统计有效响应；尚未执行题不在当前分母。"
+      },
+      {
+        "model_id": "llama31-8b",
+        "model_name": "Llama 3.1 · 8B Instruct",
+        "n": 4,
+        "successful": 4,
+        "errors": 0,
+        "em": 1.0,
+        "f1": 1.0,
+        "evidence_f1": 0.6162962962962962,
+        "evidence_n": 3,
+        "abstention_accuracy": 1.0,
+        "unanswerable_recall": 1.0,
+        "false_abstention_rate": 0.0,
+        "brier": 0.25,
+        "brier_n": 4,
+        "mean_latency_s": 47.702,
+        "p95_latency_s": 119.21,
+        "input_tokens": 2564,
+        "output_tokens": 230,
+        "by_type": {
+          "fact": {
+            "n": 1,
+            "em": 1.0,
+            "f1": 1.0
+          },
+          "inference": {
+            "n": 1,
+            "em": 1.0,
+            "f1": 1.0
+          },
+          "numeric": {
+            "n": 1,
+            "em": 1.0,
+            "f1": 1.0
+          },
+          "unanswerable": {
+            "n": 1,
+            "em": 1.0,
+            "f1": 1.0
+          }
+        },
+        "denominator_note": "EM/F1 包含请求失败题（计0）；校准与拒答仅统计有效响应；尚未执行题不在当前分母。"
+      }
+    ]
+  },
+  {
+    "id": "run-d71d5da646d6",
+    "status": "completed",
+    "created_at": "2026-10-10T14:00:46.343536+00:00",
+    "finished_at": "2026-10-10T14:09:43.349559+00:00",
+    "config": {
+      "model_ids": [
+        "qwen25-7b",
+        "llama31-8b"
+      ],
+      "article_ids": [
+        "en-brown-dwarfs-2026"
+      ],
+      "mode": "no_context",
+      "strict_time": true,
+      "question_limit": 4,
+      "temperature": 0,
+      "max_tokens": 512,
+      "seed": 42,
+      "num_ctx": 8192,
+      "num_thread": 2,
+      "prompt_version": "reading-prompt-v1.1-schema",
+      "grader_version": "reading-grader-v1.1",
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "abstain": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "answer",
+          "evidence",
+          "confidence",
+          "abstain"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "progress": {
+      "done": 8,
+      "total": 8
+    },
+    "summary": [
+      {
+        "model_id": "qwen25-7b",
+        "model_name": "Qwen2.5 · 7B Instruct",
+        "n": 4,
+        "successful": 4,
+        "errors": 0,
+        "em": 0.25,
+        "f1": 0.25,
+        "evidence_f1": null,
+        "evidence_n": 0,
+        "abstention_accuracy": 0.25,
+        "unanswerable_recall": 1.0,
+        "false_abstention_rate": 1.0,
+        "brier": 0.1875,
+        "brier_n": 4,
+        "mean_latency_s": 23.1515,
+        "p95_latency_s": 50.615,
+        "input_tokens": 1197,
+        "output_tokens": 103,
+        "by_type": {
+          "fact": {
+            "n": 1,
+            "em": 0.0,
+            "f1": 0.0
+          },
+          "inference": {
+            "n": 1,
+            "em": 0.0,
+            "f1": 0.0
+          },
+          "numeric": {
+            "n": 1,
+            "em": 0.0,
+            "f1": 0.0
+          },
+          "unanswerable": {
+            "n": 1,
+            "em": 1.0,
+            "f1": 1.0
+          }
+        },
+        "denominator_note": "EM/F1 包含请求失败题（计0）；校准与拒答仅统计有效响应；尚未执行题不在当前分母。"
+      },
+      {
+        "model_id": "llama31-8b",
+        "model_name": "Llama 3.1 · 8B Instruct",
+        "n": 4,
+        "successful": 3,
+        "errors": 1,
+        "em": 0.5,
+        "f1": 0.5,
+        "evidence_f1": null,
+        "evidence_n": 0,
+        "abstention_accuracy": 0.6666666666666666,
+        "unanswerable_recall": 1.0,
+        "false_abstention_rate": 0.5,
+        "brier": 0.3333333333333333,
+        "brier_n": 3,
+        "mean_latency_s": 15.689,
+        "p95_latency_s": 17.903,
+        "input_tokens": 1260,
+        "output_tokens": 144,
+        "by_type": {
+          "fact": {
+            "n": 1,
+            "em": 0.0,
+            "f1": 0.0
+          },
+          "inference": {
+            "n": 1,
+            "em": 1.0,
+            "f1": 1.0
+          },
+          "numeric": {
+            "n": 1,
+            "em": 0.0,
+            "f1": 0.0
+          },
+          "unanswerable": {
+            "n": 1,
+            "em": 1.0,
+            "f1": 1.0
+          }
+        },
+        "denominator_note": "EM/F1 包含请求失败题（计0）；校准与拒答仅统计有效响应；尚未执行题不在当前分母。"
+      }
+    ]
+  }
+]

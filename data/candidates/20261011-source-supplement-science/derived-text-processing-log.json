@@ -1,0 +1,322 @@
+{
+  "pool": "data/candidates/20261011-source-supplement-science",
+  "processed_at": "2026-10-11T02:55:26+00:00",
+  "counts": {
+    "changed": 22,
+    "unchanged": 17
+  },
+  "articles": [
+    {
+      "id": "en-nasa-0040b4ad2fba",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "bcb7daa11e7adbebdba521c503661a37ec51b5e45769dd61b5a956e7736adeb3",
+      "sha256": "dd3ad95fa18d8961bb65dcee5905dd6ebb8805204e033495ad276f21f9061fef",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-05e93f769cd4",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "da0805cae36a70479eddf447b2f6a20215c9426284ea33f15333c91e4e4449a7",
+      "sha256": "da0805cae36a70479eddf447b2f6a20215c9426284ea33f15333c91e4e4449a7",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-074498edc67a",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "ec6c9a9a7a1a684c9775031562b87b6b52b0e9e9b5d9ddd7f58abdb0557a6ee6",
+      "sha256": "ec6c9a9a7a1a684c9775031562b87b6b52b0e9e9b5d9ddd7f58abdb0557a6ee6",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-0fbc4280b1f1",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "03995b02332fdb3cde8e35d782a24e2ce341a287439359d1bf297cb47fb64458",
+      "sha256": "13635de49974c85271e83cdb7b7f8eeacbac9f57b4a018cf700cc1023e65fcad",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-185880306f1f",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "df5c63acd2aaae20d6fb60080d7b2a57bbc92c7dad4fc8dc2420f37973a2f3bd",
+      "sha256": "df5c63acd2aaae20d6fb60080d7b2a57bbc92c7dad4fc8dc2420f37973a2f3bd",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-1ec8837ca95b",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "0ec00b417b080cf9a7d5832cd0026037ee4ff7e423002143a0b3f5b56f9f0406",
+      "sha256": "0ec00b417b080cf9a7d5832cd0026037ee4ff7e423002143a0b3f5b56f9f0406",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-23e4c4e407df",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "e7671e2cf1eeb9402ed1ee5d80d14b7d906f65d6393a61187e8506fd1e840729",
+      "sha256": "e7671e2cf1eeb9402ed1ee5d80d14b7d906f65d6393a61187e8506fd1e840729",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-2702e3fc73ec",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "cc4c3c07abee9e2d7a73a034abb0b8e9add06379eb976717942abfc3169dfb0b",
+      "sha256": "cc4c3c07abee9e2d7a73a034abb0b8e9add06379eb976717942abfc3169dfb0b",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-2e45d22f64ed",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "81aa139a1627c42398cacbb2e603a47cbf36d8e965b0f568970ed36748352d3a",
+      "sha256": "81aa139a1627c42398cacbb2e603a47cbf36d8e965b0f568970ed36748352d3a",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-2e69e877109b",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "b22fa324b7cda5c97a85ad658ba35dba922905e92e3a1a38ddd0753006c17cbe",
+      "sha256": "b22fa324b7cda5c97a85ad658ba35dba922905e92e3a1a38ddd0753006c17cbe",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-31ffdb014ec9",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "9c36daa670ca3ab889f4ff1965b5c9be53b6746ff54305d2c48624d614a5c245",
+      "sha256": "72c773f141016b98db48f4c5a58181b262e63100f3b24480fede0ed7757017a8",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-3345e4961aba",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "36bccb65319ca7eb71aca78afb65247831e49e14ece7a4f4565d9222ecc4b06a",
+      "sha256": "3b8ed93929cb580ea99ea1ac0eaf2ab818fdaf1b258dde10e4b9bcfc168a3a76",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-3480bbae929c",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "fb2aed106a4b1054accf35b65d72dfc283f62fed8cc4e61d492b66aa743bc30e",
+      "sha256": "fb2aed106a4b1054accf35b65d72dfc283f62fed8cc4e61d492b66aa743bc30e",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-3724daf1d350",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "5133a7f1aab1eb8ecdf5065d06aa27c6e7cec7a2c1f409a40c14fd59d18a0a9c",
+      "sha256": "5133a7f1aab1eb8ecdf5065d06aa27c6e7cec7a2c1f409a40c14fd59d18a0a9c",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-374729f9d113",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "41d4f9ccb80ce6a3147dc0462873ba37f8401d18c02ffec0663bd72fa1cdd8e0",
+      "sha256": "42aad0576d2f7cd1f46b50c169da2d8a818da26034f892daff3289c38ea1d2d6",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-420ec31d089e",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "988d806810e8826b998a284b7d8c4a0f1b40b27f6a7166581c046f7489f32ab0",
+      "sha256": "988d806810e8826b998a284b7d8c4a0f1b40b27f6a7166581c046f7489f32ab0",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-42139e78e0b4",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "97689e2b3f69de46fdacaa467b4e6e725b5416ce3b9b7c03d1f5a1a859e63fb8",
+      "sha256": "97689e2b3f69de46fdacaa467b4e6e725b5416ce3b9b7c03d1f5a1a859e63fb8",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-430b8c54b355",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "15a6ae1518a8cf0c3eb98159f4ba4a5c3894153214d9246950591f14e39c8a30",
+      "sha256": "2d8e48efe2c8449baea14440c1e21767d1b7bfdee7fc39b58932718df89982f8",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-495eb9eedc69",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "86e80c8a3b7a1a19c87ce6a7e58365f9211170282962d9320556fc93b87af6ae",
+      "sha256": "9c084a0bcabbe21622b32269fe53474a718eea230db898b11f5a9405ae178afd",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-nasa-4c11cdbda5fe",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "ac438921e5bf48baf757b6005fe7c760b013c75c6abe77dd10f72472382974a4",
+      "sha256": "94f61b3fd967ce2226bfd937651730610177dfe8a01961091fdc567448773f2d",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-5ea52f9f0ad1",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "b072c861fe6b374a0b87e449fd71a52179f508ffd3b974f11b770a3c99bb8f12",
+      "sha256": "553149a3d6cbb989723cb7a63495c60e038bb8af0eee5484d41203dfe89211ec",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-6b6f9a8e2d18",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "0b5a814836c15ddfdb050bb3a75fa2e3dd92d3ee9ddb4fd6c6d32a052bf0396e",
+      "sha256": "7f26ccdbfce69b4ca748c4e9fcb5444c87a75083a320c6ec0e4d66dd1fedbdfb",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-7c105d16a033",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "92841846e00be2a165f8af46c8d635f06063c65f7735978d599cac063ab2ea71",
+      "sha256": "eb24009ee02232bc390e2f7028df073fb468bdad063c4694ec624216ec69c941",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-815f9d86aa2d",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "a473dbac38f78a39567a078a8ac12c186f863ef97a409caa784a4c0ab9af9977",
+      "sha256": "b39d30b5edc0aeae60f26bf97a98fa7ab529a140507ef2b45a6afd160a8f0e28",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-8a863be8b838",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "84c2a6bda903256571ff7bfa8dc8a6ac2103c3f8211fe796f02035d71946fbea",
+      "sha256": "84c2a6bda903256571ff7bfa8dc8a6ac2103c3f8211fe796f02035d71946fbea",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-8bcf78c9c8a2",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "2ac187de8a34e151b931da1497063fb26af500c4b2971d35e44de42686de17ab",
+      "sha256": "7f534b17136e3c65943243ea60eac4f4c3841eeced81ff7a61f1539131010fa8",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-99f40581eed3",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "e7eea4d6eee9263a567b1e2200b1f1e818a67250f31c55054931f7fc0f913be5",
+      "sha256": "fa2ac920aece116bbdd796d0828fef3eeac4f1b0e2fe1e2a59680e591cdd9016",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-9fe2ca4bc254",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "80a95672feef02953fc84b772271d33a358b563e9c0c93d9ca01ad79a722b125",
+      "sha256": "80a95672feef02953fc84b772271d33a358b563e9c0c93d9ca01ad79a722b125",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-a6bdcfb76b04",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "8e415f9e9e6e1f4bb87216014db799f3e2b0424fc673394c443ca65d0aec5e5e",
+      "sha256": "902525e930d5ab824f4b94c88c769b1d66e93613fe536a9743417f586761e76d",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-abfb5f1554f5",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "d40caa8f61203f9410bb0c650206688e91079696086f58268a9b311ce94f1f49",
+      "sha256": "40bd48e110b8f0aa43f5e29df2edd1994cc0af41d39374b75f394dc4f84eac01",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-acb1ef39067f",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "02dd39930defce332ab7a695a1afedf74988b9b521c05dd2dc490a9a48fb82cb",
+      "sha256": "55412aae951413a61daaff20111ab42bfacf3460bfa7724f61479b91302a95a3",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-ae3f74c26f16",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "4868e80aa68620ebda57364da3b8a8f42bc9c9e077cbe46127881c902c272b0f",
+      "sha256": "458299742614887795625db7fab1ce09fb4057bfab7f3a03a2c875cc39fea64b",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-bada43893821",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "489b0982260e35dc8acce114b55132b76260c054f02f55a4979dc162772991a7",
+      "sha256": "8bfe9f2bedcfdcb253024abd97650f3a9cc06358868aad058752ab0e49b0bfce",
+      "removed_paragraphs": 1
+    },
+    {
+      "id": "en-nasa-c5b7ab061dd6",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "52c17ea44ae25a5777df96d9e2fe402daef2c035d5e72b7f235562e0deb70328",
+      "sha256": "44afcd3c5a8117dfc56ad0b9c7a011cebc43067dd5d45445606823da50d82e4e",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-ce79877d0bd6",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "7b1cdc5f493a76dc0f446336e0ef06845b16d2f12e8983cc5fe6ff44dc1bd2c8",
+      "sha256": "2557f9c66c5f13b7466ee6f7c7426fd01e2124d3cb12e61ebb2bba88b4320611",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-cef4101e9d93",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "6afba677d6b08a661cba123ce591e13eda04e6bdbb5e6096aa1c6bce3f8cdc2a",
+      "sha256": "6afba677d6b08a661cba123ce591e13eda04e6bdbb5e6096aa1c6bce3f8cdc2a",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-e663f5ea5d5f",
+      "text_changed": true,
+      "provenance_changed": true,
+      "previous_sha256": "d503987fc1b41f5e18cb24549173c239ffbd1c7700b97c0b52892884dcdc6b6c",
+      "sha256": "f31c173928853a4df74fa776c9d37d0d227fa11156b0fc6613cd38aa0289c26d",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-ebb05a3da384",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "068b9a51287fe4d9513d9798ef37fc3d9ae625d5286be9bee1cd12a8860c098e",
+      "sha256": "068b9a51287fe4d9513d9798ef37fc3d9ae625d5286be9bee1cd12a8860c098e",
+      "removed_paragraphs": 0
+    },
+    {
+      "id": "en-nasa-fe01e73753d2",
+      "text_changed": false,
+      "provenance_changed": true,
+      "previous_sha256": "2329e6abd45c3b38443b0f24b08b93d4663c8a680c6c42305b16a178c25d45f8",
+      "sha256": "2329e6abd45c3b38443b0f24b08b93d4663c8a680c6c42305b16a178c25d45f8",
+      "removed_paragraphs": 0
+    }
+  ]
+}

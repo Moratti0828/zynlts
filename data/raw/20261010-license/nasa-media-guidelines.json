@@ -1,0 +1,16 @@
+{
+  "id": "nasa-media-guidelines",
+  "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "language": "en",
+  "resolved_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "downloaded_at": "2026-10-10T07:31:07+00:00",
+  "raw_sha256": "acb6ffc6d6c6d9ecc45b7f3abd6aaea235222b60343cd07adb0be045b066db02",
+  "extracted_sha256": "7de64560d02bb35ae10f1d149ed5e2e23a77049071b01431ebe2312da2b3f2d1",
+  "bytes": 320650,
+  "charset": "utf-8",
+  "http_headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "reviewed": false,
+  "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+}

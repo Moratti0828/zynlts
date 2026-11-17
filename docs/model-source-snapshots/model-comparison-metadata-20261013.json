@@ -1,0 +1,506 @@
+{
+  "checked_on_client_date": "2026-10-13",
+  "note": "Metadata only; no weights downloaded. Hub API safetensors totals describe the current specified revisions; createdAt is repository creation, not public release or training cutoff. Llama gated config may require authorization.",
+  "records": [
+    {
+      "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+      "sha": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "createdAt": "2024-09-17T14:10:29.000Z",
+      "lastModified": "2024-09-25T12:32:50.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 1543714304
+        },
+        "total": 1543714304
+      },
+      "license": "apache-2.0",
+      "language_tag": [
+        "en"
+      ],
+      "config": {
+        "model_type": "qwen2",
+        "max_position_embeddings": 32768,
+        "hidden_size": 1536,
+        "num_hidden_layers": 28,
+        "num_attention_heads": 12,
+        "num_key_value_heads": 2,
+        "intermediate_size": 8960,
+        "vocab_size": 151936,
+        "tie_word_embeddings": true,
+        "rope_scaling": null,
+        "sliding_window": 32768,
+        "torch_dtype": "bfloat16",
+        "sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/config.json"
+      },
+      "weight_history": {
+        "historical_revision": "775b11afaf83e0dc75bd5abaf90133e47b3ec082",
+        "historical_url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/commit/775b11afaf83e0dc75bd5abaf90133e47b3ec082",
+        "historical_safetensors": {
+          "model.safetensors": {
+            "sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+            "size": 3087467144
+          }
+        },
+        "current_safetensors": {
+          "model.safetensors": {
+            "sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+            "size": 3087467144
+          }
+        },
+        "same_paths_sizes_lfs_sha256": true,
+        "scope": "Hub metadata comparison only. No model weight bytes downloaded or runtime conversion certified."
+      }
+    },
+    {
+      "repo": "Qwen/Qwen2.5-3B-Instruct",
+      "sha": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "createdAt": "2024-09-17T14:08:52.000Z",
+      "lastModified": "2024-09-25T12:33:00.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 3085938688
+        },
+        "total": 3085938688
+      },
+      "license": "other",
+      "language_tag": [
+        "en"
+      ],
+      "config": {
+        "model_type": "qwen2",
+        "max_position_embeddings": 32768,
+        "hidden_size": 2048,
+        "num_hidden_layers": 36,
+        "num_attention_heads": 16,
+        "num_key_value_heads": 2,
+        "intermediate_size": 11008,
+        "vocab_size": 151936,
+        "tie_word_embeddings": true,
+        "rope_scaling": null,
+        "sliding_window": 32768,
+        "torch_dtype": "bfloat16",
+        "sha256": "eed00b17e22553979d090fa492e587e92885e328914c8e0b0b78f0a0d3576b3b",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json"
+      },
+      "weight_history": {
+        "historical_revision": "3ca5f5bff0f44b2b436a9aba99b900ab157c9a27",
+        "historical_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/commit/3ca5f5bff0f44b2b436a9aba99b900ab157c9a27",
+        "historical_safetensors": {
+          "model-00001-of-00002.safetensors": {
+            "sha256": "67347b23fb4165b652eb6611f5e1f2a06dfcddba8e909df1b2b0b1857bee06c2",
+            "size": 3968658944
+          },
+          "model-00002-of-00002.safetensors": {
+            "sha256": "a40d941d0e7e0b966ad8b62bb6d6b7c88cce1299197b599d9d0a4ce59aabfc1d",
+            "size": 2203268048
+          }
+        },
+        "current_safetensors": {
+          "model-00001-of-00002.safetensors": {
+            "sha256": "67347b23fb4165b652eb6611f5e1f2a06dfcddba8e909df1b2b0b1857bee06c2",
+            "size": 3968658944
+          },
+          "model-00002-of-00002.safetensors": {
+            "sha256": "a40d941d0e7e0b966ad8b62bb6d6b7c88cce1299197b599d9d0a4ce59aabfc1d",
+            "size": 2203268048
+          }
+        },
+        "same_paths_sizes_lfs_sha256": true,
+        "scope": "Hub metadata comparison only. No model weight bytes downloaded or runtime conversion certified."
+      }
+    },
+    {
+      "repo": "Qwen/Qwen2.5-7B-Instruct",
+      "sha": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "createdAt": "2024-09-16T11:55:40.000Z",
+      "lastModified": "2025-01-12T02:10:10.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 7615616512
+        },
+        "total": 7615616512
+      },
+      "license": "apache-2.0",
+      "language_tag": [
+        "en"
+      ],
+      "config": {
+        "model_type": "qwen2",
+        "max_position_embeddings": 32768,
+        "hidden_size": 3584,
+        "num_hidden_layers": 28,
+        "num_attention_heads": 28,
+        "num_key_value_heads": 4,
+        "intermediate_size": 18944,
+        "vocab_size": 152064,
+        "tie_word_embeddings": false,
+        "rope_scaling": null,
+        "sliding_window": 131072,
+        "torch_dtype": "bfloat16",
+        "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/a09a35458c702b33eeacc393d103063234e8bc28/config.json"
+      },
+      "weight_history": {
+        "historical_revision": "d1e200fcf95ef0d4326873ddf63e5562d5f1fdbb",
+        "historical_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/commit/d1e200fcf95ef0d4326873ddf63e5562d5f1fdbb",
+        "historical_safetensors": {
+          "model-00001-of-00004.safetensors": {
+            "sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7",
+            "size": 3945441440
+          },
+          "model-00002-of-00004.safetensors": {
+            "sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185",
+            "size": 3864726352
+          },
+          "model-00003-of-00004.safetensors": {
+            "sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5",
+            "size": 3864726424
+          },
+          "model-00004-of-00004.safetensors": {
+            "sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd",
+            "size": 3556377672
+          }
+        },
+        "current_safetensors": {
+          "model-00001-of-00004.safetensors": {
+            "sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7",
+            "size": 3945441440
+          },
+          "model-00002-of-00004.safetensors": {
+            "sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185",
+            "size": 3864726352
+          },
+          "model-00003-of-00004.safetensors": {
+            "sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5",
+            "size": 3864726424
+          },
+          "model-00004-of-00004.safetensors": {
+            "sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd",
+            "size": 3556377672
+          }
+        },
+        "same_paths_sizes_lfs_sha256": true,
+        "scope": "Hub metadata comparison only. No model weight bytes downloaded or runtime conversion certified."
+      }
+    },
+    {
+      "repo": "Qwen/Qwen2.5-14B-Instruct",
+      "sha": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+      "createdAt": "2024-09-16T11:56:10.000Z",
+      "lastModified": "2024-09-25T12:33:04.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 14770033664
+        },
+        "total": 14770033664
+      },
+      "license": "apache-2.0",
+      "language_tag": [
+        "en"
+      ],
+      "config": {
+        "model_type": "qwen2",
+        "max_position_embeddings": 32768,
+        "hidden_size": 5120,
+        "num_hidden_layers": 48,
+        "num_attention_heads": 40,
+        "num_key_value_heads": 8,
+        "intermediate_size": 13824,
+        "vocab_size": 152064,
+        "tie_word_embeddings": false,
+        "rope_scaling": null,
+        "sliding_window": 131072,
+        "torch_dtype": "bfloat16",
+        "sha256": "0f2085dbbe2ee251bd6a6a0797d84a6ce34436044d629aa3cba793b43d311a9e",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/resolve/cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8/config.json"
+      },
+      "weight_history": {
+        "historical_revision": "336cd7ff9b3a3f4392a6172197cdcfd7a9d73a30",
+        "historical_url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/commit/336cd7ff9b3a3f4392a6172197cdcfd7a9d73a30",
+        "historical_safetensors": {
+          "model-00001-of-00008.safetensors": {
+            "sha256": "b477be7572f0ab3ae3cbba38d508cc33e70600b2045669c4ad848051c3432094",
+            "size": 3885154816
+          },
+          "model-00002-of-00008.safetensors": {
+            "sha256": "eb356aacae443e30f52712b1e98fadf206976365e2f5ee886321b0bb38c7cea8",
+            "size": 3995327992
+          },
+          "model-00003-of-00008.safetensors": {
+            "sha256": "cee9dbdf738ce61adb21c70ad5c5585747caaab6457c9ffc3bfa20d73127c2c6",
+            "size": 3995328080
+          },
+          "model-00004-of-00008.safetensors": {
+            "sha256": "b1201a6edcac8ef96a37040524fe37a5a84e446513ed40491e764a37302385fa",
+            "size": 3995338432
+          },
+          "model-00005-of-00008.safetensors": {
+            "sha256": "fbbda3cdee31895d0c57d617449af5579d219df34f3d63f7a23acbfe7fb0a647",
+            "size": 3979624824
+          },
+          "model-00006-of-00008.safetensors": {
+            "sha256": "f7ac652aa101717c97cfeccf5109985cca5b04529b57d3f4d2ec7a802266296b",
+            "size": 3995328080
+          },
+          "model-00007-of-00008.safetensors": {
+            "sha256": "e9115e615b575acb6e8b3a06524b32cbf7f680f07517125e4334f62c3f4acb0d",
+            "size": 3995328080
+          },
+          "model-00008-of-00008.safetensors": {
+            "sha256": "a77f603d8368749c19d3ac9cf2a300e476edcc794ea41af8e473ee12935eadb8",
+            "size": 1698703696
+          }
+        },
+        "current_safetensors": {
+          "model-00001-of-00008.safetensors": {
+            "sha256": "b477be7572f0ab3ae3cbba38d508cc33e70600b2045669c4ad848051c3432094",
+            "size": 3885154816
+          },
+          "model-00002-of-00008.safetensors": {
+            "sha256": "eb356aacae443e30f52712b1e98fadf206976365e2f5ee886321b0bb38c7cea8",
+            "size": 3995327992
+          },
+          "model-00003-of-00008.safetensors": {
+            "sha256": "cee9dbdf738ce61adb21c70ad5c5585747caaab6457c9ffc3bfa20d73127c2c6",
+            "size": 3995328080
+          },
+          "model-00004-of-00008.safetensors": {
+            "sha256": "b1201a6edcac8ef96a37040524fe37a5a84e446513ed40491e764a37302385fa",
+            "size": 3995338432
+          },
+          "model-00005-of-00008.safetensors": {
+            "sha256": "fbbda3cdee31895d0c57d617449af5579d219df34f3d63f7a23acbfe7fb0a647",
+            "size": 3979624824
+          },
+          "model-00006-of-00008.safetensors": {
+            "sha256": "f7ac652aa101717c97cfeccf5109985cca5b04529b57d3f4d2ec7a802266296b",
+            "size": 3995328080
+          },
+          "model-00007-of-00008.safetensors": {
+            "sha256": "e9115e615b575acb6e8b3a06524b32cbf7f680f07517125e4334f62c3f4acb0d",
+            "size": 3995328080
+          },
+          "model-00008-of-00008.safetensors": {
+            "sha256": "a77f603d8368749c19d3ac9cf2a300e476edcc794ea41af8e473ee12935eadb8",
+            "size": 1698703696
+          }
+        },
+        "same_paths_sizes_lfs_sha256": true,
+        "scope": "Hub metadata comparison only. No model weight bytes downloaded or runtime conversion certified."
+      }
+    },
+    {
+      "repo": "mistralai/Mistral-7B-Instruct-v0.3",
+      "sha": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "createdAt": "2024-05-22T09:57:04.000Z",
+      "lastModified": "2025-12-03T12:13:48.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 7248023552
+        },
+        "total": 7248023552
+      },
+      "license": "apache-2.0",
+      "language_tag": null,
+      "config": {
+        "model_type": "mistral",
+        "max_position_embeddings": 32768,
+        "hidden_size": 4096,
+        "num_hidden_layers": 32,
+        "num_attention_heads": 32,
+        "num_key_value_heads": 8,
+        "intermediate_size": 14336,
+        "vocab_size": 32768,
+        "tie_word_embeddings": false,
+        "rope_scaling": null,
+        "sliding_window": null,
+        "torch_dtype": "bfloat16",
+        "sha256": "affafc6478ec0fd07a32f0ca57aa2fc57743f4d17d6730f86a96ac24d1507f99",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/c170c708c41dac9275d15a8fff4eca08d52bab71/config.json"
+      },
+      "weight_history": {
+        "historical_revision": "73be8467cda0c529b0ebc0e21f7a669136aa6403",
+        "historical_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/commit/73be8467cda0c529b0ebc0e21f7a669136aa6403",
+        "historical_safetensors": {
+          "consolidated.safetensors": {
+            "sha256": "76d5729be995fb6510c7f103c5b8825d3d82f8126ac949db6be367a638694d1f",
+            "size": 14496078512
+          },
+          "model-00001-of-00003.safetensors": {
+            "sha256": "ce6fb6f6f4d0183f4813cbf4ece24109da629a08d4210da46f77e1d8b0bd5c19",
+            "size": 4949453792
+          },
+          "model-00002-of-00003.safetensors": {
+            "sha256": "8c0e72f148366b6a3709e002a98706a33d31aec8515090c856c95b2044f92ae0",
+            "size": 4999819336
+          },
+          "model-00003-of-00003.safetensors": {
+            "sha256": "905dd405363e43d95779c1c1155a2dbfd36155914ae95dbd934e12e490cfb4ca",
+            "size": 4546807800
+          }
+        },
+        "current_safetensors": {
+          "consolidated.safetensors": {
+            "sha256": "76d5729be995fb6510c7f103c5b8825d3d82f8126ac949db6be367a638694d1f",
+            "size": 14496078512
+          },
+          "model-00001-of-00003.safetensors": {
+            "sha256": "ce6fb6f6f4d0183f4813cbf4ece24109da629a08d4210da46f77e1d8b0bd5c19",
+            "size": 4949453792
+          },
+          "model-00002-of-00003.safetensors": {
+            "sha256": "8c0e72f148366b6a3709e002a98706a33d31aec8515090c856c95b2044f92ae0",
+            "size": 4999819336
+          },
+          "model-00003-of-00003.safetensors": {
+            "sha256": "905dd405363e43d95779c1c1155a2dbfd36155914ae95dbd934e12e490cfb4ca",
+            "size": 4546807800
+          }
+        },
+        "same_paths_sizes_lfs_sha256": true,
+        "scope": "Hub metadata comparison only. No model weight bytes downloaded or runtime conversion certified."
+      }
+    },
+    {
+      "repo": "internlm/internlm2_5-7b-chat",
+      "sha": "eb72b541689b0432dade0435feb339b89fdd39ff",
+      "createdAt": "2024-06-27T13:01:58.000Z",
+      "lastModified": "2025-03-13T07:04:49.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 7737708544
+        },
+        "total": 7737708544
+      },
+      "license": "other",
+      "language_tag": null,
+      "config": {
+        "model_type": "internlm2",
+        "max_position_embeddings": 32768,
+        "hidden_size": 4096,
+        "num_hidden_layers": 32,
+        "num_attention_heads": 32,
+        "num_key_value_heads": 8,
+        "intermediate_size": 14336,
+        "vocab_size": 92544,
+        "tie_word_embeddings": false,
+        "rope_scaling": {
+          "type": "dynamic",
+          "factor": 2.0
+        },
+        "sliding_window": null,
+        "torch_dtype": "bfloat16",
+        "sha256": "3797dfe1ee8e1b7060f8cb70f32ab9445774c8fc7f352a910e160304304ce153",
+        "url": "https://huggingface.co/internlm/internlm2_5-7b-chat/resolve/eb72b541689b0432dade0435feb339b89fdd39ff/config.json"
+      },
+      "weight_history": {
+        "historical_revision": "cb63b7388e7a29a434a3b0ef4201b165aa4bae7d",
+        "historical_url": "https://huggingface.co/internlm/internlm2_5-7b-chat/commit/cb63b7388e7a29a434a3b0ef4201b165aa4bae7d",
+        "historical_safetensors": {
+          "model-00001-of-00008.safetensors": {
+            "sha256": "e4ca3e18ba179cf02603f3c5e3677c3de953ae3ef828f1ba61e69405b2f29c86",
+            "size": 1949337704
+          },
+          "model-00002-of-00008.safetensors": {
+            "sha256": "6e3d7544d4f0cd1a757c4cdd9f2b80f6195b53c1fefc9c3f87d9512f1f819286",
+            "size": 1946242696
+          },
+          "model-00003-of-00008.safetensors": {
+            "sha256": "140ae757b641dec6daba5ea8779b20e9fcd39ddbc0fd6ace885c1d1113769e81",
+            "size": 1979780440
+          },
+          "model-00004-of-00008.safetensors": {
+            "sha256": "1ec683235b39820024b222f3f05947afcdad7dc84eccc7c2bd5a418685c9f893",
+            "size": 1946242728
+          },
+          "model-00005-of-00008.safetensors": {
+            "sha256": "fc21cfa8573045ade0f2c96d6a1fb941755d5ced9805c57b9ff6c0e415cfac07",
+            "size": 1979780456
+          },
+          "model-00006-of-00008.safetensors": {
+            "sha256": "8c4a36cedf62139bac647b271bb0c31d55c917925c186361884ce4e07bba733c",
+            "size": 1946242728
+          },
+          "model-00007-of-00008.safetensors": {
+            "sha256": "e58c4c62819309d897f195a874ade51ece7f2ef8234763b80a58e304e9f5f4d1",
+            "size": 1979780456
+          },
+          "model-00008-of-00008.safetensors": {
+            "sha256": "62a1dbfc8d58d31058c9e6dd4c85317b110f936c2ab9e8ef3e599a5a262f1fda",
+            "size": 1748035640
+          }
+        },
+        "current_safetensors": {
+          "model-00001-of-00008.safetensors": {
+            "sha256": "e4ca3e18ba179cf02603f3c5e3677c3de953ae3ef828f1ba61e69405b2f29c86",
+            "size": 1949337704
+          },
+          "model-00002-of-00008.safetensors": {
+            "sha256": "6e3d7544d4f0cd1a757c4cdd9f2b80f6195b53c1fefc9c3f87d9512f1f819286",
+            "size": 1946242696
+          },
+          "model-00003-of-00008.safetensors": {
+            "sha256": "140ae757b641dec6daba5ea8779b20e9fcd39ddbc0fd6ace885c1d1113769e81",
+            "size": 1979780440
+          },
+          "model-00004-of-00008.safetensors": {
+            "sha256": "1ec683235b39820024b222f3f05947afcdad7dc84eccc7c2bd5a418685c9f893",
+            "size": 1946242728
+          },
+          "model-00005-of-00008.safetensors": {
+            "sha256": "fc21cfa8573045ade0f2c96d6a1fb941755d5ced9805c57b9ff6c0e415cfac07",
+            "size": 1979780456
+          },
+          "model-00006-of-00008.safetensors": {
+            "sha256": "8c4a36cedf62139bac647b271bb0c31d55c917925c186361884ce4e07bba733c",
+            "size": 1946242728
+          },
+          "model-00007-of-00008.safetensors": {
+            "sha256": "e58c4c62819309d897f195a874ade51ece7f2ef8234763b80a58e304e9f5f4d1",
+            "size": 1979780456
+          },
+          "model-00008-of-00008.safetensors": {
+            "sha256": "62a1dbfc8d58d31058c9e6dd4c85317b110f936c2ab9e8ef3e599a5a262f1fda",
+            "size": 1748035640
+          }
+        },
+        "same_paths_sizes_lfs_sha256": true,
+        "scope": "Hub metadata comparison only. No model weight bytes downloaded or runtime conversion certified."
+      },
+      "weight_license_evidence": {
+        "url": "https://huggingface.co/internlm/internlm2_5-7b-chat/resolve/eb72b541689b0432dade0435feb339b89fdd39ff/README.md",
+        "readme_sha256": "6fc478eb67e16606166919bbbed9df50b0cec516a42b0f40795169c7070e3da5",
+        "license_section": "The code is licensed under Apache-2.0, while model weights are fully open for academic research and also allow free commercial usage. To apply for a commercial license, please fill in the application form (English)/申请表（中文）. For other questions or collaborations, please contact internlm@pjlab.org.cn.",
+        "standalone_LICENSE_file_present": false
+      }
+    },
+    {
+      "repo": "meta-llama/Llama-3.1-8B-Instruct",
+      "sha": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "createdAt": "2024-07-18T08:56:00.000Z",
+      "lastModified": "2024-09-25T17:00:57.000Z",
+      "safetensors": {
+        "parameters": {
+          "BF16": 8030261248
+        },
+        "total": 8030261248
+      },
+      "license": "llama3.1",
+      "language_tag": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th"
+      ],
+      "config": {
+        "error": "HTTP Error 401: Unauthorized",
+        "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/0e9e39f249a16976918f6564b8830bc894c89659/config.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3110 @@
+{
+  "source_scope_date": "2026-10-24",
+  "verified_on_client_date": "2026-10-25",
+  "bank_id": "dev-recent-additions-20261024",
+  "formal": false,
+  "human_review_count": 0,
+  "counts": {
+    "articles": 20,
+    "questions": 160,
+    "languages": {
+      "zh": 10,
+      "en": 10
+    },
+    "questions_by_language": {
+      "zh": 80,
+      "en": 80
+    },
+    "question_kinds": {
+      "numeric": 32,
+      "short": 27,
+      "choice": 61,
+      "unanswerable": 40
+    },
+    "dimensions": {
+      "D1": 46,
+      "D4": 13,
+      "D2": 21,
+      "D3": 20,
+      "D5": 20,
+      "D6": 40
+    }
+  },
+  "schema_validated": true,
+  "formal_rejected_as_expected": "Non-frozen bank: use --allow-draft for labelled diagnostics",
+  "old_bank_sha256_unchanged": "ea4033e6d9e4b3052871eed683a7e65c280d1e4ac265ac1ef2a9807083b2ac3a",
+  "new_source_ids_nonoverlap_with_old20": true,
+  "new_source_text_hashes_nonoverlap_with_old20": true,
+  "all_source_raw_and_body_hashes_match": true,
+  "all_presented_paragraphs_align_to_contiguous_source": true,
+  "all_qwen_exact_budgets_pass": true,
+  "all_conservative_draft_budgets_pass": true,
+  "arithmetic_gold_checked_using_decimal": true,
+  "sources": [
+    {
+      "source_id": "zh-cas-0681294f54cd",
+      "source_text_sha256": "8a7dee106dc17d45de1baf6af63e8cf581fd5995aa35e232955fa65c5013ccaa",
+      "source_raw_sha256": "28f2838d9e1c2e3968fb79892c56391d5654c5c3997a1d2fa0541a119ce767b2",
+      "source_paragraphs": 8,
+      "presented_paragraphs": 8,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "zh-cas-09ab242a8c29",
+      "source_text_sha256": "6e10fa24d3697d1ba48b7bd071a68d897fd3cf0490d7d5f49824abb9c5462eb4",
+      "source_raw_sha256": "d1db45306ad1744446cd03ae8eff5f1de3d4764cdd5396b407276abf5ebea31e",
+      "source_paragraphs": 8,
+      "presented_paragraphs": 7,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "zh-cas-a1f17924b1de",
+      "source_text_sha256": "7fa3f7b3654539892eff888a92ce8e7a969d49b6ba87b31d8d3979613743cbcd",
+      "source_raw_sha256": "25376282ba9ba61670b11d6b08604c2983a7fb72827924ec47b6df53e331fbe0",
+      "source_paragraphs": 10,
+      "presented_paragraphs": 10,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "zh-cas-f312523873aa",
+      "source_text_sha256": "f42bc60f51f057d2ffbf510de6adde62e42199678fef0484db0c09db4f4dcafd",
+      "source_raw_sha256": "b383b523dc45e4ee438f01ef7f693b5663a62fb6afd6775232f4ad8da64c0101",
+      "source_paragraphs": 5,
+      "presented_paragraphs": 5,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "zh-mct-195bd1066dcd",
+      "source_text_sha256": "92cad825e2a6cd3a34e213b8eeb2f05f7484a63366e1e98440d1dc1c0a4fc20c",
+      "source_raw_sha256": "dce931cc07f754e290a27afeca3d31068e007eb00c19b93c2832102d0ef278c0",
+      "source_paragraphs": 11,
+      "presented_paragraphs": 11,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "zh-mct-21244521986d",
+      "source_text_sha256": "6a8a17de8d488ec35bf24d01a94c1d1ee08ec07ab9a429d9b306a60530e745ca",
+      "source_raw_sha256": "6695a889e3e7cc70c2c083c108e54057dfcd9d06d4cd58836479fb95c6b45395",
+      "source_paragraphs": 4,
+      "presented_paragraphs": 4,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "zh-mee-91284d5fb252",
+      "source_text_sha256": "c1aeb0054f3482abe7c24965eb20f92b5d8359721c87f358481bebc973af5d91",
+      "source_raw_sha256": "c31f802c6f5e270febe97e0cd4bc715430b63563e102e9153246551ab36658d6",
+      "source_paragraphs": 4,
+      "presented_paragraphs": 4,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "zh-nbs-6b016a15454b",
+      "source_text_sha256": "16cee40a2c06d5179fea02027de3e5c1515c9d000f8c377beea0d866d56bcc29",
+      "source_raw_sha256": "fc709045cb1382d8db7831483fdb56265a2c2f320b155a723f6927dca7c0f555",
+      "source_paragraphs": 74,
+      "presented_paragraphs": 8,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "zh-nbs-e172ba371342",
+      "source_text_sha256": "10c116ba451c15e0590c92b29c55a2e9e7707fe46d608e2d644caa40830d0c0d",
+      "source_raw_sha256": "15bba444b5145667a7a70770f2dc1b5534ed3f252e5e7e9d2e0d3a7c17d50973",
+      "source_paragraphs": 15,
+      "presented_paragraphs": 15,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "zh-mct_local-416f209f9d4d",
+      "source_text_sha256": "189e731694bba703549fc97a4a0d53b7de6d95a77878fb3185f2819301c0fd81",
+      "source_raw_sha256": "914c0408e8abff708ef98f98a853916000b8fc81787161c8c66406807da9e09a",
+      "source_paragraphs": 5,
+      "presented_paragraphs": 5,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "en-govuk-027559558240",
+      "source_text_sha256": "4480f9ad2b828594ca9637539efda012f410a881624705384eb38dc14a1547a2",
+      "source_raw_sha256": "d1d4813731e81216ea91aa13d44236180d37d4f2a64d361bc10a14408c7201b3",
+      "source_paragraphs": 33,
+      "presented_paragraphs": 19,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "en-govuk-18a21b651548",
+      "source_text_sha256": "b5b1f86b468f8a93c40756135dc1bb78477c1d0ca8ad7f3c474615b15ba4104b",
+      "source_raw_sha256": "1af87b4fafa8a28124deadca72b45fdd2c4a7cf2ae34689a0a39dea3db9ab383",
+      "source_paragraphs": 40,
+      "presented_paragraphs": 21,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "en-govuk-2467f63aa2e3",
+      "source_text_sha256": "05b12b302a0bf29a657f122b7466603ff335eb673e39cae616384b22fcaa86ac",
+      "source_raw_sha256": "105f573eff6b6326379390ac2f42b85df2115868d6fab04f32b3a8ae58511511",
+      "source_paragraphs": 55,
+      "presented_paragraphs": 8,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "en-govuk-46ec8bca43bf",
+      "source_text_sha256": "9791326e15341f0f0cca5d6646b9c4dc022bb2b678f30422b40e34cf8ac26c81",
+      "source_raw_sha256": "d33b5765611285cf76178389f5b2bb3fb72d06d67855e490e037bce5819c04db",
+      "source_paragraphs": 21,
+      "presented_paragraphs": 8,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "en-nasa-5742cda52abd",
+      "source_text_sha256": "001434d13067b1efeffcfe4bcf7ddbdc1e19fa9ffad1f00d995dde9add02533c",
+      "source_raw_sha256": "8e70524bf8ee9495c71456be7711e473eb1f67317b66dff0a9022ba7c285f00c",
+      "source_paragraphs": 10,
+      "presented_paragraphs": 9,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "en-nasa-b85427f614dd",
+      "source_text_sha256": "892d494e2ceb9aa2d67bbe0902cff471c40f012a7fce65e3b13dd0eba446889c",
+      "source_raw_sha256": "50b70ede3815f2aa2513e873b5758a32d0de0de26be62603c65e67c98994df50",
+      "source_paragraphs": 29,
+      "presented_paragraphs": 12,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "en-nasa-c8f73fc30675",
+      "source_text_sha256": "854cba1846ad928c78c64ea1b0a2d6ed896648cb016ec4037ee83321f0c65570",
+      "source_raw_sha256": "524647355ad866b7da76aee0f40ecda615248e90284119f5a4fa33b217c67147",
+      "source_paragraphs": 16,
+      "presented_paragraphs": 9,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "en-usgs_release-45b67cc6df92",
+      "source_text_sha256": "2e15543f75c2e01c4c6e11119529e766ddeff141fd29535290961389ab22c739",
+      "source_raw_sha256": "955473c61b94f171df65f4da97775e64413bddb9d948c3c747ee58d3eb5cc269",
+      "source_paragraphs": 10,
+      "presented_paragraphs": 10,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "en-usgs_release-7fabf5839d59",
+      "source_text_sha256": "31406ebd12f817edd45e0526d1db1c89baefa45562a4a8f704cb0aac751a0e56",
+      "source_raw_sha256": "8223c4ef2927ddd700e63bd43c08641e555b9b865175b380dfe96145ddb668e4",
+      "source_paragraphs": 13,
+      "presented_paragraphs": 12,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    },
+    {
+      "source_id": "en-usgs_release-fa544e633561",
+      "source_text_sha256": "f113c49bdbaf379354f7e3d3c151b0101731286e99690c2e5adefcdca074bcb8",
+      "source_raw_sha256": "36077d2437348e7a5723cf4b2f77da4518e72c4e07c92379c0c5e1bcd16f19aa",
+      "source_paragraphs": 7,
+      "presented_paragraphs": 7,
+      "aligned_source_indexes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "body_and_raw_hash_verified": true,
+      "contiguous_paragraph_alignment_verified": true
+    }
+  ],
+  "questions": [
+    {
+      "article_id": "zh-cas-0681294f54cd-dev20261024",
+      "question_id": "q01",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-cas-0681294f54cd-dev20261024:p002"
+        ],
+        [
+          "zh-cas-0681294f54cd-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 984,
+      "qwen_exact_total_tokens": 2008,
+      "draft_utf8_total_bound": 5084,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-0681294f54cd-dev20261024",
+      "question_id": "q02",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "zh-cas-0681294f54cd-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 992,
+      "qwen_exact_total_tokens": 2016,
+      "draft_utf8_total_bound": 5123,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-0681294f54cd-dev20261024",
+      "question_id": "q03",
+      "language": "zh",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-cas-0681294f54cd-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 984,
+      "qwen_exact_total_tokens": 2008,
+      "draft_utf8_total_bound": 5083,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-0681294f54cd-dev20261024",
+      "question_id": "q04",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "zh-cas-0681294f54cd-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1047,
+      "qwen_exact_total_tokens": 2071,
+      "draft_utf8_total_bound": 5317,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-0681294f54cd-dev20261024",
+      "question_id": "q05",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "zh-cas-0681294f54cd-dev20261024:p003",
+          "zh-cas-0681294f54cd-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1064,
+      "qwen_exact_total_tokens": 2088,
+      "draft_utf8_total_bound": 5401,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-0681294f54cd-dev20261024",
+      "question_id": "q06",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "zh-cas-0681294f54cd-dev20261024:p005"
+        ],
+        [
+          "zh-cas-0681294f54cd-dev20261024:p004"
+        ],
+        [
+          "zh-cas-0681294f54cd-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1057,
+      "qwen_exact_total_tokens": 2081,
+      "draft_utf8_total_bound": 5377,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-0681294f54cd-dev20261024",
+      "question_id": "q07",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 989,
+      "qwen_exact_total_tokens": 2013,
+      "draft_utf8_total_bound": 5109,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-0681294f54cd-dev20261024",
+      "question_id": "q08",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 980,
+      "qwen_exact_total_tokens": 2004,
+      "draft_utf8_total_bound": 5077,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-09ab242a8c29-dev20261024",
+      "question_id": "q01",
+      "language": "zh",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-cas-09ab242a8c29-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 812,
+      "qwen_exact_total_tokens": 1836,
+      "draft_utf8_total_bound": 4428,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-09ab242a8c29-dev20261024",
+      "question_id": "q02",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-cas-09ab242a8c29-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 817,
+      "qwen_exact_total_tokens": 1841,
+      "draft_utf8_total_bound": 4450,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-09ab242a8c29-dev20261024",
+      "question_id": "q03",
+      "language": "zh",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-cas-09ab242a8c29-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 822,
+      "qwen_exact_total_tokens": 1846,
+      "draft_utf8_total_bound": 4461,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-09ab242a8c29-dev20261024",
+      "question_id": "q04",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "zh-cas-09ab242a8c29-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 897,
+      "qwen_exact_total_tokens": 1921,
+      "draft_utf8_total_bound": 4710,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-09ab242a8c29-dev20261024",
+      "question_id": "q05",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "zh-cas-09ab242a8c29-dev20261024:p002",
+          "zh-cas-09ab242a8c29-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 897,
+      "qwen_exact_total_tokens": 1921,
+      "draft_utf8_total_bound": 4724,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-09ab242a8c29-dev20261024",
+      "question_id": "q06",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "zh-cas-09ab242a8c29-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 883,
+      "qwen_exact_total_tokens": 1907,
+      "draft_utf8_total_bound": 4728,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-09ab242a8c29-dev20261024",
+      "question_id": "q07",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 817,
+      "qwen_exact_total_tokens": 1841,
+      "draft_utf8_total_bound": 4452,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-09ab242a8c29-dev20261024",
+      "question_id": "q08",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 822,
+      "qwen_exact_total_tokens": 1846,
+      "draft_utf8_total_bound": 4464,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-a1f17924b1de-dev20261024",
+      "question_id": "q01",
+      "language": "zh",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-cas-a1f17924b1de-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1203,
+      "qwen_exact_total_tokens": 2227,
+      "draft_utf8_total_bound": 5582,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-a1f17924b1de-dev20261024",
+      "question_id": "q02",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "zh-cas-a1f17924b1de-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1207,
+      "qwen_exact_total_tokens": 2231,
+      "draft_utf8_total_bound": 5637,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-a1f17924b1de-dev20261024",
+      "question_id": "q03",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-cas-a1f17924b1de-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1204,
+      "qwen_exact_total_tokens": 2228,
+      "draft_utf8_total_bound": 5621,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-a1f17924b1de-dev20261024",
+      "question_id": "q04",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "zh-cas-a1f17924b1de-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1278,
+      "qwen_exact_total_tokens": 2302,
+      "draft_utf8_total_bound": 5804,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-a1f17924b1de-dev20261024",
+      "question_id": "q05",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "zh-cas-a1f17924b1de-dev20261024:p003",
+          "zh-cas-a1f17924b1de-dev20261024:p005"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1289,
+      "qwen_exact_total_tokens": 2313,
+      "draft_utf8_total_bound": 5892,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-a1f17924b1de-dev20261024",
+      "question_id": "q06",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "zh-cas-a1f17924b1de-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1270,
+      "qwen_exact_total_tokens": 2294,
+      "draft_utf8_total_bound": 5835,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-a1f17924b1de-dev20261024",
+      "question_id": "q07",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1195,
+      "qwen_exact_total_tokens": 2219,
+      "draft_utf8_total_bound": 5576,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-a1f17924b1de-dev20261024",
+      "question_id": "q08",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1197,
+      "qwen_exact_total_tokens": 2221,
+      "draft_utf8_total_bound": 5594,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-f312523873aa-dev20261024",
+      "question_id": "q01",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-cas-f312523873aa-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 805,
+      "qwen_exact_total_tokens": 1829,
+      "draft_utf8_total_bound": 4280,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-f312523873aa-dev20261024",
+      "question_id": "q02",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "zh-cas-f312523873aa-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 816,
+      "qwen_exact_total_tokens": 1840,
+      "draft_utf8_total_bound": 4331,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-f312523873aa-dev20261024",
+      "question_id": "q03",
+      "language": "zh",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-cas-f312523873aa-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 802,
+      "qwen_exact_total_tokens": 1826,
+      "draft_utf8_total_bound": 4286,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-f312523873aa-dev20261024",
+      "question_id": "q04",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "zh-cas-f312523873aa-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 892,
+      "qwen_exact_total_tokens": 1916,
+      "draft_utf8_total_bound": 4574,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-f312523873aa-dev20261024",
+      "question_id": "q05",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "zh-cas-f312523873aa-dev20261024:p001",
+          "zh-cas-f312523873aa-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 905,
+      "qwen_exact_total_tokens": 1929,
+      "draft_utf8_total_bound": 4658,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-f312523873aa-dev20261024",
+      "question_id": "q06",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "zh-cas-f312523873aa-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 898,
+      "qwen_exact_total_tokens": 1922,
+      "draft_utf8_total_bound": 4522,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-f312523873aa-dev20261024",
+      "question_id": "q07",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 804,
+      "qwen_exact_total_tokens": 1828,
+      "draft_utf8_total_bound": 4292,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-cas-f312523873aa-dev20261024",
+      "question_id": "q08",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 807,
+      "qwen_exact_total_tokens": 1831,
+      "draft_utf8_total_bound": 4298,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-195bd1066dcd-dev20261024",
+      "question_id": "q01",
+      "language": "zh",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-mct-195bd1066dcd-dev20261024:p011"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1422,
+      "qwen_exact_total_tokens": 2446,
+      "draft_utf8_total_bound": 7127,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-195bd1066dcd-dev20261024",
+      "question_id": "q02",
+      "language": "zh",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-mct-195bd1066dcd-dev20261024:p008"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1421,
+      "qwen_exact_total_tokens": 2445,
+      "draft_utf8_total_bound": 7115,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-195bd1066dcd-dev20261024",
+      "question_id": "q03",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "zh-mct-195bd1066dcd-dev20261024:p007"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1496,
+      "qwen_exact_total_tokens": 2520,
+      "draft_utf8_total_bound": 7397,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-195bd1066dcd-dev20261024",
+      "question_id": "q04",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "zh-mct-195bd1066dcd-dev20261024:p004",
+          "zh-mct-195bd1066dcd-dev20261024:p009"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1507,
+      "qwen_exact_total_tokens": 2531,
+      "draft_utf8_total_bound": 7454,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-195bd1066dcd-dev20261024",
+      "question_id": "q05",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "zh-mct-195bd1066dcd-dev20261024:p010"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1482,
+      "qwen_exact_total_tokens": 2506,
+      "draft_utf8_total_bound": 7358,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-195bd1066dcd-dev20261024",
+      "question_id": "q06",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "zh-mct-195bd1066dcd-dev20261024:p001"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1473,
+      "qwen_exact_total_tokens": 2497,
+      "draft_utf8_total_bound": 7319,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-195bd1066dcd-dev20261024",
+      "question_id": "q07",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1421,
+      "qwen_exact_total_tokens": 2445,
+      "draft_utf8_total_bound": 7109,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-195bd1066dcd-dev20261024",
+      "question_id": "q08",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1426,
+      "qwen_exact_total_tokens": 2450,
+      "draft_utf8_total_bound": 7139,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-21244521986d-dev20261024",
+      "question_id": "q01",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-mct-21244521986d-dev20261024:p001"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 879,
+      "qwen_exact_total_tokens": 1903,
+      "draft_utf8_total_bound": 4454,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-21244521986d-dev20261024",
+      "question_id": "q02",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "zh-mct-21244521986d-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 883,
+      "qwen_exact_total_tokens": 1907,
+      "draft_utf8_total_bound": 4468,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-21244521986d-dev20261024",
+      "question_id": "q03",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-mct-21244521986d-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 880,
+      "qwen_exact_total_tokens": 1904,
+      "draft_utf8_total_bound": 4483,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-21244521986d-dev20261024",
+      "question_id": "q04",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "zh-mct-21244521986d-dev20261024:p001"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 920,
+      "qwen_exact_total_tokens": 1944,
+      "draft_utf8_total_bound": 4608,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-21244521986d-dev20261024",
+      "question_id": "q05",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "zh-mct-21244521986d-dev20261024:p003",
+          "zh-mct-21244521986d-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 949,
+      "qwen_exact_total_tokens": 1973,
+      "draft_utf8_total_bound": 4735,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-21244521986d-dev20261024",
+      "question_id": "q06",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "zh-mct-21244521986d-dev20261024:p001"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 949,
+      "qwen_exact_total_tokens": 1973,
+      "draft_utf8_total_bound": 4706,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-21244521986d-dev20261024",
+      "question_id": "q07",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 873,
+      "qwen_exact_total_tokens": 1897,
+      "draft_utf8_total_bound": 4443,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct-21244521986d-dev20261024",
+      "question_id": "q08",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 874,
+      "qwen_exact_total_tokens": 1898,
+      "draft_utf8_total_bound": 4445,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mee-91284d5fb252-dev20261024",
+      "question_id": "q01",
+      "language": "zh",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-mee-91284d5fb252-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 806,
+      "qwen_exact_total_tokens": 1830,
+      "draft_utf8_total_bound": 4576,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mee-91284d5fb252-dev20261024",
+      "question_id": "q02",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-mee-91284d5fb252-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 812,
+      "qwen_exact_total_tokens": 1836,
+      "draft_utf8_total_bound": 4580,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mee-91284d5fb252-dev20261024",
+      "question_id": "q03",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "zh-mee-91284d5fb252-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 820,
+      "qwen_exact_total_tokens": 1844,
+      "draft_utf8_total_bound": 4634,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mee-91284d5fb252-dev20261024",
+      "question_id": "q04",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "zh-mee-91284d5fb252-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 893,
+      "qwen_exact_total_tokens": 1917,
+      "draft_utf8_total_bound": 4870,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mee-91284d5fb252-dev20261024",
+      "question_id": "q05",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "zh-mee-91284d5fb252-dev20261024:p002",
+          "zh-mee-91284d5fb252-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 880,
+      "qwen_exact_total_tokens": 1904,
+      "draft_utf8_total_bound": 4873,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mee-91284d5fb252-dev20261024",
+      "question_id": "q06",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "zh-mee-91284d5fb252-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 871,
+      "qwen_exact_total_tokens": 1895,
+      "draft_utf8_total_bound": 4846,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mee-91284d5fb252-dev20261024",
+      "question_id": "q07",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 810,
+      "qwen_exact_total_tokens": 1834,
+      "draft_utf8_total_bound": 4568,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mee-91284d5fb252-dev20261024",
+      "question_id": "q08",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 801,
+      "qwen_exact_total_tokens": 1825,
+      "draft_utf8_total_bound": 4552,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-6b016a15454b-dev20261024",
+      "question_id": "q01",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-nbs-6b016a15454b-dev20261024:p001"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1355,
+      "qwen_exact_total_tokens": 2379,
+      "draft_utf8_total_bound": 5425,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-6b016a15454b-dev20261024",
+      "question_id": "q02",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "zh-nbs-6b016a15454b-dev20261024:p001"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1355,
+      "qwen_exact_total_tokens": 2379,
+      "draft_utf8_total_bound": 5439,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-6b016a15454b-dev20261024",
+      "question_id": "q03",
+      "language": "zh",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-nbs-6b016a15454b-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1355,
+      "qwen_exact_total_tokens": 2379,
+      "draft_utf8_total_bound": 5432,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-6b016a15454b-dev20261024",
+      "question_id": "q04",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "zh-nbs-6b016a15454b-dev20261024:p001"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1407,
+      "qwen_exact_total_tokens": 2431,
+      "draft_utf8_total_bound": 5539,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-6b016a15454b-dev20261024",
+      "question_id": "q05",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "zh-nbs-6b016a15454b-dev20261024:p002",
+          "zh-nbs-6b016a15454b-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1453,
+      "qwen_exact_total_tokens": 2477,
+      "draft_utf8_total_bound": 5657,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-6b016a15454b-dev20261024",
+      "question_id": "q06",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "zh-nbs-6b016a15454b-dev20261024:p001",
+          "zh-nbs-6b016a15454b-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1429,
+      "qwen_exact_total_tokens": 2453,
+      "draft_utf8_total_bound": 5738,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-6b016a15454b-dev20261024",
+      "question_id": "q07",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1354,
+      "qwen_exact_total_tokens": 2378,
+      "draft_utf8_total_bound": 5432,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-6b016a15454b-dev20261024",
+      "question_id": "q08",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1347,
+      "qwen_exact_total_tokens": 2371,
+      "draft_utf8_total_bound": 5414,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-e172ba371342-dev20261024",
+      "question_id": "q01",
+      "language": "zh",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-nbs-e172ba371342-dev20261024:p001"
+        ],
+        [
+          "zh-nbs-e172ba371342-dev20261024:p009"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1416,
+      "qwen_exact_total_tokens": 2440,
+      "draft_utf8_total_bound": 5677,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-e172ba371342-dev20261024",
+      "question_id": "q02",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-nbs-e172ba371342-dev20261024:p005"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1421,
+      "qwen_exact_total_tokens": 2445,
+      "draft_utf8_total_bound": 5674,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-e172ba371342-dev20261024",
+      "question_id": "q03",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "zh-nbs-e172ba371342-dev20261024:p009"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1421,
+      "qwen_exact_total_tokens": 2445,
+      "draft_utf8_total_bound": 5698,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-e172ba371342-dev20261024",
+      "question_id": "q04",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "zh-nbs-e172ba371342-dev20261024:p014"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1467,
+      "qwen_exact_total_tokens": 2491,
+      "draft_utf8_total_bound": 5883,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-e172ba371342-dev20261024",
+      "question_id": "q05",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "zh-nbs-e172ba371342-dev20261024:p003",
+          "zh-nbs-e172ba371342-dev20261024:p005"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1489,
+      "qwen_exact_total_tokens": 2513,
+      "draft_utf8_total_bound": 5914,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-e172ba371342-dev20261024",
+      "question_id": "q06",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "zh-nbs-e172ba371342-dev20261024:p015"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1495,
+      "qwen_exact_total_tokens": 2519,
+      "draft_utf8_total_bound": 5986,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-e172ba371342-dev20261024",
+      "question_id": "q07",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1422,
+      "qwen_exact_total_tokens": 2446,
+      "draft_utf8_total_bound": 5679,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-nbs-e172ba371342-dev20261024",
+      "question_id": "q08",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1421,
+      "qwen_exact_total_tokens": 2445,
+      "draft_utf8_total_bound": 5679,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct_local-416f209f9d4d-dev20261024",
+      "question_id": "q01",
+      "language": "zh",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-mct_local-416f209f9d4d-dev20261024:p001"
+        ],
+        [
+          "zh-mct_local-416f209f9d4d-dev20261024:p002"
+        ],
+        [
+          "zh-mct_local-416f209f9d4d-dev20261024:p003"
+        ],
+        [
+          "zh-mct_local-416f209f9d4d-dev20261024:p005"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 853,
+      "qwen_exact_total_tokens": 1877,
+      "draft_utf8_total_bound": 4902,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct_local-416f209f9d4d-dev20261024",
+      "question_id": "q02",
+      "language": "zh",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "zh-mct_local-416f209f9d4d-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 865,
+      "qwen_exact_total_tokens": 1889,
+      "draft_utf8_total_bound": 4954,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct_local-416f209f9d4d-dev20261024",
+      "question_id": "q03",
+      "language": "zh",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "zh-mct_local-416f209f9d4d-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 851,
+      "qwen_exact_total_tokens": 1875,
+      "draft_utf8_total_bound": 4905,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct_local-416f209f9d4d-dev20261024",
+      "question_id": "q04",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "zh-mct_local-416f209f9d4d-dev20261024:p002"
+        ],
+        [
+          "zh-mct_local-416f209f9d4d-dev20261024:p001"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 935,
+      "qwen_exact_total_tokens": 1959,
+      "draft_utf8_total_bound": 5181,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct_local-416f209f9d4d-dev20261024",
+      "question_id": "q05",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "zh-mct_local-416f209f9d4d-dev20261024:p003",
+          "zh-mct_local-416f209f9d4d-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 933,
+      "qwen_exact_total_tokens": 1957,
+      "draft_utf8_total_bound": 5217,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct_local-416f209f9d4d-dev20261024",
+      "question_id": "q06",
+      "language": "zh",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "zh-mct_local-416f209f9d4d-dev20261024:p001"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 936,
+      "qwen_exact_total_tokens": 1960,
+      "draft_utf8_total_bound": 5232,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct_local-416f209f9d4d-dev20261024",
+      "question_id": "q07",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 857,
+      "qwen_exact_total_tokens": 1881,
+      "draft_utf8_total_bound": 4917,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "zh-mct_local-416f209f9d4d-dev20261024",
+      "question_id": "q08",
+      "language": "zh",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 860,
+      "qwen_exact_total_tokens": 1884,
+      "draft_utf8_total_bound": 4926,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-027559558240-dev20261024",
+      "question_id": "q01",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-govuk-027559558240-dev20261024:p005"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1536,
+      "qwen_exact_total_tokens": 2560,
+      "draft_utf8_total_bound": 7076,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-027559558240-dev20261024",
+      "question_id": "q02",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-govuk-027559558240-dev20261024:p018"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1539,
+      "qwen_exact_total_tokens": 2563,
+      "draft_utf8_total_bound": 7085,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-027559558240-dev20261024",
+      "question_id": "q03",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-govuk-027559558240-dev20261024:p017"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1532,
+      "qwen_exact_total_tokens": 2556,
+      "draft_utf8_total_bound": 7063,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-027559558240-dev20261024",
+      "question_id": "q04",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "en-govuk-027559558240-dev20261024:p018"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1595,
+      "qwen_exact_total_tokens": 2619,
+      "draft_utf8_total_bound": 7385,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-027559558240-dev20261024",
+      "question_id": "q05",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "en-govuk-027559558240-dev20261024:p006",
+          "en-govuk-027559558240-dev20261024:p017"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1599,
+      "qwen_exact_total_tokens": 2623,
+      "draft_utf8_total_bound": 7425,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-027559558240-dev20261024",
+      "question_id": "q06",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "en-govuk-027559558240-dev20261024:p004",
+          "en-govuk-027559558240-dev20261024:p008"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1602,
+      "qwen_exact_total_tokens": 2626,
+      "draft_utf8_total_bound": 7413,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-027559558240-dev20261024",
+      "question_id": "q07",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1537,
+      "qwen_exact_total_tokens": 2561,
+      "draft_utf8_total_bound": 7082,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-027559558240-dev20261024",
+      "question_id": "q08",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1541,
+      "qwen_exact_total_tokens": 2565,
+      "draft_utf8_total_bound": 7089,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-18a21b651548-dev20261024",
+      "question_id": "q01",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-govuk-18a21b651548-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1648,
+      "qwen_exact_total_tokens": 2672,
+      "draft_utf8_total_bound": 7266,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-18a21b651548-dev20261024",
+      "question_id": "q02",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "en-govuk-18a21b651548-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1655,
+      "qwen_exact_total_tokens": 2679,
+      "draft_utf8_total_bound": 7314,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-18a21b651548-dev20261024",
+      "question_id": "q03",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-govuk-18a21b651548-dev20261024:p016"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1645,
+      "qwen_exact_total_tokens": 2669,
+      "draft_utf8_total_bound": 7269,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-18a21b651548-dev20261024",
+      "question_id": "q04",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "en-govuk-18a21b651548-dev20261024:p021"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1712,
+      "qwen_exact_total_tokens": 2736,
+      "draft_utf8_total_bound": 7581,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-18a21b651548-dev20261024",
+      "question_id": "q05",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "en-govuk-18a21b651548-dev20261024:p008",
+          "en-govuk-18a21b651548-dev20261024:p009"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1708,
+      "qwen_exact_total_tokens": 2732,
+      "draft_utf8_total_bound": 7618,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-18a21b651548-dev20261024",
+      "question_id": "q06",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "en-govuk-18a21b651548-dev20261024:p019"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1712,
+      "qwen_exact_total_tokens": 2736,
+      "draft_utf8_total_bound": 7617,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-18a21b651548-dev20261024",
+      "question_id": "q07",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1648,
+      "qwen_exact_total_tokens": 2672,
+      "draft_utf8_total_bound": 7262,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-18a21b651548-dev20261024",
+      "question_id": "q08",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1644,
+      "qwen_exact_total_tokens": 2668,
+      "draft_utf8_total_bound": 7241,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-2467f63aa2e3-dev20261024",
+      "question_id": "q01",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-govuk-2467f63aa2e3-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 833,
+      "qwen_exact_total_tokens": 1857,
+      "draft_utf8_total_bound": 4782,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-2467f63aa2e3-dev20261024",
+      "question_id": "q02",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "en-govuk-2467f63aa2e3-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 840,
+      "qwen_exact_total_tokens": 1864,
+      "draft_utf8_total_bound": 4814,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-2467f63aa2e3-dev20261024",
+      "question_id": "q03",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-govuk-2467f63aa2e3-dev20261024:p006"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 828,
+      "qwen_exact_total_tokens": 1852,
+      "draft_utf8_total_bound": 4763,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-2467f63aa2e3-dev20261024",
+      "question_id": "q04",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "en-govuk-2467f63aa2e3-dev20261024:p001",
+          "en-govuk-2467f63aa2e3-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 904,
+      "qwen_exact_total_tokens": 1928,
+      "draft_utf8_total_bound": 5132,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-2467f63aa2e3-dev20261024",
+      "question_id": "q05",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "en-govuk-2467f63aa2e3-dev20261024:p002",
+          "en-govuk-2467f63aa2e3-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 905,
+      "qwen_exact_total_tokens": 1929,
+      "draft_utf8_total_bound": 5202,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-2467f63aa2e3-dev20261024",
+      "question_id": "q06",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "en-govuk-2467f63aa2e3-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 903,
+      "qwen_exact_total_tokens": 1927,
+      "draft_utf8_total_bound": 5153,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-2467f63aa2e3-dev20261024",
+      "question_id": "q07",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 841,
+      "qwen_exact_total_tokens": 1865,
+      "draft_utf8_total_bound": 4802,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-2467f63aa2e3-dev20261024",
+      "question_id": "q08",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 837,
+      "qwen_exact_total_tokens": 1861,
+      "draft_utf8_total_bound": 4809,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-46ec8bca43bf-dev20261024",
+      "question_id": "q01",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-govuk-46ec8bca43bf-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 918,
+      "qwen_exact_total_tokens": 1942,
+      "draft_utf8_total_bound": 5060,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-46ec8bca43bf-dev20261024",
+      "question_id": "q02",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-govuk-46ec8bca43bf-dev20261024:p002"
+        ],
+        [
+          "en-govuk-46ec8bca43bf-dev20261024:p004"
+        ],
+        [
+          "en-govuk-46ec8bca43bf-dev20261024:p007"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 924,
+      "qwen_exact_total_tokens": 1948,
+      "draft_utf8_total_bound": 5116,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-46ec8bca43bf-dev20261024",
+      "question_id": "q03",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "en-govuk-46ec8bca43bf-dev20261024:p007"
+        ],
+        [
+          "en-govuk-46ec8bca43bf-dev20261024:p002",
+          "en-govuk-46ec8bca43bf-dev20261024:p003"
+        ],
+        [
+          "en-govuk-46ec8bca43bf-dev20261024:p003",
+          "en-govuk-46ec8bca43bf-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 930,
+      "qwen_exact_total_tokens": 1954,
+      "draft_utf8_total_bound": 5149,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-46ec8bca43bf-dev20261024",
+      "question_id": "q04",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "en-govuk-46ec8bca43bf-dev20261024:p006",
+          "en-govuk-46ec8bca43bf-dev20261024:p008"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 998,
+      "qwen_exact_total_tokens": 2022,
+      "draft_utf8_total_bound": 5476,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-46ec8bca43bf-dev20261024",
+      "question_id": "q05",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "en-govuk-46ec8bca43bf-dev20261024:p005",
+          "en-govuk-46ec8bca43bf-dev20261024:p006"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 993,
+      "qwen_exact_total_tokens": 2017,
+      "draft_utf8_total_bound": 5453,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-46ec8bca43bf-dev20261024",
+      "question_id": "q06",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "en-govuk-46ec8bca43bf-dev20261024:p008"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 979,
+      "qwen_exact_total_tokens": 2003,
+      "draft_utf8_total_bound": 5398,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-46ec8bca43bf-dev20261024",
+      "question_id": "q07",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 924,
+      "qwen_exact_total_tokens": 1948,
+      "draft_utf8_total_bound": 5105,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-govuk-46ec8bca43bf-dev20261024",
+      "question_id": "q08",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 920,
+      "qwen_exact_total_tokens": 1944,
+      "draft_utf8_total_bound": 5092,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-5742cda52abd-dev20261024",
+      "question_id": "q01",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-nasa-5742cda52abd-dev20261024:p002"
+        ],
+        [
+          "en-nasa-5742cda52abd-dev20261024:p009"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1013,
+      "qwen_exact_total_tokens": 2037,
+      "draft_utf8_total_bound": 5733,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-5742cda52abd-dev20261024",
+      "question_id": "q02",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-nasa-5742cda52abd-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1009,
+      "qwen_exact_total_tokens": 2033,
+      "draft_utf8_total_bound": 5747,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-5742cda52abd-dev20261024",
+      "question_id": "q03",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-nasa-5742cda52abd-dev20261024:p006"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1007,
+      "qwen_exact_total_tokens": 2031,
+      "draft_utf8_total_bound": 5766,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-5742cda52abd-dev20261024",
+      "question_id": "q04",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "en-nasa-5742cda52abd-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1059,
+      "qwen_exact_total_tokens": 2083,
+      "draft_utf8_total_bound": 6040,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-5742cda52abd-dev20261024",
+      "question_id": "q05",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "en-nasa-5742cda52abd-dev20261024:p004",
+          "en-nasa-5742cda52abd-dev20261024:p005"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1071,
+      "qwen_exact_total_tokens": 2095,
+      "draft_utf8_total_bound": 6115,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-5742cda52abd-dev20261024",
+      "question_id": "q06",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "en-nasa-5742cda52abd-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1074,
+      "qwen_exact_total_tokens": 2098,
+      "draft_utf8_total_bound": 6095,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-5742cda52abd-dev20261024",
+      "question_id": "q07",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1009,
+      "qwen_exact_total_tokens": 2033,
+      "draft_utf8_total_bound": 5743,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-5742cda52abd-dev20261024",
+      "question_id": "q08",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1010,
+      "qwen_exact_total_tokens": 2034,
+      "draft_utf8_total_bound": 5758,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-b85427f614dd-dev20261024",
+      "question_id": "q01",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-nasa-b85427f614dd-dev20261024:p002"
+        ],
+        [
+          "en-nasa-b85427f614dd-dev20261024:p007"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1212,
+      "qwen_exact_total_tokens": 2236,
+      "draft_utf8_total_bound": 6351,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-b85427f614dd-dev20261024",
+      "question_id": "q02",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-nasa-b85427f614dd-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1203,
+      "qwen_exact_total_tokens": 2227,
+      "draft_utf8_total_bound": 6305,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-b85427f614dd-dev20261024",
+      "question_id": "q03",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-nasa-b85427f614dd-dev20261024:p007"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1199,
+      "qwen_exact_total_tokens": 2223,
+      "draft_utf8_total_bound": 6293,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-b85427f614dd-dev20261024",
+      "question_id": "q04",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "en-nasa-b85427f614dd-dev20261024:p008"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1265,
+      "qwen_exact_total_tokens": 2289,
+      "draft_utf8_total_bound": 6602,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-b85427f614dd-dev20261024",
+      "question_id": "q05",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "en-nasa-b85427f614dd-dev20261024:p007",
+          "en-nasa-b85427f614dd-dev20261024:p012"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1291,
+      "qwen_exact_total_tokens": 2315,
+      "draft_utf8_total_bound": 6750,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-b85427f614dd-dev20261024",
+      "question_id": "q06",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "en-nasa-b85427f614dd-dev20261024:p008"
+        ],
+        [
+          "en-nasa-b85427f614dd-dev20261024:p002",
+          "en-nasa-b85427f614dd-dev20261024:p009"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1279,
+      "qwen_exact_total_tokens": 2303,
+      "draft_utf8_total_bound": 6698,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-b85427f614dd-dev20261024",
+      "question_id": "q07",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1214,
+      "qwen_exact_total_tokens": 2238,
+      "draft_utf8_total_bound": 6344,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-b85427f614dd-dev20261024",
+      "question_id": "q08",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1212,
+      "qwen_exact_total_tokens": 2236,
+      "draft_utf8_total_bound": 6337,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-c8f73fc30675-dev20261024",
+      "question_id": "q01",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-nasa-c8f73fc30675-dev20261024:p008"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 982,
+      "qwen_exact_total_tokens": 2006,
+      "draft_utf8_total_bound": 5633,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-c8f73fc30675-dev20261024",
+      "question_id": "q02",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-nasa-c8f73fc30675-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 993,
+      "qwen_exact_total_tokens": 2017,
+      "draft_utf8_total_bound": 5681,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-c8f73fc30675-dev20261024",
+      "question_id": "q03",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-nasa-c8f73fc30675-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 983,
+      "qwen_exact_total_tokens": 2007,
+      "draft_utf8_total_bound": 5630,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-c8f73fc30675-dev20261024",
+      "question_id": "q04",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "en-nasa-c8f73fc30675-dev20261024:p006"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1039,
+      "qwen_exact_total_tokens": 2063,
+      "draft_utf8_total_bound": 5931,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-c8f73fc30675-dev20261024",
+      "question_id": "q05",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "en-nasa-c8f73fc30675-dev20261024:p003",
+          "en-nasa-c8f73fc30675-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1050,
+      "qwen_exact_total_tokens": 2074,
+      "draft_utf8_total_bound": 6032,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-c8f73fc30675-dev20261024",
+      "question_id": "q06",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "en-nasa-c8f73fc30675-dev20261024:p005",
+          "en-nasa-c8f73fc30675-dev20261024:p006"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1049,
+      "qwen_exact_total_tokens": 2073,
+      "draft_utf8_total_bound": 6008,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-c8f73fc30675-dev20261024",
+      "question_id": "q07",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 992,
+      "qwen_exact_total_tokens": 2016,
+      "draft_utf8_total_bound": 5685,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-nasa-c8f73fc30675-dev20261024",
+      "question_id": "q08",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 996,
+      "qwen_exact_total_tokens": 2020,
+      "draft_utf8_total_bound": 5706,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-45b67cc6df92-dev20261024",
+      "question_id": "q01",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-usgs_release-45b67cc6df92-dev20261024:p003"
+        ],
+        [
+          "en-usgs_release-45b67cc6df92-dev20261024:p009"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1159,
+      "qwen_exact_total_tokens": 2183,
+      "draft_utf8_total_bound": 6398,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-45b67cc6df92-dev20261024",
+      "question_id": "q02",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "en-usgs_release-45b67cc6df92-dev20261024:p006"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1176,
+      "qwen_exact_total_tokens": 2200,
+      "draft_utf8_total_bound": 6507,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-45b67cc6df92-dev20261024",
+      "question_id": "q03",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-usgs_release-45b67cc6df92-dev20261024:p008"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1168,
+      "qwen_exact_total_tokens": 2192,
+      "draft_utf8_total_bound": 6462,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-45b67cc6df92-dev20261024",
+      "question_id": "q04",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "en-usgs_release-45b67cc6df92-dev20261024:p005"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1220,
+      "qwen_exact_total_tokens": 2244,
+      "draft_utf8_total_bound": 6750,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-45b67cc6df92-dev20261024",
+      "question_id": "q05",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "en-usgs_release-45b67cc6df92-dev20261024:p005",
+          "en-usgs_release-45b67cc6df92-dev20261024:p007"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1227,
+      "qwen_exact_total_tokens": 2251,
+      "draft_utf8_total_bound": 6798,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-45b67cc6df92-dev20261024",
+      "question_id": "q06",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "en-usgs_release-45b67cc6df92-dev20261024:p008"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1248,
+      "qwen_exact_total_tokens": 2272,
+      "draft_utf8_total_bound": 6801,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-45b67cc6df92-dev20261024",
+      "question_id": "q07",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1165,
+      "qwen_exact_total_tokens": 2189,
+      "draft_utf8_total_bound": 6446,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-45b67cc6df92-dev20261024",
+      "question_id": "q08",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1165,
+      "qwen_exact_total_tokens": 2189,
+      "draft_utf8_total_bound": 6445,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-7fabf5839d59-dev20261024",
+      "question_id": "q01",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-usgs_release-7fabf5839d59-dev20261024:p001"
+        ],
+        [
+          "en-usgs_release-7fabf5839d59-dev20261024:p004"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1335,
+      "qwen_exact_total_tokens": 2359,
+      "draft_utf8_total_bound": 6649,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-7fabf5839d59-dev20261024",
+      "question_id": "q02",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-usgs_release-7fabf5839d59-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1344,
+      "qwen_exact_total_tokens": 2368,
+      "draft_utf8_total_bound": 6692,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-7fabf5839d59-dev20261024",
+      "question_id": "q03",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-usgs_release-7fabf5839d59-dev20261024:p009"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1338,
+      "qwen_exact_total_tokens": 2362,
+      "draft_utf8_total_bound": 6672,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-7fabf5839d59-dev20261024",
+      "question_id": "q04",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "en-usgs_release-7fabf5839d59-dev20261024:p003"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1409,
+      "qwen_exact_total_tokens": 2433,
+      "draft_utf8_total_bound": 6995,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-7fabf5839d59-dev20261024",
+      "question_id": "q05",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "en-usgs_release-7fabf5839d59-dev20261024:p006",
+          "en-usgs_release-7fabf5839d59-dev20261024:p009"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1426,
+      "qwen_exact_total_tokens": 2450,
+      "draft_utf8_total_bound": 7065,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-7fabf5839d59-dev20261024",
+      "question_id": "q06",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "en-usgs_release-7fabf5839d59-dev20261024:p006"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1410,
+      "qwen_exact_total_tokens": 2434,
+      "draft_utf8_total_bound": 6932,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-7fabf5839d59-dev20261024",
+      "question_id": "q07",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1342,
+      "qwen_exact_total_tokens": 2366,
+      "draft_utf8_total_bound": 6687,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-7fabf5839d59-dev20261024",
+      "question_id": "q08",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1341,
+      "qwen_exact_total_tokens": 2365,
+      "draft_utf8_total_bound": 6663,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-fa544e633561-dev20261024",
+      "question_id": "q01",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-usgs_release-fa544e633561-dev20261024:p001"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 994,
+      "qwen_exact_total_tokens": 2018,
+      "draft_utf8_total_bound": 5499,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-fa544e633561-dev20261024",
+      "question_id": "q02",
+      "language": "en",
+      "kind": "numeric",
+      "dimension": "D4",
+      "evidence_chains": [
+        [
+          "en-usgs_release-fa544e633561-dev20261024:p001",
+          "en-usgs_release-fa544e633561-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 990,
+      "qwen_exact_total_tokens": 2014,
+      "draft_utf8_total_bound": 5496,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-fa544e633561-dev20261024",
+      "question_id": "q03",
+      "language": "en",
+      "kind": "short",
+      "dimension": "D1",
+      "evidence_chains": [
+        [
+          "en-usgs_release-fa544e633561-dev20261024:p002"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 992,
+      "qwen_exact_total_tokens": 2016,
+      "draft_utf8_total_bound": 5483,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-fa544e633561-dev20261024",
+      "question_id": "q04",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D2",
+      "evidence_chains": [
+        [
+          "en-usgs_release-fa544e633561-dev20261024:p001"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1043,
+      "qwen_exact_total_tokens": 2067,
+      "draft_utf8_total_bound": 5749,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-fa544e633561-dev20261024",
+      "question_id": "q05",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D3",
+      "evidence_chains": [
+        [
+          "en-usgs_release-fa544e633561-dev20261024:p001",
+          "en-usgs_release-fa544e633561-dev20261024:p005"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1057,
+      "qwen_exact_total_tokens": 2081,
+      "draft_utf8_total_bound": 5855,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-fa544e633561-dev20261024",
+      "question_id": "q06",
+      "language": "en",
+      "kind": "choice",
+      "dimension": "D5",
+      "evidence_chains": [
+        [
+          "en-usgs_release-fa544e633561-dev20261024:p005"
+        ]
+      ],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 1056,
+      "qwen_exact_total_tokens": 2080,
+      "draft_utf8_total_bound": 5825,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-fa544e633561-dev20261024",
+      "question_id": "q07",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 991,
+      "qwen_exact_total_tokens": 2015,
+      "draft_utf8_total_bound": 5496,
+      "qwen_exact_and_draft_budget_admitted": true
+    },
+    {
+      "article_id": "en-usgs_release-fa544e633561-dev20261024",
+      "question_id": "q08",
+      "language": "en",
+      "kind": "unanswerable",
+      "dimension": "D6",
+      "evidence_chains": [],
+      "reference_roundtrip_correct": true,
+      "qwen_exact_input_tokens": 997,
+      "qwen_exact_total_tokens": 2021,
+      "draft_utf8_total_bound": 5484,
+      "qwen_exact_and_draft_budget_admitted": true
+    }
+  ],
+  "limitations": [
+    "AI authoring and AI source read only; zero independent human review.",
+    "Reference round-trip validates scorer integration, not independent gold correctness.",
+    "Source article IDs are provisional clusters, not proven independent events.",
+    "2026 publication does not prove answer novelty or absence from model training.",
+    "Qwen2.5-7B exact tokenizer budget only; other families require separate certification."
+  ],
+  "bank_file_sha256": "4e596c9b4388680b5586accea8ce11a1debc0a619c22078c95cd8824f7a196f4",
+  "bank_canonical_sha256": "67f918724560f34c140c7464d39480b4c651a73754ef260a77f264bad8e0d9e3",
+  "authoring_items_sha256": "d11b90e2ea139e9532d786061accebbdaa6a2fa448db4be782e0025281652d0d",
+  "audit_note_sha256": "510b3c255ebe80685f176440a41286c3c057c5f8a5e62e2b38c779af45ff5af4"
+}

@@ -1,0 +1,26 @@
+{
+  "ready": true,
+  "bank_id": "dev-recent-additions-20261024",
+  "bank_canonical_sha256": "67f918724560f34c140c7464d39480b4c651a73754ef260a77f264bad8e0d9e3",
+  "file_sha256": "4e596c9b4388680b5586accea8ce11a1debc0a619c22078c95cd8824f7a196f4",
+  "independent_ai_reviews": [
+    {
+      "language": "zh",
+      "articles": 10,
+      "questions": 80,
+      "human_review": false,
+      "path": "docs/recent-expansion-zh-independent-review-20261025.md",
+      "sha256": "031b047bf666c6eb150ebc785d930411a55d1c26f4a08a26ed59348a60a1ba88"
+    },
+    {
+      "language": "en",
+      "articles": 10,
+      "questions": 80,
+      "human_review": false,
+      "path": "docs/recent-expansion-en-independent-review-20261025.md",
+      "sha256": "2376742e07ad582e5e50d3bbc1190b639b29fccb34cc771b28b0131d03e46078"
+    }
+  ],
+  "human_review_count": 0,
+  "formal": false
+}

@@ -1,0 +1,15 @@
+# Per-Dockerfile ignore file: send only runtime sources to the Docker builder.
+**
+!backend
+!backend/**
+!frontend
+!frontend/**
+!data
+!data/**
+!docs
+!docs/metrics-and-methodology.md
+!deploy
+!deploy/Dockerfile
+!deploy/Dockerfile.dockerignore
+**/__pycache__
+**/*.pyc

@@ -1,0 +1,28 @@
+{
+  "url": "https://huggingface.co/api/models/01-ai/Yi-1.5-6B-Chat",
+  "file": "output\\model-suite-20261024\\metadata\\yi15-hf.json",
+  "sha256": "368a1e66bad25f45cd57e59cd54cdbf58bca5345460232e35c42ba2a4cc44e16",
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "4072",
+    "Connection": "close",
+    "Date": "Sat, 24 Oct 2026 15:11:23 GMT",
+    "ETag": "W/\"fe8-rVszdF3lXwdS3JB1VKDYcOdtaIQ\"",
+    "X-Powered-By": "huggingface-moon",
+    "X-Request-Id": "Root=1-6adcca9b-4c7d54d14c4c36f64b942160",
+    "RateLimit": "\"api\";r=499;t=179",
+    "RateLimit-Policy": "\"fixed window\";\"api\";q=500;w=300",
+    "cross-origin-opener-policy": "same-origin",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Access-Control-Max-Age": "86400",
+    "Access-Control-Allow-Origin": "https://huggingface.co",
+    "Vary": "Origin",
+    "Access-Control-Expose-Headers": "X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 36cf18acfba4fa4f3949b71621f2b1e8.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "NRT12-P2",
+    "Alt-Svc": "h3=\":443\"; ma=86400",
+    "X-Amz-Cf-Id": "eqHM0HkDFhdU_QAB09DC6Rw4kW8gdG1HGK7hqdakI2zsq5H6CwgHlw==",
+    "Strict-Transport-Security": "max-age=31536000"
+  }
+}

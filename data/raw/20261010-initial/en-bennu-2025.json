@@ -1,0 +1,16 @@
+{
+  "id": "en-bennu-2025",
+  "url": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+  "language": "en",
+  "resolved_url": "https://www.nasa.gov/news-release/nasas-asteroid-bennu-sample-reveals-mix-of-lifes-ingredients/",
+  "downloaded_at": "2026-10-10T07:25:30+00:00",
+  "raw_sha256": "daf1393629c15be6e2c6c6b18a241da3446b9b8428e32bd66acffec5be42160d",
+  "extracted_sha256": "fb45c714311abd358d33f1f0e4c2d1dec26e4152a84809040636ce3b36368c6d",
+  "bytes": 290961,
+  "charset": "utf-8",
+  "http_headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "reviewed": false,
+  "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+}

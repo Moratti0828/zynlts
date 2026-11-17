@@ -1,0 +1,47 @@
+The official poverty rate of the U.S. Hispanic population fell to a historic low of 13.9% in 2025, according to the U.S. Census Bureau’s Poverty in the United States: 2025 report released today.
+
+Estimates from the Current Population Survey Annual Social and Economic Supplement (CPS ASEC) show that the Hispanic poverty rate fell 1.2 percentage points between 2024 and 2025.
+
+The 2025 Hispanic poverty rate fell to a record low even after accounting for survey and methodological changes to the CPS ASEC, the Census Bureau’s longest-running survey.
+
+The official poverty rate for the nation also dropped to 10.2% from 10.7% in 2024.
+
+The official poverty measure defines poverty by comparing pretax money income to a national poverty threshold adjusted by family size, number of children and age of householder.
+
+Figure 1 charts historic official poverty rates for the Hispanic population back to 1973, the first year the CPS ASEC collected information on the Hispanic population. In 1973, the official poverty rate for Hispanic individuals (of any race) was 21.9%.
+
+Hispanic Population Still Overrepresented in Poverty Population
+
+Despite the overall decline in the Hispanic poverty rate, Hispanic individuals still made up a larger share of the population in poverty than the overall population.
+
+Figure 2 shows the composition of the overall population and the population in poverty by race and Hispanic origin groups. Comparing a group’s share of the poverty population to its share of the total population shows whether its members are underrepresented or overrepresented in poverty.
+
+Groups with a ratio of less than 1.0 are underrepresented (their share in poverty is lower than their share of the population), while groups with ratios greater than 1.0 are overrepresented (their share in poverty is higher than their share of the population).
+
+Hispanic individuals made up 28.1% of the population in poverty in 2025, but only 20.7% of the total population. This results in a ratio of 1.4 — an overrepresentation of the Hispanic population in poverty.
+
+The Black (ratio of 1.7) and American Indian and Alaska Native or AIAN (ratio of 1.6) populations were also overrepresented in poverty in 2025. Ratios for the Black and AIAN populations were not significantly different from one another.
+
+Non-Hispanic White (ratio of 0.7) and Asian (ratio of 0.8) individuals were underrepresented in poverty in 2025. These ratios also weren’t significantly different from one another.
+
+The ratio for the Two or More Races population (1.1) was not significantly different from 1.0, meaning that this group was neither overrepresented nor underrepresented in poverty.
+
+About the CPS ASEC
+
+CPS ASEC data are released annually in September and are the source for the official poverty measure. The CPS ASEC collects data on income, health insurance, government benefits, migration and childcare.
+
+The Poverty in the United States: 2025 report and accompanying data tables contain more information on poverty estimates and provide poverty estimates for several demographic groups and family types.
+
+The technical documentation page includes information on confidentiality protection, methodology, and sampling and nonsampling error. All comparative statements have undergone statistical testing and are statistically significant at the 90% confidence level unless otherwise noted.
+
+Em Shrider is a survey statistician at the Census Bureau.
+
+Related Statistics
+
+Press Release Income, Poverty and Health Insurance Coverage in the U.S.: 2025 The U.S. Census Bureau today announced that median household income was $87,460 in 2025.
+
+Current Population Survey (CPS) The CPS is a monthly survey sponsored by the Bureau of Labor Statistics and conducted by the U.S. Census Bureau.
+
+Our email newsletter is sent out on the day we publish a story. Get an alert directly in your inbox to read, share and blog about our newest stories.
+
+Contact our Public Information Office for media inquiries or interviews.

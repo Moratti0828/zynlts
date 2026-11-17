@@ -1,0 +1,39 @@
+Monday, June 8, 2026
+
+Discovery opens the door for improved diagnoses and treatments.
+
+Scientists at the National Institutes of Health (NIH) and their colleagues have deciphered a crucial regulatory pathway in the body’s immunologic defense against chronic intestinal inflammation. The research team found that harmful mutations in the GPR15 gene are linked to a cascade of events that cause severe, early-onset inflammatory bowel disease (IBD). The discovery opens new avenues and insights for diagnosing and treating IBD.
+
+This discovery is an advance in the broader field of immune regulation and provides insight into elements of immune cell function and medically important roles played by regulatory cells in controlling tissue inflammation.
+
+“This research illuminates new avenues for targeted treatments for a sometimes-debilitating condition,” said Michael Lenardo, M.D., chief scientific officer, Calico Life Sciences, South San Francisco, and a former NIH Distinguished Investigator at NIH’s National Institute of Allergy and Infectious Diseases.
+
+IBD, which encompasses ulcerative colitis and Crohn’s disease, causes chronic gastrointestinal suffering and can progress to colon cancer. To better understand the disease's underlying mechanisms, researchers interviewed families with children suffering from severe, early-onset IBD. The study provides important new insight into immune mechanisms that maintain a stable environment within the intestine.
+
+Through genetic sequencing, the team discovered that these patients shared rare, harmful variants in the GPR15 gene. The study revealed that the protein coded by this gene acts as a crucial homing receptor that guides this specific group of novel regulatory cells into the lining of the colon. These regulatory cells are named intramucosal GPR15-guided regulatory CD8+ T lymphocytes (CD8+ TIGR cells).
+
+In patients carrying these defective GPR15 gene variants, the homing mechanism fails, resulting in an absence of these protective regulatory cells in the colon lining. The research team found that when they are missing, inflammatory macrophages, cells that normally help maintain tissue health, accumulate in the gut and drive severe inflammation.
+
+The study points to the possibility of discovering therapeutic pathways to help patients suffering from IBD. Current treatments often rely on broad immune suppression using corticosteroids, biologics, or anti-TNF therapies, yet many patients either fail to respond or lose responsiveness over time. Such therapies also carry the risk of side effects.
+
+“Therapies designed to restore GPR15 signaling or enhance CD8+ TIGR migration into intestinal tissues could provide a more targeted strategy for ameliorated inflammatory bowel disease while avoiding the adverse effects of many untargeted inflammation suppressive therapies,” said Chuan Wu, M.D., Ph.D. co-senior author from NIH’s National Cancer Institute.
+
+The study, published in Nature, provides a major advance in understanding IBD biology and establishes a promising foundation for future therapeutic development.
+
+About the National Institute of Allergy and Infectious Diseases (NIAID): NIAID conducts and supports research — at NIH, throughout the United States, and worldwide — to study the causes of infectious and immune-mediated diseases, and to develop better means of preventing, diagnosing and treating these illnesses. News releases, fact sheets and other NIAID-related materials are available on the NIAID website .
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+J Cui, Z Chen, Yan Cheng, et al. GPR15-guided CD8+ T regulatory cells control intestinal inflammation. Nature. DOI 10.1038/s41586-026-10749-4
+
+Institute/Center
+
+National Institute of Allergy and Infectious Diseases (NIAID)
+
+NIH Office of Communications
+
+Connect with Us
+
+Subscribe to news releases RSS Feed

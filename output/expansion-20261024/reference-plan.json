@@ -1,0 +1,36 @@
+{
+  "schema_version": "reading-expansion-stage-v1",
+  "stage": "reference",
+  "configurations": [
+    {
+      "name": "reference-squad2",
+      "models": [
+        "qwen25-7b",
+        "phi35-mini"
+      ],
+      "bank": "reference-squad2-20261025",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "strict_time": "false"
+    },
+    {
+      "name": "reference-cmrc2018",
+      "models": [
+        "qwen25-7b",
+        "phi35-mini"
+      ],
+      "bank": "reference-cmrc2018-20261025",
+      "mode": "with_context",
+      "num_ctx": 8192,
+      "strict_time": "false"
+    }
+  ],
+  "settings": {
+    "temperature": 0,
+    "seed": 42,
+    "max_tokens": 512,
+    "strict_budget": false
+  },
+  "formal": false,
+  "notice": "Public historical reference and recent AI-draft banks stay separate; no contamination-free or formal ranking claim."
+}

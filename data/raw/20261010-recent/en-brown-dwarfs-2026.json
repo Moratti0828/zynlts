@@ -1,0 +1,16 @@
+{
+  "id": "en-brown-dwarfs-2026",
+  "url": "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
+  "language": "en",
+  "resolved_url": "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
+  "downloaded_at": "2026-10-10T07:36:55+00:00",
+  "raw_sha256": "bc6978d244ab3ba1b8296ddf481407054e0f185e0dec7c1a9444c4a9f877cbe0",
+  "extracted_sha256": "d492c725ddf118201158a152ba7b2db53daa5aa2d69503dbce09e423179a7c70",
+  "bytes": 303432,
+  "charset": "utf-8",
+  "http_headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "reviewed": false,
+  "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+}

@@ -1,0 +1,89 @@
+Since 2020, city centers of many major U.S. metro areas have had sluggish population gains, with some places even declining. But where growth did occur, it was mostly on the outer edges of these metro areas — with some exceptions.
+
+The Census Bureau’s Vintage 2025 population estimates for cities and towns released today allow us to explore where population losses and gains happened within metro areas.
+
+We selected a major metro area in each of the four regions — South, Northeast, Midwest and West — and analyzed how the populations have shifted during the first half of this decade. Within each metro area, we looked at the percent change in population between April 1, 2020, and July 1, 2025, in incorporated places (with at least 20,000 people in 2025).
+
+Some trends, such as the growth of exurbs, can shape populations in strikingly similar fashion in places hundreds or thousands of miles apart.
+
+The four metro areas ranged in population from 3.8 million to 20 million and exemplify a variety of demographic and geographic characteristics: Dallas-Fort Worth-Arlington, TX; New York-Newark-Jersey City, NY-NJ; Minneapolis-St. Paul-Bloomington, MN-WI; Seattle-Tacoma-Bellevue, WA.
+
+Analyzing population change in each confirmed growth farther from the center of metro areas was a dominant, but not universal, trend.
+
+All four metro areas had overall population gains ranging from as little as 0.1% in New York to as much as 11.0% in Dallas. But Seattle was the only one that experienced growth in its city center and inner suburbs; the others’ gains were fueled by exurban growth.
+
+Dallas-Fort Worth-Arlington
+
+Metro area population: 8.5 million in 2025, up 11.0% from April 2020.
+
+Fastest-growing place, 2020-2025: Celina, population 64,427, up 276.8% from 2020.
+
+Growth summary: Of 65 places with populations of 20,000 or more, 36 (55%) grew by 5% or more, and 14 (22%) declined.
+
+The Dallas metro area’s growth map (Figure 1) is perhaps the clearest example of significant population gains on the fringes.
+
+The fast-growing metro area gained about 270,000 residents through net domestic migration from 2020 to 2025, nearly 40% more than any other metro area in the nation, and much of this growth occurred farthest from the center.
+
+Five outer-ring cities, all in the northeastern portion of the metro area, more than doubled their population over the five years. Among them: Celina, the nation’s fastest-growing city in 2025, which nearly quadrupled in size.
+
+Dallas itself, on the other hand, grew by only about 1.9% while Fort Worth’s growth was a more robust 11.9%.
+
+New York-Newark-Jersey City, NY-NJ
+
+Metro area population: 20.1 million in 2025, up 0.1% from April 2020.
+
+Fastest-growing place, 2020-2025: Harrison village, NY, population 32,273, up 14.4% since 2020.
+
+Growth summary: Of 61 places with populations of 20,000 or more, seven (11%) grew by at least 5% and 12 (20%) shrank.
+
+The New York metro area’s population barely inched up, with most gains resulting from international migration. But unlike Dallas, domestic migration suffered a net loss of nearly 1.3 million people, the biggest loss of any U.S. metro area.
+
+Despite lower overall gains, however, New York’s growth was driven by the same factors: population spikes in exurban cities and towns, as Figure 2 shows.
+
+New York City’s population declined 2.5% but there was growth in the western suburbs in New Jersey (led by Harrison and Fair Lawn) and to the north in suburbs like Harrison village in Westchester County, New York.
+
+Minneapolis-St. Paul-Bloomington, MN-WI
+
+Metro area population (2025): 3.8 million, up 2.7% from April 2020.
+
+Fastest-growing place, 2020-2025: Rosemount, MN, population 31,881, up 24.3% from 2020.
+
+Growth summary: Of 50 places with populations of 20,000 or more, 16 (32%) grew by at least 5% and 20 (40%) declined.
+
+Minneapolis and St. Paul may be known as the Twin Cities, but there’s little similarity in the population patterns of places in this metro area (Figure 3).
+
+Several suburbs along the southern and northwestern edges of the metro area grew rapidly, with three (Rosemount, St. Michael and Otsego) eclipsing 20%.
+
+However, the populations of several inner suburbs like White Bear Lake and Brooklyn Center declined by 5% or more. The Twin Cities’ populations remained relatively flat: Minneapolis grew by 0.1% while St. Paul shrank by 1.5%.
+
+Seattle-Tacoma-Bellevue, WA
+
+Metro area population (2025): 4.2 million, up 3.6% from April 2020.
+
+Fastest-growing place, 2020-2025: Mountlake Terrace, population 25,430, up 19.4% from 2020.
+
+Growth summary: Of 35 places with populations of 20,000 or more, 11 (31%) grew by 5% or more and 13 (37%) declined.
+
+Any population trend will have its exceptions, and this Pacific Northwest metro area’s population growth bucked the national trend: growth in the central city outpaced many of its suburbs (Figure 4).
+
+More than a third of the incorporated places in this metro area lost population this decade but Seattle was not one of them. It grew by 6.5%.
+
+Population declined in some outer suburbs, particularly to the south between Seattle and Tacoma. Many of the fastest-growing cities were inner suburbs like Redmond and SeaTac, close to Seattle’s city limits. Still, some exurbs like Arlington, nearly 50 miles north of downtown Seattle, also grew by 10.6%.
+
+National Trends With a Local Twist
+
+As the examples above show, population change is a complex stew. Some trends, such as the growth of exurbs , can shape populations in strikingly similar fashion in places hundreds or thousands of miles apart.
+
+Domestic migration patterns can lead to regional population shifts, whether caused by housing availability , job growth or an aging population . But drilling down to the local level shows that no two places are identical.
+
+Matt Erickson is a survey statistician and Lindsay Spell is a geographer at the Census Bureau.
+
+Related Statistics
+
+Population and Housing Unit Estimates Produces estimates of the population for the United States, its states, counties, cities, and towns, as well as for the Commonwealth of Puerto Rico.
+
+Population Our population statistics cover age, sex, race, Hispanic origin, migration, ancestry, language use, veterans, as well as population estimates and projections.
+
+Our email newsletter is sent out on the day we publish a story. Get an alert directly in your inbox to read, share and blog about our newest stories.
+
+Contact our Public Information Office for media inquiries or interviews.

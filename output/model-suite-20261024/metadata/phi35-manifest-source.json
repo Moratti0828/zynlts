@@ -1,0 +1,16 @@
+{
+  "url": "https://registry.ollama.ai/v2/library/phi3.5/manifests/3.8b-mini-instruct-q4_K_M",
+  "file": "output\\model-suite-20261024\\metadata\\phi35-manifest.json",
+  "sha256": "57096159698481b47ea17995d1a71f28eea1e26fc801df39a841b29badb4aa63",
+  "headers": {
+    "Date": "Sat, 24 Oct 2026 15:11:23 GMT",
+    "Content-Type": "application/vnd.docker.distribution.manifest.v2+json",
+    "Content-Length": "856",
+    "Connection": "close",
+    "vary": "Accept, User-Agent",
+    "via": "1.1 google",
+    "cf-cache-status": "DYNAMIC",
+    "Server": "cloudflare",
+    "CF-RAY": "a4f9e9ea2a9ceb8c-NRT"
+  }
+}

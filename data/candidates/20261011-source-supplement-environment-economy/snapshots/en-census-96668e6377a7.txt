@@ -1,0 +1,49 @@
+More than nine out of 10 U.S. households have air conditioning (AC) in their homes, but that national count is meaningless to communities where AC access is virtually nonexistent.
+
+As the scorching days of summer approach, state and local governments want to know which neighborhoods are most vulnerable to heat risk.
+
+The U.S. Census Bureau recently released the Local Air Conditioning Estimates (LACE) , an experimental measure of air conditioning prevalence at the state, county and tract levels. These estimates can help community planners gauge who is most at risk of heat exposure and compare air conditioning access across communities, states and regions.
+
+Getting data down to the neighborhood level is even more compelling as it can help state and local governments prepare for extreme heat events.
+
+Municipalities that try to address extreme heat dangers often lack consistent local estimates of households that have air conditioning. Some areas produce their own estimates, but those don’t allow for wider comparisons like LACE.
+
+How LACE Can Help
+
+Viewing AC access at different levels of geography tells a more complete story.
+
+For example, statewide data show low access in some states in the West, Great Lakes and Northeast (Figure 1). But once you drill down to the counties in those states, it’s clear that each has pockets of high, medium and low air conditioning access (Figure 2).
+
+For example, some cities offer portable air conditioning units to residents who don’t have air conditioning in their home. Knowing which neighborhoods have the greatest need helps target community outreach and distribution plans.
+
+Take Salt Lake County, Utah (Figure 3). Only 6.6% of households countywide don’t have air conditioning, according to LACE. But estimates range between 0.0% and 23.2% at the neighborhood and tract levels.
+
+LACE helps municipalities identify areas with households that likely lack air conditioning. Having this data as part of the experimental data product series allows local governments to contact the Census Bureau and provide feedback on the accuracy and utility of these estimates.
+
+About LACE
+
+The Census Bureau produces LACE data based on responses to the American Housing Survey (AHS) and the American Community Survey (ACS) .
+
+The AHS asks questions about air conditioning the ACS doesn’t and publishes estimates for the nation, census divisions and select metro areas. The ACS has a larger sample size, allowing us to publish granular estimates for smaller geographies.
+
+By using machine learning and cross-survey modeling, we combine the strengths of both surveys to provide estimates of air conditioning prevalence down to the tract level.
+
+Cross-survey modeling is a new technique that uses data from one survey to create an algorithm that is then applied to determine how respondents may have answered the same question on a different survey.
+
+This involves taking one survey or dataset with detailed subject matter and applying the characteristics to a dataset with detailed geographic information — in this case, the AHS and ACS.
+
+The result: experimental estimates of air conditioning prevalence for smaller geographies.
+
+LACE was recently featured in a webinar to help data users learn about the techniques used to create the estimates in more detail and showcase ways to use them.
+
+The Census Bureau welcomes feedback on the quality of the LACE estimates, opinions on the quality of the techniques and information on the usefulness of the data. Feedback can be sent to [email protected] .
+
+Chase Sawyer is a technical lead for modeled data product development at the Census Bureau.
+
+Related Statistics
+
+Experimental Data Product Local Air Conditioning Estimates (LACE) Download estimates of households with and without air conditioning, an important measure of determining vulnerability to extreme heat risk.
+
+Program Survey Landing Page Community Resilience Estimates The Census Bureau’s CRE provide an easily understood metric for how socially vulnerable every neighborhood in the United States is to the impacts of disasters.
+
+Our email newsletter is sent out on the day we publish a story. Get an alert directly in your inbox to read, share and blog about our newest stories.

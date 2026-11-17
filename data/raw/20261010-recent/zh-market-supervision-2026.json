@@ -1,0 +1,16 @@
+{
+  "id": "zh-market-supervision-2026",
+  "url": "https://www.mee.gov.cn/zcwj/gwywj/202609/t20260911_1165970.shtml",
+  "language": "zh",
+  "resolved_url": "https://www.mee.gov.cn/zcwj/gwywj/202609/t20260911_1165970.shtml",
+  "downloaded_at": "2026-10-10T07:36:55+00:00",
+  "raw_sha256": "f0ca09a59565cdb249a32b02b0ae5d567b28d3d95d8a0a9aae3d04b5027a5cc1",
+  "extracted_sha256": "e3c46037446b13b742f587f36d6017557113fcb61f05f5957003332d99e7aa9e",
+  "bytes": 47376,
+  "charset": "utf-8",
+  "http_headers": {
+    "Content-Type": "text/html"
+  },
+  "reviewed": false,
+  "notice": "Unreviewed snapshot; not automatically admitted to corpus."
+}

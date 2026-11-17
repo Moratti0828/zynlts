@@ -1,0 +1,851 @@
+{
+  "schema": "public-reference-import-audit-v1",
+  "as_of_client_date": "2026-10-24",
+  "formal": false,
+  "human_review_count": 0,
+  "selection_seed": "reading-reference-20261024-v1",
+  "sources": [
+    {
+      "key": "squad2_data",
+      "filename": "squad2-dev.original.json",
+      "url": "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/240e165ab706d95bd4323653bb92421f446208cf/dataset/dev-v2.0.json",
+      "sha256": "80a5225e94905956a6446d296ca1093975c4d3b3260f1d6c8f68bc2ab77182d8",
+      "revision": "240e165ab706d95bd4323653bb92421f446208cf",
+      "dataset_file_commit_date": "2018-07-02",
+      "path": "data/reference/sources-20261024/squad2-dev.original.json",
+      "bytes": 4370528
+    },
+    {
+      "key": "cmrc2018_data",
+      "filename": "cmrc2018-dev.squad-style.json",
+      "url": "https://raw.githubusercontent.com/ymcui/cmrc2018/5c81039ef856de178b5198391b3cd40f4e5e8514/squad-style-data/cmrc2018_dev.json",
+      "sha256": "e9ff74231f05c230c6fa88b84441ee334d97234cbb610991cd94b82db00c7f1f",
+      "revision": "5c81039ef856de178b5198391b3cd40f4e5e8514",
+      "dataset_file_commit_date": "2019-03-29",
+      "path": "data/reference/sources-20261024/cmrc2018-dev.squad-style.json",
+      "bytes": 3299139
+    },
+    {
+      "key": "squad2_software_license",
+      "filename": "squad2-repository-LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/eee5fdbf62f8613a7812b03419e6b29617b74fd1/LICENSE",
+      "sha256": "9c92e90621a47dc8508ddd78f0ee41a7b6a8fd5d37fd00709ff1c6eb1a7d7019",
+      "applies_to": "repository software; MIT is not substituted for dataset terms",
+      "path": "data/reference/sources-20261024/squad2-repository-LICENSE.txt",
+      "bytes": 1073
+    },
+    {
+      "key": "squad2_readme",
+      "filename": "squad2-repository-README.md",
+      "url": "https://raw.githubusercontent.com/rajpurkar/SQuAD-explorer/eee5fdbf62f8613a7812b03419e6b29617b74fd1/README.md",
+      "sha256": "b03f46bef006f50547b9dd2abe2e8095f9751fc45678ab0fcb750fa524f557cf",
+      "path": "data/reference/sources-20261024/squad2-repository-README.md",
+      "bytes": 1370
+    },
+    {
+      "key": "squad2_dataset_license_evidence",
+      "filename": "squad2-official-site.html",
+      "url": "https://rajpurkar.github.io/SQuAD-explorer/",
+      "sha256": "989f7e43f27faa490ed9fc8fb440e6f0aa791c49131346a27b8361deb4a18baf",
+      "snapshot_date": "2026-10-24",
+      "applies_to": "official page explicitly labels dataset CC BY-SA 4.0; page itself is not an immutable URL",
+      "path": "data/reference/sources-20261024/squad2-official-site.html",
+      "bytes": 141436
+    },
+    {
+      "key": "cmrc2018_dataset_license",
+      "filename": "cmrc2018-LICENCE.txt",
+      "url": "https://raw.githubusercontent.com/ymcui/cmrc2018/c0eb1b6ba219847457e6af3180da722bbeb656af/LICENCE",
+      "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+      "applies_to": "official repository CC BY-SA 4.0",
+      "path": "data/reference/sources-20261024/cmrc2018-LICENCE.txt",
+      "bytes": 20131
+    },
+    {
+      "key": "cmrc2018_readme",
+      "filename": "cmrc2018-README.md",
+      "url": "https://raw.githubusercontent.com/ymcui/cmrc2018/c0eb1b6ba219847457e6af3180da722bbeb656af/README.md",
+      "sha256": "07047da7471a21f70b4fbe6756450fff761bf59cf4ccb8c1d5994724c661a436",
+      "path": "data/reference/sources-20261024/cmrc2018-README.md",
+      "bytes": 3487
+    },
+    {
+      "key": "cmrc2018_readme_cn",
+      "filename": "cmrc2018-README_CN.md",
+      "url": "https://raw.githubusercontent.com/ymcui/cmrc2018/c0eb1b6ba219847457e6af3180da722bbeb656af/README_CN.md",
+      "sha256": "421ca4845266722ea07d1f234f7aa5002a6f58a461ae7b4bbeb937a01d94427a",
+      "path": "data/reference/sources-20261024/cmrc2018-README_CN.md",
+      "bytes": 3504
+    }
+  ],
+  "datasets": {
+    "squad2": {
+      "original_topic_records": 35,
+      "available_original_titles": 35,
+      "available_unique_contexts": 1204,
+      "original_questions": 11873,
+      "duplicate_contexts_excluded": 0,
+      "eligible_titles": 35,
+      "eligible_contexts": 1194,
+      "excluded_context_counts": {
+        "insufficient_valid_questions_or_answerability_mix": 10
+      },
+      "rejected_original_question_spans": [],
+      "selected_reference_passages": 50,
+      "selected_source_title_clusters": 35,
+      "selected_questions": 150,
+      "question_kinds": {
+        "short": 100,
+        "unanswerable": 50
+      },
+      "context_truncations": 0,
+      "answer_offset_repairs": 0,
+      "schema_valid": true,
+      "path": "data/reference/initial-import-banks-20261024/reference-squad2-20261024.json",
+      "roundtrip_validation": {
+        "passages_checked": 50,
+        "questions_checked": 150,
+        "original_answer_and_plausible_spans_checked": 392,
+        "all_original_strings_and_offsets_preserved": true
+      },
+      "file_sha256": "c3262384deb97e331d1abb294cf3ce2136fd8a9c4a8e6d5eeb1665a292e28284",
+      "canonical_bank_sha256": "92a4f6c6443b394351237a33020e13643afbc62078f53f711e051c47ba3adef1"
+    },
+    "cmrc2018": {
+      "original_topic_records": 848,
+      "available_original_titles": 847,
+      "available_unique_contexts": 848,
+      "original_questions": 3219,
+      "duplicate_contexts_excluded": 0,
+      "eligible_titles": 734,
+      "eligible_contexts": 735,
+      "excluded_context_counts": {
+        "insufficient_valid_questions_or_answerability_mix": 113
+      },
+      "rejected_original_question_spans": [
+        {
+          "external_question_id": "DEV_6_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_8_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_9_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_10_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_14_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_19_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_22_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_22_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_24_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_31_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_31_QUERY_4",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_35_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_36_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_39_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_40_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_41_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_42_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_51_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_53_QUERY_4",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_56_QUERY_4",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_59_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_61_QUERY_4",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_64_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_65_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_67_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_67_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_71_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_72_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_73_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_75_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_77_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_80_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_80_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_81_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_90_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_92_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_95_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_101_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_103_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_104_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_108_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_110_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_110_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_111_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_111_QUERY_4",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_112_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_113_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_119_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_119_QUERY_4",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_141_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_141_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_160_QUERY_4",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_162_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_164_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_170_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_171_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_171_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_176_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_181_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_184_QUERY_4",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_190_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_202_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_203_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_205_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_206_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_207_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_209_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_240_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_268_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_276_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_279_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_283_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_286_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_291_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_294_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_298_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_303_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_307_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_310_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_323_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_325_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_325_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_326_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_327_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_329_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_331_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_335_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_336_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_336_QUERY_4",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_339_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_347_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_349_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_355_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_355_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_357_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_359_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_360_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_360_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_372_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_380_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_387_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_387_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_392_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_401_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_402_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_406_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_420_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_438_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_454_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_458_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_469_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_481_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_494_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_495_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_496_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_496_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_504_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_504_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_505_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_510_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_511_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_513_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_514_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_515_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_529_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_538_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_545_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_547_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_570_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_570_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_594_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_622_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_637_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_637_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1025_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1042_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1132_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1500_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1501_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1504_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1507_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1518_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1521_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1526_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1575_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1575_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1577_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1579_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1591_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1599_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1605_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1605_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1623_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1644_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1647_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1657_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1666_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1666_QUERY_4",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1669_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1672_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1673_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1679_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1693_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1738_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1738_QUERY_1",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1738_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1831_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1863_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1868_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1875_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1884_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1888_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1910_QUERY_0",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1911_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1927_QUERY_3",
+          "reason": "Official answer text does not match its exact offset"
+        },
+        {
+          "external_question_id": "DEV_1969_QUERY_2",
+          "reason": "Official answer text does not match its exact offset"
+        }
+      ],
+      "selected_reference_passages": 50,
+      "selected_source_title_clusters": 50,
+      "selected_questions": 150,
+      "question_kinds": {
+        "short": 150
+      },
+      "context_truncations": 0,
+      "answer_offset_repairs": 0,
+      "schema_valid": true,
+      "path": "data/reference/initial-import-banks-20261024/reference-cmrc2018-20261024.json",
+      "roundtrip_validation": {
+        "passages_checked": 50,
+        "questions_checked": 150,
+        "original_answer_and_plausible_spans_checked": 450,
+        "all_original_strings_and_offsets_preserved": true
+      },
+      "file_sha256": "d74cf3bb8b4a33abe79c5b2f1961f011603f7b5c5cc42a19f0df8cd96d26ab1c",
+      "canonical_bank_sha256": "944fae19ff7e1ad86aa2f8978ff88a15ee0d2aadde4a1492b39e467fead461a6"
+    }
+  }
+}

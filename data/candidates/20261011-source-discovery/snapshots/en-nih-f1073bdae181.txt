@@ -1,0 +1,35 @@
+Wednesday, September 2, 2026
+
+Medication produced benefits beyond what was achieved by calorie restriction alone.
+
+A National Institutes of Health (NIH)-funded study has shown that the GLP-1 drug semaglutide extended lifespan in older, healthy mice by tempering the detrimental effects of aging. Researchers at the University of California, Berkeley directly compared the effects of the treatment to those of reduced food intake. They found that the drug mimicked the anti-aging benefits of calorie restriction, conferring even greater benefits in some areas.
+
+While GLP-1s have been found to delay the onset of many age-related diseases in animals, this new study in healthy older mice offers evidence that these drugs may slow physiological aging itself, a notion that could potentially tie the widespread benefits of GLP-1s to a common source.
+
+“Most chronic diseases are deeply rooted in the aging process. If GLP-1 agonists do indeed slow it down, then a wide range of clinical benefits is exactly what you’d expect to see,” said Rafael de Cabo, Ph.D., a senior investigator at the NIH’s National Institute on Aging (NIA), and author of a commentary on the new study.
+
+To understand the impact of GLP-1s at a time when the effects of aging are most pronounced, the study authors, led by Danica Chen, Ph.D., administered semaglutide to 20-month-old female mice for three months.
+
+Compared with a control group, mice treated with the drug showed improved muscle and cognitive function. Gene expression analysis showed that several hallmarks of natural aging, such as increased inflammation and reduced regenerative capacity, were reduced in treated animals.
+
+Another group of mice treated until the end of life had a median lifespan nearly 100 days longer than that of untreated mice.
+
+The authors then compared semaglutide with calorie restriction to see whether its benefits were simply due to reduced food intake or something else.
+
+Over five months, scientists administered semaglutide to one group of 20-month-old female mice, while another group received a 24% calorie-restricted diet that matched the treated animals' feeding pattern. The authors drew numerous parallels between the two groups, with most physiological measurements remaining stable. However, semaglutide-treated mice surpassed baseline levels in exploratory behavior, spatial memory, and blood-sugar maintenance. The groups also differed in metabolic rate, which was reduced in the calorie-restricted animals but largely unchanged in the semaglutide-treated mice.
+
+“These differences point to the possibility that GLP-1 drugs tap into a biological pathway independent of calorie restriction. Uncovering this potential route and the benefits that may specifically stem from it is an important direction for future research into the development of longevity-enhancing interventions,” said Chen, corresponding author of the study and professor of metabolic biology and nutrition at UC Berkeley.
+
+While these findings may guide future research, they do not imply that similar results could be achieved immediately in humans. Additional clinical studies, such as the recent post-hoc analysis of the SLIM LIVER trial, will be necessary to determine the clinical efficacy of GLP-1s on longevity in human patients.
+
+Future clinical investigations may also explore benefits in healthy aged individuals, Chen explained, which would greatly broaden the application of GLP-1s.
+
+NIH supported this research through NIA grants R01AG063404, R01AG063389, and R01AG082105.
+
+About the National Institute on Aging (NIA): NIA seeks to understand the nature of aging and diseases associated with growing older, with the goal of extending the healthy, active years of life. For more information, visit www.nia.nih.gov .
+
+About the National Institutes of Health (NIH): NIH, the nation's medical research agency, includes 27 Institutes and Centers and is a component of the U.S. Department of Health and Human Services. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both common and rare diseases. For more information about NIH and its programs, visit www.nih.gov .
+
+NIH…Turning Discovery Into Health ®
+
+Yufan Feng et al. Late-life semaglutide treatment slows ageing and extends lifespan in female mice. Nature. ;September 2, 2026. DOI: 10.1038/s41586-026-10940-7

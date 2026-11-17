@@ -1,0 +1,49 @@
+3 min read
+
+In 2021, Maine Beer Company’s carbon dioxide supplier ran short on carbon dioxide.
+
+“There was potential for our beer to go stale in the tanks,” said Dave Love, the brewery’s sustainability manager. “We wouldn’t be able to use CO 2 for any of our bottling, kegging, or centrifuge operations.”
+
+The solution the company settled on originated on Mars — or more specifically, in NASA’s plans for harvesting resources from the Red Planet. Now it’s saving money and reducing emissions for wineries, distilleries, power companies, helium producers, and more.
+
+Beginning in the 1990s, the company Pioneer Astronautics won multiple Small Business Innovation Research (SBIR) contracts from Johnson Space Center in Houston to build systems that could generate resources on Mars. The technology could, for example, capture carbon dioxide from the Martian atmosphere and combine it with hydrogen to produce water for life support and methane for rocket fuel. These capabilities weren’t entirely new, but Pioneer’s systems were compact, efficient, and automated.
+
+Later, Pioneer Astronautics founder Robert Zubrin created Pioneer Energy to rearrange these subsystems into technology for the oil and gas industry (Spinoff 2015 , 2020 ). He soon realized technology for capturing and purifying carbon dioxide on Mars could do the same in a brewery, capturing CO 2 from the brewing process for use in carbonation. By 2015, the Craft Brewery Recovery System was in production (Spinoff 2016 ). In the end, though, the company put the system up for licensing.
+
+Amy George founded Earthly Labs of Austin, Texas, in 2016 to develop small-scale carbon capture. She discovered the Craft Brewery Recovery System and obtained an exclusive license.
+
+Since the pandemic reduced its availability, carbon dioxide has continued experiencing shortages and volatility, and George said these have emerged as major drivers of interest in the technology.
+
+And it isn’t just helping brewers. After expanding into wineries and distilleries, Earthly Labs started discovering other markets. Energy companies often generate carbon dioxide as a by-product, which they can sell if it’s captured. Several are now customers.
+
+Another application finding new customers is helium production. Helium, which is used to make microchips and fiber-optic cables, among other applications, is found in underground deposits, mixed with other gases, such as methane and carbon dioxide, that need to be separated.
+
+In 2021, Earthly Labs was acquired by Chart Industries Inc., which specializes in cryogenic equipment engineering and has helped scale up the technology for applications like power plants.
+
+Related Terms
+
+Technology Transfer & Spinoffs
+
+Technology Transfer
+
+Explore More
+
+NASA’s Life-Saving Technology Where Cell Signals Can’t Go
+
+Search and rescue technology developed in part by NASA saved five lives
+
+NASA Technique for Manipulating Satellite Photos Now Reveals Ancient Images
+
+Algorithm NASA first applied to satellite imagery is now used to peer into antiquity
+
+NASA Data Helps Commercial Space Plan Living Off Our Moon
+
+Discover Related Topics
+
+Humans to Mars
+
+Like the Moon, Mars is a rich destination for scientific discovery and a driver of technologies that will enable humans…
+
+Johnson Space Center
+
+Solar System

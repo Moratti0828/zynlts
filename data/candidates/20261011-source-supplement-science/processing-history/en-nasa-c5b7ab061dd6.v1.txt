@@ -1,0 +1,47 @@
+3 min read
+
+The purpose of this working group was to assemble a panel of experts to review the most recent data related to extravehicular activity (EVA) prebreathe testing and decompression sickness (DCS) events, venous thromboembolism (VTE) in-flight occurrences, and patent foramen ovale (PFO) implication as they relate to NASA’s Artemis (lunar and beyond) missions. The recommendations from this working group are built upon and integrate the outcomes of the September 2024 Assessment of Patent Foramen Ovale (PFO) as Related to Decompression Sickness (DCS) in the Spaceflight Environment and During Ground Testing ( NASA/SP-20240010473 ), the April 2026 NASA Risk of Venous Thromboembolism in Spaceflight Working Group ( NASA/SP- 20260005258/REV1 ), and the updated DCS prevention standard reviewed by the DCS panel in NASA-STD-3001 Volume 2 Human Factors, Habitability, and Environmental Health ( NASA-STD-3001 Vol 2 Rev F ), with a specific focus on risk mitigation interventions such as PFO closure.
+
+Recommendations
+
+The following is a summary of the working group’s recommendations:
+
+Ground-based studies should no longer remove subjects from research solely due to the presence of LVGE. Protocols should balance subject safety with population representativeness, and subjects must be fully informed of their LVGE status and any associated risks.
+
+The consensus was that the presence of a PFO is not considered a major risk factor for VTE formation, nor for complications from an embolism traveling from an initial formation site in the left internal jugular or cerebrum at normoxic or proposed hypoxic space habitats. No changes to astronaut selection criteria regarding PFOs are recommended with respect to VTE.
+
+The consensus of the group is that there is no definitive link between bubble grades and the risk of DCS at altitude for prebreathe protocols involving partial gravity and ambulation.
+
+The panel concluded that while minimizing bubbles is desirable, the predictive value of bubble scores for DCS remains uncertain, especially for lunar surface operations.
+
+It was determined that a “small” PFO (Grade 1 or 2) does not pose a significant risk. There were mixed opinions on whether closing or screening out crew members with a “large” PFO (Grade 3 or above) significantly reduces the risk of a venous gas embolism (VGE) passing to the arterial side and causing a significant mission health event. The group did not recommend universal screening or exclusion of astronauts with large PFOs but emphasized the importance of risk mitigation through protocol design and ongoing data collection. If crews are assessed, they should be informed of their status and offered closure for a large PFO.
+
+The panel concluded that clear clinical guidance is required regarding medication use for all crewmembers prior to Extravehicular Activities (EVAs). Specifically, protocols must address the use of aspirin for Decompression Sickness (DCS) prevention and pain relief. Additionally, guidance is needed for the pre and post-EVA use of analgesics (acetaminophen, ibuprofen, naproxen, celecoxib), as these medications have the potential to mask DCS symptoms.
+
+Related Terms
+
+Office of the Chief Health and Medical Officer (OCHMO)
+
+Astronauts
+
+Humans in Space
+
+International Space Station (ISS)
+
+Discover Related Topics
+
+Human Spaceflight and Aviation Standards
+
+The Human Spaceflight and Aviation Standards Team continuously works with subject matter experts and with each space flight program to…
+
+Clinical & Medical Risk Reviews for Spaceflight
+
+Mission-enabling assessment plays a crucial role in NASA’s long-term success by addressing essential questions requiring rapid response to support further…
+
+Technical and Medical Briefs
+
+Technical Briefs are available for standards that offer technical data, background, and application notes for vehicle developers and medical professionals.…
+
+NASA Integrated Medical Model (IMM) Overview
+
+The Integrated Medical Model (IMM) is a sophisticated, stochastic (probabilistic) risk assessment tool used by NASA to evaluate the impact…
